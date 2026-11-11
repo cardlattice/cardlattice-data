@@ -1,0 +1,9 @@
+{
+  "yaml.schemas": {
+    "./schemas/pokemon-card.schema.json": [
+      "catalogue/pokemon/cards/*/*/*/*.yaml",
+      "!catalogue/pokemon/cards/*/*/*/release.yaml"
+    ],
+    "./schemas/pokemon-set.schema.json": ["catalogue/pokemon/sets/*.yaml"]
+  }
+}

@@ -1,1 +1,19 @@
-name: "Toxtricity"
+name: Toxtricity
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Lightning]
+  stage: Stage 1
+  evolvesFrom: Toxel
+  attacks:
+    - name: Mach Bolt
+      cost: [Lightning, Colorless]
+      damage: "80"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

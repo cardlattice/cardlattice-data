@@ -1,1 +1,23 @@
-name: "Yveltal"
+name: Yveltal
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Dark Cutter
+      cost: [Darkness, Colorless, Colorless]
+      damage: "90"
+  abilities:
+    - name: Life-Locked
+      text: Your opponent’s Active Pokémon can’t be healed.
+      kind: Ability
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

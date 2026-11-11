@@ -1,1 +1,20 @@
-name: "Hakamo-o"
+name: Hakamo-o
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Dragon]
+  stage: Stage 1
+  evolvesFrom: Jangmo-o
+  attacks:
+    - name: Sharp Fang
+      cost: [Colorless]
+      damage: "20"
+    - name: Dragon Claw
+      cost: [Lightning, Fighting]
+      damage: "70"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2

@@ -1,1 +1,24 @@
-name: "Zeraora"
+name: Zeraora
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 110
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Rapid Draw
+      cost: [Colorless]
+      damage: "20"
+      text: Draw a card.
+    - name: Electrobullet
+      cost: [Lightning, Colorless]
+      damage: "50"
+      text: This attack also does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness
+        and Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

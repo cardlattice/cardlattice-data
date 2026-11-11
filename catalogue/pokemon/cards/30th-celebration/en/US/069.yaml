@@ -1,1 +1,25 @@
-name: "Espeon"
+name: Espeon
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 110
+  types: [Psychic]
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Miraculous Shine
+      cost: [Psychic, Colorless]
+      text: Devolve each of your opponent’s evolved Pokémon by putting the highest Stage Evolution card on
+        it into your opponent’s hand.
+    - name: Super Psy Bolt
+      cost: [Psychic, Colorless, Colorless]
+      damage: "90"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

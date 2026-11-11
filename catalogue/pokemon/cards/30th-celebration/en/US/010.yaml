@@ -1,1 +1,19 @@
-name: "Ninetales"
+name: Ninetales
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 110
+  types: [Fire]
+  stage: Stage 1
+  evolvesFrom: Vulpix
+  attacks:
+    - name: Flame Tail
+      cost: [Fire]
+      damage: "60"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1

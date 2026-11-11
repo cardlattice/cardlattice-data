@@ -1,1 +1,24 @@
-name: "Umbreon ex"
+name: Umbreon ex
+rarity: Double Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 270
+  types: [Darkness]
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Lunatic Claw
+      cost: [Darkness, Colorless]
+      damage: 100+
+      text: If your opponent’s Active Pokémon already has any damage counters on it, this attack does 140
+        more damage.
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

@@ -1,1 +1,24 @@
-name: "Salamence ex"
+name: Salamence ex
+rarity: Special Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 330
+  types: [Dragon]
+  stage: Stage 2
+  evolvesFrom: Shelgon
+  attacks:
+    - name: Booming Call
+      cost: [Colorless]
+      text: Put up to 3 Dragon Pokémon from your discard pile onto your Bench.
+    - name: Dragon Pulse
+      cost: [Fire, Water]
+      damage: "240"
+      text: Discard the top 2 cards of your deck.
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

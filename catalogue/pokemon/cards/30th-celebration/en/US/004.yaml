@@ -1,1 +1,21 @@
-name: "Illumise"
+name: Illumise
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Grass]
+  stage: Basic
+  attacks:
+    - name: Ram
+      cost: [Grass, Colorless]
+      damage: "30"
+  abilities:
+    - name: Supereffective Pheromones
+      text: If you have Volbeat in play, apply Weakness for both Active Pokémon as ×3.
+      kind: Ability
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

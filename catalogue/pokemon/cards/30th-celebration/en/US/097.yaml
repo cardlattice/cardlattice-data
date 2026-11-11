@@ -1,1 +1,21 @@
-name: "Deino"
+name: Deino
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Gnaw
+      cost: [Darkness]
+      damage: "10"
+    - name: Headbutt
+      cost: [Darkness, Colorless]
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

@@ -1,1 +1,25 @@
-name: "Galarian Meowth"
+name: Galarian Meowth
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Metal]
+  stage: Basic
+  attacks:
+    - name: Pay Day
+      cost: [Colorless]
+      damage: "10"
+      text: Draw a card.
+    - name: Treasure Rush
+      cost: [Metal]
+      damage: 10×
+      text: This attack does 10 damage for each card in your hand.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1

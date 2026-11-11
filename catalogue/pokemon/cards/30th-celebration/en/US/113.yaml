@@ -1,1 +1,19 @@
-name: "Meowth"
+name: Meowth
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Colorless]
+  stage: Basic
+  attacks:
+    - name: Pay Day
+      cost: [Colorless, Colorless]
+      damage: "30"
+      text: Draw a card.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

@@ -1,1 +1,23 @@
-name: "Maushold"
+name: Maushold
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Colorless]
+  stage: Stage 1
+  evolvesFrom: Tandemaus
+  attacks:
+    - name: Gnaw Together
+      cost: [Colorless]
+      text: Flip a coin for each Maushold you have in play. For each heads, discard the top 2 cards of
+        your opponent’s deck.
+    - name: Pound
+      cost: [Colorless]
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

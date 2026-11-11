@@ -1,1 +1,22 @@
-name: "Hydreigon"
+name: Hydreigon
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 170
+  types: [Darkness]
+  stage: Stage 2
+  evolvesFrom: Zweilous
+  attacks:
+    - name: Three-Headed Bite
+      cost: [Darkness]
+      text: Flip 3 coins. For each heads, discard an Energy from your opponent’s Active Pokémon.
+    - name: Pitch-Black Fangs
+      cost: [Darkness, Colorless]
+      damage: "140"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

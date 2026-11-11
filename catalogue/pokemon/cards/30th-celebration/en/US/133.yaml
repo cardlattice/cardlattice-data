@@ -1,1 +1,23 @@
-name: "Zapdos"
+name: Zapdos
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Thundering Lightning
+      cost: [Lightning, Lightning, Lightning, Colorless]
+      damage: "210"
+      text: This Pokémon also does 60 damage to itself.
+  abilities:
+    - name: Flash-Pop Flapping
+      text: Once during your turn, if you have Moltres and Articuno in play, you may use this Ability.
+        Attach a Basic Lightning Energy card from your hand to this Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

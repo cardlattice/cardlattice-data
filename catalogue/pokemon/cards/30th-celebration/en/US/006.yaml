@@ -1,1 +1,22 @@
-name: "Cherubi"
+name: Cherubi
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Grass]
+  stage: Basic
+  attacks:
+    - name: Hide
+      cost: [Colorless]
+      text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects
+        of attacks done to this Pokémon.
+    - name: Flop
+      cost: [Grass]
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

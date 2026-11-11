@@ -1,1 +1,24 @@
-name: "Dialga"
+name: Dialga
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Metal]
+  stage: Basic
+  attacks:
+    - name: Reversed Clock
+      cost: [Colorless]
+      text: Shuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile
+        into your deck.
+    - name: Heavy Impact
+      cost: [Metal, Metal, Colorless]
+      damage: "110"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2

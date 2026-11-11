@@ -1,1 +1,18 @@
-name: "Hisuian Zorua"
+name: Hisuian Zorua
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Colorless]
+  stage: Basic
+  attacks:
+    - name: Scratch
+      cost: [Colorless]
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

@@ -1,1 +1,21 @@
-name: "Drifloon"
+name: Drifloon
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Float Up
+      cost: [Psychic]
+      damage: "20"
+      text: You may shuffle this Pokémon and all attached cards into your deck.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

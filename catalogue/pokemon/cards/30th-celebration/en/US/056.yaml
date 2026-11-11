@@ -1,1 +1,22 @@
-name: "Zekrom"
+name: Zekrom
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Slash
+      cost: [Lightning, Colorless]
+      damage: "50"
+    - name: Nitro Thunder
+      cost: [Lightning, Colorless, Colorless]
+      damage: 80+
+      text: If this Pokémon has any Fire Energy attached, this attack does 80 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

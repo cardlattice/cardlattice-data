@@ -1,1 +1,21 @@
-name: "Volbeat"
+name: Volbeat
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Grass]
+  stage: Basic
+  attacks:
+    - name: Luring Glow
+      cost: [Grass]
+      text: Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+    - name: Bug Buzz
+      cost: [Colorless, Colorless, Colorless]
+      damage: "90"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

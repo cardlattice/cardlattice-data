@@ -1,1 +1,26 @@
-name: "Gholdengo"
+name: Gholdengo
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Metal]
+  stage: Stage 1
+  evolvesFrom: Gimmighoul
+  attacks:
+    - name: Celebration
+      cost: [Metal]
+      text: If you have exactly 30 cards in your hand, take 2 Prize cards. If you do, shuffle your hand
+        into your deck.
+    - name: Triple Smash
+      cost: [Metal]
+      damage: 50×
+      text: Flip 3 coins. This attack does 50 damage for each heads.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2

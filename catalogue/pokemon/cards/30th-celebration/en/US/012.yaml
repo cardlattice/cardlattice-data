@@ -1,1 +1,21 @@
-name: "Ho-Oh"
+name: Ho-Oh
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Fire]
+  stage: Basic
+  attacks:
+    - name: Sacred Breath
+      cost: [Fire, Fire]
+      text: Discard all Energy from this Pokémon. Heal all damage from 1 of your Benched Pokémon.
+    - name: Fire Wing
+      cost: [Fire, Fire, Fire]
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2

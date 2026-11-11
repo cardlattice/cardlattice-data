@@ -1,1 +1,23 @@
-name: "Alolan Exeggutor"
+name: Alolan Exeggutor
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 150
+  types: [Grass]
+  stage: Stage 1
+  evolvesFrom: Exeggcute
+  attacks:
+    - name: Mega Drain
+      cost: [Grass, Colorless, Colorless, Colorless]
+      damage: "150"
+      text: Heal 50 damage from this Pokémon.
+  abilities:
+    - name: Scale Up
+      text: If this Pokémon has 6 or more Grass Energy attached, it gets +250 HP.
+      kind: Ability
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4

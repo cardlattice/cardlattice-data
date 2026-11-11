@@ -1,1 +1,25 @@
-name: "Espeon ex"
+name: Espeon ex
+rarity: Double Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 260
+  types: [Psychic]
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Solar Beatdown
+      cost: [Psychic, Colorless]
+      damage: 30×
+      text: This attack does 30 damage for each of your Pokémon in play.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

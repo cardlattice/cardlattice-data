@@ -1,1 +1,22 @@
-name: "Nidoran♀"
+name: Nidoran♀
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Growl
+      cost: [Colorless]
+      text: During your opponent’s next turn, attacks used by the Defending Pokémon do 30 less damage
+        (before applying Weakness and Resistance).
+    - name: Headbutt
+      cost: [Darkness]
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

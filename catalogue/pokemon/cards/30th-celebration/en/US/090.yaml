@@ -1,1 +1,26 @@
-name: "Gengar ex"
+name: Gengar ex
+rarity: Double Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 280
+  types: [Darkness]
+  stage: Stage 2
+  evolvesFrom: Haunter
+  attacks:
+    - name: Chaotic Pain
+      cost: [Darkness, Darkness]
+      text: Place 13 damage counters on 1 of your opponent’s Pokémon.
+  abilities:
+    - name: Fainting Spell
+      text: If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, flip a
+        coin. If heads, the Attacking Pokémon is Knocked Out.
+      kind: Ability
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

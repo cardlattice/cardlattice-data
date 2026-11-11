@@ -2,3 +2,5 @@
 /.builder/
 /.env
 /.local/
+/node_modules/
+/coverage/

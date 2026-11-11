@@ -1,1 +1,26 @@
-name: "Pikachu ex"
+name: Pikachu ex
+rarity: Special Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 190
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Pika-Pika Parade
+      cost: [Colorless]
+      text: Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle
+        your deck.
+    - name: Thunderbolt
+      cost: [Lightning, Lightning, Colorless]
+      damage: "200"
+      text: Discard all Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

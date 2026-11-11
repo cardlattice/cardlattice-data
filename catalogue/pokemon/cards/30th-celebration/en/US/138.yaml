@@ -1,1 +1,24 @@
-name: "Lycanroc"
+name: Lycanroc
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Fighting]
+  stage: Stage 1
+  evolvesFrom: Rockruff
+  attacks:
+    - name: Counter
+      cost: [Fighting]
+      damage: 10+
+      text: If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does
+        that much more damage.
+    - name: Boulder Crush
+      cost: [Fighting, Fighting]
+      damage: "80"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

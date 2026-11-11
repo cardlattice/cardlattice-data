@@ -1,1 +1,24 @@
-name: "Umbreon"
+name: Umbreon
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 110
+  types: [Darkness]
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Retaliate
+      cost: [Darkness]
+      damage: 30+
+      text: If any of your Pokémon were Knocked Out by damage from an attack during your opponent’s last
+        turn, this attack does 100 more damage.
+    - name: Darkness Fang
+      cost: [Darkness, Colorless, Colorless]
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1

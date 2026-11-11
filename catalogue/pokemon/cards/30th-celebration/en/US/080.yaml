@@ -1,1 +1,25 @@
-name: "Lunala"
+name: Lunala
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 160
+  types: [Psychic]
+  stage: Stage 2
+  evolvesFrom: Cosmoem
+  attacks:
+    - name: Midnight Ray
+      cost: [Psychic]
+      damage: 20+
+      text: This attack does 20 more damage for each Energy card in your discard pile.
+    - name: Lunar Blast
+      cost: [Psychic, Colorless, Colorless]
+      damage: "120"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

@@ -1,1 +1,17 @@
-name: "Kommo-o"
+name: Kommo-o
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 180
+  types: [Dragon]
+  stage: Stage 2
+  evolvesFrom: Hakamo-o
+  attacks:
+    - name: Blazing Uppercut
+      cost: [Lightning, Fighting, Colorless]
+      damage: "250"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2

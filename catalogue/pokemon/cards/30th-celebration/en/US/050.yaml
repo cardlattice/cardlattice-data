@@ -1,1 +1,18 @@
-name: "Pikachu"
+name: Pikachu
+rarity: Pikachu Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Satisfied Spark
+      cost: [Lightning, Lightning, Colorless, Colorless]
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3

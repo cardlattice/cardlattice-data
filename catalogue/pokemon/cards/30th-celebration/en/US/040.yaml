@@ -1,1 +1,20 @@
-name: "Pikachu"
+name: Pikachu
+rarity: Pikachu Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Overwriting Bolt
+      cost: [Lightning]
+      damage: "10"
+      text: The Defending Pokémon’s Weakness is now Lightning until the end of your next turn. (Apply
+        Weakness as ×2.)
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
