@@ -104,6 +104,34 @@
       "maxItems": 10,
       "uniqueItems": true,
       "minItems": 1
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200,
+        "pattern": "^[A-Za-z0-9_.-]+$"
+      },
+      "maxItems": 50,
+      "uniqueItems": true
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200,
+        "pattern": "^[A-Za-z0-9_.-]+$"
+      },
+      "maxItems": 50,
+      "uniqueItems": true
+    },
+    "artwork": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[A-Za-z0-9_.-]+$"
     }
   },
   "$defs": {
@@ -378,6 +406,34 @@
           "maxItems": 10,
           "uniqueItems": true,
           "minItems": 1
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "^[A-Za-z0-9_.-]+$"
+          },
+          "maxItems": 50,
+          "uniqueItems": true
+        },
+        "collections": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "^[A-Za-z0-9_.-]+$"
+          },
+          "maxItems": 50,
+          "uniqueItems": true
+        },
+        "artwork": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "^[A-Za-z0-9_.-]+$"
         }
       },
       "required": []

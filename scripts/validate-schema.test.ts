@@ -200,3 +200,41 @@ it("reports the allowed spellings when an enum value is wrong", () => {
   const errors = validateCard("name: Example\npokemon: {stage: Stage1}\n", filename);
   expect(errors.some((error) => error.message.includes('"Stage 1"'))).toBe(true);
 });
+
+describe("printing relationships and set identifiers", () => {
+  it("accepts optional references without changing printing identity", () => {
+    expect(
+      validateCard(
+        "name: Example\nproducts: [pokemon-product-box]\ncollections: [pokemon-collection-family]\nartwork: pokemon-artwork-example\n",
+        filename,
+      ),
+    ).toEqual([]);
+    expect(
+      validateSet(
+        "name: Example\nprintedIdentifiers: [{language: en, region: US, code: LAB}, {language: ja, symbol: laboratory flask}]\n",
+        "set.yaml",
+      ),
+    ).toEqual([]);
+  });
+  it.each([
+    "products: [missing/path]",
+    "collections: [one, one]",
+    "artwork: []",
+    "artwork: 123",
+    "products: wrong",
+    "pokemon: {artwork: pokemon-artwork-example}",
+  ])("rejects malformed relationship fields: %s", (fields) => {
+    expect(validateCard(`name: Example\n${fields}\n`, filename).length).toBeGreaterThan(0);
+  });
+  it.each([
+    "[{language: en}]",
+    "[{language: en, code: ''}]",
+    "[{language: en, region: usa, code: LAB}]",
+    "[{language: en, code: LAB, unknown: typo}]",
+    "[{language: en, code: LAB}, {language: en, code: OTHER}]",
+  ])("rejects malformed printed identifiers: %s", (value) => {
+    expect(
+      validateSet(`name: Example\nprintedIdentifiers: ${value}\n`, "set.yaml").length,
+    ).toBeGreaterThan(0);
+  });
+});

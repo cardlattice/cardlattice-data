@@ -4,6 +4,9 @@
       "catalogue/pokemon/cards/*/*/*/*.yaml",
       "!catalogue/pokemon/cards/*/*/*/release.yaml"
     ],
-    "./schemas/pokemon-set.schema.json": ["catalogue/pokemon/sets/*.yaml"]
+    "./schemas/pokemon-set.schema.json": ["catalogue/pokemon/sets/*.yaml"],
+    "./schemas/pokemon-product.schema.json": "catalogue/pokemon/products/*.yaml",
+    "./schemas/pokemon-collection.schema.json": "catalogue/pokemon/collections/*.yaml",
+    "./schemas/pokemon-artwork.schema.json": "catalogue/pokemon/artworks/*.yaml"
   }
 }

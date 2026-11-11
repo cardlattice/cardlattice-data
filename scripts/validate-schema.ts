@@ -19,6 +19,59 @@ const ajv = new Ajv2020({
 const validate = ajv.compile(schema);
 const setSchema = JSON.parse(await readFile(join(root, "schemas/pokemon-set.schema.json"), "utf8"));
 const validateSetSchema = ajv.compile(setSchema);
+const definitionKinds = ["product", "collection", "artwork"] as const;
+type DefinitionKind = (typeof definitionKinds)[number];
+const definitionValidators = Object.fromEntries(
+  await Promise.all(
+    definitionKinds.map(async (kind) => [
+      kind,
+      ajv.compile(
+        JSON.parse(await readFile(join(root, `schemas/pokemon-${kind}.schema.json`), "utf8")),
+      ),
+    ]),
+  ),
+);
+export function validateDefinition(kind: DefinitionKind, text: string, file: string): Problem[] {
+  return validateDocument(text, file, definitionValidators[kind]);
+}
+export async function validateDefinitions(directory = join(root, "catalogue/pokemon")) {
+  const problems: Problem[] = [];
+  let checked = 0;
+  for (const kind of definitionKinds) {
+    const folder = join(directory, `${kind}s`);
+    try {
+      await lstat(folder);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code === "ENOENT") continue;
+      throw error;
+    }
+    if (!(await lstat(folder)).isDirectory() || (await lstat(folder)).isSymbolicLink()) {
+      problems.push({
+        file: folder,
+        line: 1,
+        column: 1,
+        message: "Expected a regular definition directory",
+      });
+      continue;
+    }
+    for (const name of (await readdir(folder)).sort()) {
+      const path = join(folder, name);
+      const metadata = await lstat(path);
+      if (!metadata.isFile() || !name.endsWith(".yaml") || metadata.size > 1024 * 1024) {
+        problems.push({
+          file: path,
+          line: 1,
+          column: 1,
+          message: "Expected a regular definition YAML file of at most 1 MiB",
+        });
+        continue;
+      }
+      checked += 1;
+      problems.push(...validateDefinition(kind, await readFile(path, "utf8"), path));
+    }
+  }
+  return { checked, problems };
+}
 
 export type Problem = { file: string; line: number; column: number; message: string };
 
@@ -37,7 +90,24 @@ export function validateCard(text: string, file: string): Problem[] {
   return validateDocument(text, file, validate);
 }
 export function validateSet(text: string, file: string): Problem[] {
-  return validateDocument(text, file, validateSetSchema);
+  const problems = validateDocument(text, file, validateSetSchema);
+  if (problems.length) return problems;
+  const value = parseDocument(text).toJS() as {
+    printedIdentifiers?: { language: string; region?: string }[];
+  };
+  const scopes = new Set<string>();
+  for (const mark of value.printedIdentifiers ?? []) {
+    const scope = JSON.stringify([mark.language, mark.region ?? null]);
+    if (scopes.has(scope))
+      problems.push({
+        file,
+        line: 1,
+        column: 1,
+        message: "Duplicate language/region scope in printedIdentifiers",
+      });
+    scopes.add(scope);
+  }
+  return problems;
 }
 function validateDocument(
   text: string,
@@ -160,12 +230,15 @@ export async function validateChanged(base: string, directory = root) {
   const problems: Problem[] = [];
   let cards = 0;
   let sets = 0;
+  let definitions = 0;
   for (const file of changed.files) {
-    if (!file.startsWith("catalogue/pokemon/cards/") && !file.startsWith("catalogue/pokemon/sets/"))
-      continue;
+    if (!/^catalogue\/pokemon\/(cards|sets|products|collections|artworks)\//.test(file)) continue;
+    const definition = /^catalogue\/pokemon\/(product|collection|artwork)s\/[^/]+\.yaml$/.exec(
+      file,
+    )?.[1] as DefinitionKind | undefined;
     const card = /^catalogue\/pokemon\/cards\/[^/]+\/[^/]+\/[^/]+\/[^/]+\.yaml$/.test(file);
     const set = /^catalogue\/pokemon\/sets\/[^/]+\.yaml$/.test(file);
-    if (!card && !set) {
+    if (!card && !set && !definition) {
       problems.push({ file, line: 1, column: 1, message: "Unexpected card/set path or extension" });
       continue;
     }
@@ -186,26 +259,31 @@ export async function validateChanged(base: string, directory = root) {
     if (card) {
       cards += 1;
       problems.push(...validateCard(source, file));
+    } else if (definition) {
+      definitions += 1;
+      problems.push(...validateDefinition(definition, source, file));
     } else {
       sets += 1;
       problems.push(...validateSet(source, file));
     }
   }
-  return { cards, sets, deleted: changed.deleted, problems };
+  return { cards, sets, definitions, deleted: changed.deleted, problems };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const args = process.argv.slice(2);
-  let result: { cards: number; sets: number; problems: Problem[] };
+  let result: { cards: number; sets: number; definitions: number; problems: Problem[] };
   if (args.length === 2 && args[0] === "--changed-from") {
     result = await validateChanged(args[1]);
   } else if (args.length === 0) {
     const cards = await validateCatalogue();
     const sets = await validateSets();
+    const definitions = await validateDefinitions();
     result = {
       cards: cards.checked,
       sets: sets.checked,
-      problems: [...cards.problems, ...sets.problems],
+      definitions: definitions.checked,
+      problems: [...cards.problems, ...sets.problems, ...definitions.problems],
     };
   } else throw new Error("Usage: validate-schema.ts [--changed-from <base-commit-sha>]");
   for (const problem of result.problems) {
@@ -216,6 +294,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     process.exitCode = 1;
   } else
     console.log(
-      `Schema validation passed for ${result.cards} Pokémon cards and ${result.sets} sets.`,
+      `Schema validation passed for ${result.cards} Pokémon cards and ${result.sets} sets and ${result.definitions} relationship definitions.`,
     );
 }
