@@ -160,3 +160,43 @@ describe("set schema", () => {
     expect((await validateSets(directory)).problems).toHaveLength(2);
   });
 });
+
+describe("canonical enum spellings", () => {
+  it.each([
+    ["stage typo", "pokemon: {stage: Stage1}"],
+    ["stage case", "pokemon: {stage: basic}"],
+    ["unknown stage", "pokemon: {stage: Stage 3}"],
+    ["subtype typo", "pokemon: {subtypes: [Suporter]}"],
+    ["subtype case", "pokemon: {subtypes: [item]}"],
+    ["duplicate subtype", "pokemon: {subtypes: [Item, Item]}"],
+    ["rarity typo", "rarity: Comon"],
+    ["rarity case", "rarity: common"],
+    ["rarity alias", "rarity: SIR"],
+    ["category alias", "pokemon: {category: Pokémon}"],
+    ["type case", "pokemon: {types: [grass]}"],
+    ["ability kind case", "pokemon: {abilities: [{name: Example, text: Example., kind: ability}]}"],
+    ["finish alias", "finishes: [normal]"],
+    ["unknown regulation mark", "regulationMark: Z"],
+    ["regulation mark case", "regulationMark: j"],
+  ])("rejects %s", (_label, fields) => {
+    expect(validateCard(`name: Example\n${fields}\n`, filename).length).toBeGreaterThan(0);
+  });
+  it("preserves distinct ex and EX mechanics and leaves unknown metadata absent", () => {
+    for (const subtype of ["ex", "EX"]) {
+      expect(validateCard(`name: Example\npokemon: {subtypes: [${subtype}]}\n`, filename)).toEqual(
+        [],
+      );
+    }
+    expect(validateCard("name: Example\n", filename)).toEqual([]);
+  });
+  it("applies enum validation to set defaults too", () => {
+    expect(
+      validateSet("name: Example\ndefaults: {regulationMark: Z}\n", "set.yaml").length,
+    ).toBeGreaterThan(0);
+  });
+});
+
+it("reports the allowed spellings when an enum value is wrong", () => {
+  const errors = validateCard("name: Example\npokemon: {stage: Stage1}\n", filename);
+  expect(errors.some((error) => error.message.includes('"Stage 1"'))).toBe(true);
+});

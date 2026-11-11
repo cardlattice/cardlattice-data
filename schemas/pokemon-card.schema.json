@@ -20,10 +20,7 @@
       "pattern": "\\S"
     },
     "rarity": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 100,
-      "pattern": "\\S"
+      "$ref": "#/$defs/rarity"
     },
     "releaseDate": {
       "type": "string",
@@ -70,7 +67,7 @@
     "finishes": {
       "type": "array",
       "items": {
-        "enum": ["non-holo", "holo", "reverse-holo"]
+        "$ref": "#/$defs/finish"
       },
       "maxItems": 3,
       "uniqueItems": true,
@@ -89,8 +86,7 @@
       "minItems": 0
     },
     "regulationMark": {
-      "type": "string",
-      "pattern": "^[A-Z]$"
+      "$ref": "#/$defs/regulationMark"
     },
     "printedTotal": {
       "type": "integer",
@@ -116,7 +112,7 @@
       "additionalProperties": false,
       "properties": {
         "category": {
-          "enum": ["pokemon", "trainer", "energy"]
+          "$ref": "#/$defs/category"
         },
         "hp": {
           "type": "integer",
@@ -129,26 +125,11 @@
           "maxItems": 4,
           "uniqueItems": true,
           "items": {
-            "enum": [
-              "Grass",
-              "Fire",
-              "Water",
-              "Lightning",
-              "Psychic",
-              "Fighting",
-              "Darkness",
-              "Metal",
-              "Colorless",
-              "Dragon",
-              "Fairy"
-            ]
+            "$ref": "#/$defs/energyType"
           }
         },
         "stage": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 40,
-          "pattern": "\\S"
+          "$ref": "#/$defs/stage"
         },
         "evolvesFrom": {
           "type": "string",
@@ -200,10 +181,7 @@
         "subtypes": {
           "type": "array",
           "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 100,
-            "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+            "$ref": "#/$defs/subtype"
           },
           "maxItems": 10,
           "uniqueItems": true,
@@ -336,7 +314,7 @@
           "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
         },
         "kind": {
-          "enum": ["Ability", "Pokémon Power", "Poké-Power", "Poké-Body"]
+          "$ref": "#/$defs/abilityKind"
         }
       },
       "required": ["name", "text", "kind"]
@@ -363,7 +341,7 @@
         "finishes": {
           "type": "array",
           "items": {
-            "enum": ["non-holo", "holo", "reverse-holo"]
+            "$ref": "#/$defs/finish"
           },
           "maxItems": 3,
           "uniqueItems": true,
@@ -382,8 +360,7 @@
           "minItems": 0
         },
         "regulationMark": {
-          "type": "string",
-          "pattern": "^[A-Z]$"
+          "$ref": "#/$defs/regulationMark"
         },
         "printedTotal": {
           "type": "integer",
@@ -404,6 +381,79 @@
         }
       },
       "required": []
+    },
+    "category": {
+      "enum": ["pokemon", "trainer", "energy"]
+    },
+    "stage": {
+      "enum": [
+        "Basic",
+        "Stage 1",
+        "Stage 2",
+        "Restored",
+        "BREAK",
+        "MEGA",
+        "VMAX",
+        "VSTAR",
+        "V-UNION"
+      ]
+    },
+    "subtype": {
+      "enum": [
+        "ex",
+        "EX",
+        "GX",
+        "V",
+        "VMAX",
+        "VSTAR",
+        "V-UNION",
+        "BREAK",
+        "Mega",
+        "TAG TEAM",
+        "Tera",
+        "Radiant",
+        "Prism Star",
+        "Ultra Beast",
+        "Single Strike",
+        "Rapid Strike",
+        "Fusion Strike",
+        "Ancient",
+        "Future",
+        "Item",
+        "Supporter",
+        "Stadium",
+        "Pokémon Tool",
+        "ACE SPEC",
+        "Basic Energy",
+        "Special Energy"
+      ]
+    },
+    "rarity": {
+      "enum": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Double Rare",
+        "Ultra Rare",
+        "Illustration Rare",
+        "Special Illustration Rare",
+        "Hyper Rare",
+        "Shiny Rare",
+        "Shiny Ultra Rare",
+        "Mega Hyper Rare",
+        "Futuristic Rare",
+        "Pikachu Rare",
+        "ACE SPEC Rare"
+      ]
+    },
+    "finish": {
+      "enum": ["non-holo", "holo", "reverse-holo"]
+    },
+    "abilityKind": {
+      "enum": ["Ability", "Pokémon Power", "Poké-Power", "Poké-Body"]
+    },
+    "regulationMark": {
+      "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
     }
   },
   "dependentSchemas": {

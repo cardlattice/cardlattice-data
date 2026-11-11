@@ -27,6 +27,9 @@ function fieldMessage(error: ErrorObject): string {
   if (error.keyword === "additionalProperties") {
     return `${path}: unknown field ${JSON.stringify(error.params.additionalProperty)}`;
   }
+  if (error.keyword === "enum") {
+    return `${path}: expected one of ${error.params.allowedValues.map((value: unknown) => JSON.stringify(value)).join(", ")}`;
+  }
   return `${path}: ${error.message}`;
 }
 

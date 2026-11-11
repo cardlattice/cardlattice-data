@@ -137,3 +137,24 @@ indentation and quote numbers that are identifiers.
 For local checks, clone the application, check out the commit in `builder-ref.txt`,
 and run `CARDLATTICE_BUILDER=../cardlattice ./scripts/check.sh` in this repository.
 Submitting a PR dedicates your original factual contribution under CC0-1.0.
+
+## Canonical values
+
+Category, energy types (including attack costs and weaknesses/resistances), stage,
+subtypes, rarity, finishes, ability kind and regulation mark use **case-sensitive
+enums**. For example, use `Stage 1`, `Item` and `Common`; `Stage1`, `item`, `common`
+and abbreviations such as `SIR` fail validation. `ex` and `EX` are deliberately
+separate mechanics, not spelling aliases. The schema's `$defs` lists every
+supported value and supplies editor completions.
+
+These are supported vocabularies, not a claim to cover every historical or
+regional Pokémon mechanic. To introduce a legitimate new value, update the Rust
+vocabulary in the application repository, its corresponding schema enum here,
+and `builder-ref.txt` together. The build checks that the two vocabularies match;
+this check reads the schema, not unchanged card files. Omit unknown optional
+fields rather than using `Unknown`, `Other` or inventing a rarity.
+
+Names, rules text, illustrator names and trainer affiliations remain text.
+Product stamp identifiers remain slugs because releases are open-ended; they are
+not rarity, stage or finish values. Regulation marks currently support A–J and
+need an explicit vocabulary update when a later mark is introduced.
