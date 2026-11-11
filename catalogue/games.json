@@ -1,0 +1,28 @@
+[
+  {
+    "id": "pokemon",
+    "draft": {
+      "kind": "game",
+      "name": "Pokémon",
+      "slug": "pokemon",
+      "setId": null,
+      "cardId": null,
+      "gameId": null,
+      "rarity": null,
+      "region": null,
+      "source": {
+        "method": "permitted_official_reference",
+        "license": "CC0-1.0",
+        "description": "The Pokémon Company International official product information. Factual title and US release date transcribed for an independent, non-commercial catalogue. Retrieved 2026-11-02T00:38:40.370387996+00:00; page SHA-256 5c09a34201955cd4eae9a27b2dbf59d56b1ff69db0d9bfdea68c29f34ea24600. Informational-use guidelines: https://press.pokemon.com/en/Assets-Use-Terms. CC0 applies only to Cardlattice's original factual metadata contribution, not the publisher's text, artwork, or trademarks.",
+        "referenceUrl": "https://press.pokemon.com/en/products/Pokemon-TCG-Mega-Evolution-49281"
+      },
+      "language": null,
+      "seriesId": null,
+      "synthetic": false,
+      "attributes": {},
+      "releaseDate": null,
+      "collectorNumber": null
+    },
+    "externalIds": []
+  }
+]
