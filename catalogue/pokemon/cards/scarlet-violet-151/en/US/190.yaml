@@ -1,0 +1,6 @@
+name: Kangaskhan ex
+rarity: Ultra Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  subtypes: [ex]

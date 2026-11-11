@@ -1,0 +1,6 @@
+name: Venusaur ex
+rarity: Special Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  subtypes: [ex]

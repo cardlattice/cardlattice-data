@@ -1,0 +1,6 @@
+name: Zapdos ex
+rarity: Double Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  subtypes: [ex]

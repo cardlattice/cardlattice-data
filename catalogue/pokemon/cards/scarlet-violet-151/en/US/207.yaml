@@ -1,0 +1,7 @@
+name: Basic Psychic Energy
+rarity: Hyper Rare
+finishes: [holo]
+pokemon:
+  category: energy
+  types: [Psychic]
+  subtypes: [Basic Energy]
