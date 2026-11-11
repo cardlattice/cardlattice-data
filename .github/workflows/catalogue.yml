@@ -1,0 +1,86 @@
+name: Catalogue
+on:
+  pull_request:
+  push:
+    branches: [main, 'luna/**']
+  schedule:
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    name: Validate data and build catalogue
+    runs-on: ubuntu-latest
+    outputs:
+      source: ${{ steps.source.outputs.commit }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Read pinned compiler and source revision
+        id: source
+        shell: bash
+        run: |
+          ref="$(cat builder-ref.txt)"
+          [[ "$ref" =~ ^[0-9a-f]{40}$ ]]
+          printf 'builder=%s\n' "$ref" >> "$GITHUB_OUTPUT"
+          printf 'commit=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: cardlattice/cardlattice
+          ref: ${{ steps.source.outputs.builder }}
+          path: .builder
+          persist-credentials: false
+      - name: Install Rust
+        run: rustup update stable && rustup default stable
+      - name: Validate YAML, references and compiler regressions
+        run: ./scripts/check.sh
+      - name: Build and prove reproducibility
+        shell: bash
+        run: |
+          ./scripts/build.sh
+          cp dist/manifest.json /tmp/manifest-first.json
+          ./scripts/build.sh
+          cmp dist/manifest.json /tmp/manifest-first.json
+          sha256sum dist/catalogue-*.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: catalogue-${{ steps.source.outputs.commit }}
+          path: dist/
+          if-no-files-found: error
+          retention-days: 30
+  release:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    concurrency:
+      group: daily-catalogue-release
+      cancel-in-progress: false
+    steps:
+      - name: Download this run's verified artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          SOURCE_COMMIT: ${{ needs.build.outputs.source }}
+        run: gh run download "$RUN_ID" --name "catalogue-$SOURCE_COMMIT" --dir dist
+      - name: Publish at most one immutable release per UTC day
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_COMMIT: ${{ needs.build.outputs.source }}
+        shell: bash
+        run: |
+          day="$(date -u +%F)"
+          tag="catalogue-$day"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            printf 'Release %s already exists; leaving it unchanged.\n' "$tag"
+            exit 0
+          fi
+          printf 'Reviewed catalogue built from commit %s. Verify manifest.json before indexing.\n' "$SOURCE_COMMIT" > release-notes.txt
+          gh release create "$tag" dist/* --target "$SOURCE_COMMIT" \
+            --title "Catalogue $day" --notes-file release-notes.txt
