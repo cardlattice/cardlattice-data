@@ -1,83 +1,88 @@
 # Cardlattice data
 
-Independently curated trading-card facts, reviewed through GitHub and compiled in
-CI. The [application repository](https://github.com/cardlattice/cardlattice) contains
-the Rust compiler, indexer, HTTP API and website. PostgreSQL is a serving index,
-not the source of truth for these records.
+Trading-card facts maintained through small GitHub contributions.
+[The application](https://github.com/cardlattice/cardlattice) compiles these files
+in CI, then indexes the resulting JSON catalogue for public API reads.
 
-## Catalogue
+**To correct a card, edit its YAML file and open a pull request.** No database
+knowledge, generated identifiers, citations or source-evidence files are required.
+Git history records the changes.
 
-`catalogue/` contains a game file and one readable JSON file per set. Each file
-contains records with explicit semantic identifiers, their metadata, provenance,
-and optional external identifiers. Printing keys include the set, language,
-region and collector number, for example `pokemon-mega-evolution-en-US-001`.
-Card identities use `card-` followed by their original printing key until rules
-review establishes equivalence. Same-name cards are not automatically merged.
-UUIDs are not used. Changing a canonical key is a deletion plus a new record;
-corrections to facts retain the key. Printing variants must use distinct semantic
-keys when that data is added. Unknown finishes are not inferred.
+## Find a card
 
-The initial catalogue contains 1 game, 8 sets, 1,278 provisional card identities
-and 1,278 printings. Names and collector numbers were independently transcribed
-from official English checklists. This is not a complete catalogue: rules, rarity,
-other languages, finishes and many other sets remain unreviewed. There are no
-card images, prices or third-party catalogue dumps.
+```text
+catalogue/
+  pokemon/
+    game.yaml
+    sets/
+      mega-evolution.yaml
+    cards/
+      mega-evolution/
+        en/
+          US/
+            001.yaml
+            002.yaml
+```
 
-`provenance/pokemon/` retains the original reviewed source batches, URLs, retrieval
-times, source digests and transcription corrections. These files are historical
-source evidence; edit `catalogue/` to change the served catalogue. The recorded
-review was automated at the operator's request, not expert human verification.
+`pokemon/cards/mega-evolution/en/US/001.yaml` currently contains:
+
+```yaml
+name: "Bulbasaur"
+```
+
+The path supplies the game, set, language, region and collector number. The set
+file supplies its release date. Each card file represents one printing; reprints
+in another set have their own files. Internal provisional card identities are
+generated automatically. Existing semantic keys remain unchanged by this layout.
 
 ## Contribute
 
-1. Fork this repository and create a branch.
-2. Edit the relevant set file. Preserve the collector number as a string (including
-   leading zeros), language, region and source evidence. Use original observations
-   or permitted official references; do not copy another catalogue or API.
-3. Submit a PR explaining the correction and its source. CI validates relationships,
-   identifiers, duplicate printings, typed attributes and source metadata.
-4. A maintainer reviews the PR. Merging does not automatically approve images.
+1. Browse to the card file and use GitHub's pencil button, or edit a local clone.
+2. Make the correction. Preserve leading zeros in filenames and quote explicit
+   collector numbers, e.g. `collectorNumber: "001"`.
+3. Open a PR describing what changed. CI reports invalid files, and a maintainer
+   reviews the correction before merging.
 
-Contributions dedicate only the contributor's original factual metadata under
-CC0-1.0. Do not submit protected marketing prose, private information, credentials,
-PDFs or scans to Git. Artwork is separate and is not covered by the data dedication.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for adding cards, sets and shared identities.
+YAML comments are welcome. Unknown fields, duplicate keys, anchors, aliases and
+merge keys fail validation. Data files cannot execute code.
 
-## Build and publish
+## Validation and CI
 
-The compiler is pinned to an exact application commit in `builder-ref.txt`.
-Updating it is a reviewed PR. The build makes no network or database calls; fetching
-Rust dependencies and the pinned application checkout happens beforehand.
+[Catalogue workflow](.github/workflows/catalogue.yml) ·
+[Actions runs](https://github.com/cardlattice/cardlattice-data/actions) ·
+[Initial PR and checks](https://github.com/cardlattice/cardlattice-data/pull/1)
+
+The initial workflow lives on the open PR until merge; the empty `main` branch
+does not display it. PR and branch checks already run without waiting for merge.
+
+Every PR runs explicit YAML and domain validation, compiler regression tests, and
+two builds that must produce identical manifests. Checks reject broken references,
+duplicate printing identities, unsupported attributes and unexpected files or
+symlinks. No database, Cloudflare account or paid service is needed.
+
+For local checks, use the application checkout pinned in `builder-ref.txt`:
 
 ```sh
-git clone https://github.com/cardlattice/cardlattice.git ../cardlattice
-# Check out the commit from builder-ref.txt in that separate checkout.
+CARDLATTICE_BUILDER=../cardlattice ./scripts/check.sh
 CARDLATTICE_BUILDER=../cardlattice ./scripts/build.sh
 ```
 
-CI builds on pull requests and pushes. It produces `manifest.json` and a
-content-addressed `catalogue-<sha256>.json` artifact. The manifest contains the exact
-source commit, byte count, checksum and measured counts. A second build must be
-byte-identical. PR artifacts are previews, not approved production releases.
+The compiled JSON artifact includes a Git commit, checksum, byte size and measured
+counts. The origin verifies and indexes it without rebuilding the catalogue.
+A scheduled main-branch job publishes at most one immutable release per UTC day.
+PR artifacts are previews. Deployment and optional R2 mirroring are operator setup.
 
-A scheduled workflow publishes at most one GitHub release per UTC day, from
-`main`. Releases are named `catalogue-YYYY-MM-DD`; existing releases are never
-overwritten. The same bytes can later be mirrored to R2. No Cloudflare account,
-R2 credentials, database secrets or paid service is needed for CI.
+## Catalogue
 
-Deployment downloads a trusted successful release and runs the application's
-`index-catalogue <manifest.json> --apply` command. Checksums detect corruption;
-they do not prove authorship, so do not index arbitrary PR artifacts. The indexer
-validates again and atomically updates records, audit history and cache invalidation.
-It skips unchanged records and retires removed managed records. Local edits that
-conflict with a previous index fail for reconciliation instead of being overwritten.
-The production deployment trigger and R2 mirroring are separate operator setup.
+The initial batch contains 8 sets and 1,278 English printings. This is a partial
+catalogue; rules, rarity, finishes and other languages remain unfilled. No artwork,
+pricing data or third-party catalogue dumps are included.
 
-## Licences
+The folder organisation takes inspiration from
+[TCGdex's series/set/card files](https://github.com/tcgdex/cards-database/tree/master/data).
+No TCGdex records were imported.
 
 Original factual metadata: [CC0-1.0](LICENSE-DATA).
-Original build scripts and configuration: [MIT](LICENSE).
-Neither licence grants rights to publisher artwork, trademarks or source documents.
-
-The indexer also registers the verified artifact for the application's dataset
-listing and downloads. The origin serves the original bytes; it does not build
-another catalogue from PostgreSQL.
+Build scripts and configuration: [MIT](LICENSE).
+These licences do not cover publisher artwork or trademarks.
