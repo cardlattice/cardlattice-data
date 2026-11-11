@@ -1,1 +1,25 @@
-name: "Zacian"
+name: Zacian
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Metal]
+  stage: Basic
+  attacks:
+    - name: Hardened Blade
+      cost: [Metal]
+      damage: 20+
+      text: If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.
+    - name: Slashing Strike
+      cost: [Metal, Metal, Colorless]
+      damage: "120"
+      text: During your next turn, this Pokémon can’t use Slashing Strike.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2

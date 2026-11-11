@@ -1,1 +1,19 @@
-name: "Alolan Meowth"
+name: Alolan Meowth
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Pay Day
+      cost: []
+      damage: "10"
+      text: Draw a card.
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1

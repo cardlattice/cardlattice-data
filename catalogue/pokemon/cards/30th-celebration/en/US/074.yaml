@@ -1,1 +1,24 @@
-name: "Cresselia"
+name: Cresselia
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Aurora Gain
+      cost: [Psychic, Colorless]
+      damage: "30"
+      text: Heal 30 damage from this Pokémon.
+    - name: Lunar Blast
+      cost: [Psychic, Colorless, Colorless]
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

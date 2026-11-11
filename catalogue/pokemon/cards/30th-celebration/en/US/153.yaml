@@ -1,1 +1,23 @@
-name: "Sylveon ex"
+name: Sylveon ex
+rarity: Special Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 270
+  types: [Psychic]
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Colorful Harmony
+      cost: [Psychic, Colorless, Colorless]
+      damage: 50×
+      text: This attack does 50 damage for each type of Basic Energy attached to all of your Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

@@ -2,15 +2,40 @@ name: Catalogue
 on:
   pull_request:
   push:
-    branches: [main, 'luna/**']
+    branches: [main]
   schedule:
     - cron: '15 0 * * *'
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
+  schema:
+    name: Validate Pokémon YAML schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.2'
+      - run: npm install --global pnpm@12.18.0
+      - run: pnpm install --frozen-lockfile
+      - name: Check validator formatting, lint, types and tests
+        run: pnpm check:tools
+      - name: Validate only changed PR data
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: pnpm validate:schema --changed-from "$BASE_SHA"
+      - name: Validate the full main catalogue
+        if: github.event_name != 'pull_request'
+        run: pnpm validate:schema
+      - run: pnpm audit
   build:
     name: Validate data and build catalogue
+    needs: schema
     runs-on: ubuntu-latest
     outputs:
       source: ${{ steps.source.outputs.commit }}
@@ -34,7 +59,8 @@ jobs:
           persist-credentials: false
       - name: Install Rust
         run: rustup update stable && rustup default stable
-      - name: Validate YAML, references and compiler regressions
+      - name: Full data validation and compiler regressions on main
+        if: github.event_name != 'pull_request'
         run: ./scripts/check.sh
       - name: Build and prove reproducibility
         shell: bash

@@ -1,1 +1,22 @@
-name: "Snorlax"
+name: Snorlax
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 160
+  types: [Colorless]
+  stage: Basic
+  attacks:
+    - name: Collapse
+      cost: [Colorless, Colorless, Colorless]
+      damage: "130"
+      text: This Pokémon is now Asleep.
+  abilities:
+    - name: Good Sleep
+      text: If this Pokémon remains Asleep during Pokémon Checkup, heal all damage from this Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4

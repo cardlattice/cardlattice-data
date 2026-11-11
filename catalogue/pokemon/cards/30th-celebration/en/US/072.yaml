@@ -1,1 +1,21 @@
-name: "Unown"
+name: Unown
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Mysterious Signal
+      cost: [Psychic, Psychic]
+      damage: "40"
+      text: If your opponent’s Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

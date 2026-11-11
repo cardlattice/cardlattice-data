@@ -1,1 +1,21 @@
-name: "Comfey"
+name: Comfey
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Comforting Aroma
+      cost: [Colorless]
+      text: Heal 80 damage from 1 of your Benched Pokémon.
+    - name: Magical Shot
+      cost: [Psychic]
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1

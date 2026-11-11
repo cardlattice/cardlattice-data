@@ -53,20 +53,32 @@ merge keys fail validation. Data files cannot execute code.
 [Actions runs](https://github.com/cardlattice/cardlattice-data/actions) ·
 [Initial PR and checks](https://github.com/cardlattice/cardlattice-data/pull/1)
 
-The initial workflow lives on the open PR until merge; the empty `main` branch
-does not display it. PR and branch checks already run without waiting for merge.
+The workflow runs on pull requests and main pushes. A dedicated **Validate Pokémon
+YAML schema** job checks only added/modified card and set YAML files in a PR against
+[the card schema](schemas/pokemon-card.schema.json) and
+[set schema](schemas/pokemon-set.schema.json) before the Rust build runs. Renames validate the new path; deleted files are not
+opened. The comparison uses the PR base commit and fails closed if it cannot be
+resolved. Main pushes and scheduled releases validate the whole catalogue.
 
-Every PR runs explicit YAML and domain validation, compiler regression tests, and
-two builds that must produce identical manifests. Checks reject broken references,
+Every PR runs validator regression tests and two complete preview builds that
+must produce identical manifests. Compilation still checks whole-catalogue
+references, so deleting a referenced set cannot produce a broken artifact. Main
+runs the additional standalone Rust data validation and compiler regression tests. Checks reject broken references,
 duplicate printing identities, unsupported attributes and unexpected files or
 symlinks. No database, Cloudflare account or paid service is needed.
 
 For local checks, use the application checkout pinned in `builder-ref.txt`:
 
 ```sh
+pnpm install --frozen-lockfile
+pnpm check
 CARDLATTICE_BUILDER=../cardlattice ./scripts/check.sh
 CARDLATTICE_BUILDER=../cardlattice ./scripts/build.sh
 ```
+
+`pnpm check` runs Oxfmt, Oxlint, TypeScript, schema regression tests and card/set
+validation. Node 24 and pnpm 12.18 are used in CI. The existing Rust check still
+validates game/set/release files, references and catalogue-wide constraints.
 
 The compiled JSON artifact includes a Git commit, checksum, byte size and measured
 counts. The origin verifies and indexes it without rebuilding the catalogue.
@@ -75,9 +87,16 @@ PR artifacts are previews. Deployment and optional R2 mirroring are operator set
 
 ## Catalogue
 
-The initial batch contains 8 sets and 1,278 English printings. This is a partial
-catalogue; rules, rarity, finishes and other languages remain unfilled. No artwork,
-pricing data or third-party catalogue dumps are included.
+The catalogue contains 8 sets and 1,278 English printings. All 158 existing
+numbered 30th Celebration cards now include rarity, confirmed holo finish, printed
+rules and applicable Pokémon stats, attacks, abilities, weaknesses, resistances
+and retreat costs. Shared anniversary stamp, regulation mark and denominator are
+set defaults. Other sets remain name-only.
+
+This is still a partial catalogue. The separate 30th Celebration Classic
+Collection, Basic Energy section and product promos are not included. Illustrator
+credits, Pokédex numbers, flavour text, detailed foil patterns and other languages
+remain unfilled. No artwork, pricing data or third-party catalogue dumps are included.
 
 The folder organisation takes inspiration from
 [TCGdex's series/set/card files](https://github.com/tcgdex/cards-database/tree/master/data).

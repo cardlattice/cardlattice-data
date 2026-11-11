@@ -1,1 +1,22 @@
-name: "Xerneas"
+name: Xerneas
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Geonavigation
+      cost: [Colorless]
+      text: Search your deck for up to 2 Stadium cards, reveal them, and put them into your hand. Then,
+        shuffle your deck.
+    - name: Aurora Horns
+      cost: [Psychic, Psychic, Colorless]
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2

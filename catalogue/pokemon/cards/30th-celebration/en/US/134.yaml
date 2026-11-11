@@ -1,1 +1,23 @@
-name: "Toxtricity"
+name: Toxtricity
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 140
+  types: [Lightning]
+  stage: Stage 1
+  evolvesFrom: Toxel
+  attacks:
+    - name: Light Punch
+      cost: [Lightning]
+      damage: "40"
+    - name: Thunderous Bolt
+      cost: [Lightning, Colorless, Colorless]
+      damage: "150"
+      text: During your next turn, this Pokémon can’t use attacks.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

@@ -1,1 +1,18 @@
-name: "Marill"
+name: Marill
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost: [Psychic, Colorless]
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1

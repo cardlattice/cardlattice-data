@@ -1,1 +1,22 @@
-name: "Chandelure"
+name: Chandelure
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 140
+  types: [Psychic]
+  stage: Stage 2
+  evolvesFrom: Lampent
+  attacks:
+    - name: Eerie Glow
+      cost: [Psychic, Psychic]
+      damage: "130"
+      text: Your opponent’s Active Pokémon is now Burned and Confused.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

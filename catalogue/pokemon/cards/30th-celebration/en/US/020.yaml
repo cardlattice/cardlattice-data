@@ -1,1 +1,20 @@
-name: "Palkia"
+name: Palkia
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Water]
+  stage: Basic
+  attacks:
+    - name: Wormhole
+      cost: [Water, Water, Colorless]
+      damage: "100"
+      text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, switch out your opponent’s
+        Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2

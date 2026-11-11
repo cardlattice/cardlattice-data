@@ -1,1 +1,22 @@
-name: "Nidorina"
+name: Nidorina
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Darkness]
+  stage: Stage 1
+  evolvesFrom: Nidoran♀
+  attacks:
+    - name: Bite
+      cost: [Colorless, Colorless]
+      damage: "30"
+  abilities:
+    - name: Share Happiness
+      text: Once during your turn, you may use this Ability. Heal 30 damage from 1 of your Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

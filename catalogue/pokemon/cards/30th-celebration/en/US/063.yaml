@@ -1,1 +1,24 @@
-name: "Mewtwo"
+name: Mewtwo
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Empower
+      cost: [Psychic]
+      text: Attach up to 2 Basic Energy cards from your discard pile to 1 of your Pokémon.
+    - name: Psydrive
+      cost: [Psychic, Psychic, Colorless]
+      damage: "120"
+      text: Discard an Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

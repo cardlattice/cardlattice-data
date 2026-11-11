@@ -1,1 +1,21 @@
-name: "Lugia"
+name: Lugia
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Colorless]
+  stage: Basic
+  attacks:
+    - name: Elemental Blast
+      cost: [Fire, Water, Lightning]
+      damage: "250"
+      text: Discard a Fire Energy, a Water Energy, and a Lightning Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

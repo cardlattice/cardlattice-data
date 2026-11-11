@@ -1,1 +1,20 @@
-name: "Cosmog"
+name: Cosmog
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Splash
+      cost: [Colorless]
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

@@ -1,1 +1,21 @@
-name: "Murkrow"
+name: Murkrow
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Clumsily Clutch
+      cost: [Darkness]
+      damage: "20"
+      text: Flip a coin. If heads, during your opponent’s next turn, the Defending Pokémon can’t retreat.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

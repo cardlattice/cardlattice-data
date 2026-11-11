@@ -1,1 +1,25 @@
-name: "Fuecoco ex"
+name: Fuecoco ex
+rarity: Double Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 210
+  types: [Fire]
+  stage: Basic
+  attacks:
+    - name: Singe
+      cost: [Fire]
+      text: Your opponent’s Active Pokémon is now Burned.
+    - name: Cheerful Flame
+      cost: [Fire, Fire, Colorless]
+      damage: 70×
+      text: This attack does 70 damage for each Prize card you have taken.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

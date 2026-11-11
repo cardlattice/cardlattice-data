@@ -1,1 +1,19 @@
-name: "Igglybuff"
+name: Igglybuff
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 30
+  types: [Colorless]
+  stage: Basic
+  attacks:
+    - name: Bouncy Circle
+      cost: []
+      damage: 30×
+      text: This attack does 30 damage for each of your Benched Pokémon that has a maximum HP of 30.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0

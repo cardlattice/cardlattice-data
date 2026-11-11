@@ -1,1 +1,22 @@
-name: "Koraidon"
+name: Koraidon
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Fighting]
+  stage: Basic
+  attacks:
+    - name: Low Kick
+      cost: [Fighting, Fighting]
+      damage: "50"
+    - name: Collision Course
+      cost: [Fighting, Fighting, Colorless]
+      damage: "140"
+      text: Discard 2 Fighting Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2

@@ -1,1 +1,22 @@
-name: "Kangaskhan"
+name: Kangaskhan
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Colorless]
+  stage: Basic
+  attacks:
+    - name: Rage
+      cost: [Colorless, Colorless]
+      damage: 20+
+      text: This attack does 10 more damage for each damage counter on this Pokémon.
+    - name: Mega Punch
+      cost: [Colorless, Colorless, Colorless]
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

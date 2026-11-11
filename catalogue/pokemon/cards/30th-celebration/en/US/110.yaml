@@ -1,1 +1,20 @@
-name: "Jangmo-o"
+name: Jangmo-o
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Dragon]
+  stage: Basic
+  attacks:
+    - name: Screech
+      cost: [Colorless]
+      text: During your next turn, the Defending Pokémon takes 30 more damage from attacks (after applying
+        Weakness and Resistance).
+    - name: Dragon Claw
+      cost: [Lightning, Fighting]
+      damage: "40"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1

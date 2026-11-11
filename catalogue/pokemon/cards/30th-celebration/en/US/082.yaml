@@ -1,1 +1,20 @@
-name: "Groudon"
+name: Groudon
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 140
+  types: [Fighting]
+  stage: Basic
+  attacks:
+    - name: Break Ground
+      cost: [Fighting, Fighting, Fighting, Fighting, Fighting]
+      damage: "250"
+      text: This attack also does 20 damage to each of your Benched Pokémon. (Don’t apply Weakness and
+        Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4

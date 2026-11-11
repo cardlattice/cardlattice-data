@@ -1,1 +1,19 @@
-name: "Pikachu"
+name: Pikachu
+rarity: Pikachu Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Fighting Lightning
+      cost: [Lightning, Colorless, Colorless]
+      damage: 20+
+      text: If your opponent’s Active Pokémon is a Pokémon ex, this attack does 80 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3

@@ -1,1 +1,23 @@
-name: "Moltres"
+name: Moltres
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Fire]
+  stage: Basic
+  attacks:
+    - name: Fire Spin
+      cost: [Fire, Fire, Colorless]
+      damage: "130"
+      text: Discard 2 Energy from this Pokémon.
+  abilities:
+    - name: Fiery Flapping
+      text: Once during your turn, if you have Articuno and Zapdos in play, you may use this Ability.
+        Attach a Basic Fire Energy card from your hand to this Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1

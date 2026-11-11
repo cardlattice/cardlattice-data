@@ -1,1 +1,21 @@
-name: "Scraggy"
+name: Scraggy
+rarity: Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Nitpick
+      cost: [Darkness]
+      text: Your opponent shuffles their hand into their deck and draws 4 cards.
+    - name: Corkscrew Punch
+      cost: [Darkness, Colorless]
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

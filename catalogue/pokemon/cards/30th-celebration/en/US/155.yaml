@@ -1,1 +1,28 @@
-name: "Jirachi ex"
+name: Jirachi ex
+rarity: Special Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 160
+  types: [Metal]
+  stage: Basic
+  attacks:
+    - name: Wish Granter
+      cost: [Colorless]
+      text: Draw cards until you have 7 cards in your hand.
+    - name: Swift
+      cost: [Colorless, Colorless, Colorless]
+      damage: "150"
+      text: This attack’s damage isn’t affected by Weakness or Resistance, or by any effects on your
+        opponent’s Active Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

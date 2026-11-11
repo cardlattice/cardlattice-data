@@ -1,1 +1,22 @@
-name: "Reshiram"
+name: Reshiram
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Fire]
+  stage: Basic
+  attacks:
+    - name: Slash
+      cost: [Fire, Colorless]
+      damage: "50"
+    - name: Laser Flame
+      cost: [Fire, Colorless, Colorless]
+      damage: 80+
+      text: If this Pokémon has any Lightning Energy attached, this attack does 80 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2

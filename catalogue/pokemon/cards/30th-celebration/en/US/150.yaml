@@ -1,1 +1,26 @@
-name: "Pikachu ex"
+name: Pikachu ex
+rarity: Special Illustration Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 190
+  types: [Lightning]
+  stage: Basic
+  attacks:
+    - name: Zip-Zap Frenzy
+      cost: [Lightning]
+      text: You may attach any number of Basic Energy cards from your hand to your Pokémon in any way you
+        like.
+    - name: Thunder
+      cost: [Lightning, Lightning, Colorless]
+      damage: "200"
+      text: This Pokémon also does 30 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: [ex]
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.

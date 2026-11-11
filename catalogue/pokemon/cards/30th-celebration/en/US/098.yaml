@@ -1,1 +1,22 @@
-name: "Zweilous"
+name: Zweilous
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Darkness]
+  stage: Stage 1
+  evolvesFrom: Deino
+  attacks:
+    - name: Bite
+      cost: [Darkness]
+      damage: "20"
+    - name: Hammer In
+      cost: [Darkness, Colorless]
+      damage: "50"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

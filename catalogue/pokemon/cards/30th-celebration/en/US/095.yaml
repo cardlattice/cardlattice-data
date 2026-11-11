@@ -1,1 +1,18 @@
-name: "Zorua"
+name: Zorua
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Darkness]
+  stage: Basic
+  attacks:
+    - name: Darkness Fang
+      cost: [Darkness, Darkness]
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1

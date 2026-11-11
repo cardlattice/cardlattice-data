@@ -1,1 +1,21 @@
-name: "Gimmighoul"
+name: Gimmighoul
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Psychic]
+  stage: Basic
+  attacks:
+    - name: Strolls So Much
+      cost: [Colorless]
+      text: Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle
+        your deck.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

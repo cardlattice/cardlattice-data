@@ -1,1 +1,24 @@
-name: "Vivillon"
+name: Vivillon
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Grass]
+  stage: Stage 2
+  evolvesFrom: Spewpa
+  attacks:
+    - name: Poison Powder
+      cost: [Grass, Colorless]
+      damage: "60"
+      text: Your opponent’s Active Pokémon is now Poisoned.
+  abilities:
+    - name: Guiding Dance
+      text: Once during your turn, you may use this Ability. Flip a coin. If heads, search your deck for a
+        Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+      kind: Ability
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

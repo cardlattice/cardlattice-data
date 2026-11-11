@@ -1,1 +1,24 @@
-name: "Wishiwashi"
+name: Wishiwashi
+rarity: Common
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 30
+  types: [Water]
+  stage: Basic
+  attacks:
+    - name: Surprise Attack
+      cost: [Water]
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities:
+    - name: Counterattack Grouping
+      text: If your Wishiwashi or Wishiwashi ex is in the Active Spot and is damaged by an attack from
+        your opponent’s Pokémon (even if your Pokémon is Knocked Out), place 3 damage counters on
+        the Attacking Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

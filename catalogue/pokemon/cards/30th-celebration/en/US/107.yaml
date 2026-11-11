@@ -1,1 +1,26 @@
-name: "Zamazenta"
+name: Zamazenta
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 130
+  types: [Metal]
+  stage: Basic
+  attacks:
+    - name: Fend Off
+      cost: [Metal]
+      damage: "20"
+      text: Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.
+    - name: Shield Press
+      cost: [Metal, Metal, Colorless]
+      damage: "100"
+      text: During your opponent’s next turn, this Pokémon takes 50 less damage from attacks (after
+        applying Weakness and Resistance).
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
