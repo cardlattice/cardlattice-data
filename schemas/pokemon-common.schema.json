@@ -496,6 +496,9 @@
         },
         "legendPart": {
           "$ref": "pokemon-common.schema.json#/$defs/printing_legendPart"
+        },
+        "vUnionPart": {
+          "$ref": "pokemon-common.schema.json#/$defs/printing_vUnionPart"
         }
       },
       "required": []
@@ -852,6 +855,19 @@
     "costModifier": {
       "type": "string",
       "enum": ["+"]
+    },
+    "vUnionPart": {
+      "enum": ["top-left", "top-right", "bottom-left", "bottom-right"]
+    },
+    "printing_vUnionPart": {
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/vUnionPart"
+        },
+        {
+          "type": "null"
+        }
+      ]
     }
   }
 }
