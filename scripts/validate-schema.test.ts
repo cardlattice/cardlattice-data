@@ -302,7 +302,14 @@ describe("schema audit regressions", () => {
 });
 
 it("validates explicit variant combinations as well as their field types", () => {
+  expect(
+    validateCard("name: Example\nvariants: {first: {edition: first-edition}}", filename),
+  ).toEqual([]);
   for (const fields of [
+    "variants: {unknown: {}}",
+    "variants: {unknown: {stamps: [], products: []}}",
+    "variants: {first: {edition: first-edition}, second: {edition: first-edition}}",
+    "finishes: [holo]\nvariants: {first: {edition: first-edition}}",
     "finishes: [non-holo]\nvariants: {first: {finish: holo}}",
     "variants: {first: {finish: holo}, second: {finish: holo}}",
     "variants: {first: {finish: holo, stamps: [one, two]}, second: {finish: holo, stamps: [two, one]}}",
@@ -397,7 +404,7 @@ it("preserves numeric printed levels and separate anniversary numbering", () => 
 });
 
 it("preserves real printed code punctuation while rejecting whitespace damage", () => {
-  for (const code of ["SM4+", "30th C", "SM-P"])
+  for (const code of ["SM4+", "30th C", "SM-P", "CSM1.5C"])
     expect(
       validateSet(
         `name: Example\nprintedIdentifiers: [{language: ja, code: "${code}"}]`,
