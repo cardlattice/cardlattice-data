@@ -1,49 +1,31 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:cardlattice:schema:pokemon-collection",
+  "$id": "pokemon-collection.schema.json",
   "title": "Cardlattice Pokémon collection",
   "type": "object",
   "additionalProperties": false,
-  "required": ["name"],
   "properties": {
     "name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 200,
-      "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+      "$ref": "pokemon-common.schema.json#/$defs/name"
     },
     "language": {
-      "type": "string",
-      "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+      "$ref": "pokemon-common.schema.json#/$defs/language"
     },
     "region": {
-      "type": "string",
-      "pattern": "^[A-Z]{2}$"
+      "$ref": "pokemon-common.schema.json#/$defs/region"
     },
     "releaseDate": {
-      "type": "string",
-      "format": "date"
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "externalIds": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "required": ["namespace", "value"],
-        "additionalProperties": false,
-        "properties": {
-          "namespace": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 100
-          },
-          "value": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 1000
-          }
-        }
-      }
+      "$ref": "pokemon-common.schema.json#/$defs/externalIds"
     },
     "description": {
       "type": "string",
@@ -52,15 +34,8 @@
       "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
     },
     "relatedSets": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 200,
-        "pattern": "^[A-Za-z0-9_.-]+$"
-      },
-      "maxItems": 50,
-      "uniqueItems": true
+      "$ref": "pokemon-common.schema.json#/$defs/references"
     }
-  }
+  },
+  "required": ["name"]
 }

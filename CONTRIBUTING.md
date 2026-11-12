@@ -35,11 +35,8 @@ pokemon:
 - `finishes`: confirmed options from `non-holo`, `holo`, `reverse-holo`. Rarity
   does not imply a finish. This list does not describe foil patterns.
 - `stamps`: stable, readable names such as `30th-anniversary`.
-- `regulationMark`, `printedTotal`, `illustrators`: printed details. The denominator
+- `regulationMark`, `printedDenominator`, `illustrators`: printed details. The denominator
   is separate from the number of cards catalogued; secret cards may exceed it.
-- `attributes`: game-specific card fields for other games. Do not combine this
-  with `pokemon`. Pokémon still uses its typed validator.
-- `printingAttributes`: reserved; use the named printing fields above for Pokémon.
 - `externalIds`: optional namespace/value identifiers from other systems.
 - `identity`: an existing shared card identity, when rules equivalence has been
   established. Otherwise omit it and let the compiler generate one.
@@ -51,19 +48,22 @@ tags in the directory, e.g. `en`, `ja` or `pt-BR`.
 
 Attacks retain printed order. `cost` is an array of energy type names, including
 repeated entries; `[]` means a free attack. Quote `damage`, including plain numbers,
-so `"20"`, `"30+"` and `"20×"` are strings. Omit damage for effect-only attacks.
+so `"20"`, `"30+"`, `"20×"` and a printed `"?"` are strings. Omit damage for effect-only attacks.
 Use `text` for the effect. An ability has `name`, `text`, and `kind` (`Ability`,
 `Pokémon Power`, `Poké-Power`, or `Poké-Body`). Energy symbols in text use names;
 repeated standalone symbols can be written `{Colorless}{Colorless}`.
 
 Weaknesses/resistances are lists such as `[{type: Fire, value: "×2"}]`.
+If only a type symbol is printed, use `[{type: Fire}]`; do not invent a modifier.
 `retreatCost` counts Colorless energy symbols. `subtypes` includes printed mechanics
 such as `ex` or Trainer categories such as `Item`. `rules` contains ordered rule
 paragraphs. Trainer/Energy records cannot carry Pokémon attacks or retreat costs.
-Fossil Items are an exception for HP and abilities: a Trainer with subtype `Item`
-may have printed `hp`, and may then include its printed `abilities`. Keep its
-play-as-a-Pokémon instructions in `rules`; it remains a Trainer, not a Pokémon
-record. Other Trainer subtypes and Energy records cannot carry HP or abilities.
+Historical Trainers such as Fossils and Clefairy Doll may have printed `hp`
+without a subtype. Modern Fossil Items can use `subtypes: [Item]`. Both may
+include printed abilities when HP is present. Do not retrofit modern Item labels
+onto older cards. Other Trainer subtypes and Energy records cannot carry HP or
+abilities. Subtypes are also checked against category: e.g. a Pokémon cannot be
+an Item, and an Energy cannot be a Supporter.
 
 An omitted list is unknown; an empty list confirms none. Do not fill missing facts
 by inference from the name, another printing or the Pokémon species.
@@ -74,25 +74,30 @@ Add `catalogue/<game>/sets/<set-key>.yaml`:
 
 ```yaml
 name: "Laboratory"
-releaseDate: "2026-01-01"
-defaults:
-  stamps: [laboratory-anniversary]
-  regulationMark: J
-  printedTotal: 128
+printedDenominator: 128
+stamps: [laboratory-anniversary]
+regulationMark: J
 ```
 
-Set `defaults` may contain `finishes`, `stamps`, `regulationMark`, `printedTotal`
-and `illustrators`. Use defaults only when they apply to every printing in the
-set. A card's explicit value replaces its default; `stamps: []` clears inherited
-stamps. The compiler materialises these values on each published printing, so API
-consumers need no inheritance logic. Defaults do not create a cross-product of
-finishes and stamps: document only combinations that actually exist. Printing-level product membership is supported below; variant-specific
-membership and images are not implemented yet.
+Set-wide printing fields live directly on the set, not under a defaults wrapper.
+The same fields can be supplied in a release file or a card: `finishes`, `stamps`,
+`regulationMark`, `printedDenominator`, `illustrators`, `products`, `collections`,
+`artwork` and `variants`. Use set values only when they apply across releases.
 
-Set files may also include `language`, `region`, a `series` identifier,
-`attributes` and `externalIds`. Set keys are stable: correcting a displayed name
-does not rename the file. Use a known set code when available; existing keys use
-readable names. Do not invent official codes.
+Precedence is **card > release > set**. An omitted field inherits; a list replaces
+its parent list, and `[]` explicitly clears it. `null` clears an inherited scalar
+(`regulationMark`, `printedDenominator`, `artwork`, or `releaseDate`); use
+`variants: null` to clear inherited variant definitions. Lists cannot be null.
+There is no recursive merge of variants. The compiler materialises the result
+so clients need no inheritance logic. Compiled printing metadata preserves
+explicit nulls and empty lists, while absent unknown metadata stays absent.
+Release dates are nullable core fields in the compiled API representation.
+
+Put language/region-specific release dates in `release.yaml`; a set date is only
+appropriate when it really applies to every release. Set files can also contain
+`series`, `printedIdentifiers` and `externalIds`. Set keys stay stable when a
+name is corrected. Do not invent official codes. Arbitrary `attributes` and
+`printingAttributes` authoring fields are no longer accepted.
 
 Add individual card files under
 `catalogue/<game>/cards/<set-key>/<language>/<region>/`. No release configuration
@@ -107,11 +112,31 @@ A new game needs `<game>/game.yaml` containing `name`. Series use
 
 ## Shared identities for reprints
 
-Most contributors never need to edit identities. When two printings share the
-same rules, define a shared identity in `<game>/identities/<key>.yaml` with `name`
-and `attributes`. Reference it as `<game>-card-<key>` from each printing's
-`identity` field. Put card attributes on that identity, not each printing.
-Otherwise, provisional identities are generated per printing.
+Most contributors never need to edit identities. When complete rules equivalence
+has been reviewed, define `pokemon/identities/<key>.yaml`:
+
+```yaml
+localisations:
+  en:
+    name: Prism Seed
+    pokemon:
+      category: pokemon
+      attacks: [{name: Rest, cost: []}]
+  nl:
+    name: Prism Seed
+    pokemon:
+      category: pokemon
+      attacks: [{name: Rust, cost: []}]
+```
+
+This is a fictional example. Each printing references `identity: pokemon-card-<key>`
+and must have a localisation matching its directory language. There is no
+English fallback or automatic translation. Full localised gameplay lives on
+the identity; a referencing printing cannot supply `pokemon` overrides. The
+compiler emits one rules record per language, with IDs such as
+`pokemon-card-<key>-nl`, linked by the generated `identityGroup` field. Ordinary
+cards continue to get provisional identities per printing. Shared attack names
+alone do not establish equivalence.
 
 ## Checks and licensing
 
@@ -123,12 +148,14 @@ collector numbers must be strings. An `identity` reference stores card attribute
 on the shared identity instead of on the printing.
 
 Run `pnpm install --frozen-lockfile` and `pnpm check` for schema validation and its
-tests. The PR workflow runs tooling/tests and validates only changed card/set files
+tests. The PR workflow runs tooling/tests and validates only changed catalogue files
 before building the complete catalogue. Main validates every file.
 VS Code users with the YAML extension also get the schema while editing, using
 the repository's `.vscode/settings.json`. No per-card schema comment is required.
 The [set schema](schemas/pokemon-set.schema.json) also validates every Pokémon set
-and its defaults. Game, identity and optional release files retain Rust validation.
+and its shared printing fields. Games, series, identities, releases, products,
+collections and artworks each have a schema and editor associations. Common
+constraints live in `schemas/pokemon-common.schema.json`.
 The compiler preserves scalar types: an unquoted numeric identifier or attack
 damage is rejected rather than silently converted into a string.
 
@@ -145,10 +172,10 @@ Submitting a PR dedicates your original factual contribution under CC0-1.0.
 ## Canonical values
 
 Category, energy types (including attack costs and weaknesses/resistances), stage,
-subtypes, rarity, finishes, ability kind and regulation mark use **case-sensitive
+subtypes, rarity, finishes, edition, ability kind and regulation mark use **case-sensitive
 enums**. For example, use `Stage 1`, `Item` and `Common`; `Stage1`, `item`, `common`
 and abbreviations such as `SIR` fail validation. `ex` and `EX` are deliberately
-separate mechanics, not spelling aliases. The schema's `$defs` lists every
+separate mechanics, not spelling aliases. The common schema's `$defs` lists every
 supported value and supplies editor completions.
 
 These are supported vocabularies, not a claim to cover every historical or
@@ -203,7 +230,7 @@ artwork: pokemon-artwork-example-seed
 ```
 
 Lists are optional, unique and bounded to 50 references. An explicit empty list
-clears inherited membership. Set defaults may supply shared membership only when
+clears inherited membership. Sets and releases may supply shared membership only when
 it applies to every printing. `relatedSets` provides context for a product or
 collection; it does **not** automatically include every card in those sets.
 The compiler rejects missing references, references to the wrong kind, and links
@@ -232,6 +259,29 @@ metadata only; they do not publish images. Keep attacks inline, including their
 costs, damage and exact effect text: the same attack name can differ even within
 one expansion. Only verified complete rules equivalence justifies `identity`.
 
-These relationships currently apply to the printing as a whole. They do not
-encode which finish/stamp combination came in a product; do not infer a
-cross-product of those arrays. Variant-specific memberships remain future work.
+## Explicit physical variants
+
+Use `finishes: [non-holo, reverse-holo]` for ordinary cards when that is all the
+verified information. For edition/stamp/product combinations, use a small map:
+
+```yaml
+variants:
+  first-edition-holo:
+    finish: holo
+    edition: first-edition
+    stamps: [first-edition]
+    products: [pokemon-product-example-box]
+  unlimited-holo:
+    finish: holo
+    edition: unlimited
+```
+
+The map key identifies the variant; there is no repeated `id` property.
+`finish` is required; edition, stamps and product membership are optional.
+Supported editions are `first-edition` and `unlimited`; extend the vocabulary for
+other documented editions. Never infer all combinations of editions and finishes.
+If `finishes` is also supplied or inherited, it must match the variant finish
+set. Remove or override incompatible inherited fields. Duplicate combinations,
+unknown editions and missing/wrong-game product references fail compilation.
+Variant product links are indexed for API product filtering. Artwork/image asset
+publication continues to use the separate rights-controlled image pipeline.

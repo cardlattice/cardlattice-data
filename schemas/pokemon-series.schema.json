@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pokemon-series.schema.json",
+  "title": "Cardlattice Pokémon series",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "$ref": "pokemon-common.schema.json#/$defs/name"
+    },
+    "language": {
+      "$ref": "pokemon-common.schema.json#/$defs/language"
+    },
+    "region": {
+      "$ref": "pokemon-common.schema.json#/$defs/region"
+    },
+    "releaseDate": {
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "externalIds": {
+      "$ref": "pokemon-common.schema.json#/$defs/externalIds"
+    }
+  },
+  "required": ["name"]
+}

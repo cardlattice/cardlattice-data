@@ -46,7 +46,10 @@ describe("Pokémon card schema", () => {
     ["HP out of range", "name: Exeggcute\npokemon: {hp: 1001}\n"],
     ["unknown Pokémon type", "name: Exeggcute\npokemon: {types: [Electric]}\n"],
     ["duplicate types", "name: Exeggcute\npokemon: {types: [Grass, Grass]}\n"],
-    ["HP on a trainer", "name: Trainer\npokemon: {category: trainer, hp: 60}\n"],
+    [
+      "HP on a Supporter",
+      "name: Trainer\npokemon: {category: trainer, subtypes: [Supporter], hp: 60}\n",
+    ],
     ["unquoted collector number", "name: Exeggcute\ncollectorNumber: 001\n"],
     ["invalid calendar date", "name: Exeggcute\nreleaseDate: '2026-02-29'\n"],
     ["conflicting attribute locations", "name: Exeggcute\npokemon: {}\nattributes: {}\n"],
@@ -68,13 +71,13 @@ describe("Pokémon card schema", () => {
     ).toBe(true);
   });
 
-  it("walks card files and leaves release configuration to the Rust compiler", async () => {
+  it("validates card files and release configuration", async () => {
     const directory = await temporary();
     const release = join(directory, "example/en/US");
     await mkdir(release, { recursive: true });
     await writeFile(join(release, "001.yaml"), "name: Exeggcute\n");
     await writeFile(join(release, "release.yaml"), "releaseDate: '2026-01-01'\n");
-    expect(await validateCatalogue(directory)).toEqual({ checked: 1, problems: [] });
+    expect(await validateCatalogue(directory)).toEqual({ checked: 2, problems: [] });
     await writeFile(join(release, "002.yml"), "name: Wrong extension\n");
     expect((await validateCatalogue(directory)).problems[0].message).toContain(".yaml");
   });
@@ -119,7 +122,6 @@ pokemon:
   it.each([
     ["unknown finish", "finishes: [shiny]"],
     ["duplicate finish", "finishes: [holo, holo]"],
-    ["empty finish", "finishes: []"],
     ["numeric damage", "pokemon: {attacks: [{name: Hit, cost: [], damage: 20}]}"],
     ["missing attack cost", "pokemon: {attacks: [{name: Hit}]}"],
     ["wrong attack energy", "pokemon: {attacks: [{name: Hit, cost: [Electric]}]}"],
@@ -130,7 +132,7 @@ pokemon:
     ["unknown weakness type", 'pokemon: {weaknesses: [{type: Electric, value: "×2"}]}'],
     ["duplicate trainer affiliation", "pokemon: {trainers: [hop, hop]}"],
     ["invalid regulation mark", "regulationMark: JJ"],
-    ["zero printed denominator", "printedTotal: 0"],
+    ["zero printed denominator", "printedDenominator: 0"],
   ])("rejects %s", (_label, fields) => {
     expect(validateCard(`name: Example\n${fields}\n`, filename).length).toBeGreaterThan(0);
   });
@@ -140,7 +142,7 @@ describe("set schema", () => {
   it("validates inherited defaults and rejects unknown keys", () => {
     expect(
       validateSet(
-        "name: Example\ndefaults: {stamps: [anniversary], regulationMark: J, printedTotal: 128}\n",
+        "name: Example\nstamps: [anniversary]\nregulationMark: J\nprintedDenominator: 128\n",
         "set.yaml",
       ),
     ).toEqual([]);
@@ -251,5 +253,53 @@ it("accepts fossil Item HP and Abilities while rejecting them on other Trainers 
     fossil + "  stage: Basic\n",
   ]) {
     expect(validateCard(invalid, filename).length).toBeGreaterThan(0);
+  }
+});
+
+describe("schema audit regressions", () => {
+  it.each([
+    "finishes: []\nstamps: []\nillustrators: []\nprintedDenominator: null\nartwork: null",
+    "pokemon: {category: trainer, hp: 10}",
+    'pokemon: {category: pokemon, attacks: [{name: Unknown damage, cost: [], damage: "?"}], weaknesses: [{type: Fire}]}',
+    "pokemon: {types: []}",
+    "pokemon: {category: energy, subtypes: [Special Energy, ACE SPEC]}",
+    "variants: {first: {finish: holo, edition: first-edition, products: [pokemon-product-box]}}",
+  ])("accepts explicit values: %s", (fields) => {
+    expect(validateCard(`name: Example\n${fields}\n`, filename)).toEqual([]);
+  });
+  it.each([
+    "attributes: {}",
+    "printingAttributes: {}",
+    "printedTotal: 100",
+    "finishes: null",
+    "variants: {first: {finish: holo, edition: First}}",
+    "pokemon: {category: pokemon, subtypes: [Item]}",
+    "pokemon: {category: trainer, subtypes: [ex]}",
+    "pokemon: {category: energy, subtypes: [Supporter]}",
+    "pokemon: {category: trainer, subtypes: [Supporter], hp: 10}",
+  ])("rejects aliases, invalid clearing and category mismatches: %s", (fields) => {
+    expect(validateCard(`name: Example\n${fields}\n`, filename).length).toBeGreaterThan(0);
+  });
+});
+
+it("validates explicit variant combinations as well as their field types", () => {
+  for (const fields of [
+    "finishes: [non-holo]\nvariants: {first: {finish: holo}}",
+    "variants: {first: {finish: holo}, second: {finish: holo}}",
+    "variants: {first: {finish: holo, stamps: [one, two]}, second: {finish: holo, stamps: [two, one]}}",
+  ])
+    expect(validateCard(`name: Example\n${fields}`, filename).length).toBeGreaterThan(0);
+});
+
+it("checks canonical language and region spellings in printing paths", () => {
+  for (const locale of ["en/us", "EN/US", "english/US", "zh-hant/US"]) {
+    expect(
+      validateCard("name: Example", `catalogue/pokemon/cards/example/${locale}/001.yaml`).length,
+    ).toBeGreaterThan(0);
+  }
+  for (const locale of ["en/US", "nl/global", "zh-Hant/TW", "es-419/global"]) {
+    expect(
+      validateCard("name: Example", `catalogue/pokemon/cards/example/${locale}/001.yaml`),
+    ).toEqual([]);
   }
 });

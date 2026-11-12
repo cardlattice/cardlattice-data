@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pokemon-game.schema.json",
+  "title": "Cardlattice Pokémon game",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "$ref": "pokemon-common.schema.json#/$defs/name"
+    },
+    "externalIds": {
+      "$ref": "pokemon-common.schema.json#/$defs/externalIds"
+    }
+  },
+  "required": ["name"]
+}
