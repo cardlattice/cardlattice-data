@@ -36,7 +36,5 @@ pokemon:
     - GX
   rules:
     - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
-finishes:
-  - holo
 illustrators:
   - 5ban Graphics

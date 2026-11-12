@@ -8,8 +8,6 @@ pokemon:
   rules:
     - 从自己的牌库上方抽取3张卡牌。
     - 在自己的回合只可以使用1张支援者卡。
-finishes:
-  - holo
 regulationMark: E
 illustrators:
   - Sanosuke Sakuma
