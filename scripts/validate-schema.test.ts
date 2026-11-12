@@ -509,3 +509,13 @@ it("preserves a printed cost plus separately from damage", () => {
 it("accepts the distinct Shining rarity", () => {
   expect(validateCard("name: Original synthetic card\nrarity: Shining", filename)).toEqual([]);
 });
+
+it("validates V-UNION quadrants and locale-specific release names", () => {
+  for (const part of ["top-left", "top-right", "bottom-left", "bottom-right"])
+    expect(validateCard(`name: Example\nvUnionPart: ${part}`, filename)).toEqual([]);
+  expect(validateCard("name: Example\nvUnionPart: upper-left", filename).length).toBeGreaterThan(0);
+  const release = "catalogue/pokemon/cards/example/ko/KR/release.yaml";
+  expect(validateCard("name: 원본 실험 세트", release)).toEqual([]);
+  for (const name of ['""', '" padded"'])
+    expect(validateCard(`name: ${name}`, release).length).toBeGreaterThan(0);
+});
