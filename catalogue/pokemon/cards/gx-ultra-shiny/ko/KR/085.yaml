@@ -1,0 +1,37 @@
+name: 네크로즈마 황혼의 갈기
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 황혼의탄환
+      cost:
+        - Metal
+      text: 상대의 「포켓몬 GX・EX」 1마리에게 60데미지를 준다. 이 기술의 데미지는 약점, 저항력 계산을 하지 않는다.
+    - name: 러스티네일
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 100+
+      text: 상대의 남은 프라이즈 장수가 1장이라면 100데미지를 추가한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 솔가레오의 빛을 먹어치우는 모습이다. 적에게 덤벼들어 등과 사지를 발톱으로 상대를 베어 가른다.
+  nationalDex:
+    - 800
+  species: 프리즘포켓몬
+  heightMetres: 3.8
+  weightKilograms: 460
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - nagimiso
+regulationMark: B

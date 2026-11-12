@@ -1,0 +1,37 @@
+name: 다크라이
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 최면파동
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: 상대의 배틀 포켓몬을 잠듦으로 만든다.
+    - name: 다크레이드
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 상대가 이미 GX 기술을 사용했다면 80데미지를 추가한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 깊은 잠으로 끌어들이는 힘으로 사람과 포켓몬에게 악몽을 꾸게 해 자신의 영역에서 쫓아낸다.
+  nationalDex:
+    - 491
+  species: 암흑포켓몬
+  heightMetres: 1.5
+  weightKilograms: 50.5
+illustrators:
+  - Hitoshi Ariga
+regulationMark: A

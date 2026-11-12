@@ -1,0 +1,35 @@
+name: 타입:널
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 아머프레스
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다.
+    - name: 슬래시크루
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 무거운 제어마스크를 쓰고 있어 본래의 능력을 발휘할 수 없다. 특별한 힘을 숨기고 있다.
+  nationalDex:
+    - 772
+  species: 인공포켓몬
+  heightMetres: 1.9
+  weightKilograms: 120.5
+  resistances: []
+illustrators:
+  - Shin Nagasawa
+rarity: S
+regulationMark: A

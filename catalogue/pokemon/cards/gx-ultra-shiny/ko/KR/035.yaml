@@ -1,0 +1,32 @@
+name: 파치리스
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 부비부비발전
+      cost:
+        - Lightning
+      text: 자신의 벤치에 있는 기술 「볼부비부비」를 가진 포켓몬 전원에게 덱에 있는 {Lightning} 에너지를 1장씩 붙인다. 그리고 덱을 섞는다.
+    - name: 볼부비부비
+      cost:
+        - Lightning
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 모인 전기를 나눠주려고 뺨의 주머니를 서로 비비는 파치리스가 발견되기도 한다.
+  nationalDex:
+    - 417
+  species: 전기다람쥐포켓몬
+  heightMetres: 0.4
+  weightKilograms: 3.9
+illustrators:
+  - OOYAMA
+regulationMark: B

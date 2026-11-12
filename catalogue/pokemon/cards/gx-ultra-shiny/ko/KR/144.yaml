@@ -1,0 +1,11 @@
+name: 천관산
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 서로의 플레이어는 자신의 차례에 1번 자신의 트래쉬에 있는 {Metal} 에너지를 2장 상대에게 보여주고 패로 가져와도 좋다.
+    - 스타디움은 자신의 차례에 1장만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.
+illustrators:
+  - Ryo Ueda
+regulationMark: B

@@ -1,0 +1,30 @@
+name: 알로라식스테일
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 길잡이
+      cost: []
+      text: 자신의 덱에 있는 포켓몬을 2장까지 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 스노아이스
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 마이너스 50도의 냉기를 뿜어낸다. 알로라의 노인은 케오케오라는 옛날 이름으로 부르기도 한다.
+  nationalDex:
+    - 37
+  species: 여우포켓몬
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  resistances: []
+illustrators:
+  - You Iribi
+regulationMark: A

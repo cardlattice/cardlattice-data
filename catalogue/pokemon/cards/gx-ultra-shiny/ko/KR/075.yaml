@@ -1,0 +1,34 @@
+name: 악식킹
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 킹스밸리
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: "160"
+      text: 자신의 남은 프라이즈 장수가 6장・4장・2장이라면 자신의 덱을 위에서부터 10장 트래쉬한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  flavourText: 위험생물 비스트의 일종. 항상 무언가를 먹고 있는 듯하지만 왜인지 배설물은 발견되지 않았다.
+  nationalDex:
+    - 799
+  species: 악식성포켓몬
+  heightMetres: 5.5
+  weightKilograms: 888
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Anesaki Dynamic
+regulationMark: B

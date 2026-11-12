@@ -1,0 +1,27 @@
+name: 이상해씨
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 잎날가르기
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 태어났을 때부터 등에 이상한 씨앗이 심어져 있으며 몸과 함께 자란다고 한다.
+  nationalDex:
+    - 1
+  species: 씨앗포켓몬
+  heightMetres: 0.7
+  weightKilograms: 6.9
+  resistances: []
+illustrators:
+  - Mizue
+regulationMark: A

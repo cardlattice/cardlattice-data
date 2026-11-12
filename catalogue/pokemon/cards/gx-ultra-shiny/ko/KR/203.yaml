@@ -1,0 +1,30 @@
+name: 음뱃
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 고속이동
+      cost:
+        - Colorless
+      damage: "10"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 캄캄한 동굴에서 산다. 20만Hz의 초음파를 커다란 귀에서 발사한다.
+  nationalDex:
+    - 714
+  species: 음파포켓몬
+  heightMetres: 0.5
+  weightKilograms: 8
+illustrators:
+  - Mizue
+rarity: S
+regulationMark: A

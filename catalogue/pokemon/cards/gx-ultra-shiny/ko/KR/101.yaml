@@ -1,0 +1,35 @@
+name: 한카리아스
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: 퀵다이브
+      cost:
+        - Colorless
+        - Colorless
+      text: 상대의 포켓몬 1마리에게 50데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 왕의검
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 이 차례에 패에서 「난천」을 꺼내서 사용했다면 100데미지를 추가한다.
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  retreatCost: 0
+  flavourText: 머리에 달린 2개의 돌기는 센서 역할을 한다. 저 멀리 있는 먹이의 모습도 알 수 있다.
+  nationalDex:
+    - 445
+  species: 마하포켓몬
+  heightMetres: 1.9
+  weightKilograms: 95
+  evolvesFrom: 한바이트
+  resistances: []
+illustrators:
+  - Megumi Mizutani
+regulationMark: B

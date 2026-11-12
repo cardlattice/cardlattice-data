@@ -1,0 +1,36 @@
+name: 지가르데
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 랜드크래시
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+    - name: 코어퍼니셔
+      cost:
+        - Darkness
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 이 포켓몬에게 붙어 있는 {Darkness} 에너지와 {Fairy} 에너지를 1개씩 트래쉬한다.
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  retreatCost: 4
+  flavourText: 셀이 50% 모인 모습이다. 적대하는 자는 일절 봐주지 않고 소멸시킨다.
+  nationalDex:
+    - 718
+  species: 질서포켓몬
+  heightMetres: 4.5
+  weightKilograms: 610
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+regulationMark: A

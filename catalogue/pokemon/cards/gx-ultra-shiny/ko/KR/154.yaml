@@ -1,0 +1,12 @@
+name: 등산가
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신 또는 상대의 덱을 위에서부터 5장 보고 그 중에서 원하는 카드를 1장 선택한다. 남은 카드를 덱으로 되돌려 섞고 선택한 카드를 덱의 위로 되돌린다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Naoki Saito
+rarity: SR
+regulationMark: A

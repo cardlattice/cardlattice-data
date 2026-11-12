@@ -1,0 +1,37 @@
+name: 메탕구
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 부딪치기
+      cost:
+        - Colorless
+      damage: "20"
+    - name: 코어빔
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "80"
+      text: 이 포켓몬에게 붙어 있는 {Metal} 에너지를 1개 트래쉬한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  flavourText: 2마리의 메탕이 연결되어 사이코 파워는 두 배가 된다. 단, 영리함 자체는 변하지 않는다.
+  nationalDex:
+    - 375
+  species: 철발톱포켓몬
+  heightMetres: 1.2
+  weightKilograms: 202.5
+  evolvesFrom: 메탕
+illustrators:
+  - Saya Tsuruta
+rarity: S
+regulationMark: A

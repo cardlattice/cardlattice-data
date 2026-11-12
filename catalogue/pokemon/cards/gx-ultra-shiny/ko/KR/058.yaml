@@ -1,0 +1,33 @@
+name: 디안시[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 다이아레인
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "90"
+      text: 자신의 벤치 포켓몬 전원의 HP를 각각 「30」회복한다.
+  abilities:
+    - name: 프린세스옐
+      kind: Ability
+      text: 이 포켓몬이 벤치에 있는 한, 자신의 {Fighting} 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+20」이 된다.
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 양손의 틈으로 공기 중의 탄소를 압축하여 많은 다이아를 한순간에 만들어 낸다.
+  resistances: []
+  subtypes:
+    - Prism Star
+illustrators:
+  - kawayoo
+rarity: PR
+regulationMark: B

@@ -1,0 +1,13 @@
+name: 르마탱
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드는 자신의 패에 있는 「라쥬르네」 「르수아르」 「라뉴이」를 1장씩 트래쉬하지 않으면 사용할 수 없다. 자신의 덱을 위에서부터 12장 보고 그 중에 있는 에너지를
+      원하는 만큼 자신의 포켓몬에게 원하는 대로 붙인다. 남은 카드는 덱으로 되돌리고 섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Megumi Mizutani
+rarity: SR
+regulationMark: B

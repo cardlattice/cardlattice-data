@@ -1,0 +1,32 @@
+name: 나몰빼미
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 몸통박치기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 나뭇잎
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 경계심이 강하다. 낮에는 광합성으로 힘을 비축하고 밤이 되면 활동을 개시한다.
+  nationalDex:
+    - 722
+  species: 풀깃포켓몬
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  resistances: []
+illustrators:
+  - sui
+rarity: S
+regulationMark: A

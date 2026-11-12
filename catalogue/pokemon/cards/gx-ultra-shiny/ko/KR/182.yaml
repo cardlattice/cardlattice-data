@@ -1,0 +1,34 @@
+name: 루카리오
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 미사일잽
+      cost:
+        - Fighting
+        - Colorless
+      damage: "70"
+      text: 이 기술의 데미지는 저항력 계산을 하지 않는다.
+  abilities:
+    - name: 파동예지
+      kind: Ability
+      text: 자신의 필드에 「한카리아스」가 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 원하는 카드를 1장 패로 가져온다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 1km 앞의 생물의 종류나 기분을 캐치한다. 파동을 이용해 무리로 먹이를 사냥한다.
+  nationalDex:
+    - 448
+  species: 파동포켓몬
+  heightMetres: 1.2
+  weightKilograms: 54
+  evolvesFrom: 리오르
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S
+regulationMark: B

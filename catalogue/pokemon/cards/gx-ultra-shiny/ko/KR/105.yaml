@@ -1,0 +1,31 @@
+name: 이브이
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 퀵드로
+      cost:
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 자신의 덱을 1장 뽑는다.
+  abilities:
+    - name: 에너지진화
+      kind: Ability
+      text: 자신의 차례에 자신의 패에서 기본 에너지를 이 포켓몬에게 붙였을 때 1번 사용할 수 있다. 붙인 에너지와 같은 타입의 이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장
+        선택하여 이 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 지금까지 조사에 의하면 무려 8종류의 포켓몬으로 진화할 가능성을 갖고 있다.
+  nationalDex:
+    - 133
+  species: 진화포켓몬
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  resistances: []
+illustrators:
+  - Shibuzoh.
+regulationMark: A

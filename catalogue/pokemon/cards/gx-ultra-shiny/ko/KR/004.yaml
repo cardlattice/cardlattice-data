@@ -1,0 +1,26 @@
+name: 아라리
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 증식하기
+      cost:
+        - Colorless
+      text: 자신의 덱에 있는 「아라리」를 1장 벤치로 내보낸다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 여섯 마리가 하나인 포켓몬이다. 오기지게가 자주 노리지만 염동력을 사용해서 물리친다.
+  nationalDex:
+    - 102
+  species: 알포켓몬
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  resistances: []
+illustrators:
+  - Yuka Morii
+regulationMark: B

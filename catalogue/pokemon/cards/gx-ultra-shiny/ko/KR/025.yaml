@@ -1,0 +1,28 @@
+name: 눈쓰개
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 얼음뭉치
+      cost:
+        - Grass
+        - Colorless
+      damage: 20+
+      text: 상대의 배틀 포켓몬이 {Fighting} 포켓몬이라면 40데미지를 추가한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 봄이 되면 아이스캔디와 같은 촉감의 나무열매가 배의 주위에 열린다.
+  nationalDex:
+    - 459
+  species: 얼음나무포켓몬
+  heightMetres: 1
+  weightKilograms: 50.5
+  resistances: []
+illustrators:
+  - match
+regulationMark: B

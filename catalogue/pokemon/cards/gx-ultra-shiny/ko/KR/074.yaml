@@ -1,0 +1,34 @@
+name: 후파
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 초염동력
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: 밴디트가드
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 GX･EX」로부터 기술의 데미지나 효과를 받지 않는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 진정한 모습일 때는 거대한 힘을 가지고 있다. 원하는 재물을 손에 넣기 위해 그것이 숨겨진 성을 통째로 빼돌려 사라졌다는 전설이 있다.
+  nationalDex:
+    - 720
+  species: 마신포켓몬
+  heightMetres: 6.5
+  weightKilograms: 490
+illustrators:
+  - TOKIYA
+regulationMark: A

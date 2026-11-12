@@ -1,0 +1,12 @@
+name: 글라디오
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 뒷면으로 된 자신의 프라이즈의 앞면을 모두 보고 그 중에 있는 카드 1장을 이 「글라디오」와 바꾸어 패로 가져온다. 그 뒤, 이 「글라디오」와 남은 프라이즈를 모두
+      뒷면으로 하여 섞고 프라이즈에 놓는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Ken Sugimori
+regulationMark: A

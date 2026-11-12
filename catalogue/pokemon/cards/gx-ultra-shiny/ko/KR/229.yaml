@@ -1,0 +1,41 @@
+name: 블래키 GX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Darkness
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 뒤집기
+      cost:
+        - Darkness
+      damage: "30"
+      text: 원한다면 이 포켓몬을 벤치 포켓몬과 교체한다.
+    - name: 섀도불릿
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 상대의 벤치 포켓몬 1마리에게도 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 나이트크라이 GX
+      cost:
+        - Darkness
+        - Colorless
+      text: 상대 필드의 포켓몬에게 붙어 있는 에너지를 2개 트래쉬한다. (대전 중 자신은GX 기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: 이브이
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

@@ -1,0 +1,31 @@
+name: 개구마르
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 돌아다니며 뛰기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: 개구무스
+      kind: Ability
+      text: 이 포켓몬에게 {Water} 에너지가 붙어 있다면 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 섬세한 거품으로 몸을 감싸 피부를 보호한다. 태평한 척하면서 빈틈없이 주위를 살핀다.
+  nationalDex:
+    - 656
+  species: 거품개구리포켓몬
+  heightMetres: 0.3
+  weightKilograms: 7
+  resistances: []
+illustrators:
+  - Ken Sugimori
+regulationMark: B

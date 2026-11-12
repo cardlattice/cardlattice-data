@@ -1,0 +1,41 @@
+name: 차곡차곡 GX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - GX
+    - Ultra Beast
+  attacks:
+    - name: 기가톤스톰프
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "120"
+    - name: 레이 GX
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 50+
+      text: 자신이 이미 가져온 프라이즈의 장수 × 50데미지를 추가한다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 울트라월
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 「울트라비스트」 전원이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-10」이 된다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: B

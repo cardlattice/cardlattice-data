@@ -1,0 +1,41 @@
+name: 다크라이 GX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Darkness
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 어둠의틈
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "130"
+      text: 이 기술의 데미지는 저항력 계산을 하지 않는다.
+    - name: 데드엔드 GX
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      text: 상대의 배틀 포켓몬이 특수 상태라면 그 포켓몬을 기절시킨다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 레저렉션
+      kind: Ability
+      text: 이 카드가 트래쉬에 있다면 자신의 차례에 1번 사용할 수 있다. 이 카드를 벤치로 내보낸다. 그 뒤, 자신의 트래쉬에 있는 {Darkness} 에너지를 1장 이 카드에
+        붙인다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

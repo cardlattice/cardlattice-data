@@ -1,0 +1,35 @@
+name: 라이코
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 울려퍼지는 천둥
+      cost:
+        - Lightning
+      damage: "30"
+      text: 자신의 트래쉬에 있는 {Lightning} 에너지를 1장 벤치 포켓몬에게 붙인다.
+    - name: 라이트닝볼
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "90"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  flavourText: 비구름을 짊어지고 있어서 어떤 때라도 번개를 칠 수 있다. 번개와 함께 떨어졌다고 한다.
+  nationalDex:
+    - 243
+  species: 우뢰포켓몬
+  heightMetres: 1.9
+  weightKilograms: 178
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: A

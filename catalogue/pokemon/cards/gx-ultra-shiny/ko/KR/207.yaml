@@ -1,0 +1,35 @@
+name: 모크나이퍼 GX
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Grass
+  stage: Stage 2
+  subtypes:
+    - GX
+  attacks:
+    - name: 잎날가르기
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+    - name: 할로우헌트 GX
+      cost: []
+      text: 자신의 트래쉬에 있는 원하는 카드를 3장 상대에게 보여주고 패로 가져온다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 페더애로
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 상대의 포켓몬 1마리에게 데미지 카운터를 2개 올린다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 빼미스로우
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

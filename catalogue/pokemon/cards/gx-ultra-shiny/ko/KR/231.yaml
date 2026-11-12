@@ -1,0 +1,39 @@
+name: 조로아크 GX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Darkness
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 라이엇비트
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 필드에 있는 포켓몬의 수 × 20데미지를 준다.
+    - name: 트릭스터 GX
+      cost:
+        - Darkness
+        - Darkness
+      text: 상대의 필드에 있는 포켓몬이 가지고 있는 기술을 1개 선택해서 이 기술로써 사용한다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 거래
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패를 1장 트래쉬한다. 그 뒤, 덱을 2장 뽑는다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: 조로아
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

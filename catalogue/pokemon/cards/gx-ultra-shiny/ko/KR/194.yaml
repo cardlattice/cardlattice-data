@@ -1,0 +1,30 @@
+name: 랄토스
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: 드레인키스
+      cost:
+        - Fairy
+      damage: "10"
+      text: 이 포켓몬의 HP를 「10」회복한다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  flavourText: 빨간 뿔로 사람이나 포켓몬의 따뜻한 마음을 캐치하면 전신이 미약하게 뜨거워진다.
+  nationalDex:
+    - 280
+  species: 느낌포켓몬
+  heightMetres: 0.4
+  weightKilograms: 6.6
+illustrators:
+  - Kyoko Umemoto
+rarity: S
+regulationMark: A

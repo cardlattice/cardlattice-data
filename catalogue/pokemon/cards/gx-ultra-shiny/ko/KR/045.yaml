@@ -1,0 +1,29 @@
+name: 코스모그
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 중얼거리기
+      cost:
+        - Colorless
+  abilities:
+    - name: 코스모가드
+      kind: Ability
+      text: 이 포켓몬은 벤치에 있는 한, 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 먼 옛날에는 별의 아이라는 이름으로 불렸다. 다른 세계의 포켓몬이라고 전해지지만 자세한 것은 불명확하다.
+  nationalDex:
+    - 789
+  species: 성운포켓몬
+  heightMetres: 0.2
+  weightKilograms: 0.1
+  resistances: []
+illustrators:
+  - sui
+regulationMark: B

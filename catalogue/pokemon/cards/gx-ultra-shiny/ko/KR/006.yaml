@@ -1,0 +1,28 @@
+name: 쉐이미[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 플라워스톰
+      cost:
+        - Grass
+        - Grass
+      damage: 30×
+      text: 자신의 필드의 포켓몬에게 붙어 있는 기본 에너지의 개수 ×30 데미지를 준다.
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 0
+  flavourText: 그라시데아꽃이 피는 계절에 감사의 마음을 전하기 위해 날아오른다고 전해진다.
+  resistances: []
+  subtypes:
+    - Prism Star
+illustrators:
+  - kawayoo
+rarity: PR
+regulationMark: B
