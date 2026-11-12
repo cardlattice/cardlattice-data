@@ -1,0 +1,34 @@
+name: ジラーチ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ねがいごと
+      cost:
+        - Psychic
+      text: 自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。
+    - name: ハートサイン
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 385
+  species: ねがいごとポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.1
+  flavourText: 星の瞬き。 恋の行く先。 願いをかなえる 夜空のきせき。
+rarity: U
+illustrators:
+  - kirisAki

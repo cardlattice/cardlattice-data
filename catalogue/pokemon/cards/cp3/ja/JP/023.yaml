@@ -1,0 +1,35 @@
+name: ペロッパフ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: ペロペロ
+      cost:
+        - Fairy
+      text: このポケモンの特殊状態をすべて回復する。
+    - name: たいあたり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 684
+  species: わたあめポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.5
+  flavourText: ふわふわハートはマシュマロ気分。 ときめきマカロン カラフルマジック。 みんな夢中のキャンディテイスト☆
+rarity: U
+illustrators:
+  - Yuka Morii

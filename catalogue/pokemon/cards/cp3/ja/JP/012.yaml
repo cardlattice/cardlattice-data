@@ -1,0 +1,35 @@
+name: デデンネ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ねむる
+      cost:
+        - Colorless
+      text: このポケモンをねむりにする。このポケモンのHPを「30」回復する。
+    - name: パチッ
+      cost:
+        - Lightning
+      damage: 10+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 702
+  species: アンテナポケモン
+  heightMetres: 0.2
+  weightKilograms: 2.2
+  flavourText: スピー… プフー… デッ デネネッ…!? ピプー…
+rarity: U
+illustrators:
+  - kanahei

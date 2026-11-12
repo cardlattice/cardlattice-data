@@ -1,0 +1,29 @@
+name: キノココ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: なやみのタネ
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 285
+  species: きのこポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.5
+  flavourText: きれいなお花と一緒に映ったら わたし 少しだけ かわいく 見えるかな。
+rarity: C
+illustrators:
+  - Miki Tanaka

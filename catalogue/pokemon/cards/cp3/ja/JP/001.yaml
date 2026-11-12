@@ -1,0 +1,33 @@
+name: チコリータ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: はしゃぐ
+      cost:
+        - Colorless
+      text: このポケモンをベンチポケモンと入れ替える。
+    - name: つるのムチ
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 152
+  species: はっぱポケモン
+  heightMetres: 0.9
+  weightKilograms: 6.4
+  flavourText: かけっこ きのぼり かくれんぼ！ だいすきな いちにちが はじまるよ！
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

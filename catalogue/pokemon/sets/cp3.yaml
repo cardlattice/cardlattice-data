@@ -1,0 +1,16 @@
+name: ポケキュンコレクション
+language: ja
+region: JP
+releaseDate: 2016-01-29
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: CP3
+printedDenominator: 32
+regulationMark: null
+finishes:
+  - holo
+variants:
+  first-edition-holo:
+    finish: holo
+    edition: first-edition

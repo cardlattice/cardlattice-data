@@ -1,0 +1,37 @@
+name: ペロリーム
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: したでとる
+      cost:
+        - Fairy
+      text: 自分の山札を3枚引く。
+    - name: ようせいのかぜ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 685
+  species: ホイップポケモン
+  heightMetres: 0.8
+  weightKilograms: 5
+  flavourText: ペロリームが お手伝いする ケーキは いつも 仲良しのあの子に そっくりーむ。
+  evolvesFrom: ペロッパフ
+rarity: U
+illustrators:
+  - MAHOU
