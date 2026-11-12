@@ -92,7 +92,7 @@ All 158 existing
 numbered 30th Celebration cards now include rarity, confirmed holo finish, printed
 rules and applicable Pokémon stats, attacks, abilities, weaknesses, resistances
 and retreat costs. Shared anniversary stamp, regulation mark and denominator are
-set defaults.
+top-level set fields.
 
 Scarlet & Violet—151 includes all 207 numbered entries (001–207), with names,
 rarities, categories, applicable printed stats, evolution stages, attacks and

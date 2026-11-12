@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pokemon-release.schema.json",
+  "title": "Cardlattice Pokémon release",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "releaseDate": {
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "finishes": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_finishes"
+    },
+    "stamps": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_stamps"
+    },
+    "regulationMark": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_regulationMark"
+    },
+    "printedDenominator": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_printedDenominator"
+    },
+    "illustrators": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_illustrators"
+    },
+    "products": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_products"
+    },
+    "collections": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_collections"
+    },
+    "artwork": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_artwork"
+    },
+    "variants": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_variants"
+    },
+    "externalIds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "namespace": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+          },
+          "prefix": {
+            "type": "string",
+            "maxLength": 900
+          },
+          "suffix": {
+            "type": "string",
+            "maxLength": 100
+          }
+        },
+        "required": ["namespace", "prefix", "suffix"]
+      },
+      "maxItems": 50,
+      "uniqueItems": true
+    }
+  },
+  "required": []
+}

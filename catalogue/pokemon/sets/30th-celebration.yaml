@@ -1,8 +1,5 @@
 name: 30th Celebration
-language: en
-region: US
-releaseDate: 2026-09-16
-defaults:
-  stamps: [30th-anniversary]
-  regulationMark: J
-  printedTotal: 128
+stamps:
+  - 30th-anniversary
+regulationMark: J
+printedDenominator: 128

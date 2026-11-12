@@ -1,3 +1,2 @@
 name: Fossil
-defaults:
-  printedTotal: 62
+printedDenominator: 62

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pokemon-identity.schema.json",
+  "title": "Cardlattice Pokémon identity",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "localisations": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 100,
+      "propertyNames": {
+        "$ref": "pokemon-common.schema.json#/$defs/language"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "$ref": "pokemon-common.schema.json#/$defs/name"
+          },
+          "pokemon": {
+            "$ref": "pokemon-common.schema.json#/$defs/pokemon"
+          }
+        },
+        "required": ["name", "pokemon"]
+      }
+    }
+  },
+  "required": ["localisations"]
+}

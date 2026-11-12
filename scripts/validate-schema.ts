@@ -16,10 +16,21 @@ const ajv = new Ajv2020({
   useDefaults: false,
   formats: { date: fullFormats.date },
 });
+ajv.addSchema(JSON.parse(await readFile(join(root, "schemas/pokemon-common.schema.json"), "utf8")));
 const validate = ajv.compile(schema);
+const languageValidator = ajv.compile({ $ref: "pokemon-common.schema.json#/$defs/language" });
+const regionValidator = ajv.compile({ $ref: "pokemon-common.schema.json#/$defs/region" });
 const setSchema = JSON.parse(await readFile(join(root, "schemas/pokemon-set.schema.json"), "utf8"));
 const validateSetSchema = ajv.compile(setSchema);
-const definitionKinds = ["product", "collection", "artwork"] as const;
+const definitionKinds = [
+  "product",
+  "collection",
+  "artwork",
+  "game",
+  "series",
+  "identity",
+  "release",
+] as const;
 type DefinitionKind = (typeof definitionKinds)[number];
 const definitionValidators = Object.fromEntries(
   await Promise.all(
@@ -32,13 +43,36 @@ const definitionValidators = Object.fromEntries(
   ),
 );
 export function validateDefinition(kind: DefinitionKind, text: string, file: string): Problem[] {
-  return validateDocument(text, file, definitionValidators[kind]);
+  return [
+    ...validateDocument(text, file, definitionValidators[kind]),
+    ...(kind === "release" ? validatePrintingPath(file) : []),
+  ];
 }
 export async function validateDefinitions(directory = join(root, "catalogue/pokemon")) {
   const problems: Problem[] = [];
   let checked = 0;
   for (const kind of definitionKinds) {
-    const folder = join(directory, `${kind}s`);
+    if (kind === "release") continue; // Checked while walking card directories.
+    if (kind === "game") {
+      const path = join(directory, "game.yaml");
+      const metadata = await lstat(path);
+      if (!metadata.isFile() || metadata.size > 1024 * 1024) {
+        problems.push({
+          file: path,
+          line: 1,
+          column: 1,
+          message: "Expected a regular game YAML file of at most 1 MiB",
+        });
+        continue;
+      }
+      checked += 1;
+      problems.push(...validateDefinition(kind, await readFile(path, "utf8"), path));
+      continue;
+    }
+    const folder = join(
+      directory,
+      kind === "identity" ? "identities" : kind === "series" ? "series" : `${kind}s`,
+    );
     try {
       await lstat(folder);
     } catch (error) {
@@ -86,8 +120,25 @@ function fieldMessage(error: ErrorObject): string {
   return `${path}: ${error.message}`;
 }
 
+function validatePrintingPath(file: string): Problem[] {
+  const match = new RegExp(
+    "(?:^|/)catalogue/pokemon/cards/[^/]+/([^/]+)/([^/]+)/[^/]+[.]yaml$",
+  ).exec(file.replaceAll("\\", "/"));
+  if (!match) return [];
+  if (!languageValidator(match[1]) || (match[2] !== "global" && !regionValidator(match[2])))
+    return [
+      {
+        file,
+        line: 1,
+        column: 1,
+        message:
+          "Use a canonical language tag and uppercase two-letter region (or global) in the printing path",
+      },
+    ];
+  return [];
+}
 export function validateCard(text: string, file: string): Problem[] {
-  return validateDocument(text, file, validate);
+  return [...validateDocument(text, file, validate), ...validatePrintingPath(file)];
 }
 export function validateSet(text: string, file: string): Problem[] {
   const problems = validateDocument(text, file, validateSetSchema);
@@ -106,6 +157,46 @@ export function validateSet(text: string, file: string): Problem[] {
         message: "Duplicate language/region scope in printedIdentifiers",
       });
     scopes.add(scope);
+  }
+  return problems;
+}
+type Variant = { finish: string; edition?: string; stamps?: string[]; products?: string[] };
+function validateVariants(value: unknown, file: string): Problem[] {
+  const { variants, finishes } = value as {
+    variants?: Record<string, Variant> | null;
+    finishes?: string[];
+  };
+  if (!variants) return [];
+  const problems: Problem[] = [];
+  const combinations = new Set<string>();
+  const actualFinishes = new Set<string>();
+  for (const [key, variant] of Object.entries(variants)) {
+    const signature = JSON.stringify([
+      variant.finish,
+      variant.edition,
+      variant.stamps?.toSorted(),
+      variant.products?.toSorted(),
+    ]);
+    if (combinations.has(signature))
+      problems.push({
+        file,
+        line: 1,
+        column: 1,
+        message: `Duplicate variant combination at variants/${key}`,
+      });
+    combinations.add(signature);
+    actualFinishes.add(variant.finish);
+  }
+  if (
+    finishes &&
+    (finishes.length !== actualFinishes.size || finishes.some((f) => !actualFinishes.has(f)))
+  ) {
+    problems.push({
+      file,
+      line: 1,
+      column: 1,
+      message: "finishes must match explicit variant finishes",
+    });
   }
   return problems;
 }
@@ -145,7 +236,7 @@ function validateDocument(
   });
   if (problems.length) return problems;
   const value: unknown = document.toJS({ maxAliasCount: 0 });
-  if (validate(value)) return [];
+  if (validate(value)) return validateVariants(value, file);
   return (validate.errors ?? []).map((error) => {
     const keys = error.instancePath
       .split("/")
@@ -174,8 +265,6 @@ export async function validateCatalogue(
       });
     } else if (metadata.isDirectory()) {
       for (const entry of (await readdir(path)).sort()) await walk(join(path, entry), depth + 1);
-    } else if (path.endsWith(`${sep}release.yaml`)) {
-      // Release configuration is validated by the existing Rust compiler, not the card schema.
     } else if (!path.endsWith(".yaml") || depth !== 4) {
       problems.push({
         file,
@@ -187,7 +276,12 @@ export async function validateCatalogue(
       checked += 1;
       if (metadata.size > 1024 * 1024)
         problems.push({ file, line: 1, column: 1, message: "Card file exceeds 1 MiB" });
-      else problems.push(...validateCard(await readFile(path, "utf8"), file));
+      else
+        problems.push(
+          ...(path.endsWith(`${sep}release.yaml`)
+            ? validateDefinition("release", await readFile(path, "utf8"), file)
+            : validateCard(await readFile(path, "utf8"), file)),
+        );
     }
   }
   await walk(directory, 0);
@@ -232,18 +326,25 @@ export async function validateChanged(base: string, directory = root) {
   let sets = 0;
   let definitions = 0;
   for (const file of changed.files) {
-    if (!/^catalogue\/pokemon\/(cards|sets|products|collections|artworks)\//.test(file)) continue;
-    const definition = /^catalogue\/pokemon\/(product|collection|artwork)s\/[^/]+\.yaml$/.exec(
-      file,
-    )?.[1] as DefinitionKind | undefined;
+    if (!file.startsWith("catalogue/pokemon/")) continue;
+    const definition =
+      file === "catalogue/pokemon/game.yaml"
+        ? "game"
+        : /^catalogue\/pokemon\/series\/[^/]+\.yaml$/.test(file)
+          ? "series"
+          : /^catalogue\/pokemon\/identities\/[^/]+\.yaml$/.test(file)
+            ? "identity"
+            : /^catalogue\/pokemon\/cards\/[^/]+\/[^/]+\/[^/]+\/release\.yaml$/.test(file)
+              ? "release"
+              : (/^catalogue\/pokemon\/(product|collection|artwork)s\/[^/]+\.yaml$/.exec(
+                  file,
+                )?.[1] as DefinitionKind | undefined);
     const card = /^catalogue\/pokemon\/cards\/[^/]+\/[^/]+\/[^/]+\/[^/]+\.yaml$/.test(file);
     const set = /^catalogue\/pokemon\/sets\/[^/]+\.yaml$/.test(file);
     if (!card && !set && !definition) {
       problems.push({ file, line: 1, column: 1, message: "Unexpected card/set path or extension" });
       continue;
     }
-    // Release configuration remains checked by the Rust preview build.
-    if (card && file.endsWith("/release.yaml")) continue;
     const path = join(directory, file);
     const metadata = await lstat(path);
     if (!metadata.isFile() || metadata.size > 1024 * 1024) {
@@ -256,7 +357,7 @@ export async function validateChanged(base: string, directory = root) {
       continue;
     }
     const source = await readFile(path, "utf8");
-    if (card) {
+    if (card && !definition) {
       cards += 1;
       problems.push(...validateCard(source, file));
     } else if (definition) {
@@ -294,6 +395,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     process.exitCode = 1;
   } else
     console.log(
-      `Schema validation passed for ${result.cards} Pokémon cards and ${result.sets} sets and ${result.definitions} relationship definitions.`,
+      `Schema validation passed for ${result.cards} Pokémon card/release files, ${result.sets} sets and ${result.definitions} definition files.`,
     );
 }

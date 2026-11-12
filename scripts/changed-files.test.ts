@@ -109,3 +109,24 @@ it("validates changed relationship definitions without reading unchanged cards",
   await commit(root);
   expect((await validateChanged(base, root)).problems.length).toBeGreaterThan(0);
 });
+
+it("validates changed games, series, identities and releases without scanning old cards", async () => {
+  const { root, base } = await repository();
+  const files = {
+    "catalogue/pokemon/game.yaml": "name: Pokémon\n",
+    "catalogue/pokemon/series/example.yaml": "name: Example\n",
+    "catalogue/pokemon/identities/example.yaml":
+      "localisations: {en: {name: Example, pokemon: {hp: 60}}, nl: {name: Example, pokemon: {hp: 60}}}\n",
+    [`${cardDirectory}/release.yaml`]: "printedDenominator: 102\nfinishes: [holo]\n",
+  };
+  for (const [file, text] of Object.entries(files)) {
+    await mkdir(join(root, file, ".."), { recursive: true });
+    await writeFile(join(root, file), text);
+  }
+  await commit(root);
+  const result = await validateChanged(base, root);
+  expect(result).toEqual({ cards: 0, sets: 0, definitions: 4, deleted: 0, problems: [] });
+  for (const file of Object.keys(files)) await writeFile(join(root, file), "unexpected: true\n");
+  await commit(root);
+  expect(new Set((await validateChanged(base, root)).problems.map((p) => p.file)).size).toBe(4);
+});

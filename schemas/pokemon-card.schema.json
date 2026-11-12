@@ -1,560 +1,81 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:cardlattice:schema:pokemon-card",
-  "title": "Cardlattice Pokémon printing",
-  "description": "One card printing. Game, set, language, region and default collector number come from its path. Only the name is required.",
+  "$id": "pokemon-card.schema.json",
+  "title": "Cardlattice Pokémon card",
   "type": "object",
-  "required": ["name"],
   "additionalProperties": false,
   "properties": {
     "name": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 200,
-      "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+      "$ref": "pokemon-common.schema.json#/$defs/name"
     },
     "collectorNumber": {
       "type": "string",
       "minLength": 1,
       "maxLength": 100,
-      "pattern": "\\S"
+      "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
     },
     "rarity": {
-      "$ref": "#/$defs/rarity"
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/rarity"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "releaseDate": {
-      "type": "string",
-      "format": "date"
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "identity": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 200,
-      "pattern": "^[A-Za-z0-9_.-]+$"
+      "$ref": "pokemon-common.schema.json#/$defs/id"
     },
     "pokemon": {
-      "$ref": "#/$defs/pokemon"
-    },
-    "attributes": {
-      "$ref": "#/$defs/pokemon"
-    },
-    "printingAttributes": {
-      "type": "object",
-      "description": "Reserved for printing-specific metadata. No fields have been defined yet.",
-      "additionalProperties": false
+      "$ref": "pokemon-common.schema.json#/$defs/pokemon"
     },
     "externalIds": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "required": ["namespace", "value"],
-        "additionalProperties": false,
-        "properties": {
-          "namespace": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 100
-          },
-          "value": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 1000
-          }
-        }
-      }
+      "$ref": "pokemon-common.schema.json#/$defs/externalIds"
     },
     "finishes": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/finish"
-      },
-      "maxItems": 3,
-      "uniqueItems": true,
-      "minItems": 1
+      "$ref": "pokemon-common.schema.json#/$defs/printing_finishes"
     },
     "stamps": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 100,
-        "pattern": "^[a-z0-9-]+$"
-      },
-      "maxItems": 10,
-      "uniqueItems": true,
-      "minItems": 0
+      "$ref": "pokemon-common.schema.json#/$defs/printing_stamps"
     },
     "regulationMark": {
-      "$ref": "#/$defs/regulationMark"
+      "$ref": "pokemon-common.schema.json#/$defs/printing_regulationMark"
     },
-    "printedTotal": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 9999
+    "printedDenominator": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_printedDenominator"
     },
     "illustrators": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 200,
-        "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-      },
-      "maxItems": 10,
-      "uniqueItems": true,
-      "minItems": 1
+      "$ref": "pokemon-common.schema.json#/$defs/printing_illustrators"
     },
     "products": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 200,
-        "pattern": "^[A-Za-z0-9_.-]+$"
-      },
-      "maxItems": 50,
-      "uniqueItems": true
+      "$ref": "pokemon-common.schema.json#/$defs/printing_products"
     },
     "collections": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 200,
-        "pattern": "^[A-Za-z0-9_.-]+$"
-      },
-      "maxItems": 50,
-      "uniqueItems": true
+      "$ref": "pokemon-common.schema.json#/$defs/printing_collections"
     },
     "artwork": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 200,
-      "pattern": "^[A-Za-z0-9_.-]+$"
+      "$ref": "pokemon-common.schema.json#/$defs/printing_artwork"
+    },
+    "variants": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_variants"
     }
   },
-  "$defs": {
-    "pokemon": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "category": {
-          "$ref": "#/$defs/category"
-        },
-        "hp": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 1000
-        },
-        "types": {
-          "type": "array",
-          "minItems": 1,
-          "maxItems": 4,
-          "uniqueItems": true,
-          "items": {
-            "$ref": "#/$defs/energyType"
-          }
-        },
-        "stage": {
-          "$ref": "#/$defs/stage"
-        },
-        "evolvesFrom": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 200,
-          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-        },
-        "attacks": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/attack"
-          },
-          "maxItems": 6,
-          "uniqueItems": false,
-          "minItems": 0
-        },
-        "abilities": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/ability"
-          },
-          "maxItems": 6,
-          "uniqueItems": false,
-          "minItems": 0
-        },
-        "weaknesses": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/modifier"
-          },
-          "maxItems": 4,
-          "uniqueItems": false,
-          "minItems": 0
-        },
-        "resistances": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/modifier"
-          },
-          "maxItems": 4,
-          "uniqueItems": false,
-          "minItems": 0
-        },
-        "retreatCost": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 10
-        },
-        "subtypes": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/subtype"
-          },
-          "maxItems": 10,
-          "uniqueItems": true,
-          "minItems": 0
-        },
-        "rules": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2000,
-            "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-          },
-          "maxItems": 10,
-          "uniqueItems": false,
-          "minItems": 0
-        },
-        "nationalDex": {
-          "type": "array",
-          "items": {
-            "type": "integer",
-            "minimum": 1,
-            "maximum": 9999
-          },
-          "maxItems": 6,
-          "uniqueItems": true,
-          "minItems": 0
-        },
-        "trainers": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 100,
-            "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-          },
-          "maxItems": 10,
-          "uniqueItems": true,
-          "minItems": 0
-        }
-      },
-      "allOf": [
-        {
-          "if": {
-            "required": ["category"],
-            "properties": {
-              "category": {
-                "enum": ["trainer", "energy"]
-              }
-            }
-          },
-          "then": {
-            "properties": {
-              "stage": false,
-              "evolvesFrom": false,
-              "attacks": false,
-              "weaknesses": false,
-              "resistances": false,
-              "retreatCost": false,
-              "nationalDex": false
-            }
-          }
-        },
-        {
-          "if": {
-            "required": ["category"],
-            "properties": {
-              "category": {
-                "enum": ["trainer", "energy"]
-              }
-            }
-          },
-          "then": {
-            "if": {
-              "required": ["category", "subtypes", "hp"],
-              "properties": {
-                "category": {
-                  "const": "trainer"
-                },
-                "subtypes": {
-                  "contains": {
-                    "const": "Item"
-                  },
-                  "type": "array"
-                },
-                "hp": {
-                  "type": "integer"
-                }
-              }
-            },
-            "else": {
-              "properties": {
-                "hp": false,
-                "abilities": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    "energyType": {
-      "enum": [
-        "Grass",
-        "Fire",
-        "Water",
-        "Lightning",
-        "Psychic",
-        "Fighting",
-        "Darkness",
-        "Metal",
-        "Colorless",
-        "Dragon",
-        "Fairy"
-      ]
-    },
-    "attack": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 200,
-          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-        },
-        "cost": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/energyType"
-          },
-          "maxItems": 10,
-          "uniqueItems": false,
-          "minItems": 0
-        },
-        "damage": {
-          "type": "string",
-          "maxLength": 12,
-          "pattern": "^[0-9]+[+×-]?$"
-        },
-        "text": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 2000,
-          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-        }
-      },
-      "required": ["name", "cost"]
-    },
-    "ability": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 200,
-          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-        },
-        "text": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 2000,
-          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-        },
-        "kind": {
-          "$ref": "#/$defs/abilityKind"
-        }
-      },
-      "required": ["name", "text", "kind"]
-    },
-    "modifier": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "$ref": "#/$defs/energyType"
-        },
-        "value": {
-          "type": "string",
-          "maxLength": 8,
-          "pattern": "^[×+-][0-9]+$"
-        }
-      },
-      "required": ["type", "value"]
-    },
-    "printing": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "finishes": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/finish"
-          },
-          "maxItems": 3,
-          "uniqueItems": true,
-          "minItems": 1
-        },
-        "stamps": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 100,
-            "pattern": "^[a-z0-9-]+$"
-          },
-          "maxItems": 10,
-          "uniqueItems": true,
-          "minItems": 0
-        },
-        "regulationMark": {
-          "$ref": "#/$defs/regulationMark"
-        },
-        "printedTotal": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 9999
-        },
-        "illustrators": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 200,
-            "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
-          },
-          "maxItems": 10,
-          "uniqueItems": true,
-          "minItems": 1
-        },
-        "products": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 200,
-            "pattern": "^[A-Za-z0-9_.-]+$"
-          },
-          "maxItems": 50,
-          "uniqueItems": true
-        },
-        "collections": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 200,
-            "pattern": "^[A-Za-z0-9_.-]+$"
-          },
-          "maxItems": 50,
-          "uniqueItems": true
-        },
-        "artwork": {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 200,
-          "pattern": "^[A-Za-z0-9_.-]+$"
-        }
-      },
-      "required": []
-    },
-    "category": {
-      "enum": ["pokemon", "trainer", "energy"]
-    },
-    "stage": {
-      "enum": [
-        "Basic",
-        "Stage 1",
-        "Stage 2",
-        "Restored",
-        "BREAK",
-        "MEGA",
-        "VMAX",
-        "VSTAR",
-        "V-UNION"
-      ]
-    },
-    "subtype": {
-      "enum": [
-        "ex",
-        "EX",
-        "GX",
-        "V",
-        "VMAX",
-        "VSTAR",
-        "V-UNION",
-        "BREAK",
-        "Mega",
-        "TAG TEAM",
-        "Tera",
-        "Radiant",
-        "Prism Star",
-        "Ultra Beast",
-        "Single Strike",
-        "Rapid Strike",
-        "Fusion Strike",
-        "Ancient",
-        "Future",
-        "Item",
-        "Supporter",
-        "Stadium",
-        "Pokémon Tool",
-        "ACE SPEC",
-        "Basic Energy",
-        "Special Energy"
-      ]
-    },
-    "rarity": {
-      "enum": [
-        "Common",
-        "Uncommon",
-        "Rare",
-        "Double Rare",
-        "Ultra Rare",
-        "Illustration Rare",
-        "Special Illustration Rare",
-        "Hyper Rare",
-        "Shiny Rare",
-        "Shiny Ultra Rare",
-        "Mega Hyper Rare",
-        "Futuristic Rare",
-        "Pikachu Rare",
-        "ACE SPEC Rare"
-      ]
-    },
-    "finish": {
-      "enum": ["non-holo", "holo", "reverse-holo"]
-    },
-    "abilityKind": {
-      "enum": ["Ability", "Pokémon Power", "Poké-Power", "Poké-Body"]
-    },
-    "regulationMark": {
-      "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
-    }
-  },
+  "required": ["name"],
   "dependentSchemas": {
-    "pokemon": {
-      "properties": {
-        "attributes": false
-      }
-    },
     "identity": {
       "properties": {
-        "pokemon": false,
-        "attributes": false
+        "pokemon": false
       }
     }
   }

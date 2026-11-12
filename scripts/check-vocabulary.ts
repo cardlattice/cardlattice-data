@@ -21,7 +21,7 @@ if (import.meta.main) {
   if (process.argv.length !== 3 || !filename)
     throw new Error("Usage: check-vocabulary.ts <compiler-vocabulary.json>");
   const schema = JSON.parse(
-    await readFile(new URL("../schemas/pokemon-card.schema.json", import.meta.url), "utf8"),
+    await readFile(new URL("../schemas/pokemon-common.schema.json", import.meta.url), "utf8"),
   );
   checkVocabulary(schema, JSON.parse(await readFile(filename, "utf8")));
   console.log("YAML enum definitions match the pinned Rust compiler.");
