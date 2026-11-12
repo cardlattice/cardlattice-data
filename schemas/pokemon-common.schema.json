@@ -242,7 +242,8 @@
                     "SP",
                     "LEGEND",
                     "Dynamax",
-                    "Gigantamax"
+                    "Gigantamax",
+                    "Eternamax"
                   ]
                 }
               }
@@ -478,6 +479,7 @@
         "LEGEND",
         "Dynamax",
         "Gigantamax",
+        "Eternamax",
         "Single Strike",
         "Rapid Strike",
         "Fusion Strike",
