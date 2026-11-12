@@ -265,6 +265,7 @@
                 "type": "array",
                 "items": {
                   "enum": [
+                    "TAG TEAM",
                     "Prism Star",
                     "Single Strike",
                     "Rapid Strike",
