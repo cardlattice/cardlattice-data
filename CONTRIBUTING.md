@@ -349,3 +349,9 @@ For V-UNION cards, use `vUnionPart: top-left`, `top-right`, `bottom-left`, or
 `bottom-right` on each physical piece and link the assembly using a collection.
 Only enter fields actually printed on that piece; do not copy HP or attacks from
 another quadrant. LEGEND's two halves continue to use `legendPart`.
+
+Use Conventional Commits for every commit message and PR title, for example
+`feat(data): add Korean cards` or `fix(schema): reject invalid finishes`.
+Allowed types: `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`,
+`revert`, `style`, `test`. Scopes and breaking-change `!` are optional.
+Required PR checks rerun on title edits and validate every commit, including merges.
