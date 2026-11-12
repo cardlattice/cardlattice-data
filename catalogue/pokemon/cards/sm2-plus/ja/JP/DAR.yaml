@@ -1,0 +1,10 @@
+name: 基本悪エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  rules: []
+  types:
+    - Darkness
+printedDenominator: null
+regulationMark: null

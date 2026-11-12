@@ -1,0 +1,40 @@
+name: トドゼルガ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: こなゆき
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: おおきなキバ
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: 120-
+      text: このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 365
+  species: こおりわりポケモン
+  heightMetres: 1.4
+  weightKilograms: 150.6
+  flavourText: 大きな 氷を キバで 砕く。 厚い 脂肪は 寒さだけでなく 敵の 攻撃も はね返す。
+  evolvesFrom: トドグラー
+rarity: U
+illustrators:
+  - Naoki Saito

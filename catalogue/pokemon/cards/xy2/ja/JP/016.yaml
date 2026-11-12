@@ -1,0 +1,33 @@
+name: ハリーセン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: どくばり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: 相手のバトルポケモンをどくにする。
+  abilities:
+    - name: はんげきばり
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 211
+  species: ふうせんポケモン
+  heightMetres: 0.5
+  weightKilograms: 3.9
+  flavourText: 全身の 毒針を 飛ばすため １０リットルの 水を 一気に 飲みこみ 体を ふくらませる。
+rarity: C
+illustrators:
+  - Kouki Saitou

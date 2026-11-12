@@ -1,0 +1,33 @@
+name: ヤトウモリ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Fire
+      damage: "10"
+    - name: ベノムショック
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンがどくなら、40ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 757
+  species: どくトカゲポケモン
+  heightMetres: 0.6
+  weightKilograms: 4.8
+  flavourText: 体液を 燃やし 毒ガスを たく。 ガスを 吸った 敵が フラフラに なったあと 襲いかかるのだ。
+illustrators:
+  - TOKIYA

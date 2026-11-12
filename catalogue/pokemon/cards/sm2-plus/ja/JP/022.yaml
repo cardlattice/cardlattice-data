@@ -1,0 +1,34 @@
+name: ヤドン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ずつき
+      cost:
+        - Colorless
+      damage: "10"
+    - name: きまぐれタックル
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 79
+  species: まぬけポケモン
+  heightMetres: 1.2
+  weightKilograms: 36
+  flavourText: 長い 尻尾は よく千切れる。 特に 痛みも 感じないし すぐに 生えるので 気にしない。
+illustrators:
+  - Mina Nakai

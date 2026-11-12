@@ -1,0 +1,39 @@
+name: ダークライGX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: やみのさけめ
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "130"
+      text: このワザのダメージは抵抗力を計算しない。
+    - name: デッドエンドGX
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      text: 相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: リザレクション
+      text: このカードがトラッシュにあるなら、自分の番に1回使える。このカードをベンチに出す。その後、自分のトラッシュにある{Darkness}エネルギーを1枚、このカードにつける。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - 5ban Graphics

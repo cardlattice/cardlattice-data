@@ -1,0 +1,37 @@
+name: サマヨール
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: あやしいひかり
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: のろいのしずく
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      text: ダメカン4個を、相手のポケモンに好きなようにのせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 356
+  species: てまねきポケモン
+  heightMetres: 1.6
+  weightKilograms: 30.6
+  flavourText: 体の 中で 燃えている 人魂を のぞきこむと 魂を 吸い取られてしまう。
+  evolvesFrom: ヨマワル
+rarity: C
+illustrators:
+  - MAHOU

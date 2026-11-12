@@ -1,0 +1,10 @@
+name: ライチ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札にある「ポケモンGX」を2枚まで、相手に見せてから、手札に加える。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Ken Sugimori

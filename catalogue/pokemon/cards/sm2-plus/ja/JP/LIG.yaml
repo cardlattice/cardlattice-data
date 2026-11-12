@@ -1,0 +1,10 @@
+name: 基本雷エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  rules: []
+  types:
+    - Lightning
+printedDenominator: null
+regulationMark: null

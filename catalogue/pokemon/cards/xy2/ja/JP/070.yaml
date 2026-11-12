@@ -1,0 +1,30 @@
+name: ミミロル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: とびはねる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 427
+  species: うさぎポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.5
+  flavourText: いつも まるめている 耳を 勢いよく 伸ばすと 大きな 岩も 簡単に 壊せる。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

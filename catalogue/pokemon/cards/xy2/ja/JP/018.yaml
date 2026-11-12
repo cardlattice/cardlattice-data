@@ -1,0 +1,34 @@
+name: ミロカロス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: たきのぼり
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: エナジーグレイス
+      text: この特性は、自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分のトラッシュから基本エネルギーを3枚選び、自分のポケモン（「ポケモンEX」をのぞく）1匹につける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 350
+  species: いつくしみポケモン
+  heightMetres: 6.2
+  weightKilograms: 162
+  flavourText: ミロカロスの 美しい 姿を 見た者は 争いの 気持ちを 忘れてしまうと 言われている。
+  evolvesFrom: ヒンバス
+rarity: R
+illustrators:
+  - Shin Nagasawa

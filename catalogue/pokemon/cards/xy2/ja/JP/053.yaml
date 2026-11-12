@@ -1,0 +1,35 @@
+name: フラージェス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fairy
+  stage: Stage 2
+  attacks:
+    - name: ブリリアントサーチ
+      cost:
+        - Colorless
+      text: 自分の山札から好きなカードを3枚まで選び、手札に加える。そして山札を切る。
+    - name: はなふぶき
+      cost:
+        - Fairy
+      text: 相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 671
+  species: ガーデンポケモン
+  heightMetres: 1.1
+  weightKilograms: 10
+  flavourText: テリトリーは 見事な 花園。 草花の 放つ エネルギーを 浴びて 自分の パワーにするのだ。
+  evolvesFrom: フラエッテ
+rarity: R
+illustrators:
+  - 5ban Graphics

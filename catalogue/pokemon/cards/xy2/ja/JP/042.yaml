@@ -1,0 +1,40 @@
+name: ゴローニャ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: ストーンエッジ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+    - name: だいばくはつ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: このポケモンにも100ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 76
+  species: メガトンポケモン
+  heightMetres: 1.4
+  weightKilograms: 300
+  flavourText: 山頂から ふもとまで 続く 溝は ゴローニャが 転がり落ちる 通り道なので 要注意。
+  evolvesFrom: ゴローン
+rarity: U
+illustrators:
+  - Sumiyoshi Kizuki

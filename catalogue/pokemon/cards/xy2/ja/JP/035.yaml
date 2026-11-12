@@ -1,0 +1,36 @@
+name: ヨノワール
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: いたみのつぶて
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      text: 相手のポケモンを1匹選び、このポケモンにのっているダメカンと同じ数のダメカンをのせる。
+  abilities:
+    - name: シャドーホール
+      text: 自分の場のポケモンにのっているダメカンを1個選び、このポケモンにのせ替える。この特性は、自分の番に何回でも使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 477
+  species: てづかみポケモン
+  heightMetres: 2.2
+  weightKilograms: 106.6
+  flavourText: 弾力のある 体の 中に 行き場のない 魂を 取りこんで あの世に 連れていくと 言われる。
+  evolvesFrom: サマヨール
+rarity: R
+illustrators:
+  - Suwama Chiaki

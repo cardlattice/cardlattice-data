@@ -1,0 +1,35 @@
+name: ヌメイル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: ぬめぬめ
+      cost:
+        - Colorless
+      text: このポケモンのHPを「30」回復する。
+    - name: ひっぱたく
+      cost:
+        - Water
+        - Fairy
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 705
+  species: なんたいポケモン
+  heightMetres: 0.8
+  weightKilograms: 17.5
+  flavourText: なんでも 溶かしてしまう 粘液を 分泌して 敵を 撃退する。 目玉は 退化して 見えていない。
+  evolvesFrom: ヌメラ
+rarity: C
+illustrators:
+  - 5ban Graphics

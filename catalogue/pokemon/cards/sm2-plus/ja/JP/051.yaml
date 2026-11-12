@@ -1,0 +1,38 @@
+name: エンニュートGX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ましょうのツメ
+      cost:
+        - Fire
+        - Fire
+      damage: 50×
+      text: 自分がすでにとったサイドの枚数×50ダメージ。
+    - name: ヒートブラスト
+      cost:
+        - Fire
+        - Fire
+      damage: "110"
+    - name: クインヘイズGX
+      cost:
+        - Fire
+        - Fire
+      text: 相手のバトルポケモンについているエネルギーを、すべてトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ヤトウモリ
+rarity: SR
+illustrators:
+  - 5ban Graphics

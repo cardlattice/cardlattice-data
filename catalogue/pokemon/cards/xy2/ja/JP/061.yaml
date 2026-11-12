@@ -1,0 +1,31 @@
+name: ポッポ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: つつきおとす
+      cost:
+        - Colorless
+      damage: "10"
+      text: ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 16
+  species: ことりポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.8
+  flavourText: 森や 林に 多く 分布。 地上でも 激しく はばたいて 砂を かけたりする。
+rarity: C
+illustrators:
+  - Atsuko Nishida

@@ -1,0 +1,33 @@
+name: ヤブクロン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ふみならす
+      cost:
+        - Psychic
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: よだれ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 568
+  species: ゴミぶくろポケモン
+  heightMetres: 0.6
+  weightKilograms: 31
+  flavourText: 不衛生な 場所が 好き。 アローラでは よく ベトベターに 追いまわされる 姿を みかける。
+illustrators:
+  - Yuka Morii

@@ -1,0 +1,28 @@
+name: タネボー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 273
+  species: どんぐりポケモン
+  heightMetres: 0.5
+  weightKilograms: 4
+  flavourText: 頭の 先を 枝に くっつけて ぶら下がる。 強風に あおられ 落ちてしまう ことも あるのだ。
+rarity: C
+illustrators:
+  - Naoyo Kimura

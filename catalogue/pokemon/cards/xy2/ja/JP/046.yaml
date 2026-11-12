@@ -1,0 +1,38 @@
+name: マニューラ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。
+    - name: ツメでえぐる
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: ダメージを与えるとき、すでに相手のバトルポケモンにダメカンがのっているなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 461
+  species: かぎづめポケモン
+  heightMetres: 1.1
+  weightKilograms: 34
+  flavourText: 雪の 多い 地方に 生息。 樹木に ツメで サインを 描き 仲間に 合図を 送る。
+  evolvesFrom: ニューラ
+rarity: U
+illustrators:
+  - Shigenori Negishi

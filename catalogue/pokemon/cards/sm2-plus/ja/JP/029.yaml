@@ -1,0 +1,42 @@
+name: カイリキーGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: ふりおろす
+      cost:
+        - Fighting
+        - Fighting
+      damage: 60+
+      text: 相手のバトルポケモンが進化ポケモンなら、60ダメージ追加。
+    - name: がんばんくずし
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "130"
+      text: 場に出ているスタジアムをトラッシュする。
+    - name: マッスルパンチGX
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "180"
+      text: このワザのダメージは抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ゴーリキー
+rarity: RR
+illustrators:
+  - 5ban Graphics

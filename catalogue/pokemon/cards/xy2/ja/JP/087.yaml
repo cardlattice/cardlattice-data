@@ -1,0 +1,11 @@
+name: ポケモンだいすきクラブ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札からたねポケモンを2枚まで選び、相手に見せてから、手札に加える。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Emi Ando
