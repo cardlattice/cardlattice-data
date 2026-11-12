@@ -1,0 +1,34 @@
+name: Pikachu
+finishes:
+  - non-holo
+stamps:
+  - pikachu-tail
+illustrators:
+  - Ken Sugimori
+products:
+  - pokemon-product-pikachu-world-collection-2000
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Opnieuw opladen
+      cost:
+        - Lightning
+      text: Zoek in je deck naar een Lightning Energiekaart en hecht deze aan Pikachu.
+        Schud hierna je deck.
+    - name: Bliksemstraal
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "50"
+      text: Om deze aanval te kunnen gebruiken, moet je alle aan Pikachu gehechte
+        Energiekaarten weggooien.
+  abilities: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25

@@ -1,0 +1,17 @@
+name: Nidoran♂
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Hoorngevaar
+      cost:
+        - Grass
+      damage: "30"
+      text: Gooi een munt op. Als het munt is, doet deze aanval niets.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

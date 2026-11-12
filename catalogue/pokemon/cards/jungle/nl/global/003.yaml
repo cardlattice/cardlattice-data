@@ -1,0 +1,29 @@
+name: Flareon
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Snelle aanval
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Werp een munt op. Als het kop is, brengt deze aanval 10 schade toe plus
+        nog eens 20 schade; als het munt is, brengt deze aanval 10 schade toe.
+    - name: Vlammenwerper
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Flareon gehechte Fire
+        Energiekaart weggooien.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

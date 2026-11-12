@@ -1,0 +1,20 @@
+name: Ditto
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks: []
+  abilities:
+    - name: Transformeren
+      kind: Pokémon Power
+      text: Als Ditto je Actieve Pokémon is, behandel hem dan alsof hij dezelfde kaart
+        is als de Verdedigende Pokémon, inclusief type, Incasseringspunten,
+        Zwakte, enzovoort, behalve dat Ditto niet kan ontwikkelen, altijd deze
+        Pokémon-Kracht heeft, en je alle aan Ditto gehechte Energie mag
+        behandelen als Energie van elk type. Ditto is geen kopie van een andere
+        Pokémon terwijl Ditto In Slaap, Verward, of Verlamd is.
+rarity: Rare
+finishes:
+  - non-holo

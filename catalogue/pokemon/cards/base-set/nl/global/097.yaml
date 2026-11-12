@@ -1,0 +1,7 @@
+name: Energie
+pokemon:
+  category: energy
+  types:
+    - Fighting
+finishes:
+  - non-holo

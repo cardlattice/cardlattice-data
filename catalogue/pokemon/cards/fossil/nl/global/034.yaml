@@ -1,0 +1,29 @@
+name: Golbat
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Zubat
+  attacks:
+    - name: Vleugelaanval
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Onttrek leven
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Verwijder een aantal schadetellers van Golbat gelijk aan de schade die aan
+        de Verdedigende Pokémon is toegebracht (na het toepassen van Zwakte en
+        Weerstand). Als Golbat minder schadetellers heeft dan dat, verwijder ze
+        dan allemaal.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

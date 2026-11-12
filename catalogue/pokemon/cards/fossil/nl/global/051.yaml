@@ -1,0 +1,23 @@
+name: Krabby
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Roep om familie
+      cost:
+        - Water
+      text: Zoek in je deck voor een Basis-Pokémon genaamd Krabby en plaats deze op je
+        Bank. Schud daarna je deck. (Deze aanval kun je niet gebruiken als je
+        Bank vol is.)
+    - name: IJzeren greep
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

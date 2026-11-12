@@ -1,0 +1,23 @@
+name: Grimer
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Vies goedje
+      cost:
+        - Colorless
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Minimaliseer
+      cost:
+        - Grass
+      text: Alle schade die tijdens je tegenstanders volgende beurt aan Grimer wordt
+        toegebracht, wordt met 20 verminderd (na het toepassen van Zwakte en
+        Weerstand).
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

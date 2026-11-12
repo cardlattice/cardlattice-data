@@ -1,0 +1,18 @@
+name: Meowth
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Afrekening
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: Werp een munt op. Als het kop is, neem dan een kaart.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

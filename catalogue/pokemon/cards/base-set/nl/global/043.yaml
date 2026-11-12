@@ -1,0 +1,17 @@
+name: Abra
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Psyshock
+      cost:
+        - Psychic
+      damage: "10"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

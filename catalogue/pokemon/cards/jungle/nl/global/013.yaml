@@ -1,0 +1,26 @@
+name: Venomoth
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Venonat
+  attacks:
+    - name: Gifpoeder
+      cost:
+        - Grass
+        - Grass
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward en
+        Vergiftigd.
+  abilities:
+    - name: Veranderen
+      kind: Pokémon Power
+      text: Eenmaal tijdens je beurt (vóór je aanval), mag je het type van Venomoth
+        veranderen in het type van een andere Pokémon in het spel die niet
+        kleurloos is. Deze kracht kan niet worden gebruikt als Venomoth In
+        Slaap, Verward, of Verlamd is.
+rarity: Rare
+finishes:
+  - holo

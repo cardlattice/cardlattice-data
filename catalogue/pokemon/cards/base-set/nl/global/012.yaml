@@ -1,0 +1,28 @@
+name: Ninetales
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Vulpix
+  attacks:
+    - name: Verleiding
+      cost:
+        - Colorless
+        - Colorless
+      text: Als je tegenstander Pokémon op zijn Bank heeft, kies er daar dan 1 van en
+        verwissel deze met zijn actieve Pokémon.
+    - name: Vuurschot
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "80"
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Ninetales gehechte Fire
+        Energiekaart weggooien.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

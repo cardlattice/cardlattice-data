@@ -1,0 +1,30 @@
+name: Dragonair
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Dratini
+  attacks:
+    - name: Smijt
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Gooi 2 munten op. Deze aanval brengt 30 schade toe maal het aantal keren
+        kop.
+    - name: Hydrostraal
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Als aan de Verdedigende Pokémon Energiekaarten zijn gehecht, kies er daar
+        dan 1 van en gooi deze weg.
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

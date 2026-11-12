@@ -1,0 +1,30 @@
+name: Raichu
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Pikachu
+  attacks:
+    - name: Behendigheid
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Gooi een munt op. Als het kop is, voorkomt dit tijdens je tegenstanders
+        volgende beurt alle gevolgen van aanvallen, inclusief schade, die aan
+        Raichu worden toegebracht.
+    - name: Donder
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "60"
+      text: Gooi een munt op. Als het munt is, brengt Raichu zichzelf 30 schade toe.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

@@ -1,0 +1,28 @@
+name: Persian
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Meowth
+  attacks:
+    - name: Krab
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Uithaal
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Als de Verdedigende Pokémon Persian aanvalt tijdens je tegenstanders
+        volgende beurt, wordt alle door de aanval toegebrachte schade verminderd
+        met 10 (na het toepassen van Zwakte en Weerstand). (Het op de Bank
+        plaatsen van een van beide Pokémon beëindigt dit effect.)
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

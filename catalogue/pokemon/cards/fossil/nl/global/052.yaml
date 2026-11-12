@@ -1,0 +1,26 @@
+name: Omanyte
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Mysterieus Fossiel
+  attacks:
+    - name: Waterpistool
+      cost:
+        - Water
+      damage: 10+
+      text: Brengt 10 schade toe plus nog eens 10 schade voor elke aan Omanyte
+        gehechte Water Energie die niet wordt gebruikt om de energiekosten van
+        deze aanval te betalen. Je kunt op deze manier niet meer dan 20 schade
+        toevoegen.
+  abilities:
+    - name: Toekomst voorspellen
+      kind: Pokémon Power
+      text: Je tegenstander speelt met de afbeeldingen van de kaarten in zijn of haar
+        hand zichtbaar. Deze kracht stopt met werken zolang Omanyte In Slaap,
+        Verward, of Verlamd is.
+rarity: Common
+finishes:
+  - non-holo

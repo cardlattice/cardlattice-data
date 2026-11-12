@@ -1,0 +1,8 @@
+name: Professor Oak
+pokemon:
+  category: trainer
+  rules:
+    - Gooi je hand weg en pak 7 kaarten.
+rarity: Uncommon
+finishes:
+  - non-holo

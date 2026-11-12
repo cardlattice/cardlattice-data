@@ -1,0 +1,10 @@
+name: Pokémon-Kweker
+pokemon:
+  category: trainer
+  rules:
+    - Leg een Fase 2-Ontwikkelingskaart uit je hand op de bijbehorende
+      Basis-Pokémon of op de bijbehorende Fase 1 Pokémon. Je kunt deze kaart
+      alleen spelen als je die Pokémon toch al zou mogen ontwikkelen.
+rarity: Rare
+finishes:
+  - non-holo

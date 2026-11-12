@@ -1,0 +1,11 @@
+name: Dubbele kleurloze energie
+pokemon:
+  category: energy
+  types:
+    - Colorless
+  rules:
+    - Levert Colorless Colorless energie.
+    - Telt niet als een Basis-Energiekaart.
+rarity: Uncommon
+finishes:
+  - non-holo

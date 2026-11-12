@@ -1,0 +1,30 @@
+name: Articuno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Vriesdrogen
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "30"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Sneeuwstorm
+      cost:
+        - Water
+        - Water
+        - Water
+        - Water
+      damage: "50"
+      text: Werp een munt op. Als het kop is, brengt deze aanval 10 schade toe aan elk
+        van je tegenstanders Pokémon op de Bank. Als het munt is, brengt deze
+        aanval 10 schade toe aan elk van je eigen Pokémon op de Bank. (Zwakte en
+        Weerstand niet toepassen voor Pokémon op de Bank.)
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

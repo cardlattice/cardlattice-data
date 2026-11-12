@@ -1,0 +1,24 @@
+name: Rhyhorn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Lonk
+      cost:
+        - Colorless
+      text: Werp een munt op. Als het kop is, kan de Verdedigende Pokémon Rhyhorn niet
+        aanvallen tijdens je tegenstanders volgende beurt. (Het op de Bank
+        plaatsen van een van beide Pokémon beëindigt dit effect.)
+    - name: Hoornaanval
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

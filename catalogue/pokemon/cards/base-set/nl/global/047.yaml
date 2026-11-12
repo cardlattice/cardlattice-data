@@ -1,0 +1,21 @@
+name: Diglett
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Graaf
+      cost:
+        - Fighting
+      damage: "10"
+    - name: Modderklap
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

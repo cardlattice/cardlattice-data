@@ -1,0 +1,30 @@
+name: Golem
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Graveler
+  attacks:
+    - name: Lawine
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "60"
+    - name: Zelfvernietiging
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "100"
+      text: Brengt 20 schade toe aan elke Pokémon op de Bank van elke speler. (Zwakte
+        en Weerstand niet toepassen voor Pokémon op de Bank.) Golem brengt 100
+        schade toe aan zichzelf.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

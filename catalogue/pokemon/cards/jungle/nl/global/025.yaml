@@ -1,0 +1,25 @@
+name: Pinsir
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: IJzeren Greep
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Guillotine
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

@@ -1,0 +1,28 @@
+name: Charizard
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: Charmeleon
+  attacks:
+    - name: Vuurdraak
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "100"
+      text: Om deze aanval te kunnen gebruiken moet je 2 van de aan Charizard gehechte
+        Energiekaarten weggooien.
+  abilities:
+    - name: Energieverbranding
+      kind: Pokémon Power
+      text: Je mag zo vaak als je wilt tijdens je beurt (vóór je aanval) alle aan
+        Charizard gehechte energie in Fire Energie omzetten tijdens de rest van
+        je beurt. Deze kracht kan niet worden gebruikt als Charizard In Slaap,
+        Verward of Verlamd is.
+rarity: Rare
+finishes:
+  - holo

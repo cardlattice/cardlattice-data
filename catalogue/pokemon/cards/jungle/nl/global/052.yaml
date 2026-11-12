@@ -1,0 +1,23 @@
+name: Exeggcute
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Hypnose
+      cost:
+        - Psychic
+      text: De Verdedigende Pokémon is nu In Slaap.
+    - name: Onttrek IP
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Tenzij alle schade van deze aanval wordt voorkomen, mag je 1 schadeteller
+        van Exeggcute verwijderen.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

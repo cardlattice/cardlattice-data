@@ -1,0 +1,9 @@
+name: Detector
+pokemon:
+  category: trainer
+  rules:
+    - Gooi 2 andere kaarten uit je hand weg om een Trainerkaart uit je
+      weggooistapel in je hand te kunnen nemen.
+rarity: Rare
+finishes:
+  - non-holo

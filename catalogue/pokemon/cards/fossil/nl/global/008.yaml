@@ -1,0 +1,27 @@
+name: Hypno
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Drowzee
+  attacks:
+    - name: Voorspelling
+      cost:
+        - Psychic
+      text: Bekijk tot 3 kaarten van de bovenkant van het deck van elke speler en leg
+        ze in de volgorde die je wilt.
+    - name: Duistere geest
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "30"
+      text: Als je tegenstander Pokémon op de Bank heeft, kies er dan 1 van en deze
+        aanval brengt hem 10 schade toe. (Zwakte en Weerstand niet toepassen
+        voor Pokémon op de Bank.)
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

@@ -1,0 +1,19 @@
+name: Koffing
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Stinkgas
+      cost:
+        - Grass
+        - Grass
+      damage: "10"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu
+        Vergiftigd; als het munt is, is hij nu Verward.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

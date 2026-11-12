@@ -1,0 +1,17 @@
+name: Growlithe
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Steekvlam
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

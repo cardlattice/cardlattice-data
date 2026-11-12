@@ -1,0 +1,22 @@
+name: Hitmonchan
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Por
+      cost:
+        - Fighting
+      damage: "20"
+    - name: Speciale Stoot
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "40"
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

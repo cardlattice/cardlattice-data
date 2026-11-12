@@ -1,0 +1,26 @@
+name: Venusaur
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Ivysaur
+  attacks:
+    - name: Zonnestraal
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Grass
+      damage: "60"
+  abilities:
+    - name: Energietransfer
+      kind: Pokémon Power
+      text: Je mag zo vaak als je wilt tijdens je beurt (vóór je aanval) 1 Grass
+        Energiekaart pakken die gehecht is aan 1 van je Pokémon en hem aan een
+        andere Pokémon hechten. Deze kracht kan niet worden gebruikt als
+        Venusaur In Slaap, Verward of Verlamd is.
+rarity: Rare
+finishes:
+  - holo

@@ -1,0 +1,26 @@
+name: Moltres
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Lopend vuurtje
+      cost:
+        - Fire
+      text: Als je deze aanval gebruikt mag je een willekeurig aantal van de aan
+        Moltres gehechte Fire Energiekaarten weggooien. Als je dit doet, gooi
+        dan net zoveel kaarten weg van de bovenkant van je tegenstanders deck.
+    - name: Duikbom
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "80"
+      text: Werp een munt op. Als het munt is, doet deze aanval niets.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

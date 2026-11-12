@@ -1,0 +1,10 @@
+name: Pokémon-Fluit
+pokemon:
+  category: trainer
+  rules:
+    - Kies 1 Basis-Pokémon-kaart uit je tegenstanders weggooistapel en leg hem
+      op zijn of haar Bank. (Je kunt Pokémon-Fluit niet spelen als de Bank van
+      je tegenstander vol is.)
+rarity: Uncommon
+finishes:
+  - non-holo

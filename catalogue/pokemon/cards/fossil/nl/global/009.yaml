@@ -1,0 +1,29 @@
+name: Kabutops
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Kabuto
+  attacks:
+    - name: Scherpe Sikkel
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+    - name: Absorbeer
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "40"
+      text: Verwijder een aantal schadetellers van Kabutops gelijk aan de helft van de
+        schade toegebracht aan de Verdedigende Pokémon (na het toepassen van
+        Zwakte en Weerstand) (afgerond naar de dichtstbijzijnde 10). Als
+        Kabutops minder schadetellers heeft dan dat, verwijder ze dan allemaal.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

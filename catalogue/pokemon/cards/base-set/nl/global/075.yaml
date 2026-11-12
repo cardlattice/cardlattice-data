@@ -1,0 +1,9 @@
+name: Meisje
+pokemon:
+  category: trainer
+  rules:
+    - Jij en je tegenstander laten elkaar je hand zien, en schudden dan alle
+      Trainerkaarten in jullie hand door jullie deck heen.
+rarity: Rare
+finishes:
+  - non-holo

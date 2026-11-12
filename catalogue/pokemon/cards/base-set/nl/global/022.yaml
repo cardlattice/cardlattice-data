@@ -1,0 +1,29 @@
+name: Pidgeotto
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Pidgey
+  attacks:
+    - name: Wervelwind
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Als je tegenstander Pokémon op zijn Bank heeft, kiest hij of zij daar 1
+        van en verwisselt deze met de Verdedigende Pokémon. (Breng de schade toe
+        vóór het verwisselen van de Pokémon.)
+    - name: Spiegel
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Als Pidgeotto tijdens de laatste beurt is aangevallen, breng dan het
+        uiteindelijke resultaat van die aanval op Pidgeotto toe aan de
+        Verdedigende Pokémon.
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

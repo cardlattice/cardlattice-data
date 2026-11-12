@@ -1,0 +1,21 @@
+name: Magikarp
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Spartelen
+      cost:
+        - Water
+      damage: 10×
+      text: Brengt 10 schade toe maal het aantal schadetellers op Magikarp.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

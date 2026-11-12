@@ -1,0 +1,26 @@
+name: Farfetch’d
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Preiklap
+      cost:
+        - Colorless
+      damage: "30"
+      text: Gooi een munt op. Als het munt is, doet deze aanval niets. Hoe dan ook kun
+        je deze aanval niet meer gebruiken zolang Farfetch’d in het spel blijft
+        (zelfs als je Farfetch’d op de Bank zet, kun je hem niet meer
+        gebruiken).
+    - name: Pottedreun
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

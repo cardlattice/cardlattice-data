@@ -1,0 +1,29 @@
+name: Beedrill
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Kakuna
+  attacks:
+    - name: Dubbelnaald
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Gooi 2 munten op. Deze aanval brengt 30 schade toe maal het aantal keren
+        kop.
+    - name: Gifangel
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "40"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu
+        Vergiftigd.
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

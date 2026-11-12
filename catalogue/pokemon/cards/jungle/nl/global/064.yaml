@@ -1,0 +1,10 @@
+name: PokéBal
+pokemon:
+  category: trainer
+  rules:
+    - Werp een munt op. Als het kop is, mag je in je deck zoeken naar een
+      Basis-Pokémon of een Ontwikkelingskaart. Laat die kaart aan je
+      tegenstander zien en stop hem dan in je hand. Schud hierna je deck.
+rarity: Common
+finishes:
+  - non-holo

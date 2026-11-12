@@ -1,0 +1,16 @@
+name: Rattata
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Beet
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo
