@@ -1,0 +1,26 @@
+name: 따라큐
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 고스트아이
+      cost:
+        - Psychic
+        - Colorless
+      text: 상대의 배틀 포켓몬에게 데미지 카운터를 7개 올린다.
+  abilities:
+    - name: 신비의부적
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 ex・V」로부터 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 볕이 들지 않는 어두운 곳에 산다. 사람들 앞에 나타날 때는 피카츄를 본뜬 천으로 온몸을 가린다.
+  resistances: []
+illustrators:
+  - Mitsuhiro Arita
+rarity: AR

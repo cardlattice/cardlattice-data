@@ -1,0 +1,31 @@
+name: 어리짱
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 고철줍기
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 아이템을 1장 선택해서 상대에게 보여주고 패로 가져온다.
+    - name: 요정의바람
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 손수 만든 해머를 휘둘러 몸을 지키려 하나 금속을 먹는 포켓몬에게 자주 빼앗기고 만다.
+  nationalDex:
+    - 957
+  species: 대장장이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 8.9
+  resistances: []
+illustrators:
+  - Shibuzoh.

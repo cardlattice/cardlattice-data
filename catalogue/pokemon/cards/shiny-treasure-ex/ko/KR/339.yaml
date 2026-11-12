@@ -1,0 +1,29 @@
+name: 돌핀맨
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 제트펀치
+      cost:
+        - Water
+      damage: "30"
+      text: 상대의 벤치 포켓몬 1마리에게도 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 저스티스킥
+      cost:
+        - Water
+        - Water
+      damage: "210"
+      text: 이 차례에 이 포켓몬이 벤치에서 배틀필드로 나오지 않았다면 이 기술은 실패한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 태고의 유전자가 각성했다. 한쪽 지느러미로 크루즈선도 가볍게 들어 올리는 괴력의 소유자.
+  evolvesFrom: 맨돌핀
+  resistances: []
+illustrators:
+  - akagi
+rarity: AR

@@ -1,0 +1,32 @@
+name: 바우첼
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 머리박치기
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities:
+    - name: 노릇노릇바디
+      kind: Ability
+      text: 이 포켓몬은 상대의 {Fire} 포켓몬으로부터 기술의 데미지를 받지 않고 화상이 되지 않는다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 몸에서 나는 좋은 향기가 밀의 성장을 돕기 때문에 농촌에서 소중히 여겨진다.
+  nationalDex:
+    - 927
+  species: 개포켓몬
+  heightMetres: 0.5
+  weightKilograms: 14.9
+  evolvesFrom: 쫀도기
+  resistances: []
+illustrators:
+  - You Iribi

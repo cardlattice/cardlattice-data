@@ -1,0 +1,29 @@
+name: 피죤
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 홰치기
+      cost:
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  flavourText: 넓은 영역을 가지고 있어 침입한 방해자는 철저하게 쪼아버린다.
+  nationalDex:
+    - 17
+  species: 새포켓몬
+  heightMetres: 1.1
+  weightKilograms: 30
+  evolvesFrom: 구구
+  retreatCost: 0
+illustrators:
+  - Kouki Saitou
+rarity: S

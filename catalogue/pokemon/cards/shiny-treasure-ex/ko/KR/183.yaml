@@ -1,0 +1,10 @@
+name: 레슨 스튜디오
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 서로의 1진화 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+10」이 된다.
+    - 스타디움은 자신의 차례에 1장 배틀필드 옆에 내놓을 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래쉬한다. 같은 이름의 스타디움은 필드에 내보낼 수 없다.
+illustrators:
+  - AYUMI ODASHIMA

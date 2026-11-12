@@ -1,0 +1,33 @@
+name: 총지엔 ex
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 갈망의덩굴
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      text: 상대의 벤치 포켓몬 1마리에게 상대가 이미 가져간 프라이즈의 장수 × 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 포레스트번
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: "220"
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 4
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR

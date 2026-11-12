@@ -1,0 +1,32 @@
+name: 라우드본 ex
+pokemon:
+  category: pokemon
+  hp: 340
+  types:
+    - Fire
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 활력의노래
+      cost:
+        - Fire
+      damage: "50"
+      text: 자신의 포켓몬 전원의 HP를 각각 「30」회복한다.
+    - name: 버닝보이스
+      cost:
+        - Fire
+        - Fire
+      damage: 270-
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지만큼 이 기술의 데미지는 작아진다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 악뜨거
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR

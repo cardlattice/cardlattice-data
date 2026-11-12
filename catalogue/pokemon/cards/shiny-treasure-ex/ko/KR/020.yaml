@@ -1,0 +1,31 @@
+name: 캡싸이
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 매워지기
+      cost:
+        - Colorless
+      text: 자신의 덱에서 「기본 {Fire} 에너지」를 1장 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+    - name: 개구쟁이킥
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 팔데아의 향토 요리에는 떨어져 나온 캡싸이의 앞니가 쓰이기 때문에 불같이 맵다.
+  nationalDex:
+    - 951
+  species: 하바네로포켓몬
+  heightMetres: 0.3
+  weightKilograms: 3
+  resistances: []
+illustrators:
+  - GIDORA

@@ -1,0 +1,37 @@
+name: 킬리아
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 매지컬숏
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+    - name: 사이코키네시스
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: 60+
+      text: 상대의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 추가한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 사이코 파워를 조작해 주변의 공간을 일그러뜨려 미래를 내다볼 수 있다.
+  nationalDex:
+    - 281
+  species: 감정포켓몬
+  heightMetres: 0.8
+  weightKilograms: 20.2
+  evolvesFrom: 랄토스
+illustrators:
+  - Ryuta Fuse
+rarity: S

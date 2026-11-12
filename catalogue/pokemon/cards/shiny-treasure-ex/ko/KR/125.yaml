@@ -1,0 +1,26 @@
+name: 오라티프
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 덮치기
+      cost:
+        - Darkness
+      damage: 10+
+      text: 동전을 1번 던져서 앞면이 나오면 20데미지를 추가한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 상대에게 얕보이지 않기 위해 항상 얼굴을 찌푸리고 있지만 우는 아이는 그 모습을 보고 웃게 된다.
+  nationalDex:
+    - 942
+  species: 애송이포켓몬
+  heightMetres: 0.5
+  weightKilograms: 16
+  resistances: []
+illustrators:
+  - DOM

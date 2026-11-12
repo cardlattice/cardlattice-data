@@ -1,0 +1,34 @@
+name: 찌리비크
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 단결썬더
+      cost:
+        - Colorless
+      text: 상대의 벤치 포켓몬 1마리에게 자신의 트래쉬에 있는 기술 「단결날개」를 가진 포켓몬의 장수 × 10데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 스피드윙
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "90"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  flavourText: 목의 주머니를 부풀려서 전기를 증폭시킨다. 바람을 타고 하루에 700km를 비행할 수 있다.
+  nationalDex:
+    - 941
+  species: 군함조포켓몬
+  heightMetres: 1.4
+  weightKilograms: 38.6
+  evolvesFrom: 찌리비
+  retreatCost: 0
+illustrators:
+  - AKIRA EGAWA

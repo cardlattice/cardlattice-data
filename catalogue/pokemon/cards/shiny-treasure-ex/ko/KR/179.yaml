@@ -1,0 +1,11 @@
+name: 테사
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드를 사용한 차례가 끝날 때까지 자신의 포켓몬 전원은 기술을 사용할 수 없다. (새로 필드에 내보낸 포켓몬도 포함.) 자신의 덱에서 기본 에너지를 2장까지 선택해서
+      자신의 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - kirisAki

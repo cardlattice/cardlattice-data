@@ -1,0 +1,32 @@
+name: 웨이니발 ex
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 익사이팅삼바
+      cost:
+        - Water
+      damage: "60"
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다. 그 뒤, 상대는 상대 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다.
+    - name: 스크루슛
+      cost:
+        - Water
+        - Colorless
+      damage: "230"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 패로 되돌린다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 아꾸왁
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR

@@ -1,0 +1,33 @@
+name: 잠만보
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 철퍼덕프레스
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  abilities:
+    - name: 식탐
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 「먹다남은음식」을 2장까지 선택해서 상대에게 보여주고 패로 가져온다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 4
+  flavourText: 위장이 튼튼해서 곰팡이가 피거나 썩은 것을 먹어도 배탈이 나지 않는다.
+  nationalDex:
+    - 143
+  species: 졸음포켓몬
+  heightMetres: 2.1
+  weightKilograms: 460
+  resistances: []
+illustrators:
+  - Shigenori Negishi
+rarity: S

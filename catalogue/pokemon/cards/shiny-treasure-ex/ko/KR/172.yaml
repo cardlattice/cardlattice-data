@@ -1,0 +1,10 @@
+name: 모란
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 필드의 기본 포켓몬을 1마리 선택해서 그 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - yuu

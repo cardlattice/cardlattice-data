@@ -1,0 +1,26 @@
+name: 흉내내
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 흉내흉내놀이
+      cost: []
+      text: 상대는 상대 자신의 필드의 포켓몬이 가지고 있는 기술을 1개 선택한다. 선택된 기술을 이 기술로써 사용한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  flavourText: 상대의 움직임을 똑같이 흉내 내어 당황한 사이에 재빨리 도망친다.
+  nationalDex:
+    - 439
+  species: 따라하기포켓몬
+  heightMetres: 0.6
+  weightKilograms: 13
+  retreatCost: 0
+illustrators:
+  - HYOGONOSUKE

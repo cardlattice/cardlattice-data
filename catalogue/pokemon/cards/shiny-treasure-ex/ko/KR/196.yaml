@@ -1,0 +1,32 @@
+name: 두코
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 꽃의바람
+      cost:
+        - Grass
+      damage: "30"
+      text: 상대의 벤치 포켓몬 1마리에게도 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 둥둥 회피하기
+      kind: Ability
+      text: 이 포켓몬이 기술의 데미지를 받을 때 자신은 동전을 1번 던진다. 앞면이 나오면 이 포켓몬은 그 데미지를 받지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 두코 마니아들은 머리에 달린 꽃에서 나는 향기로 어디서 태어났는지를 알 수 있다고 한다.
+  nationalDex:
+    - 188
+  species: 솜풀포켓몬
+  heightMetres: 0.6
+  weightKilograms: 1
+  evolvesFrom: 통통코
+  resistances: []
+illustrators:
+  - Mizue
+rarity: S

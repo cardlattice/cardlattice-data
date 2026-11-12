@@ -1,0 +1,32 @@
+name: 럭시오
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 일렉트릭킥
+      cost:
+        - Lightning
+      damage: "30"
+    - name: 헤드볼트
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "60"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 날카로운 발톱의 끝에는 강한 전기가 흐르고 있어서 살짝 스치는 것만으로 상대를 기절시킨다.
+  nationalDex:
+    - 404
+  species: 전광포켓몬
+  heightMetres: 0.9
+  weightKilograms: 30.5
+  evolvesFrom: 꼬링크
+  resistances: []
+illustrators:
+  - Narumi Sato

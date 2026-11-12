@@ -1,0 +1,34 @@
+name: 팔데아 켄타로스
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 분노의뿔
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다.
+    - name: 블레이즈대시
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 고온의 콧김을 불어 대는 까닭에 블레이즈종이라는 이름이 붙었다. 세 개의 꼬리를 한데 묶고 있다.
+  nationalDex:
+    - 128
+  species: 성난소포켓몬
+  heightMetres: 1.4
+  weightKilograms: 85
+  resistances: []
+illustrators:
+  - AKIRA EGAWA

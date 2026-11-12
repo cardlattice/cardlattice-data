@@ -1,0 +1,32 @@
+name: 시비꼬 ex
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 기합넣기
+      cost:
+        - Colorless
+      damage: "20"
+      text: 자신의 트래쉬에서 기본 에너지를 2장까지 선택해서 벤치 포켓몬 1마리에게 붙인다.
+  abilities:
+    - name: 시비 테이크
+      kind: Ability
+      text: 자신의 첫 번째 차례에만 1번 사용할 수 있다. 자신의 패를 모두 트래쉬하고 덱을 6장 뽑는다. 이 차례에 이미 다른 「시비 테이크」를 사용했다면 이 특성은 사용할 수
+        없다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - PLANETA Mochizuki
+rarity: RR

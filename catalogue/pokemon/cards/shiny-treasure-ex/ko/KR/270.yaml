@@ -1,0 +1,30 @@
+name: 하느라기
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 염동력
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 배의 하늘하늘한 부분에서 나오는 사이코 파워를 통해, 겨우 1cm지만 발끝이 지상에 떠 있다.
+  nationalDex:
+    - 955
+  species: 프릴포켓몬
+  heightMetres: 0.2
+  weightKilograms: 1.5
+illustrators:
+  - Kyoko Umemoto
+rarity: S

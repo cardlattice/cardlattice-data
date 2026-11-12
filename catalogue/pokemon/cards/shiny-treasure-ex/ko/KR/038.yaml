@@ -1,0 +1,27 @@
+name: 별가사리
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 스피드스타
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: 이 기술의 데미지는 약점, 저항력과 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 물고기포켓몬에게 물리곤 하지만 몸이 찢겨도 금방 재생되기 때문에 신경 쓰지 않는다.
+  nationalDex:
+    - 120
+  species: 별포켓몬
+  heightMetres: 0.8
+  weightKilograms: 34.5
+  resistances: []
+illustrators:
+  - Arai Kiriko

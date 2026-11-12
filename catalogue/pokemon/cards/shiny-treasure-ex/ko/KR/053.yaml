@@ -1,0 +1,32 @@
+name: 드닐레이브
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: 버스터테일
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: 극저온
+      kind: Ability
+      text: 자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 패에서 「기본 {Water} 에너지」를 1장 선택해서 자신의 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 극저온의 냉기를 입에서 분사한다. 작열하는 마그마조차도 순식간에 얼려 버린다.
+  nationalDex:
+    - 998
+  species: 빙룡포켓몬
+  heightMetres: 2.1
+  weightKilograms: 210
+  evolvesFrom: 드니꽁
+  resistances: []
+illustrators:
+  - Oswaldo KATO

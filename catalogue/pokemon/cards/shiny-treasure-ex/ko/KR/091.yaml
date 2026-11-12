@@ -1,0 +1,37 @@
+name: 파라블레이즈
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 라이프서커
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 이 포켓몬의 HP를 「30」회복한다.
+    - name: 투사의대검
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 상대의 배틀 포켓몬이 「포켓몬 ex・V」라면 100데미지를 추가한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 양팔의 불꽃 검은 뜻을 다 이루지 못한 채 스러진 검사의 원념에 의해 타오르고 있다.
+  nationalDex:
+    - 937
+  species: 불의검사포켓몬
+  heightMetres: 1.6
+  weightKilograms: 62
+  evolvesFrom: 카르본
+illustrators:
+  - Ryota Murayama

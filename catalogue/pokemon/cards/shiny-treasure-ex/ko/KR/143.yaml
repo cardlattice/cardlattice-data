@@ -1,0 +1,33 @@
+name: 두트리오
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 분노의부리
+      cost:
+        - Colorless
+      damage: 10+
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 30데미지를 추가한다.
+  abilities:
+    - name: 폭주 드로
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 이 포켓몬에게 데미지 카운터를 1개 올린다. 그 뒤, 자신의 덱을 1장 뽑는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 좀처럼 발견하기 힘든 진귀한 종이다. 3개의 머리는 기쁨, 슬픔, 분노의 감정을 나타낸다.
+  nationalDex:
+    - 85
+  species: 세쌍둥이새포켓몬
+  heightMetres: 1.8
+  weightKilograms: 85.2
+  evolvesFrom: 두두
+illustrators:
+  - Anesaki Dynamic

@@ -1,0 +1,27 @@
+name: 뚜벅쵸
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 잎날가르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 낮에는 태양을 피하기 위해 차가운 땅속에 들어가 있다. 달빛을 쬐어 성장한다.
+  nationalDex:
+    - 43
+  species: 잡초포켓몬
+  heightMetres: 0.5
+  weightKilograms: 5.4
+  resistances: []
+illustrators:
+  - otumami
+rarity: S

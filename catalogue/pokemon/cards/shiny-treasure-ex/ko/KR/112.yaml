@@ -1,0 +1,33 @@
+name: 위대한엄니 ex
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - ex
+    - Ancient
+  attacks:
+    - name: 그레이트배시
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "260"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+  abilities:
+    - name: 휘저어 부수기
+      kind: Ability
+      text: 자신의 차례의 마지막에 이 포켓몬이 배틀필드에 있다면 반드시 1번 사용한다. 자신의 덱을 위에서부터 5장 트래쉬한다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 4
+  resistances: []
+illustrators:
+  - kawayoo
+rarity: RR

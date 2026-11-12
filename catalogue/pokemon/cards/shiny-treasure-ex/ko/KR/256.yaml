@@ -1,0 +1,29 @@
+name: 네이티
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 삼연속찌르기
+      cost:
+        - Psychic
+      damage: 10×
+      text: 동전을 3번 던져서 앞면이 나온 수 × 10데미지를 준다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 날개가 아직 잘 발달하지 못해서 점프하듯 이동한다. 항상 뭔가를 바라보고 있다.
+  nationalDex:
+    - 177
+  species: 아기새포켓몬
+  heightMetres: 0.2
+  weightKilograms: 2
+illustrators:
+  - sowsow
+rarity: S

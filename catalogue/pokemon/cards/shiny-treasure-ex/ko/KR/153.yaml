@@ -1,0 +1,32 @@
+name: 파밀리쥐
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 뺨치기
+      cost:
+        - Colorless
+      damage: "40"
+    - name: 패밀리어택
+      cost:
+        - Colorless
+        - Colorless
+      damage: 70×
+      text: 자신의 필드의 「파밀리쥐」의 수 × 70데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 큰 두 마리가 아이들을 지키며 싸운다. 강한 상대에게는 모두가 맞서 싸운다.
+  nationalDex:
+    - 925
+  species: 패밀리포켓몬
+  heightMetres: 0.3
+  weightKilograms: 2.8
+  evolvesFrom: 두리쥐
+  resistances: []
+illustrators:
+  - KIYOTAKA OSHIYAMA

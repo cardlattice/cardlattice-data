@@ -1,0 +1,30 @@
+name: 나오하
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 햇살모으기
+      cost:
+        - Grass
+      text: 자신의 덱에서 기본 에너지를 2장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 씨폭탄
+      cost:
+        - Grass
+      damage: "10"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 복슬복슬한 털은 식물에 가까운 성분으로 이루어져 있다. 수시로 세수를 하면서 건조해지는 것을 방지한다.
+  nationalDex:
+    - 906
+  species: 풀고양이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 4.1
+  resistances: []
+illustrators:
+  - kurumitsu
+rarity: S

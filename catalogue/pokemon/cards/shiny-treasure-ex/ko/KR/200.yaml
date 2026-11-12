@@ -1,0 +1,33 @@
+name: 눈설왕
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 매그넘펀치
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "110"
+  abilities:
+    - name: 얼어붙는 재앙
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 서로의 포켓몬 전원의 HP는 회복되지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 만년설이 쌓인 산맥에서 조용히 지낸다. 블리자드를 발생시켜 모습을 감춘다.
+  nationalDex:
+    - 460
+  species: 얼음나무포켓몬
+  heightMetres: 2.2
+  weightKilograms: 135.5
+  evolvesFrom: 눈쓰개
+  resistances: []
+illustrators:
+  - Hitoshi Ariga
+rarity: S

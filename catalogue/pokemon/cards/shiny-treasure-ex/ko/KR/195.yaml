@@ -1,0 +1,27 @@
+name: 통통코
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 튀어올라 피하기
+      cost:
+        - Grass
+      damage: "10"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 바람을 타고 상당히 먼 거리를 이동한다. 팔데아의 통통코가 어디서 온 것인지는 확실히 밝혀진 것이 없다.
+  nationalDex:
+    - 187
+  species: 솜풀포켓몬
+  heightMetres: 0.4
+  weightKilograms: 0.5
+  resistances: []
+illustrators:
+  - Saya Tsuruta
+rarity: S

@@ -1,0 +1,32 @@
+name: 악뜨거
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 불토하기
+      cost:
+        - Fire
+      damage: "30"
+    - name: 하이퍼보이스
+      cost:
+        - Fire
+        - Fire
+      damage: "70"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  flavourText: 불꽃 에너지와 남아도는 생명력이 섞여서 머리 위에 알 모양의 불덩이가 생겨났다.
+  nationalDex:
+    - 910
+  species: 불꽃악어포켓몬
+  heightMetres: 1
+  weightKilograms: 30.7
+  evolvesFrom: 뜨아거
+  resistances: []
+illustrators:
+  - Hideki Ishikawa
+rarity: S

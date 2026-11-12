@@ -1,0 +1,31 @@
+name: 리오르
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 펀치
+      cost:
+        - Fighting
+      damage: "10"
+    - name: 돌격
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+      text: 이 포켓몬에게도 20데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 파동을 내서 동료끼리 의사소통을 한다. 밤새도록 계속 달릴 수 있다.
+  nationalDex:
+    - 447
+  species: 파문포켓몬
+  heightMetres: 0.7
+  weightKilograms: 20.2
+  resistances: []
+illustrators:
+  - chibi

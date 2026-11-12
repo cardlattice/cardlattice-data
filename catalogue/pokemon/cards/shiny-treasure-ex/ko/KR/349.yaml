@@ -1,0 +1,34 @@
+name: 리자몽 ex
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Darkness
+  stage: Stage 2
+  subtypes:
+    - ex
+    - Tera
+  attacks:
+    - name: 버닝다크
+      cost:
+        - Fire
+        - Fire
+      damage: 180+
+      text: 상대가 이미 가져간 프라이즈의 장수 × 30데미지를 추가한다.
+  abilities:
+    - name: 연옥 지배
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱에서 「기본 {Fire} 에너지」를 3장까지 선택해서 자신의 포켓몬에게 원하는 대로
+        붙인다. 그리고 덱을 섞는다.
+  rules:
+    - 이 포켓몬은 벤치에 있는 한, 기술의 데미지를 받지 않는다.
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 리자드
+  resistances: []
+illustrators:
+  - AKIRA EGAWA
+rarity: SAR

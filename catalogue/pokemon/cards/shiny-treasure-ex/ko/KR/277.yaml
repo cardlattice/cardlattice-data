@@ -1,0 +1,28 @@
+name: 성원숭
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 난동펀치
+      cost:
+        - Fighting
+      damage: "70"
+      text: 이 포켓몬에게도 20데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 어느 연구자의 학설에 의하면 몬스터볼 안에서도 성원숭은 화나 있다는 듯하다.
+  nationalDex:
+    - 57
+  species: 돈숭이포켓몬
+  heightMetres: 1
+  weightKilograms: 32
+  evolvesFrom: 망키
+  resistances: []
+illustrators:
+  - Scav
+rarity: S

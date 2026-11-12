@@ -1,0 +1,33 @@
+name: 두드리짱
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: 스페셜해머
+      cost:
+        - Psychic
+        - Colorless
+      damage: 90+
+      text: 이 포켓몬에게 특수 에너지가 붙어 있다면 90데미지를 추가한다.
+  abilities:
+    - name: 소재 모으기
+      kind: Ability
+      text: 자신의 차례에 자신의 패를 1장 트래쉬한다면 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 지능이 높고 매우 호쾌하다. 해머로 바위를 날려서 하늘을 나는 아머까오를 노린다.
+  nationalDex:
+    - 959
+  species: 해머포켓몬
+  heightMetres: 0.7
+  weightKilograms: 112.8
+  evolvesFrom: 벼리짱
+  resistances: []
+illustrators:
+  - Kagemaru Himeno
+rarity: S

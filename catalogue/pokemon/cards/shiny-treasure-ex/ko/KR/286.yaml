@@ -1,0 +1,26 @@
+name: 초롱순
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 각성
+      cost:
+        - Fighting
+      text: 이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장 선택해서 이 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 동굴의 벽에서 영양분을 흡수한다. 독의 결정으로 만들어진 꽃잎을 몸에 두르고 있다.
+  nationalDex:
+    - 969
+  species: 광석포켓몬
+  heightMetres: 0.7
+  weightKilograms: 8
+  resistances: []
+illustrators:
+  - nagimiso
+rarity: S

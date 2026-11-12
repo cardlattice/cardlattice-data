@@ -1,0 +1,35 @@
+name: 가디안 ex
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Psychic
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 미라클포스
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "190"
+      text: 이 포켓몬의 특수 상태를 모두 회복한다.
+  abilities:
+    - name: 사이코 임브레이스
+      kind: Ability
+      text: 자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 트래쉬에서 「기본 {Psychic} 에너지」를 1장 선택해서 자신의 {Psychic} 포켓몬에게 붙인다. 그 뒤,
+        붙인 포켓몬에게 데미지 카운터를 2개 올린다. (기절하는 포켓몬에게 이 특성은 사용할 수 없다.)
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: 킬리아
+illustrators:
+  - Kuroimori
+rarity: SAR

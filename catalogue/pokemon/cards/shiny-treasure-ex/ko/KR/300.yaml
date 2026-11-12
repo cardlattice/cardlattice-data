@@ -1,0 +1,33 @@
+name: 부르롱
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 증속하기
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 기본 에너지를 2장까지 선택해서 상대에게 보여주고 패로 가져온다.
+    - name: 박치기
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  flavourText: 고철 처리장에 방치된 엔진에 정체불명의 독포켓몬이 들어가 탄생한 것으로 전해지고 있다.
+  nationalDex:
+    - 965
+  species: 단기통포켓몬
+  heightMetres: 1
+  weightKilograms: 35
+illustrators:
+  - Masakazu Fukuda
+rarity: S

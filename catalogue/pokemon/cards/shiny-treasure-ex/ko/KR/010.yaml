@@ -1,0 +1,26 @@
+name: 눈쓰개
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 쥐어박기
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 추운 계절에는 산기슭까지 내려오지만 봄이 되면 눈이 남아 있는 산 정상으로 돌아간다.
+  nationalDex:
+    - 459
+  species: 얼음나무포켓몬
+  heightMetres: 1
+  weightKilograms: 50.5
+  resistances: []
+illustrators:
+  - Taira Akitsu

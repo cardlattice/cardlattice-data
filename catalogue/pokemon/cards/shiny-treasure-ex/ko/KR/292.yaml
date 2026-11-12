@@ -1,0 +1,31 @@
+name: 자망칼
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 할퀴기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 궤찌르기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 강한 상대에게도 겁먹지 않고 덤빈다. 여차하면 상대에게 달라붙어서 몸에 달린 칼날로 찌른다.
+  nationalDex:
+    - 624
+  species: 날붙이포켓몬
+  heightMetres: 0.5
+  weightKilograms: 10.2
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+rarity: S

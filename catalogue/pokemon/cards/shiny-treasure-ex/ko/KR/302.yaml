@@ -1,0 +1,25 @@
+name: 음뱃
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 바람일으키기
+      cost:
+        - Psychic
+        - Darkness
+      damage: "40"
+  retreatCost: 1
+  flavourText: 큰 귀로 초음파를 내보내서 먹이인 과일을 찾는다. 과사삭벌레를 먹이로 착각하기도 한다.
+  nationalDex:
+    - 714
+  species: 음파포켓몬
+  heightMetres: 0.5
+  weightKilograms: 8
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Nelnal
+rarity: S

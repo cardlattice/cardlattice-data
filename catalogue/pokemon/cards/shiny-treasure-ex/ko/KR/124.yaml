@@ -1,0 +1,32 @@
+name: 대도각참
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: 반토막내기
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "160"
+  abilities:
+    - name: 통솔력
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 기본 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+30」이 된다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 큰 군세의 정점에 올라선 단 한 마리의 절각참만이 대도각참으로 진화할 수 있다.
+  nationalDex:
+    - 983
+  species: 대도포켓몬
+  heightMetres: 2
+  weightKilograms: 120
+  evolvesFrom: 절각참
+  resistances: []
+illustrators:
+  - Anesaki Dynamic

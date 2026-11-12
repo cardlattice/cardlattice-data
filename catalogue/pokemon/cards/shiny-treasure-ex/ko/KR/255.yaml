@@ -1,0 +1,25 @@
+name: 삐
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 잼잼드로
+      cost: []
+      text: 자신의 패가 7장이 되도록 덱을 뽑는다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  flavourText: 실루엣이 별 모양이다. 그 때문에 별똥별을 타고 온다고 여겨진다.
+  nationalDex:
+    - 173
+  species: 별포켓몬
+  heightMetres: 0.3
+  weightKilograms: 3
+  retreatCost: 0
+  resistances: []
+illustrators:
+  - Mizue
+rarity: S

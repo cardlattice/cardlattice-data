@@ -1,0 +1,10 @@
+name: 네르케
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 상대의 패를 보고 그 중에 있는 서포트의 장수 × 2장만큼 자신의 덱을 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - GOSSAN

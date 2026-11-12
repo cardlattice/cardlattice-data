@@ -1,0 +1,32 @@
+name: 푸린
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 인도하기
+      cost:
+        - Colorless
+      text: 자신의 덱에서 서포트를 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 꾸욱꾸욱
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 동전을 2번 던져서 앞면이 나온 수 × 20데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 초롱초롱한 눈동자가 흔들릴 때 졸음이 쏟아지게 하는 이상하고 기분 좋은 노래를 부른다.
+  nationalDex:
+    - 39
+  species: 풍선포켓몬
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+rarity: S

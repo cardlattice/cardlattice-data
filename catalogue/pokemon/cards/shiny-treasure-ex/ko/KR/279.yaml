@@ -1,0 +1,35 @@
+name: 팔데아 켄타로스
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 분노의뿔
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다.
+    - name: 컴뱃태클
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 두껍고도 강한 근육과 사나운 성질이 특징이다. 컴뱃종이라고 불린다.
+  nationalDex:
+    - 128
+  species: 성난소포켓몬
+  heightMetres: 1.4
+  weightKilograms: 115
+  resistances: []
+illustrators:
+  - nagimiso
+rarity: S
