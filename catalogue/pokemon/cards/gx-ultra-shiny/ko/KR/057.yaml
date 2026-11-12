@@ -1,0 +1,35 @@
+name: 지가르데
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 뱀눈초리
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+    - name: 컴스트라이크
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 자신이 이미 GX 기술을 사용했다면 60데미지를 추가한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 생태계를 감시하고 있다고 여겨지고 있다. 더 큰 힘을 숨기고 있다는 소문이다.
+  nationalDex:
+    - 718
+  species: 질서포켓몬
+  heightMetres: 5
+  weightKilograms: 305
+  resistances: []
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: B

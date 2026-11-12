@@ -1,0 +1,36 @@
+name: 브리무음 VMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Psychic
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 거다이천벌
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 상대의 배틀 포켓몬을 혼란으로 만든다.
+  abilities:
+    - name: 마녀의 영역
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 필드의 포켓몬에게 올려져 있는 데미지 카운터를 2개까지 선택해서 상대의 배틀 포켓몬에게 올린다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: 브리무음 V
+illustrators:
+  - 5ban Graphics
+rarity: RRR
+regulationMark: F

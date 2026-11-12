@@ -1,0 +1,26 @@
+name: 일레즌
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 가벼운돌입
+      cost:
+        - Lightning
+      damage: "30"
+      text: 이 포켓몬에게도 10데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 오염된 물을 마셔도 끄떡없다. 체내의 기관에서 자신에게는 무해한 독액으로 걸러 내기 때문이다.
+  nationalDex:
+    - 848
+  species: 젖먹이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 11
+  resistances: []
+illustrators:
+  - AKIRA EGAWA

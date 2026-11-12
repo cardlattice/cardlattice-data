@@ -1,0 +1,35 @@
+name: 가라르 데스판
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 원한뿌리기
+      cost:
+        - Colorless
+        - Colorless
+      text: 이 「가라르 데스판」에게 올려져 있는 데미지 카운터의 수 × 2개만큼의 데미지 카운터를 상대의 포켓몬에게 원하는 대로 올린다.
+    - name: 매드해머
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 강한 저주를 담아 그린 고대의 그림이 데스마스의 영혼을 흡수해서 움직이기 시작했다.
+  nationalDex:
+    - 867
+  species: 원념포켓몬
+  heightMetres: 1.6
+  weightKilograms: 66.6
+  evolvesFrom: 가라르 데스마스
+  resistances: []
+illustrators:
+  - Shin Nagasawa
+rarity: S

@@ -1,0 +1,33 @@
+name: 나로테
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 씨폭탄
+      cost:
+        - Grass
+      damage: "30"
+    - name: 매직휩
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 긴 털 아래 숨긴 덩굴을 능숙하게 다뤄서 단단한 꽃봉오리로 상대를 가격한다.
+  nationalDex:
+    - 907
+  species: 풀고양이포켓몬
+  heightMetres: 0.9
+  weightKilograms: 12.2
+  evolvesFrom: 나오하
+  resistances: []
+illustrators:
+  - GIDORA
+rarity: S

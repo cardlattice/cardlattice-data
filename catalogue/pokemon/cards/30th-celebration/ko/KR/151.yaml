@@ -1,0 +1,17 @@
+name: 다크라이&크레세리아 LEGEND
+pokemon:
+  category: pokemon
+  stage: LEGEND
+  subtypes:
+    - LEGEND
+  hp: 150
+  types:
+    - Darkness
+    - Psychic
+legendPart: top
+collections:
+  - pokemon-collection-30th-celebration-darkrai-cresselia-legend
+illustrators:
+  - Shinji Higuchi
+  - Noriko Takaya
+regulationMark: null

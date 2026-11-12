@@ -1,0 +1,32 @@
+name: 아꾸왁
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 물대포
+      cost:
+        - Water
+      damage: "30"
+    - name: 스플래시
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 열심히 얕은 여울을 달리며 하반신을 단련하고, 동료들끼리 발 기술의 화려함을 겨룬다.
+  nationalDex:
+    - 913
+  species: 레슨포켓몬
+  heightMetres: 1.2
+  weightKilograms: 21.5
+  evolvesFrom: 꾸왁스
+  resistances: []
+illustrators:
+  - Atsushi Furusawa
+rarity: S

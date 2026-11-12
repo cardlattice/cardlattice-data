@@ -1,0 +1,31 @@
+name: 마스카나 ex
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Grass
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 스크래치네일
+      cost:
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 상대의 배틀 포켓몬에게 데미지 카운터가 올려져 있다면 120데미지를 추가한다.
+  abilities:
+    - name: 부케 매직
+      kind: Ability
+      text: 자신의 차례에 자신의 패에서 「기본 {Grass} 에너지」를 1장 트래쉬한다면 1번 사용할 수 있다. 상대의 벤치 포켓몬 1마리에게 데미지 카운터를 3개 올린다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 나로테
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR

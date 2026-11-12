@@ -1,0 +1,31 @@
+name: 포푸니라
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 슬래시크루
+      cost:
+        - Darkness
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 어설트 헌트
+      kind: Ability
+      text: 자신의 차례에 이 포켓몬이 벤치에서 배틀필드로 나왔을 때 1번 사용할 수 있다. 상대 벤치의 기본 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 진화한 후 더욱 약삭빨라져 발톱으로 돌에 사인을 새겨 커뮤니케이션을 시도한다.
+  nationalDex:
+    - 461
+  species: 갈고리손톱포켓몬
+  heightMetres: 1.1
+  weightKilograms: 34
+  evolvesFrom: 포푸니
+  resistances: []
+illustrators:
+  - saino misaki

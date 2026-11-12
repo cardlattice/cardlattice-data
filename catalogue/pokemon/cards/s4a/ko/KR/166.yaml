@@ -1,0 +1,10 @@
+name: 회수네트
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 자신의 포켓몬(「포켓몬 V ・ GX」는 제외)을 1마리 선택해서 패로 되돌린다. (포켓몬 이외의 카드는 모두 트래쉬한다.)
+    - 아이템은 자신의 차례에 몇 장이라도 사용할 수 있다.
+illustrators:
+  - Ryo Ueda

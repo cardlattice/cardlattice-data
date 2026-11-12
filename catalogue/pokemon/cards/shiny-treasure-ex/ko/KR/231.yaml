@@ -1,0 +1,35 @@
+name: 어써러셔
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 분노흩뜨리기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 자신의 트래쉬에 있는 「싸리용」의 장수 × 50데미지를 준다.
+    - name: 헤비스플래시
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "120"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 4
+  flavourText: 대식가지만 먹이를 잡는 것이 서툴다. 싸리용과 콤비를 이뤄 먹이를 사냥한다.
+  nationalDex:
+    - 977
+  species: 큰메기포켓몬
+  heightMetres: 12
+  weightKilograms: 220
+  resistances: []
+illustrators:
+  - Shigenori Negishi
+rarity: S

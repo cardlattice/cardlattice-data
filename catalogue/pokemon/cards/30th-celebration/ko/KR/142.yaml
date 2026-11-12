@@ -1,0 +1,38 @@
+name: 루기아
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Basic
+  species: 잠수포켓몬
+  heightMetres: 5.2
+  weightKilograms: 216
+  attacks:
+    - name: 사이코키네시스
+      cost:
+        - Psychic
+        - Fire
+      damage: 10×
+      text: 상대에게 붙어 있는 「에너지 카드」의 장수 ×10데미지를 준다.
+    - name: 스팀블라스트
+      cost:
+        - Water
+        - Water
+        - Fire
+        - Colorless
+      damage: "50"
+      text: 자신에게 붙어 있는 「에너지 카드」를 1장 트래쉬한다.
+  abilities:
+    - name: 크리스털 타입
+      kind: Poké-Body
+      text: 이 포켓몬에게 {Fire} {Water} {Psychic} 중 하나의 「기본 에너지 카드」를 패에서 꺼내서 붙였다면 그 차례가 끝날 때까지 이 포켓몬의 「타입(색)」은 붙인 「기본 에너지
+        카드」와 같아진다.
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 3
+illustrators:
+  - Naoyo Kimura
+regulationMark: null

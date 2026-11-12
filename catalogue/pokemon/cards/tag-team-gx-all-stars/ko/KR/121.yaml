@@ -1,0 +1,11 @@
+name: 로스트믹서
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 자신의 패를 2장 로스트존에 둔다. 그 뒤, 자신의 덱을 1장 뽑는다. (자신의 패를 2장 로스트존에 두지 않으면 이 카드는 사용할 수 없다.)
+    - 아이템은 자신의 차례에 몇 장이라도 사용할 수 있다.
+illustrators:
+  - 5ban Graphics
+regulationMark: B

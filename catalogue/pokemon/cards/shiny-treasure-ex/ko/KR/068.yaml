@@ -1,0 +1,33 @@
+name: 빠르모트
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: 일렉트로포
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "230"
+      text: 이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다.
+  abilities:
+    - name: 전기 일으키기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 「기본 {Lightning} 에너지」를 1장 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  flavourText: 복슬복슬한 털이 배터리 역할을 한다. 전기 자동차에 맞먹는 양의 전기를 비축할 수 있다.
+  nationalDex:
+    - 923
+  species: 손길포켓몬
+  heightMetres: 0.9
+  weightKilograms: 41
+  evolvesFrom: 빠모트
+  retreatCost: 0
+  resistances: []
+illustrators:
+  - GIDORA

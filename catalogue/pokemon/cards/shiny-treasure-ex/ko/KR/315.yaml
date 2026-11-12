@@ -1,0 +1,29 @@
+name: 맛보돈
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 변덕 태클
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 하루 종일 먹이를 찾는다. 뛰어난 후각을 가졌지만 먹이를 찾는 일 외에는 사용하지 않는다.
+  nationalDex:
+    - 915
+  species: 돼지포켓몬
+  heightMetres: 0.5
+  weightKilograms: 10.2
+  resistances: []
+illustrators:
+  - Akira Komayama
+rarity: S

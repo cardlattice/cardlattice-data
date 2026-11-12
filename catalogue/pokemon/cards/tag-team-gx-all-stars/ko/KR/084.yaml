@@ -1,0 +1,27 @@
+name: 알로라디그다
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 부딪치기
+      cost: []
+      damage: "10"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 용암질의 지면도 거침없이 파며 나아갈 정도로 파워풀하지만 모습을 잘 드러내지 않는다.
+  nationalDex:
+    - 50
+  species: 두더지포켓몬
+  heightMetres: 0.2
+  weightKilograms: 1
+illustrators:
+  - Atsuko Nishida
+regulationMark: C

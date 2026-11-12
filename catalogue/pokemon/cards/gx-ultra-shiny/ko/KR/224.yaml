@@ -1,0 +1,39 @@
+name: 루카리오 GX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fighting
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 파동격
+      cost:
+        - Fighting
+      damage: 30+
+      text: 이 차례에 이 포켓몬이 「리오르」에서 진화했다면 90데미지를 추가한다.
+    - name: 선풍각
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+    - name: 크로스비트 GX
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 30데미지를 준다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 리오르
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: B

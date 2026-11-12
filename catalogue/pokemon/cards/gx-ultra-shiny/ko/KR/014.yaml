@@ -1,0 +1,34 @@
+name: 번치코
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: 파이어스트림
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 이 포켓몬에게 붙어 있는 {Fire} 에너지를 1개 트래쉬하고 상대의 벤치 포켓몬 전원에게도 각각 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 불피우기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에 있는 {Fire} 에너지를 1장 벤치 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 강적을 만나면 손목에서 불꽃을 내뿜는다. 점프로 빌딩을 뛰어넘는 다릿심을 가졌다.
+  nationalDex:
+    - 257
+  species: 맹화포켓몬
+  heightMetres: 1.9
+  weightKilograms: 52
+  evolvesFrom: 영치코
+  resistances: []
+illustrators:
+  - Kouki Saitou
+regulationMark: B

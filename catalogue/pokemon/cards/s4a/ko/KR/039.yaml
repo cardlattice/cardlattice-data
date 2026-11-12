@@ -1,0 +1,25 @@
+name: 울머기
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 물대포
+      cost:
+        - Water
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 겁을 먹으면 양파 100개와 맞먹는 최루 성분의 눈물을 흘려서 상대도 덩달아 울게 만든다.
+  nationalDex:
+    - 816
+  species: 물도마뱀포켓몬
+  heightMetres: 0.3
+  weightKilograms: 4
+  resistances: []
+illustrators:
+  - Megumi Mizutani

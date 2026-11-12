@@ -1,0 +1,36 @@
+name: 지라치[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - Prism Star
+  attacks:
+    - name: 멸망의꿈
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: 이 포켓몬을 잠듦으로 만든다. 상대의 다음 차례 마지막에 이 기술을 받은 상대의 포켓몬은 기절한다.
+  abilities:
+    - name: 별에게 소원을
+      kind: Ability
+      text: 자신의 차례에 뒷면으로 된 자신의 프라이즈에서 이 카드를 집었을 때 자신의 벤치에 빈자리가 있다면 패로 가져오기 전에 사용할 수 있다. 이 포켓몬을 자신의 벤치로
+        내보내고 프라이즈를 1장 더 가져온다.
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 1000년 중 7일 동안만 깨어나 모든 소원을 이루어주는 능력을 발휘한다고 한다.
+illustrators:
+  - Kouki Saitou
+rarity: PR
+regulationMark: B

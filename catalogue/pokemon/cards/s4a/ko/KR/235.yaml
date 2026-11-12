@@ -1,0 +1,33 @@
+name: 어래곤
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 한방 먹이기
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: 원시의 규칙
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있는 한, 상대는 패에서 포켓몬을 꺼내서 진화시킬 수 없다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 3
+  flavourText: 뛰어난 다리와 턱의 힘 덕분에 고대에는 무적이었으나 먹이를 모두 잡아먹어버려서 멸종했다.
+  nationalDex:
+    - 882
+  species: 화석포켓몬
+  heightMetres: 2.3
+  weightKilograms: 215
+  evolvesFrom: 희귀한화석
+  resistances: []
+illustrators:
+  - SATOSHI NAKAI
+rarity: S

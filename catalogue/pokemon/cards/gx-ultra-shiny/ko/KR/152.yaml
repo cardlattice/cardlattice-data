@@ -1,0 +1,12 @@
+name: 낚시꾼
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 트래쉬에 있는 기본 에너지를 4장 상대에게 보여주고 패로 가져온다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Masakazu Fukuda
+rarity: SR
+regulationMark: B

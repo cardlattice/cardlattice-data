@@ -1,0 +1,35 @@
+name: 차곡차곡
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 산떨구기
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "110"
+      text: 뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수만큼 상대의 덱을 위에서부터 트래쉬한다.
+  abilities:
+    - name: 스톤펜스
+      kind: Ability
+      text: 상대의 남은 프라이즈 장수가 3장 이하라면 이 포켓몬의 최대 HP는 「200」이 된다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  flavourText: 울트라홀에서 출현했다._x000D_ 여러 개의 생명이 쌓여 1마리를 형성하고 있는 듯하다.
+  nationalDex:
+    - 805
+  species: 돌담포켓몬
+  heightMetres: 5.5
+  weightKilograms: 820
+  resistances: []
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Hiroki Asanuma
+regulationMark: C

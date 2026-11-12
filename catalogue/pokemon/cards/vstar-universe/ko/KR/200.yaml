@@ -1,0 +1,30 @@
+name: 비버통
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 테일스매시
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  abilities:
+    - name: 일하는 앞니
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패가 5장이 되도록 덱을 뽑는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  flavourText: 강을 나무줄기나 진흙의 댐으로 막아서 거처를 만든다. 부지런한 일꾼으로 알려져 있다.
+  evolvesFrom: 비버니
+  resistances: []
+illustrators:
+  - Amelicart
+rarity: AR
+regulationMark: F

@@ -1,0 +1,32 @@
+name: 요씽리스
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 꼬리로때리기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: 욕심꼬리
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 「포켓몬의 도구」를 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 꼬리에 나무열매를 모아둔다. 너무 많이 모아둬서 툭툭 흘리지만 둔감해서 눈치채지 못한다.
+  nationalDex:
+    - 820
+  species: 욕심쟁이포켓몬
+  heightMetres: 0.6
+  weightKilograms: 6
+  evolvesFrom: 탐리스
+  resistances: []
+illustrators:
+  - kirisAki

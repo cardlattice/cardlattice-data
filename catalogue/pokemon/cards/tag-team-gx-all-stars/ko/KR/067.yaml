@@ -1,0 +1,43 @@
+name: 마샤도&괴력몬 GX
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 리벤지
+      cost:
+        - Fighting
+        - Colorless
+      damage: 30+
+      text: 상대의 이전 차례에 기술의 데미지로 자신의 포켓몬이 기절했다면 90데미지를 추가한다.
+    - name: 백열임팩트
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "160"
+    - name: 진정한호걸GX
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "200"
+      text: 에너지 1개가 추가로 붙어 있다면 상대의 다음 차례에 이 포켓몬이 기술의 데미지를 받아 기절할 때 이 포켓몬은 기절하지 않고 남은 HP가 「10」인 상태로 필드에
+        남는다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+      costModifier: +
+  rules:
+    - TAG TEAM이 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 3
+  resistances: []
+illustrators:
+  - Mitsuhiro Arita
+rarity: RR
+regulationMark: C

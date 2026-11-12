@@ -1,0 +1,33 @@
+name: 히스이 조로아크 VSTAR
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Colorless
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 저주새기기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 자신의 필드의 데미지 카운터가 올려져 있는 포켓몬의 수 × 50데미지를 준다.
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 히스이 조로아크 V
+  resistances: []
+  abilities:
+    - name: 스펙터스타
+      kind: Ability
+      power: VSTAR
+      text: 자신의 차례에 사용할 수 있다. 자신의 패를 모두 트래쉬하고 덱을 7장 뽑는다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+illustrators:
+  - SIE NANAHARA
+rarity: SAR
+regulationMark: F

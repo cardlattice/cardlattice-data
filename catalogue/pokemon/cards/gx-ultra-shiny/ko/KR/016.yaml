@@ -1,0 +1,32 @@
+name: 앤티골
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 그을리기
+      cost:
+        - Fire
+      text: 상대의 배틀 포켓몬을 화상으로 만든다.
+    - name: 그을린브레스
+      cost:
+        - Fire
+        - Fire
+      damage: "120"
+      text: 상대의 배틀 포켓몬이 화상이 아니라면 이 기술은 실패한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 꼬리에서 빨아들인 공기를 불꽃으로 바꿔 혀처럼 사용해 아이앤트를 녹여서 먹는다.
+  nationalDex:
+    - 631
+  species: 개미핥기포켓몬
+  heightMetres: 1.4
+  weightKilograms: 58
+  resistances: []
+illustrators:
+  - Ken Sugimori
+regulationMark: B

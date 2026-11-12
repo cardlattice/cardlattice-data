@@ -1,0 +1,28 @@
+name: 포챠나
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 갉기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 가벼운돌입
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 이 포켓몬에게도 10데미지를 준다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 날카로운 후각으로 노린 먹이는 절대로 놓치지 않는다. 매우 끈질긴 성격이다.
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: AR
+regulationMark: F

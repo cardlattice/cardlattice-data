@@ -1,0 +1,35 @@
+name: 기라티나 [어나더폼]
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 섀도임팩트
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "130"
+      text: 자신의 포켓몬 1마리에게 데미지 카운터를 4개 올린다.
+  abilities:
+    - name: 깨어진 문
+      kind: Ability
+      text: 이 카드가 트래쉬에 있다면 자신의 차례에 1번 사용할 수 있다. 이 카드를 벤치로 내보낸다. 그 뒤, 상대의 벤치 포켓몬 2마리에게 각각 데미지 카운터를 1개 올린다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  flavourText: 난폭하다는 이유로 쫓겨났지만 깨어진 세계라고 전해지는 장소에서 조용히 원래 세계를 보고 있었다.
+  nationalDex:
+    - 487
+  species: 반골포켓몬
+  heightMetres: 4.5
+  weightKilograms: 750
+illustrators:
+  - Shin Nagasawa
+regulationMark: B

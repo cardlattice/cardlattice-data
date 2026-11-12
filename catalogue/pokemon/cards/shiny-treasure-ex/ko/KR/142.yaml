@@ -1,0 +1,28 @@
+name: 두두
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 돌격
+      cost:
+        - Colorless
+      damage: "30"
+      text: 이 포켓몬에게도 10데미지를 준다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 두 머리에 각각 존재하는 뇌는 텔레파시 같은 힘으로 의사를 맞춰 나가는 듯하다.
+  nationalDex:
+    - 84
+  species: 쌍둥이새포켓몬
+  heightMetres: 1.4
+  weightKilograms: 39.2
+illustrators:
+  - Anesaki Dynamic

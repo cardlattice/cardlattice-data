@@ -1,0 +1,11 @@
+name: 신오의 동료들
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱을 3장 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Ryuta Fuse
+regulationMark: F

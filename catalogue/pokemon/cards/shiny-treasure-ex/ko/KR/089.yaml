@@ -1,0 +1,26 @@
+name: 쫀도기
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 뒤로 차기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 만지면 촉촉하고 매끈매끈하다. 숨결에 포함되어 있는 효모로 주위의 것들을 발효시킨다.
+  nationalDex:
+    - 926
+  species: 강아지포켓몬
+  heightMetres: 0.3
+  weightKilograms: 10.9
+  resistances: []
+illustrators:
+  - Mizue

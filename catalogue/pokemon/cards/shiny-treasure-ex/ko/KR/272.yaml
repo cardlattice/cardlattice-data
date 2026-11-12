@@ -1,0 +1,36 @@
+name: 벼리짱
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 치근거리기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 동전을 1번 던져서 앞면이 나오면 30데미지를 추가한다.
+    - name: 분쇄프레스
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 크고 튼튼한 해머를 만들기 위해 절각참 무리를 습격해서 금속을 모은다.
+  nationalDex:
+    - 958
+  species: 해머포켓몬
+  heightMetres: 0.7
+  weightKilograms: 59.1
+  evolvesFrom: 어리짱
+  resistances: []
+illustrators:
+  - Yuu Nishida
+rarity: S

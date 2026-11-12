@@ -1,0 +1,27 @@
+name: 파이어
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 열화날개
+      cost:
+        - Fire
+      damage: 20+
+      text: 이 포켓몬에게 데미지 카운터가 올려져 있다면 70데미지를 추가한다. 이 기술의 데미지는 약점 계산을 하지 않는다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 날갯짓을 하면 날개의 불꽃이 빨갛고 아름답게 빛나는 전설의 새포켓몬 중 1마리다.
+  nationalDex:
+    - 146
+  species: 화염포켓몬
+  heightMetres: 2
+  weightKilograms: 60
+  resistances: []
+illustrators:
+  - otumami
+regulationMark: F

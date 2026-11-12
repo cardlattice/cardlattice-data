@@ -1,0 +1,28 @@
+name: 가라르 코산호
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 저주의물방울
+      cost:
+        - Psychic
+      text: 데미지 카운터 3개를 상대의 포켓몬에게 원하는 대로 올린다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 먼 옛날에 바다였던 곳에 흔하게 굴러다닌다. 돌멩이로 착각해서 걷어차면 화를 입는다.
+  nationalDex:
+    - 222
+  species: 산호포켓몬
+  heightMetres: 0.6
+  weightKilograms: 0.5
+illustrators:
+  - Mizue
+rarity: S

@@ -1,0 +1,34 @@
+name: 오롱털
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: 에너지프레스
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 상대의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 30데미지를 추가한다.
+  abilities:
+    - name: 악의 서약
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있는 한, 상대의 배틀 포켓몬은 기술을 사용하기 위한 에너지가 {Colorless} 에너지 1개만큼 많아진다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 머리카락을 전신에 휘감아 근력이 올랐다. 괴력몬을 압도하는 파워를 발휘한다.
+  nationalDex:
+    - 861
+  species: 벌크업포켓몬
+  heightMetres: 1.5
+  weightKilograms: 61
+  evolvesFrom: 쏘겨모
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S

@@ -1,0 +1,28 @@
+name: 펄기아
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 웜홀
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "100"
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다. 그 뒤, 상대는 상대 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 평행으로 늘어선 공간의 틈새에 산다고 전해진다. 신화에 등장하는 포켓몬이다.
+  heightMetres: 4.2
+  weightKilograms: 336
+  species: 공간포켓몬
+  nationalDex:
+    - 484
+  resistances: []
+illustrators:
+  - kawayoo

@@ -1,0 +1,33 @@
+name: 마그카르고
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 화염
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 땅고르기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 원하는 카드를 1장 선택한다. 남은 덱을 섞고 선택한 카드를 덱의 위로 되돌린다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  flavourText: 몸이 항상 일렁이고 있으며 용암처럼 뜨겁다. 때때로 껍데기에서 불티가 샌다.
+  nationalDex:
+    - 219
+  species: 용암포켓몬
+  heightMetres: 0.8
+  weightKilograms: 55
+  evolvesFrom: 마그마그
+  resistances: []
+illustrators:
+  - Midori Harada
+regulationMark: B

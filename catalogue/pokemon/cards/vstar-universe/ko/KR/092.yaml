@@ -1,0 +1,26 @@
+name: 훔처우
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 뒤로 차기
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 다른 포켓몬이 발견한 먹이를 훔치며 산다. 푹신푹신한 볼록살 덕분에 발소리가 나지 않는다.
+  nationalDex:
+    - 827
+  species: 여우포켓몬
+  heightMetres: 0.6
+  weightKilograms: 8.9
+  resistances: []
+illustrators:
+  - Naoyo Kimura
+regulationMark: F

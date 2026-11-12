@@ -1,0 +1,34 @@
+name: 조로아
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 밟기
+      cost:
+        - Darkness
+      damage: "10"
+    - name: 부딪치기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 상대와 똑 닮게 둔갑한 것처럼 보이게 하여 속이거나 놀라게 해서 그 틈에 도망가는 일이 많다.
+  nationalDex:
+    - 570
+  species: 나쁜여우포켓몬
+  heightMetres: 0.7
+  weightKilograms: 12.5
+illustrators:
+  - Saya Tsuruta
+rarity: S
+regulationMark: A

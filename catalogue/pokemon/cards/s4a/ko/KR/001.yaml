@@ -1,0 +1,31 @@
+name: 나몰빼미
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 바람뭉치
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 상대의 벤치 포켓몬 1마리에게 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 스카이서커스
+      kind: Ability
+      text: 이 차례에 자신의 패에서 「새 조련사」를 꺼내서 사용했다면 이 포켓몬이 기술을 사용하기 위한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 비행하면서 날카로운 깃털을 날리고 근거리가 되면 강렬한 킥을 날린다.
+  nationalDex:
+    - 722
+  species: 풀깃포켓몬
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  resistances: []
+illustrators:
+  - HYOGONOSUKE

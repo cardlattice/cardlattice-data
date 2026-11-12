@@ -1,0 +1,34 @@
+name: 쏘콘 ex
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Grass
+  stage: Stage 1
+  subtypes:
+    - ex
+    - Tera
+  attacks:
+    - name: 가드프레스
+      cost:
+        - Grass
+        - Grass
+      damage: "120"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다.
+  abilities:
+    - name: 폭발 에너지
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 이 포켓몬을 기절시킨다. 자신의 덱에서 「기본 {Grass} 에너지」를 5장까지 선택해서 자신의 포켓몬에게 원하는 대로
+        붙인다. 그리고 덱을 섞는다.
+  rules:
+    - 이 포켓몬은 벤치에 있는 한, 기술의 데미지를 받지 않는다.
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 피콘
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR

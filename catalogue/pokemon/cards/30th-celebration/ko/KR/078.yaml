@@ -1,0 +1,32 @@
+name: 곤율랭
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 꼬투리잡기
+      cost:
+        - Darkness
+      text: 상대는 상대 자신의 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 상대는 덱을 4장 뽑는다.
+    - name: 쥐어박기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 가죽을 목까지 늘려서 방어 자세를 취한다. 고무 같은 탄력을 이용해 데미지를 줄인다.
+  heightMetres: 0.6
+  weightKilograms: 11.8
+  abilities: []
+  rules: []
+  species: 탈피포켓몬
+  nationalDex:
+    - 559
+  resistances: []
+illustrators:
+  - Souichirou Gunjima

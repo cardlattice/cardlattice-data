@@ -1,0 +1,33 @@
+name: 고릴타
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: 한방 먹이기
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: "140"
+  abilities:
+    - name: 볼티지비트
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 {Grass} 에너지를 2장까지 선택해서 자신의 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 특별한 그루터기의 파워를 드럼 연주로 컨트롤한다. 뿌리를 조종해서 싸운다.
+  nationalDex:
+    - 812
+  species: 드러머포켓몬
+  heightMetres: 2.1
+  weightKilograms: 90
+  evolvesFrom: 채키몽
+  resistances: []
+illustrators:
+  - Kouki Saitou

@@ -1,0 +1,45 @@
+name: 레시라무&리자몽 GX
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 역린
+      cost:
+        - Fire
+        - Colorless
+      damage: 30+
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다.
+    - name: 플레어 스트라이크
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+      damage: "230"
+      text: 자신의 다음 차례에 이 포켓몬은 「플레어 스트라이크」를 사용할 수 없다.
+    - name: 더블블레이즈GX
+      cost:
+        - Fire
+        - Fire
+        - Fire
+      damage: 200+
+      text: "{Fire} 에너지 3개가 추가로 붙어 있다면 100데미지를 추가한다. 그 경우, 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다. (대전
+        중 자신은 GX기술을 1번만 사용할 수 있다.)"
+      costModifier: +
+  rules:
+    - TAG TEAM이 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  resistances: []
+illustrators:
+  - Mitsuhiro Arita
+rarity: RR
+regulationMark: C

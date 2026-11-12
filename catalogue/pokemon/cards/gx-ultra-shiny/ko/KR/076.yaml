@@ -1,0 +1,28 @@
+name: 알로라디그다
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 아이언헤드
+      cost: []
+      damage: 10×
+      text: 뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 10데미지를 준다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 금색 수염은 센서 기능을 가지고 있다. 구멍에서 내밀어 주변의 상황을 살피고 있다.
+  nationalDex:
+    - 50
+  species: 두더지포켓몬
+  heightMetres: 0.2
+  weightKilograms: 1
+illustrators:
+  - Naoyo Kimura
+regulationMark: B

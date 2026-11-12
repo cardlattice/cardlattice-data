@@ -1,0 +1,28 @@
+name: 갈모매
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 바람일으키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 상승 기류를 타고 글라이더처럼 넓은 하늘을 돌며 부리로 집은 먹이를 운반한다.
+  nationalDex:
+    - 278
+  species: 괭이갈매기포켓몬
+  heightMetres: 0.6
+  weightKilograms: 9.5
+illustrators:
+  - Kouki Saitou

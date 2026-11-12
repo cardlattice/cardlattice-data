@@ -1,0 +1,32 @@
+name: 코일
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 마그네서치
+      cost:
+        - Colorless
+      text: 자신의 덱에 있는 {Metal} 에너지를 3장까지 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 몸통박치기
+      cost:
+        - Metal
+      damage: "10"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 전기자석파를 발산하여 공중을 떠다닌다. 전기를 먹고 있을 때 만지면 전신이 찌릿하게 마비된다.
+  nationalDex:
+    - 81
+  species: 자석포켓몬
+  heightMetres: 0.3
+  weightKilograms: 6
+illustrators:
+  - MAHOU
+regulationMark: B

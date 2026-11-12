@@ -1,0 +1,32 @@
+name: 마휘핑
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 데코레이션
+      cost:
+        - Colorless
+      text: 자신의 패에서 기본 에너지를 원하는 만큼 선택해서 자신의 포켓몬에게 원하는 대로 붙인다.
+    - name: 드레인키스
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+      text: 이 포켓몬의 HP를 「30」회복한다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 믿을 수 있는 트레이너에게는 크림으로 데코레이션한 나무열매를 대접한다.
+  nationalDex:
+    - 869
+  species: 크림포켓몬
+  heightMetres: 0.3
+  weightKilograms: 0.5
+  evolvesFrom: 마빌크
+  resistances: []
+illustrators:
+  - sui

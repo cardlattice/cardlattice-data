@@ -1,0 +1,34 @@
+name: 쏘겨모
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 물기
+      cost:
+        - Darkness
+      damage: "30"
+    - name: 사죄의찌르기
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 납작 엎드려서 사과하는 척하다가 창처럼 뾰족한 뒷머리로 찌르는 전법을 구사한다.
+  nationalDex:
+    - 860
+  species: 성악포켓몬
+  heightMetres: 0.8
+  weightKilograms: 12.5
+  evolvesFrom: 메롱꿍
+  resistances: []
+illustrators:
+  - SATOSHI NAKAI
+rarity: S

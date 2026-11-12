@@ -1,0 +1,33 @@
+name: 파라꼬
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 홰치기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 활공
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 아무리 강한 상대라도 덤벼드는 용감한 성격을 가졌다. 도리어 당하면서도 점점 단련되어 간다.
+  nationalDex:
+    - 821
+  species: 아기새포켓몬
+  heightMetres: 0.2
+  weightKilograms: 1.8
+illustrators:
+  - Lee HyunJung
+rarity: S

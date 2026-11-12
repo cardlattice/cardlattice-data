@@ -1,0 +1,32 @@
+name: 염뉴트
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 화염
+      cost:
+        - Fire
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: 태워드러내기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에 있는 {Fire} 에너지를 1장 트래쉬한다. 그 뒤, 덱을 3장 뽑는다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 동굴 깊은 곳에서 살며 페로몬으로 헤롱헤롱하게 만들어 야도뇽을 시중들게 한다.
+  nationalDex:
+    - 758
+  species: 독도마뱀포켓몬
+  heightMetres: 1.2
+  weightKilograms: 22.2
+  evolvesFrom: 야도뇽
+  resistances: []
+illustrators:
+  - hatachu
+regulationMark: C

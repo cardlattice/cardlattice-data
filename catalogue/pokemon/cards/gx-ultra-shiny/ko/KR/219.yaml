@@ -1,0 +1,39 @@
+name: 뮤츠 GX
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 풀버스트
+      cost:
+        - Psychic
+      damage: 30×
+      text: 이 포켓몬에게 붙어 있는 에너지의 개수 × 30데미지를 준다.
+    - name: 초흡수
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: 이 포켓몬의 HP를 「30」회복한다.
+    - name: 사이코브레이크 GX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "200"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

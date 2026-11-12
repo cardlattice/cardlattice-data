@@ -1,0 +1,35 @@
+name: 블래키
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 원수갚기
+      cost:
+        - Darkness
+      damage: 30+
+      text: 상대의 이전 차례에 기술의 데미지로 자신의 포켓몬이 기절했다면 100데미지를 추가한다.
+    - name: 어둠엄니
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "100"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 달빛이 이브이의 유전자를 변화시켰다. 어둠에 숨어 먹이를 기다린다.
+  heightMetres: 1
+  weightKilograms: 27
+  abilities: []
+  rules: []
+  species: 달빛포켓몬
+  nationalDex:
+    - 197
+  evolvesFrom: 이브이
+  resistances: []
+illustrators:
+  - Iori Suzuki

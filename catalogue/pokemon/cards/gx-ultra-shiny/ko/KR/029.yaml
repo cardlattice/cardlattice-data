@@ -1,0 +1,32 @@
+name: 프로스트로토무
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 프로스트 크래시
+      cost:
+        - Water
+        - Colorless
+      damage: 10+
+      text: 상대 필드의 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 추가한다.
+  abilities:
+    - name: 로토모터
+      kind: Ability
+      text: 자신의 트래쉬에 「포켓몬의 도구」가 9장 이상 있다면 이 포켓몬이 사용하는 기술에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 플라스마로 된 몸을 가지고 있다. 전자 제품에 숨어들어 나쁜 짓을 하는 것으로 알려졌다.
+  nationalDex:
+    - 479
+  species: 플라스마포켓몬
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  resistances: []
+illustrators:
+  - MAHOU
+regulationMark: B

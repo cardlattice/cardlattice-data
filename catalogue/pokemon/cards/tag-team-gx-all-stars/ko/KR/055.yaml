@@ -1,0 +1,30 @@
+name: 뮤
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 사이코파워
+      cost:
+        - Colorless
+      text: 데미지 카운터 3개를 상대의 포켓몬에게 원하는 대로 올린다.
+  abilities:
+    - name: 벤치배리어
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 벤치 포켓몬 전원은 상대의 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 모든 기술을 사용하기 때문에 포켓몬의 조상이라고 생각하는 학자가 많다.
+  nationalDex:
+    - 151
+  species: 신종포켓몬
+  heightMetres: 0.4
+  weightKilograms: 4
+  resistances: []
+illustrators:
+  - sui
+regulationMark: C

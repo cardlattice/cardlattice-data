@@ -1,0 +1,7 @@
+name: 오로라 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 패에서 포켓몬에게 붙일 때 자신의 패를 1장 트래쉬하지 않으면 붙일 수 없다. 이 카드는 포켓몬에게 붙어 있는 한, 모든 타입의 에너지 1개분으로 작용한다.

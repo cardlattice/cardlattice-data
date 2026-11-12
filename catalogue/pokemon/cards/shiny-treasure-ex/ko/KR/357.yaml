@@ -1,0 +1,31 @@
+name: 파오젠 ex
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 헤일블레이드
+      cost:
+        - Water
+        - Water
+      damage: 60×
+      text: 자신의 필드의 포켓몬에게 붙어 있는 {Water} 에너지를 원하는 만큼 트래쉬하고 그 장수 × 60데미지를 준다.
+  abilities:
+    - name: 부들부들 냉기
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 「기본 {Water} 에너지」를 2장까지 선택해서 상대에게 보여주고 패로 가져온다.
+        그리고 덱을 섞는다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - aky CG Works
+rarity: UR

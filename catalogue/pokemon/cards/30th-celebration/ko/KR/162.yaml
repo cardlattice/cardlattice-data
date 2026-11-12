@@ -1,0 +1,31 @@
+name: 라이코
+illustrators:
+  - Hideki Ishikawa
+regulationMark: D
+pokemon:
+  category: pokemon
+  abilities: []
+  rules: []
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  species: 우뢰포켓몬
+  nationalDex:
+    - 243
+  heightMetres: 1.9
+  weightKilograms: 178
+  attacks:
+    - name: 어메이징숏
+      cost:
+        - Grass
+        - Lightning
+        - Metal
+      damage: "120"
+      text: 상대의 벤치 포켓몬 1마리에게도 120데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 체내에서 들끓는 힘을 전격으로 내보내면서 대지를 달리는 난폭한 포켓몬이다.

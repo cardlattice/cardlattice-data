@@ -1,0 +1,35 @@
+name: 빼미스로우
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 날카로운 칼날깃
+      cost:
+        - Colorless
+      text: 상대의 포켓몬 1마리에게 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 리프블레이드
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 동전을 1번 던져서 앞면이 나오면 20데미지를 추가한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 젠체하고 틈만 나면 날개의 손질을 한다. 깃털의 얼룩이 신경 쓰여 싸우지 못할 때도 있다.
+  nationalDex:
+    - 723
+  species: 칼날깃포켓몬
+  heightMetres: 0.7
+  weightKilograms: 16
+  evolvesFrom: 나몰빼미
+  resistances: []
+illustrators:
+  - Shigenori Negishi
+rarity: S
+regulationMark: A

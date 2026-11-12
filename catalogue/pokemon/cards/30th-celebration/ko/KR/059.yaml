@@ -1,0 +1,29 @@
+name: 님피아 ex
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Psychic
+  stage: Stage 1
+  subtypes:
+    - ex
+  attacks:
+    - name: 컬러풀하모니
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 자신의 포켓몬 전원에게 붙어 있는 기본 에너지의 타입의 수 × 50데미지를 준다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  abilities: []
+  evolvesFrom: 이브이
+  resistances: []
+rarity: RR
+illustrators:
+  - 5ban Graphics

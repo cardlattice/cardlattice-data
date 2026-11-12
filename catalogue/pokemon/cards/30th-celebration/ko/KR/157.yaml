@@ -1,0 +1,21 @@
+name: 개굴닌자 BREAK
+illustrators:
+  - 5ban Graphics
+regulationMark: null
+pokemon:
+  category: pokemon
+  abilities:
+    - name: 거대물수리검
+      kind: Ability
+      text: 자신의 패에서 {Water}에너지를 1장 선택해서 트래쉬한다. 그 뒤, 상대의 포켓몬을 1마리 선택해서 데미지 카운터를 6개 올린다. 이 특성은 이 포켓몬이 배틀필드에 있다면 자신의
+        차례에 한 번 사용할 수 있다.
+  rules:
+    - BREAK 진화 전의 개굴닌자가 가진 「기술, 특성, 약점, 저항력, 후퇴」를 이어받는다.
+  hp: 170
+  types:
+    - Water
+  stage: BREAK
+  evolvesFrom: 개굴닌자
+  subtypes:
+    - BREAK
+  attacks: []

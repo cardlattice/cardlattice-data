@@ -1,0 +1,32 @@
+name: 라프라스 V
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 웨이브백
+      cost:
+        - Colorless
+      text: 자신의 패에서 {Water} 에너지를 1장 선택해서 이 포켓몬에게 붙인다. 그 뒤, 이 포켓몬을 벤치 포켓몬과 교체한다.
+    - name: 오션루프
+      cost:
+        - Water
+        - Water
+        - Water
+        - Colorless
+      damage: "210"
+      text: 이 포켓몬에게 붙어 있는 {Water} 에너지를 2개 선택해서 패로 되돌린다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR

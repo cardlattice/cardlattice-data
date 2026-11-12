@@ -1,0 +1,10 @@
+name: 마리
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 서로의 플레이어는 각각 자신의 패를 모두 뒷면으로 하여 섞고 덱의 아래로 되돌린다. 그 뒤, 자신은 5장 상대는 4장 덱을 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - kirisAki

@@ -1,0 +1,25 @@
+name: 탄동
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 부딪치기
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 약 400년 전에 탄광에서 발견되었다. 몸의 대부분이 석탄과 같은 성분이다.
+  nationalDex:
+    - 837
+  species: 석탄포켓몬
+  heightMetres: 0.3
+  weightKilograms: 12
+  resistances: []
+illustrators:
+  - Misa Tsutsui

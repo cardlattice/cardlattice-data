@@ -1,0 +1,31 @@
+name: 푸호꼬
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 불씨
+      cost:
+        - Fire
+      damage: "10"
+    - name: 뒤로 차기
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 작은 나뭇가지를 들고 다니며 간식 대신 아작아작 먹는다. 귀에서 열기를 뿜어내어 상대를 위협한다.
+  nationalDex:
+    - 653
+  species: 여우포켓몬
+  heightMetres: 0.4
+  weightKilograms: 9.4
+  resistances: []
+illustrators:
+  - Atsuko Nishida
+regulationMark: B

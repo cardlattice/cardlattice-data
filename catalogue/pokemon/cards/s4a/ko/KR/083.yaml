@@ -1,0 +1,33 @@
+name: 에써르
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 리프레쉬타임
+      cost:
+        - Colorless
+      text: 자신의 포켓몬 전원의 HP를 각각 「30」회복한다.
+    - name: 환상빔
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: 상대의 배틀 포켓몬을 혼란으로 만든다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 높은 지능을 가진 포켓몬. 동료끼리 뿔을 맞대어 정보를 교환한다.
+  nationalDex:
+    - 876
+  species: 감정포켓몬
+  heightMetres: 0.9
+  weightKilograms: 28
+illustrators:
+  - Mizue

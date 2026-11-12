@@ -1,0 +1,12 @@
+name: 용접공
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 패에 있는 {Fire} 에너지를 2장까지 자신의 포켓몬 1마리에게 붙인다. 그 뒤, 자신의 덱을 3장 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Hitoshi Ariga
+rarity: SR
+regulationMark: C

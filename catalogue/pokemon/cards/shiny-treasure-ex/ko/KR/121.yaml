@@ -1,0 +1,30 @@
+name: 깜까미
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 어둠의눈동자
+      cost:
+        - Colorless
+      text: 상대의 배틀 포켓몬을 잠듦으로 만든다.
+    - name: 어새신클로
+      cost:
+        - Darkness
+      damage: 20+
+      text: 상대의 배틀 포켓몬이 특수 상태라면 70데미지를 추가한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 어두운 동굴에 거처를 만들고 예리한 손톱을 써서 보석을 파내어 먹는다.
+  nationalDex:
+    - 302
+  species: 어둠포켓몬
+  heightMetres: 0.5
+  weightKilograms: 11
+  resistances: []
+illustrators:
+  - Nagomi Nijo

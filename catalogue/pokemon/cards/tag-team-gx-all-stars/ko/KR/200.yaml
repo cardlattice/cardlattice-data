@@ -1,0 +1,14 @@
+name: 주즈베&담죽맨
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - TAG TEAM
+  rules:
+    - 서로의 덱을 위에서부터 3장씩 트래쉬한다. 추가로 이 카드를 사용할 때 자신의 패를 3장 트래쉬해도 좋다. 그 경우, 서로의 플레이어는 각각 자신의 벤치 포켓몬이
+      3마리가 될 때까지 포켓몬을 트래쉬한다. (트래쉬는 상대부터 한다.)
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Sanosuke Sakuma
+rarity: SR
+regulationMark: C

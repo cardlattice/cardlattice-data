@@ -1,0 +1,12 @@
+name: 기본 {Water}에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Water
+  rules: []
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN

@@ -1,0 +1,33 @@
+name: 볼케니온
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 플레어스타터
+      cost:
+        - Fire
+      text: 자신의 덱에 있는 {Fire} 에너지를 1장 자신의 포켓몬에게 붙인다. 그리고 덱을 섞는다. 후공 플레이어의 첫 차례에 사용하면 붙일 수 있는 장수는 3장까지이며 자신의
+        포켓몬에게 원하는 대로 붙일 수 있다.
+    - name: 고열폭파
+      cost:
+        - Fire
+        - Fire
+      damage: 50+
+      text: 자신의 필드에 {Fire} 에너지가 4개 이상 있다면 60데미지를 추가한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 수증기를 뿜어내어 자신의 모습을 짙은 안개 속에 숨긴다. 사람이 오지 않는 산에 산다고 한다.
+  nationalDex:
+    - 721
+  species: 스팀포켓몬
+  heightMetres: 1.7
+  weightKilograms: 195
+  resistances: []
+illustrators:
+  - Hasuno
+regulationMark: C

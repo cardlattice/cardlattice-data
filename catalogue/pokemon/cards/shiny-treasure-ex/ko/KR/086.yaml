@@ -1,0 +1,32 @@
+name: 화강돌
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 휙사라지기
+      cost:
+        - Colorless
+      damage: "10"
+      text: 이 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다.
+  abilities:
+    - name: 칠흑의 재앙
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 서로의 필드의 기본 포켓몬인 「포켓몬 V」의 특성은 모두 없어진다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 항상 나쁜 짓만 하고 있었기에 신비한 술법에 의해 본모습을 쐐기돌에 속박당했다.
+  nationalDex:
+    - 442
+  species: 봉인포켓몬
+  heightMetres: 1
+  weightKilograms: 108
+illustrators:
+  - Aya Kusube

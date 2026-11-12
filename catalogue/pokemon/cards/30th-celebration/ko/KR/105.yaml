@@ -1,0 +1,28 @@
+name: 파이어
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 회오리불꽃
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "130"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다.
+  abilities:
+    - name: 불타는 날갯짓
+      kind: Ability
+      text: 자신의 필드에 「프리져」「썬더」가 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 패에서 「기본 {Fire} 에너지」를 1장 선택해서 이 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 날갯짓을 하면 날개의 불꽃이 빨갛고 아름답게 빛나는 전설의 새포켓몬 중 1마리다.
+  resistances: []
+rarity: AR
+illustrators:
+  - mashu

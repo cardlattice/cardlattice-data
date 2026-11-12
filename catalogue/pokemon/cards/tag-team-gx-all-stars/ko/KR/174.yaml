@@ -1,0 +1,32 @@
+name: 약어리 GX
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 어군스톰
+      cost:
+        - Water
+        - Colorless
+      damage: 20×
+      text: 자신의 필드의 「약어리(GX 포함)」의 수 × 20데미지를 준다.
+    - name: 월척GX
+      cost:
+        - Colorless
+      text: 자신의 덱을 위에서부터 12장 보고 그 중에 있는 기본 포켓몬을 원하는 만큼 벤치로 내보낸다. 남은 카드는 덱으로 되돌리고 섞는다. (대전 중 자신은 GX기술을 1번만
+        사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  resistances: []
+illustrators:
+  - sadaji
+rarity: SR
+regulationMark: C

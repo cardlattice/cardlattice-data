@@ -1,0 +1,33 @@
+name: 냄새꼬
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 침
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 못다 핀 에너지
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱을 위에서부터 3장 보고 그 중에서 기본 에너지를 원하는 만큼 선택해서 자신의
+        포켓몬에게 원하는 대로 붙인다. 남은 카드는 덱으로 되돌리고 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 침처럼 보이는 달콤한 꿀은 매우 끈적거려서 묻으면 좀처럼 떨어지지 않는다.
+  nationalDex:
+    - 44
+  species: 잡초포켓몬
+  heightMetres: 0.8
+  weightKilograms: 8.6
+  evolvesFrom: 뚜벅쵸
+  resistances: []
+illustrators:
+  - OKACHEKE
+rarity: S

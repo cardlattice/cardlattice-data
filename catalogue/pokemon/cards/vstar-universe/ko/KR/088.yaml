@@ -1,0 +1,28 @@
+name: 쌔비냥
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 허찌르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 곤란해하는 모습을 보기 위해 사람의 물건을 훔친다. 훔처우와는 라이벌 관계다.
+  nationalDex:
+    - 509
+  species: 성악포켓몬
+  heightMetres: 0.4
+  weightKilograms: 10.1
+  resistances: []
+illustrators:
+  - Narumi Sato
+regulationMark: F

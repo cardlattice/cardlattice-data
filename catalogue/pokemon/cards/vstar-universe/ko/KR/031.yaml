@@ -1,0 +1,32 @@
+name: 히스이 대쓰여너
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 신령오르기
+      cost: []
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기본 에너지를 모두 상대에게 보여주고 그 장수 × 20데미지를 준다. 그 뒤, 보여준 에너지를 덱으로 되돌리고 섞는다.
+    - name: 워터샷
+      cost:
+        - Water
+      damage: "70"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 물길을 거슬러 오르는 여정에서 뜻을 이루지 못하고 죽은 동료들의 혼을 두르고 있다. 히스이에 흐르는 하천에서는 대적할 자가 없다.
+  nationalDex:
+    - 902
+  species: 큰물고기포켓몬
+  heightMetres: 3
+  weightKilograms: 110
+  evolvesFrom: 히스이 배쓰나이
+  resistances: []
+illustrators:
+  - AKIRA EGAWA
+regulationMark: F

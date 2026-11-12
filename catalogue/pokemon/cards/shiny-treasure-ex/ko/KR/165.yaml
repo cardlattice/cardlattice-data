@@ -1,0 +1,10 @@
+name: 먹다남은음식
+pokemon:
+  category: trainer
+  subtypes:
+    - Pokémon Tool
+  rules:
+    - 자신의 차례의 마지막에 이 카드를 붙이고 있는 포켓몬이 배틀필드에 있다면 그 포켓몬의 HP를 「20」회복한다.
+    - 포켓몬의 도구는 자신의 차례에 몇 장이라도 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다.
+illustrators:
+  - Studio Bora Inc.

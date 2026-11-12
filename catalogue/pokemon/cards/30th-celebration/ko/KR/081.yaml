@@ -1,0 +1,34 @@
+name: 지라치 ex
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 소원이루기
+      cost:
+        - Colorless
+      text: 자신의 패가 7장이 되도록 덱을 뽑는다.
+    - name: 스피드스타
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 이 기술의 데미지는 약점, 저항력과 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  abilities: []
+rarity: RR
+illustrators:
+  - 5ban Graphics

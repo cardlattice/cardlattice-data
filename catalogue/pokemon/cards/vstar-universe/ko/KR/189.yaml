@@ -1,0 +1,27 @@
+name: 솔록
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 회전어택
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 썬에너지
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 {Psychic} 에너지를 1장 선택해서 자신의 「루나톤」에게 붙인다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 몸을 회전시키면 태양과 같은 빛을 발산해 적의 눈을 멀게 한다.
+  resistances: []
+illustrators:
+  - Nobuhiro Imagawa
+rarity: AR
+regulationMark: F

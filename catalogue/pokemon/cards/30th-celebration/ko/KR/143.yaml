@@ -1,0 +1,27 @@
+name: 델케티
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: 에나비
+  attacks:
+    - name: 에너지 구슬 MAX
+      cost:
+        - Colorless
+      damage: 10×
+      text: 자신의 배틀 포켓몬 전원의 에너지를 합한 수 ×10데미지를 준다.
+  abilities:
+    - name: 에너지 드로
+      kind: Poké-Power
+      text: 이 파워는 자신의 차례에 한 번 사용할 수 있다. 자신의 패에서 에너지를 1장 선택해서 트래쉬한다. 그 뒤, 자신의 덱에서 카드를 3장까지 뽑는다. 이 포켓몬이 특수 상태라면 이 파워를
+        사용할 수 없다.
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Atsuko Nishida
+regulationMark: null

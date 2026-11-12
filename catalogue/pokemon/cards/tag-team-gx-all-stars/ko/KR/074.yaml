@@ -1,0 +1,35 @@
+name: 포푸니라
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 얼다바람
+      cost:
+        - Colorless
+      damage: "10"
+      text: 상대의 배틀 포켓몬을 잠듦으로 만든다.
+    - name: 악의굴레
+      cost:
+        - Darkness
+      damage: 50×
+      text: 상대 필드의 특성을 가진 포켓몬의 수 × 50데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 추운 장소에 살며 알로라에서는 식스테일과 모래두지가 주된 먹이다._x000D_ 사냥감은 동료끼리 정확히 나눈다.
+  nationalDex:
+    - 461
+  species: 갈고리손톱포켓몬
+  heightMetres: 1.1
+  weightKilograms: 34
+  evolvesFrom: 포푸니
+illustrators:
+  - Misa Tsutsui
+regulationMark: B

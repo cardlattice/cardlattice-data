@@ -1,0 +1,34 @@
+name: 기라티나 VSTAR
+pokemon:
+  category: pokemon
+  hp: 280
+  types:
+    - Dragon
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 로스트임팩트
+      cost:
+        - Grass
+        - Psychic
+        - Colorless
+      damage: "280"
+      text: 자신의 필드의 포켓몬에게 붙어 있는 에너지를 2개 선택해서 로스트존에 둔다.
+    - name: 스타레퀴엠
+      cost:
+        - Grass
+        - Psychic
+      text: 이 기술은 자신의 로스트존에 카드가 10장 이상 있을 때만 사용할 수 있다. 상대의 배틀 포켓몬을 기절시킨다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수
+        있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  retreatCost: 2
+  evolvesFrom: 기라티나 V
+  resistances: []
+  weaknesses: []
+illustrators:
+  - 5ban Graphics
+rarity: RRR
+regulationMark: F

@@ -1,0 +1,27 @@
+name: 망키
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 원숭이때리기
+      cost:
+        - Fighting
+      damage: "30"
+      text: 이 포켓몬에게도 10데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 평소에는 기분이 좋다가도 사소한 일로 갑자기 날뛰기 때문에 무섭다.
+  nationalDex:
+    - 56
+  species: 돈숭이포켓몬
+  heightMetres: 0.5
+  weightKilograms: 28
+  resistances: []
+illustrators:
+  - nagimiso
+rarity: S

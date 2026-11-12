@@ -1,0 +1,29 @@
+name: 히스이 미끄네일
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: 경직
+      cost: []
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-50」이 된다.
+    - name: 세게때리기
+      cost:
+        - Water
+        - Metal
+      damage: "40"
+  retreatCost: 3
+  flavourText: 음침한 성격을 가졌다. 히스이 땅에 흐르는 물에 함유된 철이 피부의 점액에 작용하여 금속 껍질로 변한 것으로 추측된다.
+  nationalDex:
+    - 705
+  species: 달팽이포켓몬
+  heightMetres: 0.7
+  weightKilograms: 68.5
+  evolvesFrom: 미끄메라
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Kouki Saitou
+regulationMark: F

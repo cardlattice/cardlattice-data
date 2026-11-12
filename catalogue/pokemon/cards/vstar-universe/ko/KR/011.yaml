@@ -1,0 +1,33 @@
+name: 리피아 V
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 리프블레이드
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 동전을 1번 던져서 앞면이 나오면 60데미지를 추가한다.
+  abilities:
+    - name: 녹화세포
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 자신의 덱에서 {Grass} 에너지를 1장 선택해서 자신의 포켓몬에게 붙인다. 그리고 덱을
+        섞는다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR
+regulationMark: E

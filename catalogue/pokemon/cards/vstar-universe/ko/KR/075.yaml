@@ -1,0 +1,33 @@
+name: 레지락
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 레지게이트
+      cost:
+        - Colorless
+      text: 자신의 덱에서 기본 포켓몬을 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 기가임팩트
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "140"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 몸의 모든 부분이 바위로 되어 있다. 몸이 깎이더라도 스스로 바위를 붙여서 치료한다.
+  nationalDex:
+    - 377
+  species: 바위산포켓몬
+  heightMetres: 1.7
+  weightKilograms: 230
+  resistances: []
+illustrators:
+  - Souichirou Gunjima
+regulationMark: F

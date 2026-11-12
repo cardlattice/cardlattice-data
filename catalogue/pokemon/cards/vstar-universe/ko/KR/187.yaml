@@ -1,0 +1,28 @@
+name: 큐아링
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 회전어택
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 꽃고르기
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 위에서부터 2장 보고 그 중 1장을 선택해서 패로 가져온다. 남은 카드는 로스트존에
+        둔다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 덩굴을 사용해 꽃을 따서 자신을 꾸민다. 몸에 붙은 꽃은 무슨 이유에서인지 시들지 않는다.
+  resistances: []
+illustrators:
+  - Yano Keiji
+rarity: AR
+regulationMark: F

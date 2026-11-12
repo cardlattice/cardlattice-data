@@ -1,0 +1,8 @@
+name: 기본 페어리 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fairy
+rarity: SR

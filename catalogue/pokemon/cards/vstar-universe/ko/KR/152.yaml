@@ -1,0 +1,13 @@
+name: 박사의 연구
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 패를 모두 트래쉬하고 덱을 7장 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+  trainers:
+    - 마박사
+illustrators:
+  - Sanosuke Sakuma
+regulationMark: F

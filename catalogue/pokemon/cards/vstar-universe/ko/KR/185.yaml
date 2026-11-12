@@ -1,0 +1,31 @@
+name: 테오키스
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 포톤부스트
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 이 포켓몬에게 「퓨전 에너지」가 붙어 있다면 80데미지를 추가한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 우주 바이러스가 돌연변이를 일으켜 포켓몬이 되었다. 오로라 근처에 나타난다.
+  subtypes:
+    - Fusion Strike
+    - Single Strike
+    - Rapid Strike
+illustrators:
+  - Scav
+rarity: AR
+regulationMark: E

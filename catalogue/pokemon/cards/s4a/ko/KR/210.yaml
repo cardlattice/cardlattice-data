@@ -1,0 +1,31 @@
+name: 백솜모카
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 은혜의솜털
+      cost:
+        - Colorless
+      text: 자신의 덱에서 {Grass} 에너지를 3장까지 선택해서 벤치 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다.
+    - name: 나뭇잎
+      cost:
+        - Grass
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 머리의 솜털로 만든 실은 윤이 나고 매우 아름답다. 가라르지방의 특산품이다.
+  nationalDex:
+    - 830
+  species: 솜장식포켓몬
+  heightMetres: 0.5
+  weightKilograms: 2.5
+  evolvesFrom: 꼬모카
+  resistances: []
+illustrators:
+  - Mizue
+rarity: S

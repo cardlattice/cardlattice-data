@@ -1,0 +1,34 @@
+name: 인텔리레온
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: 아쿠아불릿
+      cost:
+        - Water
+        - Colorless
+      damage: "120"
+      text: 상대의 벤치 포켓몬 1마리에게도 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 이면공작
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱에서 트레이너스를 2장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을
+        섞는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 다채로운 기능을 숨기고 있다. 손끝에서 물을 분사하고 등에 있는 피막으로 바람을 탄다.
+  nationalDex:
+    - 818
+  species: 에이전트포켓몬
+  heightMetres: 1.9
+  weightKilograms: 45.2
+  evolvesFrom: 누겔레온
+  resistances: []
+illustrators:
+  - nagimiso
+rarity: S

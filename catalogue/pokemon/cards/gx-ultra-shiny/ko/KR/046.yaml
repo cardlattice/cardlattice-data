@@ -1,0 +1,27 @@
+name: 코스모움
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 잠시 쉬기
+      cost:
+        - Colorless
+      text: 이 포켓몬의 HP를 「20」회복한다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 3
+  flavourText: 단단한 껍질 안의 검은 코어에 무언가가 계속 모여들고 있다. 다른 세계의 포켓몬으로 전해진다.
+  nationalDex:
+    - 790
+  species: 원시성포켓몬
+  heightMetres: 0.1
+  weightKilograms: 999.9
+  evolvesFrom: 코스모그
+  resistances: []
+illustrators:
+  - Kouki Saitou
+regulationMark: B

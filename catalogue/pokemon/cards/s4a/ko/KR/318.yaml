@@ -1,0 +1,35 @@
+name: 드래펄트 VMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Psychic
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 찢기
+      cost:
+        - Psychic
+      damage: "60"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+    - name: 다이스펙터
+      cost:
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: 데미지 카운터 5개를 상대의 벤치 포켓몬에게 원하는 대로 올린다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  evolvesFrom: 드래펄트 V
+illustrators:
+  - aky CG Works
+rarity: SSR

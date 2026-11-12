@@ -1,0 +1,34 @@
+name: 오리진 디아루가 V
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 메탈코팅
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 {Metal} 에너지를 2장까지 선택해서 이 포켓몬에게 붙인다.
+    - name: 시간단절
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Colorless
+      damage: "180"
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+illustrators:
+  - 5ban Graphics
+rarity: RR
+regulationMark: F

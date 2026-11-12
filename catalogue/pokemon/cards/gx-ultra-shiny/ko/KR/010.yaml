@@ -1,0 +1,32 @@
+name: 마그마그
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 마그마로 둘러싸기
+      cost:
+        - Colorless
+      damage: "10"
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다.
+    - name: 불꽃
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 용암으로 된 몸을 가지고 있다. 끊임없이 움직이지 않으면 몸이 식어 굳어져 버린다.
+  nationalDex:
+    - 218
+  species: 용암포켓몬
+  heightMetres: 0.7
+  weightKilograms: 35
+  resistances: []
+illustrators:
+  - Midori Harada
+regulationMark: B

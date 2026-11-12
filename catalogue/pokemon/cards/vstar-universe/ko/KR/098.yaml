@@ -1,0 +1,29 @@
+name: 동미러
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 부딪치기
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  flavourText: 닦으면 빛이 나며 진실을 비춘다고 전해지지만 동미러는 닦이는 걸 매우 싫어한다.
+  nationalDex:
+    - 436
+  species: 청동포켓몬
+  heightMetres: 0.5
+  weightKilograms: 60.5
+illustrators:
+  - Mizue
+regulationMark: E

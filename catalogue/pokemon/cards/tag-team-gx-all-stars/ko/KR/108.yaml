@@ -1,0 +1,25 @@
+name: 메타몽[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - Prism Star
+  abilities:
+    - name: 마음대로 진화
+      kind: Ability
+      text: 이 포켓몬은 자신의 차례에 1진화 포켓몬을 패에서 꺼내서 이 포켓몬에 겹쳐서 진화할 수 있다. (자신의 첫 번째 차례와 이 포켓몬을 필드로 내보낸 차례는 제외한다.)
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 놀라운 변신 능력으로 누구와도 동료가 될 수 있다._x000D_ 메타몽끼리는 사이가 나쁘다.
+  resistances: []
+illustrators:
+  - kirisAki
+rarity: PR
+regulationMark: B

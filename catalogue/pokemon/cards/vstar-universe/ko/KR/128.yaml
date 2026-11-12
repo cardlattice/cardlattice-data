@@ -1,0 +1,32 @@
+name: 히스이 조로아크 V
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 공허한귀환
+      cost: []
+      damage: "30"
+      text: 원한다면 이 포켓몬을 벤치 포켓몬과 교체한다.
+    - name: 섀도사이클론
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 벤치 포켓몬에게 붙인다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - aky CG Works
+rarity: RR
+regulationMark: F

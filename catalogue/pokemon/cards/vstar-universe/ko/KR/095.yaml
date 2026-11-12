@@ -1,0 +1,31 @@
+name: 레어코일
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 되받아치기
+      cost:
+        - Metal
+        - Colorless
+      damage: "50"
+      text: 상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로 내보낼 포켓몬은 상대가 선택한다.)
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  flavourText: 3마리의 코일이 연결되었다. 강력한 전파를 발산해 주위의 상황을 관측한다.
+  nationalDex:
+    - 82
+  species: 자석포켓몬
+  heightMetres: 1
+  weightKilograms: 60
+  evolvesFrom: 코일
+illustrators:
+  - Saya Tsuruta
+regulationMark: F

@@ -1,0 +1,9 @@
+name: 히트 불꽃 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 포켓몬에게 붙어 있는 한, {Fire} 에너지 1개분으로 작용한다. 이 카드를 붙이고 있는 {Fire} 포켓몬의 최대 HP는 「20」커진다.
+  types:
+    - Fire

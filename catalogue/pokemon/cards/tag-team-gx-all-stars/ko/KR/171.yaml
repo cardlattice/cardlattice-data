@@ -1,0 +1,14 @@
+name: 비스트에너지[프리즘스타]
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+    - Prism Star
+  rules:
+    - 이 카드는 {Colorless} 에너지 1개분으로 작용한다. 이 카드는 자신의 「울트라비스트」에게 붙어 있을 때 모든 타입의 에너지 1개분으로 작용하고 이 카드를 붙이고
+      있는 「울트라비스트」가 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+30」이 된다.
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  types:
+    - Colorless
+rarity: PR
+regulationMark: B

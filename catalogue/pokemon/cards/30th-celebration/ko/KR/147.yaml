@@ -1,0 +1,32 @@
+name: 펄기아 LV.X
+illustrators:
+  - Ryo Ueda
+regulationMark: null
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Level-Up
+  subtypes:
+    - LV.X
+  attacks:
+    - name: 하이드로 리플렉트
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "60"
+      text: 원한다면 자신의 에너지를 모두, 자신의 벤치 포켓몬에게 원하는 대로 붙여도 좋다. (자신의 벤치 포켓몬이 없다면 이 효과는 없어진다.)
+  abilities:
+    - name: 리컨스트럭션
+      kind: Poké-Power
+      text: 자신의 차례에 한 번 사용할 수 있다. 자신의 벤치 포켓몬 1마리를 상대 플레이어가 선택하고 상대의 벤치 포켓몬 1마리를 자신이 선택한다. 그 뒤, 선택된 포켓몬을 각각 배틀 포켓몬과
+        교체한다(벤치 포켓몬이 없는 플레이어는 교체하지 않는다). 이 파워는 이 포켓몬이 특수 상태라면 사용할 수 없다.
+  rules:
+    - 이 카드는 배틀필드의 펄기아에 겹쳐서 레벨업시킨다. 레벨업 전의 기술, 포켓파워도 사용할 수 있고 포켓바디도 작용한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3

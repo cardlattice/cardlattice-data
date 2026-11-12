@@ -1,0 +1,32 @@
+name: 그란돈
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 그라운드 브레이크
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "250"
+      text: 자신의 벤치 포켓몬 전원에게도 각각 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  flavourText: 고열로 물을 증발시켜 대지를 넓혔다고 전해진다. 가이오가와 격하게 싸웠다.
+  heightMetres: 3.5
+  weightKilograms: 950
+  abilities: []
+  rules: []
+  species: 대륙포켓몬
+  nationalDex:
+    - 383
+  resistances: []
+illustrators:
+  - Takumi Wada

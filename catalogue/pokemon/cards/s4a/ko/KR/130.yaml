@@ -1,0 +1,36 @@
+name: 쌍검킬
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 베어가르기
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+    - name: 더블슬래시
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 80×
+      text: 동전을 2번 던져서 앞면이 나온 수 × 80데미지를 준다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 진화해서 쌍둥이가 되었다. 칼날을 맞부딪혀서 내는 금속음으로 상대를 위협한다.
+  nationalDex:
+    - 680
+  species: 도검포켓몬
+  heightMetres: 0.8
+  weightKilograms: 4.5
+  evolvesFrom: 단칼빙
+illustrators:
+  - Aya Kusube

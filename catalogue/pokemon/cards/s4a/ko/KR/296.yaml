@@ -1,0 +1,28 @@
+name: 파르빗
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 매드파티
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기술 「매드파티」를 가진 포켓몬의 수 × 20데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 귀로 구멍을 파는 것이 특기다. 지하 10m에 달하는 굴을 하룻밤 만에 만들어버린다.
+  nationalDex:
+    - 659
+  species: 땅구멍파기포켓몬
+  heightMetres: 0.4
+  weightKilograms: 5
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+rarity: S

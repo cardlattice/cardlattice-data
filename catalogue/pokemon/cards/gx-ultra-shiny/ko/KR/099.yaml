@@ -1,0 +1,26 @@
+name: 딥상어동
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 각성
+      cost:
+        - Fighting
+      text: 이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장 선택하여 이 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  retreatCost: 1
+  flavourText: 구멍에 숨어서 먹이나 적이 지나가면 뛰쳐나가 문다. 기세가 대단해 이가 빠질 때도 있다.
+  nationalDex:
+    - 443
+  species: 육지상어포켓몬
+  heightMetres: 0.7
+  weightKilograms: 20.5
+  resistances: []
+illustrators:
+  - Kyoko Umemoto
+regulationMark: B

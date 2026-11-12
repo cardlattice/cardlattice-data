@@ -1,0 +1,29 @@
+name: 화강돌
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 괴로운외침
+      cost:
+        - Darkness
+      damage: 10+
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 30데미지를 추가한다.
+  abilities:
+    - name: 원한쌓기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 이 포켓몬에게 데미지 카운터를 1개 올린다.
+  retreatCost: 1
+  flavourText: 108개의 영혼이 모여서 태어난 포켓몬이다. 쐐기돌의 균열과 연결되어 있다.
+  nationalDex:
+    - 442
+  species: 봉인포켓몬
+  heightMetres: 1
+  weightKilograms: 108
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Kagemaru Himeno
+regulationMark: C

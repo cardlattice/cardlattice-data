@@ -1,0 +1,30 @@
+name: 약어리
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 허찌르기
+      cost:
+        - Water
+      damage: "30"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  abilities:
+    - name: 무리의 반격
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 배틀필드의 「약어리(『포켓몬 [ex]』 포함)」가 상대의 포켓몬으로부터 기술의 데미지를 받았을 때 기술을 사용한 포켓몬에게 데미지 카운터를 3개 올린다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 1마리로는 너무나도 허약해서 무리를 지어 상대에게 맞서는 능력을 습득했다.
+  heightMetres: 0.2
+  weightKilograms: 0.3
+  species: 잔물고기포켓몬
+  nationalDex:
+    - 746
+  resistances: []
+illustrators:
+  - Narano

@@ -1,0 +1,32 @@
+name: 드래펄트 V
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 물기
+      cost:
+        - Psychic
+      damage: "30"
+    - name: 어솔트제트
+      cost:
+        - Psychic
+        - Psychic
+      damage: 60+
+      text: 이 차례에 이 포켓몬이 벤치에서 배틀필드로 나왔다면 80데미지를 추가한다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - aky CG Works
+rarity: SSR

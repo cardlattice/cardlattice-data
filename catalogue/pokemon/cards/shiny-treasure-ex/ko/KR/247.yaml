@@ -1,0 +1,31 @@
+name: 빠모
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 치기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 일렉트릭킥
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 손의 볼록살이 방전 기관이다. 뒷발로 겨우 일어선 다음 손바닥에서 전격을 내보낸다.
+  nationalDex:
+    - 921
+  species: 쥐포켓몬
+  heightMetres: 0.3
+  weightKilograms: 2.5
+  resistances: []
+illustrators:
+  - kurumitsu
+rarity: S

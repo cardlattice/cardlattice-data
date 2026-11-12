@@ -1,0 +1,32 @@
+name: 구구
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 동료부르기
+      cost:
+        - Colorless
+      text: 자신의 덱에서 기본 포켓몬을 2장까지 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 몸통박치기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 싸움을 좋아하지 않는 얌전한 성격이지만 어설프게 건드리면 강력한 반격을 당하게 된다.
+  nationalDex:
+    - 16
+  species: 아기새포켓몬
+  heightMetres: 0.3
+  weightKilograms: 1.8
+illustrators:
+  - Oswaldo KATO

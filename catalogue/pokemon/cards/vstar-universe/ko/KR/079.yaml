@@ -1,0 +1,33 @@
+name: 가라르 파이어
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 타오르는분노
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: 20+
+      text: 상대가 이미 가져간 프라이즈의 장수 × 50데미지를 추가한다.
+  abilities:
+    - name: 사악차지
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 패에서 {Darkness} 에너지를 2장까지 선택해서 이 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 사악한 오라를 불꽃처럼 타오르게 하는 그 모습을 보고 파이어라고 부르게 되었다.
+  nationalDex:
+    - 146
+  species: 사악포켓몬
+  heightMetres: 2
+  weightKilograms: 66
+  resistances: []
+illustrators:
+  - KEIICHIRO ITO
+regulationMark: E

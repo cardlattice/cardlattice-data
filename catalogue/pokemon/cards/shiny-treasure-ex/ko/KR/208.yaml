@@ -1,0 +1,34 @@
+name: 스코빌런
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 스파이시헤드
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 이 기술의 데미지는 저항력 계산을 하지 않는다.
+  abilities:
+    - name: 더블타입
+      kind: Ability
+      text: 이 포켓몬은 필드에 있는 한, {Grass} 과 {Fire} 의 2가지 타입이 된다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 레드 헤드가 매운 성분을 불꽃 에너지로 변환시켜 불같이 매운 화염방사를 사방에 흩뿌린다.
+  nationalDex:
+    - 952
+  species: 하바네로포켓몬
+  heightMetres: 0.9
+  weightKilograms: 15
+  evolvesFrom: 캡싸이
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S

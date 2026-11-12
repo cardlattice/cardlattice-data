@@ -1,0 +1,34 @@
+name: 마샤도
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 섀도펀치
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: 이 기술의 데미지는 저항력 계산을 하지 않는다.
+  abilities:
+    - name: 피장파장
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 서로의 플레이어는 각각 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 각각 덱을 4장 뽑는다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 그림자 안에 숨어 들을 수 있어 사람들 앞에 모습을 보이지 않아 그 존재는 환상이었다.
+  nationalDex:
+    - 802
+  species: 그림자살이포켓몬
+  heightMetres: 0.7
+  weightKilograms: 22.2
+illustrators:
+  - Emi Ando
+regulationMark: A

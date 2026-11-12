@@ -1,0 +1,10 @@
+name: 호러 초 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 포켓몬에게 붙어 있는 한, {Psychic} 에너지 1개분으로 작용한다. 이 카드를 붙이고 있는 {Psychic} 포켓몬이 배틀필드에서 상대의 포켓몬으로부터
+      기술의 데미지를 받았을 때 기술을 사용한 포켓몬에게 데미지 카운터를 2개 올린다.
+  types:
+    - Psychic

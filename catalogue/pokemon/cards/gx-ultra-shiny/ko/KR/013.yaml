@@ -1,0 +1,33 @@
+name: 영치코
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 덤벼들기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  abilities:
+    - name: 자연회복
+      kind: Ability
+      text: 패에서 이 포켓몬에게 에너지를 붙일 때마다 이 포켓몬의 특수 상태를 모두 회복한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 싸우게 되면 체내의 불꽃이 세차게 타오른다. 킥은 파괴력이 굉장하다.
+  nationalDex:
+    - 256
+  species: 꼬마닭포켓몬
+  heightMetres: 0.9
+  weightKilograms: 19.5
+  evolvesFrom: 아차모
+  resistances: []
+illustrators:
+  - Ken Sugimori
+regulationMark: B

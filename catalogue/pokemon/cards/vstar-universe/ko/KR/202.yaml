@@ -1,0 +1,25 @@
+name: 파비코
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 허찌르기
+      cost:
+        - Colorless
+      damage: "30"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 솜 같은 날개를 손질하는 일은 절대 거르지 않는다. 더러워지면 물로 깨끗하게 씻는다.
+illustrators:
+  - Kouki Saitou
+rarity: AR
+regulationMark: E

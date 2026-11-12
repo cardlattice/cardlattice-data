@@ -1,0 +1,37 @@
+name: 에브이
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 미라클샤인
+      cost:
+        - Psychic
+        - Colorless
+      text: 상대의 진화한 포켓몬 전원의 위에서부터 각각 「진화카드」를 1장씩 떼어내서 퇴화시킨다. 떼어낸 카드는 상대의 패로 되돌린다.
+    - name: 초염동력
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "90"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 전신의 세밀한 털로 공기의 흐름을 알아차려 상대의 생각이나 날씨를 예측한다.
+  heightMetres: 0.9
+  weightKilograms: 26.5
+  abilities: []
+  rules: []
+  species: 태양포켓몬
+  nationalDex:
+    - 196
+  evolvesFrom: 이브이
+illustrators:
+  - aspara

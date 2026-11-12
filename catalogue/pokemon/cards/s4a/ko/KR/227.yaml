@@ -1,0 +1,33 @@
+name: 깨물부기
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 물기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: 물대포
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 머리 뿔은 바위처럼 단단하다. 뿔로 싸우다가 풀이 죽은 틈에 덥석 물고 놓지 않는다.
+  nationalDex:
+    - 833
+  species: 물고늘어지기포켓몬
+  heightMetres: 0.3
+  weightKilograms: 8.5
+  resistances: []
+illustrators:
+  - otumami
+rarity: S

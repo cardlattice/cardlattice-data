@@ -1,0 +1,32 @@
+name: 캥카
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 진화촉성
+      cost:
+        - Colorless
+      text: 자신의 덱에 있는 진화 포켓몬을 2장까지 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 메가톤펀치
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 배의 주머니에 자신의 새끼를 넣어 지킨다. 새끼에게 해를 끼치는 자는 절대 용서하지 않고 때려눕힌다.
+  nationalDex:
+    - 115
+  species: 가족포켓몬
+  heightMetres: 2.2
+  weightKilograms: 80
+  resistances: []
+illustrators:
+  - Mizue
+regulationMark: C

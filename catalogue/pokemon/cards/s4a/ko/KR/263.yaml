@@ -1,0 +1,34 @@
+name: 가라르 창파나이트
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 궤찌르기
+      cost:
+        - Fighting
+      damage: "40"
+    - name: 스타어설트
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 이 기술을 사용하면 이 포켓몬은 배틀필드를 떠날 때까지 「스타어설트」를 사용할 수 없다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 많은 싸움에서 살아남은 자만이 이 모습으로 진화한다. 파가 시들면 전장을 떠난다.
+  nationalDex:
+    - 865
+  species: 청둥오리포켓몬
+  heightMetres: 0.8
+  weightKilograms: 117
+  evolvesFrom: 가라르 파오리
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S

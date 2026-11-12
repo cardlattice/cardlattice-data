@@ -1,0 +1,33 @@
+name: M 가디안 EX
+illustrators:
+  - 5ban Graphics
+regulationMark: null
+pokemon:
+  category: pokemon
+  abilities: []
+  rules:
+    - M진화 포켓몬으로 진화하면 자신의 차례는 끝난다.
+    - 포켓몬 EX가 기절할 경우 상대는 프라이즈를 2장 가져간다.
+  hp: 210
+  types:
+    - Fairy
+  stage: MEGA
+  evolvesFrom: 가디안 EX
+  subtypes:
+    - EX
+    - Mega
+  attacks:
+    - name: 브릴리언트 애로
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 자신의 필드의 포켓몬에게 붙어 있는 {Fairy}에너지를 합한 수 × 30데미지를 준다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2

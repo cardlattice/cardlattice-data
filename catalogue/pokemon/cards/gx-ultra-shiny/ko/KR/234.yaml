@@ -1,0 +1,39 @@
+name: 메타그로스 GX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Metal
+  stage: Stage 2
+  subtypes:
+    - GX
+  attacks:
+    - name: 기가해머
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "150"
+      text: 자신의 다음 차례에 이 포켓몬은 「기가해머」를 사용할 수 없다.
+    - name: 알고리즘 GX
+      cost:
+        - Colorless
+      text: 자신의 덱에서 원하는 카드를 5장까지 패로 가져온다. 그리고 덱을 섞는다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 지오테크 시스템
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에 있는 {Psychic} 또는 {Metal} 에너지를 1장 배틀 포켓몬에게 붙인다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  evolvesFrom: 메탕구
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

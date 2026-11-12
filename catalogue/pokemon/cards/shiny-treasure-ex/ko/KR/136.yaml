@@ -1,0 +1,26 @@
+name: 모토마
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 고속드라이브
+      cost:
+        - Grass
+        - Darkness
+        - Colorless
+      damage: "100"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+  retreatCost: 1
+  flavourText: 먼 옛날부터 인간을 등에 태우고 다녔다고 한다. 1만 년 전 벽화에도 그 모습이 그려져 있다.
+  nationalDex:
+    - 967
+  species: 라이드포켓몬
+  heightMetres: 1.6
+  weightKilograms: 63
+  resistances: []
+  weaknesses: []
+illustrators:
+  - GIDORA

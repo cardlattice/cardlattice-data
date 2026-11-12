@@ -1,0 +1,32 @@
+name: 다부니
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 드레인 뺨치기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 이 포켓몬의 HP를 「30」회복한다.
+  abilities:
+    - name: 히어링
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 1장 뽑는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 귀의 더듬이로 상대의 컨디션이나 알에서 포켓몬이 언제 나올지도 알 수 있다.
+  nationalDex:
+    - 531
+  species: 히어링포켓몬
+  heightMetres: 1.1
+  weightKilograms: 31
+  resistances: []
+illustrators:
+  - sui
+regulationMark: C

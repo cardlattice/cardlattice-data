@@ -1,0 +1,32 @@
+name: 모크나이퍼
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: 스플릿애로
+      cost:
+        - Grass
+        - Colorless
+      damage: "90"
+      text: 상대의 벤치 포켓몬 2마리에게도 각각 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 밀림위장
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 V・GX」로부터 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 날개에 숨겨진 살깃을 활과 화살처럼 이용해서 쏜다. 노린 표적은 빗나가지 않는다.
+  nationalDex:
+    - 724
+  species: 화살깃포켓몬
+  heightMetres: 1.6
+  weightKilograms: 36.6
+  evolvesFrom: 빼미스로우
+  resistances: []
+illustrators:
+  - Souichirou Gunjima

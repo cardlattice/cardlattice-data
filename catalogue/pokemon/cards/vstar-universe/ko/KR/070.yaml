@@ -1,0 +1,33 @@
+name: 히스이 윈디
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 허점투성이
+      cost: []
+      damage: 10+
+      text: 자신의 패가 1장도 없다면 150데미지를 추가한다.
+    - name: 예리한이빨
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "100"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 활활 타는 불꽃을 이빨에 두르고 문다. 체구가 큼에도 불구하고 화려한 움직임으로 적을 농락하는 모습이 마치 춤추는 것 같다.
+  nationalDex:
+    - 59
+  species: 전설포켓몬
+  heightMetres: 2
+  weightKilograms: 168
+  evolvesFrom: 히스이 가디
+  resistances: []
+illustrators:
+  - Oswaldo KATO
+regulationMark: F

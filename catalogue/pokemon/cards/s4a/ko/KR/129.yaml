@@ -1,0 +1,28 @@
+name: 단칼빙
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 슬라이스 블레이드
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  flavourText: 먼 옛날에 이 검에 의해 죽은 인간의 영혼이 단칼빙의 영혼이 되었다.
+  nationalDex:
+    - 679
+  species: 도검포켓몬
+  heightMetres: 0.8
+  weightKilograms: 2
+illustrators:
+  - Sekio

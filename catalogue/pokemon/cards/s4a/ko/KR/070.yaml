@@ -1,0 +1,34 @@
+name: 고우스트
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 악몽
+      cost:
+        - Colorless
+      damage: "20"
+      text: 상대의 배틀 포켓몬을 잠듦으로 만든다.
+    - name: 홀로숏
+      cost:
+        - Psychic
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 가스로 된 혀에 닿게 되면 몸의 떨림이 멈추지 않게 되어 결국에는 죽음에 이른다고 전해진다.
+  nationalDex:
+    - 93
+  species: 가스포켓몬
+  heightMetres: 1.6
+  weightKilograms: 0.1
+  evolvesFrom: 고오스
+illustrators:
+  - HYOGONOSUKE

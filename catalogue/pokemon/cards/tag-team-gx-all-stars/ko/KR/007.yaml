@@ -1,0 +1,30 @@
+name: 단단지
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 에너지드링크
+      cost:
+        - Grass
+      text: 자신의 트래쉬에 있는 기본 에너지를 2장 자신의 포켓몬에게 원하는 대로 붙인다.
+  abilities:
+    - name: 후레쉬스퀴즈
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 덱에 있는 기본 에너지를 3장까지 트래쉬한다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 껍질에 열매가 비축되어 있다. 공격받지 않도록 바위 밑에 틀어박혀 꼼짝하지 않고 있다.
+  nationalDex:
+    - 213
+  species: 발효포켓몬
+  heightMetres: 0.6
+  weightKilograms: 20.5
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+regulationMark: B

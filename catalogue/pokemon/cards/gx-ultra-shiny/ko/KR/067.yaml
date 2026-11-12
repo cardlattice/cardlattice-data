@@ -1,0 +1,29 @@
+name: 깜까미
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 사슬묶기
+      cost:
+        - Colorless
+      damage: "10"
+      text: 상대의 배틀 포켓몬이 가지고 있는 기술을 1개 선택한다. 상대의 다음 차례에 이 기술을 받은 포켓몬은 선택된 기술을 사용할 수 없다.
+  abilities:
+    - name: 깊이파기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 위에서부터 1장 보고 원래대로 되돌린다. 원한다면 그 카드를 트래쉬한다.
+  retreatCost: 1
+  flavourText: 보석 눈동자가 수상하게 빛날 때 사람의 영혼을 빼앗는다며 두려움의 대상이 된 포켓몬이다.
+  nationalDex:
+    - 302
+  species: 어둠포켓몬
+  heightMetres: 0.5
+  weightKilograms: 11
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Yukiko Baba
+regulationMark: B

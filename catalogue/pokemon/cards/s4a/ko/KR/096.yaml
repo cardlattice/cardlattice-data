@@ -1,0 +1,33 @@
+name: 석탄산
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: 불사태
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: 타르 제너레이트
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 {Fire} 에너지와 {Fighting} 에너지를 각각 1장까지 선택해서 자신의 포켓몬에게 원하는 대로 붙인다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  flavourText: 평소에는 온화하지만 인간이 광산을 훼손시키면 격분해서 1500도의 불꽃으로 태워버린다.
+  nationalDex:
+    - 839
+  species: 석탄포켓몬
+  heightMetres: 2.8
+  weightKilograms: 310.5
+  evolvesFrom: 탄차곤
+  resistances: []
+illustrators:
+  - Shigenori Negishi

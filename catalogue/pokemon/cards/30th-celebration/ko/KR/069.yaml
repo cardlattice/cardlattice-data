@@ -1,0 +1,31 @@
+name: 루카리오
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 파동탄
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "100"
+      text: 상대의 벤치 포켓몬 1마리에게도 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 모든 존재가 내는 파동을 읽어 내어 1km 앞에 있는 상대의 마음도 이해할 수 있다.
+  heightMetres: 1.2
+  weightKilograms: 54
+  abilities: []
+  rules: []
+  species: 파동포켓몬
+  nationalDex:
+    - 448
+  evolvesFrom: 리오르
+  resistances: []
+illustrators:
+  - Hideki Ishikawa

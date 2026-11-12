@@ -1,0 +1,32 @@
+name: 한바이트
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: 각성
+      cost:
+        - Fighting
+      text: 이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장 선택하여 이 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다.
+    - name: 베어가르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  retreatCost: 1
+  flavourText: 반짝반짝 빛나는 것을 아주 좋아한다. 보석이나 잡은 멜리시를 둥지에서 가만히 바라보고 있다.
+  nationalDex:
+    - 444
+  species: 동굴포켓몬
+  heightMetres: 1.4
+  weightKilograms: 56
+  evolvesFrom: 딥상어동
+  resistances: []
+illustrators:
+  - Sumiyoshi Kizuki
+regulationMark: B

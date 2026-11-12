@@ -1,0 +1,34 @@
+name: 폴리곤Z
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: 날뛰기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 이 포켓몬을 혼란으로 만든다.
+  abilities:
+    - name: 크레이지코드
+      kind: Ability
+      text: 자신의 차례에 몇 번이라도 사용할 수 있다. 자신의 패에 있는 특수 에너지를 1장 자신의 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 불안정한 거동이 눈에 띈다. 프로그램을 업데이트한 기술자의 실력이 문제인 듯하다.
+  nationalDex:
+    - 474
+  species: 가상포켓몬
+  heightMetres: 0.9
+  weightKilograms: 34
+  evolvesFrom: 폴리곤2
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+regulationMark: C

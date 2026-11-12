@@ -1,0 +1,47 @@
+name: 토네로스 GX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 바람일으키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: 와일드러시
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 30데미지를 추가한다.
+    - name: 파괴의선풍 GX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 상대의 배틀 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+illustrators:
+  - 5ban Graphics
+collectorNumber: 162/SM-P
+regulationMark: B
+products:
+  - pokemon-product-gx-ultra-shiny-ultimate-ko
+finishes:
+  - holo
+releaseDate: 2019-08-23

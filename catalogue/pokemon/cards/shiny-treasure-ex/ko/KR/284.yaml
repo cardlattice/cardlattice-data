@@ -1,0 +1,29 @@
+name: 스태솔트
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 소금캐논
+      cost:
+        - Fighting
+        - Fighting
+      damage: 60×
+      text: 동전을 3번 던져서 앞면이 나온 수 × 60데미지를 준다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 분출한 소금을 먹이에게 끼얹어서 소금절이로 만들어 버린다. 체내의 수분을 빼앗는 것이다.
+  nationalDex:
+    - 933
+  species: 암염포켓몬
+  heightMetres: 0.6
+  weightKilograms: 105
+  evolvesFrom: 베베솔트
+  resistances: []
+illustrators:
+  - otumami
+rarity: S

@@ -1,0 +1,33 @@
+name: 칼라마네로
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 염동탄
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: 사이코리차지
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에 있는 {Psychic} 에너지를 1장 벤치 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 최면술로 끌어들여서 머리의 촉수로 휘감아 소화액을 끼얹어 꼼짝 못하게 한다.
+  nationalDex:
+    - 687
+  species: 역전포켓몬
+  heightMetres: 1.5
+  weightKilograms: 47
+  evolvesFrom: 오케이징
+  resistances: []
+illustrators:
+  - You Iribi
+regulationMark: B

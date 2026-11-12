@@ -1,0 +1,33 @@
+name: 히스이 대검귀 VSTAR
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Darkness
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 무자비한칼날
+      cost:
+        - Darkness
+        - Darkness
+      damage: 110+
+      text: 상대의 배틀 포켓몬에게 데미지 카운터가 올려져 있다면 110데미지를 추가한다.
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 히스이 대검귀 V
+  resistances: []
+  abilities:
+    - name: 참월스타
+      kind: Ability
+      power: VSTAR
+      text: 자신의 차례에 사용할 수 있다. 상대의 포켓몬 1마리에게 데미지 카운터를 4개 올린다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+illustrators:
+  - Shibuzoh.
+rarity: SAR
+regulationMark: F

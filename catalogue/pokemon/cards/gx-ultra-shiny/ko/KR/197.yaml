@@ -1,0 +1,33 @@
+name: 파비코리
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: 궤찌르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: 싸움의노래
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 {Dragon} 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+20」이 된다.
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  retreatCost: 1
+  flavourText: 맑은 날 뭉게구름에 뒤섞이면서 넓은 하늘을 자유롭게 날아다니며 아름다운 소프라노로 노래한다.
+  nationalDex:
+    - 334
+  species: 허밍포켓몬
+  heightMetres: 1.1
+  weightKilograms: 20.6
+  evolvesFrom: 파비코
+  resistances: []
+illustrators:
+  - kirisAki
+rarity: S
+regulationMark: B

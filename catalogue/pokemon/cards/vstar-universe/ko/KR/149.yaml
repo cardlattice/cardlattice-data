@@ -1,0 +1,11 @@
+name: 난천의 패기
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 패가 5장이 되도록 덱을 뽑는다. 상대의 이전 차례에 자신의 포켓몬이 기절했다면 8장이 되도록 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Megumi Mizutani
+regulationMark: F

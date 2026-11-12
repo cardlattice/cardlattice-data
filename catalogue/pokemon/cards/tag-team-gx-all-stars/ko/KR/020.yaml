@@ -1,0 +1,30 @@
+name: 비크티니
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 빅토리사인
+      cost:
+        - Fire
+      text: 자신의 덱에서 각각 다른 타입의 기본 에너지를 2장까지 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다.
+    - name: 불꽃
+      cost:
+        - Fire
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 승리를 부르는 포켓몬이다. 비크티니와 함께하는 트레이너는 그 어떤 승부에서도 승리한다고 한다.
+  nationalDex:
+    - 494
+  species: 승리포켓몬
+  heightMetres: 0.4
+  weightKilograms: 4
+  resistances: []
+illustrators:
+  - Mizue
+regulationMark: C

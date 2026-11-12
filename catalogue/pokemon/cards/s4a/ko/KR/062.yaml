@@ -1,0 +1,32 @@
+name: 모르페코
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 트집
+      cost:
+        - Colorless
+      damage: "20"
+      text: 상대의 배틀 포켓몬이 가지고 있는 기술을 1개 선택한다. 상대의 다음 차례에 이 기술을 받은 포켓몬은 선택된 기술을 사용할 수 없다.
+    - name: 스파크
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: 상대의 벤치 포켓몬 1마리에게도 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 항상 배가 고프다. 호주머니같이 생긴 주머니에 넣어둔 씨앗을 먹어서 전기를 만든다.
+  nationalDex:
+    - 877
+  species: 양면포켓몬
+  heightMetres: 0.3
+  weightKilograms: 3
+  resistances: []
+illustrators:
+  - Kouki Saitou

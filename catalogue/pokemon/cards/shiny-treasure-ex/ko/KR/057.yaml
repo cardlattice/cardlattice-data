@@ -1,0 +1,26 @@
+name: 찌리리공
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 롤링어택
+      cost:
+        - Lightning
+      damage: 10+
+      text: 동전을 1번 던져서 앞면이 나오면 20데미지를 추가한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 굴러서 이동하기 때문에 땅이 울퉁불퉁하면 충격으로 폭발해 버린다.
+  nationalDex:
+    - 100
+  species: 볼포켓몬
+  heightMetres: 0.5
+  weightKilograms: 10.4
+  resistances: []
+illustrators:
+  - nagimiso

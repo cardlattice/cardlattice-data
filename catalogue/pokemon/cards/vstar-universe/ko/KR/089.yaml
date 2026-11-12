@@ -1,0 +1,32 @@
+name: 레파르다스
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 베어가르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: 거래
+      kind: Ability
+      text: 자신의 차례에 자신의 패를 1장 트래쉬한다면 1번 사용할 수 있다. 자신의 덱을 2장 뽑는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 아름다운 털과 스타일에 쉽게 매료되지만 변덕스럽고 흉포한 포켓몬이다.
+  nationalDex:
+    - 510
+  species: 냉혹포켓몬
+  heightMetres: 1.1
+  weightKilograms: 37.5
+  evolvesFrom: 쌔비냥
+  resistances: []
+illustrators:
+  - saino misaki
+regulationMark: F

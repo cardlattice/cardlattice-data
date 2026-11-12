@@ -1,0 +1,28 @@
+name: 알로라식스테일
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 갈기
+      cost: []
+  abilities:
+    - name: 비밀의 샛길
+      kind: Ability
+      text: 자신의 필드에 {Fairy} 포켓몬이 있다면 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 더울 때는 6개의 꼬리로 얼음 뭉치를 만들어 주변에 뿌려서 몸을 식힌다.
+  nationalDex:
+    - 37
+  species: 여우포켓몬
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  resistances: []
+illustrators:
+  - Naoyo Kimura
+regulationMark: B

@@ -1,0 +1,32 @@
+name: 화강돌
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 연쇄혼령불
+      cost:
+        - Darkness
+        - Darkness
+      damage: 10+
+      text: 자신의 트래쉬에 있는 「화강돌」의 장수 × 60데미지를 추가한다.
+  abilities:
+    - name: 저주의 전언
+      kind: Ability
+      text: 이 포켓몬이 상대의 포켓몬으로부터 기술의 데미지를 받아 기절했을 때, 자신의 덱에서 원하는 카드를 1장 선택해서 패로 가져온다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 108개의 영혼이 모여 포켓몬이 되었지만 성질이 나쁜 영혼이 섞여버린 듯하다.
+  nationalDex:
+    - 442
+  species: 봉인포켓몬
+  heightMetres: 1
+  weightKilograms: 108
+  resistances: []
+illustrators:
+  - sui
+regulationMark: F

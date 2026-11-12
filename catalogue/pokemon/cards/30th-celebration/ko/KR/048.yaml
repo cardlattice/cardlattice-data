@@ -1,0 +1,32 @@
+name: 피카츄 ex
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 찌리리피버
+      cost:
+        - Lightning
+      text: 자신의 패에서 기본 에너지를 원하는 만큼 선택해서 자신의 포켓몬에게 원하는 대로 붙인다.
+    - name: 번개
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "200"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  abilities: []
+  resistances: []
+rarity: RR
+illustrators:
+  - takuyoa

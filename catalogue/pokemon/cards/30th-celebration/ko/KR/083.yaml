@@ -1,0 +1,36 @@
+name: 너트령
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 가시로찌르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: 쾅쾅바늘
+      cost:
+        - Metal
+        - Metal
+      text: 상대의 포켓몬 전원에게 각각 50데미지를 준다. 이 포켓몬에게도 130데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  flavourText: 가시로 암반에 상처를 낸 다음 촉수 끝을 이용해서 영양분을 흡수한다.
+  heightMetres: 1
+  weightKilograms: 110
+  abilities: []
+  rules: []
+  species: 가시공포켓몬
+  nationalDex:
+    - 598
+  evolvesFrom: 철시드
+illustrators:
+  - Po-Suzuki

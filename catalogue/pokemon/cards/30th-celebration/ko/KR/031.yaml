@@ -1,0 +1,36 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 에너지테일
+      cost:
+        - Colorless
+      text: 자신의 덱에서 에너지를 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 피카펀치
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules: []
+  nationalDex:
+    - 25
+  species: 쥐포켓몬
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+finishes:
+  - holo
+illustrators:
+  - Yuu Nishida
+additionalNumbers:
+  pikachu30th: 15/30

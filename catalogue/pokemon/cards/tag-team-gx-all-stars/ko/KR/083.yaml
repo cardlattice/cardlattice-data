@@ -1,0 +1,43 @@
+name: 루카리오&멜메탈 GX
+pokemon:
+  category: pokemon
+  hp: 260
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 강철주먹
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 자신의 덱에 있는 {Metal} 에너지를 1장 이 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+    - name: 헤비임팩트
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "150"
+    - name: 풀메탈월GX
+      cost:
+        - Colorless
+      text: 이 대전이 종료될 때까지 자신의 {Metal} 포켓몬 전원이 상대의 포켓몬으로부터 받는 기술의 데미지는 모두「-30」이 된다. 에너지 1개가 추가로 붙어 있다면 상대의
+        배틀 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+      costModifier: +
+  rules:
+    - TAG TEAM이 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+illustrators:
+  - Mitsuhiro Arita
+rarity: RR
+regulationMark: C

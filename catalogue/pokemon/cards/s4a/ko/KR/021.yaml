@@ -1,0 +1,29 @@
+name: 레시라무
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 어메이징블레이즈
+      cost:
+        - Fire
+        - Lightning
+        - Darkness
+      damage: "270"
+      text: 이 포켓몬에게도 60데미지를 준다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  flavourText: 레시라무의 꼬리가 불타면 열에너지로 대기가 움직여서 세계의 날씨가 변화된다.
+  nationalDex:
+    - 643
+  species: 백양포켓몬
+  heightMetres: 3.2
+  weightKilograms: 330
+  resistances: []
+illustrators:
+  - PLANETA Tsuji
+rarity: A

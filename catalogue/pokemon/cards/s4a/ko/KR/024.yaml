@@ -1,0 +1,33 @@
+name: 에이스번
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: 플레어 스트라이커
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "190"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다.
+  abilities:
+    - name: 리베로
+      kind: Ability
+      text: 자신의 차례에 이 포켓몬이 벤치에서 배틀필드로 나왔을 때 1번 사용할 수 있다. 자신의 트래쉬에서 {Fire} 에너지를 2장까지 선택해서 이 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 공수에 뛰어나고 응원을 받으면 더 뜨겁게 타오르지만 스탠드 플레이를 하다가 위기에 처하는 경우도 있다.
+  nationalDex:
+    - 815
+  species: 스트라이커포켓몬
+  heightMetres: 1.4
+  weightKilograms: 33
+  evolvesFrom: 래비풋
+  resistances: []
+illustrators:
+  - Kouki Saitou

@@ -1,0 +1,34 @@
+name: 하랑우탄
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 사이코키네시스
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 상대의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 추가한다.
+  abilities:
+    - name: 지휘
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패가 3장이 되도록 덱을 뽑는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 정글 오지의 나무 위에 산다. 드물게 바닷가에 나타나서 야도킹과 지혜를 겨룬다.
+  nationalDex:
+    - 765
+  species: 현자포켓몬
+  heightMetres: 1.5
+  weightKilograms: 76
+  resistances: []
+illustrators:
+  - Akira Komayama
+rarity: S
+regulationMark: A

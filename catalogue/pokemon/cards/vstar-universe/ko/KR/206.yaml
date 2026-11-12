@@ -1,0 +1,27 @@
+name: 모부기
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 물기
+      cost:
+        - Grass
+      damage: "10"
+    - name: 머리박치기
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 전신으로 광합성을 하여 산소를 만든다. 목이 마르면 머리의 잎사귀가 시들어 버린다.
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: AR
+regulationMark: F

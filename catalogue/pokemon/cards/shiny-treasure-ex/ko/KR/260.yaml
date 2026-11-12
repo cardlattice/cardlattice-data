@@ -1,0 +1,35 @@
+name: 흔들풍손
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 바람일으키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+    - name: 벌룬봄
+      cost:
+        - Psychic
+        - Psychic
+      damage: 30×
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 30데미지를 준다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 풍선으로 착각해 흔들풍손을 가지고 있었던 어린아이가 사라지는 경우가 있다고 한다.
+  nationalDex:
+    - 425
+  species: 풍선포켓몬
+  heightMetres: 0.4
+  weightKilograms: 1.2
+illustrators:
+  - Kyoko Umemoto
+rarity: S

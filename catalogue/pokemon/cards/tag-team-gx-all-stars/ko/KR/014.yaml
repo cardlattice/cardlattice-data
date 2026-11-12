@@ -1,0 +1,33 @@
+name: 달코퀸
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: 무릎차기
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 여왕의 포상
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에 있는 {Grass} 에너지를 1장 배틀 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 아름다운 발차기의 전문가다. 킥복싱의 챔피언도 일격으로 녹아웃시킨다.
+  nationalDex:
+    - 763
+  species: 후르츠포켓몬
+  heightMetres: 1.2
+  weightKilograms: 21.4
+  evolvesFrom: 달무리나
+  resistances: []
+illustrators:
+  - kirisAki
+regulationMark: C

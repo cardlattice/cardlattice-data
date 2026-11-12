@@ -1,0 +1,35 @@
+name: 레시라무
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 역린
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다.
+    - name: 작열하는숨결
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "130"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  flavourText: 불꽃으로 세상을 태워버릴 수 있는 전설의 포켓몬. 진실의 세계를 구축하는 사람을 도와준다.
+  nationalDex:
+    - 643
+  species: 백양포켓몬
+  heightMetres: 3.2
+  weightKilograms: 330
+  resistances: []
+illustrators:
+  - TOKIYA
+regulationMark: A

@@ -1,0 +1,9 @@
+name: 기본 격투 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fighting
+collectorNumber: null
+printedDenominator: null

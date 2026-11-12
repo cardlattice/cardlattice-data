@@ -1,0 +1,34 @@
+name: 미라이돈
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 마하볼트
+      cost:
+        - Lightning
+      damage: "20"
+    - name: 라이트닝드라이브
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "140"
+      text: 이 포켓몬에게 붙어 있는 {Lightning} 에너지를 2개 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 오래된 서적에 "무쇠이무기"라는 이름으로 기록된 존재인 것 같다. 벼락으로 대지를 잿더미로 만들었다고 한다.
+  heightMetres: 3.5
+  weightKilograms: 240
+  abilities: []
+  rules: []
+  species: 패러독스포켓몬
+  nationalDex:
+    - 1008
+  resistances: []
+illustrators:
+  - Kazumasa Yasukuni

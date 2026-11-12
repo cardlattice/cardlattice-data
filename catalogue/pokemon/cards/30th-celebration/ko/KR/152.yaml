@@ -1,0 +1,36 @@
+name: 다크라이&크레세리아 LEGEND
+pokemon:
+  category: pokemon
+  stage: LEGEND
+  subtypes:
+    - LEGEND
+  types:
+    - Darkness
+    - Psychic
+  attacks:
+    - name: 로스트 크라이시스
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 로스트존에 둔다. 이 기술의 데미지로 기절한 포켓몬과 붙어 있는 모든 카드는 로스트존에 둔다.
+    - name: 달의유인
+      cost:
+        - Psychic
+      text: 상대의 포켓몬에게 올려져 있는 데미지 카운터를 원하는 만큼 선택해서 상대의 포켓몬에게 원하는대로 올린다.
+  rules:
+    - 패에 있는 2장의 다크라이&크레세리아 LEGEND를 조합해서 벤치로 내보낸다.
+    - 이 포켓몬이 기절했다면 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+legendPart: bottom
+collections:
+  - pokemon-collection-30th-celebration-darkrai-cresselia-legend
+regulationMark: null

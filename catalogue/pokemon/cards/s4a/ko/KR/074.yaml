@@ -1,0 +1,33 @@
+name: 심보러
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 사이코데미지
+      cost:
+        - Psychic
+        - Colorless
+      damage: 30+
+      text: 상대의 배틀 포켓몬에게 올려져 있는 데미지 카운터의 수 × 10데미지를 추가한다.
+  abilities:
+    - name: 반격
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에서 상대의 포켓몬으로부터 기술의 데미지를 받았을 때 기술을 사용한 포켓몬에게 데미지 카운터를 3개 올린다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 사이코 파워로 하늘을 난다. 고대 도시의 수호신 또는 수호신의 사자로 일컬어진다.
+  nationalDex:
+    - 561
+  species: 흡사새포켓몬
+  heightMetres: 1.4
+  weightKilograms: 14
+illustrators:
+  - Naoyo Kimura

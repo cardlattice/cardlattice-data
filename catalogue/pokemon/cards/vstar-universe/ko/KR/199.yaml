@@ -1,0 +1,28 @@
+name: 밀탱크
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 차서흩뜨리기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 상대의 벤치 포켓몬의 수 × 20데미지를 추가한다.
+  abilities:
+    - name: 미라클바디
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 V」로부터 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 영양 만점의 우유를 만들어내서 옛날부터 사람과 포켓몬의 삶을 지탱해왔다.
+  resistances: []
+illustrators:
+  - Yuu Nishida
+rarity: AR
+regulationMark: F

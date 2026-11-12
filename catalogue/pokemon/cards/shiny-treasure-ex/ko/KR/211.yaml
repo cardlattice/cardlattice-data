@@ -1,0 +1,32 @@
+name: 리자드
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 화염
+      cost:
+        - Fire
+        - Fire
+      damage: "50"
+  abilities:
+    - name: 플레어 베일
+      kind: Ability
+      text: 이 포켓몬은 상대의 포켓몬이 사용하는 기술의 효과를 받지 않는다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 싸움으로 기분이 고조되면 작열하는 불꽃을 뿜으며 주변을 태워버린다.
+  nationalDex:
+    - 5
+  species: 화염포켓몬
+  heightMetres: 1.1
+  weightKilograms: 19
+  evolvesFrom: 파이리
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S

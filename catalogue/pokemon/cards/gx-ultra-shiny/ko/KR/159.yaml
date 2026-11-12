@@ -1,0 +1,13 @@
+name: 상행&하행
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱을 위에서부터 1장 보고 원래대로 되돌린다. 그 뒤, 2가지 효과에서 1가지를 선택해서 사용한다. ◆ 자신의 패를 모두 트래쉬하고 덱을 5장 뽑는다. ◆ 자신의
+      패를 모두 트래쉬하고 덱을 아래에서부터 5장 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Yusuke Ohmura
+rarity: SR
+regulationMark: B

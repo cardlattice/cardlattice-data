@@ -1,0 +1,35 @@
+name: 메더
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 낙뢰
+      cost:
+        - Colorless
+      damage: "30"
+      text: 자신의 벤치 포켓몬 1마리에게도 10데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 찌릿찌릿트랩
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 자신의 필드의 데미지 카운터가 올려져 있는 포켓몬의 수 × 30데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  flavourText: 피부가 단단해서 씨름꾼에게 밟혀도 아무렇지 않다. 전기를 흘려보낼 때 웃는 얼굴이 된다.
+  nationalDex:
+    - 618
+  species: 트랩포켓몬
+  heightMetres: 0.7
+  weightKilograms: 11
+illustrators:
+  - sowsow
+regulationMark: C

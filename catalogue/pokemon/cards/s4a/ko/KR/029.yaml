@@ -1,0 +1,30 @@
+name: 가라르 마임맨
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 리플렉터
+      cost:
+        - Water
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다.
+    - name: 스노아이스
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 탭 댄스가 특기다. 냉기로 만든 얼음 바닥을 차올려서 배리어처럼 몸을 지킨다.
+  nationalDex:
+    - 122
+  species: 댄스포켓몬
+  heightMetres: 1.4
+  weightKilograms: 56.8
+  resistances: []
+illustrators:
+  - Misa Tsutsui

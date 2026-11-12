@@ -1,0 +1,11 @@
+name: 리셋 스탬프
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 상대는 상대 자신의 패를 모두 덱으로 되돌리고 덱을 섞는다. 그 뒤, 상대는 상대 자신의 남은 프라이즈 장수만큼 덱을 뽑는다.
+    - 아이템은 자신의 차례에 몇 장이라도 사용할 수 있다.
+illustrators:
+  - OOYAMA
+regulationMark: C

@@ -1,0 +1,27 @@
+name: 캐이시
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 사이코숏
+      cost:
+        - Psychic
+      damage: "20"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 잠이 든 상태에서 순간이동이 가능하다. 깊이 잠들수록 먼 곳으로 이동한다고 한다.
+  nationalDex:
+    - 63
+  species: 초능력포켓몬
+  heightMetres: 0.9
+  weightKilograms: 19.5
+illustrators:
+  - Mitsuhiro Arita

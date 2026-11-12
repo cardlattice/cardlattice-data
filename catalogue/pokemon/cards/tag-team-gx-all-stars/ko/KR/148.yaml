@@ -1,0 +1,11 @@
+name: 말리화
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱에 있는 {Fairy} 에너지를 1장 자신의 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Ken Sugimori
+regulationMark: B

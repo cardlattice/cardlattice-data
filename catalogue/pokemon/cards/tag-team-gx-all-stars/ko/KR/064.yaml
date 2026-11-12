@@ -1,0 +1,33 @@
+name: 마샤도
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 레드너클
+      cost:
+        - Colorless
+      damage: 10+
+      text: 상대의 배틀 포켓몬이 「울트라비스트」라면 60데미지를 추가한다.
+  abilities:
+    - name: 리셋홀
+      kind: Ability
+      text: 이 포켓몬이 벤치에 있다면 자신의 차례에 1번 사용할 수 있다. 필드에 나와 있는 스타디움을 트래쉬한다. 그 뒤, 이 포켓몬과 붙어 있는 모든 카드를 트래쉬한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 상대 그림자에 숨어들어 움직임이나 능력을 흉내 낸다. 그러다가 진짜보다 강해진다.
+  nationalDex:
+    - 802
+  species: 그림자살이포켓몬
+  heightMetres: 0.7
+  weightKilograms: 22.2
+illustrators:
+  - chibi
+regulationMark: C

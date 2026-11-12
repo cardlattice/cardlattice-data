@@ -1,0 +1,38 @@
+name: 제라오라 VSTAR
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Lightning
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 크래시비트
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "190"
+      text: 원한다면 필드에 나와 있는 스타디움을 트래쉬한다.
+    - name: 우뢰스타
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Colorless
+      text: 상대의 포켓몬을 4번 선택해서 선택한 포켓몬 전원에게 약점, 저항력 계산을 하지 않고 선택한 횟수 × 60데미지를 준다. (1마리를 2번 이상 선택할 수 있다.) (대전
+        중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  evolvesFrom: 제라오라 V
+  retreatCost: 0
+  resistances: []
+illustrators:
+  - aky CG Works
+rarity: RRR
+regulationMark: F

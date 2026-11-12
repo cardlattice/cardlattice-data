@@ -1,0 +1,27 @@
+name: 우르
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 부풀기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-10」이 된다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 털이 많이 자라면 움직이지 못한다. 우르의 털로 짠 천은 놀라울 정도로 튼튼하다.
+  nationalDex:
+    - 831
+  species: 양포켓몬
+  heightMetres: 0.6
+  weightKilograms: 6
+  resistances: []
+illustrators:
+  - Mitsuhiro Arita

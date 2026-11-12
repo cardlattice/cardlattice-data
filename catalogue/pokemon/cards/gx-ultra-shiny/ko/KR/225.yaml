@@ -1,0 +1,42 @@
+name: 지가르데 GX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 셀커넥터
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 자신의 트래쉬에 있는 {Fighting} 에너지를 2장 이 포켓몬에게 붙인다.
+    - name: 그라운드포스
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "130"
+    - name: 저지먼트 GX
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 상대의 다음 차례에 이 포켓몬은 「포켓몬 GX・EX」로부터 기술의 데미지를 받지 않는다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: B

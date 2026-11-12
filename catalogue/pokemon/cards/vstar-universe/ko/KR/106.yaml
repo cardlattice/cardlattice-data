@@ -1,0 +1,34 @@
+name: 라티오스
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  attacks:
+    - name: 라스트버지
+      cost:
+        - Water
+        - Water
+        - Psychic
+        - Colorless
+      damage: "210"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다.
+  abilities:
+    - name: 블루어시스트
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에서 {Psychic} 에너지를 1장 선택해서 자신의 「라티아스」에게 붙인다.
+  retreatCost: 1
+  flavourText: 높은 지능을 가졌기 때문에 인간의 말을 이해한다. 다툼을 싫어하는 상냥한 포켓몬이다.
+  nationalDex:
+    - 381
+  species: 무한포켓몬
+  heightMetres: 2
+  weightKilograms: 60
+  resistances: []
+  weaknesses: []
+illustrators:
+  - hatachu
+regulationMark: E

@@ -1,0 +1,31 @@
+name: 뮤 ex
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 텔레포트 브레이크
+      cost:
+        - Psychic
+      damage: "30"
+      text: 원한다면 이 포켓몬을 벤치 포켓몬과 교체한다.
+  abilities:
+    - name: 기억의 나선
+      kind: Ability
+      text: 이 포켓몬은 자신의 벤치 포켓몬이 가진 기술을 모두 사용할 수 있다. (기술을 사용하기 위한 에너지는 필요하다.)
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+rarity: FUR
+illustrators:
+  - YOSHIROTTEN

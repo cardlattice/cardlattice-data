@@ -1,0 +1,30 @@
+name: 라이코
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 로스트볼티지
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: 자신의 로스트존에 {Lightning} 에너지가 있다면 90데미지를 추가한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  flavourText: 체내에서 들끓는 힘을 전격으로 내보내면서 대지를 달리는 난폭한 포켓몬이다.
+  nationalDex:
+    - 243
+  species: 우뢰포켓몬
+  heightMetres: 1.9
+  weightKilograms: 178
+illustrators:
+  - nagimiso
+regulationMark: B

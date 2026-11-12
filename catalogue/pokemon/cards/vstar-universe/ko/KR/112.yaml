@@ -1,0 +1,29 @@
+name: 미끄메라
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 몸통박치기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 녹이기
+      cost:
+        - Water
+        - Metal
+      damage: "30"
+  retreatCost: 2
+  flavourText: 습도가 높은 나무 그늘에 몸을 숨기고 있다. 몸을 뒤덮고 있는 미끈한 액체가 마르면 금세 생기를 잃어버린다.
+  nationalDex:
+    - 704
+  species: 연체포켓몬
+  heightMetres: 0.3
+  weightKilograms: 2.8
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Oswaldo KATO
+regulationMark: F

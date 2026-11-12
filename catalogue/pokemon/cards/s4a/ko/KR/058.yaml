@@ -1,0 +1,34 @@
+name: 스트린더
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 리스크테이커
+      cost:
+        - Colorless
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 덱을 위에서부터 5장 트래쉬한다. 뒷면이 나오면 자신의 덱을 위에서부터 5장 트래쉬한다.
+    - name: 전격
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "160"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 15000볼트나 되는 전기를 발생시킬 수 있다. 상대가 누구라도 깔본다.
+  nationalDex:
+    - 849
+  species: 펑크포켓몬
+  heightMetres: 1.6
+  weightKilograms: 40
+  evolvesFrom: 일레즌
+  resistances: []
+illustrators:
+  - Shin Nagasawa

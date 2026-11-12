@@ -1,0 +1,34 @@
+name: 꼬이밍고
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 단결날개
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기술 「단결날개」를 가진 포켓몬의 장수 × 20데미지를 준다.
+  abilities:
+    - name: 단번에 무리짓기
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 덱에서 「꼬이밍고」를 3장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을
+        섞는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 배에 비축해 둔 에너지가 부리를 통해 새어 나오지 않게 하기 위해 목 아래쪽을 꼬아 놓은 듯하다.
+  nationalDex:
+    - 973
+  species: 싱크로포켓몬
+  heightMetres: 1.6
+  weightKilograms: 37
+illustrators:
+  - nagimiso

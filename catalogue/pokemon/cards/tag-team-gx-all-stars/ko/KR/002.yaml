@@ -1,0 +1,31 @@
+name: 파라스
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 할퀴기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 베어가르기
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 습도가 낮아서인지 영양이 부족해서인지 알로라 파라스의 버섯은 성장이 그저 그렇다.
+  nationalDex:
+    - 46
+  species: 버섯포켓몬
+  heightMetres: 0.3
+  weightKilograms: 5.4
+  resistances: []
+illustrators:
+  - Naoyo Kimura
+regulationMark: C

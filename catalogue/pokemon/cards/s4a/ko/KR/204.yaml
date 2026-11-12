@@ -1,0 +1,31 @@
+name: 채키몽
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 가지찌르기
+      cost:
+        - Grass
+      damage: "20"
+  abilities:
+    - name: 토박이
+      kind: Ability
+      text: 필드에 자신의 스타디움이 나와 있다면 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 2개의 스틱으로 격렬한 비트를 만드는 채키몽일수록 동료들에게 존경받는다.
+  nationalDex:
+    - 811
+  species: 비트포켓몬
+  heightMetres: 0.7
+  weightKilograms: 14
+  evolvesFrom: 흥나숭
+  resistances: []
+illustrators:
+  - tetsuya koizumi
+rarity: S

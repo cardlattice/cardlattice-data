@@ -1,0 +1,23 @@
+name: 히스이 조로아
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 할퀴기
+      cost:
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 죽은 영혼이 히스이 땅에서 되살아났다. 원한은 곧 힘이 되어 머리에 피어오르고 상대의 모습으로 변하여 원한을 풀려 한다.
+  abilities: []
+  rules: []
+  resistances: []
+rarity: AR
+illustrators:
+  - "0313"

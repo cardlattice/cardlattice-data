@@ -1,0 +1,35 @@
+name: 크라파
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 쪼기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 산넘기
+      kind: Ability
+      text: 이 카드가 패에 있다면 자신의 차례에 1번 사용할 수 있으며 사용하면 이 카드를 로스트존에 둔다. 상대의 덱을 위에서부터 1장 보고 원래대로 되돌린다. 그 카드가
+        서포트인 경우, 원한다면 로스트존에 둔다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 부리를 젖혀서 여러 가지 소리로 운다. 꽤 시끄러워서 인근에 미움을 산다.
+  nationalDex:
+    - 732
+  species: 나팔입포켓몬
+  heightMetres: 0.6
+  weightKilograms: 14.8
+  evolvesFrom: 콕코구리
+illustrators:
+  - Shin Nagasawa
+regulationMark: B

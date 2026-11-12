@@ -1,0 +1,31 @@
+name: 드니차
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 가져오기
+      cost:
+        - Water
+      text: 자신의 덱을 1장 뽑는다.
+    - name: 때리기
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 등지느러미로 열을 흡수해서 얼음 에너지로 변환한다. 고온일수록 에너지가 많이 모인다.
+  nationalDex:
+    - 996
+  species: 얼음지느러미포켓몬
+  heightMetres: 0.5
+  weightKilograms: 17
+  resistances: []
+illustrators:
+  - Taira Akitsu
+rarity: S

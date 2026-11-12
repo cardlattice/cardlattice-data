@@ -1,0 +1,35 @@
+name: 케오퍼스
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 문어굳히기
+      cost:
+        - Fighting
+        - Fighting
+      text: 이 기술을 받은 포켓몬은 기술을 사용하기 위한 에너지가 {Colorless} 에너지 2개만큼 많아지고 후퇴할 수 없다. 이 효과는 이 「케오퍼스」가 배틀필드를 떠날
+        때까지 계속되며 중복되지 않는다.
+    - name: 하드스윙
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+      text: 이 기술의 데미지는 저항력 계산을 하지 않는다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 온몸이 근육덩어리다. 촉수를 사용해서 펼치는 조르기 기술의 위력은 무시무시하다.
+  nationalDex:
+    - 853
+  species: 유술포켓몬
+  heightMetres: 1.6
+  weightKilograms: 39
+  evolvesFrom: 때때무노
+  resistances: []
+illustrators:
+  - Shin Nagasawa

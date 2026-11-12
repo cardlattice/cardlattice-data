@@ -1,0 +1,25 @@
+name: 뜨아거
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 몸통박치기
+      cost:
+        - Fire
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 따뜻한 바위 위에 드러누워서 네모난 비늘을 통해 흡수한 열로 불꽃 에너지를 만든다.
+  nationalDex:
+    - 909
+  species: 불꽃악어포켓몬
+  heightMetres: 0.4
+  weightKilograms: 9.8
+  resistances: []
+illustrators:
+  - Kagemaru Himeno

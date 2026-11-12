@@ -1,0 +1,30 @@
+name: 개굴닌자 ex
+pokemon:
+  category: pokemon
+  hp: 300
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: 개굴반장
+  subtypes:
+    - ex
+  attacks:
+    - name: 은밀베기
+      cost:
+        - Water
+      text: 상대의 포켓몬 1마리에게 그 포켓몬에게 올려져 있는 데미지 카운터의 수 × 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 아쿠아에지
+      cost:
+        - Water
+        - Water
+      damage: "160"
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  resistances: []
+rarity: RR
+illustrators:
+  - 5ban Graphics

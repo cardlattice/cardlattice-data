@@ -1,0 +1,32 @@
+name: 오리진 펄기아 V
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 영역지배
+      cost:
+        - Water
+      text: 자신의 덱에서 스타디움을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 하이드로 브레이크
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "200"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - aky CG Works
+rarity: RR
+regulationMark: F

@@ -1,0 +1,33 @@
+name: 드래런치
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 호출
+      cost:
+        - Colorless
+      text: 자신의 덱에서 「드라꼰」을 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 물기
+      cost:
+        - Psychic
+        - Psychic
+      damage: "40"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 비행 속도는 시속 200km. 드라꼰과 함께 싸우며 무사히 진화할 때까지 돌본다.
+  nationalDex:
+    - 886
+  species: 돌보미포켓몬
+  heightMetres: 1.4
+  weightKilograms: 11
+  evolvesFrom: 드라꼰
+illustrators:
+  - Kouki Saitou

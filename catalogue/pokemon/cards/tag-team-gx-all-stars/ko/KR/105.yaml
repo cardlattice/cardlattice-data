@@ -1,0 +1,31 @@
+name: 나옹
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 고양이일상
+      cost:
+        - Colorless
+      text: 자신의 덱을 2장 뽑는다. 그 뒤, 이 포켓몬을 잠듦으로 만든다.
+    - name: 꼬리로 막치기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 쓰레기장에 가면 빛이 나는 물건을 두고 니로우와 격렬하게 싸우는 광경을 볼 수 있다.
+  nationalDex:
+    - 52
+  species: 요괴고양이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 4.2
+  resistances: []
+illustrators:
+  - Shibuzoh.
+regulationMark: C

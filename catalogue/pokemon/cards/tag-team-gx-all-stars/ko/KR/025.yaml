@@ -1,0 +1,34 @@
+name: 어흥염
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: 화염방사
+      cost:
+        - Fire
+        - Colorless
+      damage: "90"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 트래쉬한다.
+  abilities:
+    - name: 스트롱옐
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+30」이 된다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리 있더라도
+        중복되지 않는다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 거칠고 제멋대로지만 약한 상대를 괴롭히는 것은 재미없어서 싫어한다. 강한 상대에게 의욕을 보인다.
+  nationalDex:
+    - 727
+  species: 힐포켓몬
+  heightMetres: 1.8
+  weightKilograms: 83
+  evolvesFrom: 냐오히트
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+regulationMark: C

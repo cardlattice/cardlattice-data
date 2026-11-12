@@ -1,0 +1,31 @@
+name: 찬란한 루차불
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - Radiant
+  attacks:
+    - name: 회전차기
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 빅매치
+      kind: Ability
+      text: 이 포켓몬이 벤치에 있는 한, 자신의 포켓몬이 사용하는 기술이 상대 배틀필드의 「포켓몬 VMAX」에게 주는 데미지는 「+30」이 된다.
+  rules:
+    - 찬란한 포켓몬은 덱에 1장만 넣을 수 있다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 경쾌한 몸놀림을 활용한 전법으로 상대의 체력을 빼앗은 뒤 화려한 큰 기술을 먹인다.
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+rarity: K
+regulationMark: F
