@@ -493,3 +493,19 @@ pokemon:
     expect(validateCard(invalid, filename).length).toBeGreaterThan(0);
   }
 });
+
+it("preserves a printed cost plus separately from damage", () => {
+  const fields =
+    'name: Original synthetic card\npokemon: {attacks: [{name: Original attack, cost: [Colorless], costModifier: "+", damage: "20+"}]}';
+  expect(validateCard(fields, filename)).toEqual([]);
+  for (const value of ["plus", "-", " +", ""]) {
+    expect(
+      validateCard(fields.replace('costModifier: "+"', `costModifier: "${value}"`), filename)
+        .length,
+    ).toBeGreaterThan(0);
+  }
+});
+
+it("accepts the distinct Shining rarity", () => {
+  expect(validateCard("name: Original synthetic card\nrarity: Shining", filename)).toEqual([]);
+});
