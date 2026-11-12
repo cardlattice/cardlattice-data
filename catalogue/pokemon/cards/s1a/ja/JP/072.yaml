@@ -1,0 +1,30 @@
+name: エースバーンV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ぐれんきゃく
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "140"
+  abilities:
+    - name: フィールドランナー
+      text: 場にスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - 5ban Graphics

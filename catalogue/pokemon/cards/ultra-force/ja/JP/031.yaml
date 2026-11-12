@@ -1,0 +1,28 @@
+name: グレッグル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: いばる
+      cost:
+        - Fighting
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 453
+  species: どくづきポケモン
+  heightMetres: 0.7
+  weightKilograms: 23
+  flavourText: 毒袋を ふくらませて 鳴らし 辺りに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。
+illustrators:
+  - SATOSHI NAKAI

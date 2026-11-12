@@ -1,0 +1,35 @@
+name: エレザード
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: かいでんぱ
+      cost:
+        - Lightning
+      text: コインを1回投げオモテなら、相手の場のポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: かみなり
+      cost:
+        - Lightning
+        - Colorless
+      damage: "120"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 695
+  species: はつでんポケモン
+  heightMetres: 1
+  weightKilograms: 21
+  flavourText: かつて 滅びた 砂漠の 国で 大事に されていた。 財宝と ともに ガラル地方へ やってきた。
+  evolvesFrom: エリキテル
+rarity: C
+illustrators:
+  - SATOSHI NAKAI

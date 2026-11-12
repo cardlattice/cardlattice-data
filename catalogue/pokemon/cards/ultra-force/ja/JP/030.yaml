@@ -1,0 +1,39 @@
+name: ルカリオGX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: はどうげき
+      cost:
+        - Fighting
+      damage: 30+
+      text: この番、このポケモンが「リオル」から進化していたなら、90ダメージ追加。
+    - name: せんぷうきゃく
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+    - name: クロスビートGX
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: このポケモンにのっているダメカンの数×30ダメージ。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: リオル
+rarity: RR
+illustrators:
+  - 5ban Graphics

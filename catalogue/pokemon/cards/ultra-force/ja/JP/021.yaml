@@ -1,0 +1,39 @@
+name: ネクロズマ あかつきのつばさ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ガルフストリーム
+      cost:
+        - Psychic
+      damage: 20+
+      text: 自分のサイドの残り枚数が6枚なら、このポケモンにのっているダメカンの数×20ダメージ追加。
+    - name: あかつきのやいば
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: このポケモンについているエネルギーを、2個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 800
+  species: プリズムポケモン
+  heightMetres: 4.2
+  weightKilograms: 350
+  flavourText: ルナアーラに 最早 意思は ない。 ネクロズマに 支配され すべての エネルギーを 放出 し続ける。
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Shin Nagasawa

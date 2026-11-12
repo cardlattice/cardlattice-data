@@ -1,0 +1,39 @@
+name: ホルード
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: やまなげラッシュ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 自分の山札を上から6枚までトラッシュする。その後、トラッシュした枚数×30ダメージ。
+    - name: とびだしヘッド
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "110"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 660
+  species: あなほりポケモン
+  heightMetres: 1
+  weightKilograms: 42.4
+  flavourText: ショベルカーに 負けない パワーで 硬い 岩盤も 掘り進む。 トンネル工事で 大活躍。
+  evolvesFrom: ホルビー
+rarity: U
+illustrators:
+  - kodama

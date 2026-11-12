@@ -1,0 +1,36 @@
+name: エースバーンVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Fire
+  stage: VMAX
+  attacks:
+    - name: カウンター
+      cost:
+        - Fire
+        - Colorless
+      damage: 30+
+      text: 前の相手の番に、このポケモンが受けたワザのダメージと同じダメージ追加。
+    - name: ダイカエンダマ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "170"
+      text: 相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: エースバーンV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

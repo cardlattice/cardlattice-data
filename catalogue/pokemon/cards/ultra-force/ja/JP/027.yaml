@@ -1,0 +1,33 @@
+name: ガバイト
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: かくせい
+      cost:
+        - Fighting
+      text: このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 444
+  species: ほらあなポケモン
+  heightMetres: 1.4
+  weightKilograms: 56
+  flavourText: 光り 輝くものが 大好き。 宝石や 捕まえた メレシーを 巣穴で じーっと 眺めている。
+  evolvesFrom: フカマル
+illustrators:
+  - Sumiyoshi Kizuki

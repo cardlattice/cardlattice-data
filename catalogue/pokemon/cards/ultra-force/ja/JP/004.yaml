@@ -1,0 +1,35 @@
+name: ユキノオー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ヒプノハンマー
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities:
+    - name: じゅひょうのめぐみ
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにある{Grass}エネルギーを1枚、自分のポケモンにつける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 460
+  species: じゅひょうポケモン
+  heightMetres: 2.2
+  weightKilograms: 135.5
+  flavourText: 万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。
+  evolvesFrom: ユキカブリ
+illustrators:
+  - Masakazu Fukuda

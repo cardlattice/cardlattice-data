@@ -1,0 +1,29 @@
+name: エリキテル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: でんげき
+      cost:
+        - Lightning
+      damage: "30"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 694
+  species: はつでんポケモン
+  heightMetres: 0.5
+  weightKilograms: 6
+  flavourText: 頭の ひだを 広げ 太陽の 光で 発電すると パワフルな 電気技を 出せるようになる。
+rarity: C
+illustrators:
+  - "0313"

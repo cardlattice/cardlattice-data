@@ -1,0 +1,31 @@
+name: カメテテ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ダブルチョップ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: コインを2回投げ、オモテの数×50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 688
+  species: ふたてポケモン
+  heightMetres: 0.5
+  weightKilograms: 31
+  flavourText: ２匹が 海辺の 手ごろな 岩に くっついて 暮らす。 満潮時 協力して エサを 集める。
+rarity: C
+illustrators:
+  - Saya Tsuruta

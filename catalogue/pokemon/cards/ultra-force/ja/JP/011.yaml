@@ -1,0 +1,31 @@
+name: シズクモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Colorless
+      damage: "10"
+    - name: クモのす
+      cost:
+        - Water
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 751
+  species: すいほうポケモン
+  heightMetres: 0.3
+  weightKilograms: 4
+  flavourText: 獲物や 敵を 見つけると 頭に 被った 水泡を 弾いて 水を ぶつけるぞ。
+illustrators:
+  - sui

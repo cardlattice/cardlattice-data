@@ -1,0 +1,36 @@
+name: ギルガルド
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: パワーエッジ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: ビッグシールド
+      text: このポケモンがいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 681
+  species: おうけんポケモン
+  heightMetres: 1.7
+  weightKilograms: 53
+  flavourText: 鋼の 体と 霊力の バリアで あらゆる 攻撃を 弱める 防御の 体勢。
+  evolvesFrom: ニダンギル
+rarity: U
+illustrators:
+  - Ryuta Fuse

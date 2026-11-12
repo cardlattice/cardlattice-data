@@ -1,0 +1,35 @@
+name: インテレオンVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  attacks:
+    - name: ハイドロスナイプ
+      cost:
+        - Water
+      damage: "60"
+      text: のぞむなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。
+    - name: ダイバレット
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "160"
+      text: 相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: インテレオンV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

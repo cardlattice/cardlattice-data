@@ -1,0 +1,34 @@
+name: ナエトル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: はっぱカッター
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 387
+  species: わかばポケモン
+  heightMetres: 0.4
+  weightKilograms: 10.2
+  flavourText: 全身で 光合成を して 酸素を 作る。 のどが 渇くと 頭の 葉っぱが しおれてしまう。
+illustrators:
+  - OOYAMA

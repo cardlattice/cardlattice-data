@@ -1,0 +1,28 @@
+name: アゴジムシ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 736
+  species: ようちゅうポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.4
+  flavourText: 大きな 顎は 太い 枝を へし折る 威力。 天敵の ココガラも たまらず 逃げだす。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

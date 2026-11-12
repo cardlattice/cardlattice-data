@@ -1,0 +1,30 @@
+name: アルセウス◇
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: トリニティスター
+      cost:
+        - Colorless
+      damage: "30"
+      text: このワザは、自分のベンチに{Grass}と{Water}と{Lightning}ポケモンがいるときにしか使えない。自分の山札にある基本エネルギーを3枚まで、自分のポケモンに好きなようにつける。そして山札を切る。
+  abilities:
+    - name: はじまりのおきて
+      text: このポケモンは、相手のポケモンが使うワザの効果を受けない。
+      kind: Ability
+  rules:
+    - 同じ名前の◇（プリズムスター）のカードは、デッキに1枚しか入れられない。トラッシュには行かず、ロストゾーンに置く。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 宇宙が まだ ない ころに 最初に 生まれた ポケモンと 神話の 中で 語られている。
+  subtypes:
+    - Prism Star
+illustrators:
+  - Masakazu Fukuda
+rarity: PR

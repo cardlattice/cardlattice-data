@@ -1,0 +1,10 @@
+name: ウルトラ調査隊
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の手札にある「ウルトラビースト」を2枚までトラッシュし、その枚数×3枚、自分の山札を引く。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Megumi Mizutani

@@ -1,0 +1,37 @@
+name: マッシブーン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: スレッジハンマー
+      cost:
+        - Fighting
+      damage: 30+
+      text: 相手のサイドの残り枚数が4枚なら、90ダメージ追加。
+    - name: ふりまわす
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 80+
+      text: コインを2回投げ、オモテの数×20ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 794
+  species: ぼうちょうポケモン
+  heightMetres: 2.4
+  weightKilograms: 333.6
+  flavourText: 謎の 生物 ＵＢ。 一発の パンチで ダンプカーを 粉砕する 光景が 目撃 された。
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Masakazu Fukuda

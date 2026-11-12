@@ -1,0 +1,36 @@
+name: ガラル ネギガナイト
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: つきさす
+      cost:
+        - Fighting
+      damage: "40"
+    - name: スターアサルト
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: このワザを使ったなら、このポケモンは、バトル場をはなれるまで「スターアサルト」が使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 865
+  species: かるがもポケモン
+  heightMetres: 0.8
+  weightKilograms: 117
+  flavourText: 歴戦を 生き抜いた ものが この姿に 進化する。 ネギが 枯れるとき 戦場を 去る。
+  evolvesFrom: ガラル カモネギ
+rarity: R
+illustrators:
+  - You Iribi

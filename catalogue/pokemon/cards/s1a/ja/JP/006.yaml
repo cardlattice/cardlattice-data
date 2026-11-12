@@ -1,0 +1,39 @@
+name: ユキノオー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: アロマスリープ
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: メガトンラリアット
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "140"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 460
+  species: じゅひょうポケモン
+  heightMetres: 2.2
+  weightKilograms: 135.5
+  flavourText: 大きな 腕を ハンマーの ように 振り下ろし ユキカブリを 狙う ダルマッカの 群れを 追い払う。
+  evolvesFrom: ユキカブリ
+rarity: U
+illustrators:
+  - Kazuma Koda

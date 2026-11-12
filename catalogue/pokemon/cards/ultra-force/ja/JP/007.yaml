@@ -1,0 +1,36 @@
+name: ヒードラン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ガードプレス
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: ボイラーインパクト
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "130"
+      text: このポケモンについているエネルギーを、2個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 485
+  species: かこうポケモン
+  heightMetres: 1.7
+  weightKilograms: 430
+  flavourText: マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。
+illustrators:
+  - tetsuya koizumi

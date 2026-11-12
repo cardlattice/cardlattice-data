@@ -1,0 +1,34 @@
+name: ルチャブル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ふきながし
+      cost:
+        - Colorless
+      text: 自分の手札をすべて山札にもどして切る。その後、山札を5枚引く。
+    - name: スピードアタック
+      cost:
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 701
+  species: レスリングポケモン
+  heightMetres: 0.8
+  weightKilograms: 21.5
+  flavourText: 身軽さを 活かした 戦法で 相手の 体力を 奪ってから 華麗な 大技を 決める。
+rarity: C
+illustrators:
+  - tetsuya koizumi
