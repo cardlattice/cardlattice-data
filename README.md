@@ -116,9 +116,9 @@ contain 317 printed attacks and 32 Pokémon Powers, including Dutch names, effec
 text and ordered attack costs. Both Ditto printings have no printed attacks and
 an explicit empty attack list. All 32 Trainer records include their Dutch rules.
 Basic Energy cards retain the printed name `Energie`; their types distinguish
-them. Weaknesses, resistances, retreat costs and illustrator credits remain
-largely unfilled. Raticate's printed `?` damage is not yet supported by the
-numeric damage field; its Dutch attack text retains the damage calculation.
+them. All 228 expansion records include illustrator credits transcribed from the
+Dutch cards. Weaknesses, resistances and retreat costs remain largely unfilled.
+Raticate's printed `?` damage is not yet supported by the numeric damage field; its Dutch attack text retains the damage calculation.
 
 Printed names and rules follow the Dutch cards, including wording differences
 between holo and non-holo printings. Names such as Alakazam and moves such as
