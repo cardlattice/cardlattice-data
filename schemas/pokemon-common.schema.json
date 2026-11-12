@@ -155,7 +155,6 @@
             "properties": {
               "stage": false,
               "evolvesFrom": false,
-              "attacks": false,
               "weaknesses": false,
               "resistances": false,
               "retreatCost": false,
@@ -242,7 +241,9 @@
                     "SP",
                     "LEGEND",
                     "Dynamax",
-                    "Gigantamax"
+                    "Gigantamax",
+                    "Eternamax",
+                    "Gold Star"
                   ]
                 }
               }
@@ -307,6 +308,37 @@
                     "ACE SPEC"
                   ]
                 }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": ["category"],
+            "properties": {
+              "category": {
+                "enum": ["trainer", "energy"]
+              }
+            }
+          },
+          "then": {
+            "if": {
+              "required": ["category", "subtypes"],
+              "properties": {
+                "category": {
+                  "const": "trainer"
+                },
+                "subtypes": {
+                  "type": "array",
+                  "contains": {
+                    "const": "Pokémon Tool"
+                  }
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "attacks": false
               }
             }
           }
@@ -478,6 +510,8 @@
         "LEGEND",
         "Dynamax",
         "Gigantamax",
+        "Eternamax",
+        "Gold Star",
         "Single Strike",
         "Rapid Strike",
         "Fusion Strike",
@@ -512,6 +546,8 @@
         "●",
         "◆",
         "★",
+        "★ (silver)",
+        "★ (gold)",
         "★★",
         "★★★",
         "Common",
@@ -635,7 +671,38 @@
           "$ref": "pokemon-common.schema.json#/$defs/references"
         }
       },
-      "required": ["finish"]
+      "anyOf": [
+        {
+          "required": ["finish"],
+          "properties": {
+            "finish": {}
+          }
+        },
+        {
+          "required": ["edition"],
+          "properties": {
+            "edition": {}
+          }
+        },
+        {
+          "required": ["stamps"],
+          "properties": {
+            "stamps": {
+              "type": "array",
+              "minItems": 1
+            }
+          }
+        },
+        {
+          "required": ["products"],
+          "properties": {
+            "products": {
+              "type": "array",
+              "minItems": 1
+            }
+          }
+        }
+      ]
     },
     "printing_finishes": {
       "type": "array",
