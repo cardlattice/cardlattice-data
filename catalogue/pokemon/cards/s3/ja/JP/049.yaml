@@ -1,0 +1,36 @@
+name: ドサイドンV
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ドリルライナー
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: ヘビーロックキャノン
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "210"
+      text: 次の自分の番、このポケモンは「ヘビーロックキャノン」が使えない。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+rarity: RR
+illustrators:
+  - Eske Yoshinob

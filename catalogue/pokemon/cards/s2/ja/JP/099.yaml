@@ -1,0 +1,36 @@
+name: ミロカロスV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: アクアインパクト
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。
+    - name: ヒプノスプラッシュ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - Ayaka Yoshida

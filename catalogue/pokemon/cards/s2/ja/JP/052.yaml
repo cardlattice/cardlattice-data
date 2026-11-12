@@ -1,0 +1,29 @@
+name: アサナン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ヨガショック
+      cost:
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 307
+  species: めいそうポケモン
+  heightMetres: 0.6
+  weightKilograms: 11.2
+  flavourText: １日 １個だけ 木の実を 食べる。 空腹に 耐えることで 心が 研ぎ澄まされていく。
+rarity: C
+illustrators:
+  - Yukiko Baba

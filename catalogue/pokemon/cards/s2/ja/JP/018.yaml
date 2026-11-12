@@ -1,0 +1,34 @@
+name: シャンデラ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ミラージュフレア
+      cost:
+        - Fire
+        - Colorless
+      damage: "110"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities:
+    - name: まもりのともしび
+      text: このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員の弱点は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 609
+  species: いざないポケモン
+  heightMetres: 1
+  weightKilograms: 34.3
+  flavourText: 古びた 洋館に 棲みつく。 腕の 炎を 妖しく 揺らし 相手を 催眠に かけるぞ。
+  evolvesFrom: ランプラー
+rarity: R
+illustrators:
+  - Taira Akitsu

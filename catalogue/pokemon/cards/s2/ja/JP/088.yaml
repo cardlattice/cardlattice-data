@@ -1,0 +1,11 @@
+name: ツールスクラッパー
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - おたがいの場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Studio Bora Inc.

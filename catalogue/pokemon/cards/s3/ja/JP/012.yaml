@@ -1,0 +1,35 @@
+name: バシャーモ
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ターボドライブ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。
+  abilities:
+    - name: ダブルタイプ
+      text: このポケモンは、場にいるかぎり{Fire}と{Fighting}の2つのタイプになる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 257
+  species: もうかポケモン
+  heightMetres: 1.9
+  weightKilograms: 52
+  flavourText: 強敵に 出会うと 手首から 炎を 噴き出す。 ジャンプで ビルを 跳び越す 脚力。
+  evolvesFrom: ワカシャモ
+rarity: R
+illustrators:
+  - Ryuta Fuse

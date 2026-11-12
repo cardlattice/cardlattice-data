@@ -1,0 +1,35 @@
+name: ハスブレロ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: みだれひっかき
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: コインを3回投げオモテの数×40ダメージ。
+  abilities:
+    - name: トップエントリー
+      text: 自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 271
+  species: ようきポケモン
+  heightMetres: 1.2
+  weightKilograms: 32.5
+  flavourText: 夕暮れどきに なると 活動を はじめる 夜行性の ポケモン。 川底の 水苔を 食べる。
+  evolvesFrom: ハスボー
+rarity: C
+illustrators:
+  - Miki Tanaka

@@ -1,0 +1,37 @@
+name: ゴビット
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ころがる
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+    - name: ぶちかます
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 622
+  species: ゴーレムポケモン
+  heightMetres: 1
+  weightKilograms: 92
+  flavourText: 粘土から 生み出された 古代の ポケモン。 なぜか 大岩を 並べ続ける ものも いる。
+rarity: C
+illustrators:
+  - Ryuta Fuse

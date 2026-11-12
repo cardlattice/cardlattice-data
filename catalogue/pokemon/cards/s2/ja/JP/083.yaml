@@ -1,0 +1,39 @@
+name: キテルグマ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: アームハンマー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: ビッグスロー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 760
+  species: ごうわんポケモン
+  heightMetres: 2.1
+  weightKilograms: 135
+  flavourText: 仲間と 認めると 愛情を 示すために 抱きしめようとするが 骨を 砕かれるので 危険。
+  evolvesFrom: ヌイコグマ
+rarity: U
+illustrators:
+  - Ryuta Fuse

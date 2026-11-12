@@ -1,0 +1,37 @@
+name: プクリン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ねむりのはどう
+      cost:
+        - Psychic
+      damage: "30"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: ダブルスマッシュ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90×
+      text: コインを2回投げ、オモテの数×90ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 40
+  species: ふうせんポケモン
+  heightMetres: 1
+  weightKilograms: 12
+  flavourText: 怒ると 思いっきり 息を 吸い込み どんどん 膨らんでいく。 なんと ２０倍に なることもある。
+  evolvesFrom: プリン
+rarity: U
+illustrators:
+  - Lee HyunJung

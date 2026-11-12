@@ -1,0 +1,33 @@
+name: ランプラー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: やきなおす
+      cost:
+        - Fire
+      damage: "20"
+      text: 自分のトラッシュから{Fire}エネルギーを1枚選び、自分のポケモンにつける。
+  abilities:
+    - name: トップエントリー
+      text: 自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 608
+  species: ランプポケモン
+  heightMetres: 0.6
+  weightKilograms: 13
+  flavourText: 誰かが 死ぬ 直前に 現れる ことから 死神の使い として 恐れられている。
+  evolvesFrom: ヒトモシ
+rarity: C
+illustrators:
+  - Kyoko Umemoto

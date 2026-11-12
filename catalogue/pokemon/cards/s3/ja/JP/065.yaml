@@ -1,0 +1,32 @@
+name: ムゲンダイナVMAX
+pokemon:
+  category: pokemon
+  hp: 340
+  types:
+    - Darkness
+  stage: VMAX
+  attacks:
+    - name: ドレッドエンド
+      cost:
+        - Darkness
+        - Colorless
+      damage: 30×
+      text: 自分の場の{Darkness}ポケモンの数×30ダメージ。
+  abilities:
+    - name: ムゲンゾーン
+      text: 自分の場のポケモン全員が{Darkness}タイプならはたらく。自分のベンチに出せる{Darkness}ポケモンの数は8匹になり、別のタイプは場に出せない。（この特性がはたらかなくなったとき、ベンチが5匹になるまでトラッシュする。）
+      kind: Ability
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Eternamax
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ムゲンダイナV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

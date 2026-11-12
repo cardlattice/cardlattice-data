@@ -1,0 +1,36 @@
+name: ヤナッキー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: タネばくだん
+      cost:
+        - Grass
+      damage: "30"
+    - name: ギガインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 512
+  species: とげざるポケモン
+  heightMetres: 1.1
+  weightKilograms: 30.5
+  flavourText: 気性が 激しく トゲの ついた 尻尾を 振り回して 戦う。 頭の 葉っぱは とても 苦い。
+  evolvesFrom: ヤナップ
+rarity: U
+illustrators:
+  - Hasegawa Saki

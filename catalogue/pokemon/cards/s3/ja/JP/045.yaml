@@ -1,0 +1,30 @@
+name: ビブラーバ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: サンドインパルス
+      cost:
+        - Fighting
+      damage: "20"
+      text: 相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 329
+  species: しんどうポケモン
+  heightMetres: 1.1
+  weightKilograms: 15.3
+  flavourText: ２枚の ハネを 高速で 振動させて だす 超音波は 激しい 頭痛を ひきおこす。
+  evolvesFrom: ナックラー
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

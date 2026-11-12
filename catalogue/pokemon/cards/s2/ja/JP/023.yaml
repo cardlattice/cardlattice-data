@@ -1,0 +1,28 @@
+name: オタマロ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: くるくる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 535
+  species: おたまポケモン
+  heightMetres: 0.5
+  weightKilograms: 4.5
+  flavourText: きれいな 波紋が 広がる 水の 下では オタマロが 甲高い 声で 鳴いている。
+rarity: C
+illustrators:
+  - Aya Kusube

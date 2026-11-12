@@ -8,9 +8,6 @@ printedIdentifiers:
     code: CP3
 printedDenominator: 32
 regulationMark: null
-finishes:
-  - holo
 variants:
-  first-edition-holo:
-    finish: holo
+  first-edition:
     edition: first-edition

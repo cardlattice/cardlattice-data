@@ -1,0 +1,39 @@
+name: リングマ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: アームハンマー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: ツメできりさく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 217
+  species: とうみんポケモン
+  heightMetres: 1.8
+  weightKilograms: 125.8
+  flavourText: 大きな 体の 持ち主だが 木登りが 上手で 木の 上で エサを 食べたり 寝たりする。
+  evolvesFrom: ヒメグマ
+rarity: C
+illustrators:
+  - Uta

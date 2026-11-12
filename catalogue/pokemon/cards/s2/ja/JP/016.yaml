@@ -1,0 +1,28 @@
+name: ヒトモシ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: こげこげ
+      cost:
+        - Fire
+      text: 相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 607
+  species: ろうそくポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.1
+  flavourText: 炎で 熱せられた 体は ほんのり 温かい。 迷子の 手を 引き 霊界へと 誘う。
+rarity: C
+illustrators:
+  - Sekio

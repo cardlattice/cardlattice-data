@@ -1,0 +1,30 @@
+name: カラマネロVMAX
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Darkness
+  stage: VMAX
+  attacks:
+    - name: ダイジャマー
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "180"
+      text: 相手の手札を見て、その中からカードを1枚選び、相手の山札の下にもどす。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: カラマネロV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

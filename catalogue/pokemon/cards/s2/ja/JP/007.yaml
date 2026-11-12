@@ -1,0 +1,36 @@
+name: アメモース
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: もようでおどす
+      cost:
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンは、手札からエネルギーを出してつけられない。
+    - name: とんぼがえり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 284
+  species: めだまポケモン
+  heightMetres: 0.8
+  weightKilograms: 3.6
+  flavourText: 薄い ハネの ような 触角は 湿気を 吸いやすい。 雨の 日は 木の ウロなどで じっと 過ごす。
+  evolvesFrom: アメタマ
+rarity: C
+illustrators:
+  - chibi

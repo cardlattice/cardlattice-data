@@ -1,0 +1,35 @@
+name: レントラー
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: しゅうげき
+      cost:
+        - Lightning
+      damage: 60+
+      text: この番、このポケモンが「ルクシオ」から進化していたなら、100ダメージ追加。
+    - name: ヘッドボルト
+      cost:
+        - Lightning
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 405
+  species: がんこうポケモン
+  heightMetres: 1.4
+  weightKilograms: 42
+  flavourText: レントラーの 透視能力は 危険な ものを 発見するとき とても 役に立つのだ。
+  evolvesFrom: ルクシオ
+rarity: R
+illustrators:
+  - Hasuno
