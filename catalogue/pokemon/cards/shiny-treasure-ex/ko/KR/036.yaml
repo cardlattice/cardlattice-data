@@ -1,0 +1,30 @@
+name: 야돈
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 잠자기
+      cost:
+        - Colorless
+      text: 이 포켓몬을 잠듦으로 만든다. 이 포켓몬의 HP를 「30」회복한다.
+    - name: 박치기
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 항상 멍하니 있어서 무슨 생각을 하고 있는지 알 수 없다. 꼬리로 먹이를 낚는 것이 특기다.
+  nationalDex:
+    - 79
+  species: 얼간이포켓몬
+  heightMetres: 1.2
+  weightKilograms: 36
+  resistances: []
+illustrators:
+  - Narumi Sato

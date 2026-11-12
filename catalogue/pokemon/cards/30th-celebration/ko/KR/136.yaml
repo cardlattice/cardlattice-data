@@ -1,0 +1,34 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Lightning
+  stage: Basic
+  species: 쥐포켓몬
+  heightMetres: 0.4
+  weightKilograms: 6
+  nationalDex:
+    - 25
+  attacks:
+    - name: 갉기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 전격
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 포켓몬에게도 10데미지를 준다.
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  level: 12
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: null

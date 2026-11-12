@@ -1,0 +1,34 @@
+name: 춤추새
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  attacks:
+    - name: 정열물방울
+      cost:
+        - Fire
+        - Colorless
+      text: 데미지 카운터 5개를 상대의 포켓몬에게 원하는 대로 올린다.
+  abilities:
+    - name: 열혈레슨
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 「퓨전」의 포켓몬 전원이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-20」이 된다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리
+        있더라도 중복되지 않는다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 다홍꿀을 빨아들인 춤추새. 트레이너가 틀린 지시를 내리면 격렬하게 화를 내는 격정적인 성격이다.
+  nationalDex:
+    - 741
+  species: 댄스포켓몬
+  heightMetres: 0.6
+  weightKilograms: 3.4
+  resistances: []
+illustrators:
+  - otumami
+regulationMark: E

@@ -1,0 +1,11 @@
+name: 페퍼
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱에서 「아이템」과 「포켓몬의 도구」를 1장씩 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - aspara
+rarity: SAR

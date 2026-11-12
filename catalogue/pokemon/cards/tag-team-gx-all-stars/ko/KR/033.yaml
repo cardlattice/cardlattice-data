@@ -1,0 +1,35 @@
+name: 샤미드
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 큐어레인
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      text: 이 포켓몬이 있는 한, 자신의 필드의 「이브이」에서 진화하는 「포켓몬 GX」전원의 최대 HP는 각각 「60」커진다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리 있더라도
+        중복되지 않는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 아름다운 물가가 주요 서식지이다. 외적에게 습격당할 상황이 되면 물로 뛰어들어 모습을 감춘다.
+  nationalDex:
+    - 134
+  species: 거품뿜기포켓몬
+  heightMetres: 1
+  weightKilograms: 29
+  evolvesFrom: 이브이
+  resistances: []
+  abilities:
+    - name: 바이털옐
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 필드의 「이브이」에서 진화하는 「포켓몬 GX」 전원의 최대 HP는 각각 「60」커진다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리
+        있더라도 중복되지 않는다.
+illustrators:
+  - sui
+regulationMark: C

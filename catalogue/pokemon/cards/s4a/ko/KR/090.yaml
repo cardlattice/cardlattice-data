@@ -1,0 +1,31 @@
+name: 가라르 파오리
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 바위깨기
+      cost:
+        - Fighting
+      damage: 10+
+      text: 동전을 1번 던져서 앞면이 나오면 30데미지를 추가한다.
+    - name: 궤찌르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 가라르에 사는 파오리의 모습. 굵고 튼튼한 파를 휘두르며 용감하게 싸우는 전사다.
+  nationalDex:
+    - 83
+  species: 청둥오리포켓몬
+  heightMetres: 0.8
+  weightKilograms: 42
+  resistances: []
+illustrators:
+  - Akira Komayama

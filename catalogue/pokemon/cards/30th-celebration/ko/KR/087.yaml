@@ -1,0 +1,35 @@
+name: 타부자고
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 셀러브레이트
+      cost:
+        - Metal
+      text: 자신의 패가 30장이라면 자신의 프라이즈를 2장 가져간다. 그 뒤, 자신의 패를 모두 덱으로 되돌리고 섞는다.
+    - name: 트리플스매시
+      cost:
+        - Metal
+      damage: 50×
+      text: 동전을 3번 던져서 앞면이 나온 수 × 50데미지를 준다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 코인이 쌓여서 만들어진 몸은 상당히 튼튼하다. 코인을 연속으로 발사해서 상대를 압도한다.
+  heightMetres: 1.2
+  weightKilograms: 30
+  abilities: []
+  rules: []
+  species: 보물생명체포켓몬
+  nationalDex:
+    - 1000
+  evolvesFrom: 모으령
+illustrators:
+  - Sanosuke Sakuma

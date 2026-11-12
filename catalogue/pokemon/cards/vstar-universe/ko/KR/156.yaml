@@ -1,0 +1,12 @@
+name: 원규
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드는 상대의 남은 프라이즈 장수가 3장 이하일 때만 사용할 수 있다. 서로의 플레이어는 각각 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 자신은 6장 상대는 2장
+      덱을 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Megumi Mizutani
+regulationMark: F

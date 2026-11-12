@@ -1,0 +1,33 @@
+name: 뮤츠
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 사이코쇼크
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+  abilities:
+    - name: 마인드리포트
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 트래쉬에 있는 서포트를 1장 상대에게 보여주고 덱의 위로 되돌린다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 한 과학자가 몇 년에 걸쳐 무서운 유전자의 연구를 계속한 결과 탄생했다.
+  nationalDex:
+    - 150
+  species: 유전포켓몬
+  heightMetres: 2
+  weightKilograms: 122
+  resistances: []
+illustrators:
+  - Shin Nagasawa
+regulationMark: C

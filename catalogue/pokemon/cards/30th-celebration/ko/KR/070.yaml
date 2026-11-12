@@ -1,0 +1,36 @@
+name: 두빅굴
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: 휘젓는주먹
+      cost:
+        - Fighting
+      damage: "60"
+      text: 상대의 다음 차례에 상대는 패에서 트레이너스를 꺼내서 사용할 때마다 사용하기 전에 동전을 1번 던진다. 뒷면이 나오면 그 카드는 사용한 것이 되지 않고 트래쉬한다.
+    - name: 메가톤펀치
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "180"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 전신의 혹을 진동시켜서 지진과 같은 흔들림을 일으킨다. 삐딱구리와 가까운 종이다.
+  heightMetres: 1.5
+  weightKilograms: 62
+  abilities: []
+  rules: []
+  species: 진동포켓몬
+  nationalDex:
+    - 537
+  evolvesFrom: 두까비
+  resistances: []
+illustrators:
+  - Kurata So

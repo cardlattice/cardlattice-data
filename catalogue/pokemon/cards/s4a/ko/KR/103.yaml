@@ -1,0 +1,35 @@
+name: 돌헨진
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 메가톤킥
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "80"
+    - name: 파워프레스
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 이 기술을 사용하기 위한 에너지보다 1개 많은 에너지가 붙어 있다면 60데미지를 추가한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  flavourText: 넓은 초원 한복판에 우뚝 서서 해가 기우는 것을 바라보며 지낸다. 다이내믹한 발차기 기술이 특기다.
+  nationalDex:
+    - 874
+  species: 거석포켓몬
+  heightMetres: 2.5
+  weightKilograms: 520
+  resistances: []
+illustrators:
+  - Kouki Saitou

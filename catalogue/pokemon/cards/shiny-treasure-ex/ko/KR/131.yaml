@@ -1,0 +1,36 @@
+name: 부르르룸
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 띄워날리기
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 동전을 1번 던져서 앞면이 나오면 90데미지를 추가한다.
+  abilities:
+    - name: 럼블엔진
+      kind: Ability
+      text: 자신의 차례에 자신의 패에서 에너지를 1장 트래쉬한다면 1번 사용할 수 있다. 자신의 패가 6장이 되도록 덱을 뽑는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 독소와 바위 성분이 섞인 가스를 8개로 늘어난 실린더에서 폭발시켜 에너지를 만들어 낸다.
+  nationalDex:
+    - 966
+  species: 다기통포켓몬
+  heightMetres: 1.8
+  weightKilograms: 120
+  evolvesFrom: 부르롱
+illustrators:
+  - DOM

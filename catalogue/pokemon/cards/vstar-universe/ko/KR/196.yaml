@@ -1,0 +1,27 @@
+name: 히스이 미끄래곤
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: 헤비임팩트
+      cost:
+        - Water
+        - Metal
+        - Colorless
+      damage: "140"
+  abilities:
+    - name: 강철거처
+      kind: Ability
+      text: 이 포켓몬이 있는 한, {Metal} 에너지가 붙어 있는 자신의 기본 포켓몬 전원은 상대의 「포켓몬 V」로부터 기술의 데미지를 받지 않는다.
+  retreatCost: 3
+  flavourText: 금속 껍질의 강도를 자유롭게 조절할 수 있다. 고독한 것을 싫어하고 집요하여, 좋아하는 이가 자신에게서 떨어지려 하면 분노하여 날뛴다.
+  evolvesFrom: 히스이 미끄네일
+  resistances: []
+  weaknesses: []
+illustrators:
+  - You Iribi
+rarity: AR
+regulationMark: F

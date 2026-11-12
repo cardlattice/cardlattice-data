@@ -1,0 +1,33 @@
+name: 라티아스
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  attacks:
+    - name: 다이너배리어
+      cost:
+        - Fire
+        - Psychic
+        - Colorless
+      damage: "70"
+      text: 상대의 다음 차례에 이 포켓몬은 「포켓몬 VMAX」로부터 기술의 데미지를 받지 않는다.
+  abilities:
+    - name: 레드어시스트
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에서 {Psychic} 에너지를 1장 선택해서 자신의 「라티오스」에게 붙인다.
+  retreatCost: 1
+  flavourText: 텔레파시로 인간과 마음을 교감한다. 빛을 굴절시키는 깃털로 다른 모습으로 변신한다.
+  nationalDex:
+    - 380
+  species: 무한포켓몬
+  heightMetres: 1.4
+  weightKilograms: 40
+  resistances: []
+  weaknesses: []
+illustrators:
+  - takuyoa
+regulationMark: E

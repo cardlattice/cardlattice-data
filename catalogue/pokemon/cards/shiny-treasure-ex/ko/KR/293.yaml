@@ -1,0 +1,33 @@
+name: 절각참
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 다크커터
+      cost:
+        - Darkness
+      damage: "40"
+    - name: 양날베기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "120"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 자망칼을 거느리며 무리를 만든다. 영역을 건 싸움에서 진 무리는 이긴 쪽에 흡수된다.
+  nationalDex:
+    - 625
+  species: 도인포켓몬
+  heightMetres: 1.6
+  weightKilograms: 70
+  evolvesFrom: 자망칼
+  resistances: []
+illustrators:
+  - Souichirou Gunjima
+rarity: S

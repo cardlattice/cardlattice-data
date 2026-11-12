@@ -1,0 +1,30 @@
+name: 삐딱구리
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 밟기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 넘어뜨리기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 볼에 있는 독주머니를 울려서 상대를 위협한다. 풀이 죽은 틈을 타 독찌르기 공격을 한다.
+  nationalDex:
+    - 453
+  species: 독설포켓몬
+  heightMetres: 0.7
+  weightKilograms: 23
+  resistances: []
+illustrators:
+  - otumami

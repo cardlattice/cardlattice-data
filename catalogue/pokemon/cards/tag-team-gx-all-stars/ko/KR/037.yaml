@@ -1,0 +1,34 @@
+name: 볼케니온[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - Prism Star
+  attacks:
+    - name: 사우나봄
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "100"
+      text: 상대의 벤치 포켓몬 전원에게도 각각 20데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 제트방출
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에 있는 {Water} 에너지를 1장 트래쉬한다. 그 뒤, 상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. (배틀필드로
+        내보낼 포켓몬은 상대가 선택한다.)
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 3
+  flavourText: 등에 있는 팔로 체내의 수증기를 분사한다. 산 하나를 날려버릴 정도의 위력이다.
+  resistances: []
+illustrators:
+  - Naoki Saito
+rarity: PR
+regulationMark: B

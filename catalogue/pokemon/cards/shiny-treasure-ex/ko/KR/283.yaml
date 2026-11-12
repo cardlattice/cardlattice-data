@@ -1,0 +1,31 @@
+name: 베베솔트
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 소금칠
+      cost:
+        - Fighting
+      text: 자신의 포켓몬 1마리의 HP를 「20」회복한다.
+    - name: 몸통박치기
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 땅속의 암염층에서 태어났다. 귀한 소금을 나눠 주기 때문에 옛날에는 특히 더 귀하게 여겨졌다.
+  nationalDex:
+    - 932
+  species: 암염포켓몬
+  heightMetres: 0.4
+  weightKilograms: 16
+  resistances: []
+illustrators:
+  - Yuu Nishida
+rarity: S

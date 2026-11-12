@@ -1,0 +1,40 @@
+name: 붐볼 GX
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 일렉트릭볼
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+    - name: 크래시번 GX
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: 자신의 필드의 포켓몬에게 붙어 있는 에너지를 원하는 만큼 트래쉬하고 그 장수 × 50데미지를 추가한다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 에너지봄버
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 이 포켓몬을 기절시킨다. 자신의 트래쉬에 있는 에너지를 5장 자신의 포켓몬(「포켓몬 GX・EX」는 제외)에게 원하는 대로
+        붙인다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  evolvesFrom: 찌리리공
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: B

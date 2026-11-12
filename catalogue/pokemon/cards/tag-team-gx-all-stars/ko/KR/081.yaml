@@ -1,0 +1,36 @@
+name: 후파 [굴레를 벗어난 후파]
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 악의굴레
+      cost:
+        - Colorless
+      damage: 10+
+      text: 상대 필드의 특성을 가진 포켓몬의 수 × 20데미지를 추가한다.
+    - name: 마인드쇼크
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 이 기술의 데미지는 약점, 저항력 계산을 하지 않는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 공간을 뒤트는 링으로 모든 것을 멀리 떨어진 곳으로 날려버리고 마는 트러블메이커다.
+  nationalDex:
+    - 720
+  species: 마신포켓몬
+  heightMetres: 6.5
+  weightKilograms: 490
+illustrators:
+  - Ayaka Yoshida
+regulationMark: C

@@ -1,0 +1,31 @@
+name: 메롱꿍
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 때리기
+      cost:
+        - Darkness
+      damage: "10"
+    - name: 밟기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 사람이나 포켓몬이 싫어하는 감정을 가질 때 발생시키는 마이너스 에너지를 코로 빨아들여서 건강해진다.
+  nationalDex:
+    - 859
+  species: 꾀부리기포켓몬
+  heightMetres: 0.4
+  weightKilograms: 5.5
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+rarity: S

@@ -1,0 +1,33 @@
+name: 팬텀
+illustrators:
+  - Takashi Yamaguchi
+regulationMark: null
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 고우스트
+  attacks:
+    - name: 어둠에 집어넣기
+      cost:
+        - Psychic
+      text: 상대의 패를 보고 그 중에서 포켓몬을 이 포켓몬에게 붙어 있는 {Psychic}에너지의 개수만큼까지 선택해서 로스트존에 둔다.
+    - name: 저주의물방울
+      cost:
+        - Psychic
+        - Colorless
+      text: 데미지 카운터 4개를 상대의 포켓몬에게 원하는 대로 올린다.
+  abilities:
+    - name: 카타스트로피
+      kind: Poké-Body
+      text: 이 포켓몬이 배틀필드에 있는 한, 상대의 포켓몬이 기절했다면 그 포켓몬을 로스트존에 둔다. (포켓몬 이외의 카드는 모두 트래쉬한다.)
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Colorless
+      value: "-20"
+  retreatCost: 0

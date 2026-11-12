@@ -1,0 +1,33 @@
+name: 알로라나인테일
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: 오로라빔
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: 빛의결계
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 GX ・ EX」로부터 기술의 데미지나 효과를 받지 않는다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 털에서 얼음 알맹이를 만들어 적에게 퍼붓는다. 화나게 하면 한순간에 얼려버린다.
+  nationalDex:
+    - 38
+  species: 여우포켓몬
+  heightMetres: 1.1
+  weightKilograms: 19.9
+  evolvesFrom: 알로라식스테일
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+regulationMark: B

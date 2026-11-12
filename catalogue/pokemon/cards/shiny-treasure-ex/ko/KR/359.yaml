@@ -1,0 +1,31 @@
+name: 딩루 ex
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 랜드스쿠프
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "150"
+      text: 상대의 벤치 포켓몬 1마리에게 데미지 카운터를 2개 올린다.
+  abilities:
+    - name: 속박의 대지
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있는 한, 상대 필드의 데미지 카운터가 올려져 있는 포켓몬(포켓몬 ex는 제외)의 특성은 모두 없어진다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: UR

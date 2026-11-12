@@ -1,0 +1,36 @@
+name: 레어코일
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 부딪치기
+      cost:
+        - Metal
+      damage: "20"
+    - name: 전자포
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "80"
+      text: 자신의 다음 차례에 이 포켓몬은 「전자포」를 사용할 수 없다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 거의 코일의 3배의 전력이다._x000D_ 태양의 흑점이 많을 때 어찌 된 일인지 대량 발생한다.
+  nationalDex:
+    - 82
+  species: 자석포켓몬
+  heightMetres: 1
+  weightKilograms: 60
+  evolvesFrom: 코일
+illustrators:
+  - kirisAki
+regulationMark: B

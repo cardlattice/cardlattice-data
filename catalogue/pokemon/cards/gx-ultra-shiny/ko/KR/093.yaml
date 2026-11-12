@@ -1,0 +1,35 @@
+name: 제르네아스
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: 인도하기
+      cost:
+        - Colorless
+      text: 자신의 덱에 있는 서포트를 1장, 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - name: 브라이트호른
+      cost:
+        - Fairy
+        - Fairy
+        - Fairy
+      damage: "130"
+      text: 자신의 다음 차례에 이 포켓몬은 「브라이트호른」을 사용할 수 없다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  flavourText: 영원한 생명을 나누어 준다고 한다. 수목의 모습으로 1000년 동안 잠들고 부활한다.
+  nationalDex:
+    - 716
+  species: 생명포켓몬
+  heightMetres: 3
+  weightKilograms: 215
+illustrators:
+  - sui
+regulationMark: A

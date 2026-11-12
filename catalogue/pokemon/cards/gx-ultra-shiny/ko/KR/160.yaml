@@ -1,0 +1,12 @@
+name: 에테르재단 직원
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 트래쉬에 있는 이름에 「알로라」가 적힌 포켓몬을 3장 상대에게 보여주고 패로 가져온다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - take
+rarity: SR
+regulationMark: B

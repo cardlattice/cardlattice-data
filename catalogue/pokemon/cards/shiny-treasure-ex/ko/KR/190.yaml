@@ -1,0 +1,10 @@
+name: 테라피 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 포켓몬에게 붙어 있는 한, {Colorless} 에너지 1개분으로 작용한다. 이 카드를 붙이고 있는 포켓몬은 잠듦・마비・혼란이 되지 않고 받고 있는
+      잠듦・마비・혼란은 모두 회복한다.
+  types:
+    - Colorless

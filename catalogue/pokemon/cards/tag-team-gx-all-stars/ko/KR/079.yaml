@@ -1,0 +1,36 @@
+name: 조로아크
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 도발
+      cost:
+        - Darkness
+      text: 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+    - name: 나이트퍼니시
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 트래쉬에 있는 포켓몬의 장수 × 20데미지를 준다. 줄 수 있는 데미지는 포켓몬 10장까지이다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 상대를 속여 무리의 안전을 유지해온 포켓몬이다._x000D_ 동료 간의 결속력이 강하다.
+  nationalDex:
+    - 571
+  species: 요괴여우포켓몬
+  heightMetres: 1.6
+  weightKilograms: 81.1
+  evolvesFrom: 조로아
+illustrators:
+  - Masakazu Fukuda
+regulationMark: B

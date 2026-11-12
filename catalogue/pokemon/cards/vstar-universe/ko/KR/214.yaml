@@ -1,0 +1,35 @@
+name: 바오키 VSTAR
+pokemon:
+  category: pokemon
+  hp: 260
+  types:
+    - Fire
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 불구슬피버
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: 원한다면 자신의 덱을 위에서부터 5장까지 트래쉬한다. 그 뒤, 트래쉬한 장수 × 40데미지를 추가한다.
+    - name: 엠버스타
+      cost:
+        - Fire
+      damage: 30×
+      text: 자신의 트래쉬에 있는 에너지의 장수 × 30데미지를 준다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 바오키 V
+  resistances: []
+illustrators:
+  - nagano
+rarity: SAR
+regulationMark: F

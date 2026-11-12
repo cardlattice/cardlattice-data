@@ -1,0 +1,26 @@
+name: 과사삭벌레
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 껍질에숨기
+      cost:
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 평생을 사과 속에서 지내며 천적인 새포켓몬과 마주치면 사과인 척을 해서 몸을 지킨다.
+  nationalDex:
+    - 840
+  species: 사과살이포켓몬
+  heightMetres: 0.2
+  weightKilograms: 0.5
+  resistances: []
+illustrators:
+  - otumami
+rarity: S

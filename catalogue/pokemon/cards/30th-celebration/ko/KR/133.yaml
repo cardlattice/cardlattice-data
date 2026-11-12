@@ -1,0 +1,30 @@
+name: 보만다 ex
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Dragon
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 울려퍼지는 부름소리
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 {Dragon} 포켓몬을 3장까지 선택해서 벤치로 내보낸다.
+    - name: 용의파동
+      cost:
+        - Fire
+        - Water
+      damage: "240"
+      text: 자신의 덱을 위에서부터 2장 트래쉬한다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  retreatCost: 2
+  abilities: []
+  evolvesFrom: 쉘곤
+  weaknesses: []
+  resistances: []
+rarity: SAR
+illustrators:
+  - Ryota Murayama

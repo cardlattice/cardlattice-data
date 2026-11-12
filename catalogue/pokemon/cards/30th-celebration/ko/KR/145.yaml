@@ -1,0 +1,39 @@
+name: 핫삼 ex
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: null
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: 스라크(ex)
+  subtypes:
+    - ex
+  attacks:
+    - name: 강철날개
+      cost:
+        - Metal
+        - Colorless
+      damage: "40"
+      text: 상대의 다음 차례에 자신이 받는 기술에 의한 데미지는 「-20」이 된다.
+    - name: 내리치기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 상대가 「진화 포켓몬」이라면 30데미지를 추가한다.
+  abilities:
+    - name: 경계색
+      kind: Poké-Body
+      text: 이 포켓몬의 남은 HP가 「60」이하라면 이 포켓몬이 사용하는 기술이 배틀 포켓몬에게 주는 데미지는 「+40」이 된다.
+  rules:
+    - 포켓몬 ex가 기절할 경우 상대 플레이어는 프라이즈를 2장 가져옵니다.
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1

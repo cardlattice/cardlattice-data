@@ -1,0 +1,27 @@
+name: 바다그다
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 비틀어치기
+      cost:
+        - Water
+      damage: "10"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 20m 떨어진 가비루사에게서 나는 냄새도 맡을 수 있어서 모래 속에 몸을 숨긴다.
+  nationalDex:
+    - 960
+  species: 정원장어포켓몬
+  heightMetres: 1.2
+  weightKilograms: 1.8
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+rarity: S

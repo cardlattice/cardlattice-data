@@ -1,0 +1,12 @@
+name: 그린의 전략
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드를 사용한 차례의 마지막에 자신의 패가 8장이 되도록 덱을 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - TOKIYA
+rarity: SR
+regulationMark: C

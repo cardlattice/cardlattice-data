@@ -1,0 +1,29 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 쟁이기
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 기본 에너지를 2장까지 선택해서 상대에게 보여주고 패로 가져온다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - KIYOTAKA OSHIYAMA
+additionalNumbers:
+  pikachu30th: 26/30

@@ -1,0 +1,35 @@
+name: 가라르 날쌩마
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 사이코키네시스
+      cost:
+        - Psychic
+        - Colorless
+      damage: 30+
+      text: 상대의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 30데미지를 추가한다.
+  abilities:
+    - name: 파스텔베일
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 포켓몬 전원은 특수 상태가 되지 않으며 받고 있는 특수 상태는 모두 회복한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 용맹하고 과감하며 자긍심이 높다. 발끝의 털에 사이코 파워를 모아 경쾌하게 숲을 달린다.
+  nationalDex:
+    - 78
+  species: 일각포켓몬
+  heightMetres: 1.7
+  weightKilograms: 80
+  evolvesFrom: 가라르 포니타
+illustrators:
+  - Kagemaru Himeno
+rarity: S

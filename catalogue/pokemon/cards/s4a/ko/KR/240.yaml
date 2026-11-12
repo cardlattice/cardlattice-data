@@ -1,0 +1,31 @@
+name: 일레즌
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 뺨치기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 찌릿찌릿
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 체내의 독주머니에 저장하고 있는 독소를 피부를 통해 분비한다. 건드리면 찌릿하고 마비된다.
+  nationalDex:
+    - 848
+  species: 젖먹이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 11
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S

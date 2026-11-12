@@ -1,0 +1,36 @@
+name: 모노두
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 박치기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+    - name: 허찌르기
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "60"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 눈이 보이지 않아서 몸통박치기나 물기로 주변을 살핀다. 몸에 상처가 끊이지 않는다.
+  nationalDex:
+    - 633
+  species: 폭거포켓몬
+  heightMetres: 0.8
+  weightKilograms: 17.3
+illustrators:
+  - miki kudo
+regulationMark: A

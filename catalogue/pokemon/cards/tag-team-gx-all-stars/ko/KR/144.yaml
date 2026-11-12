@@ -1,0 +1,11 @@
+name: 공박사의 강연
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱에 있는 HP가 「60」이하인 포켓몬을 3장까지 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Hideki Ishikawa
+regulationMark: B

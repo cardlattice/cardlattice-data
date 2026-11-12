@@ -1,0 +1,31 @@
+name: 찬란한 무한다이노
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - Radiant
+  attacks:
+    - name: 파워빔
+      cost:
+        - Fire
+        - Darkness
+        - Colorless
+      damage: "200"
+  abilities:
+    - name: 클라이맥스 게이트
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 자신의 덱에서 「포켓몬 VMAX」를 2장까지 선택해서 벤치로
+        내보낸다. 그리고 덱을 섞는다.
+  rules:
+    - 찬란한 포켓몬은 덱에 1장만 넣을 수 있다.
+  retreatCost: 2
+  flavourText: 가슴의 코어가 가라르지방의 대지에서 솟아나는 에너지를 흡수해서 활동한다.
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Kagemaru Himeno
+rarity: K
+regulationMark: F

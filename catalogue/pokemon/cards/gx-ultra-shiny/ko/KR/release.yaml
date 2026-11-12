@@ -1,0 +1,12 @@
+releaseDate: 2019-02-28
+printedDenominator: 150
+products:
+  - pokemon-product-gx-ultra-shiny-ko
+  - pokemon-product-gx-ultra-shiny-ultimate-ko
+finishes:
+  - holo
+variants:
+  ultimate:
+    finish: holo
+    products:
+      - pokemon-product-gx-ultra-shiny-ultimate-ko

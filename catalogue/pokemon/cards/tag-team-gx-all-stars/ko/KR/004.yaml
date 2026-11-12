@@ -1,0 +1,28 @@
+name: 통통코
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 몸통박치기
+      cost:
+        - Grass
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 바람에 날려 떠다닌다. 산과 들에 통통코가 모여들면 봄이 찾아온다고 전해진다.
+  nationalDex:
+    - 187
+  species: 솜풀포켓몬
+  heightMetres: 0.4
+  weightKilograms: 0.5
+illustrators:
+  - kawayoo
+regulationMark: B

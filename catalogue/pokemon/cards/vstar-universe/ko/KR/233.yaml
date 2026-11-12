@@ -1,0 +1,35 @@
+name: 레지기가스 VSTAR
+pokemon:
+  category: pokemon
+  hp: 300
+  types:
+    - Colorless
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 기가임팩트
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "230"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 4
+  evolvesFrom: 레지기가스 V
+  resistances: []
+  abilities:
+    - name: 스타가디언
+      kind: Ability
+      power: VSTAR
+      text: 상대의 남은 프라이즈 장수가 1장이라면 자신의 차례에 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 그 포켓몬과 붙어 있는 모든 카드를 트래쉬한다. (대전 중
+        자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+illustrators:
+  - Aya Kusube
+rarity: SAR
+regulationMark: F

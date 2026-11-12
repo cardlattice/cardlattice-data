@@ -1,0 +1,30 @@
+name: 리오르
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 판별
+      cost:
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+    - name: 잽
+      cost:
+        - Fighting
+      damage: "10"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 밤새 달릴 수 있는 지구력을 갖고 있고 노력가지만 아직 햇병아리다.
+  nationalDex:
+    - 447
+  species: 파문포켓몬
+  heightMetres: 0.7
+  weightKilograms: 20.2
+  resistances: []
+illustrators:
+  - Kyoko Umemoto
+regulationMark: B

@@ -1,0 +1,30 @@
+name: 알로라 나시
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 메가드레인
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 이 포켓몬의 HP를 「50」회복한다.
+  abilities:
+    - name: 스케일 업
+      kind: Ability
+      text: 이 포켓몬에게 {Grass} 에너지가 6개 이상 붙어 있다면 이 포켓몬은 최대 HP가 「+250」이 된다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 4
+  flavourText: 무럭무럭 자라 사이코 파워는 필요 없게 되어 잠들어 있던 드래곤의 힘이 각성했다.
+  evolvesFrom: 아라리
+  resistances: []
+rarity: AR
+illustrators:
+  - AYUMI ODASHIMA

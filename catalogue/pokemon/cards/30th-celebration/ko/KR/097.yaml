@@ -1,0 +1,32 @@
+name: 루기아
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 엘리멘탈 블라스트
+      cost:
+        - Fire
+        - Water
+        - Lightning
+      damage: "250"
+      text: 이 포켓몬에게 붙어 있는 {Fire} {Water} {Lightning} 에너지를 1개씩 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 깊은 해구의 밑바닥에서 잠잔다. 루기아가 날갯짓을 하면 40일 동안 폭풍우가 계속된다고 전해진다.
+  heightMetres: 5.2
+  weightKilograms: 216
+  abilities: []
+  rules: []
+  species: 잠수포켓몬
+  nationalDex:
+    - 249
+illustrators:
+  - Kazuki Minami

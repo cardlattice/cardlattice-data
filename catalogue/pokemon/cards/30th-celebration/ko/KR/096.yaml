@@ -1,0 +1,27 @@
+name: 푸푸린
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 탱글탱글서클
+      cost: []
+      damage: 30×
+      text: 최대 HP가 「30」인 자신의 벤치 포켓몬의 수 × 30데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  flavourText: 노래 부르기를 좋아하지만 아직 서툴다. 제대로 칭찬해 주면 조금씩 잘하게 된다.
+  heightMetres: 0.3
+  weightKilograms: 1
+  abilities: []
+  rules: []
+  species: 풍선포켓몬
+  nationalDex:
+    - 174
+  retreatCost: 0
+  resistances: []
+illustrators:
+  - Kanami Ogata

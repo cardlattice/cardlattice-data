@@ -1,0 +1,8 @@
+name: 기본 번개 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Lightning
+rarity: SR

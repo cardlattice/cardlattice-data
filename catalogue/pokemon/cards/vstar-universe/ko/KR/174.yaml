@@ -1,0 +1,29 @@
+name: 귀뚤톡크
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 베어가르기
+      cost:
+        - Grass
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 넘치는 선율
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 필드의 {Grass} 포켓몬(「귀뚤톡크」는 제외) 전원의 최대 HP는 각각 「40」커진다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리
+        있더라도 중복되지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 감정을 멜로디로 나타낸다. 멜로디의 법칙성을 학자들이 연구하고 있다.
+  evolvesFrom: 귀뚤뚜기
+  resistances: []
+illustrators:
+  - Nurikabe
+rarity: AR
+regulationMark: F

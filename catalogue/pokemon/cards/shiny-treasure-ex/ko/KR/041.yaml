@@ -1,0 +1,26 @@
+name: 꾸왁스
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 돌격
+      cost:
+        - Water
+      damage: "30"
+      text: 이 포켓몬에게도 10데미지를 준다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 옛날에 머나먼 땅에서 찾아와 정착했다. 날개에서 분비되는 젤은 물과 먼지를 튕겨 낸다.
+  nationalDex:
+    - 912
+  species: 꼬마오리포켓몬
+  heightMetres: 0.5
+  weightKilograms: 6.1
+  resistances: []
+illustrators:
+  - Naoki Saito

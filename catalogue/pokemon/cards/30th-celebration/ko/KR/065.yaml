@@ -1,0 +1,31 @@
+name: 코스모움
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 딱딱해지기
+      cost:
+        - Colorless
+        - Colorless
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-60」이 된다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  flavourText: 인간의 지식을 뛰어넘는 강도를 가진 껍질에 둘러싸여 있다. 별의 빛을 받아서 성장한다.
+  heightMetres: 0.1
+  weightKilograms: 999.9
+  abilities: []
+  rules: []
+  species: 원시성포켓몬
+  nationalDex:
+    - 790
+  evolvesFrom: 코스모그
+illustrators:
+  - Masako Tomii

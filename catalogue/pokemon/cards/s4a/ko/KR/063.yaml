@@ -1,0 +1,35 @@
+name: 파치래곤
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 상승전류
+      cost:
+        - Lightning
+      damage: "30"
+      text: 자신의 다음 차례에 이 포켓몬의 「상승전류」의 데미지는 「+90」이 된다.
+    - name: 기가임팩트
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 4
+  flavourText: 고대에는 튼튼한 하반신 덕분에 무적이었으나 먹이인 식물을 모두 먹어버려서 멸종했다.
+  nationalDex:
+    - 880
+  species: 화석포켓몬
+  heightMetres: 1.8
+  weightKilograms: 190
+  evolvesFrom: 희귀한화석
+  resistances: []
+illustrators:
+  - Misa Tsutsui

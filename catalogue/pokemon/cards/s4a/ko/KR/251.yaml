@@ -1,0 +1,28 @@
+name: 데인차
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 살그머니 올리기
+      cost:
+        - Colorless
+      text: 상대의 배틀 포켓몬에게 데미지 카운터를 2개 올린다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 차게 식은 남은 홍차에 외로움을 타는 영혼이 깃들어 포켓몬이 되었다고 전해진다.
+  nationalDex:
+    - 854
+  species: 홍차포켓몬
+  heightMetres: 0.1
+  weightKilograms: 0.2
+illustrators:
+  - MAHOU
+rarity: S

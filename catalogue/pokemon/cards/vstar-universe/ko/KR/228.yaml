@@ -1,0 +1,34 @@
+name: 다크라이 VSTAR
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Darkness
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 악의파동
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 자신의 필드의 포켓몬에게 붙어 있는 {Darkness} 에너지의 개수 × 30데미지를 추가한다.
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 다크라이 V
+  resistances: []
+  abilities:
+    - name: 스타어비스
+      kind: Ability
+      power: VSTAR
+      text: 자신의 차례에 사용할 수 있다. 자신의 트래쉬에서 아이템을 2장까지 선택해서 상대에게 보여주고 패로 가져온다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수
+        있다.)
+illustrators:
+  - Pani Kobayashi
+rarity: SAR
+regulationMark: F

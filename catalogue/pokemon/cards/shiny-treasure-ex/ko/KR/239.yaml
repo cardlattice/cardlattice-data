@@ -1,0 +1,33 @@
+name: 붐볼
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 봄봄체인
+      cost:
+        - Lightning
+      damage: 20+
+      text: 데미지를 주기 전에 자신의 필드의 포켓몬에게 붙어 있는 「포켓몬의 도구」를 원하는 만큼 트래쉬하고 그 장수 × 40데미지를 추가한다.
+    - name: 일렉트릭볼
+      cost:
+        - Lightning
+        - Colorless
+      damage: "70"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 전기 에너지를 모을수록 고속으로 이동할 수 있게 되나 그만큼 폭발하기도 쉬워진다.
+  nationalDex:
+    - 101
+  species: 볼포켓몬
+  heightMetres: 1.2
+  weightKilograms: 66.6
+  evolvesFrom: 찌리리공
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+rarity: S

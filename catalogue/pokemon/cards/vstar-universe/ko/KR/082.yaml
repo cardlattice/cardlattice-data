@@ -1,0 +1,34 @@
+name: 그라에나
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 와일드태클
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: 이 포켓몬에게도 50데미지를 준다.
+  abilities:
+    - name: 허슬바크
+      kind: Ability
+      text: 상대의 필드에 「포켓몬 VMAX」가 있다면 이 포켓몬이 기술을 사용하기 위한 에너지는 {Colorless} 에너지 3개만큼 적어진다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 10마리 정도의 무리를 이루어 한 치의 흐트러짐 없는 팀워크로 먹이를 쫓아 꼼짝 못하게 한다.
+  nationalDex:
+    - 262
+  species: 물어뜯기포켓몬
+  heightMetres: 1
+  weightKilograms: 37
+  evolvesFrom: 포챠나
+  resistances: []
+illustrators:
+  - otumami
+regulationMark: F

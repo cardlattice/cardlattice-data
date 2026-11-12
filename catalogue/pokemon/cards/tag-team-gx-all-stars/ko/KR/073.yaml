@@ -1,0 +1,29 @@
+name: 포푸니
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 베어가르기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 팀플레이로 새포켓몬의 둥지에서 알을 훔쳐 내지만, 누가 먹을까로 싸움이 난다.
+  nationalDex:
+    - 215
+  species: 갈고리손톱포켓몬
+  heightMetres: 0.9
+  weightKilograms: 28
+illustrators:
+  - sui
+regulationMark: C

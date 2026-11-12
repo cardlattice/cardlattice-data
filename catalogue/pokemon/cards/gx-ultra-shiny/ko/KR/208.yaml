@@ -1,0 +1,41 @@
+name: 갑주무사 GX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Grass
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 만나자마자
+      cost:
+        - Grass
+      damage: 30+
+      text: 이 차례에 이 포켓몬이 벤치에서 배틀필드로 나왔다면 90데미지를 추가한다.
+    - name: 아머프레스
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-20」이 된다.
+    - name: 참크로스 GX
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 꼬시레
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

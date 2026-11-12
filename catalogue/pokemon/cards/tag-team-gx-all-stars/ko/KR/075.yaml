@@ -1,0 +1,35 @@
+name: 앱솔
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 섀도시커
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 상대의 배틀 포켓몬의 후퇴에 필요한 에너지의 개수 × 30데미지를 추가한다.
+  abilities:
+    - name: 악의 패기
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 상대의 배틀필드의 기본 포켓몬의 후퇴에 필요한 에너지는 1개만큼 많아진다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 재앙을 가져온다고 전해지지만 실제로는 온화한 성질이다._x000D_ 재해의 위기를 사람들에게 알린다.
+  nationalDex:
+    - 359
+  species: 재난포켓몬
+  heightMetres: 1.2
+  weightKilograms: 47
+illustrators:
+  - nagimiso
+regulationMark: B

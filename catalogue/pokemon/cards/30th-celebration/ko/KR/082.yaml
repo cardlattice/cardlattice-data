@@ -1,0 +1,35 @@
+name: 디아루가
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 리버스클록
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 포켓몬과 기본 에너지를 합계 3장까지 선택해서 상대에게 보여주고 덱으로 되돌리고 섞는다.
+    - name: 헤비임팩트
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "110"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 디아루가가 태어남으로써 시간이 움직이기 시작했다는 전설을 가진 포켓몬이다.
+  heightMetres: 5.4
+  weightKilograms: 683
+  abilities: []
+  rules: []
+  species: 시간포켓몬
+  nationalDex:
+    - 483
+illustrators:
+  - toriyufu

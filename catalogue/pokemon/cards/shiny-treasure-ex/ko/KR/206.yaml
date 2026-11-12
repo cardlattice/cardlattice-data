@@ -1,0 +1,27 @@
+name: 들눈해
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 마구차기
+      cost:
+        - Grass
+      damage: 10×
+      text: 동전을 3번 던져서 앞면이 나온 수 × 10데미지를 준다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 왕눈해를 닮았지만 전혀 다른 종류다. 다리는 가늘지만 달리기 시작하면 시속 50km에 이르게 된다.
+  nationalDex:
+    - 948
+  species: 목이버섯포켓몬
+  heightMetres: 0.9
+  weightKilograms: 33
+  resistances: []
+illustrators:
+  - Ryuta Fuse
+rarity: S

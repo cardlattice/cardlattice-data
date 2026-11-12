@@ -1,0 +1,34 @@
+name: 마기아나
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 볼어택
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: 갈아입히기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 필드의 포켓몬에게 붙어 있는 「포켓몬의 도구」를 1장 패로 되돌린다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 500년 이상 전에 만들어진 인조포켓몬이다. 사람의 말을 이해하지만 말은 못 한다.
+  nationalDex:
+    - 801
+  species: 인조포켓몬
+  heightMetres: 1
+  weightKilograms: 80.5
+illustrators:
+  - kawayoo
+regulationMark: A

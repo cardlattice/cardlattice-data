@@ -1,0 +1,30 @@
+name: 파비코리
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: 활공
+      cost:
+        - Water
+        - Metal
+      damage: "60"
+  abilities:
+    - name: 홀리는 곡조
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 서포트를 1장 선택해서 상대에게 보여준다. 남은 덱을 섞고 선택한 카드를 덱의 위로 되돌린다.
+  flavourText: 맑은 날 뭉게구름에 뒤섞이면서 넓은 하늘을 자유롭게 날아다니며 아름다운 소프라노로 노래한다.
+  nationalDex:
+    - 334
+  species: 허밍포켓몬
+  heightMetres: 1.1
+  weightKilograms: 20.6
+  evolvesFrom: 파비코
+  retreatCost: 0
+  resistances: []
+  weaknesses: []
+illustrators:
+  - sui
+regulationMark: E

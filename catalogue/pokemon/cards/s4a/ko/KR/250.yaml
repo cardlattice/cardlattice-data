@@ -1,0 +1,29 @@
+name: 데덴네
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 매드파티
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기술 「매드파티」를 가진 포켓몬의 수 × 20데미지를 준다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 위쪽 수염은 주변을 살피는 센서이고 아래로 난 수염은 전기를 발산하는 기관이다.
+  nationalDex:
+    - 702
+  species: 안테나포켓몬
+  heightMetres: 0.2
+  weightKilograms: 2.2
+  resistances: []
+illustrators:
+  - Mizue
+rarity: S

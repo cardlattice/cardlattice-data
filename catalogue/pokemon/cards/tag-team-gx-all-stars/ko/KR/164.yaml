@@ -1,0 +1,15 @@
+name: 블랙마켓[프리즘스타]
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+    - Prism Star
+  rules:
+    - 서로의 {Darkness} 에너지가 붙어 있는 {Darkness} 포켓몬이 상대의 포켓몬으로부터 기술의 데미지를 받아 기절했을 때, 가져올 수 있는 프라이즈는 1장
+      적어진다. 이 스타디움은 필드에 나와 있는 한, 서로의 플레이어가 패에서 아이템 또는 서포트를 꺼내서 사용했을 때 그 효과를 받지 않는다.
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+    - 스타디움은 자신의 차례에 1장만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.
+illustrators:
+  - 5ban Graphics
+rarity: PR
+regulationMark: B

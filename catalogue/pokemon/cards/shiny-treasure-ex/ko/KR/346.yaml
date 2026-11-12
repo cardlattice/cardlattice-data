@@ -1,0 +1,12 @@
+name: 팔데아의 학생
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱에서 포켓몬(「룰을 가진 포켓몬」은 제외)을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다. 패로 가져올 수 있는 포켓몬의 장수는 자신의
+      트래쉬에 있는 「팔데아의 학생」(이 카드는 제외)의 장수만큼 많아진다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Naoki Saito
+rarity: SR

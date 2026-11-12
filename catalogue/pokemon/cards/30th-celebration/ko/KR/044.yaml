@@ -1,0 +1,32 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 만족스파크
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "100"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - Shimaris Yukichi
+additionalNumbers:
+  pikachu30th: 28/30

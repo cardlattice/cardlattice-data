@@ -1,0 +1,35 @@
+name: 쥬피썬더
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 헤드볼트
+      cost:
+        - Lightning
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 스피드옐
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 필드의 「이브이」에서 진화하는 「포켓몬 GX」가 사용하는 기술에 필요한 에너지는 각각 {Colorless} 에너지 1개만큼 적어진다. 이
+        효과는 이 특성을 가진 포켓몬이 몇 마리 있더라도 중복되지 않는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 폐 안에 전기를 만드는 기관이 있다. 날숨에 섞여 탁탁하는 전기 소리가 들린다.
+  nationalDex:
+    - 135
+  species: 번개포켓몬
+  heightMetres: 0.8
+  weightKilograms: 24.5
+  evolvesFrom: 이브이
+illustrators:
+  - Uta
+regulationMark: C

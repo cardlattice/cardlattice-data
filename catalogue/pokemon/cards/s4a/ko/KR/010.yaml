@@ -1,0 +1,34 @@
+name: 고릴타 VMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Grass
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 할퀴기
+      cost:
+        - Colorless
+      damage: "50"
+    - name: 다이연타
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: 130+
+      text: 원한다면 이 포켓몬에게 붙어 있는 {Grass} 에너지를 3장까지 선택해서 트래쉬한다. 그 경우, 트래쉬한 장수 × 50데미지를 추가한다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 고릴타 V
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RRR

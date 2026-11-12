@@ -1,0 +1,35 @@
+name: 후딘 ex
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Psychic
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 마인드잭
+      cost:
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 상대의 벤치 포켓몬의 수 × 30데미지를 추가한다.
+    - name: 디멘션핸드
+      cost:
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: 이 기술은 이 포켓몬이 벤치에 있더라도 사용할 수 있다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  evolvesFrom: 윤겔라
+illustrators:
+  - PLANETA Tsuji
+rarity: SSR

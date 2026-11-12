@@ -1,0 +1,12 @@
+name: 구즈마
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. 그 뒤, 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Hitoshi Ariga
+rarity: SR
+regulationMark: A

@@ -1,0 +1,32 @@
+name: 한카리아스 V
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 드래곤크루
+      cost:
+        - Water
+        - Fighting
+        - Colorless
+      damage: "120"
+    - name: 소닉 스트라이크
+      cost:
+        - Water
+        - Fighting
+        - Fighting
+        - Colorless
+      text: 이 포켓몬에게 붙어 있는 에너지를 3개 트래쉬하고 상대의 포켓몬 1마리에게 220데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  retreatCost: 0
+  resistances: []
+  weaknesses: []
+illustrators:
+  - N-DESIGN Inc.
+rarity: RR
+regulationMark: F

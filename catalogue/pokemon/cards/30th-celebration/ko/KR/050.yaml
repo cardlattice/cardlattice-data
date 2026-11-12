@@ -1,0 +1,35 @@
+name: 제크로무
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 베어가르기
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+    - name: 니트로썬더
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 이 포켓몬에게 {Fire} 에너지가 붙어 있다면 80데미지를 추가한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 번개로 세상을 태워버릴 수 있는 전설의 포켓몬. 이상의 세계를 구축하는 사람을 보좌한다.
+  heightMetres: 2.9
+  weightKilograms: 345
+  abilities: []
+  rules: []
+  species: 흑음포켓몬
+  nationalDex:
+    - 644
+  resistances: []
+illustrators:
+  - akagi

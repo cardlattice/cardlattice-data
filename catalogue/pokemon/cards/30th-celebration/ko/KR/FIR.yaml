@@ -1,0 +1,12 @@
+name: 기본 {Fire}에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fire
+  rules: []
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN

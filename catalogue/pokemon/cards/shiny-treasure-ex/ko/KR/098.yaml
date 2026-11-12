@@ -1,0 +1,30 @@
+name: 묘두기
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 성묘
+      cost:
+        - Psychic
+        - Psychic
+      damage: 80+
+      text: 자신의 트래쉬에 있는 {Psychic} 포켓몬의 장수 × 10데미지를 추가한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  flavourText: 정성스럽게 추모를 받은 포켓몬이 환생한 모습. 머리의 돌기를 만지는 것을 싫어한다.
+  nationalDex:
+    - 972
+  species: 유령개포켓몬
+  heightMetres: 2
+  weightKilograms: 15
+  evolvesFrom: 망망이
+illustrators:
+  - Kouki Saitou

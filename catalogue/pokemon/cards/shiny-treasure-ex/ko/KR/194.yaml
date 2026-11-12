@@ -1,0 +1,32 @@
+name: 스라크
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 고속이동
+      cost:
+        - Colorless
+      damage: "10"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+    - name: 풀베기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 아주 예리한 낫을 이용해 풀숲을 베며 나아간다. 매우 빠른 움직임에 눈이 따라가지 못한다.
+  nationalDex:
+    - 123
+  species: 버마재비포켓몬
+  heightMetres: 1.5
+  weightKilograms: 56
+  resistances: []
+illustrators:
+  - Hitoshi Ariga
+rarity: S

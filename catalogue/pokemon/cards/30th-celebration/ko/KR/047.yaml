@@ -1,0 +1,32 @@
+name: 피카츄 ex
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 피카피카 퍼레이드
+      cost:
+        - Colorless
+      text: 자신의 덱에서 기본 포켓몬을 원하는 만큼 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 10만볼트
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "200"
+      text: 이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  abilities: []
+  resistances: []
+rarity: RR
+illustrators:
+  - 5ban Graphics

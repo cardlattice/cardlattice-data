@@ -1,0 +1,28 @@
+name: 파라스
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 흡수
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: 이 포켓몬의 HP를 「10」회복한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 동충하초라고 불리는 버섯이 벌레를 조종하고 있다. 벌레의 의사는 무시된다.
+  nationalDex:
+    - 46
+  species: 버섯포켓몬
+  heightMetres: 0.3
+  weightKilograms: 5.4
+  resistances: []
+illustrators:
+  - Mizue
+regulationMark: F

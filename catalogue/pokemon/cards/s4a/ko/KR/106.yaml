@@ -1,0 +1,30 @@
+name: 페이검
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 매달리기
+      cost:
+        - Darkness
+      damage: "10"
+    - name: 따끔따끔찌르기
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 이빨의 독은 그다지 강하진 않지만 둥지에 걸려서 움직일 수 없는 먹이를 약하게 만들기에는 충분하다.
+  nationalDex:
+    - 167
+  species: 실뿜기포켓몬
+  heightMetres: 0.5
+  weightKilograms: 8.5
+  resistances: []
+illustrators:
+  - Kyoko Umemoto

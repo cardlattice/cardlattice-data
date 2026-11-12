@@ -1,0 +1,32 @@
+name: 꼬치조
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 쪼기
+      cost:
+        - Colorless
+      damage: "30"
+    - name: 스크루제트
+      cost:
+        - Water
+      damage: "130"
+      text: 자신의 패에서 {Water} 에너지를 2장 트래쉬한다. 2장 트래쉬할 수 없다면 이 기술은 실패한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 창처럼 뾰족한 턱은 강철과 같은 단단함을 자랑한다. 살코기는 깜짝 놀랄 정도로 맛있다는 듯하다.
+  nationalDex:
+    - 847
+  species: 꼬치포켓몬
+  heightMetres: 1.3
+  weightKilograms: 30
+  evolvesFrom: 찌로꼬치
+  resistances: []
+illustrators:
+  - Misa Tsutsui
+rarity: S

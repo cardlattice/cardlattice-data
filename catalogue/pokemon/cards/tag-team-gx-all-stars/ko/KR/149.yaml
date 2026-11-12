@@ -1,0 +1,11 @@
+name: 민화의 대접
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드는 자신의 패가 이 카드를 포함하여 6장 이상이면 사용할 수 없다. 상대 필드의 포켓몬의 수만큼 자신의 덱을 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Sanosuke Sakuma
+regulationMark: C

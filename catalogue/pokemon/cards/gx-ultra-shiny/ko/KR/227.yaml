@@ -1,0 +1,37 @@
+name: 루가루암 GX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fighting
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 액셀록
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "120"
+    - name: 레이디얼에지 GX
+      cost:
+        - Fighting
+      damage: 30×
+      text: 상대의 트래쉬에 있는 에너지의 장수 × 30데미지를 준다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 트와일라잇 아이
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 트래쉬한다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 암멍이
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: B

@@ -1,0 +1,32 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 피카연쇄
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: 40×
+      text: 자신의 필드의 「피카츄(『포켓몬 [ex]』 포함)」의 수 × 40데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - USGMEN
+additionalNumbers:
+  pikachu30th: 12/30

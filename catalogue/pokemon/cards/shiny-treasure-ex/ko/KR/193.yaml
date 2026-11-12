@@ -1,0 +1,34 @@
+name: 라플레시아
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: 솔라빔
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 만개 에너지
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱을 위에서부터 8장 보고 그 중에서 기본 에너지를 원하는 만큼 선택해서 자신의
+        포켓몬에게 원하는 대로 붙인다. 남은 카드는 덱으로 되돌리고 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 꽃잎이 클수록 많은 꽃가루를 만들어 내지만 머리가 무거워서 지쳐버린다고 한다.
+  nationalDex:
+    - 45
+  species: 꽃포켓몬
+  heightMetres: 1.2
+  weightKilograms: 18.6
+  evolvesFrom: 냄새꼬
+  resistances: []
+illustrators:
+  - "0313"
+rarity: S

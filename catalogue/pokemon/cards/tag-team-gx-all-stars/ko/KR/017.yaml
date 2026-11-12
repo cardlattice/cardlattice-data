@@ -1,0 +1,26 @@
+name: 식스테일
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 꼬리흔들기
+      cost:
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 기술을 받은 포켓몬은 기술을 사용할 수 없다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 아름다운 꼬리 때문에 인기가 많다. 단 바지런히 빗질을 하지 않으면 순식간에 헝클어진다.
+  nationalDex:
+    - 37
+  species: 여우포켓몬
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  resistances: []
+illustrators:
+  - Ken Sugimori
+regulationMark: C

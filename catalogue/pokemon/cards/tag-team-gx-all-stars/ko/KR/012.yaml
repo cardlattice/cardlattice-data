@@ -1,0 +1,31 @@
+name: 달콤아
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 튀어오르기
+      cost:
+        - Grass
+      damage: "10"
+    - name: 회전어택
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 달고 맛있는 냄새 때문에 새포켓몬이 타깃으로 삼지만 영리하지 않아 신경 쓰지 않는다.
+  nationalDex:
+    - 761
+  species: 후르츠포켓몬
+  heightMetres: 0.3
+  weightKilograms: 3.2
+  resistances: []
+illustrators:
+  - Mizue
+regulationMark: C

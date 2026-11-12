@@ -1,0 +1,36 @@
+name: 뮤츠
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 힘부여하기
+      cost:
+        - Psychic
+      text: 자신의 트래쉬에서 기본 에너지를 2장까지 선택해서 자신의 포켓몬 1마리에게 붙인다.
+    - name: 사이코 드라이브
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "120"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 뮤의 유전자로부터 만들어진 포켓몬. 압도적인 파워와 난폭한 마음을 가졌다.
+  heightMetres: 2
+  weightKilograms: 122
+  abilities: []
+  rules: []
+  species: 유전자포켓몬
+  nationalDex:
+    - 150
+illustrators:
+  - nagimiso

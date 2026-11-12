@@ -1,0 +1,8 @@
+name: 기본 악 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Darkness
+rarity: SR

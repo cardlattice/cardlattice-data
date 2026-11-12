@@ -1,0 +1,32 @@
+name: 나무돌이
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 슬라이스 블레이드
+      cost:
+        - Grass
+        - Grass
+      damage: "40"
+  abilities:
+    - name: 태양의 은혜
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에 있는 {Grass} 포켓몬을 1장 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 밀림에 서식한다. 가지에서 가지로 뛰어 옮겨가며 이동해서 먹이에 접근한다.
+  nationalDex:
+    - 253
+  species: 숲도마뱀포켓몬
+  heightMetres: 0.9
+  weightKilograms: 21.6
+  evolvesFrom: 나무지기
+  resistances: []
+illustrators:
+  - Ayaka Yoshida
+regulationMark: B

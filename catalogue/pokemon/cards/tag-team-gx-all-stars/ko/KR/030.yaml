@@ -1,0 +1,33 @@
+name: 어니부기
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 아쿠아슬래시
+      cost:
+        - Water
+        - Water
+      damage: "60"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  abilities:
+    - name: 단단한 껍질
+      kind: Ability
+      text: 이 포켓몬이 받는 기술의 데미지는 「-20」이 된다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 딱 하고 머리를 맞을 때 등껍질로 숨어서 피한다. 하지만 꼬리가 살짝 삐져나와 있다.
+  nationalDex:
+    - 8
+  species: 거북포켓몬
+  heightMetres: 1
+  weightKilograms: 22.5
+  evolvesFrom: 꼬부기
+  resistances: []
+illustrators:
+  - Hiroki Asanuma
+regulationMark: C

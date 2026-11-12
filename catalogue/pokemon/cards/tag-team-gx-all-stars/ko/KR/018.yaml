@@ -1,0 +1,33 @@
+name: 나인테일
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 불꽃 꼬리
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 아홉꼬리의 유혹
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에 있는 {Fire} 에너지를 2장 트래쉬한다. 그 뒤, 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 끈질기고 집념이 강한 성질을 가졌다. 한 번 원한을 사면 자손을 포함해 1000년간 해를 입는다.
+  nationalDex:
+    - 38
+  species: 여우포켓몬
+  heightMetres: 1.1
+  weightKilograms: 19.9
+  evolvesFrom: 식스테일
+  resistances: []
+illustrators:
+  - You Iribi
+regulationMark: C

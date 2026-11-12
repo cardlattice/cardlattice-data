@@ -1,0 +1,33 @@
+name: 코일
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 마그넷캐치
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 {Metal} 에너지를 3장까지 선택해서 상대에게 보여주고 덱으로 되돌리고 섞는다.
+    - name: 볼어택
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  flavourText: 쇠구슬에 외눈이 달린 기묘한 모습이다. 말굽자석처럼 생긴 팔에서 발생하는 자력에 의해 부유하는 것이라 추정된다.
+  nationalDex:
+    - 81
+  species: 자석포켓몬
+  heightMetres: 0.3
+  weightKilograms: 6
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: F

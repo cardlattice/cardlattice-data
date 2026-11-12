@@ -1,0 +1,40 @@
+name: 나쁜 마기라스
+illustrators:
+  - Nakaoka
+regulationMark: null
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: 나쁜 데기라스
+  attacks:
+    - name: 눌러뭉개기
+      cost:
+        - Colorless
+      damage: 10+
+      text: 자신의 에너지 ×10데미지를 추가한다.
+    - name: 스핀테일
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      text: 상대의 포켓몬 전원에게 각각 20데미지를 준다.
+    - name: 씹어뜯기
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: 상대가 포켓몬 ex라면 50데미지를 추가한다.
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 2

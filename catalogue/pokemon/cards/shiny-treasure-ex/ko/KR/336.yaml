@@ -1,0 +1,32 @@
+name: 푸크린 ex
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Colorless
+  stage: Stage 1
+  subtypes:
+    - ex
+  attacks:
+    - name: 프렌드태클
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 이 차례에 패에서 서포트를 꺼내서 사용했다면 90데미지를 추가한다.
+  abilities:
+    - name: 부푼 바디
+      kind: Ability
+      text: 이 포켓몬에게 특수 에너지가 붙어 있다면 이 포켓몬의 최대 HP는 「+100」이 된다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 푸린
+  resistances: []
+illustrators:
+  - Saki Hayashiro
+rarity: SSR

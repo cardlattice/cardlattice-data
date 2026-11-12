@@ -1,0 +1,30 @@
+name: 메탕
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 코어빔
+      cost:
+        - Metal
+      damage: "20"
+      text: 이 포켓몬에게 붙어 있는 {Metal} 에너지를 1개 트래쉬한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 모든 세포가 자석이다. 자력을 사용해 동료와 커뮤니케이션을 한다.
+  nationalDex:
+    - 374
+  species: 철공포켓몬
+  heightMetres: 0.6
+  weightKilograms: 95.2
+illustrators:
+  - Mizue
+rarity: S
+regulationMark: A

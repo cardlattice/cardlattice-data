@@ -1,0 +1,35 @@
+name: 종이신도
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 크게베기
+      cost:
+        - Grass
+      damage: 10+
+      text: 자신의 남은 프라이즈 장수가 4장이라면 120데미지를 추가한다.
+    - name: 칼등치기
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬의 남은 HP가 「10」이 되도록 데미지 카운터를 올린다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 0
+  flavourText: 종이와 같은 얇은 몸에서 연마한 칼 같은 예리함이 느껴지는 울트라비스트다.
+  nationalDex:
+    - 798
+  species: 발도포켓몬
+  heightMetres: 0.3
+  weightKilograms: 0.1
+  resistances: []
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Shin Nagasawa
+regulationMark: C

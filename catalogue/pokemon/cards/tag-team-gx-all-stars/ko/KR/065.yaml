@@ -1,0 +1,33 @@
+name: 베베놈
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 아이오프너
+      cost:
+        - Colorless
+      text: 뒷면으로 된 자신의 프라이즈의 앞면을 모두 보고나서 원래대로 되돌린다.
+    - name: 쪼기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 다른 세계에서는 여행 파트너로 삼을 정도로 친근한 울트라비스트다.
+  nationalDex:
+    - 803
+  species: 독침포켓몬
+  heightMetres: 0.6
+  weightKilograms: 1.8
+  resistances: []
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Hitoshi Ariga
+regulationMark: B

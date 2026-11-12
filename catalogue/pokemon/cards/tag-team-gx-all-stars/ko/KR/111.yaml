@@ -1,0 +1,32 @@
+name: 폴리곤2
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 더블드로
+      cost:
+        - Colorless
+      text: 자신의 덱을 2장 뽑는다.
+    - name: 회전어택
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: AI를 탑재했다. 자력으로 다양한 것을 습득하지만 필요 없는 것까지 배운다.
+  nationalDex:
+    - 233
+  species: 가상포켓몬
+  heightMetres: 0.6
+  weightKilograms: 32.5
+  evolvesFrom: 폴리곤
+  resistances: []
+illustrators:
+  - sowsow
+regulationMark: C

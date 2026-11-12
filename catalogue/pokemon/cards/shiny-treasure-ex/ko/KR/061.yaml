@@ -1,0 +1,33 @@
+name: 렌트라
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: 와일드볼트
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 이 포켓몬에게도 20데미지를 준다.
+  abilities:
+    - name: 넘치는 섬광
+      kind: Ability
+      text: 자신의 차례에 이 카드가 패에 있고 자신의 남은 프라이즈 장수가 상대의 남은 프라이즈 장수보다 많다면 1번 사용할 수 있다. 이 카드를 벤치로 내보낸다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 벽 저편까지 볼 수 있는 힘으로 도망친 먹이를 쫓는 것 이외에도 미아가 된 아이를 찾기도 한다.
+  nationalDex:
+    - 405
+  species: 안광포켓몬
+  heightMetres: 1.4
+  weightKilograms: 42
+  evolvesFrom: 럭시오
+  resistances: []
+illustrators:
+  - aoki

@@ -1,0 +1,31 @@
+name: 루차불
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 날개치기
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 플라잉 엔트리
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 상대의 벤치 포켓몬 2마리에게 각각 데미지 카운터를 1개 올린다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 날개를 사용해 가볍게 도약하여 상대를 화려하게 마무리하는 기술은 나고 자란 숲에서 다듬어진다.
+  nationalDex:
+    - 701
+  species: 레슬링포켓몬
+  heightMetres: 0.8
+  weightKilograms: 21.5
+  resistances: []
+illustrators:
+  - Yuya Oka

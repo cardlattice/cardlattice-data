@@ -1,0 +1,24 @@
+name: 삐
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  abilities:
+    - name: 의욕드로
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 동전을 1번 던져서 앞면이 나오면 자신의 패를 모두 덱으로 되돌리고 섞는다. 그 뒤, 덱을 6장
+        뽑는다.
+  retreatCost: 0
+  flavourText: 별똥별이 많은 밤에 둥글게 무리 지어 춤을 춘다. 그 모습을 보면 조금 좋은 일이 생긴다.
+  nationalDex:
+    - 173
+  species: 별포켓몬
+  heightMetres: 0.3
+  weightKilograms: 3
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Shibuzoh.
+regulationMark: C

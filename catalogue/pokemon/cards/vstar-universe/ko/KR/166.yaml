@@ -1,0 +1,11 @@
+name: 신오신전
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 서로의 필드의 포켓몬에게 붙어 있는 특수 에너지의 효과는 모두 없어지고 {Colorless} 에너지 1개분으로 작용한다.
+    - 스타디움은 자신의 차례에 1장만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.
+illustrators:
+  - Oswaldo KATO
+regulationMark: F

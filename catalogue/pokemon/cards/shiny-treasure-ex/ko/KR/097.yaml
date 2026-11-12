@@ -1,0 +1,28 @@
+name: 망망이
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 무덤놀이
+      cost:
+        - Psychic
+      damage: 10×
+      text: 자신의 트래쉬에 있는 {Psychic} 포켓몬의 장수 × 10데미지를 준다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 사람을 잘 따르며 외로움을 잘 탄다. 조금만 관심을 줘도 끝없이 뒤를 따라다닌다.
+  nationalDex:
+    - 971
+  species: 유령개포켓몬
+  heightMetres: 0.6
+  weightKilograms: 35
+illustrators:
+  - yuu

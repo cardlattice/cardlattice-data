@@ -1,0 +1,36 @@
+name: 둥실라이드
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 바람일으키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: 저주뿌리기
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      text: 데미지 카운터 8개를 상대의 포켓몬에게 원하는 대로 올린다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 몸 안에서 가스를 만들거나 토해 내며 하늘을 나는 높이를 조절한다.
+  nationalDex:
+    - 426
+  species: 기구포켓몬
+  heightMetres: 1.2
+  weightKilograms: 15
+  evolvesFrom: 흔들풍손
+illustrators:
+  - otumami
+rarity: S

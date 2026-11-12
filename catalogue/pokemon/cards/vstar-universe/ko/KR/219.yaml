@@ -1,0 +1,36 @@
+name: 제라오라 VMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Lightning
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 리액트펄스
+      cost:
+        - Lightning
+        - Lightning
+      damage: 60×
+      text: 상대 필드의 특성을 가진 포켓몬의 수 × 60데미지를 준다.
+    - name: 다이피스트
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "240"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 제라오라 V
+  resistances: []
+illustrators:
+  - aoki
+rarity: SAR
+regulationMark: F

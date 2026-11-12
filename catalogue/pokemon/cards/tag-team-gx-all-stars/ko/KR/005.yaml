@@ -1,0 +1,34 @@
+name: 두코
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 몸통박치기
+      cost:
+        - Grass
+      damage: "30"
+  abilities:
+    - name: 하늘꽃길
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 「솜솜코」를 1장 선택한다. 그 뒤, 이 포켓몬과 붙어 있는 모든 카드를 로스트존에 두고 이 포켓몬이 있던 장소에
+        선택한 「솜솜코」를 내보낸다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  flavourText: 태양의 빛을 잘 받기 위해 꽃잎을 펼칠 뿐만 아니라 가까이 가려고 하늘로 떠올라버린다.
+  nationalDex:
+    - 188
+  species: 솜풀포켓몬
+  heightMetres: 0.6
+  weightKilograms: 1
+  evolvesFrom: 통통코
+illustrators:
+  - Hitoshi Ariga
+regulationMark: B

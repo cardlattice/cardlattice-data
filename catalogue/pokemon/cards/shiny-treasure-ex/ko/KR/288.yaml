@@ -1,0 +1,34 @@
+name: 니로우
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 스핀턴
+      cost:
+        - Colorless
+      damage: "10"
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다.
+    - name: 단결날개
+      cost:
+        - Darkness
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기술 「단결날개」를 가진 포켓몬의 장수 × 20데미지를 준다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 밤에 모습을 보게 되면 불길한 일이 생긴다고 여겨져 몹시 미움받는 포켓몬이다.
+  nationalDex:
+    - 198
+  species: 어둠포켓몬
+  heightMetres: 0.5
+  weightKilograms: 2.1
+illustrators:
+  - Hitoshi Ariga
+rarity: S

@@ -1,0 +1,28 @@
+name: 네이티
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 로스트마치
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 로스트존에 있는 포켓몬([프리즘스타] (프리즘스타)는 제외)의 장수 × 20데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 보통은 지상에서 먹이를 찾지만 극히 드물게 나뭇가지에 날아 앉아 나무의 순을 쪼아 먹기도 한다.
+  nationalDex:
+    - 177
+  species: 아기새포켓몬
+  heightMetres: 0.2
+  weightKilograms: 2
+  resistances: []
+illustrators:
+  - Anesaki Dynamic
+regulationMark: B

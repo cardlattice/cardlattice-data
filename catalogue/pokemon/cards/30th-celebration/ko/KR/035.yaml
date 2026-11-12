@@ -1,0 +1,37 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 매달리기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 일렉트릭킥
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules: []
+  nationalDex:
+    - 25
+  species: 쥐포켓몬
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+finishes:
+  - holo
+illustrators:
+  - Rianti Hidayat
+additionalNumbers:
+  pikachu30th: 19/30

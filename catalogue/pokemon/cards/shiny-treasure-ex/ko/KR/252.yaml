@@ -1,0 +1,33 @@
+name: 푸크린
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 매지컬숏
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities:
+    - name: 벌룬 테라피
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에서 「테라피 에너지」를 1장 선택해서 자신의 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 얇고 고운 털을 지니고 있다. 화나게 하면 몸을 점점 부풀리며 덮쳐 오기 때문에 주의가 필요하다.
+  nationalDex:
+    - 40
+  species: 풍선포켓몬
+  heightMetres: 1
+  weightKilograms: 12
+  evolvesFrom: 푸린
+  resistances: []
+illustrators:
+  - Kagemaru Himeno
+rarity: S

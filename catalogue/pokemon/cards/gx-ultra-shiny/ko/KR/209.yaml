@@ -1,0 +1,43 @@
+name: 리자몽 GX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Fire
+  stage: Stage 2
+  subtypes:
+    - GX
+  attacks:
+    - name: 날개치기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+    - name: 홍련의바람
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: 이 포켓몬에게 붙어 있는 {Fire} 에너지를 3개 트래쉬한다.
+    - name: 레이징아웃 GX
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      text: 상대의 덱을 위에서부터 10장 트래쉬한다. (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 리자드
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: A

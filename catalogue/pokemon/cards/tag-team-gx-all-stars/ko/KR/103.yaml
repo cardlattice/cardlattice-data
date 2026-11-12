@@ -1,0 +1,33 @@
+name: 구구
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 가져오기
+      cost:
+        - Colorless
+      text: 자신의 덱을 1장 뽑는다.
+    - name: 바람일으키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 숲이나 수풀에 많이 분포해 있다. 땅에서도 격렬한 날갯짓으로 모래를 뿌리기도 한다.
+  nationalDex:
+    - 16
+  species: 아기새포켓몬
+  heightMetres: 0.3
+  weightKilograms: 1.8
+illustrators:
+  - Shigenori Negishi
+regulationMark: C

@@ -1,0 +1,30 @@
+name: 춤추새
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 홰치기
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 패션 댄스
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 배틀필드의 진화 포켓몬의 HP를 「20」회복한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 정열적으로 춤추는 모습이 팔데아 사람들의 취향에 맞는지 인기가 매우 좋다.
+  nationalDex:
+    - 741
+  species: 댄스포켓몬
+  heightMetres: 0.6
+  weightKilograms: 3.4
+  resistances: []
+illustrators:
+  - Haru Akasaka

@@ -1,0 +1,10 @@
+name: 용기의부적
+pokemon:
+  category: trainer
+  subtypes:
+    - Pokémon Tool
+  rules:
+    - 이 카드를 붙이고 있는 기본 포켓몬의 최대 HP는 「+50」이 된다.
+    - 포켓몬의 도구는 자신의 차례에 몇 장이라도 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리에게 1장만 붙일 수 있고 붙인 채로 둔다.
+illustrators:
+  - Toyste Beach

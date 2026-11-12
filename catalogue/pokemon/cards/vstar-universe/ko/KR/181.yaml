@@ -1,0 +1,31 @@
+name: 스트린더
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 헤드볼트
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 맥스다우너
+      kind: Ability
+      text: 자신의 필드의 포켓몬 전원이 「퓨전」의 포켓몬이라면 작용한다. 이 포켓몬이 있는 한, 상대 필드의 「포켓몬 VMAX」 전원의 최대 HP는 각각 「30」작아진다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 발전 기관이 가슴에 있다. 전기가 만들어질 때 베이스 기타 같은 소리가 울린다.
+  evolvesFrom: 일레즌
+  resistances: []
+  subtypes:
+    - Fusion Strike
+illustrators:
+  - Nelnal
+rarity: AR
+regulationMark: E

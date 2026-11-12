@@ -1,0 +1,27 @@
+name: 염버니
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 불꽃세례
+      cost:
+        - Fire
+      damage: "30"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 싸울 준비가 되면 코끝과 발바닥의 볼록살에서 고열을 낸다.
+  nationalDex:
+    - 813
+  species: 토끼포켓몬
+  heightMetres: 0.3
+  weightKilograms: 4.5
+  resistances: []
+illustrators:
+  - MAHOU
+rarity: S

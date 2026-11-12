@@ -1,0 +1,14 @@
+name: 보스의 지령
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+  trainers:
+    - 태홍
+illustrators:
+  - Mitsuhiro Arita
+rarity: SR
+regulationMark: F

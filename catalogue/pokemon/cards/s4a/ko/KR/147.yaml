@@ -1,0 +1,31 @@
+name: 하랑우탄
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 때려눕히기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 잔꾀
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패를 1장 선택해서 덱의 위에 있는 카드와 교체한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 숲 구석구석까지 파악하고 있어 상처 입은 포켓몬이 있으면 약초를 찾아 치료한다.
+  nationalDex:
+    - 765
+  species: 현자포켓몬
+  heightMetres: 1.5
+  weightKilograms: 76
+  resistances: []
+illustrators:
+  - Shigenori Negishi

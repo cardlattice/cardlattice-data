@@ -1,0 +1,27 @@
+name: 리오르
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 안다리걸기
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 밤새 달릴 수 있을 정도의 체력을 가졌다. 활발해서 같이 산책하는 상대에겐 고역이다.
+  nationalDex:
+    - 447
+  species: 파문포켓몬
+  heightMetres: 0.7
+  weightKilograms: 20.2
+  resistances: []
+illustrators:
+  - Teeziro
+regulationMark: F

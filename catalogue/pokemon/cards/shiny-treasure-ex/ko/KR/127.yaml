@@ -1,0 +1,29 @@
+name: 땃쭈르
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 나무열매찾기
+      cost:
+        - Colorless
+      text: 자신의 트래쉬에서 기본 에너지를 1장 선택해서 상대에게 보여주고 패로 가져온다.
+    - name: 할퀴기
+      cost:
+        - Darkness
+      damage: "10"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 온화하지만 화가 나게 하면 독이 밴 날카로운 앞니로 물어서 상대를 마비시킨다.
+  nationalDex:
+    - 944
+  species: 독쥐포켓몬
+  heightMetres: 0.2
+  weightKilograms: 0.7
+  resistances: []
+illustrators:
+  - Akira Komayama

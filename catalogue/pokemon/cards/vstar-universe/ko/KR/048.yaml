@@ -1,0 +1,33 @@
+name: 팬텀
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: 스크림서클
+      cost:
+        - Psychic
+      text: 상대의 벤치 포켓몬의 수 × 2개만큼의 데미지 카운터를 상대의 배틀 포켓몬에게 올린다.
+  abilities:
+    - name: 나락의 뒷문
+      kind: Ability
+      text: 이 카드가 트래쉬에 있다면 자신의 차례에 1번 사용할 수 있다. 이 카드를 벤치로 내보낸다. 그 뒤, 이 포켓몬에게 데미지 카운터를 3개 올린다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 보름달이 뜬 밤에 그림자가 멋대로 움직이면서 웃는다면 팬텀의 소행임이 틀림없다.
+  nationalDex:
+    - 94
+  species: 그림자포켓몬
+  heightMetres: 1.5
+  weightKilograms: 40.5
+  evolvesFrom: 고우스트
+illustrators:
+  - Uta
+regulationMark: F

@@ -1,0 +1,33 @@
+name: 꼬시레
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 갉기
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 도망태세
+      kind: Ability
+      text: 자신의 첫 번째 차례에 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 겁이 많아서 많은 다리를 버둥거리며 필사적으로 도망친다. 도망간 자리는 반짝반짝 깨끗하다.
+  nationalDex:
+    - 767
+  species: 주행포켓몬
+  heightMetres: 0.5
+  weightKilograms: 12
+  resistances: []
+illustrators:
+  - SATOSHI NAKAI
+rarity: S
+regulationMark: A

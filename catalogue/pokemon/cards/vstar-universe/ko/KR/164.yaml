@@ -1,0 +1,12 @@
+name: 마그마의 용소
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 서로의 플레이어는 자신의 차례마다 1번 자신의 트래쉬에서 {Fire} 에너지를 1장 선택해서 자신의 벤치의 {Fire} 포켓몬에게 붙여도 좋다. 그 경우, 붙인
+      포켓몬에게 데미지 카운터를 2개 올린다.
+    - 스타디움은 자신의 차례에 1장만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.
+illustrators:
+  - ORBITALLINK Inc.
+regulationMark: F

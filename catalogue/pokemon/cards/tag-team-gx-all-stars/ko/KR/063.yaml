@@ -1,0 +1,30 @@
+name: 따라큐
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 꼬리로 혼란시키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 혼란으로 만든다.
+  abilities:
+    - name: 섀도박스
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 서로의 필드의 데미지 카운터가 올려져 있는 「포켓몬 GX」의 특성은 모두 없어진다.
+  retreatCost: 1
+  flavourText: 얌전하고 외로움을 잘 타지만, 넝마 조각의 속을 보려고 하면 격렬하게 싫어하며 저항한다.
+  nationalDex:
+    - 778
+  species: 탈포켓몬
+  heightMetres: 0.2
+  weightKilograms: 0.7
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Yuka Morii
+regulationMark: C

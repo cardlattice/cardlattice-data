@@ -1,0 +1,35 @@
+name: 화이트큐레무
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 필드크래시
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 필드에 나와 있는 상대의 스타디움을 트래쉬한다.
+    - name: 얼어붙는불꽃
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 80+
+      text: 이 포켓몬에게 {Fire} 에너지가 붙어 있다면 80데미지를 추가한다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 3
+  flavourText: 강력한 냉동 에너지를 체내에서 만들어 내지만 새어 나온 냉기에 몸이 얼어 있다.
+  nationalDex:
+    - 646
+  species: 경계포켓몬
+  heightMetres: 3.6
+  weightKilograms: 325
+  resistances: []
+illustrators:
+  - Hitoshi Ariga
+regulationMark: B

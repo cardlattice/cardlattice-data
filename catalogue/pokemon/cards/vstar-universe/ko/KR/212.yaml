@@ -1,0 +1,38 @@
+name: 리자몽 VSTAR
+pokemon:
+  category: pokemon
+  hp: 280
+  types:
+    - Fire
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 폭렬파이어
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 130+
+      text: 이 포켓몬에게 데미지 카운터가 올려져 있다면 100데미지를 추가한다.
+    - name: 스타블레이즈
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+      damage: "320"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 리자몽 V
+  resistances: []
+illustrators:
+  - KIYOTAKA OSHIYAMA
+rarity: SAR
+regulationMark: F

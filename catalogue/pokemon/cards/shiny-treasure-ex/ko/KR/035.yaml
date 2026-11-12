@@ -1,0 +1,30 @@
+name: 위유이 ex
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 시기의 그을리기
+      cost:
+        - Fire
+      text: 상대의 덱을 위에서부터 2장 트래쉬한다.
+    - name: 플레임서지
+      cost:
+        - Fire
+        - Fire
+      damage: "100"
+      text: 자신의 벤치 포켓몬을 3마리까지 선택해서 덱에서 「기본 {Fire} 에너지」를 1장씩 붙인다. 그리고 덱을 섞는다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR

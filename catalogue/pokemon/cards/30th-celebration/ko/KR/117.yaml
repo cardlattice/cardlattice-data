@@ -1,0 +1,31 @@
+name: 가라르 나옹
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 고양이돈받기
+      cost:
+        - Colorless
+      damage: "10"
+      text: 자신의 덱을 1장 뽑는다.
+    - name: 보물러시
+      cost:
+        - Metal
+      damage: 10×
+      text: 자신의 패의 장수 × 10데미지를 준다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  flavourText: 전투적인 해양 민족과 지내는 동안 단련되어 몸 여기저기가 강철로 변화했다.
+  abilities: []
+  rules: []
+rarity: AR
+illustrators:
+  - OKUBO

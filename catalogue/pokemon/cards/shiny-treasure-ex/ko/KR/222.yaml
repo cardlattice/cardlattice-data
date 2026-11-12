@@ -1,0 +1,32 @@
+name: 아쿠스타
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 스피드어택
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 수수께끼의 혜성
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 상대의 포켓몬 1마리에게 데미지 카운터를 2개 올린다. 그 뒤, 이 포켓몬과 붙어 있는 모든 카드를 트래쉬한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 몸을 고속으로 회전시켜 바다를 헤엄치며 작은 플랑크톤을 흡수한다.
+  nationalDex:
+    - 121
+  species: 수수께끼포켓몬
+  heightMetres: 1.1
+  weightKilograms: 80
+  evolvesFrom: 별가사리
+  resistances: []
+illustrators:
+  - Shigenori Negishi
+rarity: S

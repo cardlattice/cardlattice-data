@@ -1,0 +1,32 @@
+name: 볼트로스
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 기간트볼트
+      cost:
+        - Lightning
+        - Lightning
+      damage: "140"
+      text: 이 포켓몬에게도 90데미지를 준다.
+  abilities:
+    - name: 악천후
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있는 한, 자신의 벤치 포켓몬 전원은 상대 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 넓은 하늘을 날아다니며 여기저기 번개를 떨어뜨려 산불을 내기 때문에 미움받는다.
+  nationalDex:
+    - 642
+  species: 뇌격포켓몬
+  heightMetres: 1.5
+  weightKilograms: 61
+  resistances: []
+illustrators:
+  - Shin Nagasawa
+rarity: S

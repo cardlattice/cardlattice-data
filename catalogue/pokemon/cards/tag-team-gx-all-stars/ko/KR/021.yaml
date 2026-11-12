@@ -1,0 +1,28 @@
+name: 비크티니[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - Prism Star
+  attacks:
+    - name: 인피니티
+      cost:
+        - Fire
+        - Fire
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기본 에너지를 모두 상대에게 보여주고 그 장수 × 20데미지를 준다. 그 뒤, 보여준 에너지를 덱으로 되돌리고 섞는다.
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 비크티니가 무한히 만들어내는 에너지를 나누어 받으면 전신에 파워가 넘친다.
+  resistances: []
+illustrators:
+  - Shin Nagasawa
+rarity: PR
+regulationMark: B

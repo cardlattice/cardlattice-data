@@ -1,0 +1,26 @@
+name: 마나피
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 물뿌리기
+      cost:
+        - Water
+      damage: "20"
+  abilities:
+    - name: 파도의 베일
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 벤치 포켓몬 전원은 상대 기술의 데미지를 받지 않는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 어떤 포켓몬과도 마음이 통하고 맞출 수 있는 이상한 능력을 가지고 있다.
+  resistances: []
+illustrators:
+  - Taira Akitsu
+rarity: AR
+regulationMark: F

@@ -1,0 +1,32 @@
+name: 스트린더 V
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 독찌르기
+      cost:
+        - Lightning
+      damage: "20"
+      text: 상대의 배틀 포켓몬을 독으로 만든다.
+    - name: 일렉트릭 라이엇
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 90+
+      text: 상대의 배틀 포켓몬이 독이라면 90데미지를 추가한다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR

@@ -1,0 +1,30 @@
+name: 미니브
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 영양소
+      cost:
+        - Grass
+      text: 자신의 포켓몬 1마리의 HP를 「30」회복한다.
+    - name: 분비액뿜기
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 머리의 열매에서 오일을 나오게 해서 적으로부터 몸을 지킨다. 오일은 펄쩍 뛸 만큼 떫고 쓰다.
+  nationalDex:
+    - 928
+  species: 올리브포켓몬
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  resistances: []
+illustrators:
+  - Shibuzoh.

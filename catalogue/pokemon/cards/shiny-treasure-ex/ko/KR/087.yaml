@@ -1,0 +1,30 @@
+name: 클레피
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 노려떨구기
+      cost:
+        - Colorless
+      damage: "10"
+      text: 데미지를 주기 전에 상대의 배틀 포켓몬에게 붙어 있는 「포켓몬의 도구」를 트래쉬한다.
+  abilities:
+    - name: 짓궂은 록
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있는 한, 서로의 필드의 기본 포켓몬의 특성(「짓궂은 록」은 제외)은 모두 없어진다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  flavourText: 옛날 귀족은 금고 열쇠를 관리하는 클레피를 대대손손 소중하게 여겼다.
+  nationalDex:
+    - 707
+  species: 열쇠꾸러미포켓몬
+  heightMetres: 0.2
+  weightKilograms: 3
+  resistances: []
+illustrators:
+  - GOSSAN

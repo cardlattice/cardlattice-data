@@ -1,0 +1,31 @@
+name: 모으령
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 상자에숨기
+      cost:
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+    - name: 부딪치기
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 약 1500년 전의 보물 상자 안에서 태어났다. 보물을 훔치려 드는 괘씸한 자의 생기를 흡수한다.
+  nationalDex:
+    - 999
+  species: 보물상자포켓몬
+  heightMetres: 0.3
+  weightKilograms: 5
+illustrators:
+  - OKUBO

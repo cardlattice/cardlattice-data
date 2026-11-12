@@ -1,0 +1,29 @@
+name: 썬더
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 어솔트썬더
+      cost:
+        - Lightning
+      damage: 10+
+      text: 이 차례에 이 포켓몬이 벤치에서 배틀필드로 나왔다면 70데미지를 추가한다. 이 기술의 데미지는 약점 계산을 하지 않는다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  flavourText: 번개 구름 안에 있다고 전해지는 전설의 포켓몬이다. 번개를 자유로이 조종한다.
+  nationalDex:
+    - 145
+  species: 전기포켓몬
+  heightMetres: 1.6
+  weightKilograms: 52.6
+illustrators:
+  - Misa Tsutsui
+regulationMark: B

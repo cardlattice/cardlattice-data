@@ -1,0 +1,35 @@
+name: 갑주무사
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 역경베기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 상대 필드의 「포켓몬 V・GX」의 수 × 50데미지를 추가한다.
+    - name: 스매시턴
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 이기기 위해서는 수단을 가리지 않는다. 상대의 빈틈을 찌른 뒤 앞발의 작은 발톱으로 마무리한다.
+  nationalDex:
+    - 768
+  species: 장갑포켓몬
+  heightMetres: 2
+  weightKilograms: 108
+  evolvesFrom: 꼬시레
+  resistances: []
+illustrators:
+  - Ryuta Fuse

@@ -1,0 +1,31 @@
+name: 태깅구르
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 독액
+      cost:
+        - Darkness
+      text: 상대의 배틀 포켓몬을 독으로 만든다.
+    - name: 컬러풀 그래피티
+      cost:
+        - Darkness
+      damage: 40×
+      text: 자신의 패에서 기본 에너지를 원하는 만큼 트래쉬하고 트래쉬한 기본 에너지의 타입의 수 × 40데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 먹이에 따라 색이 변하는 독성의 침을 손가락에 묻혀서 숲의 나무들에 무늬를 그린다.
+  nationalDex:
+    - 945
+  species: 독원숭이포켓몬
+  heightMetres: 0.7
+  weightKilograms: 27.2
+  evolvesFrom: 땃쭈르
+  resistances: []
+illustrators:
+  - Souichirou Gunjima

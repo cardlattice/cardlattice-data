@@ -1,0 +1,31 @@
+name: 짜랑고우
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: 예리한이빨
+      cost:
+        - Colorless
+      damage: "20"
+    - name: 드래곤클로
+      cost:
+        - Lightning
+        - Fighting
+      damage: "70"
+  retreatCost: 2
+  flavourText: 비늘을 힘차게 두들기며 춤을 춰서 자신의 기운을 북돋는다. 우렁찬 외침은 싸움을 알리는 신호다.
+  heightMetres: 1.2
+  weightKilograms: 47
+  abilities: []
+  rules: []
+  species: 비늘포켓몬
+  nationalDex:
+    - 783
+  evolvesFrom: 짜랑꼬
+  weaknesses: []
+  resistances: []
+illustrators:
+  - Jiro Sasumo

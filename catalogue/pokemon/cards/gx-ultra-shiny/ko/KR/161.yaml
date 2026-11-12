@@ -1,0 +1,33 @@
+name: 스라크
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 분신
+      cost:
+        - Colorless
+      text: 자신의 덱에 있는 「스라크」를 2장까지 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 고속이동
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 젊을 때는 산속에 무리 지어 살며 낫으로 싸우는 법이나 고속이동을 수련한다.
+  nationalDex:
+    - 123
+  species: 버마재비포켓몬
+  heightMetres: 1.5
+  weightKilograms: 56
+  resistances: []
+illustrators:
+  - Shigenori Negishi
+rarity: S
+regulationMark: B

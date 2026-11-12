@@ -1,0 +1,31 @@
+name: 에레브
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 전기자석파
+      cost:
+        - Lightning
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+    - name: 헤드볼트
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 전기를 노리는 에레브를 퇴치하고자 땅포켓몬을 두는 발전소도 많다.
+  nationalDex:
+    - 125
+  species: 전기포켓몬
+  heightMetres: 1.1
+  weightKilograms: 30
+  resistances: []
+illustrators:
+  - OKACHEKE
+regulationMark: F

@@ -1,0 +1,26 @@
+name: 나무지기
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 친구찾기
+      cost:
+        - Grass
+      text: 자신의 덱에 있는 {Grass} 포켓몬을 1장 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 발바닥의 작은 가시가 벽이나 천장에 걸리므로 거꾸로 매달려도 떨어지지 않는다.
+  nationalDex:
+    - 252
+  species: 숲도마뱀포켓몬
+  heightMetres: 0.5
+  weightKilograms: 5
+  resistances: []
+illustrators:
+  - Tomokazu Komiya
+regulationMark: B

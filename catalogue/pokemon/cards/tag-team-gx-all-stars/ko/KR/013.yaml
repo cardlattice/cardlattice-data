@@ -1,0 +1,35 @@
+name: 달무리나
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 연속뺨치기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 동전을 2번 던져서 앞면이 나온 수 × 30데미지를 준다.
+    - name: 리프스텝
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "60"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 딱딱한 꼭지로 보호되기 때문에 새포켓몬과도 문제없이 논다. 쪼여도 신경 쓰지 않는다.
+  nationalDex:
+    - 762
+  species: 후르츠포켓몬
+  heightMetres: 0.7
+  weightKilograms: 8.2
+  evolvesFrom: 달콤아
+  resistances: []
+illustrators:
+  - Kagemaru Himeno
+regulationMark: C

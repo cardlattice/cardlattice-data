@@ -1,0 +1,39 @@
+name: 개굴닌자 GX
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Water
+  stage: Stage 2
+  subtypes:
+    - GX
+  attacks:
+    - name: 으스름베기
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 원한다면 이 포켓몬과 붙어 있는 모든 카드를 자신의 덱으로 되돌리고 섞는다.
+    - name: 섀도어새신 GX
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      text: 상대의 벤치 포켓몬 1마리에게 130데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.) (대전 중 자신은 GX 기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 풍마수리검
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대 포켓몬 1마리에게 데미지 카운터를 3개 올린다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 개굴반장
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR
+regulationMark: B

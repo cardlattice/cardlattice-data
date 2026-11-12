@@ -1,0 +1,36 @@
+name: 페로코체
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 무릎차기
+      cost:
+        - Colorless
+      damage: "20"
+    - name: 화이트레이
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 90+
+      text: 자신의 남은 프라이즈 장수가 1장이라면 90데미지를 추가한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 0
+  flavourText: UB의 일종. 이 세계의 물건에 불결함을 느끼는 것인지 전혀 손을 대려 하지 않는다.
+  nationalDex:
+    - 795
+  species: 염미포켓몬
+  heightMetres: 1.8
+  weightKilograms: 25
+  resistances: []
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Mizue
+rarity: S
+regulationMark: B

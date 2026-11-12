@@ -1,0 +1,31 @@
+name: 대여르
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 동료부르기
+      cost:
+        - Colorless
+      text: 자신의 덱에서 기본 포켓몬을 2장까지 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 팀어택
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 자신의 벤치의 카드 이름에 「대여르」가 적힌 포켓몬의 수 × 30데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 리더라고 불리는 1마리와 멤버라고 불리는 5마리로 이루어져 있다. 리더의 명령은 절대적이다.
+  nationalDex:
+    - 870
+  species: 진형포켓몬
+  heightMetres: 3
+  weightKilograms: 62
+  resistances: []
+illustrators:
+  - Misa Tsutsui

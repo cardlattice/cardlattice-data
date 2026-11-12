@@ -1,0 +1,30 @@
+name: 뮤
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 사이코숏
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 이상한 꼬리
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 위에서부터 6장 본다. 그 중에서 아이템을 1장 선택해서 상대에게 보여주고 패로
+        가져온다. 남은 카드는 덱으로 되돌리고 섞는다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 유전자에는 모든 포켓몬의 정보가 담겨 있기 때문에 모든 기술을 쓸 수 있다고 전해진다.
+illustrators:
+  - Ryota Murayama
+rarity: AR
+regulationMark: E

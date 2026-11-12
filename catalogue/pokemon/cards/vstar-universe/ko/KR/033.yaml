@@ -1,0 +1,32 @@
+name: 찬란한 개굴닌자
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - Radiant
+  attacks:
+    - name: 월광수리검
+      cost:
+        - Water
+        - Water
+        - Colorless
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 트래쉬하고 상대의 포켓몬 2마리에게 각각 90데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 숨겨진 수단
+      kind: Ability
+      text: 자신의 차례에 자신의 패에서 에너지를 1장 트래쉬한다면 1번 사용할 수 있다. 자신의 덱을 2장 뽑는다.
+  rules:
+    - 찬란한 포켓몬은 덱에 1장만 넣을 수 있다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 닌자처럼 신출귀몰하다. 재빠른 움직임으로 상대를 농락하면서 물의 수리검으로 벤다.
+  resistances: []
+illustrators:
+  - Souichirou Gunjima
+rarity: K
+regulationMark: F

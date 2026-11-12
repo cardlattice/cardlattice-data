@@ -1,0 +1,32 @@
+name: 꼬지모
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 돌떨구기
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+  abilities:
+    - name: 길막기
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 상대가 벤치에 내보낼 수 있는 포켓몬의 수는 4마리가 된다. 상대 벤치가 5마리 이상이면 상대는 벤치에 4마리가 될 때까지 포켓몬을 트래쉬한다.
+        (벤치의 수를 변경하는 효과는 적은 수를 우선한다.)
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 공격을 당하지 않기 위해 나무인 척 하지만 싫어하는 물을 뒤집어쓰면 당황해서 도망가버린다.
+  nationalDex:
+    - 185
+  species: 흉내포켓몬
+  heightMetres: 1.2
+  weightKilograms: 38
+  resistances: []
+illustrators:
+  - Hajime Kusajima
+regulationMark: A

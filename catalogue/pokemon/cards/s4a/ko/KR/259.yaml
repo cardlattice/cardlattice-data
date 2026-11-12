@@ -1,0 +1,29 @@
+name: 드라꼰
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 전광석화
+      cost:
+        - Psychic
+      damage: 10+
+      text: 동전을 1번 던져서 앞면이 나오면 10데미지를 추가한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 고대의 바다에 살았다. 고스트포켓몬으로 되살아나 과거의 보금자리를 떠돌고 있다.
+  nationalDex:
+    - 885
+  species: 원망포켓몬
+  heightMetres: 0.5
+  weightKilograms: 2
+illustrators:
+  - Masakazu Fukuda
+rarity: S

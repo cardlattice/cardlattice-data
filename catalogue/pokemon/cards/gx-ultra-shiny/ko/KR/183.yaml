@@ -1,0 +1,29 @@
+name: 암멍이
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 허찌르기
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 옛날부터 사람과 살아왔다. 트레이너가 슬퍼하면 그것을 헤아리고 곁을 떠나지 않는다.
+  nationalDex:
+    - 744
+  species: 강아지포켓몬
+  heightMetres: 0.5
+  weightKilograms: 9.2
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+rarity: S
+regulationMark: B

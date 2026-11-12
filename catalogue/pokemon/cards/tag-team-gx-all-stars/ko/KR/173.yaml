@@ -1,0 +1,11 @@
+name: 트리플 가속 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 진화 포켓몬에게만 붙일 수 있으며, 붙인 차례가 끝날 때 트래쉬한다. 이 카드는 포켓몬에게 붙어 있는 한, {Colorless} 에너지 3개분으로 작용한다.
+      (이 카드가 진화 포켓몬 이외에 붙어 있다면 트래쉬한다.)
+  types:
+    - Colorless
+regulationMark: C

@@ -1,0 +1,33 @@
+name: 가라르 나옹
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 할퀴기
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: 진화의 부르짖기
+      kind: Ability
+      text: 자신의 차례에 자신의 패를 2장 트래쉬한다면 1번 사용할 수 있다. 자신의 덱에서 「가라르 나이킹」을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을
+        섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 전투적인 해양 민족과 지내는 동안 단련되어 몸 여기저기가 강철로 변화했다.
+  nationalDex:
+    - 52
+  species: 요괴고양이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 7.5
+illustrators:
+  - Misa Tsutsui

@@ -1,0 +1,28 @@
+name: 카르본
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 히트블라스트
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "60"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 불탄 숯에 영혼이 깃들어서 포켓몬이 되었다. 타오르는 투지로 강한 상대에게도 싸움을 건다.
+  nationalDex:
+    - 935
+  species: 불의아이포켓몬
+  heightMetres: 0.6
+  weightKilograms: 10.5
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+rarity: S

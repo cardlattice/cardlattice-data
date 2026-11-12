@@ -1,0 +1,25 @@
+name: 빈티나
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 잠시 쉬기
+      cost:
+        - Colorless
+      text: 이 포켓몬의 HP를 「20」회복한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 겉모습이 좋지 않아 인기는 없지만 경이로운 생명력을 지니고 있어 연구 대상이 되고 있다.
+  nationalDex:
+    - 349
+  species: 물고기포켓몬
+  heightMetres: 0.6
+  weightKilograms: 7.4
+  resistances: []
+illustrators:
+  - HYOGONOSUKE

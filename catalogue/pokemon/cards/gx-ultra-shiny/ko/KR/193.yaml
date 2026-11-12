@@ -1,0 +1,33 @@
+name: 종이신도
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 신성한종이
+      cost:
+        - Metal
+        - Metal
+      damage: 40+
+      text: 상대의 남은 프라이즈 장수가 6장이라면 90데미지를 추가한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 거대한 철탑을 단번에 베어 버리는 모습이 목격된 비스트의 일종.
+  nationalDex:
+    - 798
+  species: 발도포켓몬
+  heightMetres: 0.3
+  weightKilograms: 0.1
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Anesaki Dynamic
+rarity: S
+regulationMark: B

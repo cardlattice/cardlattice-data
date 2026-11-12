@@ -1,0 +1,26 @@
+name: 꼬시레
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 갉고 도망가기
+      cost:
+        - Grass
+      damage: "10"
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 상한 것이든 쓰레기든 닥치는 대로 먹어 치우는 자연의 청소부. 둥지 주변은 언제나 깨끗하다.
+  nationalDex:
+    - 767
+  species: 주행포켓몬
+  heightMetres: 0.5
+  weightKilograms: 12
+  resistances: []
+illustrators:
+  - MAHOU

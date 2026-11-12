@@ -1,0 +1,33 @@
+name: 수풀부기
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 잎날가르기
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 양달껍질
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 {Grass} 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 깨끗한 물이 솟아나는 장소를 알고 있어서 동료 포켓몬을 등에 태우고 그곳까지 데려다 준다.
+  nationalDex:
+    - 388
+  species: 나무숲포켓몬
+  heightMetres: 1.1
+  weightKilograms: 97
+  evolvesFrom: 모부기
+  resistances: []
+illustrators:
+  - Nisota Niso
+regulationMark: F

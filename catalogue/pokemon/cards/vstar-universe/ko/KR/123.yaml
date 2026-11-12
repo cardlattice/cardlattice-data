@@ -1,0 +1,36 @@
+name: 레지기가스
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 기간트 브레이크
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 150+
+      text: 상대의 배틀 포켓몬이 「포켓몬 VMAX」라면 150데미지를 추가한다.
+  abilities:
+    - name: 고대의 지혜
+      kind: Ability
+      text: 자신의 필드에 「레지락」「레지아이스」「레지스틸」「레지에레키」「레지드래고」가 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 에너지를 3장까지 선택해서
+        자신의 포켓몬 1마리에게 붙인다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 4
+  flavourText: 밧줄로 묶은 대륙을 당겨서 움직였다고 하는 전설이 남아 있다.
+  nationalDex:
+    - 486
+  species: 거대포켓몬
+  heightMetres: 3.7
+  weightKilograms: 420
+  resistances: []
+illustrators:
+  - Yuya Oka
+regulationMark: F

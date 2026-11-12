@@ -1,0 +1,27 @@
+name: 노고치
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 구르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 이상한굴
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 서로의 필드의 {Colorless} 포켓몬 전원의 약점은 모두 없어진다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 사람의 모습을 보면 꼬리로 구멍을 파서 도망가 버린다. 만났다면 운이 좋은 것이다.
+  resistances: []
+illustrators:
+  - Kurata So
+rarity: AR
+regulationMark: E

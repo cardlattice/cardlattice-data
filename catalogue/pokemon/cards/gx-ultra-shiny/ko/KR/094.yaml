@@ -1,0 +1,34 @@
+name: 디안시
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: 반짝이는기도
+      cost:
+        - Fairy
+      text: 자신의 필드에 있는 포켓몬 1마리에서 진화하는 카드를 자신의 덱에서 1장 선택하여 그 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다.
+    - name: 다이아스톰
+      cost:
+        - Fairy
+        - Colorless
+      damage: "30"
+      text: 자신의 {Fairy} 포켓몬 전원의 HP를 각각「30」회복한다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  flavourText: 멜리시의 돌연변이다. 분홍빛으로 빛나는 몸은 세계에서 가장 아름답다고 일컬어진다.
+  nationalDex:
+    - 719
+  species: 보석포켓몬
+  heightMetres: 0.7
+  weightKilograms: 8.8
+illustrators:
+  - TOKIYA
+regulationMark: A

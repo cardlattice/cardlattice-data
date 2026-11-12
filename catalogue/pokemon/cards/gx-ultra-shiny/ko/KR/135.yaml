@@ -1,0 +1,11 @@
+name: 루자미네
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 트래쉬에 있는 서포트와 스타디움을 합계 2장 상대에게 보여주고 패로 가져온다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - take
+regulationMark: A

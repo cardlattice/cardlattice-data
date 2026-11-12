@@ -1,0 +1,32 @@
+name: 니드리나
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 물기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 해피 셰어
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 포켓몬 1마리의 HP를 「30」회복한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 이마의 뿔은 새끼에게 먹이를 줄 때 찌르지 않도록 퇴화했다고 추측되고 있다.
+  heightMetres: 0.8
+  weightKilograms: 20
+  rules: []
+  species: 독침포켓몬
+  nationalDex:
+    - 30
+  evolvesFrom: 니드런♀
+  resistances: []
+illustrators:
+  - Miki Tanaka

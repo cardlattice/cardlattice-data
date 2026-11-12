@@ -1,0 +1,12 @@
+name: 기본 {Grass}에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Grass
+  rules: []
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN

@@ -1,0 +1,37 @@
+name: 루나아라
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: 미드나이트 레이
+      cost:
+        - Psychic
+      damage: 20+
+      text: 자신의 트래쉬에 있는 에너지의 장수 × 20데미지를 추가한다.
+    - name: 루나블라스트
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "120"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 달을 현혹하는 짐승이라는 이름을 가졌다. 모든 빛을 에너지로 변환해서 살고 있다.
+  heightMetres: 4
+  weightKilograms: 120
+  abilities: []
+  rules: []
+  species: 월륜포켓몬
+  nationalDex:
+    - 792
+  evolvesFrom: 코스모움
+illustrators:
+  - Bun Toujo

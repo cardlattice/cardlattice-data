@@ -1,0 +1,36 @@
+name: 솔가레오[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 라이징스타
+      cost:
+        - Metal
+      text: 자신의 트래쉬에 있는 {Metal} 에너지를 상대 필드의 포켓몬의 수만큼 자신의 포켓몬에게 원하는 대로 붙인다.
+    - name: 코로나임팩트
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Metal
+      damage: "160"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  flavourText: 코스모그가 진화한 수컷이라고 전해진다. 제3의 눈이 뜰 때 다른 세계로 달려나간다.
+  subtypes:
+    - Prism Star
+illustrators:
+  - Shin Nagasawa
+rarity: PR
+regulationMark: B

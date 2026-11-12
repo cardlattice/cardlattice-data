@@ -1,0 +1,10 @@
+name: 퓨전 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+    - Fusion Strike
+  rules:
+    - 이 카드는 「퓨전」의 포켓몬에게만 붙일 수 있으며, 「퓨전」의 포켓몬 이외에 붙어 있다면 트래쉬한다. 이 카드는 포켓몬에게 붙어 있는 한, 모든 타입의 에너지 1개분으로
+      작용하고 이 카드를 붙이고 있는 포켓몬은 상대의 포켓몬으로부터 특성의 효과를 받지 않는다.
+regulationMark: E

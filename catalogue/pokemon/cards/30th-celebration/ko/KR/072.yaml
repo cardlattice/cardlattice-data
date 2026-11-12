@@ -1,0 +1,35 @@
+name: 코라이돈
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 안다리걸기
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+    - name: 액셀브레이크
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "140"
+      text: 이 포켓몬에게 붙어 있는 {Fighting} 에너지를 2개 선택해서 트래쉬한다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 주먹으로 대지를 갈랐다고 오래된 탐험기에 기록된 "날개의왕"의 정체인 듯하다.
+  heightMetres: 2.5
+  weightKilograms: 303
+  abilities: []
+  rules: []
+  species: 패러독스포켓몬
+  nationalDex:
+    - 1007
+  resistances: []
+illustrators:
+  - Mitsuhiro Arita

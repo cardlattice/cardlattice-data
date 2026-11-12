@@ -1,0 +1,32 @@
+name: 콜로솔트
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: 노크해머
+      cost:
+        - Fighting
+        - Fighting
+      damage: "130"
+      text: 상대의 덱을 위에서부터 1장 트래쉬한다.
+  abilities:
+    - name: 은혜의 소금
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 포켓몬 체크 때마다 자신의 포켓몬 전원의 HP를 각각 「20」회복한다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  flavourText: 손끝을 문질러서 나온 소금을 다친 포켓몬에게 뿌리면 심한 상처도 금방 낫는다.
+  nationalDex:
+    - 934
+  species: 암염포켓몬
+  heightMetres: 2.3
+  weightKilograms: 240
+  evolvesFrom: 스태솔트
+  resistances: []
+illustrators:
+  - Anesaki Dynamic

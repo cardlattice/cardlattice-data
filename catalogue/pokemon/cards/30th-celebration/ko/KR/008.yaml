@@ -1,0 +1,33 @@
+name: 레시라무
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 베어가르기
+      cost:
+        - Fire
+        - Colorless
+      damage: "50"
+    - name: 레이저플레임
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 이 포켓몬에게 {Lightning} 에너지가 붙어 있다면 80데미지를 추가한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 불꽃으로 세상을 태워버릴 수 있는 전설의 포켓몬. 진실의 세계를 구축하는 사람을 도와준다.
+  heightMetres: 3.2
+  weightKilograms: 330
+  species: 백양포켓몬
+  nationalDex:
+    - 643
+  resistances: []
+illustrators:
+  - Uta

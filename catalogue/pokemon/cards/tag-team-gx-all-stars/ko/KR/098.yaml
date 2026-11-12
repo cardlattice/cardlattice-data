@@ -1,0 +1,35 @@
+name: 엘풍
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: 틈새포켓
+      cost:
+        - Fairy
+      text: 자신의 패를 1장 로스트존에 둔다. 그 뒤, 자신의 덱을 3장 뽑는다.
+    - name: 로스트마치
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 로스트존에 있는 포켓몬([프리즘스타] (프리즘스타)는 제외)의 장수 × 20데미지를 준다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 0
+  flavourText: 민가에 몰래 들어가 소중한 물건을 감추거나 솜을 방 안에 여기저기 흩트러 놓는 성가신 존재이다.
+  nationalDex:
+    - 547
+  species: 바람숨기포켓몬
+  heightMetres: 0.7
+  weightKilograms: 6.6
+  evolvesFrom: 소미안
+illustrators:
+  - Yumi
+regulationMark: C

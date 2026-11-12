@@ -1,0 +1,31 @@
+name: 파치리스
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 다함께방전
+      cost:
+        - Lightning
+        - Colorless
+      damage: 10+
+      text: 자신의 벤치의 {Lightning} 포켓몬의 수 × 20데미지를 추가한다. 이 기술의 데미지는 약점 계산을 하지 않는다.
+  abilities:
+    - name: 전기주머니
+      kind: Ability
+      text: 이 포켓몬은 마비가 되지 않는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 모인 전기를 나눠 주려고 뺨의 주머니를 서로 비비는 파치리스가 발견되기도 한다.
+  nationalDex:
+    - 417
+  species: 전기다람쥐포켓몬
+  heightMetres: 0.4
+  weightKilograms: 3.9
+  resistances: []
+illustrators:
+  - Naoki Saito

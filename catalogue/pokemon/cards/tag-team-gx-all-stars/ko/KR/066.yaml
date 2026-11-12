@@ -1,0 +1,36 @@
+name: 아고용
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 터닝포인트
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 자신의 남은 프라이즈 장수가 3장이라면 80데미지를 추가한다.
+  abilities:
+    - name: 차지업
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에 있는 기본 에너지를 1장 이 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  flavourText: 체내에 수백 리터의 독액을 갖고 있다._x000D_ UB라고 불리는 생물의 일종이다.
+  nationalDex:
+    - 804
+  species: 독침포켓몬
+  heightMetres: 3.6
+  weightKilograms: 150
+  evolvesFrom: 베베놈
+  resistances: []
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Shin Nagasawa
+regulationMark: B

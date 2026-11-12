@@ -1,0 +1,9 @@
+name: 이슬
+pokemon:
+  category: trainer
+  rules:
+    - 패에서 카드를 2장 선택해서 트래쉬하지 않으면 이 카드는 사용할 수 없다. 「이슬의 포켓몬」이 사용하는 기술이 대전 포켓몬에게 데미지를 줄 때에 이 차례에만 그 데미지는 「+20」이
+      된다.(벤치 포켓몬에게 주는 데미지는 그대로 계산한다.)
+illustrators:
+  - Ken Sugimori
+regulationMark: null

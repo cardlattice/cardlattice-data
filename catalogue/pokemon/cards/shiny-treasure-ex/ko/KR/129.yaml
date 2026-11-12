@@ -1,0 +1,34 @@
+name: 핫삼
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 퍼니시시저
+      cost:
+        - Metal
+      damage: 10+
+      text: 상대 필드의 특성을 가진 포켓몬의 수 × 50데미지를 추가한다.
+    - name: 풀베기
+      cost:
+        - Metal
+        - Metal
+      damage: "70"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 강철이 함유된 집게로 잡은 것은 아무리 딱딱해도 산산조각이 난다.
+  nationalDex:
+    - 212
+  species: 집게포켓몬
+  heightMetres: 1.8
+  weightKilograms: 118
+  evolvesFrom: 스라크
+illustrators:
+  - otumami

@@ -1,0 +1,34 @@
+name: 저승갓숭
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: 분노의주먹
+      cost:
+        - Fighting
+      damage: 70×
+      text: 상대가 이미 가져간 프라이즈의 장수 × 70데미지를 준다.
+    - name: 다이너마이트 펀치
+      cost:
+        - Fighting
+        - Fighting
+      damage: "170"
+      text: 이 포켓몬에게도 50데미지를 준다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  flavourText: 마음속에 감춰 둔 분노의 파워를 주먹에 담아 날려서 상대를 뼛속까지 바스러뜨린다.
+  nationalDex:
+    - 979
+  species: 분노숭이포켓몬
+  heightMetres: 1.2
+  weightKilograms: 56
+  evolvesFrom: 성원숭
+  resistances: []
+illustrators:
+  - Hitoshi Ariga
+rarity: S

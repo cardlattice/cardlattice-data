@@ -1,0 +1,10 @@
+name: 터프스타디움
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 서로의 플레이어는 자신의 차례마다 1번 자신의 덱에서 {Grass} 타입의 진화 포켓몬을 1장 선택해서 상대에게 보여주고 패로 가져와도 좋다. 그리고 덱을 섞는다.
+    - 스타디움은 자신의 차례에 1장만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.
+illustrators:
+  - aky CG Works

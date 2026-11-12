@@ -1,0 +1,32 @@
+name: 개굴반장
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 물수제비
+      cost:
+        - Water
+      damage: "20"
+  abilities:
+    - name: 질풍수리검
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대 포켓몬 1마리에게 데미지 카운터를 2개 올린다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 누구보다도 가벼운 몸을 갖고 있다. 600m를 넘는 타워의 꼭대기까지 1분이면 올라간다.
+  nationalDex:
+    - 657
+  species: 거품개구리포켓몬
+  heightMetres: 0.6
+  weightKilograms: 10.9
+  evolvesFrom: 개구마르
+  resistances: []
+illustrators:
+  - Anesaki Dynamic
+rarity: S
+regulationMark: B

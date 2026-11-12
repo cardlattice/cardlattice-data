@@ -1,0 +1,30 @@
+name: 루가루암
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 카운터
+      cost:
+        - Fighting
+      damage: 10+
+      text: 상대의 이전 차례에 이 포켓몬이 받은 기술의 데미지와 같은 데미지를 추가한다.
+    - name: 록스매시
+      cost:
+        - Fighting
+        - Fighting
+      damage: "80"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 매우 성질이 사납다. 상대를 처리할 수만 있다면 자신이 다치는 것도 아랑곳 않는다.
+  abilities: []
+  rules: []
+  evolvesFrom: 암멍이
+  resistances: []
+rarity: AR
+illustrators:
+  - Raita Kazama

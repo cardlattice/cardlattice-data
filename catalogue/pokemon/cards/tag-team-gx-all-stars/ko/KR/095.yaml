@@ -1,0 +1,39 @@
+name: 알로라나인테일 GX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fairy
+  stage: Stage 1
+  subtypes:
+    - GX
+  attacks:
+    - name: 백은의바람
+      cost:
+        - Fairy
+        - Colorless
+      damage: "70"
+      text: 상대의 벤치 포켓몬 1마리에게도 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 서브리메이션GX
+      cost:
+        - Fairy
+        - Colorless
+      text: 상대의 배틀 포켓몬이 「울트라비스트」라면 그 포켓몬을 기절시킨다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 이상한 인도
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 자신의 덱에 있는 아이템을 2장까지 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: 알로라 식스테일
+illustrators:
+  - 5ban Graphics
+rarity: RR
+regulationMark: B

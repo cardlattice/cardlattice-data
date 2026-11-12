@@ -1,0 +1,32 @@
+name: 치라미
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 흘끗보기
+      cost:
+        - Colorless
+      text: 상대의 덱을 위에서부터 1장 보고 원래대로 되돌린다.
+    - name: 스위프뺨치기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 동전을 2번 던져서 앞면이 나온 수 × 20데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 꼬리로 더러운 것을 떨어낸다. 청소를 할 때는 도움이 되지만 결벽증이 있어서 힘들기도 하다.
+  nationalDex:
+    - 572
+  species: 친칠라포켓몬
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  resistances: []
+illustrators:
+  - MAHOU
+rarity: S

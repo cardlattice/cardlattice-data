@@ -1,0 +1,11 @@
+name: 카르네
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드는 상대의 이전 차례에 자신의 {Fairy} 포켓몬이 기절하지 않으면 사용할 수 없다. 자신의 트래쉬에서 원하는 카드를 2장 상대에게 보여주고 패로 가져온다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Ken Sugimori
+regulationMark: B

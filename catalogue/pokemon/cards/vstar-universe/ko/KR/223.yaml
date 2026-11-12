@@ -1,0 +1,37 @@
+name: 테오키스 VSTAR
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Psychic
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 사이코재블린
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "190"
+      text: 상대 벤치의 「포켓몬 V」 1마리에게도 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 스타포스
+      cost:
+        - Psychic
+      damage: 60×
+      text: 서로의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 60데미지를 준다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: 테오키스 V
+illustrators:
+  - DOM
+rarity: SAR
+regulationMark: F

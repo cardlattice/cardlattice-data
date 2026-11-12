@@ -1,0 +1,35 @@
+name: 철화구야
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 문레이커
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: 이 기술은 서로의 남은 프라이즈 장수의 합계가 6장이라면 {Metal} 에너지 1개로 사용할 수 있다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 4
+  flavourText: UB의 일종. 2개의 팔에서 가스를 뿜어내어 숲을 불태워버리는 모습이 확인되었다.
+  nationalDex:
+    - 797
+  species: 쏴올리기포켓몬
+  heightMetres: 9.2
+  weightKilograms: 999.9
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - kawayoo
+regulationMark: B

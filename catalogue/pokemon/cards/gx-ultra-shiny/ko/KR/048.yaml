@@ -1,0 +1,38 @@
+name: 네크로즈마 새벽의 날개
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 걸프스트림
+      cost:
+        - Psychic
+      damage: 20+
+      text: 자신의 남은 프라이즈 장수가 6장이라면 이 포켓몬에게 올려져 있는 데미지 카운터의 수 × 20데미지를 추가한다.
+    - name: 새벽의칼날
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 트래쉬한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  flavourText: 루나아라의 의식은 어느새 사라졌다. 네크로즈마에게 지배되어 모든 에너지를 방출하고 있다.
+  nationalDex:
+    - 800
+  species: 프리즘포켓몬
+  heightMetres: 4.2
+  weightKilograms: 350
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - nagimiso
+regulationMark: B

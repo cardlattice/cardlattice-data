@@ -1,0 +1,23 @@
+name: 배루키
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  abilities:
+    - name: 장난꾸러기킥
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 동전을 1번 던져서 앞면이 나오면 상대의 포켓몬 1마리에게 데미지 카운터를 3개 올린다.
+  retreatCost: 0
+  flavourText: 항상 기운이 넘친다. 강해지기 위해 계속 져도 상대에게 맞선다.
+  nationalDex:
+    - 236
+  species: 싸움포켓몬
+  heightMetres: 0.7
+  weightKilograms: 21
+  resistances: []
+  weaknesses: []
+illustrators:
+  - Mina Nakai
+regulationMark: C

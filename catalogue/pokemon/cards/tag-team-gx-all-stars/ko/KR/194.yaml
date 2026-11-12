@@ -1,0 +1,12 @@
+name: 보미카
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 패에서 포켓몬(「포켓몬 GX・EX」는 제외)을 2장까지 트래쉬하고 그 장수 × 3장만큼 자신의 덱을 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Jumpei Akasaka
+rarity: SR
+regulationMark: C

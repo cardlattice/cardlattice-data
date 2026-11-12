@@ -1,0 +1,28 @@
+name: 탕구리
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 무거운뼈다귀
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 머리에 뒤집어쓴 두개골은 죽은 어미의 것. 죽음의 슬픔을 뛰어넘었을 때 진화한다고 전해진다.
+  nationalDex:
+    - 104
+  species: 고독포켓몬
+  heightMetres: 0.4
+  weightKilograms: 6.5
+  resistances: []
+illustrators:
+  - sowsow
+regulationMark: B

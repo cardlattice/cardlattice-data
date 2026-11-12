@@ -1,0 +1,24 @@
+name: 먹고자
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  abilities:
+    - name: 스낵서치
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 동전을 1번 던져서 앞면이 나오면 자신의 트래쉬에서 원하는 카드를 1장 상대에게 보여주고 덱의
+        위로 되돌린다.
+  retreatCost: 0
+  flavourText: 긴 털 아래에 음식을 숨기지만 숨긴 것을 잊어 고약한 냄새가 난다며 소동이 날 때도 있다.
+  nationalDex:
+    - 446
+  species: 대식가포켓몬
+  heightMetres: 0.6
+  weightKilograms: 105
+  resistances: []
+  weaknesses: []
+illustrators:
+  - sowsow
+regulationMark: C

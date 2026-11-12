@@ -1,0 +1,28 @@
+name: 바닥트리오
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 박치기
+      cost:
+        - Water
+      damage: "30"
+    - name: 바다파기터널
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 동전을 3번 던져서 앞면이 나온 수 × 3장만큼 상대의 덱을 위에서부터 트래쉬한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 겉보기와 다르게 성질이 사납다. 기다란 몸으로 먹잇감을 죄어서 굴 안으로 끌고 들어간다.
+  evolvesFrom: 바다그다
+  resistances: []
+illustrators:
+  - Tetsu Kayama
+rarity: AR
