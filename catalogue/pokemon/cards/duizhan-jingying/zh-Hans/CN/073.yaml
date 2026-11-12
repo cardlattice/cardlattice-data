@@ -1,0 +1,12 @@
+name: 夜妮
+rarity: SR
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，只有在对手的战斗场上有基础宝可梦时才可使用。
+    - 将附着于对手战斗宝可梦身上的1个能量，放回对手的牌库上方。
+    - 在自己的回合只可以使用1张支援者卡。

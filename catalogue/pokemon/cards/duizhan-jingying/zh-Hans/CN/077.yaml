@@ -1,0 +1,41 @@
+name: 奈克洛兹玛 拂晓之翼GX
+rarity: HR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - GX
+    - Ultra Beast
+  attacks:
+    - name: 暗之闪光
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: 这个招式的伤害不计算抗性。
+    - name: 暗月GX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "180"
+      text: 这个招式，只有在自己的剩余奖赏卡张数，比对手多的时候才可使用。在下一个对手的回合，这只宝可梦不会受到招式的伤害和效果影响。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 入侵
+      kind: Ability
+      text: 如果这只宝可梦在备战区的话，则在自己的回合可以使用1次。将这只宝可梦与自己的战斗宝可梦互换。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

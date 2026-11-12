@@ -1,0 +1,13 @@
+name: 迷失四叶草
+rarity: UR
+illustrators:
+  - Toyste Beach
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 「迷失四叶草」可以使用1张或者同时使用4张，根据使用的张数不同效果也不同。
+    - 如果使用1张，则查看自己牌库上方1张卡牌后，放回原处。
+    - 如果同时使用4张，则拿取1张自己的奖赏卡。（这个效果，4张卡牌发动1次。）
+    - 在自己的回合可以使用任意张物品卡。

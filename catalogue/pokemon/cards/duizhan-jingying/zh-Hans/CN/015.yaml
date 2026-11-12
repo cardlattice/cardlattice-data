@@ -1,0 +1,36 @@
+name: 破破舵轮
+rarity: R
+illustrators:
+  - Hasuno
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 781
+  species: 碎藻宝可梦
+  heightMetres: 3.9
+  weightKilograms: 210
+  flavourText: 咣咣地来回摆动巨大的船锚，连吼鲸王也能一击击倒。绿色的海藻是它的本体。
+  attacks:
+    - name: 掷锚
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦，无法撤退。
+  abilities:
+    - name: 钢能力者
+      kind: Ability
+      text: 只要这只宝可梦在场上，自己的{Metal}宝可梦使用的招式，给对手战斗宝可梦造成的伤害「+10」。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+regulationMark: A
