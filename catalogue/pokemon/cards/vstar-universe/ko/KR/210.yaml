@@ -1,0 +1,34 @@
+name: 리피아 VSTAR
+pokemon:
+  category: pokemon
+  hp: 260
+  types:
+    - Grass
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 리프가드
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "180"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다.
+  abilities:
+    - name: 아이비스타
+      kind: Ability
+      text: 자신의 차례에 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 리피아 V
+  resistances: []
+illustrators:
+  - Jiro Sasumo
+rarity: SAR
+regulationMark: F

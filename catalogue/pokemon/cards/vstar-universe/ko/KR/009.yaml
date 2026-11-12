@@ -1,0 +1,27 @@
+name: 귀뚤뚜기
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 걸어 넘어뜨리기
+      cost:
+        - Grass
+      damage: 10+
+      text: 동전을 1번 던져서 앞면이 나오면 20데미지를 추가한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 더듬이가 서로 부딪히면 딩동딩동 실로폰 같은 음색을 연주한다.
+  nationalDex:
+    - 401
+  species: 귀뚜라미포켓몬
+  heightMetres: 0.3
+  weightKilograms: 2.2
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+regulationMark: F

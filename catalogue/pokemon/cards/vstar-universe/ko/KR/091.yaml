@@ -1,0 +1,33 @@
+name: 조로아크
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: 나이트버스트
+      cost:
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 환영변화
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 1진화 포켓몬(「조로아크」는 제외)을 1장 선택한다. 그 뒤, 이 포켓몬과 붙어 있는 모든 카드를 트래쉬하고 이
+        포켓몬이 있던 장소에 선택한 포켓몬을 내보낸다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 인간에게 거처를 들킬 위기에 처하면 환상을 보여줘서 숲을 떠돌게 한다고 전해진다.
+  nationalDex:
+    - 571
+  species: 요괴여우포켓몬
+  heightMetres: 1.6
+  weightKilograms: 81.1
+  evolvesFrom: 조로아
+  resistances: []
+illustrators:
+  - Souichirou Gunjima
+regulationMark: E

@@ -1,0 +1,35 @@
+name: 레지스틸
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 레지게이트
+      cost:
+        - Colorless
+      text: 자신의 덱에서 기본 포켓몬을 1장 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 헤비봄버
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 220-
+      text: 상대 배틀 포켓몬의 후퇴에 필요한 에너지의 개수 × 50데미지만큼 이 기술의 데미지는 작아진다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  flavourText: 늘었다 줄었다 하는 유연함도 갖췄지만 어떤 금속보다도 튼튼한 신비한 물질로 이루어져 있다.
+  nationalDex:
+    - 379
+  species: 쇠철포켓몬
+  heightMetres: 1.9
+  weightKilograms: 205
+illustrators:
+  - hatachu
+regulationMark: F

@@ -1,0 +1,33 @@
+name: 마그마
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 안다리걸기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: 불꽃펀치
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "70"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  flavourText: 불꽃으로 먹이를 꼼짝 못 하게 한다. 무의식중에 너무 오래 익혀서 까맣게 태우고는 후회한다.
+  nationalDex:
+    - 126
+  species: 불뿜기포켓몬
+  heightMetres: 1.3
+  weightKilograms: 44.5
+  resistances: []
+illustrators:
+  - Shinji Kanda
+regulationMark: F

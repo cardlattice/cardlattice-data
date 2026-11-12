@@ -1,0 +1,27 @@
+name: 메리프
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 뒤로 차기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 일렉트릭볼
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 솜털이 마찰하여 전기가 모인다. 귀엽다고 맨손으로 만지면 따끔하게 저리고 아프다.
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: AR
+regulationMark: E

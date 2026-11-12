@@ -1,0 +1,32 @@
+name: 히스이 대검귀 V
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Darkness
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 소쿠리떨구기
+      cost:
+        - Darkness
+      text: 상대 필드의 포켓몬에게 붙어 있는 「포켓몬의 도구」를 2장까지 선택해서 트래쉬한다.
+    - name: 섀도슬래시
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: "180"
+      text: 이 포켓몬에게 붙어 있는 에너지를 1개 선택해서 트래쉬한다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - kodama
+rarity: SAR
+regulationMark: F

@@ -1,0 +1,30 @@
+name: 에레키블
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 폭염볼트
+      cost:
+        - Lightning
+      damage: 30+
+      text: 자신의 벤치의 「마그마번」에게 데미지 카운터가 올려져 있다면 90데미지를 추가한다.
+    - name: 고압전류
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      text: 상대의 포켓몬 전원에게 각각 50데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  flavourText: 발전량은 심박 수에 비례한다. 싸움이 시작되면 단숨에 전압이 올라간다.
+  evolvesFrom: 에레브
+  resistances: []
+illustrators:
+  - Mina Nakai
+rarity: AR
+regulationMark: F

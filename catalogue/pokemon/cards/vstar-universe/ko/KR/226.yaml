@@ -1,0 +1,36 @@
+name: 루카리오 VSTAR
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Fighting
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 파이팅너클
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 상대의 배틀 포켓몬이 「포켓몬 V」라면 120데미지를 추가한다.
+    - name: 파동스타
+      cost:
+        - Fighting
+        - Colorless
+      damage: 70×
+      text: 상대 필드의 포켓몬에게 붙어 있는 에너지의 개수 × 70데미지를 준다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 루카리오 V
+  resistances: []
+illustrators:
+  - hncl
+rarity: SAR
+regulationMark: F

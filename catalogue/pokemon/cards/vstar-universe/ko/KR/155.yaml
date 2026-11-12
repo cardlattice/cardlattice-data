@@ -1,0 +1,11 @@
+name: 아크로마의 실험
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱을 위에서부터 5장 보고 그 중에서 카드를 3장 선택해서 패로 가져온다. 남은 카드는 로스트존에 둔다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Naoki Saito
+regulationMark: F

@@ -1,0 +1,37 @@
+name: 글레이시아 VSTAR
+pokemon:
+  category: pokemon
+  hp: 260
+  types:
+    - Water
+  stage: VSTAR
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 고드름샷
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "180"
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다.
+    - name: 크리스털스타
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "220"
+      text: 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다. (대전 중 자신은 VSTAR 파워를 1번만 사용할 수 있다.)
+      power: VSTAR
+  rules:
+    - 포켓몬 VSTAR가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 글레이시아 V
+  resistances: []
+illustrators:
+  - Gemi
+rarity: SAR
+regulationMark: F

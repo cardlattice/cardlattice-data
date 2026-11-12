@@ -1,0 +1,33 @@
+name: 호바귀
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 밟기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: 호박의 구멍
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 필드에 나와 있는 스타디움을 트래쉬한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 호박의 구멍에서 나오는 빛을 본 사람과 포켓몬을 최면상태로 만들어 조종한다.
+  nationalDex:
+    - 710
+  species: 호박포켓몬
+  heightMetres: 0.4
+  weightKilograms: 5
+illustrators:
+  - Yuka Morii
+regulationMark: E

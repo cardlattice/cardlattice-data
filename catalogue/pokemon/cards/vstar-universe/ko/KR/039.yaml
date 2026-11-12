@@ -1,0 +1,30 @@
+name: 찬란한 전지충이
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - Radiant
+  attacks:
+    - name: 직격탄
+      cost:
+        - Lightning
+      text: 상대의 포켓몬 1마리에게 30데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 찌리리블록
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 서로의 플레이어는 각각 자신의 패에서 에너지를 「포켓몬 V」에게 붙일 때마다 그 포켓몬에게 데미지 카운터를 2개 올린다.
+  rules:
+    - 찬란한 포켓몬은 덱에 1장만 넣을 수 있다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 튼튼한 껍질로 몸을 보호한다. 턱의 끝부분에서 전기를 흘려보내 반격한다.
+  resistances: []
+illustrators:
+  - Mizue
+rarity: K
+regulationMark: F

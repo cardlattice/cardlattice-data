@@ -1,0 +1,32 @@
+name: 일레즌
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  attacks:
+    - name: 울음소리
+      cost:
+        - Colorless
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬이 사용하는 기술의 데미지는 「-30」이 된다.
+    - name: 프티볼트
+      cost:
+        - Lightning
+      damage: "10"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 독소를 화학 변화시켜 전기를 만들어 낸다. 전력은 약하지만 찌릿찌릿 마비된다.
+  nationalDex:
+    - 848
+  species: 젖먹이포켓몬
+  heightMetres: 0.4
+  weightKilograms: 11
+  resistances: []
+illustrators:
+  - kodama
+regulationMark: E

@@ -1,0 +1,8 @@
+name: 기본 강철 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Metal
+rarity: SR

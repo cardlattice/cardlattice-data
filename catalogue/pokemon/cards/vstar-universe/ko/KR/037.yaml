@@ -1,0 +1,33 @@
+name: 보송송
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 일렉트릭볼
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 일렉트릭 다이너모
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 트래쉬에서 {Lightning} 에너지를 1장 선택해서 벤치 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 푹신푹신한 털에 전기를 저장한다. 너무 많이 저장해서 여기저기 반질반질하게 털이 빠져 버렸다.
+  nationalDex:
+    - 180
+  species: 솜털포켓몬
+  heightMetres: 0.8
+  weightKilograms: 13.3
+  evolvesFrom: 메리프
+  resistances: []
+illustrators:
+  - OKACHEKE
+regulationMark: E

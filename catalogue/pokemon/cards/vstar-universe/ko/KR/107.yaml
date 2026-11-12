@@ -1,0 +1,31 @@
+name: 레쿠쟈 V
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 용의파동
+      cost:
+        - Lightning
+      damage: "40"
+      text: 자신의 덱을 위에서부터 2장 트래쉬한다.
+    - name: 스파이럴 버스트
+      cost:
+        - Fire
+        - Lightning
+      damage: 20+
+      text: 원한다면 이 포켓몬에게 붙어 있는 {Fire} 또는 {Lightning} 타입 중 어느 한쪽의 기본 에너지를 2장까지 트래쉬하고 그 장수 × 80데미지를 추가한다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  retreatCost: 2
+  resistances: []
+  weaknesses: []
+illustrators:
+  - PLANETA Mochizuki
+rarity: RR
+regulationMark: E

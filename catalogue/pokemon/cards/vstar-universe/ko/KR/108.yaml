@@ -1,0 +1,32 @@
+name: 레쿠쟈 VMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Dragon
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Rapid Strike
+    - Dynamax
+  attacks:
+    - name: 다이버스트
+      cost:
+        - Fire
+        - Lightning
+      damage: 20+
+      text: 이 포켓몬에게 붙어 있는 {Fire} 또는 {Lightning} 타입 중 어느 한쪽의 기본 에너지를 원하는 만큼 트래쉬하고 그 장수 × 80데미지를 추가한다.
+  abilities:
+    - name: 창공의 파동
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패를 모두 트래쉬하고 덱을 3장 뽑는다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  retreatCost: 2
+  evolvesFrom: 레쿠쟈 V
+  resistances: []
+  weaknesses: []
+illustrators:
+  - PLANETA Mochizuki
+rarity: RRR
+regulationMark: E

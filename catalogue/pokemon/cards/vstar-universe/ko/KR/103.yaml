@@ -1,0 +1,34 @@
+name: 자마젠타 V
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 리벤지버스트
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 상대가 이미 가져간 프라이즈의 장수 × 30데미지를 추가한다.
+  abilities:
+    - name: 왕의 자세
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있으며, 사용하면 자신의 차례는 끝난다. 자신의 패를 모두 트래쉬하고 덱을 5장 뽑는다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+illustrators:
+  - PLANETA Mochizuki
+rarity: RR
+regulationMark: F

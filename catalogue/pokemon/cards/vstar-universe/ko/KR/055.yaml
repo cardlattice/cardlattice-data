@@ -1,0 +1,33 @@
+name: 찬란한 가디안
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - Radiant
+  attacks:
+    - name: 사이코키네시스
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: 상대의 배틀 포켓몬에게 붙어 있는 에너지의 개수 × 20데미지를 추가한다.
+  abilities:
+    - name: 자애의 베일
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 포켓몬 전원이 상대의 「포켓몬 V」로부터 받는 기술의 데미지는 「-20」이 된다.
+  rules:
+    - 찬란한 포켓몬은 덱에 1장만 넣을 수 있다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 미래를 예지하는 힘을 가졌다. 트레이너를 지킬 때 최대 파워를 발휘한다.
+  resistances: []
+illustrators:
+  - Ryuta Fuse
+rarity: K
+regulationMark: F

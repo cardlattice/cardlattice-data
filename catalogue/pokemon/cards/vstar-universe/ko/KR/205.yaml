@@ -1,0 +1,29 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 변덕 태클
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다.
+  abilities:
+    - name: 피카대시
+      kind: Ability
+      text: 이 포켓몬에게 에너지가 붙어 있다면 이 포켓몬의 후퇴에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 만들어 내는 전기가 강력한 피카츄일수록 볼의 주머니가 부드럽고 잘 늘어난다.
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: AR
+regulationMark: F

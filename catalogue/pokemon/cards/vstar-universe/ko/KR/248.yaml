@@ -1,0 +1,12 @@
+name: 월로
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 벤치의 「포켓몬 V」를 1마리 선택해서 그 포켓몬과 붙어 있는 모든 카드를 트래쉬한다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Souichirou Gunjima
+rarity: SR
+regulationMark: F

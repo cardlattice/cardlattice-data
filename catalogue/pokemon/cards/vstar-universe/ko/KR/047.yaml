@@ -1,0 +1,29 @@
+name: 고우스트
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 저주의물방울
+      cost:
+        - Psychic
+      text: 데미지 카운터 3개를 상대의 포켓몬에게 원하는 대로 올린다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 벽을 통과하며 어디에서든 모습을 드러내는 무서운 악령. 혀로 핥은 자는 날이 갈수록 쇠약해지다 죽음에 이른다는 소문이 있다.
+  nationalDex:
+    - 93
+  species: 가스포켓몬
+  heightMetres: 1.6
+  weightKilograms: 0.1
+  evolvesFrom: 고오스
+illustrators:
+  - Kouki Saitou
+regulationMark: F

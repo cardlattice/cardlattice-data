@@ -1,0 +1,31 @@
+name: 마그마번
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 메가톤펀치
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: 볼트플로전
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 120+
+      text: 자신의 벤치에 「에레키블」이 있다면 120데미지를 추가한다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  flavourText: 크게 숨을 들이쉬면 배 안의 불꽃이 더욱 거세어져서 섭씨 2000도에 달하게 된다.
+  evolvesFrom: 마그마
+  resistances: []
+illustrators:
+  - Saya Tsuruta
+rarity: AR
+regulationMark: F

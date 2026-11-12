@@ -1,0 +1,13 @@
+name: 카밀레의 반짝임
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - Fusion Strike
+  rules:
+    - 자신의 「퓨전」의 포켓몬을 2마리까지 선택해서 덱에서 「퓨전 에너지」를 1장씩 붙인다. 그리고 덱을 섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Megumi Mizutani
+rarity: SR
+regulationMark: E

@@ -1,0 +1,27 @@
+name: 조로아
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 뒤로 차기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 평소에 수다스러운 아이가 과묵해졌다면 조로아가 둔갑한 것일지도 모른다.
+  nationalDex:
+    - 570
+  species: 나쁜여우포켓몬
+  heightMetres: 0.7
+  weightKilograms: 12.5
+  resistances: []
+illustrators:
+  - ryoma uratsuka
+regulationMark: E

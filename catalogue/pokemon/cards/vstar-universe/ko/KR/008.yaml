@@ -1,0 +1,36 @@
+name: 토대부기
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: 이볼브프레스
+      cost:
+        - Grass
+        - Colorless
+      damage: 50×
+      text: 자신의 필드의 진화 포켓몬의 수 × 50데미지를 준다.
+    - name: 한방 먹이기
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 4
+  flavourText: 작은 포켓몬들이 모여 움직이지 않는 토대부기의 등에서 둥지를 만들려고 하는 경우가 있다.
+  nationalDex:
+    - 389
+  species: 대륙포켓몬
+  heightMetres: 2.2
+  weightKilograms: 310
+  evolvesFrom: 수풀부기
+  resistances: []
+illustrators:
+  - Oswaldo KATO
+regulationMark: F

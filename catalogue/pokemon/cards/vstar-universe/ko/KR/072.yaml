@@ -1,0 +1,36 @@
+name: 괴력몬 VMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fighting
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 리벤지버스터
+      cost:
+        - Fighting
+        - Colorless
+      damage: 80+
+      text: 자신의 벤치 포켓몬에게 데미지 카운터가 올려져 있다면 140데미지를 추가한다.
+    - name: 거다이회심격
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "240"
+      text: 자신의 다음 차례에 이 포켓몬은 「거다이회심격」을 사용할 수 없다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 괴력몬 V
+  resistances: []
+illustrators:
+  - N-DESIGN Inc.
+rarity: RRR
+regulationMark: F
