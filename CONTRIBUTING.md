@@ -339,3 +339,13 @@ only its own printed stats and rules; do not duplicate the combined card's field
 The historical stage `Level-Up`, subtype `LV.X`, and ability kind `Ancient Trait`
 retain their distinct mechanics. A printed regulation mark does not assert current
 format legality, particularly on commemorative reprints.
+
+A localised printed set name belongs in that locale's `release.yaml` as `name`.
+For example, `cards/s4a/ko/KR/release.yaml` can supply `name: 샤이니스타 V`
+without repeating it in each Korean card or replacing the canonical set name.
+The compiled set retains these names with their language and region.
+
+For V-UNION cards, use `vUnionPart: top-left`, `top-right`, `bottom-left`, or
+`bottom-right` on each physical piece and link the assembly using a collection.
+Only enter fields actually printed on that piece; do not copy HP or attacks from
+another quadrant. LEGEND's two halves continue to use `legendPart`.
