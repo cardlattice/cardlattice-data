@@ -1,0 +1,36 @@
+name: ガルーラ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: まきかえす
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。
+    - name: ぶちかます
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 115
+  species: おやこポケモン
+  heightMetres: 2.2
+  weightKilograms: 80
+  flavourText: 袋から 抜け出して 遊んでいる 子どもには 近付いては いけない。 どこかで 母親が 見守っている。
+rarity: R
+illustrators:
+  - kawayoo

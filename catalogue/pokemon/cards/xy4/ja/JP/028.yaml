@@ -1,0 +1,32 @@
+name: エリキテル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: しっぽビンタ
+      cost:
+        - Lightning
+        - Colorless
+      damage: 10+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 694
+  species: はつでんポケモン
+  heightMetres: 0.5
+  weightKilograms: 6
+  flavourText: 砂漠で 生活する。 太陽の 光を 浴びて 発電すれば エサを 食べなくても 平気なのだ。
+rarity: C
+illustrators:
+  - HiRON

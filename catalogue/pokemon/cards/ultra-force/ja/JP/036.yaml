@@ -1,0 +1,38 @@
+name: ネクロズマ たそがれのたてがみ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: たそがれのだんがん
+      cost:
+        - Metal
+      text: 相手の「ポケモンGX・EX」1匹に、60ダメージ。このワザのダメージは、弱点・抵抗力を計算しない。
+    - name: ラスティネイル
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 100+
+      text: 相手のサイドの残り枚数が1枚なら、100ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 800
+  species: プリズムポケモン
+  heightMetres: 3.8
+  weightKilograms: 460
+  flavourText: ソルガレオの光を 喰らい続ける 姿。 敵に とびかかり 背中と 四肢のツメで 相手を 切り裂く。
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Shin Nagasawa

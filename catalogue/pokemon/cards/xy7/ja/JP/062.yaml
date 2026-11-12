@@ -1,0 +1,36 @@
+name: ペルシアン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ねこだまし
+      cost:
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: おそいかかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 53
+  species: シャムネコポケモン
+  heightMetres: 1
+  weightKilograms: 32
+  flavourText: しなやかな 筋肉の おかげで 足音ひとつ 立てずに 歩ける。 獲物を 狩るときは 一瞬。
+  evolvesFrom: ニャース
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

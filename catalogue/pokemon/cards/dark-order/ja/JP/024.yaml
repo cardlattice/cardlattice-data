@@ -1,0 +1,30 @@
+name: ミカルゲ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ソウルコンプレッサー
+      cost:
+        - Colorless
+      text: 自分の山札にあるポケモンを4枚まで、トラッシュする。そして山札を切る。
+    - name: ホロウショット
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 442
+  species: ふういんポケモン
+  heightMetres: 1
+  weightKilograms: 108
+  flavourText: ５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。
+rarity: C
+illustrators:
+  - HYOGONOSUKE

@@ -1,0 +1,39 @@
+name: ルナトーン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイクルドロー
+      cost:
+        - Psychic
+      text: 自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。
+    - name: ムーンキネシス
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: このポケモンについている{Psychic}エネルギーの数×30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 337
+  species: いんせきポケモン
+  heightMetres: 1
+  weightKilograms: 168
+  flavourText: 月の 満ち欠けと パワーの 増減が 関係 しているらしく 満月の 夜 活発になる。
+rarity: U
+illustrators:
+  - miki kudo
+stamps:
+  - pokemon-go

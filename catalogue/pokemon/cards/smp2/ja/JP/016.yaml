@@ -1,0 +1,37 @@
+name: ミュウツー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコジャック
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。
+    - name: ブレイクバーン
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "130"
+      text: このポケモンについている{Psychic}エネルギーを、2個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 150
+  species: いでんしポケモン
+  heightMetres: 2
+  weightKilograms: 122
+  flavourText: 何年もの 恐ろしい 遺伝子 研究を 続けた 結果 誕生した ポケモン。
+rarity: U
+illustrators:
+  - MPC Film

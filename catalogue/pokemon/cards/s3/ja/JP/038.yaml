@@ -1,0 +1,37 @@
+name: ゴチミル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: あまえごえ
+      cost:
+        - Psychic
+      text: 相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。
+    - name: ダブルスピン
+      cost:
+        - Psychic
+        - Colorless
+      damage: 30×
+      text: コインを2回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 575
+  species: あやつりポケモン
+  heightMetres: 0.7
+  weightKilograms: 18
+  flavourText: 星が 輝く 夜に 眠った 子どもたちを 連れ去ると 言われ 制裁の魔女 とも 呼ばれる。
+  evolvesFrom: ゴチム
+rarity: C
+illustrators:
+  - sowsow

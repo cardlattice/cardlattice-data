@@ -1,0 +1,11 @@
+name: バトルレポーター
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の手札が、相手の手札と同じ枚数になるように、自分の山札を引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Shin Nagasawa

@@ -1,0 +1,35 @@
+name: リザードンEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: つばさでうつ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+    - name: かえんばく
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 次の自分の番、このポケモンは「かえんばく」を使えない。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - Kouki Saitou

@@ -1,0 +1,37 @@
+name: ジバコイル
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: でんじほう
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "130"
+      text: 次の自分の番、このポケモンは「でんじほう」が使えない。
+  abilities:
+    - name: マグネサーキット
+      text: 自分の番に何回でも使える。自分の手札にある{Lightning}エネルギーを1枚、自分のポケモンにつける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 462
+  species: じばポケモン
+  heightMetres: 1.2
+  weightKilograms: 180
+  flavourText: 怪電波を 発信 しながら 空を 飛び回り 未知の 電波を 受信 していると いう。
+  evolvesFrom: レアコイル
+illustrators:
+  - Yoshinobu Saito

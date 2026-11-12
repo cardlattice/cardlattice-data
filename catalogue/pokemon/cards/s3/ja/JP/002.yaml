@@ -1,0 +1,36 @@
+name: パラセクト
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: きのこタックル
+      cost:
+        - Grass
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: ソーラービーム
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "110"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 47
+  species: きのこポケモン
+  heightMetres: 1
+  weightKilograms: 29.5
+  flavourText: ムシの 方は ほぼ 死んでいて 本体は 背中の キノコだ。 もげると もう 動かなくなる。
+  evolvesFrom: パラス
+rarity: C
+illustrators:
+  - Miki Tanaka

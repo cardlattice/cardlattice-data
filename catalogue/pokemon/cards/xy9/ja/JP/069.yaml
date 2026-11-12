@@ -1,0 +1,33 @@
+name: ニャルマー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ねこかぶり
+      cost:
+        - Colorless
+      text: 相手は相手自身の手札を1枚選び、山札の下にもどす。
+    - name: ひっかく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 431
+  species: ねこかぶりポケモン
+  heightMetres: 0.5
+  weightKilograms: 3.9
+  flavourText: ご機嫌な ニャルマーは 尻尾で 新体操の リボンのような 美しい 動きを 見せる。
+rarity: C
+illustrators:
+  - Saya Tsuruta

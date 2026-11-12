@@ -1,0 +1,37 @@
+name: カプ・ブルルGX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: つのでつく
+      cost:
+        - Grass
+      damage: "30"
+    - name: しぜんのさばき
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 120+
+      text: のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、60ダメージ追加。
+    - name: カプワイルドGX
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "150"
+      text: このポケモンのHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses: []
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - PLANETA

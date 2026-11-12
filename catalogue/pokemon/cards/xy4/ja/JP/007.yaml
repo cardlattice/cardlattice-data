@@ -1,0 +1,36 @@
+name: ハハコモリ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: コーディネート
+      cost:
+        - Grass
+      text: 「ポケモンのどうぐ」がついていない自分のベンチポケモンを2匹まで選ぶ。その後、選んだ数ぶんまでの「ポケモンのどうぐ」を自分の山札から選び、選んだポケモンそれぞれにつける。そして山札を切る。
+    - name: リーフストーム
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "70"
+      text: 自分の{Grass}ポケモン全員のHPを、それぞれ「20」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 542
+  species: こそだてポケモン
+  heightMetres: 1.2
+  weightKilograms: 20.5
+  flavourText: 幼い ポケモンを みつけると 口から 出す 粘着糸で 葉っぱの 服を 縫ってあげる。
+  evolvesFrom: クルマユ
+rarity: U
+illustrators:
+  - Atsuko Nishida

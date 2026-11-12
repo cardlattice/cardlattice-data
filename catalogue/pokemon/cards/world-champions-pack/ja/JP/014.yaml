@@ -1,0 +1,28 @@
+name: バシャーモ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ファイヤーストリーム
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 自分の{Fire}エネルギーを1個トラッシュし、相手のベンチポケモン全員にも、それぞれ10ダメージ。
+  abilities:
+    - name: たきつける
+      text: このパワーは、自分の番に1回使うことができる。自分のトラッシュから{Fire}エネルギーを1枚選び出し、自分のベンチポケモンにつける。このポケモンが特殊状態なら、このパワーを使うことはできない。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ワカシャモ
+rarity: ★ (silver)
+illustrators:
+  - Masakazu Fukuda

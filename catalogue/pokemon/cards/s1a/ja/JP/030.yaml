@@ -1,0 +1,40 @@
+name: クワガノン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: パワフルストーム
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 自分の場のポケモンについているエネルギーの数×20ダメージ追加。
+    - name: でんげきビーム
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 738
+  species: くわがたポケモン
+  heightMetres: 1.5
+  weightKilograms: 45
+  flavourText: お腹で 発電した 電気を 大きな 顎で 収束させて 大出力の ビームを 撃つ。
+  evolvesFrom: デンヂムシ
+rarity: R
+illustrators:
+  - kawayoo

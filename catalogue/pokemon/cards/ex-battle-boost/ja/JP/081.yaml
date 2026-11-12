@@ -1,0 +1,36 @@
+name: モノズ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: うなりごえ
+      cost:
+        - Darkness
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: パワーブレス
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 633
+  species: そぼうポケモン
+  heightMetres: 0.8
+  weightKilograms: 17.3
+  flavourText: なんにでも かみつく 習性。 食べられるものは なんでも 食べる。 うかつに 近寄ると 危険だ。
+illustrators:
+  - Akira Komayama
+variants:
+  first-edition:
+    edition: first-edition

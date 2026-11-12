@@ -1,0 +1,28 @@
+name: ユキワラシ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: スノーアイス
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 361
+  species: ゆきかさポケモン
+  heightMetres: 0.7
+  weightKilograms: 16.8
+  flavourText: おいしそうな 雪だるま！ こっそり かじっちゃおう。 大丈夫 だあれも 見てないよ？
+rarity: C
+illustrators:
+  - MAHOU

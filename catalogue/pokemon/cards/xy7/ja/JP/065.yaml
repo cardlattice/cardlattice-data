@@ -1,0 +1,36 @@
+name: ポリゴン2
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: かくばる
+      cost:
+        - Colorless
+      damage: "20"
+    - name: トライアタック
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: コインを3回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 233
+  species: バーチャルポケモン
+  heightMetres: 0.6
+  weightKilograms: 32.5
+  flavourText: 惑星開発用の プログラムが インストールされている。 真空の 宇宙でも 活動できるのだ。
+  evolvesFrom: ポリゴン
+rarity: C
+illustrators:
+  - MAHOU

@@ -1,0 +1,37 @@
+name: ペロリーム
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: ひかりのはどう
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 次の相手の番、このポケモンは相手のポケモンが使うワザの効果を受けない。
+  abilities:
+    - name: テイスティング
+      text: 自分の山札を1枚引く。このポケモンがバトル場にいるなら、さらに1枚引く。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 685
+  species: ホイップポケモン
+  heightMetres: 0.8
+  weightKilograms: 5
+  flavourText: わずかな においでも かぎわける 敏感な きゅうかくを 活かして パティシエの 手伝いを している。
+  evolvesFrom: ペロッパフ
+rarity: R
+illustrators:
+  - sui

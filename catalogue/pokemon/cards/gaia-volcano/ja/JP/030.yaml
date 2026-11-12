@@ -1,0 +1,39 @@
+name: サイドン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: とっしん
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: このポケモンにも10ダメージ。
+    - name: つのドリル
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 112
+  species: ドリルポケモン
+  heightMetres: 1.9
+  weightKilograms: 120
+  flavourText: 進化して 後ろ足だけで 立つようになった。 ツノで 突かれると 岩石にも 穴が 開いてしまう。
+  evolvesFrom: サイホーン
+rarity: C
+illustrators:
+  - Shin Nagasawa

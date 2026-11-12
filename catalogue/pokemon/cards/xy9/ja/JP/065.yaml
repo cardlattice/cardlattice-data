@@ -1,0 +1,32 @@
+name: ラッタ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ダーティショック
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをどくにする。相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。
+  abilities:
+    - name: こうたい
+      text: このポケモンは特殊状態にならない。（受けている特殊状態は、すべて回復する。）
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 20
+  species: ねずみポケモン
+  heightMetres: 0.7
+  weightKilograms: 18.5
+  flavourText: 後ろ足に ついた 水かきを 使って 川を 渡り 広い 範囲で エサを 探し回る。
+  evolvesFrom: コラッタ
+rarity: C
+illustrators:
+  - Kagemaru Himeno

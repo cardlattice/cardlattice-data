@@ -1,0 +1,32 @@
+name: アシマリ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Water
+      damage: "10"
+    - name: みずでっぽう
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 728
+  species: あしかポケモン
+  heightMetres: 0.4
+  weightKilograms: 7.5
+  flavourText: 頑張り屋な 性質で 有名。 体液を 鼻で 膨らませた バルーンを 敵に ぶつける。
+illustrators:
+  - Kouki Saitou

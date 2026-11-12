@@ -1,0 +1,33 @@
+name: オニシズクモ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: アクアエッジ
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: すいほう
+      text: このポケモンは、相手の{Fire}ポケモンからワザのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 752
+  species: すいほうポケモン
+  heightMetres: 1.8
+  weightKilograms: 82
+  flavourText: 頭部の 水泡で ヘッドバット。 小さなポケモンで あれば そのまま 水泡に 取り込まれ 溺れ死ぬ。
+  evolvesFrom: シズクモ
+illustrators:
+  - Shin Nagasawa

@@ -1,0 +1,11 @@
+name: モーモーチーズ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - エネルギーがついている自分のポケモンを2匹まで選び、HPをそれぞれ「30」回復する。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - 5ban Graphics

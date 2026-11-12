@@ -1,0 +1,35 @@
+name: ニャヒート
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ほえる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: ツメできりさく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 726
+  species: ひねこポケモン
+  heightMetres: 0.7
+  weightKilograms: 25
+  flavourText: 前足の 力が 自慢。 パンチの 一撃で 鉄の棒も へし曲げて しまうのだ。
+  evolvesFrom: ニャビー
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

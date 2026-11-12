@@ -1,0 +1,28 @@
+name: コイル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+      damage: "10"
+    - name: スパーク
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+      text: 相手のベンチポケモン1匹にも、10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Metal
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Hajime Kusajima

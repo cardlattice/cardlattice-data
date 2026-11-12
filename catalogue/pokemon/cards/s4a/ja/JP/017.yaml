@@ -1,0 +1,27 @@
+name: カジッチュ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: からにこもる
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 840
+  species: りんごぐらしポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.5
+  flavourText: 一生 りんごの 中で 暮らし 天敵の 鳥ポケモンに 出会うと りんごの 振りをして 身を守る。
+illustrators:
+  - Kagemaru Himeno

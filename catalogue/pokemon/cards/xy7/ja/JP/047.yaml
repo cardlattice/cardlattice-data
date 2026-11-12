@@ -1,0 +1,36 @@
+name: ダンバル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Metal
+      damage: "10"
+    - name: かいてんアタック
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 374
+  species: てっきゅうポケモン
+  heightMetres: 0.6
+  weightKilograms: 95.2
+  flavourText: 磁力の 波長で 仲間と 会話する。 群れになった ダンバルは 一糸乱れぬ 動きを する。
+rarity: C
+illustrators:
+  - Yuka Morii

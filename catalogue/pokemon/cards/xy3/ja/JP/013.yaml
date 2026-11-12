@@ -1,0 +1,37 @@
+name: ワカシャモ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: くうちゅうさっぽう
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 256
+  species: わかどりポケモン
+  heightMetres: 0.9
+  weightKilograms: 19.5
+  flavourText: １秒間に キックを １０発 繰り出す 足技の 持ち主。 鋭い 鳴き声で 威嚇する。
+  evolvesFrom: アチャモ
+rarity: C
+illustrators:
+  - Shin Nagasawa

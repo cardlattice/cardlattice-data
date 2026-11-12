@@ -1,0 +1,35 @@
+name: デデンネ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: なかまづくり
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。
+    - name: エネショート
+      cost:
+        - Colorless
+      damage: 20×
+      text: 相手のバトルポケモンについているエネルギーの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 702
+  species: アンテナポケモン
+  heightMetres: 0.2
+  weightKilograms: 2.2
+  flavourText: ヒゲが アンテナの 役割。 電波を 送受信して 遠くの 仲間と 連絡を 取り合うのだ。
+rarity: U
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,35 @@
+name: ニューラ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: フラッシュクロー
+      cost:
+        - Darkness
+        - Colorless
+      text: 相手は相手自身の手札を1枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 215
+  species: かぎづめポケモン
+  heightMetres: 0.9
+  weightKilograms: 28
+  flavourText: 住処から タマゴを かすめ取り 食べてしまう。 鋭い カギヅメが 相手の 急所を 切り裂く。
+rarity: C
+illustrators:
+  - Mizue

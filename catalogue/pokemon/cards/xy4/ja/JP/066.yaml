@@ -1,0 +1,31 @@
+name: オニスズメ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ふきとばし
+      cost:
+        - Colorless
+      damage: "10"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 21
+  species: ことりポケモン
+  heightMetres: 0.3
+  weightKilograms: 2
+  flavourText: 自分の テリトリーを 守るため 短い 羽を はばたかせて 忙しく 飛び回っている。
+rarity: C
+illustrators:
+  - Mizue

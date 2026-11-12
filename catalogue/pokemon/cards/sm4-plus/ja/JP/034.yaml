@@ -1,0 +1,32 @@
+name: アローラ ベトベター
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくのいき
+      cost: []
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+    - name: はたく
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 88
+  species: ヘドロポケモン
+  heightMetres: 0.7
+  weightKilograms: 42
+  flavourText: 結晶は 毒素の 塊。 ベトベターの 身体から 落ちると 死に至る 毒素が 漏れだすぞ。
+illustrators:
+  - Naoki Saito

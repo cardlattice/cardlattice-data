@@ -1,0 +1,33 @@
+name: ポッタイシ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: みずしぶき
+      cost:
+        - Water
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 394
+  species: ペンギンポケモン
+  heightMetres: 0.8
+  weightKilograms: 23
+  flavourText: どの ポッタイシも 自分が 一番 偉いと 考えるため 群れを 作ることは 不可能だ。
+  evolvesFrom: ポッチャマ
+illustrators:
+  - Miki Tanaka
+variants:
+  first-edition:
+    edition: first-edition

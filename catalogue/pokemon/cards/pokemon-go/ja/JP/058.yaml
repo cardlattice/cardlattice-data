@@ -1,0 +1,35 @@
+name: エテボース
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: なげつけMAX
+      cost:
+        - Colorless
+      damage: 60×
+      text: このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×60ダメージ。
+  abilities:
+    - name: さるわざ
+      text: このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 424
+  species: おながポケモン
+  heightMetres: 1.2
+  weightKilograms: 20.3
+  flavourText: なにを するにも シッポを 使う。 ２本の シッポで 抱きしめられたら 本当に 懐かれた 証。
+  evolvesFrom: エイパム
+rarity: C
+illustrators:
+  - Scav
+stamps:
+  - pokemon-go

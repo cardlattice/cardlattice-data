@@ -1,0 +1,33 @@
+name: スピアー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: するどいはり
+      cost:
+        - Grass
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: しんしゅつきぼつ
+      text: 自分の番に、自分の手札がこのカード1枚だけなら、1回使える。このカードをベンチに出す。その後、自分の山札を3枚引く。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 15
+  species: どくばちポケモン
+  heightMetres: 1
+  weightKilograms: 29.5
+  flavourText: 集団で 現れることもある。 猛スピードで 飛び回り お尻の 毒針で 刺しまくる。
+  evolvesFrom: コクーン
+rarity: U
+illustrators:
+  - KEIICHIRO ITO

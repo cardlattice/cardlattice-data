@@ -1,0 +1,8 @@
+name: EXバトルブースト
+language: ja
+region: JP
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: EBB
+printedDenominator: 93

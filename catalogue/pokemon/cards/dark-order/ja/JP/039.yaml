@@ -1,0 +1,35 @@
+name: コマタナ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: こうちょく
+      cost:
+        - Metal
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: ひっかく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 624
+  species: はものポケモン
+  heightMetres: 0.5
+  weightKilograms: 10.2
+  flavourText: 自分が 傷ついても 気にせず 集団で 全身の 刃物を 食いこませ 相手を 攻撃する。
+rarity: C
+illustrators:
+  - Masakazu Fukuda

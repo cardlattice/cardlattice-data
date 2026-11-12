@@ -1,0 +1,33 @@
+name: チラチーノ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: エネアシスト
+      cost:
+        - Colorless
+      damage: "40"
+      text: 自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。
+  abilities:
+    - name: やりくり
+      text: 自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 573
+  species: スカーフポケモン
+  heightMetres: 0.5
+  weightKilograms: 7.5
+  flavourText: 塵ひとつ 許せない 潔癖。 体から 染み出る 油を 巣に 塗りつけ コーティングする。
+  evolvesFrom: チラーミィ
+rarity: S
+illustrators:
+  - kirisAki

@@ -1,0 +1,37 @@
+name: ジュラルドン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: メタルシャープナー
+      cost:
+        - Colorless
+      damage: "30"
+      text: 自分のトラッシュから{Metal}エネルギーを1枚選び、自分のポケモンにつける。
+    - name: パワービーム
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "110"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 884
+  species: ごうきんポケモン
+  heightMetres: 1.8
+  weightKilograms: 40
+  flavourText: 磨きあげた 金属の ような 体は 軽いうえに 硬いが 錆びやすいのが 欠点なのだ。
+rarity: S
+illustrators:
+  - Souichirou Gunjima

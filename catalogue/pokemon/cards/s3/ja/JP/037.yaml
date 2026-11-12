@@ -1,0 +1,35 @@
+name: ゴチム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: フォーチュンアイ
+      cost:
+        - Psychic
+      text: 相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: ひっぱたく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 574
+  species: ぎょうしポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  flavourText: まだまだ 赤ちゃん だけれど リボンに 似た 触角に 溜めた サイコパワーで 戦うこともある。
+rarity: C
+illustrators:
+  - Mizue

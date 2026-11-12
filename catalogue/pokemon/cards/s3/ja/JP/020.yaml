@@ -1,0 +1,33 @@
+name: ガラル ダルマッカ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ずつき
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 554
+  species: だるまポケモン
+  heightMetres: 0.7
+  weightKilograms: 40
+  flavourText: 雪深い 土地で 暮らすうち 炎袋は 冷えきり 退化。 冷気を つくる 器官が できた。
+rarity: C
+illustrators:
+  - Shin Nagasawa

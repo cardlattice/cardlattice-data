@@ -1,0 +1,27 @@
+name: ワカシャモ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: とびかかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: コインを1回投げウラなら、このワザは失敗する。
+  abilities:
+    - name: しぜんかいふく
+      text: このポケモンに、手札から{Fire}エネルギーをつけたとき、このポケモンの特殊状態は、すべて回復する。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: アチャモ
+rarity: ◆
+illustrators:
+  - Atsuko Nishida

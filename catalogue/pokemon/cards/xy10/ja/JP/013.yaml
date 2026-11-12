@@ -1,0 +1,28 @@
+name: パウワウ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: スノーアイス
+      cost:
+        - Water
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 86
+  species: あしかポケモン
+  heightMetres: 1.1
+  weightKilograms: 90
+  flavourText: 水色の 体毛に 覆われた 皮膚は 分厚くて 丈夫。 零下４０度でも 活動できる。
+rarity: C
+illustrators:
+  - Hasuno

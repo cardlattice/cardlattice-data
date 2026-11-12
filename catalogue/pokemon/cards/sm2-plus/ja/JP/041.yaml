@@ -1,0 +1,30 @@
+name: モンメン
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: れんぞくころがり
+      cost:
+        - Colorless
+      damage: 10×
+      text: ウラが出るまでコインを投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 546
+  species: わたたまポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.6
+  flavourText: 仲間を みつけると くっつく。 あまりに たくさん くっつきすぎて 入道雲 みたいになることも。
+illustrators:
+  - Megumi Mizutani

@@ -1,0 +1,36 @@
+name: モルフォン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: めまいのかぜ
+      cost:
+        - Grass
+      text: 次の相手の番、相手は手札からトレーナーズを出して使うとき、コインを1回投げる。ウラなら、そのカードの効果は使えず、そのカードをトラッシュする。
+    - name: もうどくりんぷん
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンをどくとこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 49
+  species: どくがポケモン
+  heightMetres: 1.5
+  weightKilograms: 12.5
+  flavourText: ばらまかれた りんぷんに 触れると 体の 感覚が おかしくなって まっすぐ 立っていられなくなる。
+  evolvesFrom: コンパン
+rarity: U
+illustrators:
+  - 5ban Graphics

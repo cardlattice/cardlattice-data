@@ -1,0 +1,35 @@
+name: エネコロロ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: みわくのしっぽ
+      cost:
+        - Colorless
+      text: 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。
+    - name: ムーンインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 301
+  species: おすましポケモン
+  heightMetres: 1.1
+  weightKilograms: 32.6
+  flavourText: 美しい 毛並みを 持ち 女性トレーナーに 大人気。 決まった 住処を 持たない。
+  evolvesFrom: エネコ
+rarity: U
+illustrators:
+  - Tika Matsuno

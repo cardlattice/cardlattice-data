@@ -1,0 +1,28 @@
+name: ワンリキー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: スマッシュパンチ
+      cost:
+        - Colorless
+      damage: "20"
+      text: コインを1回投げウラなら、このワザは失敗する。
+    - name: じごくぐるま
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+      text: 自分にも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,36 @@
+name: アイアント
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: えさあつめ
+      cost:
+        - Colorless
+      text: このポケモンについているエネルギーの数ぶんまで、自分の山札からトレーナーズを選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: メタルクロー
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 632
+  species: てつアリポケモン
+  heightMetres: 0.3
+  weightKilograms: 33
+  flavourText: 巣の 奥深くに タマゴを 産む。 クイタランに 襲われると 大きな 顎で 噛みついて 反撃。
+rarity: C
+illustrators:
+  - Hideki Ishikawa

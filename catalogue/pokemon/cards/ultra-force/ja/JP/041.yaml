@@ -1,0 +1,11 @@
+name: ビーストリング
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - このカードは、相手のサイドの残り枚数が、4枚または3枚でなければ使えない。
+      自分の山札にある基本エネルギーを2枚まで、自分の「ウルトラビースト」1匹につける。そして山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

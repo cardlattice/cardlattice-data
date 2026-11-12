@@ -1,0 +1,38 @@
+name: バルジーナ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ゴミおとし
+      cost:
+        - Darkness
+      text: 自分の手札にあるグッズを1枚トラッシュし、相手のポケモン1匹に、弱点・抵抗力を計算せず、60ダメージ。トラッシュできないなら、このワザは失敗。
+    - name: ブレイブバード
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 630
+  species: ほねわしポケモン
+  heightMetres: 1.2
+  weightKilograms: 39.5
+  flavourText: 大空を 旋回 しながら 弱った ポケモンを 狙っている。 大好物は カラカラ。
+  evolvesFrom: バルチャイ
+rarity: U
+illustrators:
+  - Ayaka Yoshida

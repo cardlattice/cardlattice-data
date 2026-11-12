@@ -1,0 +1,35 @@
+name: ヤドキング
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ながれつく
+      cost:
+        - Psychic
+      text: 自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。
+    - name: まるごし
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "110"
+      text: このワザは、自分の手札が1枚もないなら、このワザに必要なエネルギーがこのポケモンについていなくても、使える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 199
+  species: おうじゃポケモン
+  heightMetres: 2
+  weightKilograms: 79.5
+  flavourText: 噛まれた 毒素の 影響で 天才的 頭脳の 持ち主に。 サイコパワーを 自在に 操る。
+  evolvesFrom: ヤドン
+illustrators:
+  - Eri Yamaki

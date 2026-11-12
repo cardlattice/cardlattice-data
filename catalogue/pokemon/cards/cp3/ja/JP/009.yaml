@@ -1,0 +1,34 @@
+name: ユキメノコ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ゆきのしずく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: ダメカン4個を、相手のポケモンに好きなようにのせる。
+  abilities:
+    - name: つれだつ
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、コインを1回投げる。オモテなら、ワザを使ったポケモンをきぜつさせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 478
+  species: ゆきぐにポケモン
+  heightMetres: 1.3
+  weightKilograms: 26.6
+  flavourText: 春が来てしまったから さようなら。
+  evolvesFrom: ユキワラシ
+rarity: U
+illustrators:
+  - Shin Nagasawa

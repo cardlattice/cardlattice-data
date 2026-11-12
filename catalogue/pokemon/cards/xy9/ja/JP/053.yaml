@@ -1,0 +1,37 @@
+name: コノハナ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: どつく
+      cost:
+        - Darkness
+      damage: "20"
+    - name: かまいたち
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 274
+  species: いじわるポケモン
+  heightMetres: 1
+  weightKilograms: 28
+  flavourText: 森の 奥深くに 生息。 頭の 葉っぱで 笛を 作り 不安に させる 音色を 出す。
+  evolvesFrom: タネボー
+rarity: C
+illustrators:
+  - Yuka Morii

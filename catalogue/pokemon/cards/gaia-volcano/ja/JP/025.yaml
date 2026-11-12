@@ -1,0 +1,33 @@
+name: ニドラン♀
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: かみつく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 29
+  species: どくばりポケモン
+  heightMetres: 0.4
+  weightKilograms: 7
+  flavourText: 小柄で とても おとなしい。 襲われると 小さな 毒針を 使って 戦い 身を 守る。
+rarity: C
+illustrators:
+  - Mizue

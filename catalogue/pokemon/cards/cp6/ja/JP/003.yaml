@@ -1,0 +1,30 @@
+name: キャタピー
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: いとをはく
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 10
+  species: いもむしポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.9
+  flavourText: 緑の 皮膚に 覆われている。 脱皮して 成長すると 糸を かけて サナギに かわる。
+  level: 13
+rarity: C
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,32 @@
+name: メルメタルVMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Metal
+  stage: VMAX
+  attacks:
+    - name: キョダイパンツァー
+      cost:
+        - Metal
+        - Metal
+        - Metal
+      damage: 160+
+      text: このワザを使うためのエネルギーより、多くついている{Metal}エネルギーの数×60ダメージ追加。追加できるダメージは{Metal}エネルギー2個ぶんまで。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  evolvesFrom: メルメタルV
+rarity: RRR
+illustrators:
+  - PLANETA Tsuji

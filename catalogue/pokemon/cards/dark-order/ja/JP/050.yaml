@@ -1,0 +1,11 @@
+name: クチナシ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分のトラッシュにある{Darkness}タイプのたねポケモン1枚を、自分の場のポケモン1匹と入れ替える（ついているカード・ダメカン・特殊状態・かかっている効果などは、すべて引きつぐ）。入れ替えたポケモンはトラッシュする。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Ken Sugimori

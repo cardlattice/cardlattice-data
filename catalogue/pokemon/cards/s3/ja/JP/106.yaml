@@ -1,0 +1,34 @@
+name: ムゲンダイナV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: パワーアクセル
+      cost:
+        - Colorless
+      damage: "30"
+      text: のぞむなら、自分の手札から{Darkness}エネルギーを1枚選び、ベンチポケモンにつける。
+    - name: ダイマックスほう
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - 5ban Graphics

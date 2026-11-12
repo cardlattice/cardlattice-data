@@ -1,0 +1,34 @@
+name: ベトベター
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ふみならす
+      cost:
+        - Darkness
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: ヘドロのうず
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 88
+  species: ヘドロポケモン
+  heightMetres: 0.9
+  weightKilograms: 30
+  flavourText: 最近は 工場が 流す 廃液が 綺麗で エサが ない。 じき 絶滅すると いわれている。
+rarity: C
+illustrators:
+  - Ryota Murayama

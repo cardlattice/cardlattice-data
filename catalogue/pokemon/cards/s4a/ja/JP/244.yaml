@@ -1,0 +1,38 @@
+name: パッチラゴン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: アッパーでんりゅう
+      cost:
+        - Lightning
+      damage: "30"
+      text: 次の自分の番、このポケモンの「アッパーでんりゅう」のダメージは「+90」される。
+    - name: ギガインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 880
+  species: かせきポケモン
+  heightMetres: 1.8
+  weightKilograms: 190
+  flavourText: 古代では たくましい 下半身で 無敵だったが 餌の 植物を 食べつくしてしまい 絶滅した。
+  evolvesFrom: めずらしい化石
+rarity: S
+illustrators:
+  - Shin Nagasawa

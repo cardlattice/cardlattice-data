@@ -1,0 +1,35 @@
+name: ゲンシカイオーガEX
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Water
+  stage: MEGA
+  attacks:
+    - name: タイダルストーム
+      cost:
+        - Water
+        - Water
+        - Water
+        - Colorless
+      damage: "150"
+      text: このポケモンについているエネルギーを2個選び、自分のベンチポケモン1匹につけ替える。相手のベンチの「ポケモンEX」全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: Θ（シータ）マックス
+      text: このポケモンになったとき、このポケモンのHPをすべて回復する。
+      kind: Ancient Trait
+  rules:
+    - ゲンシカイオーガEXになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: カイオーガEX
+rarity: UR
+illustrators:
+  - 5ban Graphics

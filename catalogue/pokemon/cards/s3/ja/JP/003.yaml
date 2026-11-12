@@ -1,0 +1,35 @@
+name: マスキッパ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: おんがえし
+      cost:
+        - Colorless
+      damage: "20"
+      text: のぞむなら、自分の手札が5枚になるように、山札を引く。
+    - name: ギガドレイン
+      cost:
+        - Grass
+        - Colorless
+      damage: "40"
+      text: 相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 455
+  species: むしとりポケモン
+  heightMetres: 1.4
+  weightKilograms: 27
+  flavourText: 湿地帯に 生える 木に巻きつき 甘い香りの だえきで 獲物を 誘き寄せては ひとくちで 食べる。
+rarity: C
+illustrators:
+  - Masakazu Fukuda

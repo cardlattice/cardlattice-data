@@ -1,0 +1,35 @@
+name: ジャローダ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: とぐろをまく
+      cost:
+        - Colorless
+      damage: "40"
+      text: 次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+60」される。
+    - name: スラッシュダウン
+      cost:
+        - Grass
+      damage: "80"
+      text: 次の自分の番、このポケモンは「スラッシュダウン」が使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 497
+  species: ロイヤルポケモン
+  heightMetres: 3.3
+  weightKilograms: 63
+  flavourText: にらむだけで 相手の 動きを 止めてしまう。 太陽エネルギーを 体内で 増幅させる。
+  evolvesFrom: ジャノビー
+rarity: U
+illustrators:
+  - You Iribi

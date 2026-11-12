@@ -1,0 +1,33 @@
+name: ヨーギラス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: すなしぶき
+      cost:
+        - Fighting
+      damage: "10"
+    - name: つきさす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 246
+  species: いわはだポケモン
+  heightMetres: 0.6
+  weightKilograms: 72
+  flavourText: 地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

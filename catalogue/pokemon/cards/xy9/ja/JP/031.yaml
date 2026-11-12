@@ -1,0 +1,31 @@
+name: シママ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: とつげき
+      cost:
+        - Colorless
+      damage: "20"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 522
+  species: たいでんポケモン
+  heightMetres: 0.8
+  weightKilograms: 29.8
+  flavourText: 放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。
+rarity: C
+illustrators:
+  - Aya Kusube

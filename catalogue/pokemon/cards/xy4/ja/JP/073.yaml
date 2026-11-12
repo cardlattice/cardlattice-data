@@ -1,0 +1,37 @@
+name: バクオング
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: ばくおんぱ
+      cost:
+        - Colorless
+        - Colorless
+      text: 相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: ハイパーボイス
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 295
+  species: そうおんポケモン
+  heightMetres: 1.5
+  weightKilograms: 84
+  flavourText: バクオングの 遠ぼえは １０キロ 先まで 届く。 体中の 穴から さまざまな 音を 出す。
+  evolvesFrom: ドゴーム
+rarity: U
+illustrators:
+  - Kouki Saitou

@@ -1,0 +1,43 @@
+name: ディアルガGX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: クロックアップ
+      cost:
+        - Metal
+      text: 自分の手札が6枚になるように、山札を引く。
+    - name: ひきさく
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。
+    - name: タイムレスGX
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: この番が終わったら、もう1回自分の番を始める。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+rarity: SR
+illustrators:
+  - 5ban Graphics

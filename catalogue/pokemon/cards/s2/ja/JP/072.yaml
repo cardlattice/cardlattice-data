@@ -1,0 +1,39 @@
+name: ハッサム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: しゅうげき
+      cost:
+        - Metal
+      damage: 30+
+      text: この番、このポケモンが「ストライク」から進化していたなら、90ダメージ追加。
+    - name: ガードクロー
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 212
+  species: はさみポケモン
+  heightMetres: 1.8
+  weightKilograms: 118
+  flavourText: １度 敵と 判断した ものは 鋼鉄の 硬さを もつ ハサミで 粉々になるまで 殴り続ける。
+  evolvesFrom: ストライク
+rarity: U
+illustrators:
+  - Ryuta Fuse

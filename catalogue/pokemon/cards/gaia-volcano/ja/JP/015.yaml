@@ -1,0 +1,37 @@
+name: マグカルゴ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: はじけるほのお
+      cost:
+        - Fire
+      damage: "20"
+      text: 相手のベンチポケモンを2匹選び、そのポケモンにも、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 219
+  species: ようがんポケモン
+  heightMetres: 0.8
+  weightKilograms: 55
+  flavourText: 体は いつも 波打っていて 溶岩のように 熱い。 ときどき 殻から 火の粉が漏れる。
+  evolvesFrom: マグマッグ
+rarity: U
+illustrators:
+  - Shigenori Negishi

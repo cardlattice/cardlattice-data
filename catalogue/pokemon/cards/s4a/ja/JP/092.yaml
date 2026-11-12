@@ -1,0 +1,29 @@
+name: ガラル デスマス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: とつげき
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 562
+  species: たましいポケモン
+  heightMetres: 0.5
+  weightKilograms: 1.5
+  flavourText: 呪いが 刻まれた 粘土板が デスマスに 憑りついた。 怨念 パワーを 吸いとっていると いう。
+illustrators:
+  - Akira Komayama

@@ -1,0 +1,39 @@
+name: シュバルゴ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: つきやぶる
+      cost:
+        - Metal
+      damage: "20"
+      text: 相手の手札からオモテを見ないで1枚選び、トラッシュする。
+    - name: スパイラルラッシュ
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 589
+  species: きへいポケモン
+  heightMetres: 1
+  weightKilograms: 33
+  flavourText: チョボマキから 奪った 殻で 体を 覆い ガードしながら ２本の ヤリで 突いてくる。
+  evolvesFrom: カブルモ
+rarity: U
+illustrators:
+  - Mitsuhiro Arita

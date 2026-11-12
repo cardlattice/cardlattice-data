@@ -1,0 +1,33 @@
+name: コクーン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: だっぴ
+      cost:
+        - Colorless
+      text: このポケモンのHPを「30」回復する。
+    - name: むしくい
+      cost:
+        - Grass
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 14
+  species: さなぎポケモン
+  heightMetres: 0.6
+  weightKilograms: 10
+  flavourText: 天敵に 見つからないように 葉っぱの 裏や 枝の すきまに 隠れて 進化の ときを 待つ。
+  evolvesFrom: ビードル
+rarity: C
+illustrators:
+  - Naoyo Kimura

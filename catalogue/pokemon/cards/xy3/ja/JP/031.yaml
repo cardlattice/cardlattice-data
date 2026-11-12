@@ -1,0 +1,39 @@
+name: ボルトロス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: らくらいパンチ
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、30ダメージを追加。
+    - name: いなずまなげ
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+      text: 次の自分の番、このポケモンは「いなずまなげ」が使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 642
+  species: らいげきポケモン
+  heightMetres: 1.5
+  weightKilograms: 61
+  flavourText: 尻尾の トゲから 電撃を 撃ち出す。 イッシュ地方の 空を 飛び回り 雷を 落とす。
+rarity: U
+illustrators:
+  - Hajime Kusajima

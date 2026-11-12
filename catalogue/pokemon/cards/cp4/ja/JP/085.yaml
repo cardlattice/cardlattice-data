@@ -1,0 +1,33 @@
+name: トゲキッス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fairy
+  stage: Stage 2
+  attacks:
+    - name: ようせいのかぜ
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: Δ（デルタ）進化
+      text: このカードは、最初の自分の番や出したばかりのポケモンからでも、手札から進化できる。
+      kind: Ancient Trait
+    - name: てんのめぐみ
+      text: この特性は、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から8枚見て、その中の基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどし、山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  evolvesFrom: トゲチック
+  flavourText: お互いの 存在を 認め合い 無駄に 争わない 人のために さまざまな 恵みを 分け与える。
+illustrators:
+  - PLANETA

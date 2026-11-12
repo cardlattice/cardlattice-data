@@ -1,0 +1,36 @@
+name: ベトベトン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: さんばいどく
+      cost:
+        - Darkness
+      text: 相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。
+    - name: ヘドロのうず
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 89
+  species: ヘドロポケモン
+  heightMetres: 1.2
+  weightKilograms: 30
+  flavourText: 病原菌を まき散らすので 駆除 し続けた 結果 数が 激減して しまった。
+  evolvesFrom: ベトベター
+rarity: U
+illustrators:
+  - Eri Yamaki

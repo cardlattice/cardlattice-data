@@ -1,0 +1,36 @@
+name: フォレトス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: アイアンフォール
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンのにげるために必要なエネルギーの数×20ダメージを追加。
+  abilities:
+    - name: トゲのあめ
+      text: この特性は、このカードを手札から出して進化させたとき、1回使える。相手のポケモン全員に、ダメカンをそれぞれ1個ずつのせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 205
+  species: みのむしポケモン
+  heightMetres: 1.2
+  weightKilograms: 125.8
+  flavourText: 鋼鉄の 殻で 守られている。 すきまから 目玉が のぞいているが 中身の 正体は ナゾのまま。
+  evolvesFrom: クヌギダマ
+rarity: U
+illustrators:
+  - Tomokazu Komiya

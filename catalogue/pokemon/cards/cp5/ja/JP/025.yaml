@@ -1,0 +1,37 @@
+name: イベルタル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: デスウイング
+      cost:
+        - Darkness
+      damage: "30"
+      text: 自分のトラッシュから{Darkness}エネルギーを1枚選び、ベンチポケモンにつける。
+    - name: やみのやいば
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "100"
+      text: コインを1回投げウラなら、次の自分の番、このポケモンはワザを使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 717
+  species: はかいポケモン
+  heightMetres: 5.8
+  weightKilograms: 203
+  flavourText: 寿命が つきるとき あらゆる 生き物の 命を 吸いつくし 繭の 姿に 戻るという。
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,36 @@
+name: ヨクバリス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: こそげおとす
+      cost:
+        - Colorless
+      damage: "20"
+      text: ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。
+    - name: しばいてにげる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: このポケモンと、ついているすべてのカードを、手札にもどす。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 820
+  species: よくばりポケモン
+  heightMetres: 0.6
+  weightKilograms: 6
+  flavourText: しっぽに 木の実を 溜めこむ。 溜めこみすぎて ポロポロ こぼすが 鈍いので 気がつかない。
+  evolvesFrom: ホシガリス
+rarity: U
+illustrators:
+  - Kouki Saitou

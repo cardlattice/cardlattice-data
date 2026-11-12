@@ -1,0 +1,29 @@
+name: フーパEX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: いじげんラッシュ
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      text: このポケモンについているエネルギーを2個トラッシュし、相手のポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: バンデットリング
+      text: この特性は、このカードを手札からベンチに出したとき、1回使える。自分の山札から「ポケモンEX」（「フーパEX」をのぞく）を3枚まで選び、相手に見せてから、手札に加える。そして山札を切る。
+      kind: Ability
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Ryota Murayama

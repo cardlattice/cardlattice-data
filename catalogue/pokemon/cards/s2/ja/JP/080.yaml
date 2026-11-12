@@ -1,0 +1,38 @@
+name: ハトーボー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: するどいはね
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+    - name: かぜおこし
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 520
+  species: のばとポケモン
+  heightMetres: 0.6
+  weightKilograms: 15
+  flavourText: 空を飛ぶ 速さは そこそこ。 どんな 遠く 離れても 主と 自分の 巣を 憶えている。
+  evolvesFrom: マメパト
+rarity: C
+illustrators:
+  - Saya Tsuruta

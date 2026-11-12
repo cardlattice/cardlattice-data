@@ -1,0 +1,37 @@
+name: レパルダス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: いちゃもん
+      cost:
+        - Darkness
+      damage: "30"
+      text: 相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。
+    - name: きりさく
+      cost:
+        - Darkness
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 510
+  species: れいこくポケモン
+  heightMetres: 1.1
+  weightKilograms: 37.5
+  flavourText: 美しい スタイルは 全身の 発達した 筋肉の おかげ。 音もたてずに 夜を 駆けぬける。
+  evolvesFrom: チョロネコ
+rarity: U
+illustrators:
+  - kawayoo

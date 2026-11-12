@@ -1,0 +1,11 @@
+name: ダイゴのアドバイス
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から、相手のポケモンの数ぶんまで、カードを引く。 （自分の手札が、このカードを含めて7枚以上なら、このカードを使うことはできない。）
+    - サポーターは、自分の番に1回だけ使うことができる。使ったら、自分のバトル場の横におき、自分の番の終わりにトラッシュする。
+rarity: ◆
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,12 @@
+name: ミュウツーソウルリンク
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンが「MミュウツーEX」になっても、自分の番は終わらない。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - 5ban Graphics

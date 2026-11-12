@@ -1,0 +1,34 @@
+name: ひかるミュウ
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: でんせつのみちびき
+      cost:
+        - Psychic
+      text: 自分の山札にあるエネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。
+    - name: ビーム
+      cost:
+        - Psychic
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 151
+  species: しんしゅポケモン
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。
+  subtypes:
+    - Shining
+illustrators:
+  - Sanosuke Sakuma
+rarity: Shining

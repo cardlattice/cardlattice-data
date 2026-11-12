@@ -1,0 +1,38 @@
+name: ニンフィア
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: おみやげ
+      cost:
+        - Psychic
+      text: 自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。
+    - name: ワンダーフラッシュ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 相手のバトルポケモンが{Dragon}ポケモンなら、90ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 700
+  species: むすびつきポケモン
+  heightMetres: 1
+  weightKilograms: 23.5
+  flavourText: リボンのような 触角から 敵意を 消す 波動を 発して 争いを やめさせる。
+  evolvesFrom: イーブイ
+rarity: R
+illustrators:
+  - Atsushi Furusawa
+stamps:
+  - pokemon-go

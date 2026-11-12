@@ -1,0 +1,30 @@
+name: ホルビー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ほるほる
+      cost:
+        - Colorless
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: たがやす
+      cost:
+        - Colorless
+      text: 自分のトラッシュから好きなカードを1枚選び、相手に見せてから、山札にもどす。そして山札を切る。
+  abilities:
+    - name: Ω（オメガ）連打
+      text: このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: シャベルのような 耳を 持つ。 穴掘りで 鍛えた 耳は 太い 根っこを 断ち切る 威力だ。
+rarity: C
+illustrators:
+  - Hitoshi Ariga

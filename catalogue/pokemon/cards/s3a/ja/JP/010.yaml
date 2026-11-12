@@ -1,0 +1,34 @@
+name: シェイミ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: やどりぎのタネ
+      cost:
+        - Grass
+      damage: "20"
+      text: このポケモンのHPを「20」回復する。
+    - name: はなはこび
+      cost:
+        - Grass
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、すべてウラにして切り、相手の山札の下にもどす。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 492
+  species: かんしゃポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.2
+  flavourText: グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。
+rarity: R
+illustrators:
+  - Shibuzoh.

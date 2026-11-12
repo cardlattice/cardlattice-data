@@ -1,0 +1,38 @@
+name: メガヤンマ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: とんぼがえり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: のぞむなら、このポケモンをベンチポケモンと入れ替える。
+    - name: カッターウインド
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 469
+  species: オニトンボポケモン
+  heightMetres: 1.9
+  weightKilograms: 51.5
+  flavourText: ６本の 脚で 大人を 抱えて 楽々と 飛ぶ ことが できる。 尻尾の 羽で バランスを とる。
+  evolvesFrom: ヤンヤンマ
+rarity: U
+illustrators:
+  - Uta

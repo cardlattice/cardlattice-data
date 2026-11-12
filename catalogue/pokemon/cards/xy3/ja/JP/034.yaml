@@ -1,0 +1,36 @@
+name: スリーパー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ハンドコントロール
+      cost:
+        - Psychic
+      text: 相手の手札を見る。のぞむなら、その中からサポートを1枚選んでよい。その場合、そのサポートを相手プレイヤーに使わせる。ただし、そのサポートの効果で選ぶカードやポケモンなどは、このワザを使ったプレイヤーが決める。（使ったサポートはトラッシュする。）
+    - name: さいみんはどう
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "60"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 97
+  species: さいみんポケモン
+  heightMetres: 1.6
+  weightKilograms: 75.6
+  flavourText: 振り子のようなものを 持ち歩く。 子供に 催眠術を かけて どこかへ 連れ去る 事件があった。
+  evolvesFrom: スリープ
+rarity: U
+illustrators:
+  - Shigenori Negishi

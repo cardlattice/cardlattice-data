@@ -1,0 +1,36 @@
+name: エレブー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: なぐる
+      cost:
+        - Lightning
+      damage: "10"
+    - name: おそいかかる
+      cost:
+        - Lightning
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 125
+  species: でんげきポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: 体の 表面には 電気が 流れている。 あたりが 暗いと 全身が 青白く 光るのだ。
+rarity: C
+illustrators:
+  - Naoki Saito

@@ -1,0 +1,39 @@
+name: ドクロッグ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: リベンジ
+      cost:
+        - Colorless
+      damage: 20+
+      text: 前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、70ダメージを追加。
+    - name: どくづき
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 454
+  species: どくづきポケモン
+  heightMetres: 1.3
+  weightKilograms: 44.4
+  flavourText: ドクロッグが 戦いの 前に のどを 鳴らすのは 毒袋に ためこんだ 毒を 練りこむためだ。
+  evolvesFrom: グレッグル
+illustrators:
+  - Naoki Saito
+variants:
+  first-edition:
+    edition: first-edition

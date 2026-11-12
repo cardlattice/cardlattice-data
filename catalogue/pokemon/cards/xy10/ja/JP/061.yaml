@@ -1,0 +1,36 @@
+name: ドゴーム
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: けとばす
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ふみつけ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを1回投げオモテなら、40ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 294
+  species: おおごえポケモン
+  heightMetres: 1
+  weightKilograms: 40.5
+  flavourText: 大声の 衝撃波で トラックを ひっくりかえしてしまう。 足を 踏みならして パワーアップ。
+  evolvesFrom: ゴニョニョ
+rarity: C
+illustrators:
+  - TOKIYA

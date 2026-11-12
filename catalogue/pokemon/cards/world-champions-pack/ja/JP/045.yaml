@@ -1,0 +1,35 @@
+name: カイリキー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: かわらわり
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: このワザは、相手の抵抗力・すべての効果に関係なく、ダメージを与える。
+    - name: クロスチョップ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、30ダメージを追加する。
+  abilities:
+    - name: はりきり
+      text: 相手の場にポケモンexがいるなら、このポケモンが使うワザの、バトルポケモンに与えるダメージは、「+30」される。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ゴーリキー
+rarity: ★
+illustrators:
+  - Ken Sugimori

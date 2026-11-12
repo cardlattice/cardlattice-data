@@ -1,0 +1,36 @@
+name: サナギラス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: すなしぶき
+      cost:
+        - Fighting
+      damage: "20"
+    - name: ロケットしんか
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 247
+  species: だんがんポケモン
+  heightMetres: 1.2
+  weightKilograms: 152
+  flavourText: 殻に 被われているが 自由に 飛びまわれる。 硬さと 速さを もつので 破壊力 抜群だ。
+  evolvesFrom: ヨーギラス
+rarity: C
+illustrators:
+  - Sekio

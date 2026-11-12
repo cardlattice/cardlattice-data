@@ -1,0 +1,39 @@
+name: ホエルオー
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ダイビング
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "40"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: おおうなばら
+      cost:
+        - Water
+        - Water
+        - Water
+        - Colorless
+      damage: "80"
+      text: 自分の{Water}ポケモン全員のHPを、それぞれ「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 321
+  species: うきくじらポケモン
+  heightMetres: 14.5
+  weightKilograms: 398
+  flavourText: 群れで 獲物を 追う 習性。 大きな 口で ヨワシの 群れごと 一気に 呑み込んでしまうぞ。
+  evolvesFrom: ホエルコ
+illustrators:
+  - OOYAMA

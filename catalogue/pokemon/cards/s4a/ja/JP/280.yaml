@@ -1,0 +1,28 @@
+name: クスネ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: そそのかす
+      cost:
+        - Darkness
+      text: 相手は相手自身の手札をすべてウラにして切り、相手の山札の下にもどす。その後、相手は山札を3枚引く。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 827
+  species: きつねポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.9
+  flavourText: ほかの ポケモンが みつけた 餌を 掠めて 暮らしている。 ふかふかの 肉球は 足音を たてない。
+rarity: S
+illustrators:
+  - Saya Tsuruta

@@ -1,0 +1,33 @@
+name: コイル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: マグネサーチ
+      cost:
+        - Colorless
+      text: 自分の山札にある{Lightning}エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。
+    - name: たいあたり
+      cost:
+        - Lightning
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 81
+  species: じしゃくポケモン
+  heightMetres: 0.3
+  weightKilograms: 6
+  flavourText: 電磁波を 放ち 空を 漂う。 電気を 喰っているときに 触ると 全身が ビリッと 痺れるぞ。
+illustrators:
+  - MAHOU

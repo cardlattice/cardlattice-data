@@ -1,0 +1,33 @@
+name: ヒヤップ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "10"
+    - name: かみつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 515
+  species: みずかけポケモン
+  heightMetres: 0.6
+  weightKilograms: 13.5
+  flavourText: 頭の ふさに ためた 水は 栄養 たっぷり。 植物に かけると 大きく 育つのだ。
+rarity: C
+illustrators:
+  - ryoma uratsuka

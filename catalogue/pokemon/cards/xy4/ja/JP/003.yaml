@@ -1,0 +1,32 @@
+name: ヤンヤンマ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: エアスラッシュ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 193
+  species: うすばねポケモン
+  heightMetres: 1.2
+  weightKilograms: 38
+  flavourText: 顔を 動かさずに ３６０度 すべてを 見渡す 目を 持つので 真後ろの 獲物も 見逃さない。
+rarity: C
+illustrators:
+  - Shin Nagasawa

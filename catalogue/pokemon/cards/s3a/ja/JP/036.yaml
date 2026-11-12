@@ -1,0 +1,33 @@
+name: ツボツボ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: やましぼり
+      cost:
+        - Fighting
+      text: ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札を上からトラッシュする。
+    - name: いわおとし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 213
+  species: はっこうポケモン
+  heightMetres: 0.6
+  weightKilograms: 20.5
+  flavourText: 甲羅に 木の実を たくわえている。 襲われないように 岩の 下に こもって じっとしている。
+rarity: C
+illustrators:
+  - Mizue

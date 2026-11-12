@@ -1,0 +1,37 @@
+name: ギギアル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: えんぐん
+      cost:
+        - Metal
+      text: 自分の山札から{Metal}ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: かいてんアタック
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 600
+  species: はぐるまポケモン
+  heightMetres: 0.6
+  weightKilograms: 51
+  flavourText: 本気の ときは でかギアの 外の 歯車と ちびギアが 合致。 回転速度が 飛躍 するのだ。
+  evolvesFrom: ギアル
+rarity: C
+illustrators:
+  - NC Empire

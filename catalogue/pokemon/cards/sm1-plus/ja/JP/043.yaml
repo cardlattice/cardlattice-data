@@ -1,0 +1,10 @@
+name: エネルギーリサイクル
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュにある基本エネルギーを5枚、相手に見せてから、山札にもどして切る。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

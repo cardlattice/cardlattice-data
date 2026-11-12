@@ -1,0 +1,37 @@
+name: フシギソウ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: よびよせアロマ
+      cost:
+        - Grass
+      text: 自分の山札からポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: はっぱカッター
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 2
+  species: たねポケモン
+  heightMetres: 1
+  weightKilograms: 13
+  flavourText: 背中の つぼみが 大きく 育ってくると ２本脚で 立つことが できなくなるらしい。
+  evolvesFrom: フシギダネ
+rarity: U
+illustrators:
+  - zig
+stamps:
+  - pokemon-go

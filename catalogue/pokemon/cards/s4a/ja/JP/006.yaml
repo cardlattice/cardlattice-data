@@ -1,0 +1,28 @@
+name: サルノリ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: みだれひっかき
+      cost:
+        - Colorless
+      damage: 10×
+      text: コインを3回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 810
+  species: こざるポケモン
+  heightMetres: 0.3
+  weightKilograms: 5
+  flavourText: 特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。
+illustrators:
+  - Naoki Saito

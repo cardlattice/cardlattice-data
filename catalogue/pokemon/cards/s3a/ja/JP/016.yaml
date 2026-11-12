@@ -1,0 +1,33 @@
+name: ラクライ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: もってくる
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。
+    - name: かみつく
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 309
+  species: いなずまポケモン
+  heightMetres: 0.6
+  weightKilograms: 15.2
+  flavourText: 静電気を 体毛に たくわえて 放電する。 嵐が 近づくと 全身から 火花を 散らす。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

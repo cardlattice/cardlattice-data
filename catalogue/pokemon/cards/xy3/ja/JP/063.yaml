@@ -1,0 +1,38 @@
+name: ズルズキン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: けたぐり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: ヘッドマシンガン
+      cost:
+        - Darkness
+        - Darkness
+      damage: 50×
+      text: コインを3回投げ、オモテの数×50ダメージ。このポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 560
+  species: あくとうポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: 脱皮した 皮を ずりあげて ダメージを 減らしつつ キック！ とさかが 大きいほど 偉そうだ。
+  evolvesFrom: ズルッグ
+rarity: C
+illustrators:
+  - match

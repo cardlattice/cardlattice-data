@@ -1,0 +1,35 @@
+name: ガーディ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: けりにげ
+      cost:
+        - Colorless
+      damage: "10"
+      text: このポケモンをベンチポケモンと入れ替える。
+    - name: ほのお
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 58
+  species: こいぬポケモン
+  heightMetres: 0.7
+  weightKilograms: 19
+  flavourText: ひとなつこく 誠実な 性格。 敵には 吠えて かみつき 追いはらおう とする。
+  level: 18
+rarity: C
+illustrators:
+  - Ken Sugimori

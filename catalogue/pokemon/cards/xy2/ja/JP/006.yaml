@@ -1,0 +1,35 @@
+name: コノハナ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: はっぱカッター
+      cost:
+        - Colorless
+      damage: "20"
+    - name: いあいぎり
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 274
+  species: いじわるポケモン
+  heightMetres: 1
+  weightKilograms: 28
+  flavourText: コノハナが 奏でる 草笛の 音色は 人を 不安にさせる。 森の 奥に 住んでいる。
+  evolvesFrom: タネボー
+rarity: C
+illustrators:
+  - Midori Harada

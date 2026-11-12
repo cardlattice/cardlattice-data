@@ -1,0 +1,32 @@
+name: ポッチャマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずしぶき
+      cost:
+        - Water
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 393
+  species: ペンギンポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.2
+  flavourText: 歩くのは 苦手で こけたりするが ポッチャマの プライドは 高く 気にせず 堂々と 胸を はる。
+illustrators:
+  - Mizue
+variants:
+  first-edition:
+    edition: first-edition

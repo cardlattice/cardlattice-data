@@ -1,0 +1,39 @@
+name: シルヴァディGX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ターボドライブ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。
+    - name: リベリオンGX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 相手のベンチポケモンの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: ジャイロユニット
+      text: このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: タイプ：ヌル
+rarity: RR
+illustrators:
+  - 5ban Graphics

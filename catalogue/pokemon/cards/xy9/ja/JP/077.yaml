@@ -1,0 +1,11 @@
+name: こわいおねえさん
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 場に出ているスタジアムをトラッシュする。その後、相手は相手自身の手札を3枚選び、トラッシュする。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Yusuke Ohmura

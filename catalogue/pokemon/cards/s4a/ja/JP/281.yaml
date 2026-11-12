@@ -1,0 +1,36 @@
+name: フォクスライ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: どろぼう
+      cost:
+        - Darkness
+      damage: "20"
+      text: 相手の手札を見て、その中からカードを1枚選び、相手の山札の下にもどす。
+    - name: やみのキバ
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 828
+  species: きつねポケモン
+  heightMetres: 1.2
+  weightKilograms: 19.9
+  flavourText: 狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。
+  evolvesFrom: クスネ
+rarity: S
+illustrators:
+  - Kagemaru Himeno

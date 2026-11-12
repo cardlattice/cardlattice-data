@@ -1,0 +1,34 @@
+name: ゲンシグラードンEX
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Fighting
+  stage: MEGA
+  attacks:
+    - name: ガイアボルケーノ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 100+
+      text: 場にスタジアムが出ているなら、100ダメージを追加。その後、そのスタジアムをトラッシュする。
+  abilities:
+    - name: Ω（オメガ）バリア
+      text: このポケモンは、相手が使うトレーナーズの効果を受けない。（ポケモンのどうぐ・スタジアムはのぞく。）
+      kind: Ancient Trait
+  rules:
+    - ゲンシグラードンEXになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: グラードンEX
+illustrators:
+  - 5ban Graphics

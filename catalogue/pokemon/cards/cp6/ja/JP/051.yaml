@@ -1,0 +1,34 @@
+name: ミュウ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ねんりき
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities:
+    - name: ニュートラルシールド
+      text: このポケモンは、相手の進化ポケモンからワザのダメージや効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 151
+  species: しんしゅポケモン
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: 今でも 幻の ポケモンと いわれる。 その姿を 見たものは 全国でも ほとんど いない。
+  level: 8
+rarity: R
+illustrators:
+  - Ken Sugimori

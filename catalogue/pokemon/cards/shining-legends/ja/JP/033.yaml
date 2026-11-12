@@ -1,0 +1,37 @@
+name: ライコウ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: とどろくらいめい
+      cost:
+        - Lightning
+      damage: "30"
+      text: 自分のトラッシュにある{Lightning}エネルギーを1枚、ベンチポケモンにつける。
+    - name: ライトニングボール
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 243
+  species: いかずちポケモン
+  heightMetres: 1.9
+  weightKilograms: 178
+  flavourText: 雨雲を 背負っているので どんなときでも 雷を 出せる。 雷とともに 落ちてきたという。
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

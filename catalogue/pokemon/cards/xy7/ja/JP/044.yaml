@@ -1,0 +1,31 @@
+name: ヤミラミ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: みわくのひとみ
+      cost:
+        - Darkness
+      text: 相手のトラッシュにあるサポートを1枚選び、このワザの効果として使う。
+    - name: ひっそりのせる
+      cost:
+        - Darkness
+        - Colorless
+      text: 相手のバトルポケモンにダメカンを3個のせる。
+  abilities: []
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 302
+  species: くらやみポケモン
+  heightMetres: 0.5
+  weightKilograms: 11
+  flavourText: 暗い 洞窟に 住処を 作り 鋭い ツメを 使って 宝石を 掘り出しては 食べる。
+rarity: C
+illustrators:
+  - Hitoshi Ariga

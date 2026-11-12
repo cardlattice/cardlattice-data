@@ -1,0 +1,35 @@
+name: ロトム
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: プラズマスラッシュ
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities:
+    - name: ロトモーター
+      text: 自分のトラッシュに「ポケモンのどうぐ」が9枚以上あるなら、このポケモンが使うワザに必要なエネルギーは、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 479
+  species: プラズマポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  flavourText: プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。
+illustrators:
+  - Naoyo Kimura

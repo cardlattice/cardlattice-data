@@ -1,0 +1,32 @@
+name: ガルーラEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: トリプルドロー
+      cost:
+        - Colorless
+      text: 自分の山札を3枚引く。
+    - name: おやこキック
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - Eske Yoshinob

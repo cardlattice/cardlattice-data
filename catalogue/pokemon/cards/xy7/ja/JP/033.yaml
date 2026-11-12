@@ -1,0 +1,35 @@
+name: ネンドール
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: まきもどす
+      cost:
+        - Psychic
+      text: 相手の進化しているポケモン全員の上から、それぞれ「進化カード」を1枚ずつはがして退化させる。はがしたカードは、相手の手札にもどす。
+    - name: はかいこうせん
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 344
+  species: どぐうポケモン
+  heightMetres: 1.5
+  weightKilograms: 108
+  flavourText: ２万年前の 古代人が 泥で 作った 人形に 命が 宿ったと 言われている。
+  evolvesFrom: ヤジロン
+rarity: U
+illustrators:
+  - Satoshi Shirai

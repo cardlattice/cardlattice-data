@@ -1,0 +1,36 @@
+name: ザシアン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: きんぞくぶそう
+      cost:
+        - Colorless
+      damage: "30"
+      text: 自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。
+    - name: アメイジングソード
+      cost:
+        - Grass
+        - Psychic
+        - Metal
+      damage: 150+
+      text: 相手の場に「ポケモンVMAX」がいるなら、150ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 888
+  species: つわものポケモン
+  heightMetres: 2.8
+  weightKilograms: 355
+  flavourText: かつての 得物で 武装した。 キョダイマックスポケモンも 一刀の もとに 切り捨てる。
+illustrators:
+  - Shin Nagasawa
+rarity: A

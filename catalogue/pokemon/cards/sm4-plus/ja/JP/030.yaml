@@ -1,0 +1,38 @@
+name: デンヂムシ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: しびれアゴ
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: ライトニングボール
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 737
+  species: バッテリーポケモン
+  heightMetres: 0.5
+  weightKilograms: 10.5
+  flavourText: 喰らった 餌を 消化 するとき 発生した 電気エネルギーを 電気袋に 溜め込んでいる。
+  evolvesFrom: アゴジムシ
+illustrators:
+  - Naoki Saito

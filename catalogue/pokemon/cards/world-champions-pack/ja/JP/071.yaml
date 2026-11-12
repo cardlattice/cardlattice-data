@@ -1,0 +1,29 @@
+name: ケッキング
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: はめつのいちげき
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 自分の基本エネルギーを1個トラッシュする。次の自分の番、自分はワザを使うことができない。（トラッシュできないなら、このワザは失敗する。）
+  abilities:
+    - name: なまけがお
+      text: このポケモンがバトル場にいるかぎり、相手のポケモン全員は、ポケパワーを使うことができない。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ヤルキモノ
+rarity: ★ (silver)
+illustrators:
+  - Midori Harada

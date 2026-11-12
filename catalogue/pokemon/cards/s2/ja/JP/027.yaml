@@ -1,0 +1,40 @@
+name: ガラル ヒヒダルマ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ふぶき
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: かちわりヘッド
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: 次の自分の番、このポケモンは「かちわりヘッド」が使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 555
+  species: だるまポケモン
+  heightMetres: 1.7
+  weightKilograms: 120
+  flavourText: 頭の 上の 雪玉に エサを しまって 持ち帰る。 吹雪の 日は 人里まで 降りてくる。
+  evolvesFrom: ガラル ダルマッカ
+rarity: U
+illustrators:
+  - Kouki Saitou

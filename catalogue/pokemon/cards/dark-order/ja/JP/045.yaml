@@ -1,0 +1,34 @@
+name: クレッフィ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: ないしょのカギ
+      text: このポケモンがいるかぎり、自分の{Metal}ポケモン全員の抵抗力は、すべて「-40」になる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 707
+  species: かぎたばポケモン
+  heightMetres: 0.2
+  weightKilograms: 3
+  flavourText: 頭の角を 金属の すき間に 突っ込んで 金属イオンを 吸う。 なぜか カギを 集めている。
+rarity: C
+illustrators:
+  - Shigenori Negishi

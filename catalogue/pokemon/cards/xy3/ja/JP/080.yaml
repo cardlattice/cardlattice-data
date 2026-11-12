@@ -1,0 +1,35 @@
+name: ミルホッグ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: もちものけんさ
+      cost:
+        - Colorless
+      text: 相手の手札を見て、その中のグッズを1枚選び、相手の山札にもどす。そして山札を切る。
+    - name: よくかみくだく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 505
+  species: けいかいポケモン
+  heightMetres: 1.1
+  weightKilograms: 27
+  flavourText: 体内の 発光物質で 目玉や 体を 光らせ 襲ってきた 敵を ひるませる。
+  evolvesFrom: ミネズミ
+rarity: C
+illustrators:
+  - Midori Harada

@@ -1,0 +1,36 @@
+name: ギモー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: かみつく
+      cost:
+        - Darkness
+      damage: "30"
+    - name: どげざつき
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 860
+  species: しょうわるポケモン
+  heightMetres: 0.8
+  weightKilograms: 12.5
+  flavourText: 土下座して 謝る 振りをして 槍のように 尖った 後ろ髪で 突き刺してくる 戦法を 使う。
+  evolvesFrom: ベロバー
+rarity: S
+illustrators:
+  - SATOSHI NAKAI

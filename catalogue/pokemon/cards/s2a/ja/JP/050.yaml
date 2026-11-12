@@ -1,0 +1,34 @@
+name: レパルダス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: スラッシュクロー
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: じゅうなん
+      text: このポケモンはマヒにならない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 510
+  species: れいこくポケモン
+  heightMetres: 1.1
+  weightKilograms: 37.5
+  flavourText: 美しい 毛並みと スタイルに 惑わされがちだが 気まぐれで 狂暴な ポケモンなのだ。
+  evolvesFrom: チョロネコ
+rarity: U
+illustrators:
+  - Hasuno

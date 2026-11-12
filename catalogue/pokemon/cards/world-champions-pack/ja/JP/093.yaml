@@ -1,0 +1,11 @@
+name: バトルフロンティア
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいの場の、{Colorless}の「進化ポケモン」、{Darkness}の「進化ポケモン」、{Metal}の「進化ポケモン」全員のポケパワーは使うことができず、ポケボディーもはたらかない。
+    - スタジアムは、自分の番に1回だけ、バトル場の横に出すことができる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+rarity: ◆
+illustrators:
+  - Midori Harada

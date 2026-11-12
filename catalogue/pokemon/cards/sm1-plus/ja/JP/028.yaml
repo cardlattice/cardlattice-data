@@ -1,0 +1,28 @@
+name: コスモウム
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: テレポート
+      cost:
+        - Colorless
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 790
+  species: げんしせいポケモン
+  heightMetres: 0.1
+  weightKilograms: 999.9
+  flavourText: 死んだように まったく 動かないが 触れると ほのかに 温かい。 大昔は 星の繭と 呼ばれた。
+  evolvesFrom: コスモッグ
+illustrators:
+  - Sanosuke Sakuma

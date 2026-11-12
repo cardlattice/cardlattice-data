@@ -1,0 +1,33 @@
+name: ポリゴン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: データチェック
+      cost:
+        - Colorless
+      text: 自分の山札を見る。そして山札を切る。
+    - name: かくばる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 137
+  species: バーチャルポケモン
+  heightMetres: 0.8
+  weightKilograms: 36.5
+  flavourText: 体が プログラムで できている。 電子空間を 自由自在に 移動できる 能力を持つ。
+rarity: C
+illustrators:
+  - Yukiko Baba

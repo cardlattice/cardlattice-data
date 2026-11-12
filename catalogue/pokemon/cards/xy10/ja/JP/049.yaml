@@ -1,0 +1,22 @@
+name: ドータクンBREAK
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: BREAK
+  attacks:
+    - name: ゴールドレイン
+      cost:
+        - Metal
+        - Colorless
+      text: このポケモンについている{Metal}エネルギーを好きなだけトラッシュし、トラッシュした数ぶん、相手のポケモンを選ぶ（同じポケモンを2回以上選んでもよい）。その後、選んだポケモン全員に、弱点・抵抗力の計算をせず、選んだ回数×30ダメージ。
+  abilities: []
+  rules:
+    - BREAK進化する前のドータクンの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ドータクン
+rarity: RR
+illustrators:
+  - 5ban Graphics

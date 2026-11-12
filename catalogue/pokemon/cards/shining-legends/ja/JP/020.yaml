@@ -1,0 +1,34 @@
+name: アリゲイツ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: かみつく
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: とびこむ
+      text: このポケモンがベンチにいるなら、自分の番に1回使える。自分のバトルポケモンについているエネルギーをすべて、このポケモンにつけ替える。つけ替えた場合、このポケモンをバトルポケモンと入れ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 159
+  species: おおあごポケモン
+  heightMetres: 1.1
+  weightKilograms: 25
+  flavourText: キバは 抜けても 次から 次に 生えてくる。 いつも 口の中には ４８本の キバが そろっている。
+  evolvesFrom: ワニノコ
+rarity: C
+illustrators:
+  - Naoki Saito

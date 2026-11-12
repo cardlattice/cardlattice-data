@@ -1,0 +1,11 @@
+name: なんでもなおし
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のバトルポケモンの特殊状態を、すべて回復する。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Keiji Kinebuchi

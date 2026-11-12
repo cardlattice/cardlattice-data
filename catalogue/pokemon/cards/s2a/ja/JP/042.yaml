@@ -1,0 +1,40 @@
+name: バンギラス
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: がんばんくずし
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 場に出ているスタジアムをトラッシュする。
+    - name: マウンテンスイング
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "250"
+      text: 自分の山札を上から5枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 248
+  species: よろいポケモン
+  heightMetres: 2
+  weightKilograms: 202
+  flavourText: どんな 攻撃にも びくともしない 体を もっているため どんどん 勝負を 仕掛けてくる。
+  evolvesFrom: サナギラス
+rarity: R
+illustrators:
+  - nagimiso

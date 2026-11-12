@@ -1,0 +1,37 @@
+name: ギャラドス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ぎゃくしゅう
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 自分のベンチの「コイキング」全員にのっているダメカンの数×30ダメージを追加。
+    - name: あばれる
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: コインを1回投げオモテなら、30ダメージを追加。ウラなら、このポケモンにも30ダメージ。
+  abilities:
+    - name: Θ（シータ）ダブル
+      text: このポケモンは、「ポケモンのどうぐ」を2枚までつけられる。
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: コイキング
+  flavourText: めったに 姿を 現さないが ひとたび 暴れ出すと 大きな 都市が 壊滅するときもある。
+rarity: R
+illustrators:
+  - TOKIYA

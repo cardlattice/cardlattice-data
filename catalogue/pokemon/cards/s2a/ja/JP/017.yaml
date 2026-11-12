@@ -1,0 +1,29 @@
+name: マルヤクデVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Fire
+  stage: VMAX
+  attacks:
+    - name: キョダイヒャッカ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: このポケモンについている{Fire}エネルギーの数×40ダメージ追加。のぞむなら、ダメージを与えたあとに、自分のトラッシュから{Fire}エネルギーを1枚選び、このポケモンにつける。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: マルヤクデV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

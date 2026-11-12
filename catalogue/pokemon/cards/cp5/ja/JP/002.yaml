@@ -1,0 +1,27 @@
+name: セレビィ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: タイムコール
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、自分の場のポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。そして山札を切る。
+    - name: やどりぎのタネ
+      cost:
+        - Grass
+      damage: "10"
+      text: このポケモンのHPを「10」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 時間を 越える 力を 使う。 平和な 時代にだけ 姿を 見せると 言われている。
+illustrators:
+  - Mitsuhiro Arita

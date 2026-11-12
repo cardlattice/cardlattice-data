@@ -1,0 +1,11 @@
+name: スーパーボール
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の山札を上から7枚見る。その中にあるポケモンを1枚、相手に見せてから、手札に加えてよい。残りのカードは山札にもどして切る。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Ryo Ueda

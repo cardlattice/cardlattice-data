@@ -1,0 +1,36 @@
+name: ドヒドイデ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: じこさいせい
+      cost:
+        - Colorless
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。このポケモンのHPを、すべて回復する。
+    - name: どくのムチ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 748
+  species: ヒトデナシポケモン
+  heightMetres: 0.7
+  weightKilograms: 14.5
+  flavourText: ガラル地方の 冷たい 水温に 耐えるため 脚で ドームを つくり 内部を 体温で 温める。
+  evolvesFrom: ヒドイデ
+rarity: C
+illustrators:
+  - Masakazu Fukuda

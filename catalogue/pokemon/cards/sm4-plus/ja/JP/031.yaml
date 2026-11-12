@@ -1,0 +1,37 @@
+name: クワガノン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: エレクトロキャノン
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: このポケモンについているエネルギーを、3個トラッシュする。
+  abilities:
+    - name: ストロングチャージ
+      text: 自分の番に1回使える。自分の山札にある{Grass}エネルギーと{Lightning}エネルギーを1枚ずつ、自分のポケモンに好きなようにつける。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 738
+  species: くわがたポケモン
+  heightMetres: 1.5
+  weightKilograms: 45
+  flavourText: お腹に ある 発電器官で 電気を 起こす。 電撃ビームで とりポケモンも 圧倒する。
+  evolvesFrom: デンヂムシ
+illustrators:
+  - Hitoshi Ariga

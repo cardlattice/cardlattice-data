@@ -1,0 +1,35 @@
+name: ホルード
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: みみでほる
+      cost:
+        - Fighting
+      text: ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札をトラッシュする。
+    - name: ぶちかます
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 660
+  species: あなほりポケモン
+  heightMetres: 1
+  weightKilograms: 42.4
+  flavourText: ショベルカー並みの パワーの 耳で 硬い 岩盤も コナゴナ。 穴を 掘り終えると ダラダラと 過ごす。
+  evolvesFrom: ホルビー
+rarity: C
+illustrators:
+  - Kyoko Umemoto

@@ -1,0 +1,33 @@
+name: ミュウツーEX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: フォトンウェーブ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。
+    - name: サイコバーン
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - PLANETA

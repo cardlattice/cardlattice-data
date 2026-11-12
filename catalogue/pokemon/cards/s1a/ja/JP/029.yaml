@@ -1,0 +1,35 @@
+name: デンヂムシ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: じゅうでん
+      cost:
+        - Colorless
+      text: 自分の山札から{Lightning}エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。
+    - name: ピッカリだま
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 737
+  species: バッテリーポケモン
+  heightMetres: 0.5
+  weightKilograms: 10.5
+  flavourText: 頑丈な 殻で 身を 守る。 顎の 先端から 電気を 流して 反撃する。
+  evolvesFrom: アゴジムシ
+rarity: C
+illustrators:
+  - Masakazu Fukuda

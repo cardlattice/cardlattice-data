@@ -1,0 +1,37 @@
+name: ドータクン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: あやしいこくいん
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities:
+    - name: たいねつ
+      text: このポケモンは、相手の{Fire}ポケモンからワザのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 437
+  species: どうたくポケモン
+  heightMetres: 1.3
+  weightKilograms: 187
+  flavourText: ドータクンに 祈りを ささげると 雨が 降り 作物を 育てると 古代の 人々は 信じていた。
+  evolvesFrom: ドーミラー
+rarity: U
+illustrators:
+  - Misa Tsutsui

@@ -1,0 +1,10 @@
+name: レスキュータンカ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュにあるポケモンを1枚、相手に見せてから、手札に加える。または、自分のトラッシュにあるポケモンを3枚、相手に見せてから、山札にもどして切る。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Yoshinobu Saito

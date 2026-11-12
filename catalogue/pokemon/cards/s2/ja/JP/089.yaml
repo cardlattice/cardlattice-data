@@ -1,0 +1,13 @@
+name: のろいのスコップ
+pokemon:
+  category: trainer
+  subtypes:
+    - Pokémon Tool
+    - Item
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の山札を上から2枚トラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

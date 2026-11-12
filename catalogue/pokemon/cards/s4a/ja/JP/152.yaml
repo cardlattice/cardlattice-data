@@ -1,0 +1,29 @@
+name: ウールー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ふくらむ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-10」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 831
+  species: ひつじポケモン
+  heightMetres: 0.6
+  weightKilograms: 6
+  flavourText: 毛が 伸びすぎると 動けない。 ウールーの 体毛で 織られた 布は 驚くほど 丈夫。
+illustrators:
+  - Mitsuhiro Arita

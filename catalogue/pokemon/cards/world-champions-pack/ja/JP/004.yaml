@@ -1,0 +1,31 @@
+name: リリーラ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: おどろかす
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: 相手の手札から、オモテを見ないでカードを1枚選び出し、そのカードを見る。その後、そのカードを相手の山札にもどし、その山札を切る。
+    - name: ようかいえき
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: 次の相手の番、このワザを受けた相手はにげるができない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ねっこの化石
+rarity: ●
+illustrators:
+  - Hajime Kusajima

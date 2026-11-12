@@ -1,0 +1,33 @@
+name: MピジョットEX
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Colorless
+  stage: MEGA
+  attacks:
+    - name: マッハサイクロン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替えてよい。［バトル場に出すポケモンは相手が選ぶ。］
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  evolvesFrom: ピジョットEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

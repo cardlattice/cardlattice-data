@@ -1,0 +1,31 @@
+name: ピッピ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ひかるゆび
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをねむりにする。
+    - name: マジカルショット
+      cost:
+        - Psychic
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 35
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.5
+  flavourText: 満月の 夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。
+illustrators:
+  - sowsow

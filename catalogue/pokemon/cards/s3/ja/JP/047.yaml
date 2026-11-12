@@ -1,0 +1,36 @@
+name: ヒポポタス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ダブルスタンプ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 70+
+      text: コインを2回投げ、オモテの数×30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 449
+  species: カバポケモン
+  heightMetres: 0.8
+  weightKilograms: 49.5
+  flavourText: 口を 開けて 移動しながら 砂ごと 獲物を 丸飲み。 砂は 鼻から 噴き出し 捨てる。
+rarity: C
+illustrators:
+  - Shin Nagasawa

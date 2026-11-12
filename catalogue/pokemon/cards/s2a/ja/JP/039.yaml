@@ -1,0 +1,35 @@
+name: ダグトリオ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: あなをほる
+      cost:
+        - Fighting
+      damage: "30"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: どろばくだん
+      cost:
+        - Fighting
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 51
+  species: もぐらポケモン
+  heightMetres: 0.7
+  weightKilograms: 33.3
+  flavourText: チームワークに すぐれた 三つ子の ディグダ。 地下 １００キロまで 掘って 地震を 起こすこともある。
+  evolvesFrom: ディグダ
+rarity: C
+illustrators:
+  - Yukiko Baba

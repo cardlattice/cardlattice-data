@@ -1,0 +1,28 @@
+name: クズモー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくえき
+      cost:
+        - Psychic
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 690
+  species: クサモドキポケモン
+  heightMetres: 0.5
+  weightKilograms: 7.3
+  flavourText: 腐った 海藻に 擬態する。 気づかずに 近寄ってきた 獲物に 毒液を 浴びせて しとめる。
+rarity: C
+illustrators:
+  - 5ban Graphics

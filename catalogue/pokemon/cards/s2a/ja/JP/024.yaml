@@ -1,0 +1,32 @@
+name: ヨワシ
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: しんかいのうず
+      cost:
+        - Colorless
+      text: 自分の手札をすべて山札にもどして切る。その後、山札を8枚引く。
+    - name: スプラッシュ
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 746
+  species: こざかなポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.3
+  flavourText: １匹では とても ひ弱なため 群れることで 敵に 立ち向かう 能力を 獲得した。
+rarity: C
+illustrators:
+  - sui

@@ -1,0 +1,35 @@
+name: ロトム
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: エネドロー
+      cost:
+        - Lightning
+      text: 自分の山札から基本エネルギーを1枚選び、このポケモンにつける。そして山札を切る。
+    - name: プラズマジック
+      cost:
+        - Colorless
+        - Colorless
+      text: 自分のポケモン全員にのっているダメカンをそれぞれ2個ずつ選び、相手のバトルポケモンにのせ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 479
+  species: プラズマポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  flavourText: プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。
+rarity: U
+illustrators:
+  - Tomokazu Komiya

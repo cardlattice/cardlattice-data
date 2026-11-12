@@ -1,0 +1,30 @@
+name: ヒトデマン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: クイックアタック
+      cost:
+        - Water
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 120
+  species: ほしがたポケモン
+  heightMetres: 0.8
+  weightKilograms: 34.5
+  flavourText: 海辺に 多く あらわれ 夜になると 中心が 赤く 点滅する。
+  level: 15
+rarity: C
+illustrators:
+  - Keiji Kinebuchi

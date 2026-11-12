@@ -1,0 +1,29 @@
+name: メラルバ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: かえん
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 636
+  species: たいまつポケモン
+  heightMetres: 1.1
+  weightKilograms: 28.8
+  flavourText: 火山の ふもとに 生息する。 ５本の ツノから 炎を 出して 襲ってきた 敵を 撃退する。
+rarity: C
+illustrators:
+  - Satoshi Shirai

@@ -1,0 +1,37 @@
+name: チラチーノ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: エコーボイス
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の自分の番、このポケモンが使う「エコーボイス」のダメージは「+50」される。
+  abilities:
+    - name: なめらかコート
+      text: このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 573
+  species: スカーフポケモン
+  heightMetres: 0.5
+  weightKilograms: 7.5
+  flavourText: 白い 体毛は 特別な 脂で コーティングされているので 敵の 攻撃を 受け流すのだ。
+  evolvesFrom: チラーミィ
+illustrators:
+  - Mitsuhiro Arita
+variants:
+  first-edition:
+    edition: first-edition

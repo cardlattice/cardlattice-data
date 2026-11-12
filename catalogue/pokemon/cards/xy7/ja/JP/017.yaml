@@ -1,0 +1,35 @@
+name: ウルガモス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: サンバース
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを1枚選び、ベンチに出す。その後、山札から基本エネルギーを2枚まで選び、出したポケモンにつける。そして山札を切る。
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Colorless
+      damage: "60"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 637
+  species: たいようポケモン
+  heightMetres: 1.6
+  weightKilograms: 46
+  flavourText: 火山灰で 地上が 真っ暗に なったとき ウルガモスの 炎が 太陽の かわりに なったという。
+  evolvesFrom: メラルバ
+rarity: R
+illustrators:
+  - Kyoko Umemoto

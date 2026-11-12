@@ -1,0 +1,34 @@
+name: ガーディ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: かぎわける
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、自分のトラッシュから好きなカードを1枚選び、相手に見せて、手札に加える。
+    - name: ほのおのツメ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 58
+  species: こいぬポケモン
+  heightMetres: 0.7
+  weightKilograms: 19
+  flavourText: 自分より 強くて 大きな 相手にも 恐れずに 立ち向かう 勇敢で 頼もしい 性格。
+rarity: C
+illustrators:
+  - Ryota Murayama

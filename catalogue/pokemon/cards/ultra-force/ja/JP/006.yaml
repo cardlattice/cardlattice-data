@@ -1,0 +1,29 @@
+name: モウカザル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ほのおでこがす
+      cost:
+        - Fire
+      damage: "20"
+      text: 相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 391
+  species: やんちゃポケモン
+  heightMetres: 0.9
+  weightKilograms: 22
+  flavourText: 天井や 壁を 利用して 空中殺法を 繰り出す。 尻尾の 炎も 武器の ひとつ。
+  evolvesFrom: ヒコザル
+illustrators:
+  - Shigenori Negishi

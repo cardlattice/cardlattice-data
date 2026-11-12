@@ -1,0 +1,36 @@
+name: ゴルーグ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ばかぢから
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: のぞむなら、40ダメージを追加してよい。その場合、このポケモンにも20ダメージ。
+  abilities:
+    - name: Θ（シータ）ストップ
+      text: このポケモンは、相手のポケモンからの特性の効果を受けない。
+      kind: Ancient Trait
+    - name: ダブルタイプ
+      text: このポケモンは、場にいるかぎり{Psychic}と{Fighting}の2つのタイプになる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 4
+  evolvesFrom: ゴビット
+  flavourText: マッハの スピードで 空を 飛ぶ。 胸の 封印を はがすと エネルギーが 暴走してしまう。
+rarity: U
+illustrators:
+  - kawayoo

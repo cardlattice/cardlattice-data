@@ -1,0 +1,11 @@
+name: クセロシキ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - おたがいの場のポケモンについている「ポケモンのどうぐ」「特殊エネルギー」のうち1枚を選び、トラッシュする。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Masakazu Fukuda

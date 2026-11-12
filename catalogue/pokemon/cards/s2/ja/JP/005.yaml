@@ -1,0 +1,38 @@
+name: ルンパッパ
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: アゲアゲラッシュ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 60×
+      text: 自分がすでにとったサイドの枚数×60ダメージ。
+    - name: メガドレイン
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンのHPを「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 272
+  species: のうてんきポケモン
+  heightMetres: 1.5
+  weightKilograms: 55
+  flavourText: 楽しい 音楽の リズムが ルンパッパの 細胞を 活性化 させて パワーを 発揮するのだ。
+  evolvesFrom: ハスブレロ
+rarity: U
+illustrators:
+  - Masakazu Fukuda

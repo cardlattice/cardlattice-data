@@ -1,0 +1,36 @@
+name: シンボラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコキネシス
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 相手のバトルポケモンについているエネルギーの数×10ダメージを追加。
+  abilities:
+    - name: しんぴのまもり
+      text: このポケモンは、「ポケモンEX」からワザのダメージや効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 561
+  species: とりもどきポケモン
+  heightMetres: 1.4
+  weightKilograms: 14
+  flavourText: 古代都市の 守り神だった。 縄張りに 侵入した 敵を サイコパワーで 攻撃する。
+illustrators:
+  - Shigenori Negishi
+variants:
+  first-edition:
+    edition: first-edition

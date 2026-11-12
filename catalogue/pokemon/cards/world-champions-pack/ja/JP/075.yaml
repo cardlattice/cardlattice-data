@@ -1,0 +1,33 @@
+name: フライゴンex
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: スラッシュダウン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: コインを1回投げウラなら、次の自分の番、自分は「スラッシュダウン」を使うことができない。
+  abilities:
+    - name: サイコプロテクター
+      text: このポケモンが、相手のワザによるダメージを受けるとき、自分の手札からカードを4枚までトラッシュしてよい。その場合、このポケモンが受けるダメージは、トラッシュしたカードの枚数×10ダメージぶん、小さくなる。
+      kind: Poké-Body
+  rules:
+    - ポケモンexがきぜつしたとき、相手プレイヤーはサイドを2枚とります。
+  weaknesses:
+    - type: Colorless
+  resistances:
+    - type: Lightning
+    - type: Fighting
+  retreatCost: 0
+  evolvesFrom: ビブラーバ
+  subtypes:
+    - ex
+rarity: ★ (silver)
+illustrators:
+  - Mitsuhiro Arita

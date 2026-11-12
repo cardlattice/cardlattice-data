@@ -1,0 +1,35 @@
+name: キノガッサ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: じゅくすいほうし
+      cost:
+        - Grass
+      text: 相手のバトルポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。
+    - name: マグナムパンチ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 286
+  species: きのこポケモン
+  heightMetres: 1.2
+  weightKilograms: 39.2
+  flavourText: 短い 腕は パンチを 出すとき グーンと 伸びる。 プロボクサー 顔負けの テクニックを 持つ。
+  evolvesFrom: キノココ
+rarity: U
+illustrators:
+  - Mizue

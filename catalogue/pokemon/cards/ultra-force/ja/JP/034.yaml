@@ -1,0 +1,39 @@
+name: エンペルト
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: トータルコマンド
+      cost:
+        - Metal
+        - Colorless
+      damage: 20×
+      text: おたがいのベンチポケモンの数×20ダメージ。
+    - name: うずしお
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "90"
+      text: 相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 395
+  species: こうていポケモン
+  heightMetres: 1.7
+  weightKilograms: 84.5
+  flavourText: クチバシから 伸びている ３本の ツノは 強さの 象徴。 リーダーが 一番 大きい。
+  evolvesFrom: ポッタイシ
+illustrators:
+  - nagimiso

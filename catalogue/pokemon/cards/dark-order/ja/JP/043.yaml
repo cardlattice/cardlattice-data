@@ -1,0 +1,33 @@
+name: ニダンギル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: どうぐおとし
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: おたがいの場のポケモンについている「ポケモンのどうぐ」の数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 680
+  species: とうけんポケモン
+  heightMetres: 0.8
+  weightKilograms: 4.5
+  flavourText: ２本の 剣による 複雑な 連続攻撃を 防ぐことは 剣の 達人でも 不可能だ。
+  evolvesFrom: ヒトツキ
+rarity: C
+illustrators:
+  - Shin Nagasawa

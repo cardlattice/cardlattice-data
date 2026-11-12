@@ -1,0 +1,28 @@
+name: ニャビー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひだね
+      cost:
+        - Fire
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 725
+  species: ひねこポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.3
+  flavourText: 毛づくろいで お腹に 溜まった 抜け毛を 燃やして 火を 吹く。 毛の 吐きかたで 炎も 変化。
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,40 @@
+name: ニンフィアGX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: マジカルリボン
+      cost:
+        - Fairy
+      text: 自分の山札にある好きなカードを3枚まで、手札に加える。そして山札を切る。
+    - name: ようせいのかぜ
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "110"
+    - name: プリエールGX
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      text: 相手のベンチポケモン2匹と、そのポケモンについているすべてのカードを、相手の手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: イーブイ
+rarity: RR
+illustrators:
+  - 5ban Graphics

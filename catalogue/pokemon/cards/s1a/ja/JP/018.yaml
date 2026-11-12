@@ -1,0 +1,35 @@
+name: ガラル バリヤード
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: こごえるかぜ
+      cost:
+        - Colorless
+      damage: "10"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: トリプルスピン
+      cost:
+        - Water
+        - Colorless
+      damage: 20×
+      text: コインを3回投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 122
+  species: ダンスポケモン
+  heightMetres: 1.4
+  weightKilograms: 56.8
+  flavourText: タップダンスが 得意。 冷気で つくった 氷の 床を 蹴り上げ バリヤーの ごとく 身を 守る。
+rarity: C
+illustrators:
+  - kirisAki

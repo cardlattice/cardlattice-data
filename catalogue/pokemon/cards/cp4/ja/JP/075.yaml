@@ -1,0 +1,30 @@
+name: MルカリオEX
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: MEGA
+  attacks:
+    - name: ライジングフィスト
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "140"
+      text: 相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ルカリオEX
+illustrators:
+  - 5ban Graphics

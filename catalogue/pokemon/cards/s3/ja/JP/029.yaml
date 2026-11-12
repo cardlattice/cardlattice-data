@@ -1,0 +1,40 @@
+name: ウオチルドン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: かたいかお
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-60」される。
+    - name: コールドブレス
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 883
+  species: かせきポケモン
+  heightMetres: 2
+  weightKilograms: 175
+  flavourText: 周囲を 凍りつかせて 獲物を 捕まえるが 口が 頭の 上に あるので 食べづらい。
+  evolvesFrom: めずらしい化石
+rarity: U
+illustrators:
+  - Shin Nagasawa

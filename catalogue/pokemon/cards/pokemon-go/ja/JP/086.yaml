@@ -1,0 +1,33 @@
+name: カイリューVSTAR
+pokemon:
+  category: pokemon
+  hp: 280
+  types:
+    - Dragon
+  stage: VSTAR
+  attacks:
+    - name: ギガインパクト
+      cost:
+        - Water
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "250"
+      text: 次の自分の番、このポケモンはワザが使えない。
+    - name: ドラゴニックスター
+      cost:
+        - Colorless
+      power: VSTAR
+      text: 自分の山札を上から12枚見て、その中から{Water}または{Lightning}エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。［対戦中、自分はVSTARパワーを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンVSTARがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - VSTAR
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: カイリューV
+rarity: HR
+illustrators:
+  - PLANETA Tsuji

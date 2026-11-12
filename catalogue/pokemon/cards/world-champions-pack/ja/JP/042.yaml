@@ -1,0 +1,25 @@
+name: ソーナノ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: じたばた
+      cost:
+        - Colorless
+      damage: 10×
+      text: 自分のダメージカウンター×10ダメージ。
+  abilities:
+    - name: ベイビィしんか
+      text: このパワーは、自分の番に1回使うことができる。自分の手札から「ソーナンス」を1枚選び出し、このポケモンの上にのせ、進化させる。そのとき、このポケモンにのっているダメージカウンターをすべてとりのぞく。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

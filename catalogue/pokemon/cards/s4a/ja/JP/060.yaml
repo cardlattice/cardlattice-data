@@ -1,0 +1,30 @@
+name: ストリンダーVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Lightning
+  stage: VMAX
+  attacks:
+    - name: キョダイライオット
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 160+
+      text: 相手のバトルポケモンがどくなら、80ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ストリンダーV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

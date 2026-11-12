@@ -1,0 +1,33 @@
+name: オドリドリ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: じょうねつのダンス
+      cost:
+        - Fire
+      text: 自分の山札にある{Fire}タイプのたねポケモンを3枚まで、ベンチに出す。そして山札を切る。
+    - name: メラメラ
+      cost:
+        - Fire
+        - Fire
+      damage: "30"
+      text: このポケモンについているエネルギーを、1個トラッシュする。その後、相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 741
+  species: ダンスポケモン
+  heightMetres: 0.6
+  weightKilograms: 3.4
+  flavourText: 羽を 打ち合わせて 発火。 華麗な ステップを 踏みながら 激しい 炎を 浴びせかけるぞ。
+illustrators:
+  - Shin Nagasawa

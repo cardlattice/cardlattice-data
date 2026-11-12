@@ -1,0 +1,33 @@
+name: スリーパー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: しねんのずつき
+      cost:
+        - Psychic
+        - Psychic
+      damage: "50"
+  abilities:
+    - name: グッナイベイビー
+      text: おたがいのバトルポケモンを、それぞれねむりにする。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 97
+  species: さいみんポケモン
+  heightMetres: 1.6
+  weightKilograms: 75.6
+  flavourText: 振り子を 目の前で ゆらされると たった今 目覚めたばかりの 人も ３秒後には 眠ってしまう。
+  evolvesFrom: スリープ
+rarity: U
+illustrators:
+  - Tomokazu Komiya

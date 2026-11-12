@@ -1,0 +1,36 @@
+name: ひかるアルセウス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: アルティメットアロー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities:
+    - name: しんわのまもり
+      text: このポケモンがバトル場にいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 493
+  species: そうぞうポケモン
+  heightMetres: 3.2
+  weightKilograms: 320
+  flavourText: タマゴから 姿を 現して 世界の すべてを 生み出したと シンオウ神話に 語られている。
+  subtypes:
+    - Shining
+illustrators:
+  - Kouki Saitou
+rarity: Shining

@@ -1,0 +1,13 @@
+name: 燃えるスカーフ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけている{Fire}ポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをやけどにする。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

@@ -1,0 +1,29 @@
+name: ドロバンコ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: にどげり
+      cost:
+        - Fighting
+        - Fighting
+      damage: 30×
+      text: コインを2回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 749
+  species: うさぎうまポケモン
+  heightMetres: 1
+  weightKilograms: 110
+  flavourText: 足に まとわりついた 泥が グリップに なり 力強い 走りを 実現しているのだ。
+illustrators:
+  - Kouki Saitou

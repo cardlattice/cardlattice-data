@@ -1,0 +1,33 @@
+name: マホミル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: アロマセラピー
+      cost:
+        - Colorless
+      text: 自分のポケモン全員のHPを「10」回復する。
+    - name: たいあたり
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 868
+  species: クリームポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.3
+  flavourText: クリームで できた 体を もつ。 空気中の 甘い 香りの 成分が 集まって 生まれた。
+rarity: C
+illustrators:
+  - Mina Nakai

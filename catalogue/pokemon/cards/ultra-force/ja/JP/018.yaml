@@ -1,0 +1,28 @@
+name: ユクシー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: メモリースキップ
+      cost:
+        - Psychic
+      damage: "30"
+      text: 相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 480
+  species: ちしきポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  flavourText: ユクシーの 誕生により 人々の 生活を 豊かにする 知恵が 生まれたと 言われている。
+illustrators:
+  - Shin Nagasawa

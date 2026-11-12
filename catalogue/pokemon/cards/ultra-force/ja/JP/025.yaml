@@ -1,0 +1,33 @@
+name: ゴウカザル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: バーストパンチ
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンをやけどにする。
+  abilities:
+    - name: あつきとうし
+      text: このポケモンがいるかぎり、相手のバトルポケモンは、やけどでのせるダメカンの数が6個になる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 392
+  species: かえんポケモン
+  heightMetres: 1.2
+  weightKilograms: 55
+  flavourText: 素早さで 相手を 翻弄する。 両手 両足を 使った 独特の 戦い方を する。
+  evolvesFrom: モウカザル
+illustrators:
+  - nagimiso

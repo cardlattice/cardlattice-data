@@ -1,0 +1,38 @@
+name: ガブリアス
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: おんそくぎり
+      cost:
+        - Fighting
+      damage: "60"
+      text: 相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。
+    - name: リューノブレード
+      cost:
+        - Water
+        - Fighting
+      damage: "100"
+      text: 自分の山札を上から2枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 445
+  species: マッハポケモン
+  heightMetres: 1.9
+  weightKilograms: 95
+  flavourText: 高速で 駆け抜けると 翼は 空気の 刃を 生み出し まわりの木は 切断 されている。
+  evolvesFrom: ガバイト
+illustrators:
+  - Masakazu Fukuda
+variants:
+  first-edition:
+    edition: first-edition

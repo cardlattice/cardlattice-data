@@ -1,0 +1,30 @@
+name: マホイップV
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ぱらぱらシュガー
+      cost:
+        - Psychic
+      text: 自分のベンチポケモン全員のHPを、それぞれ「30」回復する。
+    - name: スイートスプラッシュ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。
+  abilities: []
+  rules:
+    - ポケモン【V】がきぜつしたとき、相手はサイドを2枚とる。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - Ayaka Yoshida

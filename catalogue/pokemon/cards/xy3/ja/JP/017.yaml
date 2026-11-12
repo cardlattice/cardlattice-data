@@ -1,0 +1,40 @@
+name: ニョロボン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: つきとおす
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のベンチポケモンを1匹選び、そのポケモンにも30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: じごくぐるま
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 62
+  species: おたまポケモン
+  heightMetres: 1.3
+  weightKilograms: 54
+  flavourText: 強靭な 筋肉を 持つ。 太平洋を 休むことなく 泳ぎ続けることが できるのだ。
+  evolvesFrom: ニョロゾ
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

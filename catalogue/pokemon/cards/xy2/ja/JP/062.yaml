@@ -1,0 +1,37 @@
+name: ピジョン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: すなかけ
+      cost:
+        - Colorless
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+    - name: おそいかかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 17
+  species: とりポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: 足の ツメが 発達している。 エサの タマタマを つかんで １００キロ先の 巣まで 運ぶ。
+  evolvesFrom: ポッポ
+rarity: C
+illustrators:
+  - Shin Nagasawa

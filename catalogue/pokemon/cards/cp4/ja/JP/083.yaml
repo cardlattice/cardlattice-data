@@ -1,0 +1,30 @@
+name: トゲピー
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: てんしのキッス
+      cost:
+        - Colorless
+      damage: "10"
+      text: 相手は山札を1枚引く。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 175
+  species: はりたまポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  flavourText: 寝ている トゲピーを うまく 立たせることが できれば 幸せに なれるとの 言い伝えがある。
+illustrators:
+  - HiRON

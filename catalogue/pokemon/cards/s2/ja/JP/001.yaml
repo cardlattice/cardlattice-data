@@ -1,0 +1,32 @@
+name: ストライク
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: つるぎのまい
+      cost:
+        - Colorless
+      text: 次の自分の番、このポケモンの「こうそくカマ」のダメージは「+70」される。
+    - name: こうそくカマ
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 123
+  species: かまきりポケモン
+  heightMetres: 1.5
+  weightKilograms: 56
+  flavourText: 鋭い ２つの カマは 単なる 武器では ない。 器用に 操り 獲物を さばいて 食らうのだ。
+rarity: C
+illustrators:
+  - KEIICHIRO ITO

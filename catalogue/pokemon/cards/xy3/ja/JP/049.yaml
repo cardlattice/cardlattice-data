@@ -1,0 +1,34 @@
+name: マクノシタ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: パンチ
+      cost:
+        - Fighting
+      damage: "10"
+    - name: かいりき
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 296
+  species: こんじょうポケモン
+  heightMetres: 1
+  weightKilograms: 86.4
+  flavourText: 大木に 何度も 体当たりして 強靭な 体と くじけない 心を 鍛え上げるのだ。
+rarity: C
+illustrators:
+  - Masakazu Fukuda

@@ -1,0 +1,36 @@
+name: ホワイトキュレム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: もえるつらら
+      cost:
+        - Water
+        - Colorless
+      damage: "40"
+      text: このポケモンに{Fire}エネルギーがついているなら、相手のベンチポケモンを2匹選び、そのポケモンにも、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: ブリザードバーン
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "130"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 646
+  species: きょうかいポケモン
+  heightMetres: 3.6
+  weightKilograms: 325
+  flavourText: 強力な 冷凍エネルギーを 体内で 作り出すが 漏れ出した 冷気で 体が 凍っている。
+illustrators:
+  - kawayoo

@@ -1,0 +1,31 @@
+name: ガラル マッスグマ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: すてみタックル
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 264
+  species: とっしんポケモン
+  heightMetres: 0.5
+  weightKilograms: 32.5
+  flavourText: 長い舌で 獲物を 挑発。 怒った 相手に 強烈な タックルを おみまい するぞ。
+  evolvesFrom: ガラル ジグザグマ
+rarity: C
+illustrators:
+  - Akira Komayama

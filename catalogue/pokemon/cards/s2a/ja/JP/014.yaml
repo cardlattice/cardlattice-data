@@ -1,0 +1,32 @@
+name: ヒノヤコマ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: やきこがす
+      cost:
+        - Colorless
+      damage: "20"
+      text: 相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 662
+  species: ひのこポケモン
+  heightMetres: 0.7
+  weightKilograms: 16
+  flavourText: 飛びはじめた 直後の スピードは すべての とりポケモンの 中でも トップクラスの 速さ なのだ。
+  evolvesFrom: ヤヤコマ
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

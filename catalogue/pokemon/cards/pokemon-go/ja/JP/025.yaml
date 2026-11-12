@@ -1,0 +1,33 @@
+name: コソクムシ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Water
+      damage: "10"
+  abilities:
+    - name: よわごし
+      text: 相手の場に「ポケモンV」がいるなら、このポケモンのにげるためのエネルギーは、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 767
+  species: そうこうポケモン
+  heightMetres: 0.5
+  weightKilograms: 12
+  flavourText: 腐ったものや ゴミでも なんでも 食べまわる 自然の 掃除屋。 巣の まわりは いつも きれい。
+rarity: C
+illustrators:
+  - Miki Tanaka
+stamps:
+  - pokemon-go

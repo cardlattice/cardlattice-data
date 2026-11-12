@@ -1,0 +1,39 @@
+name: ドンカラス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: さいみんはどう
+      cost:
+        - Darkness
+      damage: "20"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: あくむのまい
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンがねむりなら、60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 430
+  species: おおボスポケモン
+  heightMetres: 0.9
+  weightKilograms: 27.3
+  flavourText: ドンカラスが 低い声で 鳴くと すぐさま ヤミカラスが 集まるため 夜を招くもの とも 言われる。
+  evolvesFrom: ヤミカラス
+rarity: U
+illustrators:
+  - Hajime Kusajima

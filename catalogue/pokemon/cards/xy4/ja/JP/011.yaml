@@ -1,0 +1,33 @@
+name: シシコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ほえる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: ひだね
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 667
+  species: わかじしポケモン
+  heightMetres: 0.6
+  weightKilograms: 13.5
+  flavourText: 強い 相手に 立ち向かうときほど たてがみが 高温になり 全身に 力が みなぎるのだ。
+rarity: C
+illustrators:
+  - Atsuko Nishida

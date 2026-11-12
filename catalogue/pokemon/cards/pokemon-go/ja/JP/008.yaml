@@ -1,0 +1,31 @@
+name: ヒトカゲ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: もえるしっぽ
+      cost:
+        - Fire
+      damage: "10"
+      text: 自分の山札から{Fire}エネルギーを1枚選び、このポケモンにつける。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 4
+  species: とかげポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.5
+  flavourText: 熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。
+rarity: C
+illustrators:
+  - saino misaki
+stamps:
+  - pokemon-go

@@ -1,0 +1,38 @@
+name: ボルケニオン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: しゅうちゅうほうか
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: このポケモンについている{Fire}エネルギーの数ぶんコインを投げ、オモテの数×50ダメージ。
+    - name: かえんインパクト
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 721
+  species: スチームポケモン
+  heightMetres: 1.7
+  weightKilograms: 195
+  flavourText: 背中の アームから 体内の 水蒸気を 噴射する。 山 ひとつ 吹き飛ばす 威力。
+illustrators:
+  - TOKIYA

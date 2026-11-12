@@ -1,0 +1,36 @@
+name: ラティオス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ブレイクスルー
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: ラグーンフライト
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 381
+  species: むげんポケモン
+  heightMetres: 2
+  weightKilograms: 60
+  flavourText: 高い 知能を 持つ ポケモン。 腕を 折りたたんで 飛べば ジェット機を 追い越す スピードだ。
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

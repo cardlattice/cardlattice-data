@@ -1,0 +1,11 @@
+name: ポケモンキャッチャー
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

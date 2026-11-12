@@ -1,0 +1,33 @@
+name: カラマネロV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ひきずりだす
+      cost:
+        - Darkness
+        - Colorless
+      text: 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。
+    - name: ブレインシェイク
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "130"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - Eske Yoshinob

@@ -1,0 +1,36 @@
+name: ガラル ギャロップ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: サイコキネシス
+      cost:
+        - Psychic
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンについているエネルギーの数×30ダメージ追加。
+  abilities:
+    - name: パステルベール
+      text: このポケモンがいるかぎり、自分のポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 78
+  species: いっかくポケモン
+  heightMetres: 1.7
+  weightKilograms: 80
+  flavourText: 勇猛果敢で 誇り 高い。 足先の 毛に サイコパワーを ためて 軽やかに 森を 駆ける。
+  evolvesFrom: ガラル ポニータ
+rarity: S
+illustrators:
+  - Kagemaru Himeno

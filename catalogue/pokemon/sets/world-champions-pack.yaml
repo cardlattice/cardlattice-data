@@ -1,0 +1,11 @@
+name: ワールドチャンピオンズパック
+language: ja
+region: JP
+printedIdentifiers:
+  - language: ja
+    region: JP
+    symbol: World Champions Pack emblem
+printedDenominator: 108
+variants:
+  first-edition:
+    edition: first-edition

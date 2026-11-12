@@ -1,0 +1,13 @@
+name: ライボルトソウルリンク
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンが「MライボルトEX」になっても、自分の番は終わらない。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

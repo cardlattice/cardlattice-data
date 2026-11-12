@@ -1,0 +1,34 @@
+name: アローラ ナッシー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: ナッシーパラダイス
+      cost: []
+      text: 自分のベンチの「タマタマ」の数ぶん、自分の山札にある「アローラナッシー」または「アローラナッシーGX」を選び、ベンチの「タマタマ」それぞれにのせて進化させる。そして山札を切る。
+    - name: たまなげりゅうせいぐん
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 80×
+      text: このポケモンについている{Grass}エネルギーの数ぶんコインを投げ、オモテの数×80ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 103
+  species: やしのみポケモン
+  heightMetres: 10.9
+  weightKilograms: 415.6
+  flavourText: アローラは 最高の 環境。 この姿が 本来の ナッシーだと 地元の 人々は 誇らしげだ。
+  evolvesFrom: タマタマ
+illustrators:
+  - Hasuno

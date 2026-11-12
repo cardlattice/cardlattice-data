@@ -1,0 +1,35 @@
+name: ゾロア
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ふむ
+      cost:
+        - Darkness
+      damage: "10"
+    - name: ぶつかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 570
+  species: わるぎつねポケモン
+  heightMetres: 0.7
+  weightKilograms: 12.5
+  flavourText: 相手そっくりに 化けているように みせかけ だましたり 驚かして そのすきに 逃げ出すことが 多い。
+rarity: C
+illustrators:
+  - kodama

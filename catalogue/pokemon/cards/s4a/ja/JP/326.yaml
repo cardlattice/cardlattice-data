@@ -1,0 +1,33 @@
+name: ウッウV
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: くちばしキャッチ
+      cost:
+        - Colorless
+      text: 自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。
+    - name: スピットシュート
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン1匹に、160ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+rarity: SSR
+illustrators:
+  - aky CG Works

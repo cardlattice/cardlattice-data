@@ -1,0 +1,35 @@
+name: ココドラ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ずつき
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 304
+  species: てつヨロイポケモン
+  heightMetres: 0.4
+  weightKilograms: 60
+  flavourText: 体を 覆う 鋼の よろいは 進化するとき ポロリと はがれ落ち 新しい よろいが 作られる。
+rarity: C
+illustrators:
+  - Naoyo Kimura

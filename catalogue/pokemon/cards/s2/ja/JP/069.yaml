@@ -1,0 +1,37 @@
+name: バルジーナ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ボーンラッシュ
+      cost:
+        - Darkness
+      damage: 30×
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージ。
+    - name: やみうち
+      cost:
+        - Darkness
+        - Darkness
+      text: ダメカンがのっている相手のポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 630
+  species: ほねわしポケモン
+  heightMetres: 1.2
+  weightKilograms: 39.5
+  flavourText: 荒っぽい 性質だが 迷子の バルチャイを 見かけると 巣立つまで 大切に 面倒を みる。
+  evolvesFrom: バルチャイ
+rarity: U
+illustrators:
+  - kodama

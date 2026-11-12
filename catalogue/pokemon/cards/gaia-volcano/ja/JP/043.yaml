@@ -1,0 +1,29 @@
+name: モグリュー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: みだれひっかき
+      cost:
+        - Colorless
+      damage: 10×
+      text: コインを3回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 529
+  species: もぐらポケモン
+  heightMetres: 0.3
+  weightKilograms: 8.5
+  flavourText: 体を スピンさせることで 時速５０キロの スピードのまま まっすぐ 地面を 掘り進む。
+rarity: C
+illustrators:
+  - Kagemaru Himeno

@@ -1,0 +1,36 @@
+name: ウルガモス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: きずあぶり
+      cost:
+        - Fire
+      damage: "80"
+      text: 相手のバトルポケモンにダメカンがのっていないなら、このワザは失敗。
+    - name: ほのおのつばさ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "110"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 637
+  species: たいようポケモン
+  heightMetres: 1.6
+  weightKilograms: 46
+  flavourText: 燃え盛る 炎の繭から 生まれ 寒さに 苦しむ人や ポケモンを 救ったという 伝説が ある。
+  evolvesFrom: メラルバ
+rarity: U
+illustrators:
+  - NC Empire

@@ -1,0 +1,37 @@
+name: パチリス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: どっきりシール
+      cost:
+        - Colorless
+      damage: "10"
+      text: 次の自分の番の終わりまで、このワザを受けたポケモンの弱点は{Lightning}タイプになる。［弱点は「×2」でダメージ計算をする。］
+    - name: パチッ
+      cost:
+        - Lightning
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 417
+  species: でんきりすポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.9
+  flavourText: 静電気が たまって パチパチする 毛玉を 大好物の 木の実と 一緒に 幹の 穴に 隠す。
+rarity: U
+illustrators:
+  - Mizue

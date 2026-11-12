@@ -1,0 +1,21 @@
+name: ソーナンスBREAK
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: BREAK
+  attacks:
+    - name: そっくりがえし
+      cost:
+        - Psychic
+        - Colorless
+      text: このポケモンについているエネルギーをすべてトラッシュする。次の相手の番、このポケモンがワザのダメージを受けたとき、受けたダメージと同じ数ぶんのダメカンを、ワザを使ったポケモンにのせる。
+  abilities: []
+  rules:
+    - BREAK進化する前のソーナンスの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ソーナンス
+illustrators:
+  - 5ban Graphics

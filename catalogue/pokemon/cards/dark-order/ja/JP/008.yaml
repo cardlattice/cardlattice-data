@@ -1,0 +1,39 @@
+name: ゼブライカ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: しゅうげき
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: この番、このポケモンが「シママ」から進化していたなら、90ダメージ追加。
+    - name: マッハボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 523
+  species: らいでんポケモン
+  heightMetres: 1.6
+  weightKilograms: 79.5
+  flavourText: 稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。
+  evolvesFrom: シママ
+rarity: U
+illustrators:
+  - Shin Nagasawa

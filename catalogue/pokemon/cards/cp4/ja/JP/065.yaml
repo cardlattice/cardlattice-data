@@ -1,0 +1,27 @@
+name: ワンリキー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: げんこつ
+      cost:
+        - Fighting
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 66
+  species: かいりきポケモン
+  heightMetres: 0.8
+  weightKilograms: 19.5
+  flavourText: ゴローンを 何度も 上げ下ろしして 全身の 筋肉を 鍛える。 あらゆる 格闘技を 使う。
+illustrators:
+  - Kouki Saitou

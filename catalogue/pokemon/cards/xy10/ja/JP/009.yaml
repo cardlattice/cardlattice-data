@@ -1,0 +1,33 @@
+name: フォッコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: おにび
+      cost:
+        - Fire
+      damage: "10"
+    - name: しっぽをふる
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 653
+  species: キツネポケモン
+  heightMetres: 0.4
+  weightKilograms: 9.4
+  flavourText: 小枝を 持ち歩き おやつがわりに ポリポリ 食べる。 耳から 熱気を 噴き出して 相手を 威嚇する。
+rarity: C
+illustrators:
+  - Akira Komayama

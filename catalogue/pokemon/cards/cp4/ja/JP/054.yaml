@@ -1,0 +1,32 @@
+name: ソーナンス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコダメージ
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: 相手のバトルポケモンにのっているダメカンの数×10ダメージを追加。
+  abilities:
+    - name: がまんのかべ
+      text: このポケモンがバトル場にいるかぎり、おたがいの場・手札・トラッシュにあるポケモン（{Psychic}ポケモンはのぞく）の特性は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 202
+  species: がまんポケモン
+  heightMetres: 1.3
+  weightKilograms: 28.5
+  flavourText: 光や ショックを 嫌う。 攻撃されると 体が ふくらみ 反撃が 強力に なる。
+illustrators:
+  - sui

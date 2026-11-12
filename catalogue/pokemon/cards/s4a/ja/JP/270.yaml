@@ -1,0 +1,36 @@
+name: サダイジャ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: とぐろをまく
+      cost:
+        - Colorless
+      damage: "10"
+      text: 次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。
+    - name: ロケットずつき
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 844
+  species: すなへびポケモン
+  heightMetres: 3.8
+  weightKilograms: 65.5
+  flavourText: 独特の とぐろの 巻き方は 砂袋の 砂を より 効率 よく 噴射 するため なのだ。
+  evolvesFrom: スナヘビ
+rarity: S
+illustrators:
+  - Shin Nagasawa

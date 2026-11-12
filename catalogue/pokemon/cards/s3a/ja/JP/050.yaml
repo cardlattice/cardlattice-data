@@ -1,0 +1,35 @@
+name: ジラーチ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: アメイジングスター
+      cost:
+        - Psychic
+        - Fighting
+        - Metal
+      text: 自分の山札から基本エネルギーを7枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。
+  abilities:
+    - name: ゆめのおつげ
+      text: このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から2枚見て、どちらか1枚を選び、手札に加える。残りのカードは、山札の上にもどす。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 385
+  species: ねがいごとポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.1
+  flavourText: １０００年に 一度 清らかな 歌声を 聞くことで ７日の あいだ だけ 目を 覚ます。
+illustrators:
+  - Sanosuke Sakuma
+rarity: A

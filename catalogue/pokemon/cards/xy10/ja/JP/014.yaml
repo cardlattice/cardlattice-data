@@ -1,0 +1,37 @@
+name: ジュゴン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: こごえるいき
+      cost:
+        - Water
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。ウラなら、相手のバトルポケモンをねむりにする。
+    - name: オーロラビーム
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 87
+  species: あしかポケモン
+  heightMetres: 1.7
+  weightKilograms: 120
+  flavourText: 体は 水の 抵抗が 少ない 流線型。 寒くなるほど 元気が 出てくる。
+  evolvesFrom: パウワウ
+rarity: U
+illustrators:
+  - Naoyo Kimura

@@ -1,0 +1,34 @@
+name: ツタージャ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: リーフブレード
+      cost:
+        - Grass
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 495
+  species: くさへびポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.1
+  flavourText: しっぽで 太陽の光を 浴びて 光合成を する。 元気を なくすと しっぽが たれさがる。
+illustrators:
+  - Aya Kusube
+variants:
+  first-edition:
+    edition: first-edition

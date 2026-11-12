@@ -1,0 +1,40 @@
+name: ベロベルト
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: はたきおとす
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手の手札からオモテを見ないで1枚選び、トラッシュする。
+    - name: ベロリンチョップ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 463
+  species: なめまわしポケモン
+  heightMetres: 1.7
+  weightKilograms: 140
+  flavourText: ぐんぐん 伸びる ベロを なんにでも 巻きつける。 うかつに 近寄ると だえきで べとべとに されてしまう。
+  evolvesFrom: ベロリンガ
+rarity: C
+illustrators:
+  - Hajime Kusajima

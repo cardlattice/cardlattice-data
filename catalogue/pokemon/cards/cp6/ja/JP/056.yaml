@@ -1,0 +1,39 @@
+name: ゴーリキー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: からてチョップ
+      cost:
+        - Fighting
+        - Fighting
+      damage: 60-
+      text: このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。
+    - name: じごくぐるま
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "80"
+      text: このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 67
+  species: かいりきポケモン
+  heightMetres: 1.5
+  weightKilograms: 70.5
+  flavourText: 疲れることのない 強靱な 肉体を 持つ。 重い 荷物の 運搬などの 仕事を 手伝う。
+  evolvesFrom: ワンリキー
+  level: 40
+rarity: U
+illustrators:
+  - Ken Sugimori

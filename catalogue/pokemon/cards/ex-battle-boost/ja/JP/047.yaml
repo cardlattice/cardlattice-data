@@ -1,0 +1,38 @@
+name: ネイティオ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: フォーチュンドロー
+      cost:
+        - Psychic
+      text: ジャンケンをして、勝ったプレイヤーは、自身の山札を3枚引く。負けたプレイヤーは、自身の山札を上から3枚トラッシュする。
+    - name: ミラクルウイング
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 178
+  species: せいれいポケモン
+  heightMetres: 1.5
+  weightKilograms: 15
+  flavourText: 過去と 未来を 見通せる。 毎日 太陽の 動きを 見続けている 不思議な ポケモン。
+  evolvesFrom: ネイティ
+illustrators:
+  - Kouki Saitou
+variants:
+  first-edition:
+    edition: first-edition

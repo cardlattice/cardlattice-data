@@ -1,0 +1,39 @@
+name: ミュウツーGX
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: フルバースト
+      cost:
+        - Psychic
+      damage: 30×
+      text: このポケモンについているエネルギーの数×30ダメージ。
+    - name: ちょうきゅうしゅう
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: このポケモンのHPを「30」回復する。
+    - name: サイコブレイクGX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "200"
+      text: このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - 5ban Graphics

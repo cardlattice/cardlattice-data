@@ -1,0 +1,39 @@
+name: バンバドロ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: きょうかスタンプ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 60+
+      text: このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。
+    - name: 10まんばりき
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "180"
+      text: このポケモンにも40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 750
+  species: ばんばポケモン
+  heightMetres: 2.5
+  weightKilograms: 920
+  flavourText: 口から 吐く 泥は 固まると 雨風にも 強いので 昔の 家の 壁には よく塗られている。
+  evolvesFrom: ドロバンコ
+illustrators:
+  - Mitsuhiro Arita

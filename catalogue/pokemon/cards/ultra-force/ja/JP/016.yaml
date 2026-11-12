@@ -1,0 +1,39 @@
+name: デンジュモク
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: せんこうだん
+      cost:
+        - Lightning
+      damage: "20"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: ケーブルグラム
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+      text: 自分のサイドの残り枚数が3枚なら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 796
+  species: でんしょくポケモン
+  heightMetres: 3.8
+  weightKilograms: 100
+  flavourText: ウルトラホールから 出現した。 発電所を 襲撃 したため 電気が エネルギーと おもわれる。
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Shin Nagasawa

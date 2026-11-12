@@ -1,0 +1,36 @@
+name: フラエッテ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: はなふぶき
+      cost:
+        - Fairy
+      text: 相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: はっぱカッター
+      cost:
+        - Fairy
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 670
+  species: いちりんポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.9
+  flavourText: ５人そろえば 美少女戦隊!? 華麗なワザを おひろめします！
+  evolvesFrom: フラベベ
+rarity: U
+illustrators:
+  - Eske Yoshinob

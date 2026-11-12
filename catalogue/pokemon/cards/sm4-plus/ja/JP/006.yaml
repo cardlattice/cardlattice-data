@@ -1,0 +1,32 @@
+name: カリキリ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: こうごうせい
+      cost:
+        - Colorless
+      text: 自分の山札にある{Grass}エネルギーを1枚、自分のポケモンにつける。そして山札を切る。
+    - name: このは
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 753
+  species: かまくさポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  flavourText: 爽やかで 甘い香りが する。 カリキリが 隠れている 草むらには よく アブリーが 群れている。
+illustrators:
+  - Kagemaru Himeno

@@ -1,0 +1,28 @@
+name: ビードル
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: むしのよかん
+      cost:
+        - Grass
+      text: 自分の山札から{Grass}ポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 13
+  species: けむしポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.2
+  flavourText: 毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。
+rarity: C
+illustrators:
+  - sui

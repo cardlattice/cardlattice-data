@@ -1,0 +1,34 @@
+name: かがやくカメックス
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: げきりゅうほう
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "170"
+      text: 次の自分の番、このポケモンは「げきりゅうほう」が使えない。
+  abilities:
+    - name: ポンプショット
+      text: 自分の番に、自分の手札から{Water}エネルギーを1枚トラッシュするなら、1回使える。相手のベンチポケモン1匹に、ダメカンを2個のせる。
+      kind: Ability
+  rules:
+    - かがやくポケモンは、デッキに1枚しか入れられない。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 体が 重たく のしかかって 相手を 気絶させる。 ピンチの ときは 殻に 隠れる。
+  subtypes:
+    - Radiant
+illustrators:
+  - Masakazu Fukuda
+rarity: K
+stamps:
+  - pokemon-go

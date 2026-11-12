@@ -1,0 +1,11 @@
+name: オニオン
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札を3枚引く。その後、自分の手札を3枚まで選び、トラッシュする。（必ず1枚はトラッシュする。）
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - take

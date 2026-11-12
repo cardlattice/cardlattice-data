@@ -1,0 +1,31 @@
+name: バルチャイ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ついばむ
+      cost:
+        - Colorless
+      damage: "10"
+      text: ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 629
+  species: おむつポケモン
+  heightMetres: 0.5
+  weightKilograms: 9
+  flavourText: 骸骨を はき お尻を ガード。 はき心地の いい 骸骨を めぐり 仲間同士で 小競り合う。
+rarity: C
+illustrators:
+  - Shibuzoh.

@@ -1,0 +1,36 @@
+name: ひかるゲノセクト
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ガイブラスター
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンについている{Grass}エネルギーの数×20ダメージ追加。
+  abilities:
+    - name: エナジーリロード
+      text: 自分の番に1回使える。自分の場のポケモンについている{Grass}エネルギーを1個、このポケモンにつけ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 649
+  species: こせいだいポケモン
+  heightMetres: 1.5
+  weightKilograms: 82.5
+  flavourText: プラズマ団によって 改造された 古代の むしポケモン。 背中の 大砲が パワーアップした。
+  subtypes:
+    - Shining
+illustrators:
+  - Hitoshi Ariga
+rarity: Shining

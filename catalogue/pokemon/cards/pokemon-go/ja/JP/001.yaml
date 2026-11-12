@@ -1,0 +1,35 @@
+name: フシギダネ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: つるのムチ
+      cost:
+        - Grass
+      damage: "10"
+    - name: はっぱカッター
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 1
+  species: たねポケモン
+  heightMetres: 0.7
+  weightKilograms: 6.9
+  flavourText: 生まれたときから 背中に 植物の タネが あって 少しずつ 大きく 育つ。
+rarity: C
+illustrators:
+  - sowsow
+stamps:
+  - pokemon-go

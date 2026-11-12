@@ -1,0 +1,37 @@
+name: ニドリーノ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: つのでつく
+      cost:
+        - Psychic
+      damage: "20"
+    - name: みだれづき
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: コインを3回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 33
+  species: どくばりポケモン
+  heightMetres: 0.9
+  weightKilograms: 19.5
+  flavourText: 怒りやすい 性格。 発達した 角を ふりまわして ダイヤモンドも 串刺しに する。
+  evolvesFrom: ニドラン♂
+  level: 25
+rarity: U
+illustrators:
+  - Mitsuhiro Arita

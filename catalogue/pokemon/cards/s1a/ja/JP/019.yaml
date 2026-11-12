@@ -1,0 +1,34 @@
+name: ガラル バリコオル
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: トリプルスピン
+      cost:
+        - Water
+        - Colorless
+      damage: 50×
+      text: コインを3回投げ、オモテの数×50ダメージ。
+  abilities:
+    - name: バリアフリー
+      text: このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 866
+  species: コメディアンポケモン
+  heightMetres: 1.5
+  weightKilograms: 58.2
+  flavourText: タップダンスの 達人。 氷で できた ステッキを 振り 軽やかな ステップを 披露する。
+  evolvesFrom: ガラル バリヤード
+rarity: U
+illustrators:
+  - Mitsuhiro Arita

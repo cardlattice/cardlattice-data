@@ -1,0 +1,39 @@
+name: ゴロンダ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: すてゼリフ
+      cost:
+        - Darkness
+      damage: "10"
+      text: このポケモンをベンチポケモンと入れ替える。次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-60」される。
+    - name: バスタースイング
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: "90"
+      text: このワザのダメージは抵抗力の計算をしない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 675
+  species: こわもてポケモン
+  heightMetres: 2.1
+  weightKilograms: 136
+  flavourText: 攻撃を 受けても ひるまずに 突進して 電柱を へし折る パワーの 腕力で ぶちのめす。
+  evolvesFrom: ヤンチャム
+rarity: U
+illustrators:
+  - Naoki Saito

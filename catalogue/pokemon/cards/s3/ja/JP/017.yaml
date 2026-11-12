@@ -1,0 +1,33 @@
+name: ジーランス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: フォッシルサーチ
+      cost:
+        - Colorless
+      text: 自分の山札から「めずらしい化石」を2枚まで選び、ベンチに出す。そして山札を切る。
+    - name: なみのり
+      cost:
+        - Water
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 369
+  species: ちょうじゅポケモン
+  heightMetres: 1
+  weightKilograms: 23.4
+  flavourText: １億年間 まったく 姿が 変わっていないのは 生命 として 完成 されているから らしい。
+rarity: C
+illustrators:
+  - MAHOU

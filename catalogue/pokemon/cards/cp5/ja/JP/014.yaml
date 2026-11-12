@@ -1,0 +1,28 @@
+name: ケルディオ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: せいなるつるぎ
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "100"
+      text: 次の自分の番、このポケモンは「せいなるつるぎ」が使えない。
+  abilities:
+    - name: せいぎのこころ
+      text: このポケモンが使うワザの、相手の{Darkness}ポケモンへのダメージは「+50」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 覚悟を 決めることで 全身に 力が みなぎって 素早くなり 飛び跳ねると 残像が みえる。
+illustrators:
+  - Shin Nagasawa

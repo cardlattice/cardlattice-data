@@ -1,0 +1,11 @@
+name: 妖しいカンヅメ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のポケモンを1匹選び、HPを「80」回復する。その後、そのポケモンについている{Psychic}エネルギーを1個選び、トラッシュする。（{Psychic}エネルギーがついていないポケモンには使えない。）
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Ryo Ueda

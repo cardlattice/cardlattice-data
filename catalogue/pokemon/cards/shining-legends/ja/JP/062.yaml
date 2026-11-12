@@ -1,0 +1,11 @@
+name: スーパーポケモン回収
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - コインを1回投げオモテなら、自分のポケモン1匹と、ついているすべてのカードを、手札にもどす。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

@@ -1,0 +1,22 @@
+name: ラッタBREAK
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: BREAK
+  attacks:
+    - name: いかりのまえば
+      cost:
+        - Colorless
+        - Colorless
+      text: 相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。
+  abilities: []
+  rules:
+    - BREAK進化する前のラッタの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ラッタ
+rarity: RR
+illustrators:
+  - 5ban Graphics

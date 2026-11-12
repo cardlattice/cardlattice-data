@@ -1,0 +1,35 @@
+name: ゲッコウガ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: かげぬい
+      cost:
+        - Colorless
+      damage: "40"
+      text: 次の相手の番の終わりまで、相手の場・手札・トラッシュのカードに書かれている特性は、すべてなくなる。（新しく場に出したカードもふくむ。）
+    - name: げっこうぎり
+      cost:
+        - Water
+      damage: 60+
+      text: のぞむなら、このポケモンについている{Water}エネルギーを1個選び、手札にもどしてよい。その場合、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 658
+  species: しのびポケモン
+  heightMetres: 1.5
+  weightKilograms: 40
+  flavourText: 忍者のように 神出鬼没。 素早い 動きで 翻弄しつつ 水の 手裏剣で 切り裂く。
+  evolvesFrom: ゲコガシラ
+rarity: R
+illustrators:
+  - Naoki Saito

@@ -1,0 +1,34 @@
+name: テールナー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: フューチャーアイ
+      cost:
+        - Colorless
+      text: 自分の山札を上から3枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: ファイヤーテール
+      cost:
+        - Fire
+        - Colorless
+      damage: "40"
+      text: このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 654
+  species: キツネポケモン
+  heightMetres: 1
+  weightKilograms: 14.5
+  flavourText: 木の枝を 尻尾に 挿している。 尻尾の 毛の 摩擦熱で 枝に 火をつけて 戦う。
+  evolvesFrom: フォッコ
+illustrators:
+  - 5ban Graphics

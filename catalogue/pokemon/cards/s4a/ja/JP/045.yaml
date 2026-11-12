@@ -1,0 +1,27 @@
+name: サシカマス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずかけ
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 846
+  species: とつげきポケモン
+  heightMetres: 0.5
+  weightKilograms: 1
+  flavourText: 鋭く 尖った 顎が 自慢。 少しでも 動くものを 見つけると 一直線に 突撃する。
+illustrators:
+  - Mina Nakai

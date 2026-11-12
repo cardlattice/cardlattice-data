@@ -1,0 +1,29 @@
+name: ユキカブリ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: こおりのつぶて
+      cost:
+        - Grass
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンが{Fighting}ポケモンなら、40ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 459
+  species: じゅひょうポケモン
+  heightMetres: 1
+  weightKilograms: 50.5
+  flavourText: 春になると アイスキャンディーの ような 食感の 木の実が お腹の まわりに 生る。
+illustrators:
+  - match

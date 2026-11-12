@@ -1,0 +1,13 @@
+name: マルチエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。
+      このカードをつけているポケモンに、このカード以外の特殊エネルギーがついているなら、このカードは{Colorless}エネルギー1個ぶんとしてはたらく。
+  types:
+    - Colorless
+rarity: ★
+illustrators:
+  - Takumi Akabane

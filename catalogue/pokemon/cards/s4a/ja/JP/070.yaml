@@ -1,0 +1,36 @@
+name: ゴースト
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: あくむ
+      cost:
+        - Colorless
+      damage: "20"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: ホロウショット
+      cost:
+        - Psychic
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 93
+  species: ガスじょうポケモン
+  heightMetres: 1.6
+  weightKilograms: 0.1
+  flavourText: ガス状の 舌で なめられると 体の 震えが 止まらなくなり やがては 死 に いたるという。
+  evolvesFrom: ゴース
+illustrators:
+  - HYOGONOSUKE

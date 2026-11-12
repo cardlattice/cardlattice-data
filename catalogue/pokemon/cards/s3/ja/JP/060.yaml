@@ -1,0 +1,38 @@
+name: カラマネロ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ぶきみなねんぱ
+      cost:
+        - Darkness
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: つつきまわす
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: 80+
+      text: コインを2回投げ、オモテの数×40ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 687
+  species: ぎゃくてんポケモン
+  heightMetres: 1.5
+  weightKilograms: 47
+  flavourText: 発光体の 光を 見つめると たちまち 催眠状態になり カラマネロに 操られてしまう。
+  evolvesFrom: マーイーカ
+rarity: U
+illustrators:
+  - kawayoo

@@ -1,0 +1,31 @@
+name: コイキング
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ぴっちぴち
+      cost:
+        - Colorless
+      damage: "10"
+      text: コインを1回投げウラなら、このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: さかなポケモン
+  heightMetres: 0.9
+  weightKilograms: 10
+  flavourText: 長年 生きた コイキングは 跳ねるだけで 山をも 越えるが 技の威力は 弱いまま。
+illustrators:
+  - Midori Harada
+variants:
+  first-edition:
+    edition: first-edition

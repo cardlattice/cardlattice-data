@@ -1,0 +1,37 @@
+name: レックウザ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ターボストーム
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 自分のトラッシュにある基本エネルギーを2枚、自分のベンチポケモン1匹につける。
+    - name: ドラゴンクロー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 384
+  species: てんくうポケモン
+  heightMetres: 7
+  weightKilograms: 206.5
+  flavourText: 雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。
+illustrators:
+  - Yoshinobu Saito

@@ -1,0 +1,34 @@
+name: フシギダネ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+      damage: "10"
+    - name: つるのムチ
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 1
+  species: たねポケモン
+  heightMetres: 0.7
+  weightKilograms: 6.9
+  flavourText: 生まれたときから 背中に 不思議な タネが 植えてあって 体と ともに 育つという。
+rarity: C
+illustrators:
+  - MPC Film

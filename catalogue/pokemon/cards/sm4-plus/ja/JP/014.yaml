@@ -1,0 +1,31 @@
+name: ビクティニ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Vフレイム
+      cost:
+        - Fire
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: しょうりのほし
+      text: 自分の番に、自分のポケモンのワザでコインを投げたとき、1回使える。そのコインの結果をすべてなくし、はじめからコインを投げなおす。「ビクティニ」が何匹いても、「しょうりのほし」は自分の番に1回しか使えない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 494
+  species: しょうりポケモン
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: 勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。
+illustrators:
+  - kodama

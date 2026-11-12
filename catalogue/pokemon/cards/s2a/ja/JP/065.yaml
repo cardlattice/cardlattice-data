@@ -1,0 +1,11 @@
+name: ボロのパソコン
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - コインを2回投げ、すべてオモテなら、自分のトラッシュから好きなカードを1枚選び、相手に見せて、手札に加える。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Studio Bora Inc.

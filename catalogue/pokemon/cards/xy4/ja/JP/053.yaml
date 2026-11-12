@@ -1,0 +1,39 @@
+name: グラエナ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: かみくだく
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: やみのキバ
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 262
+  species: かみつきポケモン
+  heightMetres: 1
+  weightKilograms: 37
+  flavourText: 優れた トレーナーの 命令には 絶対に 服従。 大昔に 群れで 行動していた 名残り。
+  evolvesFrom: ポチエナ
+rarity: U
+illustrators:
+  - Sanosuke Sakuma

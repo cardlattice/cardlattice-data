@@ -1,0 +1,30 @@
+name: ワタシラガV
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: まいあがる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。
+  abilities:
+    - name: ハッピーマッチ
+      text: 自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュからサポートを1枚選び、相手に見せて、手札に加える。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+rarity: SR
+illustrators:
+  - 5ban Graphics

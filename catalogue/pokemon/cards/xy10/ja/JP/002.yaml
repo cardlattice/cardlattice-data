@@ -1,0 +1,28 @@
+name: ミノムッチ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ぶらさがる
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 412
+  species: みのむしポケモン
+  heightMetres: 0.2
+  weightKilograms: 3.4
+  flavourText: 戦いで ミノが 壊れてしまうと 近くにある 材料で ミノを すぐに 作り直す。
+rarity: C
+illustrators:
+  - Kouki Saitou

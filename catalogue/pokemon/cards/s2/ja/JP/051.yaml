@@ -1,0 +1,34 @@
+name: ノズパス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ころがりタックル
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 299
+  species: コンパスポケモン
+  heightMetres: 1
+  weightKilograms: 97
+  flavourText: 強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。
+rarity: C
+illustrators:
+  - Miki Tanaka

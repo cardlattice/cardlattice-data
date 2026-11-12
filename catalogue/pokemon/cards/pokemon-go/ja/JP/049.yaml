@@ -1,0 +1,31 @@
+name: カイリューV
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: はかいこうせん
+      cost:
+        - Water
+        - Lightning
+      damage: "60"
+      text: 相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: バスターテール
+      cost:
+        - Water
+        - Lightning
+        - Colorless
+      damage: "160"
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - kawayoo

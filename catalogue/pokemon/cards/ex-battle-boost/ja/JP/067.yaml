@@ -1,0 +1,39 @@
+name: マッギョ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: だくりゅう
+      cost:
+        - Fighting
+      damage: "20"
+      text: 相手のベンチポケモンを1匹選び、そのポケモンにも20ダメージ。［ベンチへのダメージは弱点・抵抗力の計算をしない。］
+    - name: じひびき
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: 次の相手の番、このワザを受けた相手のバトルポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 618
+  species: トラップポケモン
+  heightMetres: 0.7
+  weightKilograms: 11
+  flavourText: 海辺の 泥に 埋まって 獲物を 待ち構える。 獲物が 触ったとき 電気を 出して しびれさせるのだ。
+illustrators:
+  - Yuka Morii
+variants:
+  first-edition:
+    edition: first-edition

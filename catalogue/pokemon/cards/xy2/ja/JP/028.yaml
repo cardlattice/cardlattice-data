@@ -1,0 +1,38 @@
+name: ルクシオ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: かみつく
+      cost:
+        - Lightning
+      damage: "20"
+    - name: エレキカウンター
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 40×
+      text: 相手がすでにとったサイドの枚数×40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 404
+  species: でんこうポケモン
+  heightMetres: 0.9
+  weightKilograms: 30.5
+  flavourText: １発で 気絶させるほどの 電流を ツメから 流す。 数匹の グループで 暮らす。
+  evolvesFrom: コリンク
+rarity: C
+illustrators:
+  - Akira Komayama

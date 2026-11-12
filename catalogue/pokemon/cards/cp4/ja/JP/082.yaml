@@ -1,0 +1,40 @@
+name: ヒードラン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: はがねおとし
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: 場にスタジアムが出ているなら、40ダメージを追加。
+    - name: スチームブラスト
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 485
+  species: かこうポケモン
+  heightMetres: 1.7
+  weightKilograms: 430
+  flavourText: 火山の 洞穴に 生息。 十字の ツメを 食いこませて 壁や 天井を はい回る。
+illustrators:
+  - Midori Harada

@@ -1,0 +1,28 @@
+name: ケロマツ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: とびはねる
+      cost:
+        - Water
+      damage: "10"
+      text: コインを1回投げオモテなら、このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 656
+  species: あわがえるポケモン
+  heightMetres: 0.3
+  weightKilograms: 7
+  flavourText: 胸と 背中から 泡を 出す。 弾力のある 泡で 攻撃を 受け止めて ダメージを 減らす。
+illustrators:
+  - 5ban Graphics

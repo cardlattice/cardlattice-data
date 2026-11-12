@@ -1,0 +1,29 @@
+name: カブト
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  attacks:
+    - name: マッドショット
+      cost:
+        - Fighting
+      damage: "30"
+  abilities: []
+  rules:
+    - こうらの化石 カブトの効果でベンチに出す
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 140
+  species: こうらポケモン
+  heightMetres: 0.5
+  weightKilograms: 11.5
+  flavourText: 古代生物の 化石から 再生した ポケモン。 硬い 殻で 身を 守っている。
+  stage: Restored
+rarity: C
+illustrators:
+  - MAHOU

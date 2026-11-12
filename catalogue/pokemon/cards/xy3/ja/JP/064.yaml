@@ -1,0 +1,40 @@
+name: ゴロンダ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ぶちのめす
+      cost:
+        - Darkness
+        - Colorless
+      damage: 30+
+      text: のぞむなら、自分の手札からグッズを1枚選び、トラッシュしてよい。その場合、40ダメージを追加。
+    - name: アームハンマー
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手の山札を上から1枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 675
+  species: こわもてポケモン
+  heightMetres: 2.1
+  weightKilograms: 136
+  flavourText: 気性が 荒く ケンカっ早いが 弱いものいじめは 許さない。 葉っぱで 敵の 動きを 読む。
+  evolvesFrom: ヤンチャム
+rarity: R
+illustrators:
+  - 5ban Graphics

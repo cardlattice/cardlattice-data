@@ -1,0 +1,39 @@
+name: チルタリス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: スピードひこう
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: たちきる
+      cost:
+        - Water
+        - Metal
+        - Colorless
+      damage: "40"
+      text: コインを2回投げ、すべてオモテなら、相手のバトルポケモンについているエネルギーをすべてトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 334
+  species: ハミングポケモン
+  heightMetres: 1.1
+  weightKilograms: 20.6
+  flavourText: 晴れた日 綿雲に まぎれながら 大空を 自由に 飛びまわり 美しい ソプラノで 歌う。
+  evolvesFrom: チルット
+illustrators:
+  - Atsuko Nishida
+variants:
+  first-edition:
+    edition: first-edition

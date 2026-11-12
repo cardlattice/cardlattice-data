@@ -1,0 +1,23 @@
+name: ポチエナ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: にどげり
+      cost:
+        - Darkness
+      damage: 10×
+      text: コインを2回投げ、オモテ×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Midori Harada

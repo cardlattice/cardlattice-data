@@ -1,0 +1,39 @@
+name: ニンフィア
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: くるくるリボン
+      cost:
+        - Fairy
+      damage: "30"
+      text: 相手のバトルポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。
+    - name: エコーボイス
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の自分の番、このポケモンが使う「エコーボイス」のダメージは「+50」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 700
+  species: むすびつきポケモン
+  heightMetres: 1
+  weightKilograms: 23.5
+  flavourText: リボンのような 触角から 気持ちを 和らげる 波動を 送りこみ 戦いを やめさせる。
+  evolvesFrom: イーブイ
+rarity: R
+illustrators:
+  - 5ban Graphics

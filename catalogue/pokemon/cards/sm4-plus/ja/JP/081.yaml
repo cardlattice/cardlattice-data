@@ -1,0 +1,35 @@
+name: ハピナス
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: すてみタックル
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: このポケモンにも80ダメージ。
+  abilities:
+    - name: うみたてタマゴ
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「80」回復する。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 242
+  species: しあわせポケモン
+  heightMetres: 1.5
+  weightKilograms: 46.8
+  flavourText: 幸せが つまっていると いわれる ハピナスの タマゴを 食べれば どんな 凶暴な ポケモンも 穏やかに。
+  evolvesFrom: ラッキー
+illustrators:
+  - Hideki Ishikawa

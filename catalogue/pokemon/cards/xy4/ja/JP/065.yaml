@@ -1,0 +1,36 @@
+name: サザンドラ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: クレイジーヘッズ
+      cost:
+        - Psychic
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities:
+    - name: あくのしょうどう
+      text: 自分のトラッシュから{Darkness}エネルギーを1枚選び、自分のバトルポケモンにつける。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 635
+  species: きょうぼうポケモン
+  heightMetres: 1.8
+  weightKilograms: 160
+  flavourText: 両腕の 頭は 脳みそを 持たない。 ３つの 頭で すべてを 食べつくし 破壊してしまう。
+  evolvesFrom: ジヘッド
+rarity: R
+illustrators:
+  - 5ban Graphics

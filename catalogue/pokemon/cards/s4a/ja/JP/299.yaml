@@ -1,0 +1,34 @@
+name: ヨクバリス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: しっぽでたたく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: がめついしっぽ
+      text: 自分の番に1回使える。自分の山札から「ポケモンのどうぐ」を1枚選び、相手に見せて、手札に加える。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 820
+  species: よくばりポケモン
+  heightMetres: 0.6
+  weightKilograms: 6
+  flavourText: しっぽに 木の実を 溜めこむ。 溜めこみすぎて ポロポロ こぼすが 鈍いので 気がつかない。
+  evolvesFrom: ホシガリス
+rarity: S
+illustrators:
+  - Hideki Ishikawa

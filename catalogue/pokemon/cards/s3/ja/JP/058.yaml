@@ -1,0 +1,37 @@
+name: ズルズキン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: おいつめる
+      cost:
+        - Darkness
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: バッドブロウル
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: この番、手札から「ネズ」を出して使っていたなら、90ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 560
+  species: あくとうポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: やる気の なさげな キックは ローブシンの もつ コンクリートも 砕くほどの 破壊力。
+  evolvesFrom: ズルッグ
+rarity: U
+illustrators:
+  - tetsuya koizumi

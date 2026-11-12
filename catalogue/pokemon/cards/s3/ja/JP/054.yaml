@@ -1,0 +1,29 @@
+name: ガラル ジグザグマ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ミサイルばり
+      cost:
+        - Colorless
+      damage: 10×
+      text: コインを4回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 263
+  species: まめだぬきポケモン
+  heightMetres: 0.4
+  weightKilograms: 17.5
+  flavourText: 落ち着きなく 走りまわっている。 ほかの ポケモンを 見つけると わざと ぶつかって ケンカを 売る。
+rarity: C
+illustrators:
+  - Kouki Saitou

@@ -1,0 +1,34 @@
+name: マーイーカ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Darkness
+      damage: "10"
+    - name: はいごをねらう
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンがこんらんなら、50ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 686
+  species: かいてんポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.5
+  flavourText: 回転しながら 発光体を 点滅。 光の パターンで 仲間と コミュニケーションする。
+rarity: C
+illustrators:
+  - sui

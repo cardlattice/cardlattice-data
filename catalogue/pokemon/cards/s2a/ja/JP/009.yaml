@@ -1,0 +1,29 @@
+name: コソクムシ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: かじってにげる
+      cost:
+        - Grass
+      damage: "10"
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 767
+  species: そうこうポケモン
+  heightMetres: 0.5
+  weightKilograms: 12
+  flavourText: 腐ったものや ゴミでも なんでも 食べまわる 自然の 掃除屋。 巣の まわりは いつも きれい。
+rarity: C
+illustrators:
+  - MAHOU

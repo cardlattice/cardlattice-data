@@ -1,0 +1,33 @@
+name: ネマシュ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: キノコのほうし
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをねむりにする。
+    - name: はねまわる
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 755
+  species: はっこうポケモン
+  heightMetres: 0.2
+  weightKilograms: 1.5
+  flavourText: 頭の 傘は とても 美味しい。 森の ポケモンたちに 食べられるが 一晩で 再生する。
+rarity: C
+illustrators:
+  - Suwama Chiaki

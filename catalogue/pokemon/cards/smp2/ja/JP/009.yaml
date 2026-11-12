@@ -1,0 +1,29 @@
+name: コダック
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 54
+  species: あひるポケモン
+  heightMetres: 0.8
+  weightKilograms: 19.6
+  flavourText: 念力を 使うと 頭痛が するので 普段は なるべく 何も しないで ボーっと 過ごしているよ。
+rarity: C
+illustrators:
+  - Framestore

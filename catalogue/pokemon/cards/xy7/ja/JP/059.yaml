@@ -1,0 +1,34 @@
+name: ヌメイル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: あわ
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: とかす
+      cost:
+        - Water
+        - Fairy
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 705
+  species: なんたいポケモン
+  heightMetres: 0.8
+  weightKilograms: 17.5
+  flavourText: ４本の ツノは 高性能の レーダー。 耳や 鼻の かわりに 音や においを 感じ取る。
+  evolvesFrom: ヌメラ
+rarity: C
+illustrators:
+  - Midori Harada

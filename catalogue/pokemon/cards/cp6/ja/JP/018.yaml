@@ -1,0 +1,37 @@
+name: ウインディ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: しゃくねつのいぶき
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+      damage: "150"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities:
+    - name: バーニングロード
+      text: この特性は、自分の番に1回、このポケモンがベンチからバトル場に出たとき使える。自分の場のポケモンについている{Fire}エネルギーを好きなだけ選び、このポケモンにつけ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 59
+  species: でんせつポケモン
+  heightMetres: 1.9
+  weightKilograms: 155
+  flavourText: 中国の 言い伝えにある 伝説の ポケモン。 ものすごい スピードで 走るという。
+  evolvesFrom: ガーディ
+  level: 45
+rarity: U
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,35 @@
+name: リザード
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: フレンドコール
+      cost:
+        - Colorless
+      text: 自分の山札からサポートを1枚選び、相手に見せてから、手札に加える。そして山札を切る。
+    - name: きりさく
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 5
+  species: かえんポケモン
+  heightMetres: 1.1
+  weightKilograms: 19
+  flavourText: いつも一緒の 大事な ともだち。 話したいことが たくさん あるんだ。
+  evolvesFrom: ヒトカゲ
+rarity: C
+illustrators:
+  - Akira Komayama

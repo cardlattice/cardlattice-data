@@ -1,0 +1,39 @@
+name: ズルズキン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: デンジャラスヘッド
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンがたねポケモンなら、50ダメージ追加。
+    - name: ぶちかます
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 560
+  species: あくとうポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: 脱皮した 皮を ずりあげて ダメージを 減らしつつ キック！ とさかが 大きいほど 偉そうだ。
+  evolvesFrom: ズルッグ
+rarity: U
+illustrators:
+  - Mitsuhiro Arita

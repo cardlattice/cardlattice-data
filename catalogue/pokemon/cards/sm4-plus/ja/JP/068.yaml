@@ -1,0 +1,37 @@
+name: レジスチル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ターボアーム
+      cost:
+        - Metal
+      damage: "30"
+      text: 自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。
+    - name: くろがねのこぶし
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "90"
+      text: 自分のベンチに「レジアイス」がいるなら、このポケモンのHPを「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 379
+  species: くろがねポケモン
+  heightMetres: 1.9
+  weightKilograms: 205
+  flavourText: 何万年も 地下の 圧力で 鍛えられた 金属の ボディは 傷ひとつ つかない。
+illustrators:
+  - Mitsuhiro Arita

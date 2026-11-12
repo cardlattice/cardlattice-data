@@ -1,0 +1,30 @@
+name: フラベベ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: はっぱカッター
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 669
+  species: いちりんポケモン
+  heightMetres: 0.1
+  weightKilograms: 0.1
+  flavourText: 大丈夫。 誰もキミのお花を とったりしないよ。 怒った顔も かわいいね。
+rarity: C
+illustrators:
+  - Saya Tsuruta

@@ -1,0 +1,11 @@
+name: ヒート炎エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Fire}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Fire}ポケモンの最大HPは「20」大きくなる。
+  types:
+    - Fire
+rarity: U

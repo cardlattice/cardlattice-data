@@ -1,0 +1,11 @@
+name: オダマキはかせ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から、自分の手札が6枚になるまでカードを引く。
+    - サポーターは、自分の番に1回だけ使うことができる。使ったら、自分のバトル場の横におき、自分の番の終わりにトラッシュする。
+rarity: ◆
+illustrators:
+  - Ken Sugimori

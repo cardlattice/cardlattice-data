@@ -1,0 +1,36 @@
+name: ケララッパ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ドリルくちばし
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: とつげきラッパ
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から3枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 732
+  species: ラッパぐちポケモン
+  heightMetres: 0.6
+  weightKilograms: 14.8
+  flavourText: 食べた きのみのタネを 口から 発射。 タネは大地に 散らばり 新たな 草木が 生まれるのだ。
+  evolvesFrom: ツツケラ
+rarity: C
+illustrators:
+  - tetsuya koizumi

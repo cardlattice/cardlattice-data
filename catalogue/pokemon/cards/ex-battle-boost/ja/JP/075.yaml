@@ -1,0 +1,41 @@
+name: コバルオン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: エナジープレス
+      cost:
+        - Metal
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンについているエネルギーの数×20ダメージを追加。
+    - name: アイアンブレイク
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "80"
+      text: 次の相手の番、このワザを受けた相手のバトルポケモンは、ワザを使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 638
+  species: てっしんポケモン
+  heightMetres: 2.1
+  weightKilograms: 250
+  flavourText: 鋼の 体と 心を 持つ。 にらみつけるだけで 凶暴な ポケモンも 従わせてしまう。
+illustrators:
+  - Sumiyoshi Kizuki
+variants:
+  first-edition:
+    edition: first-edition

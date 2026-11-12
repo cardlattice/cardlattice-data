@@ -1,0 +1,36 @@
+name: ルナトーン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: みらいよち
+      cost:
+        - Colorless
+      text: 自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: サイコキネシス
+      cost:
+        - Psychic
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンについているエネルギーの数×20ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 337
+  species: いんせきポケモン
+  heightMetres: 1
+  weightKilograms: 168
+  flavourText: 月の 満ち欠けと パワーの 増減が 関係 しているらしく 満月の 夜 活発になる。
+rarity: U
+illustrators:
+  - Miki Tanaka

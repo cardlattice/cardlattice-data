@@ -1,0 +1,35 @@
+name: アマルス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  attacks:
+    - name: ふむ
+      cost:
+        - Water
+      damage: "20"
+    - name: オーロラビーム
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules:
+    - ヒレの化石の効果でベンチに出す
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 698
+  species: ツンドラポケモン
+  heightMetres: 1.3
+  weightKilograms: 25.2
+  flavourText: １億年前から 氷漬けに なっていた 体の 一部から 復活した 古代の ポケモン。
+  stage: Restored
+rarity: C
+illustrators:
+  - 5ban Graphics

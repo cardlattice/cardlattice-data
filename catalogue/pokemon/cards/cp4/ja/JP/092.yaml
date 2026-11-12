@@ -1,0 +1,33 @@
+name: オンバーン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: ばくおんぱ
+      cost:
+        - Psychic
+        - Darkness
+        - Colorless
+      text: 相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: エコロケーション
+      text: このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 715
+  species: おんぱポケモン
+  heightMetres: 1.5
+  weightKilograms: 85
+  flavourText: 月明かりすら ない 闇夜を 飛び 油断している 獲物を 襲う。 暗闇の 戦いでは 無敵だ。
+  evolvesFrom: オンバット
+illustrators:
+  - 5ban Graphics

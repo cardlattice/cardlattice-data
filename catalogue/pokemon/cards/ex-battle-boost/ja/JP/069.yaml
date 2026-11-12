@@ -1,0 +1,39 @@
+name: ランドロス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ほうさく
+      cost:
+        - Fighting
+      text: 自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。
+    - name: ガイアハンマー
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "80"
+      text: おたがいのベンチポケモン全員にも、それぞれ10ダメージ。［ベンチへのダメージは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 645
+  species: ほうじょうポケモン
+  heightMetres: 1.5
+  weightKilograms: 68
+  flavourText: ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。
+illustrators:
+  - Midori Harada
+variants:
+  first-edition:
+    edition: first-edition

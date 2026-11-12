@@ -1,0 +1,38 @@
+name: スワンナ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: つばさでうつ
+      cost:
+        - Colorless
+      damage: "20"
+    - name: ブレイブバード
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 581
+  species: しらとりポケモン
+  heightMetres: 1.3
+  weightKilograms: 24.2
+  flavourText: 夜明けと ともに スワンナたちは 踊りはじめる。 真ん中で 踊る スワンナが 群れの リーダー。
+  evolvesFrom: コアルヒー
+rarity: C
+illustrators:
+  - sui

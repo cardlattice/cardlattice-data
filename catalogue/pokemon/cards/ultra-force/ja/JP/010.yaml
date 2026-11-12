@@ -1,0 +1,41 @@
+name: パルキアGX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: くうかんせいぎょ
+      cost:
+        - Water
+      text: 自分のベンチポケモンについているエネルギーを好きなだけ、このポケモンにつけ替える。
+    - name: ハイドロプレッシャー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: このポケモンについている{Water}エネルギーの数×20ダメージ追加。
+    - name: ゼロバニッシュGX
+      cost:
+        - Water
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - 5ban Graphics

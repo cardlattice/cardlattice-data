@@ -1,0 +1,34 @@
+name: エンニュート
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: このポケモンについているエネルギーを、1個トラッシュする。
+  abilities:
+    - name: ホットポイズン
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをどくとやけどにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 758
+  species: どくトカゲポケモン
+  heightMetres: 1.2
+  weightKilograms: 22.2
+  flavourText: なぜか ♀しか 見つかっていない。 ヤトウモリの♂を 引き連れて 逆ハーレムを 作って 暮らす。
+  evolvesFrom: ヤトウモリ
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,11 @@
+name: 化石採掘キット
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュから「かいの化石 オムナイト」「こうらの化石 カブト」「ひみつのコハク プテラ」を合計2枚選び、相手に見せてから、手札に加える。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

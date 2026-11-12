@@ -1,0 +1,35 @@
+name: バシャーモ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ひろがるほのお
+      cost:
+        - Fire
+      text: 自分のトラッシュから{Fire}エネルギーを3枚選び、自分のポケモンに好きなようにつける。
+    - name: ヒートブロー
+      cost:
+        - Fire
+        - Colorless
+      damage: "100"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 257
+  species: もうかポケモン
+  heightMetres: 1.9
+  weightKilograms: 52
+  flavourText: 強敵に 出会うと 手首から 炎を 噴き出す。 ジャンプで ビルを 跳び越す 脚力。
+  evolvesFrom: ワカシャモ
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

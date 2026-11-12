@@ -1,0 +1,10 @@
+name: 基本草エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  rules: []
+  types:
+    - Grass
+printedDenominator: null
+regulationMark: null

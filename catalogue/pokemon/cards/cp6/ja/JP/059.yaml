@@ -1,0 +1,34 @@
+name: イワーク
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: かたくなる
+      cost:
+        - Fighting
+      text: 次の相手の番、このポケモンは「60」以下のワザのダメージを受けない。
+    - name: いわおとし
+      cost:
+        - Fighting
+        - Fighting
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 95
+  species: いわへびポケモン
+  heightMetres: 8.8
+  weightKilograms: 210
+  flavourText: 普段は 土の中に 住んでいる。 地中を 時速 ８０キロで 堀りながら エサを さがす。
+  level: 12
+rarity: C
+illustrators:
+  - Ken Sugimori

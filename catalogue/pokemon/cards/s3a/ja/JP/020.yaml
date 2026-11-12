@@ -1,0 +1,36 @@
+name: ゼクロム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: ワイルドショック
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "130"
+      text: このポケモンにも60ダメージ。相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 644
+  species: こくいんポケモン
+  heightMetres: 2.9
+  weightKilograms: 345
+  flavourText: しっぽの 内部が モーターのように 回ると 何本もの 稲妻が 発生して 周囲を つらぬく。
+rarity: R
+illustrators:
+  - hatachu

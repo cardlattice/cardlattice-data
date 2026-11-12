@@ -1,0 +1,27 @@
+name: フカマル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: かくせい
+      cost:
+        - Fighting
+      text: このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 443
+  species: りくザメポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.5
+  flavourText: 穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。
+illustrators:
+  - Kyoko Umemoto

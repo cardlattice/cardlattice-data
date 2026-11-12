@@ -1,0 +1,34 @@
+name: ヤンチャム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: グレしんか
+      cost:
+        - Colorless
+      text: 自分のベンチに{Darkness}ポケモンがいるなら、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+    - name: がちんこ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 674
+  species: やんちゃポケモン
+  heightMetres: 0.6
+  weightKilograms: 8
+  flavourText: 敵に なめられないよう がんばって にらみつけるが 効果は 薄い。 くわえた 葉っぱが トレードマーク。
+rarity: C
+illustrators:
+  - 5ban Graphics

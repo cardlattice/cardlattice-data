@@ -1,0 +1,40 @@
+name: オーダイル
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: はかいのうずしお
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: ウラが出るまでコインを投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。
+    - name: きずをえぐる
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: ダメージを与えるとき、すでに相手のバトルポケモンにダメカンがのっているなら、80ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 160
+  species: おおあごポケモン
+  heightMetres: 2.3
+  weightKilograms: 88.8
+  flavourText: 普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。
+  evolvesFrom: アリゲイツ
+rarity: R
+illustrators:
+  - Shin Nagasawa

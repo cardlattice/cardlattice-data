@@ -1,0 +1,35 @@
+name: シャンデラ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: のろいのしずく
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      text: ダメカン6個を、相手のポケモンに好きなようにのせる。
+  abilities:
+    - name: しのせんこく
+      text: このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、コインを1回投げる。オモテなら、ワザを使ったポケモンをきぜつさせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 609
+  species: いざないポケモン
+  heightMetres: 1
+  weightKilograms: 34.3
+  flavourText: シャンデラの 炎に 包まれると 魂が 吸い取られ 燃やされる。 抜け殻の 体 だけが 残る。
+  evolvesFrom: ランプラー
+illustrators:
+  - PLANETA

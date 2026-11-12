@@ -1,0 +1,11 @@
+name: カゲツのスタジアム
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいの場の{Darkness}ポケモン全員は、ねむり・マヒ・こんらんにならない。{Darkness}ポケモン全員の受けているねむり・マヒ・こんらんは、すべて回復する。
+    - スタジアムは、自分の番に1回だけ、バトル場の横に出すことができる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+rarity: ◆
+illustrators:
+  - Ryo Ueda

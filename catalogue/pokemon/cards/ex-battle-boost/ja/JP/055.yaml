@@ -1,0 +1,36 @@
+name: ゴチム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: みつめる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをねむりにする。
+    - name: おうふくビンタ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 574
+  species: ぎょうしポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  flavourText: リボンのような 触角で サイコパワーを 増幅させる。 なにかを じっと 見つめている。
+illustrators:
+  - TOKIYA
+variants:
+  first-edition:
+    edition: first-edition

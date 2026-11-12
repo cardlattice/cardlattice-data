@@ -1,0 +1,30 @@
+name: クサイハナ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: よだれ
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 44
+  species: ざっそうポケモン
+  heightMetres: 0.8
+  weightKilograms: 8.6
+  flavourText: 口から たれている ミツは ２キロ 離れていても 鼻が まがるほど 猛烈に くさい。
+  evolvesFrom: ナゾノクサ
+rarity: C
+illustrators:
+  - Masakazu Fukuda

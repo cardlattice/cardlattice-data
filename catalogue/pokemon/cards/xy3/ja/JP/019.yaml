@@ -1,0 +1,37 @@
+name: グレイシア
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ふぶき
+      cost:
+        - Water
+      damage: "30"
+      text: 相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: アイスエッジ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 471
+  species: しんせつポケモン
+  heightMetres: 0.8
+  weightKilograms: 25.9
+  flavourText: 体温を コントロールすることで 周囲の 空気を 凍らせて ダイヤモンドダストを 降らせる。
+  evolvesFrom: イーブイ
+rarity: U
+illustrators:
+  - Kagemaru Himeno

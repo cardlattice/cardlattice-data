@@ -1,0 +1,40 @@
+name: スカタンク
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: つきとばす
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: アシッドボム
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 435
+  species: スカンクポケモン
+  heightMetres: 1
+  weightKilograms: 38
+  flavourText: 尻尾の 先から ひどい においの 液体を 飛ばして 攻撃する。 飛距離は ５０メートル以上。
+  evolvesFrom: スカンプー
+rarity: U
+illustrators:
+  - kirisAki

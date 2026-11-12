@@ -1,0 +1,10 @@
+name: エネルギーつけかえ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のポケモンの基本エネルギーを1個選び、自分の別のポケモンにつけ替える。
+rarity: ◆
+illustrators:
+  - Ken Ikuji

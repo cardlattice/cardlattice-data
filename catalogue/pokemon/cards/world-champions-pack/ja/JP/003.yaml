@@ -1,0 +1,27 @@
+name: ハブネーク
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: するどいキバ
+      cost:
+        - Grass
+      damage: "10"
+    - name: どくどく
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      text: 相手をどくにする。このワザでどくになったポケモンは、ポケモンチェックのときにのせるどくのダメージカウンターの数が2個になる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+rarity: ★
+illustrators:
+  - Midori Harada

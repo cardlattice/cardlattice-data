@@ -1,0 +1,38 @@
+name: エレキブル
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: でんきショック
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: パワードボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 90+
+      text: このポケモンに特殊エネルギーがついているなら、90ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 466
+  species: らいでんポケモン
+  heightMetres: 1.8
+  weightKilograms: 138.6
+  flavourText: エレキブル １匹で 大都市の 建物 すべての 電力を １年分 まかなうことが できる。
+  evolvesFrom: エレブー
+rarity: U
+illustrators:
+  - tetsuya koizumi

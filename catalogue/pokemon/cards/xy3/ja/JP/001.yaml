@@ -1,0 +1,33 @@
+name: マダツボミ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: つるのムチ
+      cost:
+        - Grass
+      damage: "10"
+    - name: はたきおとす
+      cost:
+        - Grass
+        - Colorless
+      text: 相手の手札からオモテを見ないで1枚選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 69
+  species: フラワーポケモン
+  heightMetres: 0.7
+  weightKilograms: 4
+  flavourText: ひょろっとした 体つきだが 獲物を 捕らえるときの 動きは 目にも とまらないほど 素早い。
+rarity: C
+illustrators:
+  - Kanako Eo

@@ -1,0 +1,39 @@
+name: メタング
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: メタルクロー
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+    - name: バレットパンチ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 50+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 375
+  species: てつツメポケモン
+  heightMetres: 1.2
+  weightKilograms: 202.5
+  flavourText: ２匹の ダンバルが 合体した。 ２つの 脳みそが 連結したので サイコパワーは より 強くなった。
+  evolvesFrom: ダンバル
+rarity: C
+illustrators:
+  - Shigenori Negishi

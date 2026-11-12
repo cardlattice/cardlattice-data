@@ -1,0 +1,32 @@
+name: ビブラーバ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: りゅうのいぶき
+      cost:
+        - Grass
+        - Lightning
+        - Colorless
+      damage: "60"
+      text: コインを1回投げウラなら、このワザは失敗する。オモテなら、相手をマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Colorless
+  resistances:
+    - type: Lightning
+    - type: Fighting
+  retreatCost: 1
+  evolvesFrom: ナックラー
+rarity: ◆
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,27 @@
+name: ヒンバス
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ひとやすみ
+      cost:
+        - Colorless
+      text: このポケモンのHPを「20」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 349
+  species: さかなポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.4
+  flavourText: 見た目が 悪いので 人気はないが 脅威の 生命力が あり 研究対象には なっている。
+illustrators:
+  - HYOGONOSUKE

@@ -1,0 +1,35 @@
+name: キュウコンV
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: きゅうびへんげ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      text: 相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - Saki Hayashiro

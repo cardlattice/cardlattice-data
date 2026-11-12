@@ -1,0 +1,37 @@
+name: ダイケンキ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: ハイドロポンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: このポケモンについている{Water}エネルギーの数×10ダメージを追加。
+  abilities:
+    - name: シェルアーマー
+      text: このポケモンが受けるワザのダメージは「-20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 503
+  species: かんろくポケモン
+  heightMetres: 1.5
+  weightKilograms: 94.6
+  flavourText: 前脚の よろいの 一部が 大きな 剣に なっている。 ほえる だけで 敵を 威圧する。
+  evolvesFrom: フタチマル
+illustrators:
+  - Naoki Saito
+variants:
+  first-edition:
+    edition: first-edition

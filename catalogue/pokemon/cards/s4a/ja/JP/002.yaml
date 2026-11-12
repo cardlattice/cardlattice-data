@@ -1,0 +1,28 @@
+name: フクスロー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: はっぱカッター
+      cost:
+        - Grass
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 723
+  species: はばねポケモン
+  heightMetres: 0.7
+  weightKilograms: 16
+  flavourText: 刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。
+  evolvesFrom: モクロー
+illustrators:
+  - Mitsuhiro Arita

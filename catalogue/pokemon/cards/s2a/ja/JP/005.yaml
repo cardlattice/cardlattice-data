@@ -1,0 +1,30 @@
+name: アギルダー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ジェットヘッド
+      cost:
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 617
+  species: からぬけポケモン
+  heightMetres: 0.8
+  weightKilograms: 25.3
+  flavourText: 素早い 動きで 毒を 飛ばし 戦う。 アギルダーが 主役の 映画や マンガは 大人気。
+  evolvesFrom: チョボマキ
+rarity: U
+illustrators:
+  - Shigenori Negishi

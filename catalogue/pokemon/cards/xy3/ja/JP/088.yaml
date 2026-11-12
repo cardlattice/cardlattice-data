@@ -1,0 +1,13 @@
+name: きあいのタスキ
+pokemon:
+  category: trainer
+  subtypes:
+    - Pokémon Tool
+    - Item
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけている{Fighting}ポケモンのHPがまんたんの状態で、相手のワザのダメージを受けてきぜつする場合、そのポケモンはきぜつせず、残りHPが「10」の状態で場に残る。その後、このカードをトラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

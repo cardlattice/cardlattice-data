@@ -1,0 +1,39 @@
+name: オニドリル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: そらをとぶ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: ドリルくちばし
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 22
+  species: くちばしポケモン
+  heightMetres: 1.2
+  weightKilograms: 38
+  flavourText: 大きな 翼で 大空を 飛び続けることが できる。 １回も 降りなくても 平気だ。
+  evolvesFrom: オニスズメ
+rarity: U
+illustrators:
+  - Shin Nagasawa

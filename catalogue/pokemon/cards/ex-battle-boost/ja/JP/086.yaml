@@ -1,0 +1,38 @@
+name: ルギアEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: プラズマゲイル
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンについている「プラズマエネルギー」を1個選び、トラッシュする。トラッシュできないなら、このワザは失敗。
+  abilities:
+    - name: オーバーフロー
+      text: このポケモンがワザのダメージで、相手のポケモンをきぜつさせたなら、自分がサイドをとるとき、さらにサイドを1枚とる。
+      kind: Ability
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  trainers:
+    - プラズマ団
+illustrators:
+  - Toyste Beach
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,35 @@
+name: カイリキー
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: ちきゅうなげ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "120"
+  abilities:
+    - name: はんげき
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 68
+  species: かいりきポケモン
+  heightMetres: 1.6
+  weightKilograms: 130
+  flavourText: 発達した ４本の 腕は ２秒間に １０００発の パンチを くりだすことができる。
+  evolvesFrom: ゴーリキー
+  level: 67
+rarity: R
+illustrators:
+  - Ken Sugimori

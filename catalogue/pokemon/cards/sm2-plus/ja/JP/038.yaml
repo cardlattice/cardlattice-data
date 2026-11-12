@@ -1,0 +1,35 @@
+name: マニューラ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: あくのおきて
+      cost:
+        - Colorless
+      text: おたがいの場の特性を持つポケモン全員に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: きりさく
+      cost:
+        - Darkness
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 461
+  species: かぎづめポケモン
+  heightMetres: 1.1
+  weightKilograms: 34
+  flavourText: ４〜５匹の グループで 行動。 岩や 樹木に サインを 残し 連係プレイで 獲物を 仕留める。
+  evolvesFrom: ニューラ
+illustrators:
+  - Satoshi Shirai

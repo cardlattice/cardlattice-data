@@ -1,0 +1,39 @@
+name: ハトーボー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: つばめがえし
+      cost:
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージ追加。
+    - name: はばたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 520
+  species: のばとポケモン
+  heightMetres: 0.6
+  weightKilograms: 15
+  flavourText: 空を飛ぶ 速さは そこそこ。 どんな 遠く 離れても 主と 自分の 巣を 憶えている。
+  evolvesFrom: マメパト
+rarity: C
+illustrators:
+  - "0313"
+stamps:
+  - pokemon-go

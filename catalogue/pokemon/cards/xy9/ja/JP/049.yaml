@@ -1,0 +1,28 @@
+name: フカマル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: よくばる
+      cost:
+        - Fighting
+      text: 自分の手札を1枚選び、トラッシュする。その後、自分の山札を2枚引く。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 443
+  species: りくザメポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.5
+  flavourText: 洞窟の 小さな 横穴を ねぐらにする。 獲物が 近づくと 素早く 飛び出して 捕まえる。
+rarity: C
+illustrators:
+  - Naoyo Kimura

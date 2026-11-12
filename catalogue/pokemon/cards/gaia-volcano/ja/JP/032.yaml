@@ -1,0 +1,34 @@
+name: ドサイドン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: アームハンマー
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 相手の山札を上から1枚トラッシュする。
+  abilities:
+    - name: Ω（オメガ）バリア
+      text: このポケモンは、相手が使うトレーナーズの効果を受けない。（ポケモンのどうぐ・スタジアムはのぞく。）
+      kind: Ancient Trait
+    - name: ロックウォール
+      text: このポケモンがいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: サイドン
+  flavourText: 岩を 手のひらの 穴に つめて 筋肉の 力で 発射する。 まれに イシツブテを 飛ばす。
+rarity: R
+illustrators:
+  - TOKIYA

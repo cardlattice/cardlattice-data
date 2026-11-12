@@ -1,0 +1,35 @@
+name: シンボラー
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコダメージ
+      cost:
+        - Psychic
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。
+  abilities:
+    - name: はんげき
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 561
+  species: とりもどきポケモン
+  heightMetres: 1.4
+  weightKilograms: 14
+  flavourText: サイコパワーで 空を 飛ぶ。 古代都市の 守り神 とも その遣いとも いわれている。
+rarity: U
+illustrators:
+  - Naoyo Kimura

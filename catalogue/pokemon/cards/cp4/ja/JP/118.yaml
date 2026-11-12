@@ -1,0 +1,10 @@
+name: アズサ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から、たねポケモンの「ポケモンEX」を1枚、またはたねポケモン（「ポケモンEX」をのぞく）を3枚まで選び、ベンチに出す。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Megumi Mizutani

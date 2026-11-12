@@ -1,0 +1,34 @@
+name: ニョロトノ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: ハイパーボイス
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: おうじゃのうた
+      text: このポケモンがいるかぎり、自分の「ニョロモ」「ニョロゾ」「ニョロボン」の、ワザに必要な{Colorless}エネルギーは、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 186
+  species: かえるポケモン
+  heightMetres: 1.1
+  weightKilograms: 33.9
+  flavourText: ３匹以上 ニョロトノが 集まると かならず 怒鳴るような 鳴き声で 合唱を はじめる。
+  evolvesFrom: ニョロゾ
+rarity: U
+illustrators:
+  - Atsuko Nishida

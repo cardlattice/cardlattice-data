@@ -1,0 +1,10 @@
+name: クイックボール
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - このカードは、自分の手札を1枚トラッシュしなければ使えない。 自分の山札からたねポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - sadaji

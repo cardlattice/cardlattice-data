@@ -1,0 +1,30 @@
+name: イーブイ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: クイックドロー
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、自分の山札を1枚引く。
+  abilities:
+    - name: エナジーしんか
+      text: 自分の番に、自分の手札から基本エネルギーをこのポケモンにつけたとき、1回使える。つけたエネルギーと同じタイプの、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 133
+  species: しんかポケモン
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  flavourText: 今 現在の 調査では なんと ８種類もの ポケモンへ 進化する 可能性を 持つ。
+illustrators:
+  - Shibuzoh.

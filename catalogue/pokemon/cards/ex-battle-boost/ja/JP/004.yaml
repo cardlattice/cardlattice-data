@@ -1,0 +1,38 @@
+name: ジャローダ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: グラスミキサー
+      cost:
+        - Grass
+        - Colorless
+      damage: "60"
+      text: 自分のポケモンについている{Grass}エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。
+  abilities:
+    - name: ロイヤルヒール
+      text: このポケモンがいるかぎり、ポケモンチェックのたび、自分のポケモン全員のHPを、それぞれ「10」回復する。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 497
+  species: ロイヤルポケモン
+  heightMetres: 3.3
+  weightKilograms: 63
+  flavourText: 頭を 高く 持ち上げて 相手を 威圧する。 強敵と 戦う ときだけ 本気を 出す。
+  evolvesFrom: ジャノビー
+illustrators:
+  - hatachu
+variants:
+  first-edition:
+    edition: first-edition

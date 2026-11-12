@@ -1,0 +1,13 @@
+name: スパーク
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札を2枚引く。その後、コインを1回投げオモテなら、自分のトラッシュから{Lightning}エネルギーを1枚選び、ベンチポケモンにつける。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Naoki Saito
+stamps:
+  - pokemon-go

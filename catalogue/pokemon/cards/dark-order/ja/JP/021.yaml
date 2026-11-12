@@ -1,0 +1,34 @@
+name: ポチエナ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: やみのとおぼえ
+      cost:
+        - Colorless
+      text: 自分の山札にある{Darkness}ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。
+    - name: かみつく
+      cost:
+        - Darkness
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 261
+  species: かみつきポケモン
+  heightMetres: 0.5
+  weightKilograms: 13.6
+  flavourText: 鋭い きゅうかくで ねらった 獲物は 絶対に 逃がさない。 とっても しつこい 性格だ。
+rarity: C
+illustrators:
+  - Ken Sugimori

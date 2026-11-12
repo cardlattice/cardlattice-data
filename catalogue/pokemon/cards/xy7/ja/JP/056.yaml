@@ -1,0 +1,36 @@
+name: エルフーン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: かぜのいたずら
+      cost:
+        - Fairy
+      text: 自分のベンチポケモンを1匹選び、のっているダメカンをすべて、相手のバトルポケモンにのせ替える。
+    - name: ころがりタックル
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 547
+  species: かぜかくれポケモン
+  heightMetres: 0.7
+  weightKilograms: 6.6
+  flavourText: どんなに 細い すきまでも 風のように 潜り抜けてしまう。 白い 毛玉を 残していく。
+  evolvesFrom: モンメン
+rarity: C
+illustrators:
+  - Atsuko Nishida

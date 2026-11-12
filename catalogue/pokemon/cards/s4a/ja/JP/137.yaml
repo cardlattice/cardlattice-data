@@ -1,0 +1,33 @@
+name: ザシアンV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ブレイブキャリバー
+      cost:
+        - Metal
+        - Metal
+        - Metal
+      damage: "230"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities:
+    - name: ふとうのつるぎ
+      text: 自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札を上から3枚見て、その中から{Metal}エネルギーを好きなだけ選び、このポケモンにつける。残りのカードは手札に加える。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - 5ban Graphics

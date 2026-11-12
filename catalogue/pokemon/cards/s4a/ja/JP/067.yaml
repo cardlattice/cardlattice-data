@@ -1,0 +1,30 @@
+name: ガラル ポニータ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ねんりき
+      cost:
+        - Psychic
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 77
+  species: いっかくポケモン
+  heightMetres: 0.8
+  weightKilograms: 24
+  flavourText: 瞳を 覗いて 心を 読む。 よこしまな 気持ちを 見つけると たちまち 姿を 消してしまう。
+illustrators:
+  - Saya Tsuruta

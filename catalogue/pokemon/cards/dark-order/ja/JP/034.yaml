@@ -1,0 +1,34 @@
+name: ジラーチ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ビンタ
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: ねがいぼし
+      text: このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から5枚見る。その中にあるトレーナーズを1枚、相手に見せてから、手札に加える。残りのカードは山札にもどして切る。その後、このポケモンをねむりにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 385
+  species: ねがいごとポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.1
+  flavourText: １０００年間で ７日だけ 目を 覚まし どんな 願い事でも かなえる 力を 使うという。
+rarity: R
+illustrators:
+  - HYOGONOSUKE

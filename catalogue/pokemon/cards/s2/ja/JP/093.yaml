@@ -1,0 +1,11 @@
+name: ガラル鉱山
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいのバトルポケモンのにげるためのエネルギーは、それぞれ2個ぶん多くなる。
+    - スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+rarity: U
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,33 @@
+name: カジリガメVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  attacks:
+    - name: キョダイズツキ
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 160+
+      text: コインを1回投げオモテなら、80ダメージ追加。
+  abilities:
+    - name: かたいこうら
+      text: このポケモンが受けるワザのダメージは「-30」される。
+      kind: Ability
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: カジリガメV
+rarity: RRR
+illustrators:
+  - aky CG Works

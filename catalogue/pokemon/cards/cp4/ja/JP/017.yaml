@@ -1,0 +1,27 @@
+name: フォッコ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: おにび
+      cost:
+        - Fire
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 653
+  species: キツネポケモン
+  heightMetres: 0.4
+  weightKilograms: 9.4
+  flavourText: 小枝を 食べると 元気になって 摂氏２００度を 超える 熱気を 大きな 耳から 噴き出す。
+illustrators:
+  - 5ban Graphics

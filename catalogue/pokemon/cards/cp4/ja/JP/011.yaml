@@ -1,0 +1,35 @@
+name: ビークイン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: じょうほうしゅうしゅう
+      cost:
+        - Colorless
+      damage: "10"
+      text: のぞむなら、自分の手札が6枚になるように、山札を引いてよい。
+    - name: ビーリベンジ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 自分のトラッシュにあるポケモンの枚数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 416
+  species: はちのすポケモン
+  heightMetres: 1.2
+  weightKilograms: 38.5
+  flavourText: 胴体が 子供たちの 巣穴に なっている。 ミツハニーの 集めた ミツで 子供たちを 育てる。
+  evolvesFrom: ミツハニー
+illustrators:
+  - kawayoo

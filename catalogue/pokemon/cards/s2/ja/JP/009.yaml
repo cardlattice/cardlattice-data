@@ -1,0 +1,36 @@
+name: オーロット
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: タネばくだん
+      cost:
+        - Grass
+      damage: "40"
+    - name: シャドーコープ
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "120"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 709
+  species: ろうぼくポケモン
+  heightMetres: 1.5
+  weightKilograms: 71
+  flavourText: 森の 木を 伐り倒す 人間を 食べると 恐れられているが 森で 暮らす ポケモンたちには 優しい。
+  evolvesFrom: ボクレー
+rarity: U
+illustrators:
+  - kawayoo

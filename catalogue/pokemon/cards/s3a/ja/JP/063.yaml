@@ -1,0 +1,40 @@
+name: ドデカバシ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: エナジーカット
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: ループキャノン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: このポケモンについているエネルギーを2個選び、手札にもどす。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 733
+  species: おおづつポケモン
+  heightMetres: 1.1
+  weightKilograms: 26
+  flavourText: 番いが 仲睦まじいことで 知られる。 縁起物 の 代わりに 結婚式に 連れて こられる。
+  evolvesFrom: ケララッパ
+rarity: U
+illustrators:
+  - Sekio

@@ -1,0 +1,40 @@
+name: ひかるボルケニオン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: デュアルポンプ
+      cost:
+        - Water
+        - Water
+        - Water
+      text: 相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: グランドスマッシュ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: コインを4回投げ、オモテの数×50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 721
+  species: スチームポケモン
+  heightMetres: 1.7
+  weightKilograms: 195
+  flavourText: 水蒸気を 噴き出して 自分の 姿を 濃霧で 隠す。 人の 立ち入らない 山に 住むという。
+  subtypes:
+    - Shining
+illustrators:
+  - Hitoshi Ariga
+rarity: Shining
