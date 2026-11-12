@@ -1,0 +1,32 @@
+name: ブルー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: じゃれつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 209
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.8
+  flavourText: よく 懐いて よく 甘える。 その 仕草と 顔の ギャップで 若い 女性は メロメロらしい。
+rarity: C
+illustrators:
+  - Framestore

@@ -1,0 +1,43 @@
+name: リザードンGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: あばれちらかす
+      cost:
+        - Fire
+      text: 自分の山札を上から8枚トラッシュし、その中にある{Fire}エネルギーをすべて、このポケモンにつける。
+    - name: ばくねつほう
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+    - name: ヒートバーンGX
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "250"
+      text: 相手の場のポケモン全員についているエネルギーを、1個ずつトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: リザード
+rarity: RR
+illustrators:
+  - Framestore

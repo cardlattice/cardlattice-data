@@ -1,0 +1,34 @@
+name: ウインディ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: するどいキバ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: セキュリティガード
+      text: このポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 59
+  species: でんせつポケモン
+  heightMetres: 1.9
+  weightKilograms: 155
+  flavourText: 大昔に とある 武将と ともに 戦い 国を 治めた という 伝説が 残されている。
+  evolvesFrom: ガーディ
+rarity: C
+illustrators:
+  - MPC Film

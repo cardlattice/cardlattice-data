@@ -1,0 +1,33 @@
+name: メロエッタ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ソプラノウェーブ
+      cost:
+        - Psychic
+      text: コインを3回投げ、オモテの数×10ダメージを、相手のポケモン全員にそれぞれ与える。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: トランスメロディ
+      cost:
+        - Psychic
+        - Psychic
+      damage: "30"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 648
+  species: せんりつポケモン
+  heightMetres: 0.6
+  weightKilograms: 6.5
+  flavourText: 特殊な 発声法で 歌う メロディは 聞いた者の 感情を 自在に 操る。
+illustrators:
+  - Hasuno

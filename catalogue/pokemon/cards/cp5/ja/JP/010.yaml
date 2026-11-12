@@ -1,0 +1,35 @@
+name: スイクン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: スパイラルドレイン
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+      text: このポケモンのHPを「20」回復する。
+    - name: オーロラビーム
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 245
+  species: オーロラポケモン
+  heightMetres: 2
+  weightKilograms: 187
+  flavourText: 一瞬で 汚く 濁った 水も 清める 力を 持つ。 北風の 生まれ変わり という。
+illustrators:
+  - Yoshinobu Saito

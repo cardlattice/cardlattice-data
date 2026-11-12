@@ -1,0 +1,28 @@
+name: メタモン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: どこでもコピー
+      cost:
+        - Colorless
+      text: 相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。選んだワザに必要なエネルギーがこのポケモンについていなければ、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 132
+  species: へんしんポケモン
+  heightMetres: 0.3
+  weightKilograms: 4
+  flavourText: どんなものにも 変身 できるが メタモンごとに 得意な ものと 苦手な ものが あるらしい。
+rarity: U
+illustrators:
+  - MPC Film

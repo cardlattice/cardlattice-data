@@ -1,0 +1,35 @@
+name: ジラーチ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: さきゆめ
+      cost:
+        - Metal
+      text: 自分の山札を3枚引く。このポケモンをねむりにする。
+    - name: アイアンヘッド
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 385
+  species: ねがいごとポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.1
+  flavourText: １０００年間で ７日だけ 目を 覚まし どんな 願い事でも かなえる 力を 使うという。
+illustrators:
+  - Ken Sugimori

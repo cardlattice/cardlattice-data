@@ -1,0 +1,35 @@
+name: カイリキー
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: こうつうせいり
+      cost:
+        - Fighting
+      text: 自分の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: クロスチョップ
+      cost:
+        - Fighting
+        - Fighting
+      damage: 80+
+      text: コインを1回投げオモテなら、60ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 68
+  species: かいりきポケモン
+  heightMetres: 1.6
+  weightKilograms: 130
+  flavourText: ４本の 腕で 相手を 捕らえ 複雑な 形に 締め上げる。 カイリキースペシャルと 人は呼ぶ。
+  evolvesFrom: ゴーリキー
+rarity: C
+illustrators:
+  - MPC Film

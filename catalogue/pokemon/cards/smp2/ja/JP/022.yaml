@@ -1,0 +1,30 @@
+name: ベロリンガ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: れんぞくベロベロ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: ウラが出るまでコインを投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 108
+  species: なめまわしポケモン
+  heightMetres: 1.2
+  weightKilograms: 65.5
+  flavourText: 長い ベロで なんでも ベロリと 舐めて 確かめている。 舐められた 部分を 放っておくと かぶれるぞ。
+rarity: C
+illustrators:
+  - MPC Film

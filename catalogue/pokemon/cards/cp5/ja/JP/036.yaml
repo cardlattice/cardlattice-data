@@ -1,0 +1,31 @@
+name: アルセウス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: タイプスイッチ
+      cost:
+        - Colorless
+      text: "{Grass}{Fire}{Water}{Lightning}{Psychic}{Fighting}{Darkness}{Metal}{Fair\
+        y}{Dragon}の中からタイプを1つ選ぶ。次の自分の番の終わりまで、このポケモンは選ばれたタイプになる。"
+    - name: パワーブラスト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 宇宙が まだ ない ころに 最初に 生まれた ポケモンと 神話の 中で 語られている。
+illustrators:
+  - Naoki Saito

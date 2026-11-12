@@ -1,0 +1,29 @@
+name: ヒトカゲ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: とつげき
+      cost:
+        - Colorless
+      damage: "20"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 4
+  species: とかげポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.5
+  flavourText: 尻尾の 炎は ヒトカゲの 生命力の 証。 元気だと さかんに 燃えさかる。
+rarity: C
+illustrators:
+  - MPC Film

@@ -1,0 +1,33 @@
+name: バリヤード
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ジャグリング
+      cost:
+        - Psychic
+        - Colorless
+      damage: 20×
+      text: コインを4回投げ、オモテの数×20ダメージ。
+  abilities:
+    - name: パントマイム
+      text: 自分の番に、このカードを手札からベンチに出したとき、1回使える。ウラになっている自分のサイドを1枚、自分の山札の一番上のカードと入れ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 122
+  species: バリアーポケモン
+  heightMetres: 1.3
+  weightKilograms: 54.5
+  flavourText: 素晴らしい パントマイムの 腕前。 見とれている 間に いつの間にか 本当に 壁が できているのだ。
+rarity: C
+illustrators:
+  - MPC Film
