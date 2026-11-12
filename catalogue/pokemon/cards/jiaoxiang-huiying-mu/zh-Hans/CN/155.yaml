@@ -1,0 +1,35 @@
+name: 大钢蛇
+rarity: CHR
+illustrators:
+  - Avec Yoko
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: 大岩蛇
+  flavourText: 由地下高压和高热锻炼出来的身体比任何金属都要坚硬。
+  attacks:
+    - name: 轰隆坠落
+      cost:
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 将自己手牌中任意数量的撤退所需能量数为4个的宝可梦放于弃牌区，造成其张数×50点伤害。
+    - name: 铁尾
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 100×
+      text: 抛掷硬币直到出现反面，造成正面次数×100点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4

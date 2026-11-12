@@ -1,0 +1,33 @@
+name: 大舌头
+rarity: C
+illustrators:
+  - tetsuya koizumi
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  nationalDex:
+    - 108
+  species: 舔舔宝可梦
+  heightMetres: 1.2
+  weightKilograms: 65.5
+  flavourText: 不管是什么，都会用长舌头去舔舔看。被舔到的部位如果放着不管就会红肿发炎。
+  attacks:
+    - name: 强力抽取
+      cost:
+        - Colorless
+      text: 从自己的牌库上方抽取与自己场上撤退所需能量为4个的宝可梦数量相同张数的卡牌。
+    - name: 舌头拍击
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4

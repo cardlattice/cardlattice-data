@@ -1,0 +1,44 @@
+name: 时拉比&妙蛙花GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 危险花粉
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 使对手的战斗宝可梦陷入中毒和灼伤和混乱状态。
+    - name: 日光束
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "150"
+    - name: 万古长青GX
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 将这只宝可梦的HP，全部回复。如果追加附有1个{Grass}能量的话，则将自己弃牌区中的所有卡牌放回牌库并重洗牌库。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

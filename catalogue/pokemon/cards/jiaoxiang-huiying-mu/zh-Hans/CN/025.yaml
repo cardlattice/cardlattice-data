@@ -1,0 +1,36 @@
+name: 暴鲤龙
+rarity: R
+illustrators:
+  - Hasuno
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 鲤鱼王
+  nationalDex:
+    - 130
+  species: 凶恶宝可梦
+  heightMetres: 6.5
+  weightKilograms: 235
+  flavourText: 能不断地吐出破坏光线，将周围一带燃烧殆尽。也有一些地区称其为破坏神。
+  attacks:
+    - name: 大吟酿
+      cost:
+        - Water
+      damage: 30+
+      text: 将自己牌库上方的7张卡牌翻到正面。追加造成其中{Water}能量数量×30点伤害，然后将{Water}能量放回牌库并重洗牌库。将剩余的卡牌放于弃牌区。
+    - name: 破坏光线
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "100"
+      text: 将附着于对手战斗宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4

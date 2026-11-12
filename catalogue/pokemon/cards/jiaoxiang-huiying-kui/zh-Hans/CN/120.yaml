@@ -1,0 +1,39 @@
+name: 猫老大GX
+rarity: RR
+illustrators:
+  - PLANETA Igarashi
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: 喵喵
+  subtypes:
+    - GX
+  attacks:
+    - name: 复仇
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 追加造成自己弃牌区中的宝可梦张数×20点伤害。最多可追加的伤害为相当于9张宝可梦的数值。
+    - name: 折返GX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 将这只宝可梦与备战宝可梦互换。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 猫步
+      kind: Ability
+      text: 在上一个对手的回合，如果自己的「宝可梦GX・EX」昏厥的话，则在自己的回合可以使用1次。将自己牌库中任意卡牌最多2张，加入手牌。并重洗牌库。在这个回合，如果已经使用了其他的「猫步」了的话，则无法使用这个特性。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

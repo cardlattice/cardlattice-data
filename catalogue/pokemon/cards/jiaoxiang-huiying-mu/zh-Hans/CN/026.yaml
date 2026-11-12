@@ -1,0 +1,32 @@
+name: 拉普拉斯
+rarity: U
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 131
+  species: 乘载宝可梦
+  heightMetres: 2.5
+  weightKilograms: 220
+  flavourText: 喜欢乘载着人游泳。在阿罗拉地区，这是重要的水上交通方式。
+  attacks:
+    - name: 冲浪
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 人鱼呼唤
+      kind: Ability
+      text: 在自己的回合可以使用1次。将自己弃牌区中的1张「小霞的愿望」，在给对手看过之后，加入手牌。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1

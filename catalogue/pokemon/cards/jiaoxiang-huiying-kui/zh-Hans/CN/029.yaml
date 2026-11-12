@@ -1,0 +1,36 @@
+name: 纸御剑
+rarity: R
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - Ultra Beast
+  nationalDex:
+    - 798
+  species: 拔刀宝可梦
+  heightMetres: 0.3
+  weightKilograms: 0.1
+  flavourText: 从纸一样薄的身体上能感觉到像磨过的刀刃一般的锋利度。是一种究极异兽。
+  attacks:
+    - name: 大劈斩
+      cost:
+        - Grass
+      damage: 10+
+      text: 如果自己的剩余奖赏卡张数为4张的话，则追加造成120点伤害。
+    - name: 点到为止
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      text: 抛掷1次硬币如果为正面，则在对手战斗宝可梦身上放置伤害指示物，直到其剩余HP变为「10」点。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0

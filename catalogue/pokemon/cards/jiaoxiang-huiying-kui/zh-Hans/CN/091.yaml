@@ -1,0 +1,32 @@
+name: 多刺菊石兽
+rarity: R
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: 菊石兽
+  nationalDex:
+    - 139
+  species: 漩涡宝可梦
+  heightMetres: 1
+  weightKilograms: 35
+  flavourText: 被认为是由于身上沉重的壳而灭绝的古代宝可梦。好像是章鱼桶的远祖。
+  attacks:
+    - name: 咬住
+      cost:
+        - Fighting
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: 化石栅栏
+      kind: Ability
+      text: 只要这只宝可梦在场上，如果自己场上的宝可梦数量，少于对手的话，则对手无法从手牌使出物品。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

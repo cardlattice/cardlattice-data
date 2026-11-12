@@ -1,0 +1,41 @@
+name: 玛夏多&怪力GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 报复
+      cost:
+        - Fighting
+        - Colorless
+      damage: 30+
+      text: 在上一个对手的回合，如果因为招式的伤害，而导致自己的宝可梦昏厥的话，则追加造成90点伤害。
+    - name: 百裂冲击
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "160"
+    - name: 绝顶雄风GX
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "200"
+      text: 如果追加附有1个能量的话，则在下一个对手的回合，这只宝可梦受到招式的伤害而昏厥时，这只宝可梦不会昏厥，而会以剩余「10」点HP的状态留在场上。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

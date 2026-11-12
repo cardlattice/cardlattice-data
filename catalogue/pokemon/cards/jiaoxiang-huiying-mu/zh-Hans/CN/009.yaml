@@ -1,0 +1,35 @@
+name: 水箭龟GX
+rarity: RR
+illustrators:
+  - sadaji
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: 卡咪龟
+  subtypes:
+    - GX
+  attacks:
+    - name: 火箭飞溅
+      cost:
+        - Water
+        - Water
+      damage: 60×
+      text: 将自己场上宝可梦身上附着的任意数量的{Water}能量放回牌库，造成其张数×60点伤害。在这种情况下，重洗牌库。
+    - name: 大注水GX
+      cost:
+        - Water
+      text: 将自己手牌中任意数量的{Water}能量，以任意方式附着于自己的宝可梦身上。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 坚硬甲壳
+      kind: Ability
+      text: 这只宝可梦所受到的招式的伤害「-30」。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

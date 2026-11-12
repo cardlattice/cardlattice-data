@@ -1,0 +1,24 @@
+name: 谜拟丘
+rarity: CHR
+illustrators:
+  - You Iribi
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  flavourText: 稳重又怕寂寞，但如果想要看它的破布里面，就会非常厌恶，激烈反抗。
+  attacks:
+    - name: 假扮
+      cost:
+        - Colorless
+      text: 将自己手牌中的1张支援者放于弃牌区。然后，将该支援者的效果，作为这个招式的效果使用。
+    - name: 恶作剧之手
+      cost:
+        - Psychic
+      text: 给对手的2只宝可梦身上，各放置2个伤害指示物。
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1

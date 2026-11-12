@@ -1,0 +1,12 @@
+name: 赤红的挑战
+rarity: R
+illustrators:
+  - Megumi Mizutani
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，只有将自己的2张手牌放于弃牌区后才可使用。
+    - 从自己牌库中抽出任意1张卡牌，加入手牌。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。
