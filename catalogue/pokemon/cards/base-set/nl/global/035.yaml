@@ -1,0 +1,10 @@
+name: Magikarp
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+rarity: Uncommon
+finishes:
+  - non-holo

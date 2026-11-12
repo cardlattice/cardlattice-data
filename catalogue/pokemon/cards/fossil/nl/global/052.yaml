@@ -1,0 +1,11 @@
+name: Omanyte
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Mysterious Fossil
+rarity: Common
+finishes:
+  - non-holo

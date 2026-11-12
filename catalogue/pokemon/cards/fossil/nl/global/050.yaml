@@ -1,0 +1,11 @@
+name: Kabuto
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Mysterious Fossil
+rarity: Common
+finishes:
+  - non-holo

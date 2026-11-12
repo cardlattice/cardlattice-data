@@ -1,0 +1,11 @@
+name: Charmeleon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Charmander
+rarity: Uncommon
+finishes:
+  - non-holo

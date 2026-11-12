@@ -1,0 +1,11 @@
+name: Wartortle
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Squirtle
+rarity: Uncommon
+finishes:
+  - non-holo

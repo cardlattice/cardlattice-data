@@ -1,0 +1,7 @@
+name: Energie
+pokemon:
+  category: energy
+  types:
+    - Fire
+finishes:
+  - non-holo

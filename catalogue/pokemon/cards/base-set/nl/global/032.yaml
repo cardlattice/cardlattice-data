@@ -1,0 +1,11 @@
+name: Kadabra
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Abra
+rarity: Uncommon
+finishes:
+  - non-holo

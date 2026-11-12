@@ -1,0 +1,11 @@
+name: Jolteon
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Eevee
+rarity: Rare
+finishes:
+  - non-holo

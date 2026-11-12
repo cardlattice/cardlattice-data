@@ -1,0 +1,10 @@
+name: Scyther
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+rarity: Rare
+finishes:
+  - non-holo

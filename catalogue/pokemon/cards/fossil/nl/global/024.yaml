@@ -1,0 +1,11 @@
+name: Kabutops
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Kabuto
+rarity: Rare
+finishes:
+  - non-holo

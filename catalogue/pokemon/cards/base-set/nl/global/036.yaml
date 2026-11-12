@@ -1,0 +1,10 @@
+name: Magmar
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+rarity: Uncommon
+finishes:
+  - non-holo

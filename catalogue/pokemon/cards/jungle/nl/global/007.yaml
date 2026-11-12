@@ -1,0 +1,11 @@
+name: Nidoqueen
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Nidorina
+rarity: Rare
+finishes:
+  - holo

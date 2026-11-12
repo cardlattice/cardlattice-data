@@ -1,0 +1,10 @@
+name: Kangaskhan
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+rarity: Rare
+finishes:
+  - non-holo

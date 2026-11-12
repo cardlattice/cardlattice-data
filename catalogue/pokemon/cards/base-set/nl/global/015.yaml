@@ -1,0 +1,11 @@
+name: Venusaur
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Ivysaur
+rarity: Rare
+finishes:
+  - holo

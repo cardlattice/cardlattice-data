@@ -1,0 +1,11 @@
+name: Seaking
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Goldeen
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,10 @@
+name: Chansey
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+rarity: Rare
+finishes:
+  - holo

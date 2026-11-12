@@ -1,0 +1,10 @@
+name: Jigglypuff
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

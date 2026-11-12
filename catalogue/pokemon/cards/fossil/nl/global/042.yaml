@@ -1,0 +1,11 @@
+name: Seadra
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Horsea
+rarity: Uncommon
+finishes:
+  - non-holo

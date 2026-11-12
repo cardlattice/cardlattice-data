@@ -1,0 +1,10 @@
+name: Seel
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+rarity: Uncommon
+finishes:
+  - non-holo

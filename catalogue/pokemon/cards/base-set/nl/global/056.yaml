@@ -1,0 +1,10 @@
+name: Onix
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

@@ -1,0 +1,11 @@
+name: Dewgong
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Seel
+rarity: Uncommon
+finishes:
+  - non-holo

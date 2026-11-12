@@ -1,0 +1,10 @@
+name: Tauros
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+rarity: Uncommon
+finishes:
+  - non-holo

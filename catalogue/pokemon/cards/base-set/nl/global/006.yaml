@@ -1,0 +1,11 @@
+name: Gyarados
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Magikarp
+rarity: Rare
+finishes:
+  - holo

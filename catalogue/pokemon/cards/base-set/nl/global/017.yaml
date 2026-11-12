@@ -1,0 +1,11 @@
+name: Beedrill
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Kakuna
+rarity: Rare
+finishes:
+  - non-holo

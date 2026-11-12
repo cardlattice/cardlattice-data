@@ -1,0 +1,10 @@
+name: Voltorb
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Lightning
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

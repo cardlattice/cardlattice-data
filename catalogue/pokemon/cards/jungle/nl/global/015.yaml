@@ -1,0 +1,11 @@
+name: Vileplume
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Gloom
+rarity: Rare
+finishes:
+  - holo

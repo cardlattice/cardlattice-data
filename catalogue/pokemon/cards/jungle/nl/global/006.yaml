@@ -1,0 +1,10 @@
+name: Mr. Mime
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Psychic
+  stage: Basic
+rarity: Rare
+finishes:
+  - holo

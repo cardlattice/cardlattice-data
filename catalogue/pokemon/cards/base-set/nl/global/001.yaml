@@ -1,0 +1,11 @@
+name: Alakazam
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Kadabra
+rarity: Rare
+finishes:
+  - holo

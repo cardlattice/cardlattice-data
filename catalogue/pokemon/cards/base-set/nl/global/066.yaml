@@ -1,0 +1,10 @@
+name: Tangela
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

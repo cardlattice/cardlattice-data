@@ -1,0 +1,10 @@
+name: Psyduck
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

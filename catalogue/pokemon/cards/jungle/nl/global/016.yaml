@@ -1,0 +1,11 @@
+name: Wigglytuff
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Jigglypuff
+rarity: Rare
+finishes:
+  - holo

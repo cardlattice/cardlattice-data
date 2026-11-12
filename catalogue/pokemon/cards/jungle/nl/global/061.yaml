@@ -1,0 +1,10 @@
+name: Rhyhorn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

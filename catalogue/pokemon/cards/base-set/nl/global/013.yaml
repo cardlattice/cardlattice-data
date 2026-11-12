@@ -1,0 +1,11 @@
+name: Poliwrath
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Poliwhirl
+rarity: Rare
+finishes:
+  - holo

@@ -1,0 +1,11 @@
+name: Pidgeot
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Pidgeotto
+rarity: Rare
+finishes:
+  - holo

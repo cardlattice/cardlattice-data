@@ -1,0 +1,11 @@
+name: Rhydon
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Rhyhorn
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,11 @@
+name: Golem
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Graveler
+rarity: Uncommon
+finishes:
+  - non-holo

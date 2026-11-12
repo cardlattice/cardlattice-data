@@ -1,0 +1,10 @@
+name: Mewtwo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+rarity: Rare
+finishes:
+  - holo

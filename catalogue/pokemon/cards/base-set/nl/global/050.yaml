@@ -1,0 +1,10 @@
+name: Gastly
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

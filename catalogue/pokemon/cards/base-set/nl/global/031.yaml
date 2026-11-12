@@ -1,0 +1,10 @@
+name: Jynx
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+rarity: Uncommon
+finishes:
+  - non-holo

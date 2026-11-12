@@ -1,0 +1,11 @@
+name: Cloyster
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Shellder
+rarity: Uncommon
+finishes:
+  - non-holo

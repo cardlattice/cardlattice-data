@@ -1,0 +1,6 @@
+name: Pokédex
+pokemon:
+  category: trainer
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,10 @@
+name: Drowzee
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

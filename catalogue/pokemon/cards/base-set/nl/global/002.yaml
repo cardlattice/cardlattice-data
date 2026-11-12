@@ -1,0 +1,11 @@
+name: Blastoise
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Wartortle
+rarity: Rare
+finishes:
+  - holo

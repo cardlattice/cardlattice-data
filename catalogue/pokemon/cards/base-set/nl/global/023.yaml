@@ -1,0 +1,11 @@
+name: Arcanine
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Growlithe
+rarity: Uncommon
+finishes:
+  - non-holo

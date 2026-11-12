@@ -1,0 +1,11 @@
+name: Magneton
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Magnemite
+rarity: Rare
+finishes:
+  - holo

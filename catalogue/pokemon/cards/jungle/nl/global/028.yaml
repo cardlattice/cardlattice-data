@@ -1,0 +1,11 @@
+name: Vaporeon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Eevee
+rarity: Rare
+finishes:
+  - non-holo

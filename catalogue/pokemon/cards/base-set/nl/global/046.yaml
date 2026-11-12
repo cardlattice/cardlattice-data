@@ -1,0 +1,10 @@
+name: Charmander
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

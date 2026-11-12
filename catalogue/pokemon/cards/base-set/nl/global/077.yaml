@@ -1,0 +1,6 @@
+name: Pokémon-Handelaar
+pokemon:
+  category: trainer
+rarity: Rare
+finishes:
+  - non-holo

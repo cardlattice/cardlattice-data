@@ -1,0 +1,11 @@
+name: Omastar
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Omanyte
+rarity: Uncommon
+finishes:
+  - non-holo

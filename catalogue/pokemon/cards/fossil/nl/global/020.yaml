@@ -1,0 +1,11 @@
+name: Gengar
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Haunter
+rarity: Rare
+finishes:
+  - non-holo

@@ -1,0 +1,10 @@
+name: Zapdos
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+rarity: Rare
+finishes:
+  - non-holo

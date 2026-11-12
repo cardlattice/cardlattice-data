@@ -1,0 +1,11 @@
+name: Raticate
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Rattata
+rarity: Uncommon
+finishes:
+  - non-holo

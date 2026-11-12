@@ -1,0 +1,11 @@
+name: Persian
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Meowth
+rarity: Uncommon
+finishes:
+  - non-holo

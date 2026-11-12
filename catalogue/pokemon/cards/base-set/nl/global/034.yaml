@@ -1,0 +1,11 @@
+name: Machoke
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Machop
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,11 @@
+name: Kingler
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Krabby
+rarity: Uncommon
+finishes:
+  - non-holo

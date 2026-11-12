@@ -1,0 +1,11 @@
+name: Flareon
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Eevee
+rarity: Rare
+finishes:
+  - non-holo

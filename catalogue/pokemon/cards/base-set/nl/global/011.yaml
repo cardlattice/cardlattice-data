@@ -1,0 +1,11 @@
+name: Nidoking
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Nidorino
+rarity: Rare
+finishes:
+  - holo

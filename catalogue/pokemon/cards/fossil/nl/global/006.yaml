@@ -1,0 +1,11 @@
+name: Haunter
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Gastly
+rarity: Rare
+finishes:
+  - holo

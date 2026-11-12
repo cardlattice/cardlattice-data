@@ -1,0 +1,11 @@
+name: Electrode
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Voltorb
+rarity: Rare
+finishes:
+  - holo

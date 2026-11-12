@@ -1,0 +1,10 @@
+name: Tentacool
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

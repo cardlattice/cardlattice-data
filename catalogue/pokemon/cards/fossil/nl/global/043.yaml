@@ -1,0 +1,11 @@
+name: Slowbro
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Slowpoke
+rarity: Uncommon
+finishes:
+  - non-holo

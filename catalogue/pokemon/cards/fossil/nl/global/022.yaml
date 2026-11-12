@@ -1,0 +1,10 @@
+name: Hitmonlee
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+rarity: Rare
+finishes:
+  - non-holo

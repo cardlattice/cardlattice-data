@@ -1,0 +1,11 @@
+name: Tentacruel
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Tentacool
+rarity: Uncommon
+finishes:
+  - non-holo

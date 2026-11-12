@@ -1,0 +1,11 @@
+name: Butterfree
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Metapod
+rarity: Uncommon
+finishes:
+  - non-holo

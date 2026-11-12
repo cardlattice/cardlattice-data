@@ -1,0 +1,13 @@
+name: Machamp
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Machoke
+rarity: Rare
+finishes:
+  - holo
+stamps:
+  - 1st-edition

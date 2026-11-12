@@ -1,0 +1,10 @@
+name: Articuno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+rarity: Rare
+finishes:
+  - non-holo

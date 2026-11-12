@@ -1,0 +1,10 @@
+name: Geodude
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

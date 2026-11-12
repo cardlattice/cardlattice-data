@@ -1,0 +1,11 @@
+name: Aerodactyl
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Mysterious Fossil
+rarity: Rare
+finishes:
+  - holo

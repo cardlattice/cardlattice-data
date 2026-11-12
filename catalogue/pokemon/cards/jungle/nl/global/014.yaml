@@ -1,0 +1,11 @@
+name: Victreebel
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Weepinbell
+rarity: Rare
+finishes:
+  - holo

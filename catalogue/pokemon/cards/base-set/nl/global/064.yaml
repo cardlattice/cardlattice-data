@@ -1,0 +1,11 @@
+name: Starmie
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Staryu
+rarity: Common
+finishes:
+  - non-holo

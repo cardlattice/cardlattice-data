@@ -1,0 +1,11 @@
+name: Dragonair
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Dratini
+rarity: Rare
+finishes:
+  - non-holo

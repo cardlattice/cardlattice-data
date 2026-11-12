@@ -1,0 +1,6 @@
+name: Drankje
+pokemon:
+  category: trainer
+rarity: Common
+finishes:
+  - non-holo

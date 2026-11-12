@@ -1,0 +1,10 @@
+name: Pikachu
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+rarity: Common
+finishes:
+  - non-holo

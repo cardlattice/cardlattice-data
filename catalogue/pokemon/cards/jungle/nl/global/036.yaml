@@ -1,0 +1,11 @@
+name: Fearow
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Spearow
+rarity: Uncommon
+finishes:
+  - non-holo

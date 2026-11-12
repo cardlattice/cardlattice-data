@@ -1,0 +1,11 @@
+name: Hypno
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Drowzee
+rarity: Rare
+finishes:
+  - non-holo

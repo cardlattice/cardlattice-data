@@ -1,0 +1,11 @@
+name: Raichu
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Pikachu
+rarity: Rare
+finishes:
+  - non-holo

@@ -1,0 +1,10 @@
+name: Lickitung
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+rarity: Uncommon
+finishes:
+  - non-holo
