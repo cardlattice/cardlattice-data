@@ -1,0 +1,12 @@
+name: 기본 {Metal}에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Metal
+  rules: []
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN

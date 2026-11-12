@@ -1,0 +1,12 @@
+name: 기본 {Psychic}에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Psychic
+  rules: []
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN

@@ -1,0 +1,37 @@
+name: 민화의 푸린
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  trainers:
+    - 민화
+  species: 풍선포켓몬
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  nationalDex:
+    - 39
+  attacks:
+    - name: 다함께회복
+      cost:
+        - Colorless
+      text: 서로의 필드에 있는 포켓몬 전원으로부터 각각 데미지 카운터를 1개씩 없앤다.
+    - name: 부드러운펀치
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40-
+      text: 상대에게 데미지 카운터가 올려져 있을 때 이 기술의 데미지는 「-30」이 된다.
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  level: 13
+illustrators:
+  - Ken Sugimori
+regulationMark: null

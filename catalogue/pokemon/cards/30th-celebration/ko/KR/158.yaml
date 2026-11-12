@@ -1,0 +1,38 @@
+name: 솔가레오 GX
+illustrators:
+  - PLANETA
+regulationMark: A
+pokemon:
+  category: pokemon
+  abilities:
+    - name: 울트라로드
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다.
+  rules:
+    - 포켓몬 GX가 기절할 경우 상대는 프라이즈를 2장 가져간다.
+  hp: 250
+  types:
+    - Metal
+  stage: Stage 2
+  evolvesFrom: 코스모움
+  subtypes:
+    - GX
+  attacks:
+    - name: 메테오드라이브
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "230"
+      text: 이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다.
+    - name: 솔버스트 GX
+      cost:
+        - Metal
+      text: 자신의 덱에 있는 에너지를 5장까지 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3

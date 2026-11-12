@@ -1,0 +1,28 @@
+name: 파밀리쥐
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 다함께갉기
+      cost:
+        - Colorless
+      text: 자신의 필드의 「파밀리쥐」의 수만큼 동전을 던져서 앞면이 나온 수 × 2장만큼 상대의 덱을 위에서부터 트래쉬한다.
+    - name: 막치기
+      cost:
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 큰 두 마리가 아이들을 지키며 싸운다. 강한 상대에게는 모두가 맞서 싸운다.
+  abilities: []
+  rules: []
+  evolvesFrom: 두리쥐
+  resistances: []
+rarity: AR
+illustrators:
+  - osare

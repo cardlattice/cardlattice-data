@@ -1,0 +1,24 @@
+name: 잉어킹
+illustrators:
+  - Shinji Kanda
+regulationMark: G
+pokemon:
+  category: pokemon
+  abilities: []
+  rules: []
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 튀어오르기 고수
+      cost:
+        - Water
+      damage: 10+
+      text: 동전을 2번 던져서 모두 앞면이 나오면 20데미지를 추가한다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 힘없는 한심한 포켓몬이다. 가끔 높이 뛰어오르지만 2m를 겨우 넘기는 게 고작이다.

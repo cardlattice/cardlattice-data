@@ -1,0 +1,35 @@
+name: 뮤츠 ex
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - ex
+  attacks:
+    - name: 포톤불릿
+      cost:
+        - Psychic
+        - Psychic
+      text: 상대의 「포켓몬 [ex]」 전원에게 각각 50데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 사이킥포스
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "230"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  abilities: []
+rarity: FUR
+illustrators:
+  - YOSHIROTTEN

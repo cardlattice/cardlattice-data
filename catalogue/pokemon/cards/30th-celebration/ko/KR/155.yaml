@@ -1,0 +1,33 @@
+name: 게노세크트 EX
+illustrators:
+  - Eske Yoshinob
+regulationMark: null
+pokemon:
+  category: pokemon
+  abilities:
+    - name: 레드시그널
+      kind: Ability
+      text: 이 특성은 자신의 패에서 「플라스마 에너지」를 이 포켓몬에게 붙일 때마다 한 번 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+  rules:
+    - 포켓몬 EX가 기절할 경우 상대는 프라이즈를 2장 가져간다.
+  hp: 170
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - EX
+  trainers:
+    - 플라스마단
+  attacks:
+    - name: 메갈로캐논
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "100"
+      text: 상대의 벤치 포켓몬을 1마리 선택해서 그 포켓몬에게도 20데미지를 준다. (벤치 포켓몬에게 주는 데미지는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

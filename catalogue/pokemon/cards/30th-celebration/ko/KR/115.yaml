@@ -1,0 +1,23 @@
+name: 알로라 나옹
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 고양이돈받기
+      cost: []
+      damage: "10"
+      text: 자신의 덱을 1장 뽑는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 과거 알로라지방의 왕족과 사치스러운 생활을 했기 때문에 먹이의 취향이 상당히 까다롭다.
+  abilities: []
+  rules: []
+  resistances: []
+rarity: AR
+illustrators:
+  - OKUBO

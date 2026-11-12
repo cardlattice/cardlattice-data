@@ -1,0 +1,38 @@
+name: 리자몽
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: 리자드
+  species: 화염포켓몬
+  heightMetres: 1.7
+  weightKilograms: 90.5
+  nationalDex:
+    - 6
+  attacks:
+    - name: 회오리불꽃
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "100"
+      text: 자신의 에너지 카드를 2장 떼어내서 버린다.
+  abilities:
+    - name: 에너지번
+      kind: Pokémon Power
+      text: 리자몽은 {Fire} 이외의 자신의 에너지를 {Fire}에너지로 다룰 수 있다. 혼란 상태일 때에는 사용할 수 없다.
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  flavourText: 지상 1400m까지 날개를 사용해 날 수 있다. 고열의 불꽃을 내뿜는다.
+  level: 76
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: null

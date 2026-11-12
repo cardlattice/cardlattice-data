@@ -1,0 +1,33 @@
+name: 유크시
+illustrators:
+  - Ken Sugimori
+regulationMark: null
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  species: 지식포켓몬
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  nationalDex:
+    - 480
+  attacks:
+    - name: 사이코 리스토어
+      cost:
+        - Colorless
+      damage: "20"
+      text: 원한다면 자신과 자신에게 붙어 있는 모든 카드를 원하는 순서대로 자신의 덱의 제일 아래로 되돌려도 좋다.
+  abilities:
+    - name: 세트 업
+      kind: Poké-Power
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 한 번 사용할 수 있다. 자신의 패가 7장이 되도록 자신의 덱에서 카드를 뽑는다.
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: "+20"
+  resistances: []
+  retreatCost: 1
+  flavourText: 지식의 신이라 불리고 있다. 눈을 마주친 사람의 기억을 지워 버리는 힘을 가지고 있다고 한다.
+  level: 55

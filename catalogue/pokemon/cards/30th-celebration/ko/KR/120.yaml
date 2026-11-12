@@ -1,0 +1,25 @@
+name: 나옹
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 고양이돈받기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 자신의 덱을 1장 뽑는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 눈부시게 빛나는 것을 매우 좋아한다. 빛나는 것을 발견하면 어째선지 이마에 있는 금화도 빛이 난다.
+  abilities: []
+  rules: []
+  resistances: []
+rarity: AR
+illustrators:
+  - OKUBO

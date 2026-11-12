@@ -1,0 +1,30 @@
+name: 썬더
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 뇌굉
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "210"
+      text: 이 포켓몬에게도 60데미지를 준다.
+  abilities:
+    - name: 터뜨린 날갯짓
+      kind: Ability
+      text: 자신의 필드에 「파이어」「프리져」가 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 패에서 「기본 {Lightning} 에너지」를 1장 선택해서 이 포켓몬에게 붙인다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 전기를 자유로이 조종한다. 새까만 번개 구름 안에 거처가 있다고 전해지고 있다.
+  rules: []
+  resistances: []
+rarity: AR
+illustrators:
+  - mashu
