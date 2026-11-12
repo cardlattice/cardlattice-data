@@ -1,0 +1,33 @@
+name: Pidgeot
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Pidgeotto
+  attacks:
+    - name: Flap
+      cost:
+        - Colorless
+      damage: "40"
+    - name: Fly
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: Flip a coin. If tails, this attack does nothing. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+regulationMark: G

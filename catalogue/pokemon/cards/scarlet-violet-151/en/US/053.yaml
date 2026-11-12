@@ -1,0 +1,29 @@
+name: Persian
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Meowth
+  attacks:
+    - name: Slash
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: Rocket Call
+      kind: Ability
+      text: Once during your turn, you may search your deck for a Giovanni’s Charisma card, reveal it, and put it into your hand. Then, shuffle your deck.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

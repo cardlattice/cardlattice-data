@@ -1,0 +1,31 @@
+name: Nidoking
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: Nidorino
+  attacks:
+    - name: Venomous Impact
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "190"
+      text: Your opponent’s Active Pokémon is now Poisoned.
+  abilities:
+    - name: Enthusiastic King
+      kind: Ability
+      text: If you have Nidoqueen in play, ignore all Energy in the costs of attacks used by this Pokémon.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+regulationMark: G

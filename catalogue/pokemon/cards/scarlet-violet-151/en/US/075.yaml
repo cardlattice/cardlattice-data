@@ -1,0 +1,31 @@
+name: Graveler
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Geodude
+  attacks:
+    - name: Rock Cannon
+      cost:
+        - Fighting
+      damage: 40×
+      text: Flip a coin until you get tails. This attack does 40 damage for each heads.
+    - name: Heavy Impact
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+regulationMark: G

@@ -1,0 +1,31 @@
+name: Articuno
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Blizzard
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "110"
+      text: This attack also does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities:
+    - name: Ice Float
+      kind: Ability
+      text: If this Pokémon has any Water Energy attached, it has no Retreat Cost.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

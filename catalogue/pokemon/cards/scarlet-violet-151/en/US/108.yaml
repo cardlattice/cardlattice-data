@@ -1,0 +1,26 @@
+name: Lickitung
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Tongue-Tied
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: During your opponent’s next turn, the Defending Pokémon can’t attack.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+regulationMark: G

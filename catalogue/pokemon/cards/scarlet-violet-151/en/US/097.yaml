@@ -1,0 +1,31 @@
+name: Hypno
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Drowzee
+  attacks:
+    - name: Super Psy Bolt
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "110"
+  abilities:
+    - name: Here for Hypnosis
+      kind: Ability
+      text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent’s Active Pokémon Asleep.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

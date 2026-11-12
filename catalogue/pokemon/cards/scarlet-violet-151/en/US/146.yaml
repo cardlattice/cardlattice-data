@@ -1,0 +1,30 @@
+name: Moltres
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Blazing Flight
+      cost:
+        - Fire
+        - Fire
+        - Fire
+      text: Discard 2 Fire Energy from this Pokémon. This attack does 120 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities:
+    - name: Flare Float
+      kind: Ability
+      text: If this Pokémon has any Fire Energy attached, it has no Retreat Cost.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

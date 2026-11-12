@@ -1,0 +1,30 @@
+name: Haunter
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Gastly
+  attacks:
+    - name: Mumble
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: Spirit Return
+      kind: Ability
+      text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put a Supporter card from your opponent’s discard pile into their hand.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G

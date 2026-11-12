@@ -1,0 +1,33 @@
+name: Wigglytuff ex
+rarity: Ultra Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  subtypes:
+    - ex
+  hp: 250
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Jigglypuff
+  attacks:
+    - name: Friend Tackle
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: If you played a Supporter card from your hand during this turn, this attack does 90 more damage.
+  abilities:
+    - name: Expanding Body
+      kind: Ability
+      text: If this Pokémon has any Special Energy attached, it gets +100 HP.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

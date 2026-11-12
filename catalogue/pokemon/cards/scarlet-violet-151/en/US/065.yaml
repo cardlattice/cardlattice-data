@@ -1,0 +1,37 @@
+name: Alakazam ex
+rarity: Double Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  subtypes:
+    - ex
+  hp: 310
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Kadabra
+  attacks:
+    - name: Mind Jack
+      cost:
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: This attack does 30 more damage for each of your opponent’s Benched Pokémon.
+    - name: Dimensional Hand
+      cost:
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: This attack can be used even if this Pokémon is on the Bench.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

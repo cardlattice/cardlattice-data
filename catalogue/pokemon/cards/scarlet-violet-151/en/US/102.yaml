@@ -1,0 +1,25 @@
+name: Exeggcute
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Ball Roll
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip a coin until you get tails. This attack does 30 damage for each heads.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

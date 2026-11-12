@@ -1,0 +1,31 @@
+name: Pinsir
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Vise Grip
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+    - name: Reckless Throw
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 90+
+      text: If you have more Prize cards remaining than your opponent, this attack does 90 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

@@ -1,0 +1,27 @@
+name: Sandshrew
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: Sand Screen
+      kind: Ability
+      text: Trainer cards in your opponent’s discard pile can’t be put into their deck by an effect of your opponent’s Item or Supporter cards.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

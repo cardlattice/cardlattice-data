@@ -1,0 +1,24 @@
+name: Voltorb
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Tumbling Attack
+      cost:
+        - Lightning
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

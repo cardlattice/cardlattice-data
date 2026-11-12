@@ -1,0 +1,34 @@
+name: Kingler
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Krabby
+  attacks:
+    - name: Hammer Arm
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "90"
+      text: Discard the top card of your opponent’s deck.
+    - name: Guillotine
+      cost:
+        - Water
+        - Water
+        - Water
+        - Water
+      damage: "220"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+regulationMark: G

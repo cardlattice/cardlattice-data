@@ -1,0 +1,26 @@
+name: Ditto
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Splup
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: Transformative Start
+      kind: Ability
+      text: Once during your first turn, if this Pokémon is in the Active Spot, you may search your deck and choose a Basic Pokémon you find there, except any Ditto. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place. Then, shuffle your deck.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

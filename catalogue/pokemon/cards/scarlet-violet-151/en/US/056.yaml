@@ -1,0 +1,24 @@
+name: Mankey
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Thrash
+      cost:
+        - Fighting
+      damage: 20+
+      text: Flip a coin. If tails, this Pokémon also does 20 damage to itself. If heads, this attack does 20 more damage.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

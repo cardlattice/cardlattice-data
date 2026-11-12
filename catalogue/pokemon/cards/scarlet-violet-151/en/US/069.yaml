@@ -1,0 +1,29 @@
+name: Bellsprout
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Cut
+      cost:
+        - Grass
+      damage: "10"
+    - name: Bind Down
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

@@ -1,0 +1,26 @@
+name: Pidgeotto
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Pidgey
+  attacks:
+    - name: Flap
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+regulationMark: G

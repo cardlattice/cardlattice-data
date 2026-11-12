@@ -1,0 +1,27 @@
+name: Dragonite
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: Dragonair
+  attacks:
+    - name: Dragon Pulse
+      cost:
+        - Water
+        - Lightning
+      damage: "180"
+      text: Discard the top 2 cards of your deck.
+  abilities:
+    - name: Jet Cruise
+      kind: Ability
+      text: Your Pokémon in play have no Retreat Cost.
+  weaknesses: []
+  resistances: []
+  retreatCost: 3
+regulationMark: G

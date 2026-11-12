@@ -1,0 +1,29 @@
+name: Ponyta
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Collect
+      cost:
+        - Fire
+      text: Draw a card.
+    - name: Flop
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

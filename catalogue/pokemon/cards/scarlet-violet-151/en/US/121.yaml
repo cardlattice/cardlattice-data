@@ -1,0 +1,28 @@
+name: Starmie
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Staryu
+  attacks:
+    - name: Speed Attack
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: Mysterious Comet
+      kind: Ability
+      text: Once during your turn, you may put 2 damage counters on 1 of your opponent’s Pokémon. If you placed any damage counters in this way, discard this Pokémon and all attached cards.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

@@ -1,0 +1,35 @@
+name: Jynx ex
+rarity: Double Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  subtypes:
+    - ex
+  hp: 200
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Heart-Stopping Kiss
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      text: If your opponent’s Active Pokémon is Asleep, it is Knocked Out.
+    - name: Icy Wind
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "120"
+      text: Your opponent’s Active Pokémon is now Asleep.
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

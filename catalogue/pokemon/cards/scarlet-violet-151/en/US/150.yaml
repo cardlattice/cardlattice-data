@@ -1,0 +1,34 @@
+name: Mewtwo
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Reflective Barrier
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: During your opponent’s next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.
+    - name: Psyslash
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "130"
+      text: Discard 2 Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

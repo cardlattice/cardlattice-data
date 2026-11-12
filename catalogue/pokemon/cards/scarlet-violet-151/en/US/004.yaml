@@ -1,0 +1,28 @@
+name: Charmander
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Blazing Destruction
+      cost:
+        - Fire
+      text: Discard a Stadium in play.
+    - name: Steady Firebreathing
+      cost:
+        - Fire
+        - Fire
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

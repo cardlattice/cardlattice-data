@@ -1,0 +1,29 @@
+name: Snorlax
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Thudding Press
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: This Pokémon also does 30 damage to itself.
+  abilities:
+    - name: Voraciousness
+      kind: Ability
+      text: Once during your turn, you may put up to 2 Leftovers cards from your discard pile into your hand.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+regulationMark: G

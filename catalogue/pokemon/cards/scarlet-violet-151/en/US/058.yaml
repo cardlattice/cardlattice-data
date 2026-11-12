@@ -1,0 +1,24 @@
+name: Growlithe
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Vaporize
+      cost:
+        - Fire
+      damage: "10"
+      text: Discard a Water Energy from your opponent’s Active Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

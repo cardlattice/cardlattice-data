@@ -1,0 +1,25 @@
+name: Rattata
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Gnaw the Wound
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

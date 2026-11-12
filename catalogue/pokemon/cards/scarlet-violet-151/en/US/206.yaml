@@ -1,0 +1,12 @@
+name: Switch
+rarity: Hyper Rare
+finishes:
+  - holo
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Switch your Active Pokémon with 1 of your Benched Pokémon.
+    - You may play any number of Item cards during your turn.
+regulationMark: G

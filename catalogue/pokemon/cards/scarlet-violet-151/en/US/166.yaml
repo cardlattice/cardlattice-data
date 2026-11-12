@@ -1,0 +1,24 @@
+name: Bulbasaur
+rarity: Illustration Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Leech Seed
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Heal 20 damage from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

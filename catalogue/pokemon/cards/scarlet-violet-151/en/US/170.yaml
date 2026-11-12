@@ -1,0 +1,27 @@
+name: Squirtle
+rarity: Illustration Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Withdraw
+      cost:
+        - Water
+      text: Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.
+    - name: Skull Bash
+      cost:
+        - Water
+        - Water
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

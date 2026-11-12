@@ -1,0 +1,28 @@
+name: Zubat
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Bite
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: Revealing Echo
+      kind: Ability
+      text: Once during your turn, if this Pokémon is in the Active Spot, you may have your opponent reveal their hand.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G

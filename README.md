@@ -87,11 +87,23 @@ PR artifacts are previews. Deployment and optional R2 mirroring are operator set
 
 ## Catalogue
 
-The catalogue contains 8 sets and 1,278 English printings. All 158 existing
+The catalogue contains 9 sets and 1,485 English printings. All 158 existing
 numbered 30th Celebration cards now include rarity, confirmed holo finish, printed
 rules and applicable Pokémon stats, attacks, abilities, weaknesses, resistances
 and retreat costs. Shared anniversary stamp, regulation mark and denominator are
-set defaults. Other sets remain name-only.
+set defaults.
+
+Scarlet & Violet—151 includes all 207 numbered entries (001–207), with names,
+rarities, categories, applicable printed stats, evolution stages, attacks and
+costs, abilities, weaknesses, resistances, retreat costs and rules. These were
+transcribed from the publisher's card images; normal, holo and reverse-holo
+availability was checked against its checklist and printed player guide.
+All cards inherit the printed denominator of 165. Cards 001–206 have regulation
+mark G; Basic Psychic Energy 207 has no printed regulation mark. The Psychic
+symbol in its name is written as text. Unnumbered Basic Energy cards, product promos,
+metal cards and stamped/other product variants are not covered by this count.
+The 151 Booster Bundle is linked to the set as product context, without asserting
+that a particular card is guaranteed in a bundle. Other sets remain name-only.
 
 This is still a partial catalogue. The separate 30th Celebration Classic
 Collection, Basic Energy section and product promos are not included. Illustrator

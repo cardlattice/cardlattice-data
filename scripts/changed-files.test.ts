@@ -51,6 +51,7 @@ it("validates only added and modified card/set files", async () => {
   expect(await validateChanged(base, root)).toEqual({
     cards: 2,
     sets: 1,
+    definitions: 0,
     deleted: 0,
     problems: [],
   });
@@ -74,6 +75,7 @@ it("checks no data for documentation-only changes and fails closed on invalid re
   expect(await validateChanged(base, root)).toEqual({
     cards: 0,
     sets: 0,
+    definitions: 0,
     deleted: 0,
     problems: [],
   });
@@ -86,4 +88,24 @@ it("rejects unexpected changed paths instead of silently ignoring them", async (
   await writeFile(join(root, cardDirectory, "003.yml"), "name: Wrong extension\n");
   await commit(root);
   expect((await validateChanged(base, root)).problems[0].message).toContain("Unexpected");
+});
+
+it("validates changed relationship definitions without reading unchanged cards", async () => {
+  const { root, base } = await repository();
+  await mkdir(join(root, "catalogue/pokemon/products"), { recursive: true });
+  await writeFile(
+    join(root, "catalogue/pokemon/products/box.yaml"),
+    "name: Example box\nrelatedSets: [pokemon-example]\n",
+  );
+  await commit(root);
+  const result = await validateChanged(base, root);
+  expect(result.cards).toBe(0);
+  expect(result.definitions).toBe(1);
+  expect(result.problems).toEqual([]);
+  await writeFile(
+    join(root, "catalogue/pokemon/products/box.yaml"),
+    "name: Example box\nrelatedSets: [pokemon-example, pokemon-example]\n",
+  );
+  await commit(root);
+  expect((await validateChanged(base, root)).problems.length).toBeGreaterThan(0);
 });

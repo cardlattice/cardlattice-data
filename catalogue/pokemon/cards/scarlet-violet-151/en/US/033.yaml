@@ -1,0 +1,30 @@
+name: Nidorino
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Nidoran♂
+  attacks:
+    - name: Sharp Fang
+      cost:
+        - Darkness
+      damage: "30"
+    - name: Superpowered Horns
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

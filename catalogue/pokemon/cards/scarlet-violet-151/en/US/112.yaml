@@ -1,0 +1,32 @@
+name: Rhydon
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Rhyhorn
+  attacks:
+    - name: Wrack Down
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+    - name: Charismatic Drill
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 40+
+      text: If you played Giovanni’s Charisma from your hand during this turn, this attack does 140 more damage.
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+regulationMark: G

@@ -1,0 +1,36 @@
+name: Charizard ex
+rarity: Special Illustration Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  subtypes:
+    - ex
+  hp: 330
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: Charmeleon
+  attacks:
+    - name: Brave Wing
+      cost:
+        - Fire
+      damage: 60+
+      text: If this Pokémon has any damage counters on it, this attack does 100 more damage.
+    - name: Explosive Vortex
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "330"
+      text: Discard 3 Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

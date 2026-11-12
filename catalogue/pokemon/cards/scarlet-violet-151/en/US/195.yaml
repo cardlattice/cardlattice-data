@@ -1,0 +1,12 @@
+name: Daisy’s Help
+rarity: Ultra Rare
+finishes:
+  - holo
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - Draw 2 cards. Look at your face-down Prize cards.
+    - You may play only 1 Supporter card during your turn.
+regulationMark: G

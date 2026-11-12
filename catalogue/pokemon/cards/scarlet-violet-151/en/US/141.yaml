@@ -1,0 +1,30 @@
+name: Kabutops
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Kabuto
+  attacks:
+    - name: Draining Blade
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: Heal 30 damage from this Pokémon.
+  abilities:
+    - name: Ancient Way
+      kind: Ability
+      text: Apply Weakness for your opponent’s Active Pokémon as ×4 instead.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

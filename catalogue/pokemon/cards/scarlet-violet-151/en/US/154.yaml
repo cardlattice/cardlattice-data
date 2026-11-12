@@ -1,0 +1,18 @@
+name: Antique Old Amber
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can’t be affected by any Special Conditions and can’t retreat. At any time during your turn, you may discard this card from play.
+    - You may play any number of Item cards during your turn.
+  hp: 60
+  abilities:
+    - name: Amber Protection
+      kind: Ability
+      text: Prevent all effects of your opponent’s Pokémon’s Abilities done to this Pokémon.
+regulationMark: G

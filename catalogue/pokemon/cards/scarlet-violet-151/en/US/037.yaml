@@ -1,0 +1,25 @@
+name: Vulpix
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Super Singe
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

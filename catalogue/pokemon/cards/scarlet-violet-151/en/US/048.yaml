@@ -1,0 +1,29 @@
+name: Venonat
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Gnaw
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Beam
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

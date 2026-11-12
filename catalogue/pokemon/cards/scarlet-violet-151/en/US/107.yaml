@@ -1,0 +1,28 @@
+name: Hitmonchan
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Excited Punch
+      cost:
+        - Fighting
+        - Fighting
+      damage: "60"
+      text: During your next turn, this Pokémon’s Excited Punch attack does 60 more damage (before applying Weakness and Resistance).
+  abilities:
+    - name: Counterattack
+      kind: Ability
+      text: If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

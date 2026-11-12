@@ -1,0 +1,33 @@
+name: Slowbro
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Slowpoke
+  attacks:
+    - name: Big Yawn
+      cost:
+        - Psychic
+      text: Both Active Pokémon are now Asleep.
+    - name: Laid-Back Tackle
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: If this Pokémon evolved during this turn, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

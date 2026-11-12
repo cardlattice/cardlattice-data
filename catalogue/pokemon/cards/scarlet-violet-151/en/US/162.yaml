@@ -1,0 +1,13 @@
+name: Grabber
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Your opponent reveals their hand, and you put a Pokémon you find there on the bottom of their deck.
+    - You may play any number of Item cards during your turn.
+regulationMark: G

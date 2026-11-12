@@ -1,0 +1,26 @@
+name: Drowzee
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Zen Headbutt
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

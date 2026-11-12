@@ -59,7 +59,11 @@ repeated standalone symbols can be written `{Colorless}{Colorless}`.
 Weaknesses/resistances are lists such as `[{type: Fire, value: "×2"}]`.
 `retreatCost` counts Colorless energy symbols. `subtypes` includes printed mechanics
 such as `ex` or Trainer categories such as `Item`. `rules` contains ordered rule
-paragraphs. Trainer/Energy records cannot carry Pokémon HP, attacks or retreat costs.
+paragraphs. Trainer/Energy records cannot carry Pokémon attacks or retreat costs.
+Fossil Items are an exception for HP and abilities: a Trainer with subtype `Item`
+may have printed `hp`, and may then include its printed `abilities`. Keep its
+play-as-a-Pokémon instructions in `rules`; it remains a Trainer, not a Pokémon
+record. Other Trainer subtypes and Energy records cannot carry HP or abilities.
 
 An omitted list is unknown; an empty list confirms none. Do not fill missing facts
 by inference from the name, another printing or the Pokémon species.
@@ -82,8 +86,8 @@ and `illustrators`. Use defaults only when they apply to every printing in the
 set. A card's explicit value replaces its default; `stamps: []` clears inherited
 stamps. The compiler materialises these values on each published printing, so API
 consumers need no inheritance logic. Defaults do not create a cross-product of
-finishes and stamps: document only combinations that actually exist. Special
-release/product membership and variant-specific images are not implemented yet.
+finishes and stamps: document only combinations that actually exist. Printing-level product membership is supported below; variant-specific
+membership and images are not implemented yet.
 
 Set files may also include `language`, `region`, a `series` identifier,
 `attributes` and `externalIds`. Set keys are stable: correcting a displayed name
@@ -158,3 +162,76 @@ Names, rules text, illustrator names and trainer affiliations remain text.
 Product stamp identifiers remain slugs because releases are open-ended; they are
 not rarity, stage or finish values. Regulation marks currently support A–J and
 need an explicit vocabulary update when a later mark is introduced.
+
+## Sets, products, collections and artwork
+
+A printing's directory identifies its actual set and collector number. Never move
+an SVP-numbered promo into an expansion just because it was distributed with that
+expansion. Products record distribution; collections record an explicitly named
+collector grouping. Neither changes the printing's set.
+
+Define optional shared records in `catalogue/<game>/products/<key>.yaml`,
+`collections/<key>.yaml` and `artworks/<key>.yaml`. Their generated IDs are
+`<game>-product-<key>`, `<game>-collection-<key>` and `<game>-artwork-<key>`.
+These are file references, not a hardcoded enum of every product or illustration.
+
+```yaml
+# products/example-box.yaml — illustrative only, not a real product
+name: Example box
+relatedSets: [pokemon-example]
+```
+
+```yaml
+# collections/example-and-promos.yaml
+name: Example expansion and associated promos
+relatedSets: [pokemon-example]
+description: Includes separately numbered promos distributed with this expansion.
+```
+
+```yaml
+# artworks/example-seed.yaml
+name: Example seed illustration
+illustrators: [Example artist]
+```
+
+A printing may then contain:
+
+```yaml
+products: [pokemon-product-example-box]
+collections: [pokemon-collection-example-and-promos]
+artwork: pokemon-artwork-example-seed
+```
+
+Lists are optional, unique and bounded to 50 references. An explicit empty list
+clears inherited membership. Set defaults may supply shared membership only when
+it applies to every printing. `relatedSets` provides context for a product or
+collection; it does **not** automatically include every card in those sets.
+The compiler rejects missing references, references to the wrong kind, and links
+across games. Deleting a referenced definition requires updating its users in
+the same change. Compilation checks the complete reference graph; PR schema
+validation reads only changed card, set and definition files.
+
+A set can record its printed identifiers without changing its canonical key:
+
+```yaml
+printedIdentifiers:
+  - language: en
+    region: US
+    code: LAB
+  - language: ja
+    symbol: Laboratory flask
+```
+
+Each language/region scope is unique. Provide a code, a symbol description, or
+both. `symbol` is a textual description, not a file path or an image URL.
+Actual symbol images still require the existing image/rights publication process.
+
+Shared artwork means the illustration is reused. It does not establish shared
+rules, identical scans, or redistribution permission. Artwork records publish
+metadata only; they do not publish images. Keep attacks inline, including their
+costs, damage and exact effect text: the same attack name can differ even within
+one expansion. Only verified complete rules equivalence justifies `identity`.
+
+These relationships currently apply to the printing as a whole. They do not
+encode which finish/stamp combination came in a product; do not infer a
+cross-product of those arrays. Variant-specific memberships remain future work.

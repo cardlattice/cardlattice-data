@@ -1,0 +1,23 @@
+name: Magikarp
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Splashy Splash
+      cost:
+        - Water
+      text: Flip a coin until you get tails. For each heads, draw a card.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

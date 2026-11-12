@@ -1,0 +1,23 @@
+name: Caterpie
+rarity: Illustration Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Leaf Munch
+      cost:
+        - Grass
+      damage: 10+
+      text: If your opponent’s Active Pokémon is a Grass Pokémon, this attack does 30 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

@@ -1,0 +1,24 @@
+name: Tangela
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Tactful Tangling
+      cost:
+        - Grass
+      damage: 10+
+      text: If you played Erika’s Invitation from your hand during this turn, this attack does 60 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

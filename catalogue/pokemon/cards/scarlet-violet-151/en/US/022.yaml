@@ -1,0 +1,30 @@
+name: Fearow
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Spearow
+  attacks:
+    - name: Beak Catch
+      cost:
+        - Colorless
+      text: Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.
+    - name: Speed Dive
+      cost:
+        - Colorless
+      damage: "50"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+regulationMark: G

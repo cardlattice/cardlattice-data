@@ -1,0 +1,32 @@
+name: Onix
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Thumpalanche
+      cost:
+        - Colorless
+        - Colorless
+      damage: 80×
+      text: Discard the top 5 cards of your deck. This attack does 80 damage for each Pokémon with a Retreat Cost of exactly 4 that you discarded in this way.
+    - name: Heavy Impact
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+regulationMark: G

@@ -1,0 +1,29 @@
+name: Hitmonlee
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Twister Kick
+      cost:
+        - Fighting
+      text: This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon.
+    - name: Low Kick
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

@@ -1,0 +1,28 @@
+name: Machop
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Mountain Mashing
+      cost:
+        - Fighting
+      text: Discard the top card of your opponent’s deck.
+    - name: Punch
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

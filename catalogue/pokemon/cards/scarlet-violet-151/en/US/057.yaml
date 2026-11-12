@@ -1,0 +1,32 @@
+name: Primeape
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Mankey
+  attacks:
+    - name: Rant and Rave
+      cost:
+        - Fighting
+      damage: "40"
+      text: This Pokémon is now Confused.
+    - name: Raging Smash
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: If this Pokémon isn’t Confused, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

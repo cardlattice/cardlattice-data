@@ -1,0 +1,29 @@
+name: Farfetch’d
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Package Deal
+      cost:
+        - Colorless
+      text: Draw 2 cards.
+    - name: Leek Clobber
+      cost:
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G
