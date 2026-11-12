@@ -1,0 +1,38 @@
+name: 烈空坐GX
+rarity: RR
+regulationMark: B
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 巨龙破坏
+      cost:
+        - Grass
+        - Lightning
+        - Colorless
+      damage: 30×
+      text: 造成自己场上宝可梦身上附有的{Grass}和{Lightning}属性的基本能量数量×30点伤害。
+    - name: 狂风大作GX
+      cost:
+        - Grass
+      text: 将自己的手牌全部放于弃牌区，从牌库上方抽取10张卡牌。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 疾风怒涛
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可使用1次。将自己牌库上方3张卡牌放于弃牌区。然后，将弃牌区中1张基本能量，附着于这只宝可梦身上。
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

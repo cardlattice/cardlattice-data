@@ -1,0 +1,41 @@
+name: 顽皮雷弹GX
+rarity: RR
+regulationMark: B
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: 霹雳电球
+  attacks:
+    - name: 电球
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+    - name: 粉碎燃烧GX
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: 将附着于自己场上宝可梦身上的任意数量的能量放于弃牌区，追加造成其张数×50点伤害。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 能量轰炸
+      kind: Ability
+      text: 在自己的回合可以使用1次。如果使用了，则使这只宝可梦昏厥。将自己弃牌区中的5张能量，以任意方式附着于自己的宝可梦身上（除「宝可梦GX・EX」外）。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

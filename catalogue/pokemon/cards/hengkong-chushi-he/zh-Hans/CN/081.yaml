@@ -1,0 +1,46 @@
+name: 帝牙卢卡GX
+rarity: RR
+regulationMark: B
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 校准
+      cost:
+        - Metal
+      text: 从牌库上方抽取卡牌，直到自己的手牌变为6张为止。
+    - name: 撕裂
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 这个招式的伤害，不计算对手的战斗宝可梦身上所附加的效果。
+    - name: 永恒GX
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 当这个回合结束时，自己的回合会再开始1次。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,12 @@
+name: 潺潺之丘
+rarity: U
+regulationMark: A
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 双方玩家，每次在自己的回合有1次机会，可将自己牌库中的1张{Water}或者{Fighting}属性的基础宝可梦，放于备战区。在这种情况下，重洗牌库。
+    - 在自己的回合只可以将1张竞技场卡放到战斗区旁。如果有别的名称的竞技场卡被放入场上，则将此卡放入弃牌区。

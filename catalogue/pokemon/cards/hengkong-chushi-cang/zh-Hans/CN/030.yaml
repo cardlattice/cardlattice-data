@@ -1,0 +1,38 @@
+name: 狙射树枭GX
+rarity: RR
+regulationMark: A
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: 投羽枭
+  attacks:
+    - name: 飞叶快刀
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+    - name: 幽魂狩猎GX
+      cost:
+        - Grass
+      text: 将自己弃牌区中任意3张卡牌，在给对手看过之后，加入手牌。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 羽之矢
+      kind: Ability
+      text: 在自己的回合可以使用1次。给对手的1只宝可梦身上，放置2个伤害指示物。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
