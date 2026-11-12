@@ -351,3 +351,82 @@ it("preserves native printed Pokédex text and measurements", () => {
   ])
     expect(validateCard(`name: Original synthetic card\nrarity: ${rarity}`, filename)).toEqual([]);
 });
+
+it("preserves numeric printed levels and separate anniversary numbering", () => {
+  expect(
+    validateCard(
+      'name: Original synthetic card\npokemon: {category: pokemon, level: 12}\nadditionalNumbers: {pikachu30th: "09/30"}',
+      filename,
+    ),
+  ).toEqual([]);
+  for (const field of [
+    "pokemon: {level: 0}",
+    "pokemon: {level: 101}",
+    'pokemon: {level: "12"}',
+    "pokemon: {category: trainer, level: 12}",
+    "pokemon: {category: energy, level: 12}",
+    "additionalNumbers: {}",
+    'additionalNumbers: {pikachu: "09/30"}',
+    'additionalNumbers: {pikachu30th: "00/30"}',
+    'additionalNumbers: {pikachu30th: "31/30"}',
+    'additionalNumbers: {pikachu30th: "9/30"}',
+    'additionalNumbers: {pikachu30th: "09/31"}',
+  ])
+    expect(
+      validateCard(`name: Original synthetic card\n${field}`, filename).length,
+    ).toBeGreaterThan(0);
+});
+
+it("preserves real printed code punctuation while rejecting whitespace damage", () => {
+  for (const code of ["SM4+", "30th C", "SM-P"])
+    expect(
+      validateSet(
+        `name: Example\nprintedIdentifiers: [{language: ja, code: "${code}"}]`,
+        "set.yaml",
+      ),
+    ).toEqual([]);
+  for (const code of [" SM4+", "30th C ", "SM4/1"])
+    expect(
+      validateSet(
+        `name: Example\nprintedIdentifiers: [{language: ja, code: "${code}"}]`,
+        "set.yaml",
+      ).length,
+    ).toBeGreaterThan(0);
+});
+
+it("accepts explicit unnumbered printings without authoring compiler identity fields", () => {
+  expect(
+    validateCard(
+      "name: Original synthetic energy\ncollectorNumber: null\nprintedDenominator: null\npokemon: {category: energy, subtypes: [Basic Energy]}",
+      "catalogue/pokemon/cards/example/ja/JP/grass-energy.yaml",
+    ),
+  ).toEqual([]);
+  expect(
+    validateCard(
+      "name: Original synthetic energy\ncollectorNumber: null\nunnumberedKey: forged",
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+  for (const value of ["top", "bottom"])
+    expect(
+      validateCard(
+        `name: Original synthetic half\nlegendPart: ${value}\npokemon: {category: pokemon, stage: LEGEND, subtypes: [LEGEND]}`,
+        filename,
+      ),
+    ).toEqual([]);
+  expect(
+    validateCard("name: Original synthetic half\nlegendPart: middle", filename).length,
+  ).toBeGreaterThan(0);
+  expect(
+    validateCard(
+      "name: Original synthetic level-up\npokemon: {category: pokemon, stage: Level-Up, subtypes: [LV.X]}",
+      filename,
+    ),
+  ).toEqual([]);
+  expect(
+    validateCard(
+      "name: Original synthetic trainer\npokemon: {category: trainer, subtypes: [LV.X]}",
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+});

@@ -7,3 +7,6 @@ printedIdentifiers:
   - language: ko
     region: KR
     code: M6a
+  - language: zh-Hans
+    region: CN
+    code: 30th C

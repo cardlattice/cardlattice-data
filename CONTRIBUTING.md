@@ -304,3 +304,33 @@ English rarity labels. Do not guess a rarity from artwork or finish. Add other
 verified codes to the compiler and schema together. A card with no printed rarity
 symbol may omit rarity; this does not mean an unreadable symbol has been verified
 absent.
+
+Use `pokemon.level` for a printed numeric level (1–100). A level-up mechanic such
+as LV.X is separate from a numeric level. Do not infer a level from the species.
+
+Some anniversary Pikachu cards have a second printed badge, such as `09/30`.
+Keep the main collector number in the filename and preserve the badge separately:
+
+```yaml
+additionalNumbers:
+  pikachu30th: "09/30"
+```
+
+Only `01/30` through `30/30` are accepted for this badge. It never replaces the
+primary collector number or `printedDenominator`. Literal set codes can include
+printed plus signs and interior spaces, e.g. `SM4+` and `30th C`.
+
+For a genuinely unnumbered printing, choose a descriptive filename such as
+`grass-energy.yaml` and explicitly write `collectorNumber: null`. The compiler
+uses that filename as a stable semantic key while the API keeps the printed
+collector number null. Do not invent numbers, copy publisher database IDs into
+filenames, or author the generated `unnumberedKey`. Clear inherited
+`printedDenominator` with null where none is printed. Printed alphabetic codes
+such as `GRA` are actual collector identifiers and do not need this exception.
+
+Keep two physical LEGEND halves as two files. Set `legendPart: top` or `bottom`
+and link both to a shared pair collection using `collections`. Each half contains
+only its own printed stats and rules; do not duplicate the combined card's fields.
+The historical stage `Level-Up`, subtype `LV.X`, and ability kind `Ancient Trait`
+retain their distinct mechanics. A printed regulation mark does not assert current
+format legality, particularly on commemorative reprints.
