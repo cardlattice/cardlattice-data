@@ -1,0 +1,11 @@
+name: ワープエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、{Colorless}エネルギー1個ぶんとしてはたらく。
+      このカードを手札からバトルポケモンにつけたとき、このカードをつけたポケモンをベンチポケモンと入れ替える。
+  types:
+    - Colorless
+rarity: U

@@ -1,0 +1,33 @@
+name: オムスター
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: かいてんアタック
+      cost:
+        - Water
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: ふくげんビーム
+      text: 自分の山札から、復元ポケモンを1枚選び、ベンチに出す。そして山札を切る。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 139
+  species: うずまきポケモン
+  heightMetres: 1
+  weightKilograms: 35
+  flavourText: 一度 巻きついたら 絶対に 離れない。 鋭い キバで 獲物を 引き裂くように 食べる。
+  evolvesFrom: オムナイト
+rarity: U
+illustrators:
+  - Hasuno

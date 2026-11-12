@@ -1,0 +1,39 @@
+name: バンギラス
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: ダークマウンテン
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: 150+
+      text: 自分の山札を上から2枚トラッシュし、その中のサポートの枚数×50ダメージを追加。
+  abilities:
+    - name: いかりのほうこう
+      text: この特性は、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから、相手がすでにとったサイドの枚数ぶんの{Darkness}エネルギーを選び、このポケモンにつける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 248
+  species: よろいポケモン
+  heightMetres: 2
+  weightKilograms: 202
+  flavourText: バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。
+  evolvesFrom: サナギラス
+rarity: R
+illustrators:
+  - Satoshi Shirai

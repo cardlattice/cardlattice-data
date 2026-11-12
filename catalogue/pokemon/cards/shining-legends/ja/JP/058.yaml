@@ -1,0 +1,43 @@
+name: ひかるルギア
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ぎんのつばさ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンが特性を持っているなら、60ダメージ追加。
+    - name: エアロフォース
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: このポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 249
+  species: せんすいポケモン
+  heightMetres: 5.2
+  weightKilograms: 216
+  flavourText: 深い 海溝の 底で 眠る。 ルギアが 羽ばたくと ４０日 嵐が 続くと 言われている。
+  subtypes:
+    - Shining
+illustrators:
+  - Hitoshi Ariga
+rarity: Shining

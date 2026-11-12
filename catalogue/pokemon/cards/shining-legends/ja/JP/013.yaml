@@ -1,0 +1,29 @@
+name: メラルバ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ほのお
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 636
+  species: たいまつポケモン
+  heightMetres: 1.1
+  weightKilograms: 28.8
+  flavourText: 太陽から 生まれたと いわれる。 進化するとき ツノから 噴き出した 炎で 全身を 包みこむ。
+rarity: C
+illustrators:
+  - kawayoo

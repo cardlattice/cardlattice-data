@@ -1,0 +1,31 @@
+name: マーイーカ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: すみをはく
+      cost:
+        - Darkness
+      damage: "10"
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 686
+  species: かいてんポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.5
+  flavourText: 光の 点滅で 襲ってきた 敵の 戦意を なくしてしまう。 その すきに 姿を くらますのだ。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

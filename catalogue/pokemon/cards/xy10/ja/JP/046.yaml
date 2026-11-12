@@ -1,0 +1,39 @@
+name: ミノマダム
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: おかえしアタック
+      cost:
+        - Metal
+      damage: 20×
+      text: このポケモンにのっているダメカンの数×20ダメージ。
+    - name: アイアンヘッド
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: ウラが出るまでコインを投げ、オモテの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 413
+  species: みのむしポケモン
+  heightMetres: 0.5
+  weightKilograms: 6.5
+  flavourText: ミノムッチから 進化したとき ミノが 体の 一部に なった。 一生 ミノを 脱ぐことはない。
+  evolvesFrom: ミノムッチ
+rarity: C
+illustrators:
+  - Kyoko Umemoto

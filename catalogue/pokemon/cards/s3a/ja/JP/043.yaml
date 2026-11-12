@@ -1,0 +1,35 @@
+name: セキタンザンVMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fighting
+  stage: VMAX
+  attacks:
+    - name: ふんかだん
+      cost:
+        - Fighting
+      damage: 40+
+      text: 自分の山札を上から1枚トラッシュし、そのカードがエネルギーなら、90ダメージ追加。その後、トラッシュしたエネルギーをこのポケモンにつける。
+    - name: キョダイガンセキ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "240"
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: セキタンザンV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

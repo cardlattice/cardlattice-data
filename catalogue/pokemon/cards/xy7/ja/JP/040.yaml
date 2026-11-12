@@ -1,0 +1,36 @@
+name: レジロック
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: いわおとし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+    - name: ふくつのがんせき
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンが「ポケモンEX」なら、60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 377
+  species: いわやまポケモン
+  heightMetres: 1.7
+  weightKilograms: 230
+  flavourText: 体を 作っている 岩石と 同じ 物が 世界中の あらゆる 地層で 見つかっている。
+rarity: U
+illustrators:
+  - Shin Nagasawa

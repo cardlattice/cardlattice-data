@@ -1,0 +1,39 @@
+name: イベルタル
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ひるがえす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: のぞむなら、このポケモンをベンチポケモンと入れ替える。
+    - name: デスウイング
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 自分のトラッシュにある{Darkness}エネルギーを1枚、ベンチポケモンにつける。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 717
+  species: はかいポケモン
+  heightMetres: 5.8
+  weightKilograms: 203
+  flavourText: 翼と 尾羽を 広げて 赤く 輝くとき 生き物の 命を 吸い取る 伝説の ポケモン。
+rarity: R
+illustrators:
+  - Shin Nagasawa

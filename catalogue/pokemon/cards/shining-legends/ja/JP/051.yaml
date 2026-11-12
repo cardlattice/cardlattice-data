@@ -1,0 +1,35 @@
+name: ズルッグ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Darkness
+      text: 自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。
+    - name: ずつき
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 559
+  species: だっぴポケモン
+  heightMetres: 0.6
+  weightKilograms: 11.8
+  flavourText: 皮を 首まで 引き上げて 防御の 姿勢。 ゴムのような 弾力で ダメージを 減らす。
+rarity: C
+illustrators:
+  - Sekio

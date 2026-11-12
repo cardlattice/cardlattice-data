@@ -1,0 +1,44 @@
+name: ライチュウGX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: パワフルスパーク
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 自分の場のポケモンについている{Lightning}エネルギーの数×20ダメージ追加。
+    - name: かみなり
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "160"
+      text: このポケモンにも30ダメージ。
+    - name: ボルテールGX
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "120"
+      text: 相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  evolvesFrom: ピカチュウ
+rarity: RR
+illustrators:
+  - 5ban Graphics

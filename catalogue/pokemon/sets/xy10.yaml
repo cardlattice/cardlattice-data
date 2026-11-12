@@ -1,0 +1,13 @@
+name: めざめる超王
+language: ja
+region: JP
+releaseDate: 2016-03-18
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY10
+printedDenominator: 78
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

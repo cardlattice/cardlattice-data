@@ -1,0 +1,33 @@
+name: マホイップVMAX
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Psychic
+  stage: VMAX
+  attacks:
+    - name: かざりつけ
+      cost:
+        - Colorless
+      text: 自分のベンチポケモン全員に、山札から{Psychic}エネルギーを1枚ずつつける。そして山札を切る。
+    - name: キョダイホイッパー
+      cost:
+        - Psychic
+        - Psychic
+      damage: 60×
+      text: 自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: マホイップV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

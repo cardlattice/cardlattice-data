@@ -1,0 +1,35 @@
+name: アーボック
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: どくのキバ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手のバトルポケモンをどくにする。
+  abilities:
+    - name: いかくのもよう
+      text: このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは、すべて「-30」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 24
+  species: コブラポケモン
+  heightMetres: 3.5
+  weightKilograms: 65
+  flavourText: お腹の 模様が 怖い 顔に 見える。 弱い 敵は その模様を 見ただけで 逃げ出してしまう。
+  evolvesFrom: アーボ
+rarity: U
+illustrators:
+  - kodama

@@ -1,0 +1,35 @@
+name: ラルトス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: つぶやく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: マジカルショット
+      cost:
+        - Fairy
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 280
+  species: きもちポケモン
+  heightMetres: 0.4
+  weightKilograms: 6.6
+  flavourText: 人や ポケモンの 感情を 敏感に キャッチ。 敵意を 感じると 物陰に 隠れる。
+rarity: C
+illustrators:
+  - Aya Kusube

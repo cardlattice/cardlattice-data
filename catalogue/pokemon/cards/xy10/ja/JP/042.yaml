@@ -1,0 +1,35 @@
+name: ブラッキーEX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: よるのとばり
+      cost:
+        - Colorless
+      damage: "20"
+      text: 自分の手札を好きなだけトラッシュし、トラッシュした枚数ぶん、自分の山札を引く。
+    - name: エンドゲーム
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: このワザのダメージで、相手のM進化ポケモンをきぜつさせたなら、サイドを2枚多くとる。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+rarity: RR
+illustrators:
+  - Ayaka Yoshida

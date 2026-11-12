@@ -1,0 +1,35 @@
+name: ウルガモス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: もえるりんぷん
+      cost:
+        - Fire
+      damage: 20+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+    - name: ウィールウインド
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+  abilities:
+    - name: Θ（シータ）ストップ
+      text: このポケモンは、相手のポケモンからの特性の効果を受けない。
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: メラルバ
+  flavourText: 火山灰で 地上が 真っ暗に なったとき ウルガモスの 炎が 太陽の かわりに なったという。
+rarity: U
+illustrators:
+  - Kagemaru Himeno

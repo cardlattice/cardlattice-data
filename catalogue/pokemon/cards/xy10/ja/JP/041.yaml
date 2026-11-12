@@ -1,0 +1,37 @@
+name: ジガルデ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: じひびき
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: ジオストライク
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "120"
+      text: 自分のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 718
+  species: ちつじょポケモン
+  heightMetres: 5
+  weightKilograms: 305
+  flavourText: 洞窟の 奥深くで 暮らし 生態系を 破壊する者を 監視していると 言われている。
+rarity: R
+illustrators:
+  - 5ban Graphics

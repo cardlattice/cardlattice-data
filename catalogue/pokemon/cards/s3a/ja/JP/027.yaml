@@ -1,0 +1,35 @@
+name: ジュペッタ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ホロウショット
+      cost:
+        - Psychic
+        - Colorless
+      damage: "40"
+  abilities:
+    - name: たいかののろい
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の進化しているベンチポケモンを1匹選び、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 354
+  species: ぬいぐるみポケモン
+  heightMetres: 1.1
+  weightKilograms: 12.5
+  flavourText: 捨てられた 怨念で 生まれる。 大切に されると 満足して 元の ヌイグルミに 戻るという。
+  evolvesFrom: カゲボウズ
+rarity: U
+illustrators:
+  - kodama

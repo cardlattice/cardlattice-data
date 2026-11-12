@@ -1,0 +1,29 @@
+name: ツタージャ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ちょっとすいとる
+      cost:
+        - Grass
+      damage: "10"
+      text: このポケモンのHPを「10」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 495
+  species: くさへびポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.1
+  flavourText: 尻尾で 太陽の光を 浴びて 光合成を する。 元気を なくすと 尻尾が たれさがる。
+rarity: C
+illustrators:
+  - Atsuko Nishida

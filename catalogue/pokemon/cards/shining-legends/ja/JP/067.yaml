@@ -1,0 +1,11 @@
+name: ハウ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札を3枚引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,31 @@
+name: ランクルス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: リンクフュージョン
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: 自分のベンチにそれぞれ、「ユニラン」がいるなら30ダメージを追加、「ダブラン」がいるなら60ダメージを追加、「ランクルス」がいるなら90ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 579
+  species: ぞうふくポケモン
+  heightMetres: 1
+  weightKilograms: 20.1
+  flavourText: ランクルス 同士が 握手すると 脳みそが ネットワークで つながり サイコパワーが 増幅されるのだ。
+  evolvesFrom: ダブラン
+rarity: U
+illustrators:
+  - Yukiko Baba

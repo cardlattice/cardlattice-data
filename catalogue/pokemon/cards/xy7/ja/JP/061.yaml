@@ -1,0 +1,29 @@
+name: ニャース
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ワルぶる
+      cost:
+        - Colorless
+      damage: 10+
+      text: このポケモンに{Darkness}エネルギーがついているなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 52
+  species: ばけねこポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.2
+  flavourText: まるいものが 大好き。 夜な夜な 出かけては 落ちている コインを 拾い 集めて 帰ってくる。
+rarity: C
+illustrators:
+  - Kanako Eo

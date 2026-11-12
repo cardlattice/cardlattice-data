@@ -1,0 +1,38 @@
+name: ゴルーグ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ディグアウト
+      cost:
+        - Colorless
+      damage: "20"
+      text: 自分の山札を上から1枚トラッシュし、そのカードが{Fighting}エネルギーなら、このポケモンにつける。
+    - name: ダブルラリアット
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90×
+      text: コインを2回投げ、オモテの数×90ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 623
+  species: ゴーレムポケモン
+  heightMetres: 2.8
+  weightKilograms: 330
+  flavourText: マッハの スピードで 空を 飛ぶ。 胸の 封印を はがすと エネルギーが 暴走してしまう。
+  evolvesFrom: ゴビット
+rarity: C
+illustrators:
+  - Suwama Chiaki

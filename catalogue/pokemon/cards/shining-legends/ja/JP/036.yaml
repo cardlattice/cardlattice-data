@@ -1,0 +1,39 @@
+name: ゼクロム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: げきりん
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: このポケモンにのっているダメカンの数×10ダメージ追加。
+    - name: いかずちのやいば
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "130"
+      text: このポケモンについているエネルギーを、2個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 644
+  species: こくいんポケモン
+  heightMetres: 2.9
+  weightKilograms: 345
+  flavourText: 稲妻で 世界を 焼きつくせる 伝説の ポケモン。 理想の 世界を つくる 人を 補佐する。
+rarity: R
+illustrators:
+  - nagimiso

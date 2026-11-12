@@ -1,0 +1,39 @@
+name: ルギア
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: かぜおこし
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+    - name: ウインドプレッシャー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "250"
+      text: 相手の手札が5枚以下なら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 249
+  species: せんすいポケモン
+  heightMetres: 5.2
+  weightKilograms: 216
+  flavourText: 海の神様と 伝えられる ポケモン。 嵐の 夜 姿を 見たという 話が 伝えられる。
+rarity: R
+illustrators:
+  - NC Empire

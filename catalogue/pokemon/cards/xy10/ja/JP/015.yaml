@@ -1,0 +1,29 @@
+name: オムナイト
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "30"
+  abilities: []
+  rules:
+    - かいの化石 オムナイトの効果でベンチに出す
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 138
+  species: うずまきポケモン
+  heightMetres: 0.4
+  weightKilograms: 7.5
+  flavourText: 古代の 化石から 復活。 殻の 中に ためた 空気で 水中を 浮き沈みしていた。
+  stage: Restored
+rarity: C
+illustrators:
+  - Shigenori Negishi

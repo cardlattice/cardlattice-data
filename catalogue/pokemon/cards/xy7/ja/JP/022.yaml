@@ -1,0 +1,34 @@
+name: シャワーズ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ハイドロスプラッシュ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: アクアエフェクト
+      text: このポケモンがいるかぎり、自分の1進化ポケモン全員は、もとのタイプに加え{Water}タイプも持つ。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 134
+  species: あわはきポケモン
+  heightMetres: 1
+  weightKilograms: 29
+  flavourText: 水中での 生活に 適した 体に 進化した。 水に 溶けると 見えなくなる。
+  evolvesFrom: イーブイ
+rarity: C
+illustrators:
+  - kirisAki

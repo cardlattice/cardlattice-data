@@ -1,0 +1,36 @@
+name: エンテイ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: フレイムバリア
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: ヒートタックル
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: コインを1回投げウラなら、このポケモンにも30ダメージ。
+  abilities:
+    - name: Θ（シータ）ダブル
+      text: このポケモンは、「ポケモンのどうぐ」を2枚までつけられる。
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

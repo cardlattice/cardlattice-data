@@ -1,0 +1,11 @@
+name: ひみつのコハク プテラ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の山札を下から7枚見る。その中から「プテラ」を1枚選び、ベンチに出してよい。残りのカードは山札にもどし、山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+rarity: C
+illustrators:
+  - Toyste Beach

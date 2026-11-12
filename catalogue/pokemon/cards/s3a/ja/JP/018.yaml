@@ -1,0 +1,28 @@
+name: バチュル
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: むしくい
+      cost:
+        - Lightning
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 595
+  species: くっつきポケモン
+  heightMetres: 0.1
+  weightKilograms: 0.6
+  flavourText: ポケモンの 体に くっついて 静電気を 吸い取る。 自分では 電気を つくることが できない。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

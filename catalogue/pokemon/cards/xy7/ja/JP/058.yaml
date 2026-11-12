@@ -1,0 +1,32 @@
+name: ヌメラ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: ふむ
+      cost:
+        - Fairy
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: みずまし
+      text: この特性は、自分の手札から{Water}エネルギーをこのポケモンにつけるたび、1回使える。自分の山札から「ヌメラ」を1枚選び、ベンチに出す。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 704
+  species: なんたいポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.8
+  flavourText: ヌメヌメの 粘膜で 覆われた 体は 敵の パンチや キックを ヌルリと 滑らせてしまうのだ。
+rarity: C
+illustrators:
+  - sui

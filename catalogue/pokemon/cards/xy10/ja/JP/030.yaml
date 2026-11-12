@@ -1,0 +1,30 @@
+name: ユニラン
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ミニリンク
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: 自分のベンチに「ユニラン」がいるなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 577
+  species: さいぼうポケモン
+  heightMetres: 0.3
+  weightKilograms: 1
+  flavourText: サイコパワーを 放出して 襲ってきた 敵を 撃退。 テレパシーで 仲間と 会話する。
+rarity: C
+illustrators:
+  - match

@@ -1,0 +1,33 @@
+name: イワンコ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Fighting
+      damage: "10"
+    - name: うしろげり
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 744
+  species: こいぬポケモン
+  heightMetres: 0.5
+  weightKilograms: 9.2
+  flavourText: 首の 岩を こすりつけてくるのは 親愛の 証。 ただし 岩は 鋭いので かなり 痛いぞ。
+rarity: C
+illustrators:
+  - Eri Yamaki

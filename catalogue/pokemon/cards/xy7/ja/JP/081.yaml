@@ -1,0 +1,14 @@
+name: バッドエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Darkness}ポケモンにしかつけられず、ついているかぎり{Darkness}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Darkness}ポケモンが、バトル場で相手の「ポケモンEX」からワザのダメージを受けるたび、ワザを使った「ポケモンEX」にダメカンを2個のせる。
+      （このカードが{Darkness}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Darkness
+rarity: U
+illustrators:
+  - 5ban Graphics

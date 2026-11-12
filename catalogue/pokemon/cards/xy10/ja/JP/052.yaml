@@ -1,0 +1,35 @@
+name: プリン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ころがる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 39
+  species: ふうせんポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  flavourText: 大きく 体を ふくらませてから 歌う 子守歌は いつもより 長くて ぜったいに 眠くなる。
+rarity: C
+illustrators:
+  - Midori Harada

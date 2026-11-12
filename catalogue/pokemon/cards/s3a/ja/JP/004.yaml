@@ -1,0 +1,28 @@
+name: タマタマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: タネばくだん
+      cost:
+        - Grass
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 102
+  species: たまごポケモン
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  flavourText: ６匹で １匹。 なにかあって １匹 減っても 翌朝に なると 必ず ６匹に 戻っている。
+rarity: C
+illustrators:
+  - Hasuno

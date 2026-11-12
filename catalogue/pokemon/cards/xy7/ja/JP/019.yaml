@@ -1,0 +1,29 @@
+name: コイキング
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: すんごいはねる
+      cost:
+        - Water
+      damage: "30"
+      text: コインを2回投げ、1回でもウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: さかなポケモン
+  heightMetres: 0.9
+  weightKilograms: 10
+  flavourText: 大昔は まだ もう少し 強かったらしい。 しかし 今は 悲しいくらいに 弱いのだ。
+rarity: C
+illustrators:
+  - Akira Komayama

@@ -1,0 +1,32 @@
+name: ジャノビー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: つるのムチ
+      cost:
+        - Grass
+      damage: "20"
+  abilities:
+    - name: へびしばり
+      text: この特性は、このカードを手札から出して進化させたとき、1回使える。コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 496
+  species: くさへびポケモン
+  heightMetres: 0.8
+  weightKilograms: 16
+  flavourText: 体が 汚れると 葉っぱで 光合成が できなくなるので いつも 清潔に している。
+  evolvesFrom: ツタージャ
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

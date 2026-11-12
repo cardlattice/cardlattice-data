@@ -1,0 +1,33 @@
+name: ヤジロン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ビンタ
+      cost:
+        - Psychic
+      damage: "10"
+    - name: かいてんアタック
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 343
+  species: どぐうポケモン
+  heightMetres: 0.5
+  weightKilograms: 21.5
+  flavourText: 一本足で 回転しながら 移動する。 古代の 遺跡から 見つかった 珍しい ポケモン。
+rarity: C
+illustrators:
+  - Kouki Saitou

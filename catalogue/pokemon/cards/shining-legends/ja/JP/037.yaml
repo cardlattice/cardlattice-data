@@ -1,0 +1,29 @@
+name: アーボ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくばり
+      cost:
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 23
+  species: へびポケモン
+  heightMetres: 2
+  weightKilograms: 6.9
+  flavourText: 育つほどに どんどん 長くなる。 そして 夜中は 木の枝に グルグルと 絡まって 休む。
+rarity: C
+illustrators:
+  - DemizuPosuka

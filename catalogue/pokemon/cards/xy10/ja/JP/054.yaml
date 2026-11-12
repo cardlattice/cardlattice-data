@@ -1,0 +1,33 @@
+name: MチルタリスEX
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fairy
+  stage: MEGA
+  attacks:
+    - name: ミストパージ
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: このポケモンに特殊エネルギーがついているなら、30ダメージを追加し、自分のポケモン全員のHPを、それぞれ「30」回復する。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: チルタリスEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

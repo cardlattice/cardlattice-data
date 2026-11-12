@@ -1,0 +1,36 @@
+name: ポリゴンZ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: サイバークラッシュ
+      cost:
+        - Colorless
+      text: 相手の場のポケモンについている特殊エネルギーをすべてトラッシュする。
+    - name: スロービーム
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 次の相手の番、このワザを受けたポケモンが使うワザに必要なエネルギーは、{Colorless}エネルギー1個ぶん多くなる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 474
+  species: バーチャルポケモン
+  heightMetres: 0.9
+  weightKilograms: 34
+  flavourText: 異次元空間を 自由に 移動できるように プログラムを 修正したが ミスした らしい。
+  evolvesFrom: ポリゴン2
+rarity: U
+illustrators:
+  - TOKIYA

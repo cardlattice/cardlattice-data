@@ -1,0 +1,35 @@
+name: フーパ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ちょうねんりき
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: バンデットガード
+      text: このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 720
+  species: まじんポケモン
+  heightMetres: 6.5
+  weightKilograms: 490
+  flavourText: 真の姿は 巨大な 力を 持っている。 財宝 欲しさに それが 隠された 城ごと 引き抜き 奪い去った という 伝説が ある。
+rarity: R
+illustrators:
+  - TOKIYA

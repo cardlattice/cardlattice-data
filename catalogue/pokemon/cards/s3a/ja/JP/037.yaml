@@ -1,0 +1,37 @@
+name: レジロック
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: がんせきおとし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: このワザのダメージは抵抗力を計算しない。
+    - name: メガトンフォール
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 377
+  species: いわやまポケモン
+  heightMetres: 1.7
+  weightKilograms: 230
+  flavourText: 体を 作っている 岩石と 同じ 物が 世界中の あらゆる 地層で 見つかっている。
+rarity: R
+illustrators:
+  - nagimiso

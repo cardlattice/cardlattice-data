@@ -1,0 +1,33 @@
+name: ウパー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ひとやすみ
+      cost:
+        - Colorless
+      text: このポケモンのHPを「20」回復する。
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 194
+  species: みずうおポケモン
+  heightMetres: 0.4
+  weightKilograms: 8.5
+  flavourText: 夕暮れどき 涼しくなると 水から 上がってきた ウパーたちは エサを 探して 水辺を 歩く。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

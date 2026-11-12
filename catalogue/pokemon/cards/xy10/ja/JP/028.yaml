@@ -1,0 +1,29 @@
+name: バネブー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ロケットジャンプ
+      cost:
+        - Psychic
+      damage: "30"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 325
+  species: とびはねポケモン
+  heightMetres: 0.7
+  weightKilograms: 30.6
+  flavourText: 尻尾で 飛び跳ねて 心臓を 動かしている。 パールルの 作った 真珠を 頭に 乗せている。
+rarity: C
+illustrators:
+  - TOKIYA

@@ -1,0 +1,36 @@
+name: キリンリキ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコパワー
+      cost:
+        - Psychic
+      text: ダメカン2個を、相手のポケモンに好きなようにのせる。
+    - name: しっぽでさしず
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: のぞむなら、相手に相手自身の手札をすべて山札にもどして切らせる。その場合、相手は山札を4枚引く。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 203
+  species: くびながポケモン
+  heightMetres: 1.5
+  weightKilograms: 41.5
+  flavourText: 尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。
+rarity: U
+illustrators:
+  - sowsow

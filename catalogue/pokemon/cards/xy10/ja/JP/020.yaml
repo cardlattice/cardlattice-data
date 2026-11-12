@@ -1,0 +1,30 @@
+name: カメテテ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ふりまわす
+      cost:
+        - Water
+        - Colorless
+      damage: 10+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 688
+  species: ふたてポケモン
+  heightMetres: 0.5
+  weightKilograms: 31
+  flavourText: 体を 伸ばす 反動で 岩を 持ち上げて 歩く。 波打ち際で 流されてきた 海藻を 食べる。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

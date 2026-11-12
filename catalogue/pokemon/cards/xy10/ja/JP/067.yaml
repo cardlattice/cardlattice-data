@@ -1,0 +1,11 @@
+name: 退化スプレー
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 進化している自分のポケモンを1匹選び、そのポケモンの上から「進化カード」を1枚はがして退化させる。はがしたカードは、手札にもどす。［退化したポケモンは、その番に進化できない。］
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach
