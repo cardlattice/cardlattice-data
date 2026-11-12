@@ -1,0 +1,37 @@
+name: エレザード
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: はたく
+      cost:
+        - Lightning
+      damage: "30"
+    - name: パラボラスパーク
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30×
+      text: 自分の場のポケモンについている{Lightning}エネルギーを好きなだけトラッシュし、トラッシュしたエネルギーの枚数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 695
+  species: はつでんポケモン
+  heightMetres: 1
+  weightKilograms: 21
+  flavourText: エリマキを 広げて 発電する。 エレザード １匹で 高層ビルで 必要な 電気を 作れるのだ。
+  evolvesFrom: エリキテル
+rarity: R
+illustrators:
+  - Kouki Saitou

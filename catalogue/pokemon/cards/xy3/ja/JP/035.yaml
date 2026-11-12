@@ -1,0 +1,34 @@
+name: ルージュラ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: だきつく
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: しょうりのキッス
+      text: この特性は、このポケモンがベンチにいるなら、自分の番に1回使える。自分のバトルポケモンのHPを「10」回復する。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 124
+  species: ひとがたポケモン
+  heightMetres: 1.4
+  weightKilograms: 40.6
+  flavourText: 腰を 振るように 歩いている。 油断をすると 思わず 釣られて 踊ってしまうという。
+rarity: U
+illustrators:
+  - Naoki Saito

@@ -1,0 +1,11 @@
+name: メンテナンス
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の手札を2枚選び、山札にもどす。そして山札を切る。その後、自分の山札を1枚引く。（自分の手札を2枚もどせないなら、このカードは使えない。）
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Keiji Kinebuchi

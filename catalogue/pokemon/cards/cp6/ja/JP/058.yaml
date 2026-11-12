@@ -1,0 +1,24 @@
+name: カイリキーBREAK
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Fighting
+  stage: BREAK
+  attacks:
+    - name: ブーメランラリアット
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "100"
+      text: 次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+100」される。
+  abilities: []
+  rules:
+    - BREAK進化する前のカイリキーの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: カイリキー
+rarity: RR
+illustrators:
+  - 5ban Graphics

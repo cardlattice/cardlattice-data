@@ -1,0 +1,35 @@
+name: カポエラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: クイックドロー
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。
+    - name: ヘリコプテイロ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 237
+  species: さかだちポケモン
+  heightMetres: 1.4
+  weightKilograms: 48
+  flavourText: コマのように 回転しながら 戦う。 遠心力の パワーで 破壊力は １０倍だ。
+rarity: C
+illustrators:
+  - kawayoo

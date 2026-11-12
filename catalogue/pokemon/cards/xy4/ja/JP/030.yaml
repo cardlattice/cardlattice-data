@@ -1,0 +1,30 @@
+name: ズバット
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ちょくげきひこう
+      cost:
+        - Colorless
+      text: 相手のポケモンを1匹選び、10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 41
+  species: こうもりポケモン
+  heightMetres: 0.8
+  weightKilograms: 7.5
+  flavourText: 口から 出す 超音波で 両目が なくても まわりの 障害物を 察知できる。
+rarity: C
+illustrators:
+  - match

@@ -1,0 +1,11 @@
+name: トレーニングセンター
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいの1進化と2進化ポケモン全員の最大HPは、それぞれ「30」大きくなる。
+    - スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+rarity: U
+illustrators:
+  - Ryo Ueda

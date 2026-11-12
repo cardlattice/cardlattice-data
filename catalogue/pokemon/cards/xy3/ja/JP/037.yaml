@@ -1,0 +1,34 @@
+name: ゴチム
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ビンタ
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ねんりき
+      cost:
+        - Psychic
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 574
+  species: ぎょうしポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  flavourText: リボンのような 触角で サイコパワーを 増幅させる。 なにかを じっと 見つめている。
+rarity: C
+illustrators:
+  - Atsuko Nishida

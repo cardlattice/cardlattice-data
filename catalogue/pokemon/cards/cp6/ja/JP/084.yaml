@@ -1,0 +1,11 @@
+name: オーキド博士のヒント
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - このカードを使ったら、自分の番は終わる。 自分の手札が7枚になるように、山札を引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Ken Sugimori

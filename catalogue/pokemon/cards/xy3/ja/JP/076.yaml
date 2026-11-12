@@ -1,0 +1,29 @@
+name: ナマケロ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: おおあくび
+      cost:
+        - Colorless
+        - Colorless
+      text: おたがいのバトルポケモンを、それぞれねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 287
+  species: なまけものポケモン
+  heightMetres: 0.8
+  weightKilograms: 24
+  flavourText: ナマケロの 怠けた 様子は 見ている 人の 怠け心を 存分に 刺激するのだ。
+rarity: C
+illustrators:
+  - Midori Harada

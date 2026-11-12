@@ -1,0 +1,34 @@
+name: ビブラーバ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: エネチャージ
+      cost:
+        - Colorless
+      text: 自分の山札から基本エネルギーを2枚まで選び、相手に見せてから、手札に加える。そして山札を切る。
+    - name: しんどう
+      cost:
+        - Grass
+        - Fighting
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 329
+  species: しんどうポケモン
+  heightMetres: 1.1
+  weightKilograms: 15.3
+  flavourText: ２枚の 羽を 高速で 振動させて 出す 超音波は 激しい 頭痛を ひきおこす。
+  evolvesFrom: ナックラー
+rarity: C
+illustrators:
+  - Kagemaru Himeno

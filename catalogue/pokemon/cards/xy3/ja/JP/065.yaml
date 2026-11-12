@@ -1,0 +1,35 @@
+name: ピッピ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: つきのひかり
+      cost:
+        - Colorless
+      text: このポケモンのHPを「30」回復する。
+    - name: はたく
+      cost:
+        - Fairy
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 35
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.5
+  flavourText: 満月の夜 ピッピが 集まって ダンスを 踊る様子を 見ると 幸せに なれると 言われている。
+rarity: C
+illustrators:
+  - Naoyo Kimura

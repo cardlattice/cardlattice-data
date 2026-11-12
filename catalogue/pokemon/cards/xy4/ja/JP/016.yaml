@@ -1,0 +1,37 @@
+name: アリゲイツ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+    - name: かみくだく
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 159
+  species: おおあごポケモン
+  heightMetres: 1.1
+  weightKilograms: 25
+  flavourText: キバは 抜けても 次から 次に 生えてくる。いつも 口の中には ４８本の キバが そろっている。
+  evolvesFrom: ワニノコ
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

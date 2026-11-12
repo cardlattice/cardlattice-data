@@ -1,0 +1,39 @@
+name: トルネロス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: つきとばす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替えてよい。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: たつまきなげ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 自分の手札と相手の手札が同じ枚数なら、60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 641
+  species: せんぷうポケモン
+  heightMetres: 1.5
+  weightKilograms: 63
+  flavourText: 雲のような エネルギー体に 下半身が 包まれている。 時速３００キロで 空を 飛ぶ。
+rarity: U
+illustrators:
+  - kawayoo

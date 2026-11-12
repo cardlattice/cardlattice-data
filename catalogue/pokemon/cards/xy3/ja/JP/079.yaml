@@ -1,0 +1,28 @@
+name: ミネズミ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: あんぜんかくにん
+      cost:
+        - Colorless
+      text: ウラになっている自分のサイドを1枚選び、そのサイドのオモテを見て、もとにもどす。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 504
+  species: みはりポケモン
+  heightMetres: 0.5
+  weightKilograms: 11.6
+  flavourText: ほほの 袋に エサを ためこみ 何日も 見張りを 続ける。 尻尾で 仲間に 合図する。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

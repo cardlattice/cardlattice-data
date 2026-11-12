@@ -1,0 +1,34 @@
+name: スコルピ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくばり
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+    - name: つきさす
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 451
+  species: さそりポケモン
+  heightMetres: 0.8
+  weightKilograms: 12
+  flavourText: 尻尾の ツメで 獲物を 挟み 毒を 送りこむ。 毒が 効くまで 絶対に 放さない 執念。
+rarity: C
+illustrators:
+  - Naoki Saito

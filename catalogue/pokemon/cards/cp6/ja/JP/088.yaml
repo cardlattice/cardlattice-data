@@ -1,0 +1,36 @@
+name: フシギバナEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: どくのこな
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンをどくにする。
+    - name: ジャングルハンマー
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: このポケモンのHPを「30」回復する。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+rarity: SR
+illustrators:
+  - Naoki Saito

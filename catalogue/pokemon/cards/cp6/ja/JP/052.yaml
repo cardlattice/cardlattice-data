@@ -1,0 +1,30 @@
+name: サンド
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: すなかけ
+      cost:
+        - Fighting
+      damage: "10"
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 27
+  species: ねずみポケモン
+  heightMetres: 0.6
+  weightKilograms: 12
+  flavourText: 地面に 穴を 掘って 住む。 自分に 危険が 迫ると 丸くなって 身を まもる。
+  level: 12
+rarity: C
+illustrators:
+  - Ken Sugimori

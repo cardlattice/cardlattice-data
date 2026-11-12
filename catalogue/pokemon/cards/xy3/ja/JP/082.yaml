@@ -1,0 +1,35 @@
+name: オンバット
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: かぜおこし
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 714
+  species: おんぱポケモン
+  heightMetres: 0.5
+  weightKilograms: 8
+  flavourText: 真っ暗な 洞窟で 暮らす。 ２０万ヘルツの 超音波を 大きな 耳から 発射する。
+rarity: C
+illustrators:
+  - 5ban Graphics

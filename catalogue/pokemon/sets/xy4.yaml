@@ -1,0 +1,13 @@
+name: ファントムゲート
+language: ja
+region: JP
+releaseDate: 2014-09-13
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY4
+printedDenominator: 88
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

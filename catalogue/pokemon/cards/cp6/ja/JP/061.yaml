@@ -1,0 +1,37 @@
+name: ピッピ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: うたう
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。
+    - name: ゆびをふる
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 35
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.5
+  flavourText: 愛くるしい 姿から ペット用に 人気が ある。 ただし なかなか 見つけられない。
+  level: 14
+rarity: R
+illustrators:
+  - Ken Sugimori

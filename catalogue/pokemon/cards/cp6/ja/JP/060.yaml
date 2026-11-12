@@ -1,0 +1,35 @@
+name: エビワラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ジャブ
+      cost:
+        - Fighting
+      damage: "30"
+    - name: スペシャルパンチ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 107
+  species: パンチポケモン
+  heightMetres: 1.4
+  weightKilograms: 50.2
+  flavourText: プロボクサーの 魂が のり移っている。 パンチのスピードは 新幹線よりも 速い。
+  level: 33
+rarity: R
+illustrators:
+  - Ken Sugimori

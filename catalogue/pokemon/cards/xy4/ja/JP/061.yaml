@@ -1,0 +1,35 @@
+name: ペロッパフ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: ペロペロ
+      cost:
+        - Fairy
+      text: このポケモンの特殊状態をすべて回復する。
+    - name: たいあたり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 684
+  species: わたあめポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.5
+  flavourText: わたあめのような 甘くて ベタつく 白い 糸を 出して 相手を 絡め取り 動きを 封じる。
+rarity: C
+illustrators:
+  - Satoshi Shirai

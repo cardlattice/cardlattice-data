@@ -1,0 +1,37 @@
+name: リーフィア
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: アロマスリープ
+      cost:
+        - Grass
+      damage: "30"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: マジカルリーフ
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: コインを1回投げオモテなら、30ダメージを追加し、このポケモンのHPを「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 470
+  species: しんりょくポケモン
+  heightMetres: 1
+  weightKilograms: 25.5
+  flavourText: 晴れた 日に 寝ている リーフィアは 光合成を して きれいな 空気を 作り出しているのだ。
+  evolvesFrom: イーブイ
+rarity: U
+illustrators:
+  - Naoyo Kimura

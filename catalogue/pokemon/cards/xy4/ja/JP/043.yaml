@@ -1,0 +1,37 @@
+name: バケッチャ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Psychic
+      damage: "10"
+    - name: よるのこうしん
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにあるワザ「よるのこうしん」を持つポケモンの枚数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 710
+  species: かぼちゃポケモン
+  heightMetres: 0.4
+  weightKilograms: 5
+  flavourText: 成仏できない 魂を カボチャの 体に 入れている。 日暮れと ともに 動きはじめる。
+rarity: C
+illustrators:
+  - HiRON

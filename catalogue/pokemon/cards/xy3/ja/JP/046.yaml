@@ -1,0 +1,36 @@
+name: エビワラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: バレットパンチ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+    - name: マッハストレート
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 107
+  species: パンチポケモン
+  heightMetres: 1.4
+  weightKilograms: 50.2
+  flavourText: 腕を ねじりながら 繰り出す パンチは コンクリートも 粉砕。 ３分 戦うと ひとやすみする。
+rarity: C
+illustrators:
+  - match

@@ -1,0 +1,34 @@
+name: ゴチミル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: フォーチュンアイ
+      cost:
+        - Colorless
+      text: 相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: ひらてうち
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 575
+  species: あやつりポケモン
+  heightMetres: 0.7
+  weightKilograms: 18
+  flavourText: 星明りが パワーの 源。 夜になると サイコパワーで 石を 浮かべて 星の 配置を 印す。
+  evolvesFrom: ゴチム
+rarity: C
+illustrators:
+  - Suwama Chiaki

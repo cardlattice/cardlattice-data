@@ -1,0 +1,38 @@
+name: モンジャラ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: しめつける
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: どくのこな
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 114
+  species: ツルじょうポケモン
+  heightMetres: 1
+  weightKilograms: 35
+  flavourText: ブルーの ツル植物が からみあい 正体は 見えない。 近づくものに からみついてくる。
+  level: 8
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

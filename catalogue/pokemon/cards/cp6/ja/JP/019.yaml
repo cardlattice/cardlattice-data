@@ -1,0 +1,35 @@
+name: ポニータ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: けとばす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: ほのおのしっぽ
+      cost:
+        - Fire
+        - Fire
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 77
+  species: ひのうまポケモン
+  heightMetres: 1
+  weightKilograms: 30
+  flavourText: 体が 軽く 足の 力が ものすごい。 １回の ジャンプで 東京タワーも 飛び越える。
+  level: 10
+rarity: C
+illustrators:
+  - Ken Sugimori

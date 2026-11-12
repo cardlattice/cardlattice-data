@@ -1,0 +1,36 @@
+name: ヤヤコマ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: でんこうせっか
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 661
+  species: コマドリポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.7
+  flavourText: 人懐っこい 性格。 美しい さえずりと 尾羽を 振る 動きで 仲間に 合図を 送る。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

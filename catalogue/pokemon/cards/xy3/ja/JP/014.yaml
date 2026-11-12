@@ -1,0 +1,38 @@
+name: バシャーモ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: わしづかみ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: バーニングシュート
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      text: このポケモンについているエネルギーを2個トラッシュし、相手のポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 257
+  species: もうかポケモン
+  heightMetres: 1.9
+  weightKilograms: 52
+  flavourText: ３０階建ての ビルを ジャンプで 跳び越す 跳躍力。 炎の パンチが 相手を 焼きつくす。
+  evolvesFrom: ワカシャモ
+rarity: R
+illustrators:
+  - PLANETA

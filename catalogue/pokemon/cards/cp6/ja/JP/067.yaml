@@ -1,0 +1,32 @@
+name: ドードー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: みだれづき
+      cost:
+        - Colorless
+      damage: 10×
+      text: コインを3回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 84
+  species: ふたごどりポケモン
+  heightMetres: 1.4
+  weightKilograms: 39.2
+  flavourText: 突然変異で 見つかった ふたつの 頭を 持つ ポケモン。 時速 １００キロで 走る。
+  level: 10
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

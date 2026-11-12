@@ -1,0 +1,37 @@
+name: ヒノヤコマ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: つつく
+      cost:
+        - Fire
+      damage: "20"
+    - name: かえん
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 662
+  species: ひのこポケモン
+  heightMetres: 0.7
+  weightKilograms: 16
+  flavourText: 火の粉を クチバシから 飛ばして 草むらを 焦がし 驚いて 飛び出した 獲物を 捕まえる。
+  evolvesFrom: ヤヤコマ
+rarity: C
+illustrators:
+  - Suwama Chiaki

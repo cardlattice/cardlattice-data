@@ -1,0 +1,38 @@
+name: ラッキー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: まるまる
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。
+    - name: すてみタックル
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンにも80ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 113
+  species: たまごポケモン
+  heightMetres: 1.1
+  weightKilograms: 34.6
+  flavourText: １日に いくつか タマゴを 産む。 その タマゴは 栄養 満点で ものすごく おいしい らしい。
+  level: 55
+rarity: R
+illustrators:
+  - Ken Sugimori

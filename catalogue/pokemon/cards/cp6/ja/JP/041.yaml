@@ -1,0 +1,30 @@
+name: ニドラン♂
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: にどづき
+      cost:
+        - Psychic
+      damage: 10×
+      text: コインを2回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 32
+  species: どくばりポケモン
+  heightMetres: 0.5
+  weightKilograms: 9
+  flavourText: 耳が 大きく 遠くの 音を 聞くとき はばたく様に 動く。 怒ると 毒バリを だす。
+  level: 20
+rarity: C
+illustrators:
+  - Ken Sugimori

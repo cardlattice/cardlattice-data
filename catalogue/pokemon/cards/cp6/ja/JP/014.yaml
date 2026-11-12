@@ -1,0 +1,31 @@
+name: ロコン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: あやしいひかり
+      cost:
+        - Fire
+        - Fire
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: きつねポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  flavourText: 子どもだが ６本の 尻尾が 美しい。 成長すると さらに 尻尾が 増える。
+  level: 11
+rarity: C
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,38 @@
+name: デンチュラ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: スパイダートリップ
+      cost:
+        - Lightning
+      text: 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。
+    - name: エレキネット
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 596
+  species: でんきグモポケモン
+  heightMetres: 0.8
+  weightKilograms: 14.3
+  flavourText: 電気を 帯びた 糸で ワナを 仕掛ける。感電して 動けない 獲物を ゆっくりと いただくのだ。
+  evolvesFrom: バチュル
+rarity: U
+illustrators:
+  - Masakazu Fukuda

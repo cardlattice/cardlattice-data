@@ -1,0 +1,39 @@
+name: エレキブル
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: タッグスパーク
+      cost:
+        - Lightning
+      damage: 20+
+      text: 自分の「ブーバーン」についているエネルギーの数×20ダメージを追加。
+    - name: ギガボルト
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、30ダメージを追加。ウラなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 466
+  species: らいでんポケモン
+  heightMetres: 1.8
+  weightKilograms: 138.6
+  flavourText: 電気を いっぱいに ためると ２本の ツノの あいだで 激しく 青白い 火花を 散らす。
+  evolvesFrom: エレブー
+rarity: U
+illustrators:
+  - PLANETA

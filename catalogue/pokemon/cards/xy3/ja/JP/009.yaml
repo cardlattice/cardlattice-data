@@ -1,0 +1,36 @@
+name: アギルダー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: しゅうげき
+      cost:
+        - Colorless
+      damage: 20+
+      text: この番、このポケモンが「チョボマキ」から進化していたなら、40ダメージを追加。
+    - name: ざんぞうぎり
+      cost:
+        - Grass
+        - Colorless
+      damage: "40"
+      text: 次の相手の番、このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 617
+  species: からぬけポケモン
+  heightMetres: 0.8
+  weightKilograms: 25.3
+  flavourText: 重い 殻を 脱いだために 身軽になった。 まるで 忍者のような 身のこなしで 戦う。
+  evolvesFrom: チョボマキ
+rarity: C
+illustrators:
+  - Shin Nagasawa

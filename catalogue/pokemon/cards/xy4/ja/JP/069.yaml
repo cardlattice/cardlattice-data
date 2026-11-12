@@ -1,0 +1,40 @@
+name: ハピナス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: おかえしほう
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10×
+      text: コインを1回投げオモテなら、自分のベンチポケモン全員にのっているダメカンの数×10ダメージ。
+    - name: とつげきとっしん
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: のぞむなら、20ダメージを追加してよい。その場合、このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 242
+  species: しあわせポケモン
+  heightMetres: 1.5
+  weightKilograms: 46.8
+  flavourText: ハピナスの 産む タマゴには 幸せが つまっていて ひとくち 食べると だれでも 笑顔になれる。
+  evolvesFrom: ラッキー
+rarity: U
+illustrators:
+  - kirisAki

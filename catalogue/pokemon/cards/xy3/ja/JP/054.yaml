@@ -1,0 +1,34 @@
+name: コジョフー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: はねまわる
+      cost:
+        - Fighting
+      damage: "10"
+    - name: とびかかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 619
+  species: ぶじゅつポケモン
+  heightMetres: 0.9
+  weightKilograms: 20
+  flavourText: 技を繰り出す スピードが 自慢。 たとえ パワーは 低くても 手数の 多さで カバーする。
+rarity: C
+illustrators:
+  - Shigenori Negishi

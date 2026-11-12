@@ -1,0 +1,37 @@
+name: コクーン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: かたまる
+      cost:
+        - Colorless
+        - Colorless
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-40」される。
+    - name: どくのこな
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 14
+  species: さなぎポケモン
+  heightMetres: 0.6
+  weightKilograms: 10
+  flavourText: 大人の 体を つくるための 一時的な 状態。 自分では ほとんど 動けない。
+  evolvesFrom: ビードル
+  level: 23
+rarity: C
+illustrators:
+  - Keiji Kinebuchi

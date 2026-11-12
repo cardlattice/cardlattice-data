@@ -1,0 +1,30 @@
+name: グライガー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: れんぞくいわなげ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: ウラが出るまでコインを投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 207
+  species: とびさそりポケモン
+  heightMetres: 1.1
+  weightKilograms: 64.8
+  flavourText: いつもは 崖に 張りついている。 獲物を見つけると 羽を広げ 風に乗り 襲いかかってくる。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

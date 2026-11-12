@@ -1,0 +1,38 @@
+name: ルカリオEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: スカッドジャブ
+      cost:
+        - Fighting
+      damage: "30"
+      text: このワザのダメージは抵抗力の計算をしない。
+    - name: スクリューブロー
+      cost:
+        - Fighting
+        - Fighting
+      damage: "60"
+      text: のぞむなら、自分の手札が6枚になるように、山札を引いてよい。
+    - name: サマーソルトハイ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "100"
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - Eske Yoshinob

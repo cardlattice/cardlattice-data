@@ -1,0 +1,23 @@
+name: キュウコンBREAK
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: BREAK
+  attacks:
+    - name: ばくえんだま
+      cost:
+        - Fire
+        - Colorless
+      damage: 10+
+      text: このポケモンについている{Fire}エネルギーをすべてトラッシュし、トラッシュした枚数×60ダメージを追加。
+  abilities: []
+  rules:
+    - BREAK進化する前のキュウコンの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: キュウコン
+rarity: RR
+illustrators:
+  - 5ban Graphics

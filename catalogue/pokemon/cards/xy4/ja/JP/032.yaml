@@ -1,0 +1,34 @@
+name: クロバット
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: ちょくげきひこう
+      cost:
+        - Colorless
+      text: 相手のポケモンを1匹選び、30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: とつぜんかみつく
+      text: この特性は、このカードを手札から出して進化させたとき、1回使える。相手のポケモンを1匹選び、ダメカンを3個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 169
+  species: こうもりポケモン
+  heightMetres: 1.8
+  weightKilograms: 75
+  flavourText: ４枚に 増えた 翼で 暗闇を 静かに 飛んでいく。 となりを 通られても 気づかない。
+  evolvesFrom: ゴルバット
+rarity: U
+illustrators:
+  - Satoshi Shirai

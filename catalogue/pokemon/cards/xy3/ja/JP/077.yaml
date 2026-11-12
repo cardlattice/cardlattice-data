@@ -1,0 +1,36 @@
+name: ヤルキモノ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "20"
+    - name: とつげき
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: コインを1回投げウラなら、このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 288
+  species: あばれざるポケモン
+  heightMetres: 1.4
+  weightKilograms: 46.5
+  flavourText: 心臓の 鼓動が 速く 全身の 血が たぎっているため １秒も じっと していられない。
+  evolvesFrom: ナマケロ
+rarity: C
+illustrators:
+  - Suwama Chiaki

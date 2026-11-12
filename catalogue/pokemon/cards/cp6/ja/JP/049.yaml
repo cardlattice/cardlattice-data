@@ -1,0 +1,36 @@
+name: ミュウツー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコキネシス
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンについているエネルギーの数×20ダメージを追加。
+    - name: バリアー
+      cost:
+        - Psychic
+        - Psychic
+      text: 次の相手の番、このポケモンはワザのダメージや効果を受けない。前の自分の番に、自分のポケモンが「バリアー」を使っていたなら、このワザは使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 150
+  species: いでんしポケモン
+  heightMetres: 2
+  weightKilograms: 122
+  flavourText: 研究の ために 遺伝子を どんどん 組み替えていった 結果 狂暴な ポケモンに なった。
+  level: 53
+rarity: R
+illustrators:
+  - Ken Sugimori

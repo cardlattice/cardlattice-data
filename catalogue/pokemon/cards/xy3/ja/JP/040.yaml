@@ -1,0 +1,38 @@
+name: ゴビット
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+    - name: いわくだき
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 622
+  species: ゴーレムポケモン
+  heightMetres: 1
+  weightKilograms: 92
+  flavourText: 体内で 燃える エネルギーに よって 活動しているが どんな エネルギーなのかは 不明である。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

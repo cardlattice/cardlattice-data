@@ -1,0 +1,30 @@
+name: モノズ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: かじりつくす
+      cost:
+        - Psychic
+        - Darkness
+      damage: 20+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 633
+  species: そぼうポケモン
+  heightMetres: 0.8
+  weightKilograms: 17.3
+  flavourText: 目が 見えないため 体当たりしたり かみついて まわりを 探る。 体中 生傷が 絶えない。
+rarity: C
+illustrators:
+  - Shigenori Negishi

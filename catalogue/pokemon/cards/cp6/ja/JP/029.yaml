@@ -1,0 +1,35 @@
+name: スターミー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: スターフリーズ
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities:
+    - name: うちゅうビーコン
+      text: 自分の手札を1枚選び、トラッシュする。その後、自分のトラッシュから基本エネルギーを2枚選び、相手に見せてから、手札に加える。（このカードの効果でトラッシュしたエネルギーは選べない。）この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 121
+  species: なぞのポケモン
+  heightMetres: 1.1
+  weightKilograms: 80
+  flavourText: 幾何学的な ボディーから 宇宙生物 ではないかと 地元では 疑われている。
+  evolvesFrom: ヒトデマン
+  level: 28
+rarity: U
+illustrators:
+  - Keiji Kinebuchi

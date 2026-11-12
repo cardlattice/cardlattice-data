@@ -1,0 +1,33 @@
+name: ナックラー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: やまかじり
+      cost:
+        - Fighting
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: どろかけ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 328
+  species: ありじごくポケモン
+  heightMetres: 0.7
+  weightKilograms: 15
+  flavourText: 乾燥した 砂漠に 生息。 すり鉢状の 巣穴の 中で 獲物を じっと 待ち続ける。
+rarity: C
+illustrators:
+  - Mizue

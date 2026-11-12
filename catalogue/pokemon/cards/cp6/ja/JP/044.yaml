@@ -1,0 +1,24 @@
+name: ニドキングBREAK
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Psychic
+  stage: BREAK
+  attacks:
+    - name: どくどくドリル
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "120"
+      text: 相手のバトルポケモンをどくにする。ポケモンチェックのとき、このどくでのせるダメカンの数は2個になる。
+  abilities: []
+  rules:
+    - BREAK進化する前のニドキングの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ニドキング
+rarity: RR
+illustrators:
+  - 5ban Graphics

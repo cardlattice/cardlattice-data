@@ -1,0 +1,34 @@
+name: ゴルバット
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: おうだんひこう
+      cost:
+        - Colorless
+      text: 相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: こっそりかみつく
+      text: この特性は、このカードを手札から出して進化させたとき、1回使える。相手のポケモンを1匹選び、ダメカンを2個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 42
+  species: こうもりポケモン
+  heightMetres: 1.6
+  weightKilograms: 55
+  flavourText: かみついたら 最後。死ぬほど 血を 吸いまくるので 重たくなって 自分で 飛べなくなることもある。
+  evolvesFrom: ズバット
+rarity: C
+illustrators:
+  - Kanako Eo
