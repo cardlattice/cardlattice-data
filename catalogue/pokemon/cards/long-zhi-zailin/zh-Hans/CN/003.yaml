@@ -1,0 +1,29 @@
+name: 阿罗拉椰蛋树
+illustrators:
+  - Anesaki Dynamic
+regulationMark: B
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: 蛋蛋
+  nationalDex:
+    - 103
+  species: 椰子宝可梦
+  heightMetres: 10.9
+  weightKilograms: 415.6
+  flavourText: 悠然惬意地长大之后，它便不再需要原来的精神力量，沉睡于体内的龙之力就已经觉醒。
+  attacks:
+    - name: 热带摇晃
+      cost:
+        - Grass
+      damage: 20+
+      text: 追加造成自己弃牌区中的基本能量的属性种类数量×20点伤害。伤害最多可增加相当于5种属性的数值。
+  abilities: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3

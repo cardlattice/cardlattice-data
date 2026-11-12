@@ -1,0 +1,30 @@
+name: 火伊布
+illustrators:
+  - You Iribi
+regulationMark: D
+products:
+  - pokemon-product-card-display-case-gift-box-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: 伊布
+  flavourText: 当火焰在体内积蓄时，火伊布的体温也会随之上升到最高900度。
+  attacks:
+    - name: 火焰鬃毛
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "100"
+  abilities:
+    - name: 灼热觉醒
+      kind: Ability
+      text: 如果这只宝可梦身上放有「回忆胶囊」的话，则双方场上{Grass}宝可梦的特性，全部消除。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2

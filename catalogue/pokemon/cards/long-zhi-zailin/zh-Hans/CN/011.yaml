@@ -1,0 +1,30 @@
+name: 黏美龙
+illustrators:
+  - Nagomi Nijo
+regulationMark: E
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: 黏美儿
+  nationalDex:
+    - 706
+  species: 龙宝可梦
+  heightMetres: 2
+  weightKilograms: 150.5
+  flavourText: 用伸长角产生的力道来攻击对手。产生的威力比重量级拳击手的拳击还强100倍。
+  attacks:
+    - name: 爆破之尾
+      cost:
+        - Water
+        - Psychic
+      damage: "120"
+  abilities:
+    - name: 粘滑屋
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，当对手从手牌将能量附着于宝可梦身上时，在附着能量之前对手抛掷1次硬币。如果为反面，则无法将该能量附着于宝可梦身上，并将该能量放于弃牌区。
+  weaknesses: []
+  resistances: []
+  retreatCost: 3

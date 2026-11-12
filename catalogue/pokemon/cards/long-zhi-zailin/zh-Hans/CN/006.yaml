@@ -1,0 +1,34 @@
+name: 沙漠蜻蜓
+illustrators:
+  - Shigenori Negishi
+regulationMark: B
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: 超音波幼虫
+  nationalDex:
+    - 330
+  species: 神秘宝可梦
+  heightMetres: 2
+  weightKilograms: 82
+  flavourText: 因为位于自己卷起的沙暴中心，所以是很少现身于人前的宝可梦。
+  attacks:
+    - name: 流沙深渊
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "110"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦，无法撤退。
+  abilities:
+    - name: 龙之守护
+      kind: Ability
+      text: 只要这只宝可梦在场上，自己的所有{Dragon}宝可梦不会受到对手的宝可梦所使用招式的效果影响。（已经受到的效果，不会消除。）
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1

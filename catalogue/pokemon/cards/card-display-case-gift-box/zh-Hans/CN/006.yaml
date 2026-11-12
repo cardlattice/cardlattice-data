@@ -1,0 +1,32 @@
+name: 黑夜魔灵
+illustrators:
+  - Megumi Higuchi
+regulationMark: D
+products:
+  - pokemon-product-card-display-case-gift-box-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 彷徨夜灵
+  flavourText: 没人知道它是否拥有意识。会从来自灵界的电波中接受指示，将人和宝可梦带走。
+  attacks:
+    - name: 幽魂射击
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: 灵魂漂白
+      kind: Ability
+      text: 只要这只宝可梦在场上，双方场上宝可梦身上附有的特殊能量的效果全部消除，被视作1个{Colorless}能量。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
