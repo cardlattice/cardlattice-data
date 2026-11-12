@@ -282,6 +282,7 @@ describe("schema audit regressions", () => {
     "pokemon: {category: trainer, subtypes: [Supporter, TAG TEAM]}",
     'pokemon: {category: pokemon, attacks: [{name: Unknown damage, cost: [], damage: "?"}], weaknesses: [{type: Fire}]}',
     "pokemon: {types: []}",
+    "pokemon: {category: trainer, subtypes: [Item, Pokémon Tool F]}",
     "pokemon: {category: pokemon, subtypes: [Shining]}",
     "pokemon: {category: energy, subtypes: [Special Energy, ACE SPEC]}",
     "variants: {first: {finish: holo, edition: first-edition, products: [pokemon-product-box]}}",
@@ -300,6 +301,7 @@ describe("schema audit regressions", () => {
     "pokemon: {category: energy, subtypes: [TAG TEAM]}",
     "pokemon: {category: trainer, subtypes: [Shining]}",
     "pokemon: {category: energy, subtypes: [Shining]}",
+    "pokemon: {category: pokemon, subtypes: [Pokémon Tool F]}",
     "pokemon: {category: trainer, subtypes: [Supporter], hp: 10}",
   ])("rejects aliases, invalid clearing and category mismatches: %s", (fields) => {
     expect(validateCard(`name: Example\n${fields}\n`, filename).length).toBeGreaterThan(0);

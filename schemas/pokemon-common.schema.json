@@ -277,6 +277,7 @@
                     "Supporter",
                     "Stadium",
                     "Pokémon Tool",
+                    "Pokémon Tool F",
                     "ACE SPEC"
                   ]
                 }
@@ -524,6 +525,7 @@
         "Supporter",
         "Stadium",
         "Pokémon Tool",
+        "Pokémon Tool F",
         "ACE SPEC",
         "Basic Energy",
         "Special Energy"
@@ -549,6 +551,7 @@
         "CHR",
         "BWR",
         "MUR",
+        "K",
         "●",
         "◆",
         "★",
