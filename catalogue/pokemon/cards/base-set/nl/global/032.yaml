@@ -6,6 +6,20 @@ pokemon:
     - Psychic
   stage: Stage 1
   evolvesFrom: Abra
+  attacks:
+    - name: Herstel
+      cost:
+        - Psychic
+        - Psychic
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Kadabra gehechte Psychic
+        Energiekaart weggooien. Verwijder alle schadetellers van Kadabra.
+    - name: Super Psy
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "50"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

@@ -5,6 +5,21 @@ pokemon:
   types:
     - Lightning
   stage: Basic
+  attacks:
+    - name: Donderschok
+      cost:
+        - Lightning
+      damage: "10"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Donderslag
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: Gooi een munt op. Als het kop is, brengt deze aanval 30 schade toe plus
+        nog eens 10 schade; als het munt is, brengt deze aanval 30 schade toe en
+        brengt Electabuzz zichzelf 10 schade toe.
+  abilities: []
 rarity: Rare
 finishes:
   - non-holo

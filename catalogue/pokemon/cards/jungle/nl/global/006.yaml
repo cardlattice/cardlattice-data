@@ -5,6 +5,22 @@ pokemon:
   types:
     - Psychic
   stage: Basic
+  attacks:
+    - name: Mediteer
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: Brengt 10 schade toe plus nog eens 10 schade voor elke schadeteller op de
+        Verdedigende Pokémon.
+  abilities:
+    - name: Onzichtbare muur
+      kind: Pokémon Power
+      text: Telkens als een aanval (inclusief die van jezelf) 30 of meer schade aan
+        Mr. Mime toebrengt (na het toepassen van Zwakte en Weerstand), voorkom
+        dan die schade. (Alle andere effecten blijven gewoon geldig.) Deze
+        kracht stopt met werken zo lang Mr. Mime In Slaap, Verward of Verlamd
+        is.
 rarity: Rare
 finishes:
   - holo

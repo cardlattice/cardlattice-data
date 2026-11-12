@@ -5,6 +5,22 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Zang
+      cost:
+        - Colorless
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu In Slaap.
+    - name: Metronoom
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Kies 1 van de aanvallen van de Verdedigende Pokémon. Metronoom doet die
+        aanval precies na, behalve wat betreft de Energiekosten en al het andere
+        wat ervoor nodig is om die aanval te gebruiken, zoals het weggooien van
+        Energiekaarten. (Clefairy’s type is nog steeds Kleurloos, onverschillig
+        van welk type de Verdedigende Pokémon is.)
+  abilities: []
 rarity: Rare
 finishes:
   - holo

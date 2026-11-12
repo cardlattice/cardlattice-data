@@ -6,6 +6,26 @@ pokemon:
     - Water
   stage: Stage 1
   evolvesFrom: Horsea
+  attacks:
+    - name: Waterpistool
+      cost:
+        - Water
+        - Colorless
+      damage: 20+
+      text: Brengt 20 schade toe plus nog eens 10 schade voor elke aan Seadra gehechte
+        Water Energie die niet wordt gebruikt om de energiekosten van deze
+        aanval te betalen. Je kunt op deze manier niet meer dan 20 schade
+        toevoegen.
+    - name: Behendigheid
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Werp een munt op. Als het kop is tijdens je tegenstanders volgende beurt,
+        voorkom dan alle effecten van die aanval, inclusief schade, toegebracht
+        aan Seadra.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

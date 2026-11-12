@@ -5,6 +5,23 @@ pokemon:
   types:
     - Psychic
   stage: Basic
+  attacks:
+    - name: Helderziend
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: Brengt 10 schade toe plus nog eens 10 schade voor elke Energiekaart die
+        aan de Verdedigende Pokémon gehecht is.
+    - name: Barrière
+      cost:
+        - Psychic
+        - Psychic
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Mewtwo gehechte Psychic
+        Energiekaart weggooien. Tijdens je tegenstanders volgende beurt voorkomt
+        dit alle gevolgen van aanvallen, inclusief schade, die aan Mewtwo worden
+        toegebracht.
+  abilities: []
 rarity: Rare
 finishes:
   - holo

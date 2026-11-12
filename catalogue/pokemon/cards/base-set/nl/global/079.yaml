@@ -1,6 +1,10 @@
 name: Super Energie Verwijderen
 pokemon:
   category: trainer
+  rules:
+    - Gooi 1 Energiekaart die aan 1 van je Pokémon is gehecht weg om 1 van je
+      tegenstanders Pokémon te kunnen kiezen en 2 daaraan gehechte
+      Energiekaarten. Gooi die Energiekaarten weg.
 rarity: Rare
 finishes:
   - non-holo

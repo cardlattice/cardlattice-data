@@ -6,6 +6,23 @@ pokemon:
     - Grass
   stage: Stage 1
   evolvesFrom: Nidoran♂
+  attacks:
+    - name: Dubbelschop
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Gooi 2 munten op. Deze aanval brengt 30 schade toe maal het aantal keren
+        kop.
+    - name: Hoornboor
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

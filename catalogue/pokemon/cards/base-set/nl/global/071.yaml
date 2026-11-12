@@ -1,6 +1,9 @@
 name: Zoeken per Computer
 pokemon:
   category: trainer
+  rules:
+    - Gooi 2 andere kaarten uit je hand weg om welke kaart dan ook in je deck te
+      kunnen zoeken, en deze in je hand te nemen. Schud hierna je deck.
 rarity: Rare
 finishes:
   - non-holo

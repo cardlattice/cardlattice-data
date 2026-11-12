@@ -1,6 +1,11 @@
 name: Pluskracht
 pokemon:
   category: trainer
+  rules:
+    - Hecht Pluskracht aan je Actieve Pokémon. Aan het einde van je beurt gooi
+      je Pluskracht weg. Als de aanval van deze Pokémon schade toebrengt aan de
+      Verdedigende Pokémon (nadat Zwakte en Weerstand zijn toegepast), brengt de
+      aanval nog eens 10 schade toe aan de Verdedigende Pokémon.
 rarity: Uncommon
 finishes:
   - non-holo

@@ -6,6 +6,20 @@ pokemon:
     - Colorless
   stage: Stage 1
   evolvesFrom: Doduo
+  attacks:
+    - name: Razernij
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Brengt 10 schade toe plus nog eens 10 schade voor elke schadeteller op
+        Dodrio.
+  abilities:
+    - name: Terugtrekhulp
+      kind: Pokémon Power
+      text: Betaal Colorless minder om je Aktieve Pokémon terug te trekken, zolang
+        Dodrio op de Bank zit.
 rarity: Uncommon
 finishes:
   - non-holo

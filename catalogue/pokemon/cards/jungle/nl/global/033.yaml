@@ -6,6 +6,28 @@ pokemon:
     - Grass
   stage: Stage 2
   evolvesFrom: Metapod
+  attacks:
+    - name: Wervelwind
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Als je tegenstander Pokémon op de Bank heeft, kiest hij of zij er daar 1
+        van en verwisselt deze met de Verdedigende Pokémon. (Breng de schade toe
+        vóór het verwisselen van de Pokémon.)
+    - name: Mega Drain
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Grass
+      damage: "40"
+      text: Verwijder een aantal schadetellers van Butterfree gelijk aan de helft van
+        de schade toegebracht aan de Verdedigende Pokémon (na het toepassen van
+        Zwakte en Weerstand)(afgerond naar de dichtstbijzijnde 10). Als
+        Butterfree minder schadetellers heeft dan dat, verwijder ze dan
+        allemaal.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

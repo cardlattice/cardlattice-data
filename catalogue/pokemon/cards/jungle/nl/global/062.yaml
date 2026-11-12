@@ -5,6 +5,19 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Boor
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Spiegel
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Als Spearow tijdens de vorige beurt is aangevallen, breng dan het
+        uiteindelijke resultaat van die aanval toe aan de Verdedigende Pokémon.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

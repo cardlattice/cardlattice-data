@@ -6,6 +6,21 @@ pokemon:
     - Grass
   stage: Stage 1
   evolvesFrom: Caterpie
+  attacks:
+    - name: Verstijving
+      cost:
+        - Colorless
+        - Colorless
+      text: Gooi een munt op. Als het kop is, voorkomt dit alle schade die aan Metapod
+        wordt toegebracht tijdens je tegenstanders volgende beurt. (Alle andere
+        gevolgen van aanvallen blijven gewoon geldig.)
+    - name: Verdeelspoor
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

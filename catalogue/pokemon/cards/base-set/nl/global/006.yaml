@@ -6,6 +6,22 @@ pokemon:
     - Water
   stage: Stage 1
   evolvesFrom: Magikarp
+  attacks:
+    - name: Drakenfurie
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "50"
+    - name: Bubbelstraal
+      cost:
+        - Water
+        - Water
+        - Water
+        - Water
+      damage: "40"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities: []
 rarity: Rare
 finishes:
   - holo

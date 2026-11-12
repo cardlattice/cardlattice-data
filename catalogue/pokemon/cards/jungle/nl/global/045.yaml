@@ -6,6 +6,25 @@ pokemon:
     - Fighting
   stage: Stage 1
   evolvesFrom: Rhyhorn
+  attacks:
+    - name: Hoornaanval
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Ram
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: Rhydon brengt 20 schade toe aan zichzelf. Als je tegenstander Pokémon op
+        de Bank heeft, kiest hij of zij er 1 van en verwisselt deze met de
+        Verdedigende Pokémon. (Breng de schade toe vóór het verwisselen van de
+        Pokémon. Verwissel de Pokémon zelfs als Rhydon Uitgeschakeld is.)
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

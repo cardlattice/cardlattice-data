@@ -6,6 +6,22 @@ pokemon:
     - Fighting
   stage: Stage 1
   evolvesFrom: Geodude
+  attacks:
+    - name: Verharding
+      cost:
+        - Fighting
+        - Fighting
+      text: Wanneer tijdens je tegenstanders volgende beurt 30 of minder schade wordt
+        toegebracht aan Graveler (na het toepassen van Zwakte en Weerstand),
+        voorkom dan die schade. (Alle andere effecten van aanvallen blijven
+        gewoon geldig.)
+    - name: Steenworp
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "40"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

@@ -5,6 +5,21 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Haal terug
+      cost:
+        - Colorless
+      text: Pak een kaart.
+    - name: Komeetslag
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Werp 4 munten op. Deze aanval brengt 20 schade toe maal het aantal keren
+        kop.
+  abilities: []
 rarity: Rare
 finishes:
   - holo

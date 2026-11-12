@@ -5,6 +5,12 @@ pokemon:
   types:
     - Water
   stage: Basic
+  attacks:
+    - name: Klap
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

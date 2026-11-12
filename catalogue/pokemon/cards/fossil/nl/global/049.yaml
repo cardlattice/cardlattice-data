@@ -5,6 +5,15 @@ pokemon:
   types:
     - Water
   stage: Basic
+  attacks:
+    - name: Rookgordijn
+      cost:
+        - Water
+      damage: "10"
+      text: Als de Verdedigende Pokémon tijdens je tegenstanders volgende beurt
+        probeert aan te vallen, werpt je tegenstander een munt op. Als het munt
+        is, doet die aanval niets.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

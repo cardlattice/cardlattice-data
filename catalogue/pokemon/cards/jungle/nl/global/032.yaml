@@ -6,6 +6,20 @@ pokemon:
     - Colorless
   stage: Stage 1
   evolvesFrom: Jigglypuff
+  attacks:
+    - name: Slaapliedje
+      cost:
+        - Colorless
+      text: De Verdedigende Pokémon is In Slaap.
+    - name: Doe de Wave
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Brengt 10 schade toe en nog eens 10 schade voor elk van je Pokémon op de
+        Bank.
+  abilities: []
 rarity: Rare
 finishes:
   - non-holo

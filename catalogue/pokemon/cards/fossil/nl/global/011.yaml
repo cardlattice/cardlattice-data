@@ -6,6 +6,26 @@ pokemon:
     - Lightning
   stage: Stage 1
   evolvesFrom: Magnemite
+  attacks:
+    - name: Supersone knal
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+      text: Zwakte en Weerstand niet toepassen voor deze aanval. (Alle andere effecten
+        die zouden optreden na het toepassen van Zwakte en Weerstand blijven
+        gewoon geldig.)
+    - name: Zelfvernietiging
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "100"
+      text: Brengt 20 schade toe aan elke Pokémon op de Bank van elke speler. (Zwakte
+        en Weerstand niet toepassen op de Pokémon op de Bank.) Magneton brengt
+        zichzelf 100 schade toe.
+  abilities: []
 rarity: Rare
 finishes:
   - holo

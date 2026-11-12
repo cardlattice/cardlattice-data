@@ -5,6 +5,12 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Stamp
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

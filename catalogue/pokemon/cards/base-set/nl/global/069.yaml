@@ -5,6 +5,14 @@ pokemon:
   types:
     - Grass
   stage: Basic
+  attacks:
+    - name: Gifangel
+      cost:
+        - Grass
+      damage: "10"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu
+        Vergiftigd.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

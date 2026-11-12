@@ -5,6 +5,15 @@ pokemon:
   types:
     - Fighting
   stage: Basic
+  attacks:
+    - name: Keienspervuur
+      cost:
+        - Fighting
+        - Colorless
+      damage: 10×
+      text: Werp een munt op totdat je munt gooit. Deze aanval brengt 10 schade toe
+        maal het aantal keren kop.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

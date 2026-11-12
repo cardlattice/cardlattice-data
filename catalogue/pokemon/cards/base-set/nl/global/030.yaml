@@ -6,6 +6,21 @@ pokemon:
     - Grass
   stage: Stage 1
   evolvesFrom: Bulbasaur
+  attacks:
+    - name: Roede
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Gifpoeder
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "20"
+      text: De Verdedigende Pokémon is nu Vergiftigd.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

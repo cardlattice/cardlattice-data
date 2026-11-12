@@ -6,6 +6,22 @@ pokemon:
     - Lightning
   stage: Stage 1
   evolvesFrom: Voltorb
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Kettingbliksem
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "20"
+      text: Als de Verdedigende Pokémon niet kleurloos is, dan brengt deze aanval 10
+        schade toe aan elke Pokémon op de Bank van hetzelfde type als de
+        Verdedigende Pokémon (inclusief die van jezelf).
+  abilities: []
 rarity: Rare
 finishes:
   - non-holo

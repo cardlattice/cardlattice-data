@@ -6,6 +6,20 @@ pokemon:
     - Psychic
   stage: Stage 1
   evolvesFrom: Slowpoke
+  attacks:
+    - name: Psyshock
+      cost:
+        - Psychic
+        - Psychic
+      damage: "20"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities:
+    - name: Vreemd gedrag
+      kind: Pokémon Power
+      text: Je mag zo vaak je wilt tijdens jouw beurt (vóór je aanval), 1 schadeteller
+        van een van je Pokémon naar Slowbro verplaatsen, zolang je Slowbro maar
+        niet Uitschakelt. Deze kracht kan niet worden gebruikt als Slowbro In
+        Slaap, Verward, of Verlamd is.
 rarity: Uncommon
 finishes:
   - non-holo

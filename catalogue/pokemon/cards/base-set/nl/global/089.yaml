@@ -1,6 +1,11 @@
 name: Opwekking
 pokemon:
   category: trainer
+  rules:
+    - Leg 1 Basis-Pokémon-kaart uit je weggooistapel op je Bank. Leg op die
+      Pokémon schadetellers ter waarde van de helft van zijn IP (naar beneden
+      afgerond naar de dichtstbijzijnde 10). (Je kunt Opwekking niet spelen als
+      je Bank vol is.)
 rarity: Uncommon
 finishes:
   - non-holo

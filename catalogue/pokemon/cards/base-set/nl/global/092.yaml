@@ -1,6 +1,9 @@
 name: Energie Verwijderen
 pokemon:
   category: trainer
+  rules:
+    - Kies 1 Energiekaart die aan 1 van je tegenstanders Pokémon gehecht is en
+      gooi deze weg.
 rarity: Common
 finishes:
   - non-holo

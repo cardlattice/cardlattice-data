@@ -6,6 +6,22 @@ pokemon:
     - Colorless
   stage: Stage 2
   evolvesFrom: Pidgeotto
+  attacks:
+    - name: Vleugelaanval
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Orkaan
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Tenzij deze aanval de Verdedigende Pokémon Uitschakelt, gaan de
+        Verdedigende Pokémon en alle kaarten die eraan gehecht zijn terug naar
+        je tegenstanders hand.
+  abilities: []
 rarity: Rare
 finishes:
   - holo

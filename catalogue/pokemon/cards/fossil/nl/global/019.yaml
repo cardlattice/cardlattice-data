@@ -6,6 +6,21 @@ pokemon:
     - Colorless
   stage: Stage 2
   evolvesFrom: Dragonair
+  attacks:
+    - name: Smijt
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: Werp twee munten op. Deze aanval brengt 40 schade toe maal het aantal
+        keren kop.
+  abilities:
+    - name: Invallen
+      kind: Pokémon Power
+      text: Als Dragonite op jouw Bank is, mag je hem eenmaal tijdens je beurt (vóór
+        je aanval) ruilen met jouw Actieve Pokémon.
 rarity: Rare
 finishes:
   - non-holo

@@ -1,6 +1,12 @@
 name: Devolutie-Spray
 pokemon:
   category: trainer
+  rules:
+    - Kies 1 van je eigen Pokémon die in het spel zijn en een Ontwikkelingsfase.
+      Gooi alle aan die Pokémon gehechte Ontwikkelingskaarten van die fase of
+      hoger weg. Die Pokémon is niet langer In Slaap, Verward, Verlamd,
+      Vergiftigd of iets anders wat het gevolg van een aanval zou kunnen zijn
+      (precies zoals wanneer je hem zou hebben ontwikkeld).
 rarity: Rare
 finishes:
   - non-holo

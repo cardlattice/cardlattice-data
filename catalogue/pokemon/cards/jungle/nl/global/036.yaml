@@ -6,6 +6,24 @@ pokemon:
     - Colorless
   stage: Stage 1
   evolvesFrom: Spearow
+  attacks:
+    - name: Behendigheid
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Werp een munt op. Als het kop is, voorkom dan tijdens je tegenstanders
+        volgende beurt alle effecten van aanvallen, inclusief schade,
+        toegebracht aan Fearow.
+    - name: Drilboor
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

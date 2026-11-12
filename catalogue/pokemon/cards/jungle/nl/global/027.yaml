@@ -5,6 +5,21 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Lijfstraf
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities:
+    - name: Dikhuidig
+      kind: Pokémon Power
+      text: Snorlax kan niet In Slaap gebracht, Verward, Verlamd, of Vergiftigd
+        worden. Deze kracht stopt met werken zo lang Snorlax al In Slaap,
+        Verward, of Verlamd is.
 rarity: Rare
 finishes:
   - non-holo

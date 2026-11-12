@@ -6,6 +6,23 @@ pokemon:
     - Fighting
   stage: Stage 1
   evolvesFrom: Machop
+  attacks:
+    - name: Karateslag
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 50-
+      text: Brengt 50 schade toe min 10 schade voor elke schadeteller op Machoke.
+    - name: Onderwerping
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Machoke brengt zichzelf 20 schade toe.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

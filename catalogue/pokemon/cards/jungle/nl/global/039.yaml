@@ -6,6 +6,23 @@ pokemon:
     - Fighting
   stage: Stage 1
   evolvesFrom: Cubone
+  attacks:
+    - name: Botmerang
+      cost:
+        - Fighting
+        - Fighting
+      damage: 30×
+      text: Werp twee munten op. Deze aanval brengt 30 schade toe maal het aantal
+        keren kop.
+    - name: Roep om een vriend
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      text: Zoek in je deck een Fighting Basis-Pokémon kaart en plaats hem op je Bank.
+        Schud hierna je deck. (Je kunt deze aanval niet gebruiken als je Bank
+        vol is.)
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

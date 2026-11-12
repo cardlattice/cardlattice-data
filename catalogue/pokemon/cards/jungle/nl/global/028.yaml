@@ -6,6 +6,25 @@ pokemon:
     - Water
   stage: Stage 1
   evolvesFrom: Eevee
+  attacks:
+    - name: Snelle Aanval
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Werp een munt op. Als het kop is, brengt deze aanval 10 schade toe plus
+        nog eens 20 schade; als het munt is, brengt deze aanval 10 schade toe.
+    - name: Waterpistool
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 30+
+      text: Brengt 30 schade toe plus nog eens 10 schade voor elke aan Vaporeon
+        gehechte Water Energie die niet wordt gebruikt om de energiekosten van
+        deze aanval te betalen. Je kunt op deze manier niet meer dan 20 schade
+        toevoegen.
+  abilities: []
 rarity: Rare
 finishes:
   - non-holo

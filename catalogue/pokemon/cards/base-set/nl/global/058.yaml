@@ -5,6 +5,18 @@ pokemon:
   types:
     - Lightning
   stage: Basic
+  attacks:
+    - name: Knauw
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Donderstoot
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: Gooi een munt op. Als het munt is, brengt Pikachu zichzelf 10 schade toe.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

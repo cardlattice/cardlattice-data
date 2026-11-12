@@ -1,6 +1,9 @@
 name: Zoeken naar energie
 pokemon:
   category: trainer
+  rules:
+    - Zoek in je deck naar een Basis-Energiekaart en voeg deze toe aan je hand.
+      Schud hierna je deck.
 rarity: Common
 finishes:
   - non-holo

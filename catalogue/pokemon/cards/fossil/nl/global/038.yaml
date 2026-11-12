@@ -6,6 +6,19 @@ pokemon:
     - Water
   stage: Stage 1
   evolvesFrom: Krabby
+  attacks:
+    - name: Spartelen
+      cost:
+        - Water
+      damage: 10×
+      text: Brengt 10 schade toe maal het aantal schadetellers op Kingler.
+    - name: Krabhamer
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "40"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

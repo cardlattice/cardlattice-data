@@ -6,6 +6,19 @@ pokemon:
     - Psychic
   stage: Stage 1
   evolvesFrom: Gastly
+  attacks:
+    - name: Hypnose
+      cost:
+        - Psychic
+      text: De Verdedigende Pokémon is nu In Slaap.
+    - name: Droometer
+      cost:
+        - Psychic
+        - Psychic
+      damage: "50"
+      text: Deze aanval kun je alleen gebruiken als de Verdedigende Pokémon In Slaap
+        is.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

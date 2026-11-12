@@ -1,6 +1,9 @@
 name: Super-Drankje
 pokemon:
   category: trainer
+  rules:
+    - Gooi 1 Energiekaart weg die gehecht is aan 1 van je eigen Pokémon om ten
+      hoogste 4 schadetellers van die Pokémon te kunnen verwijderen.
 rarity: Uncommon
 finishes:
   - non-holo

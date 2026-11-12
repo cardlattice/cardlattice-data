@@ -6,6 +6,19 @@ pokemon:
     - Grass
   stage: Stage 1
   evolvesFrom: Paras
+  attacks:
+    - name: Spoor
+      cost:
+        - Grass
+        - Grass
+      text: De Verdedigende Pokémon is nu In Slaap.
+    - name: Hak
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

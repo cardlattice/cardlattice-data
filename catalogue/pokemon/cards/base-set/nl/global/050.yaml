@@ -5,6 +5,19 @@ pokemon:
   types:
     - Psychic
   stage: Basic
+  attacks:
+    - name: Slaapgas
+      cost:
+        - Psychic
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu In Slaap.
+    - name: Lotverbintenis
+      cost:
+        - Psychic
+        - Colorless
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Gastly gehechte Psychic
+        Energiekaart weggooien. Als een Pokémon Gastly Uitschakelt tijdens je
+        tegenstanders volgende beurt, Schakel dan die Pokémon Uit.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

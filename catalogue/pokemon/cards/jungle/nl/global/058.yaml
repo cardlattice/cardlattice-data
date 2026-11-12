@@ -5,6 +5,20 @@ pokemon:
   types:
     - Grass
   stage: Basic
+  attacks:
+    - name: Verdeelspoor
+      cost:
+        - Grass
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Spruiten
+      cost:
+        - Grass
+        - Grass
+      text: Zoek in je deck een Basis-Pokémon met de naam Oddish en plaats hem op je
+        Bank. Schud hierna je deck. (Je kunt deze aanval niet gebruiken als je
+        Bank vol is.)
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

@@ -5,6 +5,24 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Stomp
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Werp een munt op. Als het kop is, brengt deze aanval 20 schade toe plus
+        nog eens 10 schade; als het munt is, brengt deze aanval 20 schade toe.
+    - name: Dolheid
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Brengt 20 schade toe plus nog eens 10 schade voor elke schadeteller op
+        Tauros. Werp een munt op. Als het munt is, is Tauros nu Verward (na het
+        toebrengen van schade).
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

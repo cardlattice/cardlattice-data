@@ -5,6 +5,18 @@ pokemon:
   types:
     - Fire
   stage: Basic
+  attacks:
+    - name: Verpletterende Schop
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Vlammenstaart
+      cost:
+        - Fire
+        - Fire
+      damage: "30"
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

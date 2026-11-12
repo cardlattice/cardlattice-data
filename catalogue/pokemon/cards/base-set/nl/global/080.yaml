@@ -1,6 +1,11 @@
 name: Verdediger
 pokemon:
   category: trainer
+  rules:
+    - Hecht Verdediger aan 1 van je Pokémon. Gooi Verdediger aan het einde van
+      je tegenstanders volgende beurt weg. De Schade die door aanvallen aan die
+      Pokémon is toegebracht, wordt verminderd met 20 (nadat Zwakte en Weerstand
+      zijn toegepast).
 rarity: Uncommon
 finishes:
   - non-holo

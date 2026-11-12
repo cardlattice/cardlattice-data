@@ -5,7 +5,19 @@ pokemon:
   types:
     - Fighting
   stage: Stage 1
-  evolvesFrom: Mysterious Fossil
+  evolvesFrom: Mysterieus Fossiel
+  attacks:
+    - name: Vleugelaanval
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: Prehistorische kracht
+      kind: Pokémon Power
+      text: Er kunnen geen Ontwikkelingskaarten meer worden gespeeld. Deze kracht
+        stopt met werken zolang Aerodactyl In Slaap, Verward, of Verlamd is.
 rarity: Rare
 finishes:
   - holo

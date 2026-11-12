@@ -5,6 +5,19 @@ pokemon:
   types:
     - Fire
   stage: Basic
+  attacks:
+    - name: Krab
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Sintel
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Charmander gehechte Fire
+        Energiekaart weggooien.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

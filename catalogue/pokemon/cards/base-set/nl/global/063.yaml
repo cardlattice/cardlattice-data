@@ -5,6 +5,20 @@ pokemon:
   types:
     - Water
   stage: Basic
+  attacks:
+    - name: Bubbel
+      cost:
+        - Water
+      damage: "10"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Terugtrekking
+      cost:
+        - Water
+        - Colorless
+      text: Gooi een munt op. Als het kop is, voorkomt dit alle schade die aan
+        Squirtle wordt toegebracht tijdens je tegenstanders volgende beurt.
+        (Alle andere gevolgen van aanvallen blijven gewoon geldig.)
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

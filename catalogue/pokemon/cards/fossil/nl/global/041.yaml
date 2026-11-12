@@ -6,6 +6,20 @@ pokemon:
     - Fighting
   stage: Stage 1
   evolvesFrom: Sandshrew
+  attacks:
+    - name: Hak
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Furieslag
+      cost:
+        - Fighting
+        - Fighting
+      damage: 20×
+      text: Werp 3 munten op. Deze aanval brengt 20 schade toe maal het aantal keren
+        kop.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

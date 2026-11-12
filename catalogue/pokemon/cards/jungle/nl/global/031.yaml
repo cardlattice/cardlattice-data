@@ -6,6 +6,22 @@ pokemon:
     - Grass
   stage: Stage 2
   evolvesFrom: Gloom
+  attacks:
+    - name: Bloemendans
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: 40×
+      text: Werp 3 munten op. Deze aanval brengt 40 schade maal het aantal keren kop
+        toe. Vileplume is nu Verward (na het toebrengen van de schade).
+  abilities:
+    - name: Genezing
+      kind: Pokémon Power
+      text: Eenmaal tijdens je beurt (vóór je aanval), mag je een munt opwerpen. Als
+        het kop is, verwijder dan 1 schadeteller van 1 van jouw Pokémon. Deze
+        kracht kan niet worden gebruikt als Vileplume In Slaap, Verward, of
+        Verlamd is.
 rarity: Rare
 finishes:
   - non-holo

@@ -1,6 +1,9 @@
 name: Pokémon-Centrum
 pokemon:
   category: trainer
+  rules:
+    - Verwijder alle schadetellers van al je eigen Pokémon met schadetellers
+      erop; gooi vervolgens alle aan die Pokémon gehechte Energiekaarten weg.
 rarity: Uncommon
 finishes:
   - non-holo

@@ -5,6 +5,18 @@ pokemon:
   types:
     - Water
   stage: Basic
+  attacks:
+    - name: Supersonisch
+      cost:
+        - Water
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+    - name: In zijn schulp kruipen
+      cost:
+        - Water
+      text: Werp een munt op. Als het kop is, voorkom dan alle schade die tijdens je
+        tegenstanders volgende beurt aan Shellder wordt toegebracht. (Alle
+        andere effecten van aanvallen blijven gewoon geldig.)
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

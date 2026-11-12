@@ -1,6 +1,13 @@
 name: Clefairy Doll
 pokemon:
   category: trainer
+  rules:
+    - Speel Clefairy Doll alsof hij een Basis-Pokémon is. Terwijl hij in het
+      spel is, telt Clefairy Doll als een Pokémon (in plaats van een
+      Trainerkaart). Clefairy Doll heeft geen aanvallen, kan niet terugtrekken,
+      en kan niet In Slaap, Verward, Verlamd of Vergiftigd zijn. Als Clefairy
+      Doll wordt Uitgeschakeld, telt hij niet als een Uitgeschakelde Pokémon. Je
+      mag Clefairy Doll op elk moment tijdens je beurt vóór je aanval weggooien.
 rarity: Rare
 finishes:
   - non-holo

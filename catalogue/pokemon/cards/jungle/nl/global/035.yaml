@@ -6,6 +6,18 @@ pokemon:
     - Grass
   stage: Stage 1
   evolvesFrom: Exeggcute
+  attacks:
+    - name: Teleporteer
+      cost:
+        - Psychic
+      text: Verwissel Exeggutor met 1 van je Pokémon op de Bank.
+    - name: Grote Explosie
+      cost:
+        - Colorless
+      damage: 20×
+      text: Werp een aantal munten op gelijk aan het aantal aan Exeggutor gehechte
+        Energie. Deze aanval brengt 20 schade toe maal het aantal keren kop.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

@@ -5,6 +5,12 @@ pokemon:
   types:
     - Lightning
   stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

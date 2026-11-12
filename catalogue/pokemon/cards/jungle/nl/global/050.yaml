@@ -5,6 +5,22 @@ pokemon:
   types:
     - Fighting
   stage: Basic
+  attacks:
+    - name: Snotteren
+      cost:
+        - Colorless
+      text: Als de Verdedigende Pokémon Cubone aanvalt tijdens je tegenstanders
+        volgende beurt, dan wordt alle door de aanval toegebrachte schade
+        verminderd met 20 (na het toepassen van Zwakte en Weerstand). (Het op de
+        Bank plaatsen van een van beide Pokémon beëindigt dit effect.)
+    - name: Razernij
+      cost:
+        - Fighting
+        - Fighting
+      damage: 10+
+      text: Brengt 10 schade toe plus nog eens 10 schade voor elke schadeteller op
+        Cubone.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

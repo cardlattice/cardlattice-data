@@ -5,6 +5,22 @@ pokemon:
   types:
     - Grass
   stage: Basic
+  attacks:
+    - name: Supersonisch
+      cost:
+        - Colorless
+        - Colorless
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+    - name: Onttrek leven
+      cost:
+        - Grass
+        - Colorless
+      damage: "10"
+      text: Verwijder een aantal schadetellers van Zubat gelijk aan de schade die aan
+        de Verdedigende Pokémon is toegebracht (na het toepassen van Zwakte en
+        Weerstand). Als Zubat minder schadetellers heeft dan dat, verwijder ze
+        dan allemaal.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

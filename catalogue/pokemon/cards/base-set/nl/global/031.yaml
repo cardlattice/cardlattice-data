@@ -5,6 +5,22 @@ pokemon:
   types:
     - Psychic
   stage: Basic
+  attacks:
+    - name: Dubbelslag
+      cost:
+        - Psychic
+      damage: 10×
+      text: Gooi 2 munten op. Deze aanval brengt 10 schade toe maal het aantal keren
+        kop.
+    - name: Mediteer
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: 20+
+      text: Brengt 20 schade toe plus nog eens 10 schade voor elke schadeteller op de
+        Verdedigende Pokémon.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

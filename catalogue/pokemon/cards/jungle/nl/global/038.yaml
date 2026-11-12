@@ -5,6 +5,18 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Tongwikkel
+      cost:
+        - Colorless
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Supersonisch
+      cost:
+        - Colorless
+        - Colorless
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

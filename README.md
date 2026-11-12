@@ -109,9 +109,21 @@ that a particular card is guaranteed in a bundle. Other English sets remain name
 The Dutch catalogue includes all numbered entries in Base Set (102), Jungle (64)
 and Fossil (62), independently transcribed from scans. These records contain
 printed names, categories, rarity where printed, holo/non-holo finish and
-applicable Pokémon HP, types and evolution stages. Basic Energy cards retain the
-printed name `Energie`; their types distinguish them. Most Dutch attacks, rules,
-weaknesses, resistances, retreat costs and illustrator credits remain unfilled.
+applicable Pokémon HP, types and evolution stages. Their 189 Pokémon records now
+contain 317 printed attacks and 32 Pokémon Powers, including Dutch names, effect
+text and ordered attack costs. Both Ditto printings have no printed attacks and
+an explicit empty attack list. All 32 Trainer records include their Dutch rules.
+Basic Energy cards retain the printed name `Energie`; their types distinguish
+them. Weaknesses, resistances, retreat costs and illustrator credits remain
+largely unfilled. Raticate's printed `?` damage is not yet supported by the
+numeric damage field; its Dutch attack text retains the damage calculation.
+
+Printed names and rules follow the Dutch cards, including wording differences
+between holo and non-holo printings. Names such as Alakazam and moves such as
+Tackle remain unchanged where that is what the Dutch card prints. Schema keys
+and enum values (`Psychic`, `Stage 2`, `Rare`, `Pokémon Power`) are shared across
+languages, not translations of printed labels. Energy symbols inside rules text
+are expanded to those same enum names; a written Dutch type name stays Dutch.
 
 Two Dutch Pikachu promo 4 printings are also included, with their distinct attack
 translations: the Netherlands release and the tail-stamped Australian Pikachu

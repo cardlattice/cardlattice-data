@@ -6,6 +6,20 @@ pokemon:
     - Colorless
   stage: Stage 1
   evolvesFrom: Rattata
+  attacks:
+    - name: Beet
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Superklauw
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: De schade die hij toebrengt aan de Verdedigende Pokémon is gelijk aan de
+        helft van de resterende IP van de Verdedigende Pokémon (afgerond naar de
+        dichtstbijzijnde 10).
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

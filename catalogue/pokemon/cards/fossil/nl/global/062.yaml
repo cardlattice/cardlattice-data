@@ -1,6 +1,14 @@
 name: Mysterieus Fossiel
 pokemon:
   category: trainer
+  rules:
+    - Speel Mysterieus Fossiel alsof het een Basis-Pokémon is. Terwijl hij in
+      het spel is, telt Mysterieus Fossiel als een Pokémon (in plaats van een
+      Trainerkaart). Mysterieus Fossiel heeft geen aanvallen, kan niet
+      terugtrekken en kan niet In Slaap, Verward, Verlamd, of Vergiftigd zijn.
+      Als Mysterieus Fossiel wordt Uitgeschakeld, telt hij niet als een
+      Uitgeschakelde Pokémon. (Gooi hem niettemin weg.) Op elk moment tijdens je
+      beurt voor je aanval, mag je Mysterieus Fossiel uit het spel halen.
 rarity: Common
 finishes:
   - non-holo

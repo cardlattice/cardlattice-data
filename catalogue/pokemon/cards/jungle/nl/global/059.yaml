@@ -5,6 +5,18 @@ pokemon:
   types:
     - Grass
   stage: Basic
+  attacks:
+    - name: Krab
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Spoor
+      cost:
+        - Grass
+        - Grass
+      text: De Verdedigende Pokémon is nu In Slaap.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

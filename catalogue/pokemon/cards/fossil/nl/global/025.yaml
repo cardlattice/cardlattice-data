@@ -5,6 +5,22 @@ pokemon:
   types:
     - Water
   stage: Basic
+  attacks:
+    - name: Waterpistool
+      cost:
+        - Water
+      damage: 10+
+      text: Brengt 10 schade toe plus nog eens 10 schade voor elke aan Lapras gehechte
+        Water Energie die niet wordt gebruikt om de energiekosten van deze
+        aanval te betalen. Je kunt op deze manier niet meer dan 20 schade
+        toevoegen.
+    - name: Verwarstraal
+      cost:
+        - Water
+        - Water
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+  abilities: []
 rarity: Rare
 finishes:
   - non-holo

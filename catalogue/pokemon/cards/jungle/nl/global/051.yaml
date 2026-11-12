@@ -5,6 +5,21 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Kwispel
+      cost:
+        - Colorless
+      text: Werp een munt op. Als het kop is, kan de Verdedigende Pokémon Eevee niet
+        aanvallen tijdens je tegenstanders volgende beurt. (Het op de Bank
+        plaatsen van een van beide Pokémon beëindigt dit effect.)
+    - name: Snelle aanval
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Werp een munt op. Als het kop is, brengt deze aanval 10 schade toe plus
+        nog eens 20 schade; als het munt is, brengt deze aanval 10 schade toe.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

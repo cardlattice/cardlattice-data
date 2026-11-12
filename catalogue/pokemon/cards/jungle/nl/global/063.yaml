@@ -5,6 +5,22 @@ pokemon:
   types:
     - Grass
   stage: Basic
+  attacks:
+    - name: Verdeelspoor
+      cost:
+        - Grass
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Onttrek leven
+      cost:
+        - Grass
+        - Colorless
+      damage: "10"
+      text: Verwijder een aantal schadetellers van Venonat gelijk aan de schade
+        toegebracht aan de Verdedigende Pokémon (na het toepassen van Zwakte en
+        Weerstand). Als Venonat minder schadetellers heeft dan dat, verwijder ze
+        dan allemaal.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

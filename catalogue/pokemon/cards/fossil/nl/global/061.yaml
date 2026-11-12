@@ -1,6 +1,9 @@
 name: Kringloop
 pokemon:
   category: trainer
+  rules:
+    - Werp een munt op. Als het kop is, leg dan een kaart van je weggooistapel
+      bovenop je deck.
 rarity: Common
 finishes:
   - non-holo

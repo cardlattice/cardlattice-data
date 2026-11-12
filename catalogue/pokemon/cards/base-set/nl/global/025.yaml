@@ -6,6 +6,22 @@ pokemon:
     - Water
   stage: Stage 1
   evolvesFrom: Seel
+  attacks:
+    - name: Aurorastraal
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "50"
+    - name: IJsstraal
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

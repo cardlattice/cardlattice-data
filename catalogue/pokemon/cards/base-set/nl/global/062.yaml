@@ -5,6 +5,15 @@ pokemon:
   types:
     - Fighting
   stage: Basic
+  attacks:
+    - name: Zandaanval
+      cost:
+        - Fighting
+      damage: "10"
+      text: Als de Verdedigende Pokémon tijdens je tegenstanders volgende beurt
+        probeert aan te vallen, gooit je tegenstander een munt op. Als het munt
+        is, doet die aanval niets.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

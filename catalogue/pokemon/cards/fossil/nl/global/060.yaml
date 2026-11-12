@@ -1,6 +1,9 @@
 name: Gokker
 pokemon:
   category: trainer
+  rules:
+    - Schud je hand door je deck. Werp een munt op. Als het kop is, neem dan 8
+      kaarten. Als het munt is, neem dan 1 kaart.
 rarity: Common
 finishes:
   - non-holo

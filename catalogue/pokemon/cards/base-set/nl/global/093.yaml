@@ -1,6 +1,9 @@
 name: Windvlaag
 pokemon:
   category: trainer
+  rules:
+    - Kies 1 van de Pokémon op de Bank van je tegenstander en verwissel deze met
+      zijn of haar Actieve Pokémon.
 rarity: Common
 finishes:
   - non-holo

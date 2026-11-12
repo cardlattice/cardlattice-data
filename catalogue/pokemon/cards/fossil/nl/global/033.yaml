@@ -5,6 +5,19 @@ pokemon:
   types:
     - Psychic
   stage: Basic
+  attacks:
+    - name: Lik
+      cost:
+        - Psychic
+      damage: "10"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+    - name: Energie-omzetting
+      cost:
+        - Psychic
+        - Psychic
+      text: Neem hoogstens 2 Energiekaarten uit je weggooistapel in je hand. Gastly
+        brengt zichzelf 10 schade toe.
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

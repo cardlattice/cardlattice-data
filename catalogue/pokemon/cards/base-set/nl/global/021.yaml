@@ -6,6 +6,23 @@ pokemon:
     - Lightning
   stage: Stage 1
   evolvesFrom: Voltorb
+  attacks:
+    - name: Elektrische Schok
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "50"
+      text: Gooi een munt op. Als het munt is, brengt Electrode zichzelf 10 schade
+        toe.
+  abilities:
+    - name: Buzzap
+      kind: Pokémon Power
+      text: Je mag wanneer je maar wilt tijdens je beurt (vóór je aanval) Electrode
+        Uitschakelen en hem aan 1 van je andere Pokémon hechten. Als je dit
+        doet, kies dan een type Energie. Electrode is nu een Energiekaart (in
+        plaats van een Pokémon) die 2 energie levert van dat type. Deze kracht
+        kan niet worden gebruikt als Electrode In Slaap, Verward of Verlamd is.
 rarity: Rare
 finishes:
   - non-holo

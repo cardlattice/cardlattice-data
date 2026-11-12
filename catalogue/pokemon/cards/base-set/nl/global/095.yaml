@@ -1,6 +1,8 @@
 name: Verwissel
 pokemon:
   category: trainer
+  rules:
+    - Verwissel 1 van je Pokémon op je Bank met je Actieve Pokémon.
 rarity: Common
 finishes:
   - non-holo

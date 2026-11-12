@@ -5,6 +5,20 @@ pokemon:
   types:
     - Psychic
   stage: Basic
+  attacks:
+    - name: Suffen
+      cost:
+        - Colorless
+      text: Werp een munt op. Als het kop is, verwijder dan een schadeteller van
+        Slowpoke. Deze aanval kan niet worden gebruikt als Slowpoke geen
+        schadetellers heeft.
+    - name: Vuilnis doorzoeken
+      cost:
+        - Psychic
+        - Psychic
+      text: Gooi 1 aan Slowpoke gehechte Psychic Energiekaart weg om deze aanval te
+        kunnen gebruiken. Neem een Trainerkaart van je weggooistapel in je hand.
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

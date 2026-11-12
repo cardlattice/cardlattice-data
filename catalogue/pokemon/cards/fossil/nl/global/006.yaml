@@ -6,6 +6,20 @@ pokemon:
     - Psychic
   stage: Stage 1
   evolvesFrom: Gastly
+  attacks:
+    - name: Nachtmerrie
+      cost:
+        - Psychic
+        - Colorless
+      damage: "10"
+      text: De Verdedigende Pokémon is nu In Slaap.
+  abilities:
+    - name: Transparantie
+      kind: Pokémon Power
+      text: Werp telkens als een aanval iets met Haunter doet een munt op. Als het kop
+        is, voorkom dan alle effecten van die aanval, inclusief schade,
+        toegebracht aan Haunter. Deze kracht stopt met werken zolang Haunter In
+        Slaap, Verward, of Verlamd is.
 rarity: Rare
 finishes:
   - holo

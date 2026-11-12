@@ -6,6 +6,21 @@ pokemon:
     - Water
   stage: Stage 1
   evolvesFrom: Squirtle
+  attacks:
+    - name: Terugtrekking
+      cost:
+        - Water
+        - Colorless
+      text: Gooi een munt op. Als het kop is, voorkomt dit alle schade die aan
+        Wartortle wordt toegebracht tijdens je tegenstanders volgende beurt.
+        (Alle andere gevolgen van aanvallen blijven gewoon geldig.)
+    - name: Beet
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
 rarity: Uncommon
 finishes:
   - non-holo

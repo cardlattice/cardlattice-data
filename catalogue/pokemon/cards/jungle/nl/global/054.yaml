@@ -5,6 +5,17 @@ pokemon:
   types:
     - Colorless
   stage: Basic
+  attacks:
+    - name: Slaapliedje
+      cost:
+        - Colorless
+      text: De Verdedigende Pokémon is nu In Slaap.
+    - name: Stamp
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
 rarity: Common
 finishes:
   - non-holo

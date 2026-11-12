@@ -1,6 +1,8 @@
 name: Volledige Genezing
 pokemon:
   category: trainer
+  rules:
+    - Je Actieve Pokémon is niet langer In Slaap, Verward, Verlamd of Vergiftigd.
 rarity: Uncommon
 finishes:
   - non-holo
