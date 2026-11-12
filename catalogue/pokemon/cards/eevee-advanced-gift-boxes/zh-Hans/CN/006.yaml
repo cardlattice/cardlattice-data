@@ -1,0 +1,36 @@
+name: 水伊布VMAX
+illustrators:
+  - Atsushi Furusawa
+products:
+  - pokemon-product-eevee-advanced-vaporeon-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  evolvesFrom: 水伊布V
+  subtypes:
+    - VMAX
+    - Dynamax
+    - Rapid Strike
+  attacks:
+    - name: 泡沫舱
+      cost:
+        - Colorless
+      text: 选择自己弃牌区中的1张{Water}宝可梦，放于备战区。然后，选择自己弃牌区中最多3张{Water}能量，附着于该宝可梦身上。
+    - name: 极巨激流
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 如果对手的战斗宝可梦身上放置有伤害指示物的话，则追加造成100点伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

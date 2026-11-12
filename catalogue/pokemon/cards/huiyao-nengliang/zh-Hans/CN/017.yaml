@@ -1,0 +1,30 @@
+name: 皮卡丘VMAX
+illustrators:
+  - Souichirou Gunjima
+regulationMark: D
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Lightning
+  stage: VMAX
+  evolvesFrom: 皮卡丘V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 超极巨伏特攻击
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: 120+
+      text: 若希望，可将附着于这只宝可梦身上的能量，全部放于弃牌区。在这种情况下，追加造成150点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

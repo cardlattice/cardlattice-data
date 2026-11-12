@@ -1,0 +1,33 @@
+name: 焚焰蚣V
+illustrators:
+  - Yuya Oka
+regulationMark: D
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 高热放射
+      cost:
+        - Fire
+      damage: "20"
+      text: 若希望，可选择附着于这只宝可梦身上的1个能量，放于弃牌区。在这种情况下，选择附着于对手战斗宝可梦身上的1个能量，放于弃牌区。
+    - name: 燃烧列车
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "180"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

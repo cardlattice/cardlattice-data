@@ -1,0 +1,13 @@
+name: 交错切换机
+rarity: U
+illustrators:
+  - inose yukie
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Fusion Strike
+  rules:
+    - 「交错切换机」必须同时使用2张。（这个效果，2张卡牌只发动1次。）
+    - 选择对手的1只备战宝可梦，将其与战斗宝可梦互换。然后，将自己的战斗宝可梦与备战宝可梦互换。
+    - 在自己的回合可以使用任意张物品卡。

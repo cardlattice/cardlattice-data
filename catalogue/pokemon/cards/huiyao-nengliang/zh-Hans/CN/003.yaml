@@ -1,0 +1,28 @@
+name: 大舌头
+illustrators:
+  - KIYOTAKA OSHIYAMA
+regulationMark: F
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  nationalDex:
+    - 108
+  species: 舔舔宝可梦
+  heightMetres: 1.2
+  weightKilograms: 65.5
+  flavourText: 据说如果碰到了它黏糊糊的唾液却放任不管的话，就会变得奇痒无比，停不下来。
+  attacks:
+    - name: 口水
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4

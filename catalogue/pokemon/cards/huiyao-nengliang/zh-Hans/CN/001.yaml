@@ -1,0 +1,29 @@
+name: 鸭宝宝
+illustrators:
+  - Yuka Morii
+regulationMark: F
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 580
+  species: 水鸟宝可梦
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  flavourText: 比起飞行，更擅长游泳。会潜入水中，开心地吃非常喜欢的水青苔。
+  attacks:
+    - name: 泼水
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

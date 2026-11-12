@@ -1,0 +1,32 @@
+name: 以欧路普V
+illustrators:
+  - Nisota Niso
+regulationMark: D
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 折返瞬击
+      cost:
+        - Grass
+      damage: "20"
+      text: 若希望，可将这只宝可梦与备战宝可梦互换。
+    - name: 神秘波
+      cost:
+        - Grass
+        - Colorless
+      damage: 50+
+      text: 追加造成对手战斗宝可梦身上附有的能量数量×30点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

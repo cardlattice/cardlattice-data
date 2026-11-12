@@ -1,0 +1,33 @@
+name: 火神蛾V
+rarity: RR
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 翻卷火焰
+      cost:
+        - Fire
+      damage: 20+
+      text: 将自己弃牌区中的所有基本能量给对手查看，追加造成其张数×20点伤害。然后，将给对手查看过的能量放回牌库并重洗牌库。
+    - name: 大字爆炎
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "160"
+      text: 选择附着于这只宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

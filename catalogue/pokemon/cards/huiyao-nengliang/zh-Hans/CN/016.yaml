@@ -1,0 +1,32 @@
+name: 皮卡丘V
+illustrators:
+  - Ryota Murayama
+regulationMark: D
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 充电
+      cost:
+        - Lightning
+      text: 选择自己牌库中最多2张{Lightning}能量，附着于这只宝可梦身上。并重洗牌库。
+    - name: 十万伏特
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "200"
+      text: 将附着于这只宝可梦身上的能量，全部放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

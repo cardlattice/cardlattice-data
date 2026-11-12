@@ -1,0 +1,32 @@
+name: 火伊布VMAX
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-advanced-flareon-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Fire
+  stage: VMAX
+  evolvesFrom: 火伊布V
+  subtypes:
+    - VMAX
+    - Dynamax
+    - Single Strike
+  attacks:
+    - name: 极巨爆裂
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 100×
+      text: 将自己牌库上方5张卡牌放于弃牌区，造成其中能量的张数×100点伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

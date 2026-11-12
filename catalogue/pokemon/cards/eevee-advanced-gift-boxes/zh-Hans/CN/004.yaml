@@ -1,0 +1,34 @@
+name: 水伊布V
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-advanced-vaporeon-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 三重抽取
+      cost:
+        - Colorless
+      text: 从自己的牌库上方抽取3张卡牌。
+    - name: 飞溅跳跃
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "90"
+      text: 将这只宝可梦与备战宝可梦互换。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

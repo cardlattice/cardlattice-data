@@ -1,0 +1,36 @@
+name: 代欧奇希斯
+rarity: R
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+    - Single Strike
+    - Rapid Strike
+  nationalDex:
+    - 386
+  species: DNA宝可梦
+  heightMetres: 1.7
+  weightKilograms: 60.8
+  flavourText: 宇宙病毒发生突变后变成了宝可梦。出现在极光的附近。
+  attacks:
+    - name: 光子突进
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 如果这只宝可梦身上附有「汇流能量」的话，则追加造成80点伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

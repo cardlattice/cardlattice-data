@@ -1,0 +1,33 @@
+name: 千面避役VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  evolvesFrom: 千面避役V
+  subtypes:
+    - VMAX
+    - Gigantamax
+    - Rapid Strike
+  attacks:
+    - name: 超极巨漩涡翻滚
+      cost:
+        - Water
+        - Colorless
+      damage: 70+
+      text: 若希望，可选择附着于这只宝可梦身上的1个能量，放回手牌。在这种情况下，追加造成70点伤害。
+  abilities:
+    - name: 双重射手
+      kind: Ability
+      text: 在自己的回合，如果从自己的手牌将1张{Water}能量放于弃牌区的话，则可使用1次。给对手的2只备战宝可梦身上，各放置2个伤害指示物。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

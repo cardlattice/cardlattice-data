@@ -1,0 +1,33 @@
+name: 花舞鸟
+rarity: U
+illustrators:
+  - Oswaldo KATO
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 741
+  species: 舞蹈宝可梦
+  heightMetres: 0.6
+  weightKilograms: 3.4
+  flavourText: 吸食了朱红色花蜜的花舞鸟。训练家弄错指示的话就会非常生气。是情感变化非常剧烈的家伙。
+  attacks:
+    - name: 热情水滴
+      cost:
+        - Fire
+        - Colorless
+      text: 将5个伤害指示物，以任意方式放置于对手的宝可梦身上。
+  abilities:
+    - name: 热血课程
+      kind: Ability
+      text: 只要这只宝可梦在场上，自己所有的「汇流」宝可梦，受到对手宝可梦的招式的伤害「-20」。这个效果，无论拥有这个特性的宝可梦有多少只，都不会叠加。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1

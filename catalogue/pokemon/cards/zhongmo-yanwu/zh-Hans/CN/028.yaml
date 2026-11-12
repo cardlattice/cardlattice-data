@@ -1,0 +1,33 @@
+name: 霜奶仙
+rarity: U
+illustrators:
+  - sowsow
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 小仙奶
+  nationalDex:
+    - 869
+  species: 鲜奶油宝可梦
+  heightMetres: 0.3
+  weightKilograms: 0.5
+  flavourText: 当它感到幸福的时候，手中产生出的鲜奶油会变得更加香浓甜美。
+  attacks:
+    - name: 彩虹风味
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 追加造成附着于自己场上宝可梦身上的基本能量的属性种类数量×40点伤害。
+  abilities:
+    - name: 追加点单
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，即使自己使用了「老板」，自己的回合也不会结束。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
