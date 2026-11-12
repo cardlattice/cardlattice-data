@@ -1,0 +1,43 @@
+name: 太阳伊布GX
+releaseDate: 2023-01-13
+regulationMark: A
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 伊布
+  attacks:
+    - name: 幻象光线
+      cost:
+        - Psychic
+      damage: "30"
+      text: 使对手的战斗宝可梦陷入混乱状态。
+    - name: 精神强念
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 追加造成对手战斗宝可梦身上附有的能量数量×30点伤害。
+    - name: 分配GX
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      text: 将10个伤害指示物，以任意方式放置于对手的宝可梦身上。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-gx-espeon

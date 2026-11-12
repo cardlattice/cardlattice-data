@@ -1,0 +1,28 @@
+name: 科斯莫古
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 集尘
+      cost:
+        - Colorless
+      text: 从自己的牌库上方抽取1张卡牌。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 789
+  species: 星云宝可梦
+  heightMetres: 0.2
+  weightKilograms: 0.1
+  flavourText: 容易消逝的气体状身体。一边收集大气的尘埃，一边慢慢地成长着。
+illustrators:
+  - Megumi Mizutani
+rarity: C
+regulationMark: A

@@ -1,0 +1,29 @@
+name: 科斯莫姆
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 科斯莫古
+  attacks:
+    - name: 稍事休息
+      cost:
+        - Colorless
+      text: 回复这只宝可梦「20」点HP。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 790
+  species: 原始星宝可梦
+  heightMetres: 0.1
+  weightKilograms: 999.9
+  flavourText: 在坚硬外壳内，有什么在源源不断地向黑色核心聚集着。据说是来自其他世界的宝可梦。
+illustrators:
+  - Kouki Saitou
+rarity: C
+regulationMark: A

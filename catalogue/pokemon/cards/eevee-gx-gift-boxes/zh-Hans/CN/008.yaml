@@ -1,0 +1,40 @@
+name: 伊布GX
+regulationMark: C
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 突进冲刺
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+    - name: 幸福制造者GX
+      cost:
+        - Colorless
+      text: 将自己弃牌区中的任意3张卡牌，在给对手看过之后，加入手牌。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 觉醒因子
+      kind: Ability
+      text: 这只宝可梦，在自己的回合，可以从手牌使出从「伊布」进化而来的卡牌，放于其身上进行进化（在自己最初的回合，以及这只宝可梦刚出场的回合除外）。在进化前，将这只宝可梦的HP，全部回复。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - Q-rais
+products:
+  - pokemon-product-eevee-gx-leafeon
+  - pokemon-product-eevee-gx-glaceon
+  - pokemon-product-eevee-gx-espeon
+  - pokemon-product-eevee-gx-umbreon
+  - pokemon-product-eevee-gx-sylveon

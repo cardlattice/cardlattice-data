@@ -1,0 +1,12 @@
+name: 莉莉艾
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 从牌库上方抽取卡牌，直到自己的手牌变为6张为止。如果是最初的自己的回合使用的话，则直到手牌数量变为8张。
+    - 在自己的回合只可以使用1张支援者卡。
+finishes:
+  - holo
+illustrators:
+  - Naoki Saito

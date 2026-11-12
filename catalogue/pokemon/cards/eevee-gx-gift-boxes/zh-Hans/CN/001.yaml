@@ -1,0 +1,38 @@
+name: 叶伊布GX
+releaseDate: 2023-01-11
+regulationMark: B
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: 伊布
+  attacks:
+    - name: 日光束
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "110"
+    - name: 绚丽绽放GX
+      cost:
+        - Grass
+      text: 从自己的牌库中选择从自己备战区的所有基础宝可梦进化而来的卡牌各1张，分别放于各只宝可梦身上进行进化。并重洗牌库。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 绿叶之息
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。回复自己的身上附有能量的1只宝可梦「50」点HP。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-gx-leafeon

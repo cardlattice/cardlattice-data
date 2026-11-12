@@ -1,0 +1,42 @@
+name: 仙子伊布GX
+regulationMark: A
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fairy
+  stage: Stage 1
+  evolvesFrom: 伊布
+  attacks:
+    - name: 魔法缎带
+      cost:
+        - Fairy
+      text: 将自己牌库中任意卡牌最多3张，加入手牌。并重洗牌库。
+    - name: 妖精之风
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "110"
+    - name: 祈福禳灾GX
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      text: 将对手2只备战宝可梦，以及放于其身上的所有卡牌，放回对手的手牌。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-gx-sylveon

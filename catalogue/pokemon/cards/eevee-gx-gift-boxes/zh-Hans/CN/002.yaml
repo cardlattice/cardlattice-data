@@ -1,0 +1,42 @@
+name: 冰伊布GX
+releaseDate: 2023-01-11
+regulationMark: B
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 伊布
+  attacks:
+    - name: 冰霜子弹
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 给对手的1只备战宝可梦，也造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 极地长矛GX
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 造成放置于对手战斗宝可梦身上的伤害指示物数量×50点伤害。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 冻结之瞳
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，就将对手场上、手牌中、弃牌区中的所有「宝可梦GX・EX」的特性（除「冻结之瞳」外），全部消除。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-gx-glaceon
