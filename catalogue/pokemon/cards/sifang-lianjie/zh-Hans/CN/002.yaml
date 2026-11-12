@@ -1,0 +1,26 @@
+name: 甲贺忍蛙V-UNION
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  types:
+    - Water
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  hp: 300
+  attacks:
+    - name: 水流利刃
+      cost:
+        - Water
+      damage: "130"
+  abilities:
+    - name: 忍之身躯
+      kind: Ability
+      text: 这只宝可梦，当对手从手牌使出物品时，不受其效果影响。
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种甲贺忍蛙V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-greninja-v-union-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-greninja-v-union-zh-hans-cn

@@ -1,0 +1,31 @@
+name: 烈空坐VMAX
+rarity: RRR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Dragon
+  stage: VMAX
+  evolvesFrom: 烈空坐V
+  subtypes:
+    - VMAX
+    - Dynamax
+    - Rapid Strike
+  attacks:
+    - name: 极巨爆破
+      cost:
+        - Fire
+        - Lightning
+      damage: 20+
+      text: 将附着于这只宝可梦身上的{Fire}或{Lightning}属性中的1种属性的任意数量的基本能量放于弃牌区，追加造成其张数×80点伤害。
+  abilities:
+    - name: 苍空波动
+      kind: Ability
+      text: 在自己的回合可以使用1次。将自己的手牌全部放于弃牌区，从牌库上方抽取3张卡牌。
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

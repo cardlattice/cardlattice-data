@@ -1,0 +1,11 @@
+name: 掉包杯
+rarity: U
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 选择自己的1张手牌，将其与牌库上方的卡牌互换。
+    - 在自己的回合可以使用任意张物品卡。

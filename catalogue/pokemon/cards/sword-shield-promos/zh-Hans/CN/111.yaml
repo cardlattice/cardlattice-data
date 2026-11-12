@@ -1,0 +1,29 @@
+name: 皮卡丘V-UNION
+collectorNumber: 111/S-P
+releaseDate: 2024-01-19
+regulationMark: E
+pokemon:
+  category: pokemon
+  types:
+    - Lightning
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  attacks:
+    - name: 电磁干扰
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "150"
+      text: 在下一个对手的回合，对手无法从手牌使出物品。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种皮卡丘V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-pikachu-gathering-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-pikachu-v-union-zh-hans-cn

@@ -1,0 +1,38 @@
+name: 多龙巴鲁托
+rarity: R
+illustrators:
+  - Souichirou Gunjima
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 多龙奇
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 887
+  species: 隐形宝可梦
+  heightMetres: 3
+  weightKilograms: 50
+  flavourText: 它角里的多龙梅西亚似乎满心期待着能被以音速发射出去。
+  attacks:
+    - name: 汇流突袭
+      cost:
+        - Psychic
+      damage: 30×
+      text: 造成自己场上「汇流」宝可梦数量×30点伤害。
+    - name: 高速攻击
+      cost:
+        - Psychic
+        - Colorless
+      damage: "120"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0

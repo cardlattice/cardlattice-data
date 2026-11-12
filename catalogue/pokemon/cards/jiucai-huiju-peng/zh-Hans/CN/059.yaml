@@ -1,0 +1,35 @@
+name: 太阳伊布VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Psychic
+  stage: VMAX
+  evolvesFrom: 太阳伊布V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨超能
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 60×
+      text: 造成对手场上宝可梦身上附有的能量数量×60点伤害。
+  abilities:
+    - name: 太阳启示
+      kind: Ability
+      text: 只要这只宝可梦在场上，身上附有能量的自己所有的宝可梦，不会受到对手宝可梦使用的招式的效果影响。（已经受到的效果，不会消失。）
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

@@ -1,0 +1,34 @@
+name: 梦幻V
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - V
+    - Fusion Strike
+  attacks:
+    - name: 能量混合
+      cost:
+        - Psychic
+      text: 选择自己牌库中的1张能量，附着于自己的「汇流」宝可梦身上。并重洗牌库。
+    - name: 精神跳跃
+      cost:
+        - Psychic
+        - Colorless
+      damage: "70"
+      text: 若希望，可将这只宝可梦，以及放于其身上的所有卡牌，放回自己的牌库并重洗牌库。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

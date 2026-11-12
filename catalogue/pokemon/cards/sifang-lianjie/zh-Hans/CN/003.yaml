@@ -1,0 +1,31 @@
+name: 甲贺忍蛙V-UNION
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  types:
+    - Water
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  attacks:
+    - name: 龙卷手里剑
+      cost:
+        - Water
+        - Water
+        - Colorless
+      text: 给对手的所有备战宝可梦，各造成100点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 解毒术
+      kind: Ability
+      text: 这只宝可梦不会陷入中毒状态。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种甲贺忍蛙V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-greninja-v-union-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-greninja-v-union-zh-hans-cn

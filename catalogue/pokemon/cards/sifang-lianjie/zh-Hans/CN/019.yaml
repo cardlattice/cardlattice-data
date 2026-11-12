@@ -1,0 +1,28 @@
+name: 莫鲁贝可V-UNION
+illustrators:
+  - Yuu Nishida
+pokemon:
+  category: pokemon
+  types:
+    - Lightning
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  attacks:
+    - name: 爆破轮
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 100×
+      text: 将附着于这只宝可梦身上的能量全部放于弃牌区。造成其张数×100点伤害。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种莫鲁贝可V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-morpeko-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-morpeko-v-union-017-020-zh-hans-cn

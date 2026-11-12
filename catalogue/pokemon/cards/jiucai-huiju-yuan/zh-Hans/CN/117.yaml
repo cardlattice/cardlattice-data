@@ -1,0 +1,13 @@
+name: 交错收发机
+rarity: U
+illustrators:
+  - Studio Bora Inc.
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Fusion Strike
+  rules:
+    - 「交错收发机」必须同时使用2张。（这个效果，2张卡牌只发动1次。）
+    - 选择自己弃牌区中的1张宝可梦或支援者，在给对手看过之后，加入手牌。
+    - 在自己的回合可以使用任意张物品卡。

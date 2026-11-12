@@ -1,0 +1,34 @@
+name: 盖诺赛克特V
+rarity: RR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+    - Fusion Strike
+  attacks:
+    - name: 高科技光炮
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "210"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+  abilities:
+    - name: 汇流系统
+      kind: Ability
+      text: 在自己的回合可以使用1次。从自己的牌库上方抽取卡牌，直到自己的手牌张数与自己场上的「汇流」宝可梦的数量相同为止。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

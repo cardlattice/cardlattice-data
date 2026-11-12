@@ -1,0 +1,12 @@
+name: 希嘉娜的决心
+rarity: SR
+illustrators:
+  - Taira Akitsu
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，只有将自己的2张手牌放于弃牌区后才可使用。
+    - 从自己的牌库上方抽取与对手场上宝可梦数量相同张数的卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

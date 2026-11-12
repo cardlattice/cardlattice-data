@@ -1,0 +1,37 @@
+name: 梦幻VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Psychic
+  stage: VMAX
+  evolvesFrom: 梦幻V
+  subtypes:
+    - VMAX
+    - Dynamax
+    - Fusion Strike
+  attacks:
+    - name: 交错汇流
+      cost:
+        - Colorless
+        - Colorless
+      text: 选择自己备战区的「汇流」宝可梦所拥有的1个招式，作为这个招式使用。
+    - name: 极巨奇迹
+      cost:
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: 这个招式的伤害，不计算对手的战斗宝可梦身上所附加的效果。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

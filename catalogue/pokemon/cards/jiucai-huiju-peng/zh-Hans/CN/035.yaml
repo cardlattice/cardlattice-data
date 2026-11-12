@@ -1,0 +1,33 @@
+name: 冰伊布VMAX
+rarity: RRR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Water
+  stage: VMAX
+  evolvesFrom: 冰伊布V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨冰柱
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 给对手的1只备战宝可梦，也造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 水晶之幕
+      kind: Ability
+      text: 这只宝可梦，不会受到对手「宝可梦VMAX」（除「冰伊布VMAX」外）的招式的伤害。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

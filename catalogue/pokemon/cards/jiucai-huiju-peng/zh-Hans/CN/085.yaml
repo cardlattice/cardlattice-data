@@ -1,0 +1,33 @@
+name: 月亮伊布VMAX
+rarity: RRR
+illustrators:
+  - AKIRA EGAWA
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Darkness
+  stage: VMAX
+  evolvesFrom: 月亮伊布V
+  subtypes:
+    - VMAX
+    - Dynamax
+    - Single Strike
+  attacks:
+    - name: 极巨恶霸
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "160"
+  abilities:
+    - name: 黑暗信号
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出并进行进化时，可使用1次。选择对手的1只备战宝可梦，将其与战斗宝可梦互换。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

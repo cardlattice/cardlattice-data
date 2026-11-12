@@ -1,0 +1,36 @@
+name: 长毛巨魔
+rarity: R
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: 诈唬魔
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 861
+  species: 健美宝可梦
+  heightMetres: 1.5
+  weightKilograms: 61
+  flavourText: 毛发能发挥肌肉纤维般的作用。伸展开来时会像触手那样把对手缠绕起来。
+  attacks:
+    - name: 咬住
+      cost:
+        - Darkness
+      damage: "60"
+    - name: 殿后攻击
+      cost:
+        - Darkness
+        - Darkness
+      damage: 100+
+      text: 如果自己的备战宝可梦的数量在2只以下（包含2只）的话，则追加造成140点伤害。
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3

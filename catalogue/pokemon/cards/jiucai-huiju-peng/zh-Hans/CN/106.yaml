@@ -1,0 +1,32 @@
+name: 铝钢龙V
+rarity: RR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - V
+    - Single Strike
+  attacks:
+    - name: 金属爪
+      cost:
+        - Fighting
+        - Metal
+      damage: "70"
+    - name: 广域破坏
+      cost:
+        - Fighting
+        - Metal
+        - Metal
+      damage: "140"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦所使用的招式的伤害「-30」。
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

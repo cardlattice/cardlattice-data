@@ -1,0 +1,32 @@
+name: 铝钢龙VMAX
+rarity: CSR
+illustrators:
+  - AKIRA EGAWA
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Dragon
+  stage: VMAX
+  evolvesFrom: 铝钢龙V
+  subtypes:
+    - VMAX
+    - Gigantamax
+    - Single Strike
+  attacks:
+    - name: 超极巨粉身碎骨
+      cost:
+        - Fighting
+        - Metal
+        - Metal
+      damage: "220"
+      text: 这个招式的伤害，不计算对手的战斗宝可梦身上所附加的效果。
+  abilities:
+    - name: 摩天楼
+      kind: Ability
+      text: 这只宝可梦，不会受到身上附有特殊能量的对手宝可梦的招式的伤害。
+  weaknesses: []
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。
