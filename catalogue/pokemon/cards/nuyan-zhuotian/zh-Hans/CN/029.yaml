@@ -1,0 +1,35 @@
+name: 雷鸟龙VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Lightning
+  stage: VMAX
+  evolvesFrom: 雷鸟龙V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 陷阱电光
+      cost:
+        - Lightning
+      damage: "60"
+      text: 在下一个对手的回合，当这只宝可梦受到招式的伤害时，将12个伤害指示物放置于使用了招式的宝可梦身上。
+    - name: 极巨震撼
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

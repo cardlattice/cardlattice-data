@@ -1,0 +1,34 @@
+name: 千面避役
+rarity: R
+illustrators:
+  - NC Empire
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: 变涩蜥
+  subtypes:
+    - Rapid Strike
+  nationalDex:
+    - 818
+  species: 特工宝可梦
+  heightMetres: 1.9
+  weightKilograms: 45.2
+  flavourText: 能从指尖射出速度高达3马赫的水枪。它的瞬膜能帮助它看穿敌人的弱点，准确地击中要害。
+  attacks:
+    - name: 攀瀑
+      cost:
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 快捷射手
+      kind: Ability
+      text: 在自己的回合可以使用1次。给对手的1只宝可梦身上，放置2个伤害指示物。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

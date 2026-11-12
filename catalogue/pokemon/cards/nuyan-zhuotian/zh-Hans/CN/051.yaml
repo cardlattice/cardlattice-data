@@ -1,0 +1,33 @@
+name: 飘浮泡泡
+rarity: C
+illustrators:
+  - Asako Ito
+pokemon:
+  category: pokemon
+  hp: 70
+  stage: Basic
+  nationalDex:
+    - 351
+  species: 天气宝可梦
+  heightMetres: 0.3
+  weightKilograms: 0.8
+  abilities:
+    - name: 预测天气
+      kind: Ability
+      text: 如果自己的弃牌区中有8张以上（包含8张）「竞技场」的话，则这只宝可梦使用招式所需能量，全部消除。
+  resistances: []
+  retreatCost: 0
+  types:
+    - Colorless
+  flavourText: 样子会根据天气发生变化。天气越恶劣，性格也会变得越暴躁。
+  attacks:
+    - name: 气象之力
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 从牌库上方抽取卡牌，直到自己的手牌变为6张为止。
+  weaknesses:
+    - type: Fighting
+      value: ×2

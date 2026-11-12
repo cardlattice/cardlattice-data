@@ -1,0 +1,31 @@
+name: 好啦鱿
+rarity: C
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - Rapid Strike
+  nationalDex:
+    - 686
+  species: 回转宝可梦
+  heightMetres: 0.4
+  weightKilograms: 3.5
+  flavourText: 会让敌人看到自己闪烁的发光体来让对方丧失战意，然后趁机逃之夭夭。
+  attacks:
+    - name: 回转攻击
+      cost:
+        - Psychic
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

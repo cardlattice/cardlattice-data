@@ -1,0 +1,35 @@
+name: 大针蜂
+rarity: R
+illustrators:
+  - Misa Tsutsui
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: 铁壳蛹
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 15
+  species: 毒蜂宝可梦
+  heightMetres: 1
+  weightKilograms: 29.5
+  flavourText: 有时会成群结队地出现。能以超快的速度飞来飞去，并用尾部的毒针不断刺击对手。
+  attacks:
+    - name: 一点针刺
+      cost:
+        - Grass
+      text: 如果对手的战斗宝可梦身上附有特殊能量的话，则使该宝可梦昏厥。
+    - name: 喷射长矛
+      cost:
+        - Grass
+      damage: "110"
+      text: 选择附着于这只宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

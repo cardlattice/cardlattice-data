@@ -1,0 +1,11 @@
+name: 通顶雪道
+rarity: U
+illustrators:
+  - Oswaldo KATO
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 将双方场上「拥有规则的宝可梦」的特性，全部消除。
+    - 在自己的回合只可以将1张竞技场卡放到战斗区旁。如果有别的名称的竞技场卡被放入场上，则将此卡放入弃牌区。

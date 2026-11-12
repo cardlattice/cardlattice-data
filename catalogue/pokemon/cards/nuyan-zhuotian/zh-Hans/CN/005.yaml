@@ -1,0 +1,31 @@
+name: 音箱蟀V
+rarity: RR
+illustrators:
+  - Satoshi Shirai
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 十字剪
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 抛掷1次硬币如果为正面，则追加造成80点伤害。
+  abilities:
+    - name: 振奋舞台
+      kind: Ability
+      text: 在自己的回合可以使用1次。从牌库上方抽取卡牌，直到自己的手牌变为3张为止。如果这只宝可梦在战斗场上的话，则直到自己的手牌变为4张为止。在这个回合，如果已经使用了其他的「振奋舞台」的话，则无法使用这个特性。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

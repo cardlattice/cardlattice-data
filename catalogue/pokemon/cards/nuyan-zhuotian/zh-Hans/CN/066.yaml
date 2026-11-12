@@ -1,0 +1,11 @@
+name: 幸运能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Colorless
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就被视作1个{Colorless}能量。
+    - 身上附有这张卡牌的宝可梦，在战斗场上受到对手宝可梦的招式的伤害时，从自己的牌库上方抽取1张卡牌。

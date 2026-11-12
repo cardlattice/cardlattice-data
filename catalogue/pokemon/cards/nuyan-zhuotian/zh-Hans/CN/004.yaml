@@ -1,0 +1,32 @@
+name: 时拉比
+rarity: C
+illustrators:
+  - Yuu Nishida
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  nationalDex:
+    - 251
+  species: 时空穿越宝可梦
+  heightMetres: 0.6
+  weightKilograms: 5
+  flavourText: 能够使用穿越时光的力量。据说只会在和平时代出现。
+  attacks:
+    - name: 绿叶舞步
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities:
+    - name: 森林信步
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。查看自己牌库上方6张卡牌，选择其中1张能量，在给对手看过之后，加入手牌。将剩余的卡牌放回牌库并重洗牌库。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

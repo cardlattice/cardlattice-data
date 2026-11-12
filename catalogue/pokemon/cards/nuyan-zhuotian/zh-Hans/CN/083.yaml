@@ -1,0 +1,33 @@
+name: 比克提尼VMAX
+rarity: HR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Fire
+  stage: VMAX
+  evolvesFrom: 比克提尼V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 蔓延之火
+      cost:
+        - Colorless
+      text: 选择自己弃牌区中最多3张{Fire}能量，以任意方式附着于自己的宝可梦身上。
+    - name: 极巨创胜
+      cost:
+        - Fire
+        - Colorless
+      damage: 100+
+      text: 如果对手的战斗宝可梦是「宝可梦V」的话，则追加造成120点伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

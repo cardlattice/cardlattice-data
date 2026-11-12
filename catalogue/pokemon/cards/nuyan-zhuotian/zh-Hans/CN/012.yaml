@@ -1,0 +1,36 @@
+name: 炎武王
+rarity: R
+illustrators:
+  - Anesaki Dynamic
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: 炒炒猪
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 500
+  species: 大火猪宝可梦
+  heightMetres: 1.6
+  weightKilograms: 150
+  flavourText: 一直蓄着火焰的胡须。身怀兼具力量与速度的格斗招式。
+  attacks:
+    - name: 高温重压
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: 斗魂之姿
+      kind: Ability
+      text: 只要这只宝可梦在场上，自己的「一击」宝可梦使用的招式，给对手的战斗宝可梦造成的伤害「+30」。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4

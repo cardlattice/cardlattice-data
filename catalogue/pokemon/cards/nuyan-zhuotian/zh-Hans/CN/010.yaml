@@ -1,0 +1,36 @@
+name: 暖暖猪
+rarity: C
+illustrators:
+  - You Iribi
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 498
+  species: 火猪宝可梦
+  heightMetres: 0.5
+  weightKilograms: 9.9
+  flavourText: 非常喜欢吃烤过的树果，但因为太兴奋而时常烤得焦黑。
+  attacks:
+    - name: 冲撞
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: 烈焰
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2

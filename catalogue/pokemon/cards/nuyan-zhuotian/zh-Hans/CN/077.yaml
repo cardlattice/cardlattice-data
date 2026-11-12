@@ -1,0 +1,31 @@
+name: 伽勒尔火焰鸟V
+rarity: SR
+illustrators:
+  - Shibuzoh.
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Darkness
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 气场燃烧
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "190"
+      text: 给这只宝可梦也造成30点伤害。
+  abilities:
+    - name: 邪焰之翼
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己弃牌区中的1张{Darkness}能量，附着于这只宝可梦身上。在这个回合，如果已经使用了其他的「邪焰之翼」的话，则无法使用这个特性。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,33 @@
+name: 飘浮泡泡 太阳的样子
+rarity: C
+illustrators:
+  - Yuka Morii
+pokemon:
+  category: pokemon
+  hp: 70
+  stage: Basic
+  nationalDex:
+    - 351
+  species: 天气宝可梦
+  heightMetres: 0.3
+  weightKilograms: 0.8
+  abilities:
+    - name: 预测天气
+      kind: Ability
+      text: 如果自己的弃牌区中有8张以上（包含8张）「竞技场」的话，则这只宝可梦使用招式所需能量，全部消除。
+  resistances: []
+  retreatCost: 0
+  types:
+    - Fire
+  flavourText: 如果在烈日下暴晒，就会变成这个样子。如果碰到它热烘烘的身体，会感觉干巴巴的。
+  attacks:
+    - name: 高气压爆破
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "150"
+      text: 将场上的「竞技场」放于弃牌区。如果无法将卡牌放于弃牌区的话，则这个招式失败。
+  weaknesses:
+    - type: Water
+      value: ×2

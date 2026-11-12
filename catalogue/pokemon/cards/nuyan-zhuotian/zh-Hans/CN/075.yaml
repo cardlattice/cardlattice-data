@@ -1,0 +1,33 @@
+name: 雷鸟龙V
+rarity: SR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 远古之喙
+      cost:
+        - Lightning
+      damage: "30"
+      text: 在下一个对手的回合，无法从手牌将能量附着于受到这个招式影响的宝可梦身上。
+    - name: 山岳挥打
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "180"
+      text: 将自己牌库上方的3张卡牌放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

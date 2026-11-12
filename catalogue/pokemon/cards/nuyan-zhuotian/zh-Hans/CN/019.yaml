@@ -1,0 +1,31 @@
+name: 飘浮泡泡 雨水的样子
+rarity: C
+illustrators:
+  - sowsow
+pokemon:
+  category: pokemon
+  hp: 70
+  stage: Basic
+  nationalDex:
+    - 351
+  species: 天气宝可梦
+  heightMetres: 0.3
+  weightKilograms: 0.8
+  abilities:
+    - name: 预测天气
+      kind: Ability
+      text: 如果自己的弃牌区中有8张以上（包含8张）「竞技场」的话，则这只宝可梦使用招式所需能量，全部消除。
+  resistances: []
+  retreatCost: 0
+  types:
+    - Water
+  flavourText: 被雨淋到时飘浮泡泡的样子。在让它淋浴的实验里，没有变成这个形态。
+  attacks:
+    - name: 雨水浴
+      cost:
+        - Water
+        - Colorless
+      text: 给对手的所有宝可梦，各造成20点伤害。[备战宝可梦不计算弱点、抗性。]
+  weaknesses:
+    - type: Lightning
+      value: ×2
