@@ -285,3 +285,9 @@ set. Remove or override incompatible inherited fields. Duplicate combinations,
 unknown editions and missing/wrong-game product references fail compilation.
 Variant product links are indexed for API product filtering. Artwork/image asset
 publication continues to use the separate rights-controlled image pipeline.
+
+Use Conventional Commits for every commit message and PR title, for example
+`feat(data): add Korean cards` or `fix(schema): reject invalid finishes`.
+Allowed types: `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`,
+`revert`, `style`, `test`. Scopes and breaking-change `!` are optional.
+Required PR checks rerun on title edits and validate every commit, including merges.
