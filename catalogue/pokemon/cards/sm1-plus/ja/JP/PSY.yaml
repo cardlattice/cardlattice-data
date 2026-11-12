@@ -1,0 +1,10 @@
+name: 基本超エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  rules: []
+  types:
+    - Psychic
+printedDenominator: null
+regulationMark: null

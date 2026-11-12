@@ -1,0 +1,40 @@
+name: ドヒドイデGX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: とげキャノン
+      cost:
+        - Psychic
+      damage: 30×
+      text: コインを4回投げ、オモテの数×30ダメージ。
+    - name: げきヤバポイズン
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      text: 相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は10個になる。
+    - name: ドシェルターGX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "150"
+      text: 次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ヒドイデ
+rarity: RR
+illustrators:
+  - 5ban Graphics

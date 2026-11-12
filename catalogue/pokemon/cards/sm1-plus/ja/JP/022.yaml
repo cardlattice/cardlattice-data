@@ -1,0 +1,33 @@
+name: オドリドリ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: フェザーダンス
+      cost:
+        - Lightning
+      text: 次の自分の番、このポケモンの「ぱちぱちパンチ」のダメージは「100」になる。
+    - name: ぱちぱちパンチ
+      cost:
+        - Lightning
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 741
+  species: ダンスポケモン
+  heightMetres: 0.6
+  weightKilograms: 3.4
+  flavourText: やまぶきのミツを 吸った オドリドリ。 明るく 陽気な ダンスで 敵の 身も 心も 弾けさせる。
+illustrators:
+  - Naoki Saito

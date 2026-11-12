@@ -1,0 +1,27 @@
+name: ヒドイデ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくばり
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 747
+  species: ヒトデナシポケモン
+  heightMetres: 0.4
+  weightKilograms: 8
+  flavourText: 頭に ある 毒トゲで 獲物を ズブリ。 弱ったところを １０本の 触手で 捕らえ 止めを 刺す。
+illustrators:
+  - match

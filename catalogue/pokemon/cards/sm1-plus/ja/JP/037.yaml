@@ -1,0 +1,38 @@
+name: アローラ ラッタ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: わるいさしず
+      cost:
+        - Colorless
+        - Colorless
+      text: 自分の山札にある好きなカードを、自分のベンチポケモンの数ぶんまで、手札に加える。そして山札を切る。
+    - name: がむしゃら
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを2回投げ、オモテの数×30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 20
+  species: ねずみポケモン
+  heightMetres: 0.7
+  weightKilograms: 25.5
+  flavourText: 餌の 味と 鮮度に こだわる グルメな ポケモン。 ラッタが 棲む レストランは アタリと いわれる。
+  evolvesFrom: アローラコラッタ
+illustrators:
+  - match

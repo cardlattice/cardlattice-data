@@ -1,0 +1,36 @@
+name: ニャヒート
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: みだれひっかき
+      cost:
+        - Fire
+      damage: 20×
+      text: コインを3回投げ、オモテの数×20ダメージ。
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "90"
+      text: このポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 726
+  species: ひねこポケモン
+  heightMetres: 0.7
+  weightKilograms: 25
+  flavourText: 首の 付け根に 炎の 鈴が ある。 炎が 噴きだすとき リンリンと 高い音が 鳴る。
+  evolvesFrom: ニャビー
+illustrators:
+  - TOKIYA

@@ -1,0 +1,38 @@
+name: ソルガレオ
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: シャイニングアロー
+      cost:
+        - Metal
+        - Colorless
+      text: 相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: にちりんのキバ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "170"
+      text: 次の自分の番、このポケモンは「にちりんのキバ」が使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 791
+  species: にちりんポケモン
+  heightMetres: 3.4
+  weightKilograms: 230
+  flavourText: 別世界に 棲むと いわれる。 全身から 激しい光を 放ち 闇夜も 真昼のように 照らすのだ。
+  evolvesFrom: コスモウム
+illustrators:
+  - 5ban Graphics
