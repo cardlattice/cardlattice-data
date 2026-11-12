@@ -134,6 +134,11 @@
           "type": "number",
           "minimum": 0,
           "maximum": 1000000
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
         }
       },
       "allOf": [
@@ -157,7 +162,8 @@
               "nationalDex": false,
               "species": false,
               "heightMetres": false,
-              "weightKilograms": false
+              "weightKilograms": false,
+              "level": false
             }
           }
         },
@@ -230,7 +236,13 @@
                     "Rapid Strike",
                     "Fusion Strike",
                     "Ancient",
-                    "Future"
+                    "Future",
+                    "Delta Species",
+                    "LV.X",
+                    "SP",
+                    "LEGEND",
+                    "Dynamax",
+                    "Gigantamax"
                   ]
                 }
               }
@@ -416,6 +428,12 @@
         },
         "variants": {
           "$ref": "pokemon-common.schema.json#/$defs/printing_variants"
+        },
+        "additionalNumbers": {
+          "$ref": "pokemon-common.schema.json#/$defs/printing_additionalNumbers"
+        },
+        "legendPart": {
+          "$ref": "pokemon-common.schema.json#/$defs/printing_legendPart"
         }
       },
       "required": []
@@ -433,7 +451,9 @@
         "MEGA",
         "VMAX",
         "VSTAR",
-        "V-UNION"
+        "V-UNION",
+        "Level-Up",
+        "LEGEND"
       ]
     },
     "subtype": {
@@ -452,6 +472,12 @@
         "Radiant",
         "Prism Star",
         "Ultra Beast",
+        "Delta Species",
+        "LV.X",
+        "SP",
+        "LEGEND",
+        "Dynamax",
+        "Gigantamax",
         "Single Strike",
         "Rapid Strike",
         "Fusion Strike",
@@ -507,7 +533,7 @@
       "enum": ["non-holo", "holo", "reverse-holo"]
     },
     "abilityKind": {
-      "enum": ["Ability", "Pokémon Power", "Poké-Power", "Poké-Body"]
+      "enum": ["Ability", "Pokémon Power", "Poké-Power", "Poké-Body", "Ancient Trait"]
     },
     "regulationMark": {
       "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
@@ -676,6 +702,37 @@
           "additionalProperties": {
             "$ref": "pokemon-common.schema.json#/$defs/variant"
           }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "printing_additionalNumbers": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pikachu30th"],
+          "properties": {
+            "pikachu30th": {
+              "type": "string",
+              "pattern": "^(0[1-9]|[12][0-9]|30)/30$"
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "legendPart": {
+      "enum": ["top", "bottom"]
+    },
+    "printing_legendPart": {
+      "anyOf": [
+        {
+          "$ref": "pokemon-common.schema.json#/$defs/legendPart"
         },
         {
           "type": "null"
