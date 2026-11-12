@@ -1,5 +1,29 @@
 name: Vileplume
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Gloom
+  attacks:
+    - name: Solar Beam
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: Fully Blooming Energy
+      kind: Ability
+      text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may look at the top 8 cards of your deck and attach any number of Basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

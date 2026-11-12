@@ -1,5 +1,28 @@
 name: Weedle
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Ram
+      cost:
+        - Grass
+      damage: "10"
+    - name: Bug Bite
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

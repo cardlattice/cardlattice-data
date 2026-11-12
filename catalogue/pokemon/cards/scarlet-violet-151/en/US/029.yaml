@@ -1,5 +1,25 @@
 name: Nidoran♀
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Poison Horn
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+      text: Your opponent’s Active Pokémon is now Poisoned.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

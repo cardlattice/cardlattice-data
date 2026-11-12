@@ -1,6 +1,36 @@
 name: Arbok ex
 rarity: Double Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
-  subtypes: [ex]
+  subtypes:
+    - ex
+  hp: 270
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Ekans
+  attacks:
+    - name: Bind Down
+      cost:
+        - Darkness
+        - Darkness
+      damage: "70"
+      text: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+    - name: Menacing Fangs
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: "150"
+      text: Your opponent discards 2 cards from their hand.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

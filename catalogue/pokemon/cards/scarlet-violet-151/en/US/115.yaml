@@ -1,6 +1,33 @@
 name: Kangaskhan ex
 rarity: Double Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
-  subtypes: [ex]
+  subtypes:
+    - ex
+  hp: 230
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Triple Draw
+      cost:
+        - Colorless
+      text: Draw 3 cards.
+    - name: Incessant Punching
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 100×
+      text: Flip 4 coins. This attack does 100 damage for each heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

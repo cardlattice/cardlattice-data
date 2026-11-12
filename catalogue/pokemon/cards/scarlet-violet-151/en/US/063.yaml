@@ -1,5 +1,25 @@
 name: Abra
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Psyshot
+      cost:
+        - Psychic
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G

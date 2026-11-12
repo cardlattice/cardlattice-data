@@ -263,15 +263,48 @@
           },
           "then": {
             "properties": {
-              "hp": false,
               "stage": false,
               "evolvesFrom": false,
               "attacks": false,
-              "abilities": false,
               "weaknesses": false,
               "resistances": false,
               "retreatCost": false,
               "nationalDex": false
+            }
+          }
+        },
+        {
+          "if": {
+            "required": ["category"],
+            "properties": {
+              "category": {
+                "enum": ["trainer", "energy"]
+              }
+            }
+          },
+          "then": {
+            "if": {
+              "required": ["category", "subtypes", "hp"],
+              "properties": {
+                "category": {
+                  "const": "trainer"
+                },
+                "subtypes": {
+                  "contains": {
+                    "const": "Item"
+                  },
+                  "type": "array"
+                },
+                "hp": {
+                  "type": "integer"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "hp": false,
+                "abilities": false
+              }
             }
           }
         }

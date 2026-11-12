@@ -1,5 +1,29 @@
 name: Electabuzz
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Electro Combo
+      cost:
+        - Lightning
+      damage: 10+
+      text: If Magmar is on your Bench, this attack does 40 more damage.
+    - name: Light Punch
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

@@ -1,5 +1,31 @@
 name: Jolteon
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Linear Attack
+      cost:
+        - Lightning
+      text: This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    - name: Fighting Lightning
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0
+regulationMark: G

@@ -1,5 +1,26 @@
 name: Omanyte
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Antique Helix Fossil
+  attacks:
+    - name: Tentacular Return
+      cost:
+        - Water
+        - Water
+      damage: "50"
+      text: Put an Energy attached to your opponent’s Active Pokémon into their hand.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

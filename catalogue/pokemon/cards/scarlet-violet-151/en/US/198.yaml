@@ -1,6 +1,33 @@
 name: Venusaur ex
 rarity: Special Illustration Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
-  subtypes: [ex]
+  subtypes:
+    - ex
+  hp: 340
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Ivysaur
+  attacks:
+    - name: Dangerous Toxwhip
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "150"
+      text: Your opponent’s Active Pokémon is now Confused and Poisoned.
+  abilities:
+    - name: Tranquil Flower
+      kind: Ability
+      text: Once during your turn, if this Pokémon is in the Active Spot, you may heal 60 damage from 1 of your Pokémon.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

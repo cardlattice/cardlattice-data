@@ -1,5 +1,25 @@
 name: Machoke
 rarity: Illustration Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Machop
+  attacks:
+    - name: Mountain Ramming
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: Discard the top card of your opponent’s deck.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

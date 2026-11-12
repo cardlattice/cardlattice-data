@@ -1,5 +1,29 @@
 name: Paras
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Stampede
+      cost:
+        - Grass
+      damage: "10"
+    - name: Spore Ball
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Your opponent’s Active Pokémon is now Asleep.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

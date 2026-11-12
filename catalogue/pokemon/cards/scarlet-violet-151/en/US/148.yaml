@@ -1,5 +1,28 @@
 name: Dragonair
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 100
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Dratini
+  attacks:
+    - name: Beat
+      cost:
+        - Water
+      damage: "20"
+    - name: Aqua Slash
+      cost:
+        - Water
+        - Lightning
+      damage: "90"
+      text: During your next turn, this Pokémon can’t attack.
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+regulationMark: G

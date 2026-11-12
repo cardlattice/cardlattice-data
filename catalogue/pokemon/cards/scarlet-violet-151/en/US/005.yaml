@@ -1,5 +1,31 @@
 name: Charmeleon
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Charmander
+  attacks:
+    - name: Combustion
+      cost:
+        - Fire
+      damage: "20"
+    - name: Fire Blast
+      cost:
+        - Fire
+        - Fire
+        - Fire
+      damage: "90"
+      text: Discard an Energy from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

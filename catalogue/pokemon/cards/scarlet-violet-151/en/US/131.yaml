@@ -1,5 +1,29 @@
 name: Lapras
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Hop on My Back
+      cost:
+        - Water
+      text: Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+    - name: Aqua Edge
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

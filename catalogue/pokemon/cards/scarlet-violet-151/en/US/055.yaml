@@ -1,5 +1,30 @@
 name: Golduck
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Psyduck
+  attacks:
+    - name: Aquatic Rescue
+      cost:
+        - Colorless
+      text: Put up to 4 Pokémon from your discard pile into your hand.
+    - name: Super Splash
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "120"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

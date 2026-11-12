@@ -1,5 +1,26 @@
 name: Dratini
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 60
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Beat
+      cost:
+        - Water
+      damage: "10"
+    - name: Draconic Whip
+      cost:
+        - Water
+        - Lightning
+      damage: "40"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+regulationMark: G

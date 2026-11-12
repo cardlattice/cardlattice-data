@@ -1,5 +1,32 @@
 name: Flareon
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Destructive Flame
+      cost:
+        - Fire
+      damage: "30"
+      text: Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.
+    - name: Fighting Blaze
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

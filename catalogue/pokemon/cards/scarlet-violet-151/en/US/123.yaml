@@ -1,5 +1,30 @@
 name: Scyther
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Helpful Slash
+      cost:
+        - Grass
+      damage: "20"
+      text: Attach a Basic Grass Energy card from your discard pile to 1 of your Benched Pokémon.
+    - name: Slicing Blade
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+regulationMark: G

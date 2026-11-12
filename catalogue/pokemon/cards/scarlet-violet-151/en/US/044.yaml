@@ -1,5 +1,28 @@
 name: Gloom
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Oddish
+  attacks:
+    - name: Drool
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: Semi-Blooming Energy
+      kind: Ability
+      text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may look at the top 3 cards of your deck and attach any number of Basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

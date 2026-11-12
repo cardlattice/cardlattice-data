@@ -1,5 +1,25 @@
 name: Ekans
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Acid Spray
+      cost:
+        - Darkness
+        - Darkness
+      damage: "30"
+      text: Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

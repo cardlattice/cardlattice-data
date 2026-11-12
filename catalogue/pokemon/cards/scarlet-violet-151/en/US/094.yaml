@@ -1,5 +1,33 @@
 name: Gengar
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Haunter
+  attacks:
+    - name: Poltergeist
+      cost:
+        - Psychic
+      damage: 50×
+      text: Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.
+    - name: Hollow Dive
+      cost:
+        - Psychic
+        - Colorless
+      damage: "110"
+      text: Put 3 damage counters on your opponent’s Benched Pokémon in any way you like.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+regulationMark: G

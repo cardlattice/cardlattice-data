@@ -1,5 +1,28 @@
 name: Clefairy
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Moon-Viewing Invitation
+      cost:
+        - Psychic
+      text: Search your deck for up to 3 Clefairy and put them onto your Bench. Then, shuffle your deck.
+    - name: Smack
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

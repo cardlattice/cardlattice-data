@@ -1,5 +1,26 @@
 name: Cloyster
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Shellder
+  attacks:
+    - name: Protect Charge
+      cost:
+        - Water
+        - Water
+      damage: "80"
+      text: During your opponent’s next turn, this Pokémon takes 80 less damage from attacks (after applying Weakness and Resistance).
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+regulationMark: G

@@ -59,7 +59,11 @@ repeated standalone symbols can be written `{Colorless}{Colorless}`.
 Weaknesses/resistances are lists such as `[{type: Fire, value: "×2"}]`.
 `retreatCost` counts Colorless energy symbols. `subtypes` includes printed mechanics
 such as `ex` or Trainer categories such as `Item`. `rules` contains ordered rule
-paragraphs. Trainer/Energy records cannot carry Pokémon HP, attacks or retreat costs.
+paragraphs. Trainer/Energy records cannot carry Pokémon attacks or retreat costs.
+Fossil Items are an exception for HP and abilities: a Trainer with subtype `Item`
+may have printed `hp`, and may then include its printed `abilities`. Keep its
+play-as-a-Pokémon instructions in `rules`; it remains a Trainer, not a Pokémon
+record. Other Trainer subtypes and Energy records cannot carry HP or abilities.
 
 An omitted list is unknown; an empty list confirms none. Do not fill missing facts
 by inference from the name, another printing or the Pokémon species.

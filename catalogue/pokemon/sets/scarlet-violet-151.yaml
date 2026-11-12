@@ -5,3 +5,5 @@ releaseDate: 2023-09-22
 printedIdentifiers:
   - language: en
     code: MEW
+defaults:
+  printedTotal: 165

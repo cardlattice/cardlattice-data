@@ -1,5 +1,28 @@
 name: Diglett
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Headbutt Bounce
+      cost:
+        - Fighting
+      damage: "10"
+    - name: Mud-Slap
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

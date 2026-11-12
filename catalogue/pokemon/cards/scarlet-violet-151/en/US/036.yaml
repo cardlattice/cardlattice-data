@@ -1,5 +1,31 @@
 name: Clefable
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Clefairy
+  attacks:
+    - name: Follow Me
+      cost:
+        - Psychic
+      text: Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+    - name: More Moon
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "50"
+      text: If your opponent’s Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

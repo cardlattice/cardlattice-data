@@ -1,5 +1,31 @@
 name: Beedrill
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Kakuna
+  attacks:
+    - name: Nadir Needle
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: If you have no cards in your hand, this attack does 120 more damage, and your opponent’s Active Pokémon is now Paralyzed and Poisoned.
+    - name: Pierce
+      cost:
+        - Grass
+        - Grass
+      damage: "110"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

@@ -1,5 +1,32 @@
 name: Vaporeon
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Spiral Drain
+      cost:
+        - Water
+      damage: "30"
+      text: Heal 30 damage from this Pokémon.
+    - name: Fighting Whirlpool
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

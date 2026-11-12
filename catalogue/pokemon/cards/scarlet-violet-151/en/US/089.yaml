@@ -1,5 +1,32 @@
 name: Muk
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 150
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Grimer
+  attacks:
+    - name: Sticky Jail
+      cost:
+        - Darkness
+      damage: "30"
+      text: During your opponent’s next turn, attacks used by the Defending Pokémon cost Colorless more, and its Retreat Cost is Colorless more.
+    - name: Sludge Bomb
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "180"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+regulationMark: G

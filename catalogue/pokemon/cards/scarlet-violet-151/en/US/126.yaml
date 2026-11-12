@@ -1,5 +1,30 @@
 name: Magmar
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Live Coal
+      cost:
+        - Fire
+      damage: "10"
+    - name: Flare Combo
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 80+
+      text: If Electabuzz is on your Bench, this attack does 80 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

@@ -1,5 +1,28 @@
 name: Spearow
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Speed Dive
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: Evolutionary Advantage
+      kind: Ability
+      text: If you go second, this Pokémon can evolve during your first turn.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G

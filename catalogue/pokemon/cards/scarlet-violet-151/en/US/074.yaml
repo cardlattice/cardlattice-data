@@ -1,5 +1,28 @@
 name: Geodude
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Stiffen
+      cost:
+        - Fighting
+      text: During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+    - name: Knuckle Punch
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

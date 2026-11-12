@@ -1,5 +1,30 @@
 name: Slowpoke
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Sea Bathing
+      cost:
+        - Psychic
+      text: Heal 30 damage from this Pokémon, and it recovers from all Special Conditions.
+    - name: Headbutt
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+regulationMark: G

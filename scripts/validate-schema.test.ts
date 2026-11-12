@@ -238,3 +238,18 @@ describe("printing relationships and set identifiers", () => {
     ).toBeGreaterThan(0);
   });
 });
+
+it("accepts fossil Item HP and Abilities while rejecting them on other Trainers and Energy", () => {
+  const fossil =
+    "name: Antique Dome Fossil\npokemon:\n  category: trainer\n  subtypes: [Item]\n  hp: 60\n  abilities:\n    - name: Domed Armor\n      kind: Ability\n      text: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).\n";
+  expect(validateCard(fossil, filename)).toEqual([]);
+  for (const invalid of [
+    fossil.replace("[Item]", "[Supporter]"),
+    fossil.replace("trainer", "energy"),
+    fossil.replace("  hp: 60\n", ""),
+    fossil + "  attacks: []\n",
+    fossil + "  stage: Basic\n",
+  ]) {
+    expect(validateCard(invalid, filename).length).toBeGreaterThan(0);
+  }
+});

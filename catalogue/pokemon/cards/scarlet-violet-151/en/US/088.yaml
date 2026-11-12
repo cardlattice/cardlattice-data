@@ -1,5 +1,24 @@
 name: Grimer
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Gummy Press
+      cost:
+        - Darkness
+      damage: "10"
+      text: During your opponent’s next turn, the Defending Pokémon’s Retreat Cost is Colorless more.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

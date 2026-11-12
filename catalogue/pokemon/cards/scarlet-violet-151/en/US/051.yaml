@@ -1,5 +1,29 @@
 name: Dugtrio
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Diglett
+  attacks:
+    - name: Headbutt Bounce
+      cost:
+        - Fighting
+      damage: "40"
+    - name: Mud Bomb
+      cost:
+        - Fighting
+        - Fighting
+      damage: "80"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

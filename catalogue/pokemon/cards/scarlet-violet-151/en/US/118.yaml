@@ -1,5 +1,29 @@
 name: Goldeen
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Triple Strike
+      cost:
+        - Water
+      damage: 10×
+      text: Flip 3 coins. This attack does 10 damage for each heads.
+    - name: Sprinkle Water
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

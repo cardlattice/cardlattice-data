@@ -1,5 +1,30 @@
 name: Electrode
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Voltorb
+  attacks:
+    - name: Bang Boom Chain
+      cost:
+        - Lightning
+      damage: 20+
+      text: Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way.
+    - name: Electro Ball
+      cost:
+        - Lightning
+        - Colorless
+      damage: "70"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

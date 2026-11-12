@@ -1,5 +1,29 @@
 name: Magnemite
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Tiny Charge
+      cost:
+        - Lightning
+      damage: "10"
+    - name: Big Explosion
+      cost:
+        - Lightning
+        - Colorless
+      damage: "60"
+      text: This Pokémon also does 60 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

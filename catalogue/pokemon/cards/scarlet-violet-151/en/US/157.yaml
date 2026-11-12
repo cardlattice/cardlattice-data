@@ -1,5 +1,13 @@
 name: Cycling Road
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - Once during each player’s turn, that player may discard a Basic Energy card from their hand in order to draw a card.
+    - You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.
+regulationMark: G

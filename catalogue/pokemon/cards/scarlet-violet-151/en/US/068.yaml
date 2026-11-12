@@ -1,5 +1,29 @@
 name: Machamp
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Machoke
+  attacks:
+    - name: Mountain Chopping
+      cost:
+        - Fighting
+        - Fighting
+      damage: "100"
+      text: Discard the top 2 cards of your opponent’s deck.
+  abilities:
+    - name: Guts
+      kind: Ability
+      text: If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

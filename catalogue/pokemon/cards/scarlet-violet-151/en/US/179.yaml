@@ -1,5 +1,27 @@
 name: Mr. Mime
 rarity: Illustration Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Psypower
+      cost:
+        - Colorless
+      text: Put 3 damage counters on your opponent’s Pokémon in any way you like.
+  abilities:
+    - name: Mimic Barrier
+      kind: Ability
+      text: If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached, prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G

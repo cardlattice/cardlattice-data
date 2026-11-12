@@ -1,5 +1,30 @@
 name: Pidgey
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Call for Family
+      cost:
+        - Colorless
+      text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+regulationMark: G

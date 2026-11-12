@@ -1,6 +1,33 @@
 name: Mew ex
 rarity: Double Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
-  subtypes: [ex]
+  subtypes:
+    - ex
+  hp: 180
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Genome Hacking
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.
+  abilities:
+    - name: Restart
+      kind: Ability
+      text: Once during your turn, you may draw cards until you have 3 cards in your hand.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.
+regulationMark: G

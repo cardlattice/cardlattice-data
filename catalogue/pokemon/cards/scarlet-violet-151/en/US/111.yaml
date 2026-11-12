@@ -1,5 +1,31 @@
 name: Rhyhorn
 rarity: Common
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Push Down
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+      text: Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    - name: Boulder Crush
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "70"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+regulationMark: G

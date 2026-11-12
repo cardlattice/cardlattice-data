@@ -1,5 +1,32 @@
 name: Poliwrath
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 160
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Poliwhirl
+  attacks:
+    - name: Bubble Beam
+      cost:
+        - Water
+      damage: "50"
+      text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+    - name: Heroic Punch
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: Flip a coin. If heads, this attack does 150 more damage.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+regulationMark: G

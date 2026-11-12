@@ -1,5 +1,30 @@
 name: Butterfree
 rarity: Uncommon
-finishes: [non-holo]
+finishes:
+  - non-holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Metapod
+  attacks:
+    - name: Whirlwind
+      cost:
+        - Grass
+      damage: "60"
+      text: Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+    - name: Bye-Bye Flight
+      cost:
+        - Colorless
+        - Colorless
+      text: Choose 1 of your opponent’s Benched Pokémon. Shuffle that Pokémon and all attached cards into their deck, and then shuffle this Pokémon and all attached cards into your deck. If your opponent has no Benched Pokémon, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+regulationMark: G

@@ -1,5 +1,32 @@
 name: Aerodactyl
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
+  - reverse-holo
 pokemon:
   category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Antique Old Amber
+  attacks:
+    - name: Glide
+      cost:
+        - Colorless
+      damage: "30"
+    - name: Devolution Ray
+      cost:
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: If your opponent’s Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent’s hand.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+regulationMark: G
