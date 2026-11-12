@@ -1,0 +1,31 @@
+name: 甜甜萤
+rarity: C
+illustrators:
+  - Shibuzoh.
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 冲撞
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 绝佳费洛蒙
+      kind: Ability
+      text: 如果自己场上有「电萤虫」的话，则能生效。只要这只宝可梦在场上，双方战斗宝可梦的弱点按「×3」计算伤害。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 314
+  species: 萤火虫宝可梦
+  heightMetres: 0.6
+  weightKilograms: 17.7
+  flavourText: 会诱导电萤虫在夜空中描绘记号。也有学者在研究记号的含意。

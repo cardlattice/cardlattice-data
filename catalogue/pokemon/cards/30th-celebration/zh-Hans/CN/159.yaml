@@ -1,0 +1,41 @@
+name: 爆肌蚊GX
+regulationMark: A
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - GX
+    - Ultra Beast
+  attacks:
+    - name: 喷射重拳
+      cost:
+        - Fighting
+      damage: "30"
+      text: 给对手的1只备战宝可梦，也造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 拳斗冲击
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "160"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+    - name: 膨胀GX
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: 40×
+      text: 造成自己奖赏卡张数×40点伤害。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,37 @@
+name: 藏玛然特
+rarity: R
+illustrators:
+  - Tsuyoshi Nagano
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 弹落
+      cost:
+        - Metal
+      damage: "20"
+      text: 在造成伤害前，将放于对手战斗宝可梦身上的「宝可梦道具」放于弃牌区。
+    - name: 盾牌压制
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "100"
+      text: 在下一个对手的回合，这只宝可梦所受到的招式的伤害「-50」。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 889
+  species: 强者宝可梦
+  heightMetres: 2.9
+  weightKilograms: 785
+  flavourText: 能够反弹一切的攻击，因此被称为格斗王之盾，受到人们的畏惧与尊崇。

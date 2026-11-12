@@ -1,0 +1,29 @@
+name: 鬃岩狼人
+rarity: AR
+illustrators:
+  - Raita Kazama
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: 岩狗狗
+  attacks:
+    - name: 双倍奉还
+      cost:
+        - Fighting
+      damage: 10+
+      text: 追加造成与这只宝可梦在上一个对手的回合所受到的招式的伤害相同数值的伤害。
+    - name: 岩石粉碎
+      cost:
+        - Fighting
+        - Fighting
+      damage: "80"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 性情十分粗暴。只要是为了解决掉对手，就算会伤害到自己也无所谓。

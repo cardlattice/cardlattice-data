@@ -1,0 +1,34 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 19/30
+illustrators:
+  - Rianti Hidayat
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 垂吊
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 电气踢
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

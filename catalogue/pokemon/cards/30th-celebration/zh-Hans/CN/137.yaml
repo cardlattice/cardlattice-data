@@ -1,0 +1,35 @@
+name: 喷火龙
+regulationMark: null
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 120
+  level: 76
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: 火恐龙
+  attacks:
+    - name: 火焰旋涡
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "100"
+      text: 将这只宝可梦身上的2张能量卡放于弃牌区。
+  abilities:
+    - name: 能量烈焰
+      kind: Pokémon Power
+      text: 附着在喷火龙身上的「火」以外的能量，都视作「火」能量。在「混乱」状态下不生效。
+  weaknesses:
+    - type: Water
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  species: 火焰宝可梦
+  heightMetres: 1.7
+  weightKilograms: 90.5
+  flavourText: 能用翅膀飞到距地面1400米的高度。会吐出高温火焰。

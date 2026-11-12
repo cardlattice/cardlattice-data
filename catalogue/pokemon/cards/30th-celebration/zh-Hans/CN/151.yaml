@@ -1,0 +1,19 @@
+name: 达克莱伊&克雷色利亚LEGEND
+regulationMark: null
+illustrators:
+  - Shinji Higuchi
+  - Noriko Takaya
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Darkness
+    - Psychic
+  stage: LEGEND
+  subtypes:
+    - LEGEND
+  rules:
+    - 将手牌中的2种达克莱伊&克雷色利亚LEGEND组合后，放于备战区。
+legendPart: top
+collections:
+  - pokemon-collection-30th-celebration-darkrai-cresselia-legend-zh-hans-cn

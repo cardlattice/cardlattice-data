@@ -1,0 +1,33 @@
+name: 闪耀时拉比
+regulationMark: null
+illustrators:
+  - Hironobu Yoshida
+pokemon:
+  category: pokemon
+  hp: 50
+  level: 18
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 治愈之水
+      cost:
+        - Water
+      text: 选择自己的1只备战宝可梦。然后，将与这只宝可梦身上附着的「水」能量数量相同数量的伤害指示物从选择的宝可梦身上移除。（当自己没有备战宝可梦时，这个招式失败。）
+    - name: 奇迹绿叶
+      cost:
+        - Grass
+        - Psychic
+      damage: "10"
+      text: 抛掷与对手的战斗宝可梦身上附着的「能量」数量相同次数的硬币。如果至少出现1次「正面」的话，则从「中毒、睡眠、混乱」中选择1个，令对手的战斗宝可梦陷入那个状态中。
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 1副卡组中只能放入最多1张「闪耀时拉比」。
+  species: 时空穿越宝可梦
+  heightMetres: 0.6
+  weightKilograms: 5
+  flavourText: 作为森林的神明而受人供奉。时拉比会在有美丽森林的地方现身。

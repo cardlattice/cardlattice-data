@@ -1,0 +1,36 @@
+name: 洛奇亚
+regulationMark: null
+illustrators:
+  - Naoyo Kimura
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 精神强念
+      cost:
+        - Psychic
+        - Fire
+      damage: 10×
+      text: 造成对手的战斗宝可梦身上附着的「能量卡」张数×10伤害。
+    - name: 蒸汽爆破
+      cost:
+        - Water
+        - Water
+        - Fire
+        - Colorless
+      damage: "50"
+      text: 将这只宝可梦身上附着的1张「能量卡」放于弃牌区。
+  abilities:
+    - name: 水晶属性
+      kind: Poké-Body
+      text: 如果从手牌将「火」「水」「超」中任意1种「基本能量卡」附着于这只宝可梦身上的话，则在那个回合结束前，这只宝可梦的「属性」变为和附着的「基本能量卡」相同。
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 3
+  species: 潜水宝可梦
+  heightMetres: 5.2
+  weightKilograms: 216

@@ -1,0 +1,35 @@
+name: 颤弦蝾螈
+rarity: C
+illustrators:
+  - Yuriko Akase
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 殴打
+      cost:
+        - Lightning
+      damage: "40"
+    - name: 雷电伏特
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: 毒电婴
+  nationalDex:
+    - 849
+  species: 庞克宝可梦
+  heightMetres: 1.6
+  weightKilograms: 40
+  flavourText: 会凶暴地弹奏胸部的突起物。弹奏时释放出的电击可轻易超过15000伏特。

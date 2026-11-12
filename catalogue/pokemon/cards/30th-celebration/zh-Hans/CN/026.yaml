@@ -1,0 +1,28 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 10/30
+illustrators:
+  - Tomokazu Komiya
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 逃窜
+      cost:
+        - Colorless
+      text: 将这只宝可梦与备战宝可梦互换。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

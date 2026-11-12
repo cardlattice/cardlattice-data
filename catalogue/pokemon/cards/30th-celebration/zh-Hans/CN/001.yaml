@@ -1,0 +1,27 @@
+name: 蛋蛋
+rarity: C
+illustrators:
+  - Nelnal
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 催眠术
+      cost:
+        - Colorless
+      text: 令对手的战斗宝可梦陷入睡眠状态。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 102
+  species: 蛋宝可梦
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  flavourText: 因为会互相发出仅能在蛋蛋之间传递的心灵感应，所以无论何时都能集齐6只。

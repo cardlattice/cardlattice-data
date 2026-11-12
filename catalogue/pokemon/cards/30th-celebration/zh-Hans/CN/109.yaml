@@ -1,0 +1,30 @@
+name: 颤弦蝾螈
+rarity: AR
+illustrators:
+  - Kazumasa Yasukuni
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: 毒电婴
+  attacks:
+    - name: 殴打
+      cost:
+        - Lightning
+      damage: "40"
+    - name: 雷电伏特
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 会凶暴地弹奏胸部的突起物。弹奏时释放出的电击可轻易超过15000伏特。

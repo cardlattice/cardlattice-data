@@ -1,0 +1,36 @@
+name: 蟾蜍王
+rarity: C
+illustrators:
+  - Kurata So
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: 振动拳
+      cost:
+        - Fighting
+      damage: "60"
+      text: 在下一个对手的回合，每当对手从手牌使出训练家时，在使用前抛掷1次硬币。如果为反面，则那张卡牌不视作被使用过，将其放于弃牌区。
+    - name: 百万吨重拳
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "180"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: 蓝蟾蜍
+  nationalDex:
+    - 537
+  species: 振动宝可梦
+  heightMetres: 1.5
+  weightKilograms: 62
+  flavourText: 通过震动全身的瘤，引发地震般的晃动。与不良蛙是相近的物种。

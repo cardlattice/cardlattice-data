@@ -1,0 +1,32 @@
+name: 叉字蝠G
+regulationMark: null
+illustrators:
+  - Makoto Imai
+pokemon:
+  category: pokemon
+  hp: 80
+  level: 44
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - SP
+  trainers:
+    - 银河队
+  attacks:
+    - name: 剧毒牙
+      cost:
+        - Psychic
+        - Colorless
+      text: 令对手的战斗宝可梦陷入中毒状态。在宝可梦检查时，因这个中毒而放置的伤害指示物数量变为2个。
+  abilities:
+    - name: 闪现咬
+      kind: Poké-Power
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可以使用1次。给对手的1只宝可梦身上放置1个伤害指示物。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0

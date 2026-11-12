@@ -1,0 +1,30 @@
+name: 耿鬼ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  abilities:
+    - name: 归天宣告
+      kind: Ability
+      text: 当这只宝可梦受到对手宝可梦的招式的伤害而昏厥时，自己抛掷1次硬币。如果为正面，则令使用了招式的宝可梦昏厥。
+  resistances: []
+  hp: 280
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: 鬼斯通
+  attacks:
+    - name: 混沌伤痛
+      cost:
+        - Darkness
+        - Darkness
+      text: 给对手的1只宝可梦身上放置13个伤害指示物。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

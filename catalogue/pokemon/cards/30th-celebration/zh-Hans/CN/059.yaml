@@ -1,0 +1,29 @@
+name: 仙子伊布ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 多彩和弦
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 造成自己所有宝可梦身上附着的基本能量的属性种类数量×50伤害。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: 伊布
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

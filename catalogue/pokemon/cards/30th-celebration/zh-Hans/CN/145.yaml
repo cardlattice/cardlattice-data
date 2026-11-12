@@ -1,0 +1,39 @@
+name: 巨钳螳螂ex
+regulationMark: null
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: 飞天螳螂（ex）
+  subtypes:
+    - ex
+  attacks:
+    - name: 钢翼
+      cost:
+        - Metal
+        - Colorless
+      damage: "40"
+      text: 在下一个对手的回合，这只宝可梦所受到的招式的伤害「-20」。
+    - name: 挥落
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 如果对手的战斗宝可梦为「进化宝可梦」的话，则追加造成30伤害。
+  abilities:
+    - name: 警戒色
+      kind: Poké-Body
+      text: 如果这只宝可梦的剩余HP在「60」及以下的话，则这只宝可梦所使用的招式给战斗宝可梦造成的伤害「+40」。
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

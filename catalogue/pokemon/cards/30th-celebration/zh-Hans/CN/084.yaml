@@ -1,0 +1,37 @@
+name: 索尔迦雷欧
+rarity: R
+illustrators:
+  - Nurikabe
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: 流星闪冲
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "220"
+      text: 将这只宝可梦身上附着的能量全部放于弃牌区。
+  abilities:
+    - name: 日出
+      kind: Ability
+      text: 如果这只宝可梦在备战区的话，则在自己的回合可以使用1次。选择自己牌库中最多2张「基本{Metal}能量」，附着于这只宝可梦身上。并重洗牌库。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: 科斯莫姆
+  nationalDex:
+    - 791
+  species: 日轮宝可梦
+  heightMetres: 3.4
+  weightKilograms: 230
+  flavourText: 曾经被称为吞食太阳之兽。能释放出无尽的光能。

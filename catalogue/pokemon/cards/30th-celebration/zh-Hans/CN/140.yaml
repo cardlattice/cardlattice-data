@@ -1,0 +1,33 @@
+name: 狃拉
+regulationMark: null
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 60
+  level: 34
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 乱抓
+      cost:
+        - Colorless
+      damage: 10×
+      text: 抛掷3次硬币，造成「正面」次数×10伤害。
+    - name: 围攻
+      cost:
+        - Darkness
+        - Darkness
+      damage: 20×
+      text: 抛掷与自己场上宝可梦数量相同次数的硬币，造成「正面」次数×20伤害。
+  abilities: []
+  weaknesses: []
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 0
+  species: 钩爪宝可梦
+  heightMetres: 0.9
+  weightKilograms: 28
+  flavourText: 手指中藏有锋利的爪子。会突然伸出那利爪，让袭击过来的对手心生怯意。

@@ -1,0 +1,31 @@
+name: 盖欧卡
+rarity: R
+illustrators:
+  - Tonji Matsuno
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 水炮
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 追加造成这只宝可梦身上附着的{Water}能量数量×30伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 382
+  species: 海底宝可梦
+  heightMetres: 4.5
+  weightKilograms: 352
+  flavourText: 神话中的宝可梦，它用大雨和大海啸扩张海洋。曾与固拉多激烈交战。

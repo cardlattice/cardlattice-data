@@ -1,0 +1,29 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 30/30
+illustrators:
+  - Kazuki Minami
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 愤恨伏特
+      cost:
+        - Lightning
+      damage: 10+
+      text: 追加造成这只宝可梦身上放置的伤害指示物数量×10伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

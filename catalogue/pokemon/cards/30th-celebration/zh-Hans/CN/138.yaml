@@ -1,0 +1,9 @@
+name: 小霞
+regulationMark: null
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  rules:
+    - 只有将自己的2张手牌放于弃牌区后才可以使用这张卡牌。
+    - 在这个回合，「小霞的宝可梦」所使用的招式给战斗宝可梦造成的伤害「+20」。（给备战宝可梦造成的伤害不变）

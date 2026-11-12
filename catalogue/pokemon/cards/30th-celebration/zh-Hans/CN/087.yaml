@@ -1,0 +1,35 @@
+name: 赛富豪
+rarity: C
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 欢庆
+      cost:
+        - Metal
+      text: 如果自己的手牌为30张的话，则拿取自己的2张奖赏卡。然后，将自己的手牌全部放回牌库并重洗牌库。
+    - name: 三重粉碎
+      cost:
+        - Metal
+      damage: 50×
+      text: 抛掷3次硬币，造成正面次数×50伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: 索财灵
+  nationalDex:
+    - 1000
+  species: 宝者宝可梦
+  heightMetres: 1.2
+  weightKilograms: 30
+  flavourText: 硬币堆叠起来而形成的身体非常结实。会连续发射硬币来压制敌人。

@@ -1,0 +1,27 @@
+name: 滑滑小子
+rarity: AR
+illustrators:
+  - GOSSAN
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 80
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 挑毛病
+      cost:
+        - Darkness
+      text: 对手将其手牌全部放回牌库并重洗牌库。然后，对手从牌库上方抽取4张卡牌。
+    - name: 推打
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 把皮拉到颈部，摆出防御的姿势。橡胶般有弹力的皮能减少伤害。

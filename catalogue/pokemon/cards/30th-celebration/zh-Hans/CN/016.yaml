@@ -1,0 +1,31 @@
+name: 弱丁鱼
+rarity: C
+illustrators:
+  - Narano
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 偷袭
+      cost:
+        - Water
+      damage: "30"
+      text: 抛掷1次硬币，如果为反面，则这个招式失败。
+  abilities:
+    - name: 群起反击
+      kind: Ability
+      text: 只要这只宝可梦在场上，自己战斗场上的「弱丁鱼（包含「宝可梦ex」）」受到对手宝可梦的招式的伤害时，就给使用了招式的宝可梦身上放置3个伤害指示物。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 746
+  species: 小鱼宝可梦
+  heightMetres: 0.2
+  weightKilograms: 0.3
+  flavourText: 单独1只十分弱小，所以学会了通过群体行动来对抗敌人的能力。

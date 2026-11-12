@@ -1,0 +1,37 @@
+name: 太阳伊布
+rarity: C
+illustrators:
+  - aspara
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 奇迹光芒
+      cost:
+        - Psychic
+        - Colorless
+      text: 从对手所有已经进化的宝可梦身上各移除1张「进化卡」使其退化。将被移除的卡牌放回对手的手牌。
+    - name: 超念力
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  evolvesFrom: 伊布
+  nationalDex:
+    - 196
+  species: 太阳宝可梦
+  heightMetres: 0.9
+  weightKilograms: 26.5
+  flavourText: 会通过全身细细的体毛来感受空气的流动，预测敌人的想法和天气。

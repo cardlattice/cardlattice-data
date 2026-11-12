@@ -1,0 +1,31 @@
+name: 甲贺忍蛙ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 300
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: 呱头蛙
+  attacks:
+    - name: 隐秘斩
+      cost:
+        - Water
+      text: 给对手的1只宝可梦造成其身上放置的伤害指示物数量×30伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 水流利刃
+      cost:
+        - Water
+        - Water
+      damage: "160"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

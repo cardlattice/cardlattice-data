@@ -1,0 +1,30 @@
+name: 帕路奇亚
+rarity: R
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 虫洞
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "100"
+      text: 将这只宝可梦与备战宝可梦互换。然后，对手将其战斗宝可梦与备战宝可梦互换。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 484
+  species: 空间宝可梦
+  heightMetres: 4.2
+  weightKilograms: 336
+  flavourText: 据说居住在平行排列的空间狭缝中。是出现在神话中的宝可梦。

@@ -1,0 +1,29 @@
+name: 喵喵
+rarity: C
+illustrators:
+  - MINAMINAMI Take
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 聚宝功
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 从自己牌库上方抽取1张卡牌。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 52
+  species: 妖怪猫宝可梦
+  heightMetres: 0.4
+  weightKilograms: 4.2
+  flavourText: 最喜欢耀眼发光的物品。当它找到发光物时，不知为何额头上的金币也会跟着发光。

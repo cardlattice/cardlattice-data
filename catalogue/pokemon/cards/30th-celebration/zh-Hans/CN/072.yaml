@@ -1,0 +1,35 @@
+name: 故勒顿
+rarity: R
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 踢倒
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+    - name: 全开猛撞
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "140"
+      text: 选择这只宝可梦身上附着的2个{Fighting}能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 1007
+  species: 悖谬宝可梦
+  heightMetres: 2.5
+  weightKilograms: 303
+  flavourText: 它似乎就是古老的探险记所提到的翼大王本尊。据记载，它曾用拳头击裂大地。

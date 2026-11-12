@@ -1,0 +1,32 @@
+name: 呆呆兽
+rarity: C
+illustrators:
+  - Uninori
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 躲入井中
+      cost:
+        - Colorless
+      text: 抛掷1次硬币，如果为正面，则在下一个对手的回合，这只宝可梦不会受到招式的伤害和效果影响。
+    - name: 水枪
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 79
+  species: 憨憨宝可梦
+  heightMetres: 1.2
+  weightKilograms: 36
+  flavourText: 一直在水边发呆。就算有什么东西咬住了尾巴，它也一整天不会注意到。

@@ -1,0 +1,31 @@
+name: 尼多兰
+rarity: C
+illustrators:
+  - Taira Akitsu
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 叫声
+      cost:
+        - Colorless
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦所使用的招式的伤害「-30」。
+    - name: 头锤
+      cost:
+        - Darkness
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 29
+  species: 毒针宝可梦
+  heightMetres: 0.4
+  weightKilograms: 7
+  flavourText: 对于气味比雄性更敏感。会一边用胡须确认风向，一边在下风处寻找食物。

@@ -1,0 +1,30 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 14/30
+illustrators:
+  - OKACHEKE
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 小小莽撞
+      cost:
+        - Lightning
+        - Colorless
+      damage: "40"
+      text: 给这只宝可梦也造成10伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

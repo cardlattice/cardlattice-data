@@ -1,0 +1,39 @@
+name: 邪恶班基拉斯
+regulationMark: null
+illustrators:
+  - Nakaoka
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: 邪恶沙基拉斯
+  attacks:
+    - name: 压碎
+      cost:
+        - Colorless
+      damage: 10+
+      text: 追加造成这只宝可梦的能量×10伤害。
+    - name: 旋转之尾
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      text: 给对手所有的宝可梦各造成20伤害。
+    - name: 撕咬
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: 如果对手的战斗宝可梦为宝可梦ex的话，则追加造成50伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 2

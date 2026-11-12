@@ -1,0 +1,28 @@
+name: 火焰鸟
+rarity: AR
+illustrators:
+  - mashu
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 火焰旋涡
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "130"
+      text: 选择这只宝可梦身上附着的2个能量，放于弃牌区。
+  abilities:
+    - name: 燃烧展翼
+      kind: Ability
+      text: 如果自己场上有「急冻鸟」「闪电鸟」的话，则在自己的回合可以使用1次。选择自己手牌中的1张「基本{Fire}能量」，附着于这只宝可梦身上。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 只要拍动翅膀，羽毛就会闪现出红色的火焰，非常美丽。传说的鸟宝可梦中的1只。

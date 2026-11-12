@@ -1,0 +1,31 @@
+name: 伊布
+rarity: C
+illustrators:
+  - Wintr Wandr
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 嘴叼埋藏
+      cost:
+        - Colorless
+      text: 查看对手的手牌，选择其中1张物品放回对手的牌库下方。
+    - name: 撞击
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 133
+  species: 进化宝可梦
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  flavourText: 由于不稳定的遗传基因，蕴含着各种各样进化可能性的特殊宝可梦。

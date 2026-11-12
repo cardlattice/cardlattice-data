@@ -1,0 +1,32 @@
+name: 阿尔宙斯VSTAR
+regulationMark: F
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 280
+  types:
+    - Colorless
+  stage: VSTAR
+  evolvesFrom: 阿尔宙斯V
+  subtypes:
+    - VSTAR
+  attacks:
+    - name: 三重新星
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+      text: 选择自己牌库中最多3张基本能量，以任意方式附着于自己的「宝可梦V」身上。并重洗牌库。
+  abilities:
+    - name: 星耀诞生
+      kind: Ability
+      text: 在自己的回合可以使用。选择自己牌库中任意卡牌最多2张，加入手牌。并重洗牌库。[对战中，己方的VSTAR力量只能使用1次。]
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VSTAR昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,31 @@
+name: 梦幻
+rarity: R
+illustrators:
+  - danciao
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 精神强念
+      cost:
+        - Psychic
+        - Psychic
+      damage: 10+
+      text: 追加造成对手战斗宝可梦身上附着的能量数量×40伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 151
+  species: 新种宝可梦
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: 至今仍被人称为幻之宝可梦。就算是在全国范围内也几乎没有几个人目睹过它的身姿。

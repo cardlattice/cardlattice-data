@@ -1,0 +1,26 @@
+name: 莫鲁贝可
+rarity: AR
+illustrators:
+  - Yoshimi Miyoshi
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 选点心
+      cost:
+        - Colorless
+      text: 将自己牌库上方3张卡牌放于弃牌区，选择其中1张卡牌，在给对手看过之后加入手牌。
+    - name: 巴掌
+      cost:
+        - Lightning
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 胃很小，所以不常吃袋子里的种子的话，肚子马上就会饿。

@@ -1,0 +1,30 @@
+name: 伽勒尔 喵喵
+rarity: AR
+illustrators:
+  - OKUBO
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances:
+    - type: Grass
+      value: "-30"
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 聚宝功
+      cost:
+        - Colorless
+      damage: "10"
+      text: 从自己牌库上方抽取1张卡牌。
+    - name: 宝物突进
+      cost:
+        - Metal
+      damage: 10×
+      text: 造成自己手牌张数×10伤害。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 和好战的海洋民族一起生活，久而久之身体的各个地方就都变成了黑铁。

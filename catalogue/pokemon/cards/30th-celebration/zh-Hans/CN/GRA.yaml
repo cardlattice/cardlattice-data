@@ -1,0 +1,11 @@
+name: 基本草能量
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN
+pokemon:
+  category: energy
+  types:
+    - Grass
+  subtypes:
+    - Basic Energy

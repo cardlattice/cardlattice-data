@@ -1,0 +1,31 @@
+name: 科斯莫姆
+rarity: C
+illustrators:
+  - Masako Tomii
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 硬邦邦
+      cost:
+        - Colorless
+        - Colorless
+      text: 在下一个对手的回合，这只宝可梦所受到的招式的伤害「-60」。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  evolvesFrom: 科斯莫古
+  nationalDex:
+    - 790
+  species: 原始星宝可梦
+  heightMetres: 0.1
+  weightKilograms: 999.9
+  flavourText: 将它包裹起来的外壳拥有超越人类认知范围的硬度。通过沐浴星光而成长。

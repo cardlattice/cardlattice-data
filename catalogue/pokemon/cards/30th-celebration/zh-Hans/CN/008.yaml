@@ -1,0 +1,35 @@
+name: 莱希拉姆
+rarity: R
+illustrators:
+  - Uta
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 劈开
+      cost:
+        - Fire
+        - Colorless
+      damage: "50"
+    - name: 镭射火焰
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 如果这只宝可梦身上附着了{Lightning}能量的话，则追加造成80伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 643
+  species: 白阳宝可梦
+  heightMetres: 3.2
+  weightKilograms: 330
+  flavourText: 用火焰让世界燃烧殆尽的传说的宝可梦。会帮助构筑真实世界的人。
