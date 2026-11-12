@@ -1,0 +1,39 @@
+name: チャオブー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ころがる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "70"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 499
+  species: ひぶたポケモン
+  heightMetres: 1
+  weightKilograms: 55.5
+  flavourText: 体内の 炎が 燃え上がると 動きの キレと スピードが 増す。 ピンチになると 煙を 吹き出す。
+  evolvesFrom: ポカブ
+illustrators:
+  - Kanako Eo
+variants:
+  first-edition:
+    edition: first-edition

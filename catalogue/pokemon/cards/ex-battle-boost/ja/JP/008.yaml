@@ -1,0 +1,38 @@
+name: ビリジオン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ダブルドロー
+      cost:
+        - Colorless
+      text: 自分の山札を2枚引く。
+    - name: リーフスラッガー
+      cost:
+        - Grass
+        - Colorless
+      damage: "40"
+      text: 次の自分の番、このポケモンが使う「リーフスラッガー」のダメージは「+40」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 640
+  species: そうげんポケモン
+  heightMetres: 2
+  weightKilograms: 200
+  flavourText: 頭の ツノは 鋭い 刃。 旋風のような 動きで 敵を ほんろうして 素早く 切りつける。
+illustrators:
+  - Atsuko Nishida
+variants:
+  first-edition:
+    edition: first-edition

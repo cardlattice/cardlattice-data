@@ -1,0 +1,33 @@
+name: ギャラドスEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: おおしけ
+      cost:
+        - Colorless
+      text: ウラが出るまでコインを投げ、オモテの数ぶんまで、自分の山札から{Water}エネルギーを選び、このポケモンにつける。そして山札を切る。
+    - name: スプラッシュバーン
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 自分のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4
+rarity: SR
+illustrators:
+  - Ryo Ueda

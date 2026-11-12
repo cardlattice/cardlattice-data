@@ -1,0 +1,36 @@
+name: ドレディア
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: うるうる
+      cost:
+        - Grass
+      damage: "20"
+      text: 次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、そのポケモンをねむりにする。
+    - name: リーフスライス
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: コインを2回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 549
+  species: はなかざりポケモン
+  heightMetres: 1.1
+  weightKilograms: 16.3
+  flavourText: 美しい 花を 咲かせるのは ベテラントレーナーでも 難しい。 セレブに 人気の ポケモン。
+  evolvesFrom: チュリネ
+rarity: U
+illustrators:
+  - Shin Nagasawa

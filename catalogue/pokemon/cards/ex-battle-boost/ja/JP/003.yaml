@@ -1,0 +1,35 @@
+name: ジャノビー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: しぼりとる
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。さらに、そのポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 496
+  species: くさへびポケモン
+  heightMetres: 0.8
+  weightKilograms: 16
+  flavourText: 生い茂った 草木の 陰を 潜り抜けて 攻撃を 避ける。 巧みな ムチさばきで 反撃。
+  evolvesFrom: ツタージャ
+illustrators:
+  - Shigenori Negishi
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,37 @@
+name: ハハコモリ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: アームカッター
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+  abilities:
+    - name: リーフテーラー
+      text: このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員の弱点は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 542
+  species: こそだてポケモン
+  heightMetres: 1.2
+  weightKilograms: 20.5
+  flavourText: 小さい ポケモンを 見つけると 腕の カッターと 粘着糸で 葉っぱの 服を 縫う 習性。
+  evolvesFrom: クルマユ
+illustrators:
+  - match
+variants:
+  first-edition:
+    edition: first-edition

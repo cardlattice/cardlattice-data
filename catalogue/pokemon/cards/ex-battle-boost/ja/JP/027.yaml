@@ -1,0 +1,39 @@
+name: エンペルト
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: なみのり
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+    - name: こうていのいちげき
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 70+
+      text: 相手のバトルポケモンの残りHPが、このポケモンの残りHPより多いなら、60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 395
+  species: こうていポケモン
+  heightMetres: 1.7
+  weightKilograms: 84.5
+  flavourText: プライドを 傷つける 者は 流氷をも 切断する 翼で 真っ二つに する。
+  evolvesFrom: ポッタイシ
+illustrators:
+  - kawayoo
+variants:
+  first-edition:
+    edition: first-edition

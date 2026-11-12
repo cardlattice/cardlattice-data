@@ -1,0 +1,35 @@
+name: フカマル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: かじる
+      cost:
+        - Water
+        - Fighting
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 443
+  species: りくザメポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.5
+  flavourText: 大口を 使った 攻撃は 威力 十分だが まだ うまく戦えず 自分も傷つく。
+illustrators:
+  - sui
+variants:
+  first-edition:
+    edition: first-edition

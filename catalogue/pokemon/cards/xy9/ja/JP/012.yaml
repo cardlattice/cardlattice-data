@@ -1,0 +1,35 @@
+name: クイタラン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: きょうかフレイム
+      cost:
+        - Fire
+      damage: 20+
+      text: このポケモンに「ポケモンのどうぐ」がついているなら、20ダメージを追加。
+    - name: ヒートブラスト
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 631
+  species: アリクイポケモン
+  heightMetres: 1.4
+  weightKilograms: 58
+  flavourText: 尻尾から 取りこんだ 空気を 炎に変えて ベロのように 使い アイアントを 溶かして 食べるぞ。
+rarity: C
+illustrators:
+  - match

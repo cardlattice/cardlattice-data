@@ -1,0 +1,28 @@
+name: コロボーシ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: むしのよかん
+      cost:
+        - Grass
+      text: 自分の山札から{Grass}ポケモンを3枚まで選び、相手に見せてから、手札に加える。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 401
+  species: こおろぎポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.2
+  flavourText: 触角 同士が ぶつかると コロン コロンと 木琴に 似た 音色を 奏でる。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

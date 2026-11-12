@@ -1,0 +1,41 @@
+name: ゾロアーク
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ビートダウン
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分の場にいる{Darkness}ポケモンの数×20ダメージ。
+    - name: ダークラッシュ
+      cost:
+        - Darkness
+        - Darkness
+      damage: 20×
+      text: このポケモンにのっているダメカンの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 571
+  species: ばけぎつねポケモン
+  heightMetres: 1.6
+  weightKilograms: 81.1
+  flavourText: 相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。
+  evolvesFrom: ゾロア
+illustrators:
+  - match
+variants:
+  first-edition:
+    edition: first-edition

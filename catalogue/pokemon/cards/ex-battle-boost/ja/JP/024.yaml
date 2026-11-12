@@ -1,0 +1,42 @@
+name: フリーザー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: れいとうビーム
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: アイスウイング
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 144
+  species: れいとうポケモン
+  heightMetres: 1.7
+  weightKilograms: 55.4
+  flavourText: 伝説の とりポケモン。 空気中の 水分を 凍らせ 吹雪を 作り出すことが できる。
+illustrators:
+  - Kagemaru Himeno
+variants:
+  first-edition:
+    edition: first-edition

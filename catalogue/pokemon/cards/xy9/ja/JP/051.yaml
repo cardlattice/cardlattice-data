@@ -1,0 +1,36 @@
+name: ガブリアス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: アサルトターボ
+      cost:
+        - Fighting
+      damage: "60"
+      text: 自分のトラッシュからエネルギーを1枚選び、自分のポケモンにつける。
+    - name: かみちぎる
+      cost:
+        - Fighting
+        - Fighting
+      damage: 80+
+      text: 相手のバトルポケモンが「ポケモンEX」なら、80ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 445
+  species: マッハポケモン
+  heightMetres: 1.9
+  weightKilograms: 95
+  flavourText: ジェット戦闘機に 負けない スピードで 空を 飛ぶ。 ねらった 獲物は 逃がさない。
+  evolvesFrom: ガバイト
+rarity: R
+illustrators:
+  - TOKIYA

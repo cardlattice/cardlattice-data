@@ -1,0 +1,38 @@
+name: ナットレイ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: メタルクロー
+      cost:
+        - Metal
+        - Colorless
+      damage: "40"
+    - name: スパイクウィップ
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      text: 相手のポケモン全員に、それぞれにげるために必要なエネルギーの数×10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 598
+  species: とげだまポケモン
+  heightMetres: 1
+  weightKilograms: 110
+  flavourText: 洞穴の 天井に はりつき 下を 通る 獲物に 向かって 鉄の トゲを 打ちこみ 襲う。
+  evolvesFrom: テッシード
+rarity: U
+illustrators:
+  - Kagemaru Himeno

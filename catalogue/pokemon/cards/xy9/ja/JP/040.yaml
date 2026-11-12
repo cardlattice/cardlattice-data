@@ -1,0 +1,36 @@
+name: ダストダス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: どぎついボム
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンをどくとこんらんにする。
+  abilities:
+    - name: ダストオキシン
+      text: このポケモンに「ポケモンのどうぐ」がついているなら、おたがいの場・手札・トラッシュのカードに書かれている特性（「ダストオキシン」をのぞく）は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 569
+  species: ゴミすてばポケモン
+  heightMetres: 1.9
+  weightKilograms: 107.3
+  flavourText: ゴミを 吸いとっては 体内で 新しい 種類の 毒ガスや 毒の 液体を 生みだしている。
+  evolvesFrom: ヤブクロン
+rarity: R
+illustrators:
+  - Kouki Saitou

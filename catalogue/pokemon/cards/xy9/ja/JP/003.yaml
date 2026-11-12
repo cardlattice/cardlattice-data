@@ -1,0 +1,35 @@
+name: メガニウム
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: グリーンフォース
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。
+  abilities:
+    - name: しんりょく
+      text: このポケモンの残りHPが「50」以下なら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+70」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 154
+  species: ハーブポケモン
+  heightMetres: 1.8
+  weightKilograms: 100.5
+  flavourText: メガニウムが 吐き出す 息には 枯れた 草木を よみがえらせる 力が 秘められている。
+  evolvesFrom: ベイリーフ
+rarity: R
+illustrators:
+  - kawayoo

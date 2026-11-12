@@ -1,0 +1,40 @@
+name: バッフロン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: リベンジ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、70ダメージを追加。
+    - name: アフロブレイク
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: コインを1回投げウラなら、このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 626
+  species: ずつきうしポケモン
+  heightMetres: 1.6
+  weightKilograms: 94.6
+  flavourText: 激しい 頭突きを 食らわせても ふさふさの 体毛が ダメージを 吸収して くれるのだ。
+illustrators:
+  - Sanosuke Sakuma
+variants:
+  first-edition:
+    edition: first-edition

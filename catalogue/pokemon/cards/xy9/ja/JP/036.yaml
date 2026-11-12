@@ -1,0 +1,30 @@
+name: スコルピ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ミサイルばり
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10×
+      text: コインを4回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 451
+  species: さそりポケモン
+  heightMetres: 0.8
+  weightKilograms: 12
+  flavourText: 砂の 中に 隠れて 獲物を 待ち伏せする。 尻尾の ツメから 毒を 出して 獲物を しとめる。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

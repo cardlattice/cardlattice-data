@@ -1,0 +1,36 @@
+name: ゼブライカ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: げきついボルト
+      cost:
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 相手のバトルポケモンが{Fighting}タイプの抵抗力を持っているなら、60ダメージを追加。
+  abilities:
+    - name: ゼブラゾーン
+      text: このポケモンがいるかぎり、自分の{Lightning}ポケモンが使うワザのダメージは、相手のバトルポケモンにかかっている効果の計算をしない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 523
+  species: らいでんポケモン
+  heightMetres: 1.6
+  weightKilograms: 79.5
+  flavourText: 稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。
+  evolvesFrom: シママ
+rarity: U
+illustrators:
+  - Hajime Kusajima

@@ -1,0 +1,37 @@
+name: ガマガル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: かえるとび
+      cost:
+        - Water
+        - Water
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+    - name: マッドショット
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 536
+  species: しんどうポケモン
+  heightMetres: 0.8
+  weightKilograms: 17
+  flavourText: 水中と 陸地で 暮らす。 長く ねばねばする ベロを使って 相手の 動きを 封じこめる。
+  evolvesFrom: オタマロ
+rarity: C
+illustrators:
+  - Ayaka Yoshida

@@ -1,0 +1,35 @@
+name: ベイリーフ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: のしかかり
+      cost:
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: つるのムチ
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 153
+  species: はっぱポケモン
+  heightMetres: 1.2
+  weightKilograms: 15.8
+  flavourText: 首回りの つぼみから におう スパイシーな 香りは かいだ 人を 元気に させる。
+  evolvesFrom: チコリータ
+rarity: C
+illustrators:
+  - Mizue

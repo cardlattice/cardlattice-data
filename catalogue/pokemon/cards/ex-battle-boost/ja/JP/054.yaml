@@ -1,0 +1,36 @@
+name: ダストダス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ヘドロなげ
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: ダストオキシン
+      text: このポケモンに「ポケモンのどうぐ」がついているなら、おたがいの場・手札・トラッシュのカードに書かれている特性（「ダストオキシン」をのぞく）は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 569
+  species: ゴミすてばポケモン
+  heightMetres: 1.9
+  weightKilograms: 107.3
+  flavourText: 左腕で 相手を 絞めつけて 口から 吐き出す 悪臭の 毒ガスで とどめを 刺すのだ。
+  evolvesFrom: ヤブクロン
+illustrators:
+  - Tomoaki Imakuni
+variants:
+  first-edition:
+    edition: first-edition

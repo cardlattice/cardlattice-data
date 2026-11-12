@@ -1,0 +1,36 @@
+name: ピッピ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: うたう
+      cost:
+        - Fairy
+      text: 相手のバトルポケモンをねむりにする。
+    - name: おうふくビンタ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10×
+      text: コインを2回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 35
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.5
+  flavourText: 背中の 翼に 月の光を 集めることで 空中に 浮かぶことが できるらしい。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

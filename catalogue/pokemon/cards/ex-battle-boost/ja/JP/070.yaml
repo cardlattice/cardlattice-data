@@ -1,0 +1,37 @@
+name: メロエッタ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: マジカルダンス
+      cost:
+        - Colorless
+      text: 自分のベンチポケモン全員のHPを、それぞれ「30」回復する。
+    - name: りゅうせいステップ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: ウラが出るまでコインを投げ続け、オモテの数×30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 648
+  species: せんりつポケモン
+  heightMetres: 0.6
+  weightKilograms: 6.5
+  flavourText: メロエッタの 奏でる 旋律は 周りの ポケモンを 喜ばせたり 悲しませるほどの パワーがある。
+illustrators:
+  - Mizue
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,36 @@
+name: エモンガ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを2枚選び、ベンチに出す。そして山札を切る。
+    - name: バチバチ
+      cost:
+        - Lightning
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 587
+  species: モモンガポケモン
+  heightMetres: 0.4
+  weightKilograms: 5
+  flavourText: 森の 木の上で 暮らす。 マントのような 膜の 内側を 放電 させながら 滑空する。
+illustrators:
+  - Tomokazu Komiya
+variants:
+  first-edition:
+    edition: first-edition

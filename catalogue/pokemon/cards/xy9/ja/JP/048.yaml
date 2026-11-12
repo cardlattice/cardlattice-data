@@ -1,0 +1,29 @@
+name: ウソッキー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: みようみまね
+      cost:
+        - Fighting
+        - Colorless
+      text: 前の相手の番に、相手のポケモンがワザを使っていたなら、そのワザをこのワザとして使う。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 185
+  species: まねポケモン
+  heightMetres: 1.2
+  weightKilograms: 38
+  flavourText: 襲われないように 木の真似をする。 水が 苦手で 雨が 降り出すと いつの間にか 姿を 消す。
+rarity: U
+illustrators:
+  - Hitoshi Ariga

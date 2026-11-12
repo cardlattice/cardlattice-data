@@ -1,0 +1,37 @@
+name: ゾロア
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: かくせい
+      cost:
+        - Darkness
+      text: このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+    - name: ひっかく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 570
+  species: わるぎつねポケモン
+  heightMetres: 0.7
+  weightKilograms: 12.5
+  flavourText: 相手の 姿に 化けてみせて 驚かせる。 無口な 子供に 化けている ことが 多いらしい。
+illustrators:
+  - Atsuko Nishida
+variants:
+  first-edition:
+    edition: first-edition

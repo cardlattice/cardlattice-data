@@ -1,0 +1,34 @@
+name: ヤドキング
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: じこあんじ
+      cost:
+        - Water
+        - Colorless
+      damage: "40"
+      text: 次の自分の番、このポケモンが使う「じこあんじ」のダメージは「+40」される。
+  abilities:
+    - name: おうじゃのひらめき
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 199
+  species: おうじゃポケモン
+  heightMetres: 2
+  weightKilograms: 79.5
+  flavourText: かまれたとき 頭に 染みこんだ 毒素に よって ただならない 能力に 目覚めた ヤドン。
+  evolvesFrom: ヤドン
+rarity: R
+illustrators:
+  - Aya Kusube

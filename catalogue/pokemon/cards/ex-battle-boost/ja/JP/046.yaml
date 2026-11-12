@@ -1,0 +1,31 @@
+name: ネイティ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: つつく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 177
+  species: ことりポケモン
+  heightMetres: 0.2
+  weightKilograms: 2
+  flavourText: サボテンの つぼみや トゲを 器用に 避けながら ついばむ。 飛び跳ねるようにして 移動する。
+illustrators:
+  - Sanosuke Sakuma
+variants:
+  first-edition:
+    edition: first-edition

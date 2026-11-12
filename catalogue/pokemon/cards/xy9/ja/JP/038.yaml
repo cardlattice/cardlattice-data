@@ -1,0 +1,36 @@
+name: シンボラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: はんしゃシールド
+      cost:
+        - Colorless
+      text: 次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを5個のせる。
+    - name: サイコリポート
+      cost:
+        - Psychic
+        - Psychic
+      damage: "30"
+      text: 相手の手札を見る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 561
+  species: とりもどきポケモン
+  heightMetres: 1.4
+  weightKilograms: 14
+  flavourText: 古代都市の 守り神。 いつも 同じルートを 巡回し 侵入者を 見張っていた。
+rarity: U
+illustrators:
+  - Masakazu Fukuda

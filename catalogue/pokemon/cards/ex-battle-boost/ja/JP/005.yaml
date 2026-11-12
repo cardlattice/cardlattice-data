@@ -1,0 +1,32 @@
+name: クルミル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: はっぱブーメラン
+      cost:
+        - Grass
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 540
+  species: さいほうポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.5
+  flavourText: タマゴから かえると ハハコモリに 服を 作ってもらい 着せられる。 フードで 頭を 隠して 寝る。
+illustrators:
+  - Yuka Morii
+variants:
+  first-edition:
+    edition: first-edition

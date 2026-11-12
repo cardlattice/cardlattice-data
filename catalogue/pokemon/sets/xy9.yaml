@@ -1,0 +1,13 @@
+name: 破天の怒り
+language: ja
+region: JP
+releaseDate: 2015-12-11
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY9
+printedDenominator: 80
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

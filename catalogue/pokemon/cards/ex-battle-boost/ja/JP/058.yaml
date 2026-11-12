@@ -1,0 +1,30 @@
+name: ユニラン
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ころがる
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 577
+  species: さいぼうポケモン
+  heightMetres: 0.3
+  weightKilograms: 1
+  flavourText: サイコパワーを 放出して 襲ってきた 敵を 撃退。 テレパシーで 仲間と 会話する。
+illustrators:
+  - HiRON
+variants:
+  first-edition:
+    edition: first-edition

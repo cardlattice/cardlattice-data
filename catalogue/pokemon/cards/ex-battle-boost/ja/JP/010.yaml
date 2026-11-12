@@ -1,0 +1,38 @@
+name: リザード
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ほのお
+      cost:
+        - Fire
+      damage: "20"
+    - name: いかりのツメ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンにのっているダメカンの数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 5
+  species: かえんポケモン
+  heightMetres: 1.1
+  weightKilograms: 19
+  flavourText: リザードが 暮らす 岩山を 夜中に 見上げると しっぽの 炎が 星のように 見える。
+  evolvesFrom: ヒトカゲ
+illustrators:
+  - Akira Komayama
+variants:
+  first-edition:
+    edition: first-edition

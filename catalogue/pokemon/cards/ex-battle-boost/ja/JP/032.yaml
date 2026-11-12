@@ -1,0 +1,35 @@
+name: オタマロ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: しんどう
+      cost:
+        - Colorless
+      damage: "10"
+    - name: マッドショット
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 535
+  species: おたまポケモン
+  heightMetres: 0.5
+  weightKilograms: 4.5
+  flavourText: ほほを 振動させて 人には 聞こえない 音波を 出す。 音波の リズムで 会話する。
+illustrators:
+  - Kyoko Umemoto
+variants:
+  first-edition:
+    edition: first-edition

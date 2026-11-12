@@ -1,0 +1,38 @@
+name: ゴチミル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: おうふくビンタ
+      cost:
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテの数×20ダメージ。
+    - name: サイケこうせん
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 575
+  species: あやつりポケモン
+  heightMetres: 0.7
+  weightKilograms: 18
+  flavourText: 催眠術で ポケモンや 人を 操る。 眠ったまま ゴチミルに 連れ去られる 昔話が 各地に 残っている。
+  evolvesFrom: ゴチム
+illustrators:
+  - kirisAki
+variants:
+  first-edition:
+    edition: first-edition

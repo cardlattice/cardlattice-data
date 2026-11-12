@@ -1,0 +1,32 @@
+name: ミジュマル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: シェルブレード
+      cost:
+        - Water
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 501
+  species: ラッコポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.9
+  flavourText: お腹の ホタチは ツメと 同じ 成分で できている。 お腹から 外して 小刀として 使う。
+illustrators:
+  - Midori Harada
+variants:
+  first-edition:
+    edition: first-edition

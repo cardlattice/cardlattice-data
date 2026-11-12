@@ -1,0 +1,29 @@
+name: ゲコガシラ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: みずぶんしん
+      cost:
+        - Water
+      text: 自分の山札から「ゲコガシラ」を3枚まで選び、ベンチに出す。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 657
+  species: あわがえるポケモン
+  heightMetres: 0.6
+  weightKilograms: 10.9
+  flavourText: 身軽さは だれにも 負けない。 ６００メートルを 超える タワーの 天辺まで １分で 登りきる。
+  evolvesFrom: ケロマツ
+rarity: C
+illustrators:
+  - Shin Nagasawa

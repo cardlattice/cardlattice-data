@@ -1,0 +1,36 @@
+name: ルカリオ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: はどうだん
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: 相手のベンチポケモンを1匹選び、そのポケモンにも20ダメージ。[ベンチへのダメージは弱点・抵抗力の計算をしない。]
+  abilities:
+    - name: ストライクバック
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 448
+  species: はどうポケモン
+  heightMetres: 1.2
+  weightKilograms: 54
+  flavourText: 鍛えられた ルカリオは 波動を 使い １キロ先に だれがいるのか どんな気持ちか さえも わかる。
+  evolvesFrom: リオル
+illustrators:
+  - MAHOU
+variants:
+  first-edition:
+    edition: first-edition

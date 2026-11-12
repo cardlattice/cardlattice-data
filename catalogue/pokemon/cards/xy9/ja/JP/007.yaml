@@ -1,0 +1,28 @@
+name: チュリネ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: アロマセラピー
+      cost:
+        - Grass
+      text: 自分のポケモン全員のHPを、それぞれ「10」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 548
+  species: ねっこポケモン
+  heightMetres: 0.5
+  weightKilograms: 6.6
+  flavourText: 水分と 栄養の 豊富な 土を 好むので チュリネの 住む 土地は 作物の 育ちが 良い。
+rarity: C
+illustrators:
+  - Naoyo Kimura

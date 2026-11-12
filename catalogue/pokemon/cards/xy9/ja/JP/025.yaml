@@ -1,0 +1,31 @@
+name: コアルヒー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: とびかかる
+      cost:
+        - Colorless
+      damage: "20"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 580
+  species: みずどりポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  flavourText: 飛ぶよりも 泳ぐのが 得意で 水中に 潜っては 大好きな 水ゴケを うれしそうに 食べる。
+rarity: C
+illustrators:
+  - Atsuko Nishida

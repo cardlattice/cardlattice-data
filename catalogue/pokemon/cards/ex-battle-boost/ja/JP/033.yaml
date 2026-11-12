@@ -1,0 +1,38 @@
+name: ガマガル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: マッドショット
+      cost:
+        - Water
+      damage: "20"
+    - name: りんしょう
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: ワザ「りんしょう」を持つ自分のポケモンの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 536
+  species: しんどうポケモン
+  heightMetres: 0.8
+  weightKilograms: 17
+  flavourText: 水中と 地上で 生活。 長く ネバネバした 舌で 獲物を 絡めて 捕らえる。
+  evolvesFrom: オタマロ
+illustrators:
+  - Sachiko Adachi
+variants:
+  first-edition:
+    edition: first-edition

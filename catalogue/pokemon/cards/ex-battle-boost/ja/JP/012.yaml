@@ -1,0 +1,32 @@
+name: ロコン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひをふく
+      cost:
+        - Fire
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: きつねポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  flavourText: ６本の しっぽは 育つごとに 毛並みが よくなり 美しくなる。 抱きしめると ほんのり 暖かい。
+illustrators:
+  - Masakazu Fukuda
+variants:
+  first-edition:
+    edition: first-edition

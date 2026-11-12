@@ -1,0 +1,30 @@
+name: ガバイト
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: すなじごく
+      cost:
+        - Fighting
+      damage: "20"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 444
+  species: ほらあなポケモン
+  heightMetres: 1.4
+  weightKilograms: 56
+  flavourText: 巣穴を 広げるとき 地中から 出てきた 宝石の 原石を 巣に ためる 習性を 持つ。
+  evolvesFrom: フカマル
+rarity: C
+illustrators:
+  - Midori Harada

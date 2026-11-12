@@ -1,0 +1,38 @@
+name: サザンドラ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: リューズブラスト
+      cost:
+        - Psychic
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "140"
+      text: このポケモンについている{Darkness}エネルギーを2個選び、トラッシュする。
+  abilities:
+    - name: ダークトランス
+      text: 自分のポケモンについている{Darkness}エネルギーを1個選び、自分の別のポケモンにつけ替える。この特性は、自分の番に何回でも使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 635
+  species: きょうぼうポケモン
+  heightMetres: 1.8
+  weightKilograms: 160
+  flavourText: ６枚の 羽で 空を 飛び続け 動くものを 敵と 思い込み 襲う 凶暴な ポケモン。
+  evolvesFrom: ジヘッド
+illustrators:
+  - Tomokazu Komiya
+variants:
+  first-edition:
+    edition: first-edition

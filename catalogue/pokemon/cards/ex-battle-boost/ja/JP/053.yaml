@@ -1,0 +1,38 @@
+name: ヤブクロン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: どくガス
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 568
+  species: ゴミぶくろポケモン
+  heightMetres: 0.6
+  weightKilograms: 31
+  flavourText: 不衛生な 場所を 好む。 ゲップのように 吐き出す ガスを 吸い込むと １週間 寝込む。
+illustrators:
+  - kawayoo
+variants:
+  first-edition:
+    edition: first-edition
