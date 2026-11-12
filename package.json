@@ -6,11 +6,12 @@
     "validate:schema": "node scripts/validate-schema.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "lint": "oxlint --deny-warnings --report-unused-disable-directives scripts",
-    "format": "oxfmt --write scripts schemas package.json tsconfig.json .oxlintrc.json .oxfmtrc.json .vscode",
-    "format:check": "oxfmt --check scripts schemas package.json tsconfig.json .oxlintrc.json .oxfmtrc.json .vscode",
+    "lint": "oxlint --deny-warnings --report-unused-disable-directives scripts status",
+    "format": "oxfmt --write scripts schemas package.json tsconfig.json .oxlintrc.json .oxfmtrc.json .vscode status",
+    "format:check": "oxfmt --check scripts schemas package.json tsconfig.json .oxlintrc.json .oxfmtrc.json .vscode status",
     "check": "pnpm check:tools && pnpm validate:schema",
-    "check:tools": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test"
+    "check:tools": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test",
+    "build:status": "node scripts/build-status.ts"
   },
   "dependencies": {
     "ajv": "8.20.0",

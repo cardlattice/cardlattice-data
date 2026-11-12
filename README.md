@@ -147,3 +147,32 @@ No TCGdex records were imported.
 Original factual metadata: [CC0-1.0](LICENSE-DATA).
 Build scripts and configuration: [MIT](LICENSE).
 These licences do not cover publisher artwork or trademarks.
+
+## Catalogue status on GitHub Pages
+
+The status dashboard is generated from the same validated, compiled snapshot as
+bulk downloads. It makes no requests to the API or third-party catalogues.
+
+```sh
+CARDLATTICE_BUILDER=/path/to/cardlattice ./scripts/build.sh
+pnpm build:status
+```
+
+Open `site/index.html` to preview it locally. `site/coverage.json` contains the
+aggregated measurements and source revision. HTML is pre-rendered; filtering,
+pagination and theme selection are progressive enhancements. No artwork is
+published by this dashboard.
+
+CI builds the dashboard for every PR. Successful `main` builds deploy `site/`
+using GitHub Pages Actions; PRs cannot deploy. Configure Settings → Pages →
+Source as **GitHub Actions**. The expected project URL is
+<https://cardlattice.github.io/cardlattice-data/>. Daily scheduled builds also
+refresh the page. A failed build leaves the previous deployment intact; the
+visible commit link identifies exactly which source revision is displayed.
+
+Counts are printing records grouped by set, language and region, after compiler
+inheritance. Finish coverage includes a nonempty `finishes` array or a named
+variant with a recorded finish. Illustrator and rarity coverage measure nonempty
+fields. These indicators do not establish exhaustive variants, image rights,
+editorial review, uptime, or worldwide catalogue completeness. Printed
+collector-number denominators are deliberately not treated as complete targets.
