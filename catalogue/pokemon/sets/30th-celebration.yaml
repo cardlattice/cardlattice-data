@@ -3,3 +3,10 @@ stamps:
   - 30th-anniversary
 regulationMark: J
 printedDenominator: 128
+printedIdentifiers:
+  - language: ko
+    region: KR
+    code: M6a
+  - language: zh-Hans
+    region: CN
+    code: 30th C
