@@ -243,7 +243,8 @@
                     "Dynamax",
                     "Gigantamax",
                     "Eternamax",
-                    "Gold Star"
+                    "Gold Star",
+                    "Shining"
                   ]
                 }
               }
@@ -265,6 +266,7 @@
                 "type": "array",
                 "items": {
                   "enum": [
+                    "TAG TEAM",
                     "Prism Star",
                     "Single Strike",
                     "Rapid Strike",
@@ -275,6 +277,7 @@
                     "Supporter",
                     "Stadium",
                     "Pokémon Tool",
+                    "Pokémon Tool F",
                     "ACE SPEC"
                   ]
                 }
@@ -512,6 +515,7 @@
         "Gigantamax",
         "Eternamax",
         "Gold Star",
+        "Shining",
         "Single Strike",
         "Rapid Strike",
         "Fusion Strike",
@@ -521,6 +525,7 @@
         "Supporter",
         "Stadium",
         "Pokémon Tool",
+        "Pokémon Tool F",
         "ACE SPEC",
         "Basic Energy",
         "Special Energy"
@@ -546,6 +551,7 @@
         "CHR",
         "BWR",
         "MUR",
+        "K",
         "●",
         "◆",
         "★",
