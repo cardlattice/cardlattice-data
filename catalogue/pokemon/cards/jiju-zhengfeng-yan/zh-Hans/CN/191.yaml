@@ -1,0 +1,28 @@
+name: 伽勒尔堵拦熊
+rarity: UR
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: 伽勒尔直冲熊
+  flavourText: 在不断的斗争中得到了进化。它交叉着双臂发出的怒吼能让一切对手都为之胆怯。
+  attacks:
+    - name: 拦堵
+      cost:
+        - Darkness
+        - Colorless
+      damage: "90"
+      text: 在下一个对手的回合，这只宝可梦不会受到基础宝可梦的招式的伤害。
+  abilities:
+    - name: 粗野高吼
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出并进行进化时，可使用1次。给对手的1只宝可梦身上，放置3个伤害指示物。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

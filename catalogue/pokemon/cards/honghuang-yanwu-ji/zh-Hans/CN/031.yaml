@@ -1,0 +1,32 @@
+name: 刺龙王
+rarity: R
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: 海刺龙
+  nationalDex:
+    - 230
+  species: 龙宝可梦
+  heightMetres: 1.8
+  weightKilograms: 152
+  flavourText: 据说它会沉睡在任何生物都无法潜到的深海底部积蓄力量。
+  attacks:
+    - name: 水流爆破
+      cost:
+        - Water
+      damage: 40×
+      text: 造成这只宝可梦身上附有的{Water}能量数量×40点伤害。
+  abilities:
+    - name: 海底霸主
+      kind: Ability
+      text: 每当自己的战斗宝可梦，受到对手的宝可梦招式的伤害而昏厥时，可使用1次。选择附着于昏厥了的宝可梦身上任意数量的{Water}能量，转附于这只宝可梦身上。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

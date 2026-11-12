@@ -1,0 +1,7 @@
+name: 基本斗能量
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fighting

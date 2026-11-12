@@ -1,0 +1,11 @@
+name: 芽米
+rarity: U
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 将自己所有进化宝可梦的HP，全部回复。然后，将附着于回复了HP的宝可梦身上的能量，全部放于弃牌区。
+    - 在自己的回合只可以使用1张支援者卡。

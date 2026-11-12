@@ -1,0 +1,32 @@
+name: 智挥猩
+rarity: R
+illustrators:
+  - Shigenori Negishi
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  nationalDex:
+    - 765
+  species: 贤者宝可梦
+  heightMetres: 1.5
+  weightKilograms: 76
+  flavourText: 对森林的各个角落都了如指掌。如果有宝可梦受伤了，就会去寻找药草为它们治疗。
+  attacks:
+    - name: 打倒
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 智慧猩
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己的1张手牌，将其与牌库上方的卡牌互换。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

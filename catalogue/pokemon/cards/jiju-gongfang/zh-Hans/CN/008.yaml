@@ -1,0 +1,33 @@
+name: 苹裹龙
+rarity: R
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: 啃果虫
+  nationalDex:
+    - 841
+  species: 苹果翅宝可梦
+  heightMetres: 0.3
+  weightKilograms: 1
+  flavourText: 啃果虫吃了酸苹果后进化而成。颊囊里储存着足以造成灼伤的强酸性液体。
+  attacks:
+    - name: 酸液炸弹
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 抛掷1次硬币如果为正面，则选择附着于对手战斗宝可梦身上的1个能量，放于弃牌区。
+  abilities:
+    - name: 苹果坠击
+      kind: Ability
+      text: 在自己的回合可以使用1次。给对手的1只宝可梦身上，放置2个伤害指示物。然后，将这只宝可梦，以及放于其身上的所有卡牌，放回自己的牌库并重洗牌库。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

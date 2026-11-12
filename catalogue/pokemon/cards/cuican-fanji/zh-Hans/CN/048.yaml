@@ -1,0 +1,13 @@
+name: 腐朽的剑
+rarity: U
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - 宝可梦道具可以附着在自己的宝可梦身上。每只宝可梦身上只可以附着1张宝可梦道具，并保持附加状态。
+    - 身上放有这张卡牌的「苍响V」所使用的招式，给对手战斗宝可梦造成的伤害「+30」。
+    - 在自己的回合可以使用任意张物品卡。

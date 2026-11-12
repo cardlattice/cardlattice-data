@@ -1,0 +1,8 @@
+name: 极光能量
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 当要将这张卡牌，从手牌附着于宝可梦身上时，必须将自己的1张手牌放于弃牌区。
+    - 只要这张卡牌，被附着于宝可梦身上，就可被视作1个所有属性的能量。

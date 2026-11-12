@@ -1,0 +1,39 @@
+name: 藏玛然特V
+collectorNumber: 084/S-P
+releaseDate: 2023-10-28
+regulationMark: D
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 突袭撞击
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "130"
+      text: 选择附着于对手战斗宝可梦身上的1个特殊能量，放于弃牌区。
+  abilities:
+    - name: 不屈之盾
+      kind: Ability
+      text: 这只宝可梦，不会受到对手「宝可梦VMAX」的招式的伤害。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。
+stamps:
+  - china-first-anniversary
+collections:
+  - pokemon-collection-china-first-anniversary-zh-hans-cn

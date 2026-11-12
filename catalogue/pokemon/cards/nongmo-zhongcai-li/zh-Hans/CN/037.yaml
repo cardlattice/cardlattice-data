@@ -1,0 +1,30 @@
+name: 莱希拉姆
+rarity: A
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  nationalDex:
+    - 643
+  species: 白阳宝可梦
+  heightMetres: 3.2
+  weightKilograms: 330
+  flavourText: 莱希拉姆的尾部燃烧的话，就会产生热能令大气运动，让世界的天气发生变化。
+  attacks:
+    - name: 奇幻闪焰
+      cost:
+        - Fire
+        - Lightning
+        - Darkness
+      damage: "270"
+      text: 给这只宝可梦也造成60点伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3

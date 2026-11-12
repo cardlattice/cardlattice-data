@@ -1,0 +1,33 @@
+name: 霜奶仙VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Psychic
+  stage: VMAX
+  evolvesFrom: 霜奶仙V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 妆点
+      cost:
+        - Colorless
+      text: 给自己的所有备战宝可梦，各附着1张牌库中的{Psychic}能量。并重洗牌库。
+    - name: 超极巨甜奶泡击
+      cost:
+        - Psychic
+        - Psychic
+      damage: 60×
+      text: 将附着于自己场上宝可梦身上的任意数量的能量放于弃牌区，造成其张数×60点伤害。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

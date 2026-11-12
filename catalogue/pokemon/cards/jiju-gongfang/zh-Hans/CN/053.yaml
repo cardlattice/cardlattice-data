@@ -1,0 +1,11 @@
+name: 高速雷能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Lightning
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就会被视作1个{Lightning}能量。
+    - 当把这张卡牌从手牌附着于{Lightning}宝可梦身上时，从自己的牌库上方抽取2张卡牌。

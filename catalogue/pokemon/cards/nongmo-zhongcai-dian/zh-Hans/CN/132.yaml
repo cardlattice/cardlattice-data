@@ -1,0 +1,11 @@
+name: 露璃娜
+rarity: SR
+illustrators:
+  - Ryuta Fuse
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 选择自己弃牌区中的{Water}宝可梦和{Water}能量合计最多4张，在给对手看过之后，加入手牌。
+    - 在自己的回合只可以使用1张支援者卡。

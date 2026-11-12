@@ -1,0 +1,12 @@
+name: 梨花的信念
+rarity: U
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - Single Strike
+  rules:
+    - 在这个回合，自己的「一击」宝可梦所使用的招式，给对手战斗宝可梦造成的伤害，会因为每张对手已经获得的奖赏卡而「+20」。
+    - 在自己的回合只可以使用1张支援者卡。

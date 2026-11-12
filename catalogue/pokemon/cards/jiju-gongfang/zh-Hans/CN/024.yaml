@@ -1,0 +1,35 @@
+name: 怖思壶
+rarity: U
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 来悲茶
+  nationalDex:
+    - 855
+  species: 红茶宝可梦
+  heightMetres: 0.2
+  weightKilograms: 0.4
+  flavourText: 住在古董茶壶里。虽然大多数都是赝品，但偶尔也能发现真货。
+  attacks:
+    - name: 疯狂派对
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 造成自己弃牌区中，拥有招式「疯狂派对」的宝可梦的数量×20点伤害。
+  abilities:
+    - name: 茶点时间
+      kind: Ability
+      text: 在自己的回合，如果从自己的手牌将拥有招式「疯狂派对」的1张宝可梦放于弃牌区的话，则可使用1次。从自己的牌库上方抽取2张卡牌。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

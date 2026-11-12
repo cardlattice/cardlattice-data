@@ -1,0 +1,35 @@
+name: 喷火龙V
+rarity: SSR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 利爪劈开
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+    - name: 火焰旋涡
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "220"
+      text: 选择附着于这只宝可梦身上的2个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

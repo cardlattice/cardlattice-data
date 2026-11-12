@@ -1,0 +1,11 @@
+name: 洛兹大厦
+rarity: U
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 双方玩家，每次在自己的回合有1次机会，可从牌库上方抽取卡牌，直到自己的手牌变为3张为止。
+    - 在自己的回合只可以将1张竞技场卡放到战斗区旁。如果有别的名称的竞技场卡被放入场上，则将此卡放入弃牌区。

@@ -1,0 +1,32 @@
+name: 丰蜜龙
+rarity: R
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: 啃果虫
+  nationalDex:
+    - 842
+  species: 苹果汁宝可梦
+  heightMetres: 0.4
+  weightKilograms: 13
+  flavourText: 啃果虫吃了甜苹果后进化而成。以虫宝可梦为食，会从体内发出甜甜的香味引诱它们上钩。
+  attacks:
+    - name: 日光束
+      cost:
+        - Grass
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 美味香气
+      kind: Ability
+      text: 在自己的回合可以使用1次。抛掷1次硬币如果为正面，则选择对手备战区的1只基础宝可梦，将其与战斗宝可梦互换。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3

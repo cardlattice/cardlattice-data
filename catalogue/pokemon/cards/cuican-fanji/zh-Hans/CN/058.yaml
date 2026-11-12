@@ -1,0 +1,11 @@
+name: 芳香草能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Grass
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就会被视作1个{Grass}能量。
+    - 身上附有这张卡牌的{Grass}宝可梦，不会陷入特殊状态，已经处于的特殊状态，也全部恢复。

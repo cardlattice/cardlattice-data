@@ -1,0 +1,31 @@
+name: 伽勒尔葱游兵V
+rarity: RR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 星辰坠落
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "200"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+  abilities:
+    - name: 誓约长矛
+      kind: Ability
+      text: 在自己的回合，当这只宝可梦从备战区被放入战斗场时，可使用1次。选择任意数量的附着于自己场上宝可梦身上的{Fighting}能量，转附于这只宝可梦身上。
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

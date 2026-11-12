@@ -1,0 +1,13 @@
+name: 马士德 连击流
+rarity: U
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - Rapid Strike
+  rules:
+    - 这张卡牌，只有在自己的手牌只剩这1张时才可使用。
+    - 选择自己弃牌区中的1张「连击」宝可梦，放于备战区。然后，从自己牌库上方抽取5张卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

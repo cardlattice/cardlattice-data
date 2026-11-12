@@ -1,0 +1,35 @@
+name: 奈克洛兹玛V
+rarity: RR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 棱镜光射
+      cost:
+        - Psychic
+      damage: "20"
+      text: 给对手的2只备战宝可梦，也各造成20点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 特殊辐射
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: 100+
+      text: 如果这只宝可梦身上附有特殊能量的话，则追加造成120点伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

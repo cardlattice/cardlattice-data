@@ -1,0 +1,34 @@
+name: 波克基斯V
+rarity: SR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 白风
+      cost:
+        - Colorless
+      damage: 20+
+      text: 如果对手的战斗宝可梦为进化宝可梦的话，则追加造成70点伤害。
+    - name: 高速之翼
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

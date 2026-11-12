@@ -1,0 +1,30 @@
+name: 盖欧卡
+rarity: A
+illustrators:
+  - Anesaki Dynamic
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 382
+  species: 海底宝可梦
+  heightMetres: 4.5
+  weightKilograms: 352
+  flavourText: 据说能用下大雨的能力扩张海洋。一直沉睡在海沟的底部。
+  attacks:
+    - name: 奇幻浪涌
+      cost:
+        - Water
+        - Lightning
+        - Metal
+        - Colorless
+      text: 给对手的所有宝可梦，各造成80点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3

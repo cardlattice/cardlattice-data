@@ -1,0 +1,32 @@
+name: 卡璞・蝶蝶GX
+illustrators:
+  - 5ban Graphics
+regulationMark: A
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 能量驱动
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 造成双方战斗宝可梦身上附有的能量数量×20点伤害。这个招式的伤害不计算弱点、抗性。
+    - name: 卡璞治愈GX
+      cost:
+        - Psychic
+      text: 将自己的2只备战宝可梦的HP，全部回复。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 奇迹触摸
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可使用1次。将自己牌库中的1张支援者，在给对手看过之后，加入手牌。并重洗牌库。
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

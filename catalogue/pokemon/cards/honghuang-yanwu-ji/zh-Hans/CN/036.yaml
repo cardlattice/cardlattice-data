@@ -1,0 +1,35 @@
+name: 章鱼桶
+rarity: R
+illustrators:
+  - Souichirou Gunjima
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 铁炮鱼
+  subtypes:
+    - Rapid Strike
+  nationalDex:
+    - 224
+  species: 喷射宝可梦
+  heightMetres: 0.9
+  weightKilograms: 28.5
+  flavourText: 有着结实的坚硬脑袋。会用带吸盘的脚缠住对手，然后再一个劲地用头猛撞。
+  attacks:
+    - name: 攀瀑
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 连击搜索
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己牌库中的1张「连击」卡，在给对手看过之后，加入手牌。并重洗牌库。在这个回合，如果已经使用了其他的「连击搜索」的话，则无法使用这个特性。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2

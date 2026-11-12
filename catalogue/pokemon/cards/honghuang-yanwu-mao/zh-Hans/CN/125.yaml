@@ -1,0 +1,13 @@
+name: 一击能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+    - Single Strike
+  types:
+    - Fighting
+    - Darkness
+  rules:
+    - 这张卡牌只能附着于「一击」宝可梦身上，如果这张卡牌附着于「一击」宝可梦之外的宝可梦身上的话，则将其放于弃牌区。
+    - 只要这张卡牌，被附着于宝可梦身上，就被视作1个{Fighting}{Darkness}2种属性的能量，且身上附有这张卡牌的宝可梦使用的招式，给对手战斗宝可梦造成的伤害「+20」。

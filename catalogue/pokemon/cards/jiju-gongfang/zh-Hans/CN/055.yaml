@@ -1,0 +1,11 @@
+name: 捕获能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Colorless
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就会被视作1个{Colorless}能量。
+    - 当把这张卡牌从手牌附着于宝可梦身上时，选择自己牌库中的1张基础宝可梦，放于备战区。并重洗牌库。

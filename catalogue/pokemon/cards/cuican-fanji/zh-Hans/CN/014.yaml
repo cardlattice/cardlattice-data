@@ -1,0 +1,33 @@
+name: 雷伊布
+rarity: U
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: 伊布
+  nationalDex:
+    - 135
+  species: 雷宝可梦
+  heightMetres: 0.8
+  weightKilograms: 24.5
+  flavourText: 当雷伊布生气或是吃惊时，它全身的体毛会像针一样竖起来刺穿对手。
+  attacks:
+    - name: 雷电球
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 迅雷觉醒
+      kind: Ability
+      text: 如果这只宝可梦身上放有「回忆胶囊」的话，则双方场上{Water}宝可梦的特性，全部消除。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

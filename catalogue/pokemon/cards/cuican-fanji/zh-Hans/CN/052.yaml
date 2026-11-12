@@ -1,0 +1,11 @@
+name: 索德与西尔迪
+rarity: C
+illustrators:
+  - Hideki Ishikawa
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 选择自己弃牌区中的1张训练家，在给对手看过之后，询问对手是否可以加入手牌。如果对手允许，则将选择的卡牌加入手牌。如果对手不允许，则将选择的卡牌放回弃牌区，从自己的牌库上方抽取3张卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

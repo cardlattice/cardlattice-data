@@ -1,0 +1,31 @@
+name: 伽勒尔双弹瓦斯
+rarity: S
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: 瓦斯弹
+  nationalDex:
+    - 110
+  species: 毒气宝可梦
+  heightMetres: 3
+  weightKilograms: 16
+  flavourText: 会吸收大气中的污染成分，然后吐出新鲜的空气。这就是它的排泄方式。
+  attacks:
+    - name: 腐坏毒液
+      cost:
+        - Darkness
+      text: 使对手的战斗宝可梦陷入中毒状态。因这个中毒而放置的伤害指示物数量变为4个。
+  abilities:
+    - name: 化学变化气体
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，对手场上宝可梦的特性（除「化学变化气体」外），全部消除。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3

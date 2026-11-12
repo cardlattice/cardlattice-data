@@ -1,0 +1,29 @@
+name: 掘掘兔
+rarity: C
+illustrators:
+  - Tomokazu Komiya
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  nationalDex:
+    - 659
+  species: 挖洞宝可梦
+  heightMetres: 0.4
+  weightKilograms: 5
+  flavourText: 擅长用耳朵挖洞。只需一个晚上就能挖出深至地下10米的巢穴。
+  attacks:
+    - name: 疯狂派对
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 造成自己弃牌区中，拥有招式「疯狂派对」的宝可梦的数量×20点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

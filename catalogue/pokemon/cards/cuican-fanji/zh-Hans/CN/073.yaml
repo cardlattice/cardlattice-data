@@ -1,0 +1,29 @@
+name: 百变怪VMAX
+rarity: SSR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Colorless
+  stage: VMAX
+  evolvesFrom: 百变怪V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨变身
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 选择对手战斗宝可梦所拥有的1个招式，作为这个招式使用。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

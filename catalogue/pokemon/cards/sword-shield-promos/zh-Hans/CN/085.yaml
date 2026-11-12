@@ -1,0 +1,39 @@
+name: 苍响V
+collectorNumber: 085/S-P
+releaseDate: 2023-10-28
+regulationMark: D
+illustrators:
+  - aoki
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 英勇之剑
+      cost:
+        - Metal
+        - Metal
+        - Metal
+      damage: "230"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+  abilities:
+    - name: 不挠之剑
+      kind: Ability
+      text: 在自己的回合可以使用1次，如果使用了，则自己的回合结束。查看自己牌库上方3张卡牌，选择其中任意数量的{Metal}能量，附着于这只宝可梦身上。将剩余的卡牌加入手牌。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。
+stamps:
+  - china-first-anniversary
+collections:
+  - pokemon-collection-china-first-anniversary-zh-hans-cn

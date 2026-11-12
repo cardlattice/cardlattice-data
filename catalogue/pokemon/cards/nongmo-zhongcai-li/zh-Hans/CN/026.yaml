@@ -1,0 +1,33 @@
+name: 萨戮德V
+rarity: RR
+illustrators:
+  - PLANETA Igarashi
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 束缚
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦，无法撤退。
+    - name: 丛林攀升
+      cost:
+        - Grass
+        - Grass
+      damage: "100"
+      text: 若希望，可选择自己手牌中最多2张基本能量，以任意方式附着于自己的备战宝可梦身上。然后，回复被附着能量的宝可梦的全部HP。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

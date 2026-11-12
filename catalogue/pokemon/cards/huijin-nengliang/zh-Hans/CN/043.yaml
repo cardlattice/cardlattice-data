@@ -1,0 +1,7 @@
+name: 基本恶能量
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Darkness

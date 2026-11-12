@@ -1,0 +1,32 @@
+name: 水伊布
+rarity: U
+illustrators:
+  - kodama
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 伊布
+  nationalDex:
+    - 134
+  species: 吐泡宝可梦
+  heightMetres: 1
+  weightKilograms: 29
+  flavourText: 当水伊布开始微微颤动它全身上下的鳍，就表示几个小时之后要下雨了。
+  attacks:
+    - name: 极光束
+      cost:
+        - Water
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 激流觉醒
+      kind: Ability
+      text: 如果这只宝可梦身上放有「回忆胶囊」的话，则双方场上{Fire}宝可梦的特性，全部消除。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2

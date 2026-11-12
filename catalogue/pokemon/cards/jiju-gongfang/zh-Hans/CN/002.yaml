@@ -1,0 +1,34 @@
+name: 破破舵轮VMAX
+rarity: RRR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Grass
+  stage: VMAX
+  evolvesFrom: 破破舵轮V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 嗡嗡锁链
+      cost:
+        - Grass
+      text: 给对手的1只宝可梦，造成这只宝可梦身上附有的{Grass}能量数量×30点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 极巨船锚
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "240"
+      text: 在下一个自己的回合，这只宝可梦无法使用「极巨船锚」。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

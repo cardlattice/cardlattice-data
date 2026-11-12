@@ -1,0 +1,11 @@
+name: 高温火能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Fire
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就会被视作1个{Fire}能量。
+    - 身上附有这张卡牌的{Fire}宝可梦的最大HP增加「20」点。

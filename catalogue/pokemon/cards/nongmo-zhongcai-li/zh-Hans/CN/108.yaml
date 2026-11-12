@@ -1,0 +1,11 @@
+name: 彩豆
+rarity: U
+illustrators:
+  - take
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 将自己牌库上方5张卡牌放于弃牌区，将其中的所有能量，以任意方式附着于备战区的{Fighting}宝可梦身上。
+    - 在自己的回合只可以使用1张支援者卡。

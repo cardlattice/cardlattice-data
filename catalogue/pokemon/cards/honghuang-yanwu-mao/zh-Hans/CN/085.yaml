@@ -1,0 +1,34 @@
+name: 黑鲁加
+rarity: R
+illustrators:
+  - Ryota Murayama
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: 戴鲁比
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 229
+  species: 阴暗宝可梦
+  heightMetres: 1.4
+  weightKilograms: 35
+  flavourText: 恐怖的长嚎是其特征。过去人们曾认为它是来自地狱的使者而对其心存畏惧。
+  attacks:
+    - name: 暗之牙
+      cost:
+        - Darkness
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: 一击咆哮
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己牌库中的1张「一击能量」，附着于自己的「一击」宝可梦身上。并重洗牌库。然后，在被附着的宝可梦身上放置2个伤害指示物。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

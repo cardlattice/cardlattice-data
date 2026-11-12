@@ -1,0 +1,7 @@
+name: 基本火能量
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fire

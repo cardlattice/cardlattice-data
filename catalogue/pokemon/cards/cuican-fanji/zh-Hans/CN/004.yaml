@@ -1,0 +1,33 @@
+name: 狡猾天狗
+rarity: U
+illustrators:
+  - Uta
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: 长鼻叶
+  nationalDex:
+    - 275
+  species: 邪恶宝可梦
+  heightMetres: 1.3
+  weightKilograms: 59.6
+  flavourText: 过去被敬畏为森林之神的宝可梦。有着读取对手想法并抢先一步行动的能力。
+  attacks:
+    - name: 团扇龙卷风
+      cost:
+        - Grass
+        - Colorless
+      damage: "110"
+      text: 若希望，可将对手的战斗宝可梦与备战宝可梦互换。[放于战斗场的宝可梦由对手选择。]
+  abilities:
+    - name: 天狗的替身
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，对手手牌里的支援者的效果，都会变为「从自己的牌库上方抽取3张卡牌。」。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3

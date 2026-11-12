@@ -1,0 +1,30 @@
+name: 白蓬蓬V
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 飘飘扬
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 若希望，可将这只宝可梦，以及放于其身上的所有卡牌，放回自己的牌库并重洗牌库。
+  abilities:
+    - name: 幸福配对
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可使用1次。选择自己弃牌区中的1张支援者。在给对手看过之后，加入手牌。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

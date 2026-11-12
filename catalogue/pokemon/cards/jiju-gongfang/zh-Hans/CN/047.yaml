@@ -1,0 +1,11 @@
+name: 道具拆除器
+rarity: U
+illustrators:
+  - Studio Bora Inc.
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 选择放于双方场上宝可梦身上的最多2张「宝可梦道具」，放于弃牌区。
+    - 在自己的回合可以使用任意张物品卡。

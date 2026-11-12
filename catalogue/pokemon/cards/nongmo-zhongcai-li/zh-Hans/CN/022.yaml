@@ -1,0 +1,33 @@
+name: 狙射树枭
+rarity: R
+illustrators:
+  - Ryota Murayama
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: 投羽枭
+  nationalDex:
+    - 724
+  species: 箭羽宝可梦
+  heightMetres: 1.6
+  weightKilograms: 36.6
+  flavourText: 会像射箭那样射出藏在自己翅膀里的箭羽。只要瞄准目标就绝不会射偏。
+  attacks:
+    - name: 分叉箭矢
+      cost:
+        - Grass
+        - Colorless
+      damage: "90"
+      text: 给对手的2只备战宝可梦，也各造成20点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 密林伪装
+      kind: Ability
+      text: 这只宝可梦，不会受到对手「宝可梦V・GX」的招式的伤害。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2

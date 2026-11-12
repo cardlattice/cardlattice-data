@@ -1,0 +1,11 @@
+name: 惊悚超能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Psychic
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就会被视作1个{Psychic}能量。
+    - 身上附有这张卡牌的{Psychic}宝可梦，在战斗场上受到对手宝可梦的招式的伤害时，给使用了招式的宝可梦身上放置2个伤害指示物。

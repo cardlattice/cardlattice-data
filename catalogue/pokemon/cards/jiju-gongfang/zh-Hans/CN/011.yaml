@@ -1,0 +1,34 @@
+name: 伽勒尔踏冰人偶
+rarity: U
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 伽勒尔魔墙人偶
+  nationalDex:
+    - 866
+  species: 喜剧演员宝可梦
+  heightMetres: 1.5
+  weightKilograms: 58.2
+  flavourText: 踢踏舞的达人。会挥动手中的冰杖，向观众表演轻快的舞步。
+  attacks:
+    - name: 疯狂派对
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 造成自己弃牌区中，拥有招式「疯狂派对」的宝可梦的数量×20点伤害。
+  abilities:
+    - name: 曳步舞
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择1张反面朝上的对手的奖赏卡，将其与对手牌库最上方的卡牌，在反面朝上的状态下互换。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
