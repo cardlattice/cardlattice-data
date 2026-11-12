@@ -103,6 +103,9 @@
     },
     "legendPart": {
       "$ref": "pokemon-common.schema.json#/$defs/printing_legendPart"
+    },
+    "vUnionPart": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_vUnionPart"
     }
   },
   "required": ["name"]
