@@ -265,6 +265,7 @@
                 "type": "array",
                 "items": {
                   "enum": [
+                    "TAG TEAM",
                     "Prism Star",
                     "Single Strike",
                     "Rapid Strike",
@@ -512,6 +513,7 @@
         "Gigantamax",
         "Eternamax",
         "Gold Star",
+        "Shining",
         "Single Strike",
         "Rapid Strike",
         "Fusion Strike",
@@ -543,6 +545,9 @@
         "PR",
         "FUR",
         "A",
+        "CHR",
+        "BWR",
+        "MUR",
         "●",
         "◆",
         "★",
