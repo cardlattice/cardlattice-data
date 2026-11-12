@@ -12,6 +12,8 @@ jobs:
   schema:
     name: Validate Pokémon YAML schema
     runs-on: ubuntu-latest
+    outputs:
+      build-needed: ${{ steps.changes.outputs.needed }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
@@ -22,6 +24,12 @@ jobs:
           node-version: '24.22.2'
       - run: npm install --global pnpm@12.18.0
       - run: pnpm install --frozen-lockfile
+      - name: Detect catalogue changes
+        id: changes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: node scripts/catalogue-build-needed.ts "$BASE_SHA"
       - name: Check validator formatting, lint, types and tests
         run: pnpm check:tools
       - name: Validate only changed PR data
@@ -36,6 +44,7 @@ jobs:
   build:
     name: Validate data and build catalogue
     needs: schema
+    if: github.event_name != 'pull_request' || needs.schema.outputs.build-needed == 'true'
     runs-on: ubuntu-latest
     outputs:
       source: ${{ steps.source.outputs.commit }}
@@ -62,6 +71,15 @@ jobs:
           node-version: '24.22.2'
       - name: Install Rust
         run: rustup update stable && rustup default stable
+      - name: Cache Rust compiler and dependencies
+        uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2
+        with:
+          workspaces: .builder -> target
+          key: ${{ steps.source.outputs.builder }}
+          cache-workspace-crates: 'true'
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Compile catalogue tool
+        run: cargo build --locked --manifest-path .builder/Cargo.toml -p cardlattice-api --bin cardlattice-api
       - name: Full data validation and compiler regressions on main
         if: github.event_name != 'pull_request'
         run: ./scripts/check.sh

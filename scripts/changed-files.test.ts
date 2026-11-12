@@ -5,6 +5,7 @@ import { join } from "node:path";
 import { promisify } from "node:util";
 import { afterEach, expect, it } from "vitest";
 import { changedFiles } from "./changed-files.ts";
+import { catalogueBuildNeeded } from "./catalogue-build-needed.ts";
 import { validateChanged } from "./validate-schema.ts";
 
 const execute = promisify(execFile);
@@ -48,6 +49,7 @@ it("validates only added and modified card/set files", async () => {
   await mkdir(join(root, "catalogue/pokemon/sets"), { recursive: true });
   await writeFile(join(root, "catalogue/pokemon/sets/example.yaml"), "name: Example\n");
   await commit(root);
+  expect(await catalogueBuildNeeded(base, root)).toBe(true);
   expect(await validateChanged(base, root)).toEqual({
     cards: 2,
     sets: 1,
@@ -72,6 +74,7 @@ it("checks no data for documentation-only changes and fails closed on invalid re
   const { root, base } = await repository();
   await writeFile(join(root, "README.md"), "Example\n");
   await commit(root);
+  expect(await catalogueBuildNeeded(base, root)).toBe(false);
   expect(await validateChanged(base, root)).toEqual({
     cards: 0,
     sets: 0,
@@ -129,4 +132,43 @@ it("validates changed games, series, identities and releases without scanning ol
   for (const file of Object.keys(files)) await writeFile(join(root, file), "unexpected: true\n");
   await commit(root);
   expect(new Set((await validateChanged(base, root)).problems.map((p) => p.file)).size).toBe(4);
+});
+
+it("requires catalogue builds for deletions and renames into documentation", async () => {
+  const { root, base } = await repository();
+  await rename(join(root, cardDirectory, "001.yaml"), join(root, "README.md"));
+  await commit(root);
+  expect(await catalogueBuildNeeded(base, root)).toBe(true);
+  await rm(join(root, cardDirectory, "002.yaml"));
+  const deletionBase = await git(root, "rev-parse", "HEAD");
+  await commit(root);
+  expect(await catalogueBuildNeeded(deletionBase, root)).toBe(true);
+});
+
+it.each([
+  "builder-ref.txt",
+  "schemas/new.json",
+  "scripts/build.sh",
+  ".github/workflows/catalogue.yml",
+  "pnpm-lock.yaml",
+  "status/client.js",
+  "unknown-input",
+  "catalogue/README.md",
+])("requires a build when %s changes alongside documentation", async (path) => {
+  const { root, base } = await repository();
+  await mkdir(join(root, path, ".."), { recursive: true });
+  await writeFile(join(root, path), "changed\n");
+  await writeFile(join(root, "README.md"), "Documentation\n");
+  await commit(root);
+  expect(await catalogueBuildNeeded(base, root)).toBe(true);
+});
+
+it("skips nested documentation changes but rejects missing or invalid base commits", async () => {
+  const { root, base } = await repository();
+  await mkdir(join(root, "docs"));
+  await writeFile(join(root, "docs", "guide with spaces.md"), "Guide\n");
+  await commit(root);
+  expect(await catalogueBuildNeeded(base, root)).toBe(false);
+  await expect(catalogueBuildNeeded("main", root)).rejects.toThrow("full Git commit SHA");
+  await expect(catalogueBuildNeeded("0".repeat(40), root)).rejects.toThrow();
 });
