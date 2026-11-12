@@ -196,8 +196,26 @@
             },
             "else": {
               "properties": {
-                "hp": false,
-                "abilities": false
+                "hp": false
+              },
+              "if": {
+                "required": ["category", "subtypes"],
+                "properties": {
+                  "category": {
+                    "const": "trainer"
+                  },
+                  "subtypes": {
+                    "type": "array",
+                    "contains": {
+                      "const": "Pokémon Tool"
+                    }
+                  }
+                }
+              },
+              "else": {
+                "properties": {
+                  "abilities": false
+                }
               }
             }
           }
@@ -277,6 +295,7 @@
                     "Supporter",
                     "Stadium",
                     "Pokémon Tool",
+                    "Pokémon Tool F",
                     "ACE SPEC"
                   ]
                 }
@@ -391,6 +410,9 @@
           "minLength": 1,
           "maxLength": 2000,
           "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+        },
+        "power": {
+          "$ref": "pokemon-common.schema.json#/$defs/power"
         }
       },
       "required": ["name", "cost"]
@@ -413,6 +435,9 @@
         },
         "kind": {
           "$ref": "pokemon-common.schema.json#/$defs/abilityKind"
+        },
+        "power": {
+          "$ref": "pokemon-common.schema.json#/$defs/power"
         }
       },
       "required": ["name", "text", "kind"]
@@ -524,6 +549,7 @@
         "Supporter",
         "Stadium",
         "Pokémon Tool",
+        "Pokémon Tool F",
         "ACE SPEC",
         "Basic Energy",
         "Special Energy"
@@ -547,8 +573,10 @@
         "FUR",
         "A",
         "CHR",
+        "CSR",
         "BWR",
         "MUR",
+        "K",
         "●",
         "◆",
         "★",
@@ -812,6 +840,10 @@
           "type": "null"
         }
       ]
+    },
+    "power": {
+      "type": "string",
+      "enum": ["VSTAR"]
     }
   }
 }
