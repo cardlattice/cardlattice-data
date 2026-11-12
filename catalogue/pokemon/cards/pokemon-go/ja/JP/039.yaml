@@ -1,0 +1,34 @@
+name: ソルロック
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: かいてんアタック
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: サンエナジー
+      text: 自分の番に1回使える。自分のトラッシュから{Psychic}エネルギーを1枚選び、自分の「ルナトーン」につける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 338
+  species: いんせきポケモン
+  heightMetres: 1.2
+  weightKilograms: 154
+  flavourText: 体を 回転 させると 太陽の ような 光を 放ち 敵の 目を 眩ませる。
+rarity: U
+illustrators:
+  - Sekio
+stamps:
+  - pokemon-go

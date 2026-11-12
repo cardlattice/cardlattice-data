@@ -1,0 +1,41 @@
+name: イワーク
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: がんせきふうじ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: いかりのスイング
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: このポケモンにのっているダメカンの数×50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 95
+  species: いわへびポケモン
+  heightMetres: 8.8
+  weightKilograms: 210
+  flavourText: 地中を 掘り進みながら いろんな 硬いものを 取り込み 頑丈な 体をつくる。
+rarity: C
+illustrators:
+  - Mitsuhiro Arita
+stamps:
+  - pokemon-go

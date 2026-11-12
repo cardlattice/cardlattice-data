@@ -1,0 +1,38 @@
+name: バクーダ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ばくれつだん
+      cost:
+        - Fire
+        - Colorless
+      text: 相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: ヒートブラスト
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 323
+  species: ふんかポケモン
+  heightMetres: 1.9
+  weightKilograms: 220
+  flavourText: 怒ると 灼熱の マグマを 背中の コブから 噴き上げる。 火山の 火口に 住処が ある。
+  evolvesFrom: ドンメル
+rarity: C
+illustrators:
+  - yuu
+stamps:
+  - pokemon-go

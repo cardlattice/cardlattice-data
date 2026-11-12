@@ -1,0 +1,35 @@
+name: ラッキー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: おいしいたまご
+      cost:
+        - Colorless
+      text: 自分のベンチポケモンを1匹選び、HPを「30」回復する。
+    - name: ひっぱたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 113
+  species: たまごポケモン
+  heightMetres: 1.1
+  weightKilograms: 34.6
+  flavourText: タマゴは 栄養満点で 味も 抜群。 高級な 食材として 扱われる。
+rarity: U
+illustrators:
+  - ryoma uratsuka
+stamps:
+  - pokemon-go

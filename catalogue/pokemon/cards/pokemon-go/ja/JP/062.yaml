@@ -1,0 +1,37 @@
+name: マメパト
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: なきごえ
+      cost:
+        - Colorless
+      text: 次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。
+    - name: はばたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 519
+  species: こばとポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.1
+  flavourText: 人の住む 場所に 現れる。 エサを まくと 何百匹でも 集まってくるので 注意だぞ。
+rarity: C
+illustrators:
+  - N-DESIGN Inc.
+stamps:
+  - pokemon-go

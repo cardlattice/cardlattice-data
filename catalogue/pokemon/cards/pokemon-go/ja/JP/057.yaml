@@ -1,0 +1,36 @@
+name: エイパム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ちょこまか
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: ビンタ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 190
+  species: おながポケモン
+  heightMetres: 0.8
+  weightKilograms: 11.5
+  flavourText: 木の 上から 獲物が いないか 探す。 好物の アマカジを 見ると 興奮して 飛びかかるぞ。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma
+stamps:
+  - pokemon-go

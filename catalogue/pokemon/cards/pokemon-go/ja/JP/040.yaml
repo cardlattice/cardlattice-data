@@ -1,0 +1,33 @@
+name: ローブシンV
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: カウンター
+      cost:
+        - Fighting
+      damage: 20+
+      text: 前の相手の番に、このポケモンが受けたワザのダメージと同じダメージ追加。
+    - name: ばくれつパンチ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: コインを1回投げオモテなら、90ダメージ追加し、相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - Ayaka Yoshida

@@ -1,0 +1,11 @@
+name: 基本鋼エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Metal
+printedDenominator: null
+regulationMark: null
+stamps:
+  - pokemon-go

@@ -1,0 +1,11 @@
+name: 基本悪エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Darkness
+printedDenominator: null
+regulationMark: null
+stamps:
+  - pokemon-go

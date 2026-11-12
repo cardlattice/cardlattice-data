@@ -1,0 +1,37 @@
+name: アローラ ラッタ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: みつけだす
+      cost:
+        - Darkness
+      text: 自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。
+    - name: いかりのまえば
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 20
+  species: ねずみポケモン
+  heightMetres: 0.7
+  weightKilograms: 25.5
+  flavourText: コラッタたちを 率いて 群れを 作る。 群れ同士は 仲が 悪く エサ場を 巡り 激しく 争う。
+  evolvesFrom: アローラ コラッタ
+rarity: C
+illustrators:
+  - Atsuko Nishida
+stamps:
+  - pokemon-go

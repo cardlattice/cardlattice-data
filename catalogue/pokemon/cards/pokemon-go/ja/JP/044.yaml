@@ -1,0 +1,44 @@
+name: ハガネール
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: のしかかり
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: アイアンバスター
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  nationalDex:
+    - 208
+  species: てつへびポケモン
+  heightMetres: 9.2
+  weightKilograms: 400
+  flavourText: イワークが １００年 以上 生きると 体の 成分が ダイヤのように 変化する という。
+  evolvesFrom: イワーク
+rarity: U
+illustrators:
+  - GOSSAN
+stamps:
+  - pokemon-go

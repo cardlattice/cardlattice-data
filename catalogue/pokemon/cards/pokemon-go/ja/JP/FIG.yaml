@@ -1,0 +1,11 @@
+name: 基本闘エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fighting
+printedDenominator: null
+regulationMark: null
+stamps:
+  - pokemon-go

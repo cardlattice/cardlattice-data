@@ -1,0 +1,30 @@
+name: ゼニガメ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 7
+  species: かめのこポケモン
+  heightMetres: 0.5
+  weightKilograms: 9
+  flavourText: 長い 首を 甲羅のなかに 引っこめるとき 勢いよく 水鉄砲を 発射する。
+rarity: C
+illustrators:
+  - sowsow
+stamps:
+  - pokemon-go

@@ -1,0 +1,31 @@
+name: アローラ ナッシーV
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: のびのびそだつ
+      cost:
+        - Grass
+      text: コインを1回投げオモテなら、自分の山札から{Grass}エネルギーを5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。
+    - name: ブンブンヘッド
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のポケモン1匹に、このポケモンについている{Grass}エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: SR
+illustrators:
+  - MUGENUP

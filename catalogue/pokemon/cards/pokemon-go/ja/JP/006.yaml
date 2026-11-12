@@ -1,0 +1,31 @@
+name: イトマル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: どくばり
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 167
+  species: いとはきポケモン
+  heightMetres: 0.5
+  weightKilograms: 8.5
+  flavourText: キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。
+rarity: C
+illustrators:
+  - Yuka Morii
+stamps:
+  - pokemon-go

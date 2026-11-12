@@ -1,0 +1,40 @@
+name: リザード
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ひっかく
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 5
+  species: かえんポケモン
+  heightMetres: 1.1
+  weightKilograms: 19
+  flavourText: 燃える しっぽを 振りまわし するどい ツメで 相手を 切り裂く 荒々しい 性格。
+  evolvesFrom: ヒトカゲ
+rarity: U
+illustrators:
+  - Shiburingaru
+stamps:
+  - pokemon-go
