@@ -303,3 +303,31 @@ it("checks canonical language and region spellings in printing paths", () => {
     ).toEqual([]);
   }
 });
+
+it("preserves native printed Pokédex text and measurements", () => {
+  expect(
+    validateCard(
+      "name: Original synthetic card\npokemon: {category: pokemon, flavourText: Original synthetic text., species: Original synthetic species, heightMetres: 0.3, weightKilograms: 1.5}",
+      filename,
+    ),
+  ).toEqual([]);
+  for (const field of [
+    "heightMetres: -1",
+    "weightKilograms: 1000001",
+    "heightMetres: '0.3m'",
+    "species: ' '",
+    "flavourText: ' '",
+  ]) {
+    expect(
+      validateCard(`name: Original synthetic card\npokemon: {${field}}`, filename).length,
+    ).toBeGreaterThan(0);
+  }
+  expect(
+    validateCard(
+      "name: Original synthetic trainer\npokemon: {category: trainer, heightMetres: 0.3}",
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+  for (const rarity of ["C", "U", "R", "RR", "SR", "AR", "SAR"])
+    expect(validateCard(`name: Original synthetic card\nrarity: ${rarity}`, filename)).toEqual([]);
+});

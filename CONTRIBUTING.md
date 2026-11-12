@@ -285,3 +285,21 @@ set. Remove or override incompatible inherited fields. Duplicate combinations,
 unknown editions and missing/wrong-game product references fail compilation.
 Variant product links are indexed for API product filtering. Artwork/image asset
 publication continues to use the separate rights-controlled image pipeline.
+
+## Printed localised Pokédex details
+
+When printed on the card, preserve `pokemon.flavourText` and `pokemon.species`
+in that card's language. Record printed height and weight as numeric
+`pokemon.heightMetres` and `pokemon.weightKilograms`, converting explicit printed
+units when needed. Do not fill these from a species database or another printing.
+Unknown or unprinted facts stay absent; zero is only for an explicitly printed
+zero. Measurements are nonnegative numbers bounded to 1,000,000; species text is
+limited to 200 characters and flavour text to 2,000. Species and measurements
+belong to Pokémon, not Trainer or Energy records.
+
+The rarity enum also preserves verified printed regional codes `C`, `U`, `R`, `RR`, `SR`, `AR` and `SAR`.
+They are the codes actually printed, not aliases that automatically convert into
+English rarity labels. Do not guess a rarity from artwork or finish. Add other
+verified codes to the compiler and schema together. A card with no printed rarity
+symbol may omit rarity; this does not mean an unreadable symbol has been verified
+absent.

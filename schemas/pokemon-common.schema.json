@@ -115,6 +115,25 @@
           "maxItems": 10,
           "uniqueItems": true,
           "minItems": 0
+        },
+        "flavourText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+        },
+        "species": {
+          "$ref": "pokemon-common.schema.json#/$defs/name"
+        },
+        "heightMetres": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1000000
+        },
+        "weightKilograms": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1000000
         }
       },
       "allOf": [
@@ -135,7 +154,10 @@
               "weaknesses": false,
               "resistances": false,
               "retreatCost": false,
-              "nationalDex": false
+              "nationalDex": false,
+              "species": false,
+              "heightMetres": false,
+              "weightKilograms": false
             }
           }
         },
@@ -446,6 +468,13 @@
     },
     "rarity": {
       "enum": [
+        "C",
+        "U",
+        "R",
+        "RR",
+        "SR",
+        "AR",
+        "SAR",
         "Common",
         "Uncommon",
         "Rare",
