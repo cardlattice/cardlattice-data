@@ -1,0 +1,28 @@
+name: オタチ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 161
+  species: みはりポケモン
+  heightMetres: 0.8
+  weightKilograms: 6
+  flavourText: 遠くまで 見れるように 尻尾を 使って 立つ。 敵を 見つけると 大声で 仲間に 知らせる。
+rarity: C
+illustrators:
+  - Mina Nakai

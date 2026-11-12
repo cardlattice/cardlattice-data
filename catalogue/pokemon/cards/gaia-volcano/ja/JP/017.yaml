@@ -1,0 +1,29 @@
+name: アチャモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひのこ
+      cost:
+        - Fire
+      damage: "20"
+      text: コインを1回投げウラなら、このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 255
+  species: ひよこポケモン
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  flavourText: 体内で 炎が 燃えているので 抱きしめると とても 温かい。 １０００度の 火の玉を 飛ばす。
+rarity: C
+illustrators:
+  - sui

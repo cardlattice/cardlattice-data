@@ -1,0 +1,37 @@
+name: ギルガルド
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: プロテクトチャージ
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-20」される。
+  abilities:
+    - name: ミラクルガード
+      text: このポケモンがいるかぎり、自分のポケモン全員の弱点は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 681
+  species: おうけんポケモン
+  heightMetres: 1.7
+  weightKilograms: 53
+  flavourText: 王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。
+  evolvesFrom: ニダンギル
+rarity: R
+illustrators:
+  - Kouki Saitou

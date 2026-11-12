@@ -1,0 +1,35 @@
+name: マグカルゴ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+    - name: ふくつのほのお
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンが「ポケモンEX」なら、60ダメージを追加。
+  abilities:
+    - name: Ω（オメガ）バリア
+      text: このポケモンは、相手が使うトレーナーズの効果を受けない。（ポケモンのどうぐ・スタジアムはのぞく。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: マグマッグ
+  flavourText: 体は いつも 波打っていて 溶岩のように 熱い。 ときどき 殻から 火の粉が漏れる。
+rarity: U
+illustrators:
+  - Kagemaru Himeno

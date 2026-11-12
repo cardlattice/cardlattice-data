@@ -1,0 +1,33 @@
+name: マルヤクデV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ねつほうしゃ
+      cost:
+        - Fire
+      damage: "20"
+      text: のぞむなら、このポケモンについているエネルギーを1個選び、トラッシュする。その場合、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: バーニングトレイン
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "180"
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: SR
+illustrators:
+  - 5ban Graphics

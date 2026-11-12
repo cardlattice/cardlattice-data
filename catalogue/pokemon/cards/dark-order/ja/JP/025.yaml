@@ -1,0 +1,30 @@
+name: ゾロア
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: やみにかくれる
+      cost:
+        - Darkness
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 570
+  species: わるぎつねポケモン
+  heightMetres: 0.7
+  weightKilograms: 12.5
+  flavourText: 人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。
+rarity: C
+illustrators:
+  - Naoyo Kimura

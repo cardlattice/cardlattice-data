@@ -1,0 +1,36 @@
+name: ビブラーバ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: すなかけ
+      cost:
+        - Colorless
+      damage: "20"
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+    - name: ちょうしんどう
+      cost:
+        - Grass
+        - Fighting
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 329
+  species: しんどうポケモン
+  heightMetres: 1.1
+  weightKilograms: 15.3
+  flavourText: 羽を 激しく 振動させて 超音波を 発生。 気絶した 獲物を 消化液で 溶かす。
+  evolvesFrom: ナックラー
+rarity: C
+illustrators:
+  - Yukiko Baba

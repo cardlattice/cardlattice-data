@@ -1,0 +1,38 @@
+name: アオガラス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "30"
+    - name: みだれづき
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: コインを3回投げ、オモテの数×40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 822
+  species: カラスポケモン
+  heightMetres: 0.8
+  weightKilograms: 16
+  flavourText: 足で 小石を つかんで 投げたり ロープを 敵に 巻きつけるなど 道具を あつかう 知恵を もつ。
+  evolvesFrom: ココガラ
+rarity: C
+illustrators:
+  - kirisAki

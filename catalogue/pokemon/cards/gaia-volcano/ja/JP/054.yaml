@@ -1,0 +1,35 @@
+name: フライゴン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: すなじごく
+      cost:
+        - Grass
+        - Fighting
+        - Colorless
+      damage: "80"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: サンドフラップ
+      text: 自分または相手のどちらかを選び、選ばれたプレイヤーは、手札をすべて山札にもどし、山札を切る。その後、選ばれたプレイヤーは山札を4枚引く。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 330
+  species: せいれいポケモン
+  heightMetres: 2
+  weightKilograms: 82
+  flavourText: 砂漠の精霊 と 呼ばれる。 はばたくことで 巻き起こした 砂嵐の 中に 隠れている。
+  evolvesFrom: ビブラーバ
+rarity: R
+illustrators:
+  - kirisAki

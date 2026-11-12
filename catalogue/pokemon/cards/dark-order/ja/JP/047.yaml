@@ -1,0 +1,11 @@
+name: エレキパワー
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - この番、自分の{Lightning}ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Eske Yoshinob

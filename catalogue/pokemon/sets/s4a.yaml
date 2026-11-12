@@ -6,5 +6,8 @@ printedIdentifiers:
   - language: ja
     region: JP
     code: S4a
+  - language: ko
+    region: KR
+    code: S4a
 printedDenominator: 190
 regulationMark: D

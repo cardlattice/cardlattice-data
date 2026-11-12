@@ -1,0 +1,30 @@
+name: サーナイトVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Psychic
+  stage: VMAX
+  attacks:
+    - name: ダイキュアー
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "180"
+      text: このポケモンのHPを「50」回復する。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: サーナイトV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

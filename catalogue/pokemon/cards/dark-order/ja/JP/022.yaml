@@ -1,0 +1,37 @@
+name: グラエナ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: かみつく
+      cost:
+        - Darkness
+      damage: "30"
+    - name: あんこくのキバ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手の手札からオモテを見ないで、1枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 262
+  species: かみつきポケモン
+  heightMetres: 1
+  weightKilograms: 37
+  flavourText: １０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。
+  evolvesFrom: ポチエナ
+rarity: U
+illustrators:
+  - kirisAki

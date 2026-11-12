@@ -1,0 +1,36 @@
+name: マシェード
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: またたくひかり
+      cost:
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。
+    - name: フォレストフィアー
+      cost:
+        - Psychic
+        - Colorless
+      damage: 60+
+      text: 場に「ルミナスメイズの森」が出ているなら、60ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 756
+  species: はっこうポケモン
+  heightMetres: 1
+  weightKilograms: 11.5
+  flavourText: 点滅する 胞子の 光りで 獲物を おびき寄せて 眠らせる。 指先から 生気を 吸い取る。
+  evolvesFrom: ネマシュ
+rarity: U
+illustrators:
+  - Misa Tsutsui

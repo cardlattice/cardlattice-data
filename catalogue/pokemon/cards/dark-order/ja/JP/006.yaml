@@ -1,0 +1,39 @@
+name: デンリュウGX
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: パワーリチャージ
+      cost:
+        - Lightning
+      damage: "30"
+      text: 自分のトラッシュにある「エレキパワー」をすべて、相手に見せてから、手札に加える。
+    - name: インパクトボルト
+      cost:
+        - Lightning
+        - Lightning
+      damage: "150"
+      text: このポケモンについている{Lightning}エネルギーを、すべてトラッシュする。
+    - name: エレクトリカルGX
+      cost:
+        - Lightning
+      text: 自分の山札にあるポケモンを7枚まで、相手に見せてから、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  evolvesFrom: モココ
+rarity: RR
+illustrators:
+  - 5ban Graphics

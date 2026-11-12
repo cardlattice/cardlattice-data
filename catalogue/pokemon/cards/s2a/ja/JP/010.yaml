@@ -1,0 +1,38 @@
+name: グソクムシャ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ぎゃっきょうぎり
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 相手の場の「ポケモンV・GX」の数×50ダメージ追加。
+    - name: スマッシュターン
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 768
+  species: そうこうポケモン
+  heightMetres: 2
+  weightKilograms: 108
+  flavourText: 勝つためには 手段を 問わない。 相手の 隙を ついて 前脚の 小さな ツメで とどめを 刺す。
+  evolvesFrom: コソクムシ
+rarity: R
+illustrators:
+  - Ryuta Fuse

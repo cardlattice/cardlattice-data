@@ -1,0 +1,33 @@
+name: ジグザグマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: すなかけ
+      cost:
+        - Colorless
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+    - name: ずつき
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 263
+  species: まめだぬきポケモン
+  heightMetres: 0.4
+  weightKilograms: 17.5
+  flavourText: 好奇心 旺盛な ポケモン。 なににでも 興味を 持つので いつも ジグザグに 歩いている。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

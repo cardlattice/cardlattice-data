@@ -1,0 +1,31 @@
+name: サンダー
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: アサルトサンダー
+      cost:
+        - Lightning
+      damage: 10+
+      text: この番、このポケモンがベンチからバトル場に出ていたなら、70ダメージ追加。このワザのダメージは弱点を計算しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 145
+  species: でんげきポケモン
+  heightMetres: 1.6
+  weightKilograms: 52.6
+  flavourText: 雷雲の 中に いると 言われる 伝説の ポケモン。 雷を 自在に 操る。
+rarity: R
+illustrators:
+  - kawayoo

@@ -1,0 +1,32 @@
+name: サーナイトV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: マジカルショット
+      cost:
+        - Psychic
+      damage: "30"
+    - name: みなぎるはどう
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: 120+
+      text: この番、このポケモンのHPを回復していたなら、80ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - Kagemaru Himeno

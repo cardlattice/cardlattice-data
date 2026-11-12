@@ -1,0 +1,35 @@
+name: ニドクイン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: どくづき
+      cost:
+        - Psychic
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+    - name: ダイナマイトパンチ
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "70"
+      text: 弱点の計算をせずに、このポケモンにも20ダメージ。
+  abilities:
+    - name: Ω（オメガ）連打
+      text: このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ニドリーナ
+  flavourText: 硬くて 針のような ウロコが 体を 覆っている。 興奮すると 針が 逆立つ。
+rarity: U
+illustrators:
+  - PLANETA

@@ -1,0 +1,14 @@
+name: シールドエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Metal}ポケモンにしかつけられず、ついているかぎり{Metal}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Metal}ポケモンが、相手のポケモンから受けるワザのダメージは「-10」される。
+      （このカードが{Metal}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Metal
+rarity: U
+illustrators:
+  - 5ban Graphics

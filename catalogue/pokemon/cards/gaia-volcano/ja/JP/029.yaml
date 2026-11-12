@@ -1,0 +1,30 @@
+name: サイホーン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: とっしん
+      cost:
+        - Fighting
+        - Fighting
+      damage: "40"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 111
+  species: とげとげポケモン
+  heightMetres: 1
+  weightKilograms: 115
+  flavourText: ４本の 脚は 短くて うまく 曲がれない。 ただひたすらに 突進するだけだ。
+rarity: C
+illustrators:
+  - Midori Harada

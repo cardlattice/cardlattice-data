@@ -1,0 +1,29 @@
+name: ニャビー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ツメをだす
+      cost:
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 725
+  species: ひねこポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.3
+  flavourText: 感情を ださず 独りで いることを 好む。 信頼を 得るまでには 時間が かかるぞ。
+rarity: C
+illustrators:
+  - sui

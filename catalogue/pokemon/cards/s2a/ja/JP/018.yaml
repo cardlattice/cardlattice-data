@@ -1,0 +1,33 @@
+name: ガラル バリヤード
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: リフレクター
+      cost:
+        - Water
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: スノーアイス
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 122
+  species: ダンスポケモン
+  heightMetres: 1.4
+  weightKilograms: 56.8
+  flavourText: タップダンスが 得意。 冷気で つくった 氷の 床を 蹴り上げ バリヤーの ごとく 身を 守る。
+rarity: C
+illustrators:
+  - Misa Tsutsui

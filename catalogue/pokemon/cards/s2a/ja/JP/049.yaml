@@ -1,0 +1,34 @@
+name: チョロネコ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ツメをたてる
+      cost:
+        - Darkness
+      damage: "10"
+    - name: ねこだまし
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 509
+  species: しょうわるポケモン
+  heightMetres: 0.4
+  weightKilograms: 10.1
+  flavourText: 困った 姿を 見るために ひとの ものを 盗みだす。 クスネとは ライバルなのだ。
+rarity: C
+illustrators:
+  - sowsow

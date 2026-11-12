@@ -1,0 +1,40 @@
+name: ライボルト
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: ライトニングターン
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: このポケモンをベンチポケモンと入れ替える。
+    - name: サンダーショック
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "70"
+      text: このポケモンについている{Lightning}エネルギーをすべてトラッシュし、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 310
+  species: ほうでんポケモン
+  heightMetres: 1.5
+  weightKilograms: 40.2
+  flavourText: たてがみから 放電している。 頭上に 雷雲を 作り 稲妻を 落として 攻撃する。
+  evolvesFrom: ラクライ
+rarity: R
+illustrators:
+  - Naoki Saito

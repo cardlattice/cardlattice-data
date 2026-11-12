@@ -1,0 +1,30 @@
+name: ホルビー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ころばす
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 659
+  species: あなほりポケモン
+  heightMetres: 0.4
+  weightKilograms: 5
+  flavourText: シャベルのような 耳を 持つ。 穴掘りで 鍛えた 耳は 太い 根っこを 断ち切る 威力だ。
+rarity: C
+illustrators:
+  - MAHOU
