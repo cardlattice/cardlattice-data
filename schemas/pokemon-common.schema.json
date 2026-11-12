@@ -413,6 +413,9 @@
         },
         "power": {
           "$ref": "pokemon-common.schema.json#/$defs/power"
+        },
+        "costModifier": {
+          "$ref": "pokemon-common.schema.json#/$defs/costModifier"
         }
       },
       "required": ["name", "cost"]
@@ -584,6 +587,7 @@
         "★ (gold)",
         "★★",
         "★★★",
+        "Shining",
         "Common",
         "Uncommon",
         "Rare",
@@ -844,6 +848,10 @@
     "power": {
       "type": "string",
       "enum": ["VSTAR"]
+    },
+    "costModifier": {
+      "type": "string",
+      "enum": ["+"]
     }
   }
 }
