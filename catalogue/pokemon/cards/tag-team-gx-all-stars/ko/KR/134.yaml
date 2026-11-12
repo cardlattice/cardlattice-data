@@ -1,0 +1,11 @@
+name: 포켓기어3.0
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 자신의 덱을 위에서부터 7장 본다. 그 중에 있는 서포트를 1장 상대에게 보여주고 패로 가져와도 좋다. 남은 카드는 덱으로 되돌리고 섞는다.
+    - 아이템은 자신의 차례에 몇 장이라도 사용할 수 있다.
+illustrators:
+  - Studio Bora Inc.
+regulationMark: C

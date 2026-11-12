@@ -1,0 +1,30 @@
+name: 이브이
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 꼬리잡기
+      cost:
+        - Colorless
+      text: 자신의 덱에 있는 「이브이(GX 포함)」를 원하는 만큼 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 몸통박치기
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 이브이만 매우 불안정한 유전자를 갖고 있는 이유는 아직 해명되지 않았다.
+  nationalDex:
+    - 133
+  species: 진화포켓몬
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  resistances: []
+illustrators:
+  - Hasuno
+regulationMark: C

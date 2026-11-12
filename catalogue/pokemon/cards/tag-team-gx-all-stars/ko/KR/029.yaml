@@ -1,0 +1,27 @@
+name: 꼬부기
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 거품
+      cost:
+        - Water
+      damage: "10"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 등껍질에 숨어 몸을 보호한다. 상대의 빈틈을 놓치지 않고 물을 뿜어내어 반격한다.
+  nationalDex:
+    - 7
+  species: 꼬마거북포켓몬
+  heightMetres: 0.5
+  weightKilograms: 9
+  resistances: []
+illustrators:
+  - tetsuya koizumi
+regulationMark: C

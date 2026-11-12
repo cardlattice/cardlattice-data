@@ -1,0 +1,37 @@
+name: 블래키&다크라이 GX
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Darkness
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 블랙랜스
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "150"
+      text: 상대의 벤치에 있는 「포켓몬 GX・EX」 1마리에게도 60데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+    - name: 데드문GX
+      cost:
+        - Colorless
+      text: 상대의 다음 차례에 상대는 패에서 트레이너스를 꺼내서 사용할 수 없다. {Darkness} 에너지 5개가 추가로 붙어 있다면 상대의 배틀 포켓몬을 기절시킨다. (대전 중
+        자신은 GX기술을 1번만 사용할 수 있다.)
+      costModifier: +
+  rules:
+    - TAG TEAM이 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+illustrators:
+  - 5ban Graphics
+rarity: SR
+regulationMark: C

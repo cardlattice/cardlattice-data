@@ -1,0 +1,33 @@
+name: 줄뮤마
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 돌아다니며 뛰기
+      cost:
+        - Lightning
+      damage: "10"
+    - name: 일렉트릭킥
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 방전하면 갈기가 빛난다. 갈기가 빛나는 횟수나 리듬으로 동료와 대화한다.
+  nationalDex:
+    - 522
+  species: 하전포켓몬
+  heightMetres: 0.8
+  weightKilograms: 29.8
+illustrators:
+  - Miki Tanaka
+regulationMark: B

@@ -1,0 +1,34 @@
+name: 지라치
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 뺨치기
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 소원의 별
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 위에서부터 5장 본다. 그 중에 있는 트레이너스를 1장 상대에게 보여주고 패로 가져온다.
+        남은 카드는 덱으로 되돌리고 섞는다. 그 뒤, 이 포켓몬을 잠듦으로 만든다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 1000년 중 7일 동안만 깨어나 모든 소원을 이루어주는 능력을 발휘한다고 한다.
+  nationalDex:
+    - 385
+  species: 희망사항포켓몬
+  heightMetres: 0.3
+  weightKilograms: 1.1
+illustrators:
+  - HYOGONOSUKE
+regulationMark: B

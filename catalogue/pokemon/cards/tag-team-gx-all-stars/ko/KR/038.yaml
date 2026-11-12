@@ -1,0 +1,30 @@
+name: 약어리
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 물대포
+      cost:
+        - Water
+      damage: "20"
+  abilities:
+    - name: 한데 모이기
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 「약어리 GX」전원은 최대 HP가 「20」커지고 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+20」이 된다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 너무도 약하고 너무도 맛있어서 항상 모두가 노리지만 괴롭히면 험한 꼴을 당한다.
+  nationalDex:
+    - 746
+  species: 잔물고기포켓몬
+  heightMetres: 0.2
+  weightKilograms: 0.3
+  resistances: []
+illustrators:
+  - Kouki Saitou
+regulationMark: B

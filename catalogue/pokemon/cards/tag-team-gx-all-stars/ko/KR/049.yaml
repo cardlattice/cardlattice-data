@@ -1,0 +1,35 @@
+name: 카푸꼬꼬꼭[프리즘스타]
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - Prism Star
+  attacks:
+    - name: 마하볼트
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: 전장의 춤
+      kind: Ability
+      text: 이 포켓몬이 벤치에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 벤치 포켓몬 2마리에게 트래쉬에 있는 {Lightning} 에너지를 1장씩 붙인다. 그 뒤, 이
+        카드를 로스트존에 둔다. (붙어 있는카드는 모두 트래쉬한다.)
+  rules:
+    - 같은 이름의 [프리즘스타](프리즘스타)의 카드는 덱에 1장만 넣을 수 있다. 트래쉬하지 않고 로스트존에 둔다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 눈에 보이지 않는 스피드로 적을 교란한다. 심하게 화를 잘 내지만 왜 화가 났는지는 금방 잊어버린다.
+illustrators:
+  - Kouki Saitou
+rarity: PR
+regulationMark: B

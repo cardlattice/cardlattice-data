@@ -1,0 +1,12 @@
+name: 하푸우
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 덱을 위에서부터 6장 보고 그 중에 있는 카드를 2장 패로 가져온다. 남은 카드는 트래쉬한다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Ryota Murayama
+rarity: SR
+regulationMark: C

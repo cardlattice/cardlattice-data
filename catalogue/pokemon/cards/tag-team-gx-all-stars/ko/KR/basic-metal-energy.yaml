@@ -1,0 +1,9 @@
+name: 기본 강철 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Metal
+collectorNumber: null
+printedDenominator: null

@@ -1,0 +1,35 @@
+name: 멜메탈
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 헤비임팩트
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: 메탈이터
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패에 있는 {Metal} 포켓몬을 1장 트래쉬한다. 그 뒤, 이 포켓몬의 HP를 「100」회복한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 809
+  species: 너트포켓몬
+  heightMetres: 2.5
+  weightKilograms: 800
+  evolvesFrom: 멜탄
+illustrators:
+  - TOKIYA
+regulationMark: C

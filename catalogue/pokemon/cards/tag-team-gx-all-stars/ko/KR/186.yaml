@@ -1,0 +1,38 @@
+name: 토게피&삐&푸푸린 GX
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Fairy
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 구르기패닉
+      cost:
+        - Fairy
+        - Fairy
+        - Colorless
+      damage: 120+
+      text: 뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수 × 30데미지를 추가한다.
+    - name: 슈프림GX
+      cost:
+        - Fairy
+        - Fairy
+      text: 이 차례가 끝나면 다시 1번 자신의 차례를 시작한다. {Fairy} 에너지 14개가 추가로 붙어 있다면 상대의 벤치 포켓몬 전원과 그 포켓몬에게 붙어 있는 모든 카드를
+        상대의 덱으로 되돌리고 섞는다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+      costModifier: +
+  rules:
+    - TAG TEAM이 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+illustrators:
+  - "0313"
+rarity: SR
+regulationMark: C

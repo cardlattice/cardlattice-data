@@ -1,0 +1,34 @@
+name: 제브라이카
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 헤드볼트
+      cost:
+        - Lightning
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: 빨리달리기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 패를 모두 트래쉬하고 덱을 4장 뽑는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 천둥번개 같은 순발력을 가지고 있다. 제브라이카가 전속력으로 달리면 천둥소리가 울려 퍼진다.
+  nationalDex:
+    - 523
+  species: 뇌전포켓몬
+  heightMetres: 1.6
+  weightKilograms: 79.5
+  evolvesFrom: 줄뮤마
+illustrators:
+  - Misa Tsutsui
+regulationMark: B

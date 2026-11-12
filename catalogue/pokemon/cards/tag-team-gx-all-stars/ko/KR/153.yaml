@@ -1,0 +1,12 @@
+name: 유빈
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 카드는 상대의 이전 차례에 자신의 {Psychic} 포켓몬이 기절하지 않으면 사용할 수 없다. 상대의 패를 보고 그 중에 있는 카드를 2장 상대의 덱으로 되돌리고
+      섞는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Ken Sugimori
+regulationMark: B

@@ -1,0 +1,38 @@
+name: 대로트&야느와르몽 GX
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 나이트워처
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "150"
+      text: 상대의 패에서 앞면을 보지 않고 2장 선택해서 그 카드의 앞면을 보고 나서 상대의 덱으로 되돌리고 섞는다.
+    - name: 페일문GX
+      cost:
+        - Psychic
+        - Colorless
+      text: 상대의 다음 차례 마지막에 이 기술을 받은 포켓몬은 기절한다. {Psychic} 에너지 1개가 추가로 붙어 있다면 상대의 배틀 포켓몬에게 붙어 있는 에너지를 모두
+        트래쉬한다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+      costModifier: +
+  rules:
+    - TAG TEAM이 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+illustrators:
+  - 5ban Graphics
+rarity: SR
+regulationMark: C

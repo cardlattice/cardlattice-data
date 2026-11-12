@@ -1,0 +1,28 @@
+name: 조로아
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 어둠에숨기
+      cost:
+        - Darkness
+      text: 이 포켓몬을 벤치 포켓몬과 교체한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 사람이나 다른 포켓몬으로 둔갑한다._x000D_ 자신의 정체를 감추어 위험으로부터 몸을 지키는 것이다.
+  nationalDex:
+    - 570
+  species: 나쁜여우포켓몬
+  heightMetres: 0.7
+  weightKilograms: 12.5
+illustrators:
+  - Naoyo Kimura
+regulationMark: B

@@ -1,0 +1,34 @@
+name: 피죤
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 바람일으키기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 에어메일
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 위에서부터 2장 보고 그 중 1장을 패로 가져온다. 남은 카드는 덱의 아래로 되돌린다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  flavourText: 발톱이 발달해 있다. 먹이인 아라리를 잡아 100km 떨어져 있는 둥지까지 나른다.
+  nationalDex:
+    - 17
+  species: 새포켓몬
+  heightMetres: 1.1
+  weightKilograms: 30
+  evolvesFrom: 구구
+illustrators:
+  - Mizue
+regulationMark: C

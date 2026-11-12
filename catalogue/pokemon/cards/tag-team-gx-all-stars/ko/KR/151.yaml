@@ -1,0 +1,11 @@
+name: 비주기의 추방
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 데미지 카운터가 올려져 있지 않은 자신의 벤치 포켓몬을 2마리까지 선택해서 선택한 포켓몬과 붙어 있는 모든 카드를 트래쉬한다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Megumi Mizutani
+regulationMark: C

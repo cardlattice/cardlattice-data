@@ -1,0 +1,10 @@
+name: 리사이클 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 {Colorless} 에너지 1개분으로 작용한다. 이 카드는 필드에서 트래쉬할 때 트래쉬하지 않고 패로 되돌린다.
+  types:
+    - Colorless
+regulationMark: C

@@ -1,0 +1,12 @@
+name: 격투 도장
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - 서로의 기본 {Fighting} 에너지가 붙어 있는 포켓몬(「울트라비스트」는 제외)이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+10」이 되고 자신의 남은
+      프라이즈 장수가 상대보다 많다면 「+40」이 된다.
+    - 스타디움은 자신의 차례에 1장만 배틀필드 옆에 내놓을 수 있다. 다른 이름의 스타디움이 필드에 나오면 이 카드를 트래쉬한다.
+illustrators:
+  - 5ban Graphics
+regulationMark: C

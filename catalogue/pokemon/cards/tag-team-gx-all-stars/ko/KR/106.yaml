@@ -1,0 +1,33 @@
+name: 페르시온
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 발톱 베어가르기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: 고양이집회
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 필드에 있는 기술 「고양이일상」을 가진 포켓몬이 사용하는 기술에 필요한 에너지는 모두 없어진다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 0
+  flavourText: 알로라의 페르시온과는 이마의 보석 색깔이 다르지만, 성분은 크게 다르지 않다.
+  nationalDex:
+    - 53
+  species: 샴고양이포켓몬
+  heightMetres: 1
+  weightKilograms: 32
+  evolvesFrom: 나옹
+  resistances: []
+illustrators:
+  - tetsuya koizumi
+regulationMark: C

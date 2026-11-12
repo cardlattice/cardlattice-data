@@ -1,0 +1,36 @@
+name: 제라오라
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 크래시크루
+      cost:
+        - Lightning
+      damage: "20"
+      text: 상대의 배틀 포켓몬에게 붙어 있는 특수 에너지를 1개 트래쉬한다.
+    - name: 방전
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: 이 포켓몬에게 붙어 있는 {Lightning} 에너지를 모두 트래쉬하고 그 장수 × 50데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 0
+  flavourText: 양 손발톱에 전기를 머금어 상대를 갈가리 찢는다. 피하더라도 흩날리는 전격으로 감전시킨다.
+  nationalDex:
+    - 807
+  species: 신뢰포켓몬
+  heightMetres: 1.5
+  weightKilograms: 44.5
+illustrators:
+  - kawayoo
+regulationMark: C

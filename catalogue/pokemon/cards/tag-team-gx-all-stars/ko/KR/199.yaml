@@ -1,0 +1,12 @@
+name: 일목
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 이 차례에 이 카드를 사용한 후, 기술・특성・트레이너스의 효과로 자신이 다음에 동전을 던질 때 처음 1번만 앞면 혹은 뒷면을 선택할 수 있다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Kazuma Koda
+rarity: SR
+regulationMark: C

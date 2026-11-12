@@ -1,0 +1,39 @@
+name: 케르디오 GX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 소닉에지
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "110"
+      text: 이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다.
+    - name: 각오의칼GX
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 50×
+      text: 상대의 벤치 포켓몬의 수 × 50데미지를 준다. (대전 중 자신은 GX기술을 1번만 사용할 수 있다.)
+  abilities:
+    - name: 홀리하트
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 GX・EX」로부터 기술의 데미지나 효과를 받지 않는다.
+  rules:
+    - 포켓몬 GX가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: RR
+regulationMark: C
