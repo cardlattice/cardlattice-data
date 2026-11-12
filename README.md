@@ -87,7 +87,9 @@ PR artifacts are previews. Deployment and optional R2 mirroring are operator set
 
 ## Catalogue
 
-The catalogue contains 13 sets and 1,715 printings: 1,485 English and 230 Dutch.
+Exact record counts are recorded in each compiled `dist/manifest.json`.
+The notes below describe reviewed portions of this partial catalogue; they do not
+establish complete coverage of a language.
 All 158 existing
 numbered 30th Celebration cards now include rarity, confirmed holo finish, printed
 rules and applicable Pokémon stats, attacks, abilities, weaknesses, resistances
@@ -136,8 +138,7 @@ fully inventoried, so these counts do not establish complete Dutch coverage.
 This is still a partial catalogue. The separate 30th Celebration Classic
 Collection, Basic Energy section and product promos are not included. Illustrator
 credits, Pokédex numbers, flavour text and detailed foil patterns remain largely
-unfilled. Languages other than English and Dutch are not yet represented.
-No artwork, pricing data or third-party catalogue dumps are included.
+unfilled. No artwork, pricing data or third-party catalogue dumps are included.
 
 The folder organisation takes inspiration from
 [TCGdex's series/set/card files](https://github.com/tcgdex/cards-database/tree/master/data).
