@@ -1,0 +1,15 @@
+name: ねっこの化石
+pokemon:
+  category: trainer
+  hp: 40
+  subtypes:
+    - Item
+  rules:
+    - このカードは、{Colorless}の「たねポケモン」として場に出すことができる（このカードがきぜつしたら、相手プレイヤーはサイドを1枚とる）。このカードは特殊状態にならず、にげるができない。このカードの持ち主は、自分の番に、場からこのカードをトラッシュしてよい（この効果はきぜつではない）。
+  abilities:
+    - name: すいとるせきしつ
+      kind: Poké-Body
+      text: ポケモンチェックのたび、このポケモンのダメージカウンターを1個とりのぞく。
+rarity: ●
+illustrators:
+  - Ryo Ueda

@@ -1,0 +1,32 @@
+name: オーロンゲV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: かみつく
+      cost:
+        - Darkness
+      damage: "40"
+    - name: スパイキーナックル
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: "200"
+      text: このポケモンについている{Darkness}エネルギーを2個選び、手札にもどす。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SSR
+illustrators:
+  - PLANETA Mochizuki

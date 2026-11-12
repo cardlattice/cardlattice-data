@@ -1,0 +1,28 @@
+name: クチート
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札から、「たねポケモン」を1枚選び出し、自分のベンチに出す。その後、その山札を切る。
+    - name: ひきちぎる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: 相手の手札が5枚以上なら、相手プレイヤーは、その手札が4枚になるまでカードを選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 1
+rarity: ★
+illustrators:
+  - Ken Sugimori

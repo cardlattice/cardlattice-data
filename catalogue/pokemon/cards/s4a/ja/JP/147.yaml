@@ -1,0 +1,32 @@
+name: ヤレユータン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: はりたおす
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: さるぢえ
+      text: 自分の番に1回使える。自分の手札を1枚選び、山札の上のカードと入れ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 765
+  species: けんじゃポケモン
+  heightMetres: 1.5
+  weightKilograms: 76
+  flavourText: 森の 隅々まで 知り尽くし 傷ついた ポケモンが いると 薬草を 探して 治療する。
+illustrators:
+  - Shigenori Negishi

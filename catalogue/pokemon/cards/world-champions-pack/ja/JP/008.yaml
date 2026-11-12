@@ -1,0 +1,30 @@
+name: リザードン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: かえん
+      cost:
+        - Fire
+      damage: "30"
+    - name: バーストインフェルノ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモン全員を、それぞれやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: リザード
+rarity: ★
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,28 @@
+name: カブト
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: しんかそくせい
+      cost:
+        - Colorless
+      text: 自分の山札から「進化カード」を1枚選び出し、相手プレイヤーに見せてから、手札に加える。その後、その山札を切る。
+    - name: ダブルひっかき
+      cost:
+        - Fighting
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテ×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: なにかの化石
+rarity: ●
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,38 @@
+name: アーマーガア
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "50"
+    - name: くろがねのつばさ
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: のぞむなら、このポケモンについているエネルギーを2個選び、トラッシュする。その場合、次の相手の番、このポケモンが受けるワザのダメージは「-100」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 823
+  species: カラスポケモン
+  heightMetres: 2.2
+  weightKilograms: 75
+  flavourText: ガラル地方の 空では 敵なし。 黒光りする 鋼の 姿は 相手を 威圧し 恐れさせる。
+  evolvesFrom: アオガラス
+rarity: S
+illustrators:
+  - kirisAki

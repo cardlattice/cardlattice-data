@@ -1,0 +1,38 @@
+name: ボーマンダex
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: ボルカニックフレイム
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 自分の山札の上からカードを5枚トラッシュする。
+    - name: ハイドロウェーブ
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      text: 自分の{Water}エネルギーをすべてトラッシュし、相手のベンチポケモン全員に、それぞれ30ダメージ。
+  abilities: []
+  rules:
+    - ポケモンexがきぜつしたとき、相手プレイヤーはサイドを2枚とります。
+  weaknesses:
+    - type: Colorless
+  resistances:
+    - type: Fire
+    - type: Fighting
+  retreatCost: 2
+  evolvesFrom: コモルー
+  subtypes:
+    - ex
+rarity: ★ (silver)
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,31 @@
+name: ドラメシヤ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: でんこうせっか
+      cost:
+        - Psychic
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 885
+  species: うらめしポケモン
+  heightMetres: 0.5
+  weightKilograms: 2
+  flavourText: 古代の 海で 暮らしていた。 ゴーストポケモンとして よみがえり かつての すみかを さまよっている。
+rarity: S
+illustrators:
+  - Masakazu Fukuda

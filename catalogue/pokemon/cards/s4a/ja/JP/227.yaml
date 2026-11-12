@@ -1,0 +1,35 @@
+name: カムカメ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: かみつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: みずでっぽう
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 833
+  species: くいつきポケモン
+  heightMetres: 0.3
+  weightKilograms: 8.5
+  flavourText: 頭の ツノは 岩の 硬さ。 ツノで 戦い ひるんだ 隙に パクリと 噛みつき 離さない。
+rarity: S
+illustrators:
+  - otumami

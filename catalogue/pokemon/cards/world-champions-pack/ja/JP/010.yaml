@@ -1,0 +1,33 @@
+name: キュウコン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: でんこうせっか
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加する。
+    - name: おにび
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: しんぴのまもり
+      text: このポケモンは、相手のポケモンexのワザによるダメージや効果を受けない。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ロコン
+rarity: ★
+illustrators:
+  - Tomoaki Imakuni

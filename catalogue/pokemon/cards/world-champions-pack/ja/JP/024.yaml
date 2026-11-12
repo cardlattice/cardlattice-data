@@ -1,0 +1,30 @@
+name: ライチュウ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: プラズマ
+      cost:
+        - Colorless
+      damage: "10"
+      text: 自分のトラッシュから{Lightning}エネルギーを1枚選び出し、自分につける。
+    - name: 10まんボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+      text: 自分のエネルギーをすべてトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ピカチュウ
+rarity: ★ (silver)
+illustrators:
+  - Hajime Kusajima

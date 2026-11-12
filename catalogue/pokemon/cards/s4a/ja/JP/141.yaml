@@ -1,0 +1,29 @@
+name: メタモンVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Colorless
+  stage: VMAX
+  attacks:
+    - name: ダイヘンシン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: メタモンV
+rarity: RRR
+illustrators:
+  - PLANETA Tsuji

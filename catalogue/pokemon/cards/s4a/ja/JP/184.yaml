@@ -1,0 +1,10 @@
+name: スピード雷エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Lightning}エネルギー1個ぶんとしてはたらく。
+      このカードを手札から{Lightning}ポケモンにつけたとき、自分の山札を2枚引く。
+  types:
+    - Lightning

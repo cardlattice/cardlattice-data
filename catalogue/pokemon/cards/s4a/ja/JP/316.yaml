@@ -1,0 +1,33 @@
+name: イエッサンV
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコキネシス
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 相手のバトルポケモンについているエネルギーの数×60ダメージ追加。
+  abilities:
+    - name: こころくばり
+      text: 自分の番に1回使える。自分のバトルポケモンのHPを「20」回復する。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+rarity: SSR
+illustrators:
+  - 5ban Graphics

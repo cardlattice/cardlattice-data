@@ -1,0 +1,11 @@
+name: なにかの化石
+pokemon:
+  category: trainer
+  hp: 50
+  subtypes:
+    - Item
+  rules:
+    - このカードは、{Colorless}の「たねポケモン」として場に出すことができる（このカードがきぜつしたら、相手プレイヤーはサイドを1枚とる）。このカードは特殊状態にならず、にげるができない。このカードの持ち主は、自分の番に、場からこのカードをトラッシュしてよい（この効果はきぜつではない）。
+rarity: ●
+illustrators:
+  - Ryo Ueda

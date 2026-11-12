@@ -1,0 +1,12 @@
+name: ふうせん
+pokemon:
+  category: trainer
+  subtypes:
+    - Pokémon Tool
+    - Item
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Yoshinobu Saito

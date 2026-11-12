@@ -1,0 +1,34 @@
+name: エースバーン
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: フレアストライカー
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "190"
+      text: このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities:
+    - name: リベロ
+      text: 自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分のトラッシュから{Fire}エネルギーを2枚まで選び、このポケモンにつける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 815
+  species: ストライカーポケモン
+  heightMetres: 1.4
+  weightKilograms: 33
+  flavourText: 攻守に 優れ 応援されると さらに 燃えるが スタンドプレイに 走り ピンチを 招くこともある。
+  evolvesFrom: ラビフット
+illustrators:
+  - Kouki Saitou

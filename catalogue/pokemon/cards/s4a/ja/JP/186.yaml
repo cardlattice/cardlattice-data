@@ -1,0 +1,10 @@
+name: ハイド悪エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Darkness}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Darkness}ポケモンのにげるためのエネルギーは、すべてなくなる。
+  types:
+    - Darkness

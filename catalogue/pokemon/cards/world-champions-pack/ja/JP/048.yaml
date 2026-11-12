@@ -1,0 +1,27 @@
+name: アサナン
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ねんりき
+      cost:
+        - Psychic
+      damage: "10"
+      text: コインを1回投げオモテなら、相手をマヒにする。
+    - name: クロスチョップ
+      cost:
+        - Fighting
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージを追加する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Midori Harada

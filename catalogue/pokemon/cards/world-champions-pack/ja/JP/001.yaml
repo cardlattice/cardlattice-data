@@ -1,0 +1,27 @@
+name: タネボー
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ひとやすみ
+      cost:
+        - Colorless
+      text: 自分のダメージカウンターを2個とりのぞく。
+    - name: ダブルスピン
+      cost:
+        - Grass
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテ×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Midori Harada

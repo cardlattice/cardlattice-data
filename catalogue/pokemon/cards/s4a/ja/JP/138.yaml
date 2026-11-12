@@ -1,0 +1,38 @@
+name: ザマゼンタ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ガードプレス
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-20」される。
+    - name: パワーラッシュ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "120"
+      text: コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 889
+  species: つわものポケモン
+  heightMetres: 2.9
+  weightKilograms: 785
+  flavourText: いかなる 攻撃も 弾き返す 姿は 格闘王の盾 と 呼ばれ 恐れ 崇められた。
+illustrators:
+  - Hideki Ishikawa

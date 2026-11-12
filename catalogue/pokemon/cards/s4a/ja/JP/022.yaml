@@ -1,0 +1,28 @@
+name: ヒバニー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひのこ
+      cost:
+        - Fire
+      damage: "30"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 813
+  species: うさぎポケモン
+  heightMetres: 0.3
+  weightKilograms: 4.5
+  flavourText: 戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。
+illustrators:
+  - kirisAki

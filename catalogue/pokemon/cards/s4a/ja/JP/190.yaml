@@ -1,0 +1,10 @@
+name: パワフル無色エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Colorless}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Colorless}ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。
+  types:
+    - Colorless

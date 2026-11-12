@@ -1,0 +1,10 @@
+name: エネルギーリムーブ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - コインを1回投げオモテなら、相手のポケモンのエネルギーを1個選び、トラッシュする。
+rarity: ◆
+illustrators:
+  - Keiji Kinebuchi

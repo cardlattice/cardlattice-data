@@ -1,0 +1,38 @@
+name: パルスワン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: かじりつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: とうしのキバ
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 相手のバトルポケモンが「ポケモンV・GX」なら、90ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 836
+  species: いぬポケモン
+  heightMetres: 1
+  weightKilograms: 34
+  flavourText: 電気を つくって 脚に 送り 走りを アシスト。 三日三晩 休まず 走れるのだ。
+  evolvesFrom: ワンパチ
+rarity: S
+illustrators:
+  - Kagemaru Himeno

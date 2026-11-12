@@ -1,0 +1,11 @@
+name: マリィ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Naoki Saito

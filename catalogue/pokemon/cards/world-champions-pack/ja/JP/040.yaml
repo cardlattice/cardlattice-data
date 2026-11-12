@@ -1,0 +1,24 @@
+name: ヨマワル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ふいをつく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: コインを1回投げウラなら、このワザは失敗する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+  resistances:
+    - type: Fighting
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

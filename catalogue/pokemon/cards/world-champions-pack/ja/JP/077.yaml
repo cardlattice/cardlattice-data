@@ -1,0 +1,35 @@
+name: チルタリス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: おどろかす
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: 相手の手札から、オモテを見ないでカードを1枚選び出し、そのカードを見る。その後、そのカードを相手の山札にもどし、その山札を切る。
+    - name: かぜおこし
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: シンクロニシティー
+      text: 場に「ゲンジのスタジアム」があるなら、ポケモンチェックのたび、このポケモンのダメージカウンターを1個とりのぞく。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Colorless
+  resistances:
+    - type: Grass
+    - type: Fighting
+  retreatCost: 1
+  evolvesFrom: チルット
+rarity: ★
+illustrators:
+  - Ken Sugimori

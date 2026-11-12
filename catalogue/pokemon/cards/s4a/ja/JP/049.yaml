@@ -1,0 +1,33 @@
+name: コオリッポ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ふぶき
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities:
+    - name: アイスフェイス
+      text: このポケモンのHPがまんたんの状態なら、このポケモンが相手のポケモンから受けるワザのダメージは「-60」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 875
+  species: ペンギンポケモン
+  heightMetres: 1.4
+  weightKilograms: 89
+  flavourText: とても 寒い 場所から 流れ 流されて やってきた。 氷で 顔を つねに 冷やして いるのだ。
+illustrators:
+  - Kagemaru Himeno

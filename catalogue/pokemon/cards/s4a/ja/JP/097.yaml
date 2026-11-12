@@ -1,0 +1,27 @@
+name: スナヘビ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: すなかけ
+      cost:
+        - Colorless
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 843
+  species: すなへびポケモン
+  heightMetres: 2.2
+  weightKilograms: 7.6
+  flavourText: 鼻の 穴から 砂を 噴射。 敵の 目を くらました 隙に 地中に 潜って 身を 隠す。
+illustrators:
+  - Misa Tsutsui

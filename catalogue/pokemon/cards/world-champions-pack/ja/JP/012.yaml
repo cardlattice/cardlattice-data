@@ -1,0 +1,22 @@
+name: アチャモ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ほのおでこがす
+      cost:
+        - Fire
+      damage: "10"
+      text: コインを1回投げオモテなら、相手をやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Mitsuhiro Arita

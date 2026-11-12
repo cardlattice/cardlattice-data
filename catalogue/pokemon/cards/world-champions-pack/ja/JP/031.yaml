@@ -1,0 +1,27 @@
+name: ソーナンス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: おきあがりアタック
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 自分にも、弱点・抵抗力に関係なく、10ダメージ。
+  abilities:
+    - name: しんぴのまもり
+      text: このポケモンは、相手のポケモンexのワザによるダメージや効果を受けない。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+rarity: ★
+illustrators:
+  - Masakazu Fukuda

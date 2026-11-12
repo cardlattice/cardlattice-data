@@ -1,0 +1,29 @@
+name: ヤバチャ
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ひっそりのせる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンに、ダメカンを2個のせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 854
+  species: こうちゃポケモン
+  heightMetres: 0.1
+  weightKilograms: 0.2
+  flavourText: 残され 冷えきった 紅茶に さみしがりやな 魂が 宿り ポケモンに なったと いわれている。
+illustrators:
+  - Kouki Saitou

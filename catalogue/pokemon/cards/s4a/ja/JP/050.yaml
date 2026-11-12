@@ -1,0 +1,33 @@
+name: ウオノラゴン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ぶちかます
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: げんしのおきて
+      text: このポケモンがバトル場にいるかぎり、相手は手札からポケモンを出して進化させられない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 882
+  species: かせきポケモン
+  heightMetres: 2.3
+  weightKilograms: 215
+  flavourText: ずば抜けた 脚力と 顎の 力で 古代では 無敵だったが 獲物を 獲り尽くし 絶滅した。
+  evolvesFrom: めずらしい化石
+illustrators:
+  - Hitoshi Ariga

@@ -1,0 +1,34 @@
+name: マホイップ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: デコレーション
+      cost:
+        - Colorless
+      text: 自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。
+    - name: ドレインキッス
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+      text: このポケモンのHPを「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 869
+  species: クリームポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.5
+  flavourText: 信頼する トレーナーには クリームで デコレーションした 木の実を ふるまって くれるのだ。
+  evolvesFrom: マホミル
+illustrators:
+  - sui

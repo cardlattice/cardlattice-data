@@ -1,0 +1,27 @@
+name: ロコン
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: あやしいひかり
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手をこんらんにする。
+    - name: ひのこ
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: 自分の{Fire}エネルギーを1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

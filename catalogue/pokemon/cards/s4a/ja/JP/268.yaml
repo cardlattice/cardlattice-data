@@ -1,0 +1,35 @@
+name: セキタンザン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: やきなだれ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: タールジェネレート
+      text: 自分の番に1回使える。自分のトラッシュから{Fire}エネルギーと{Fighting}エネルギーをそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 839
+  species: せきたんポケモン
+  heightMetres: 2.8
+  weightKilograms: 310.5
+  flavourText: 普段は 穏やかだが 人間が 鉱山を 荒らすと 怒りくるい １５００度の 炎で 焼きつくす。
+  evolvesFrom: トロッゴン
+rarity: S
+illustrators:
+  - nagimiso

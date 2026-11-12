@@ -1,0 +1,35 @@
+name: ガラル ニャース
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: しんかのおたけび
+      text: 自分の番に、自分の手札を2枚トラッシュするなら、1回使える。自分の山札から「ガラル
+        ニャイキング」を1枚選び、相手に見せて、手札に加える。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 52
+  species: ばけねこポケモン
+  heightMetres: 0.4
+  weightKilograms: 7.5
+  flavourText: 戦闘的な 海洋民族と 暮らすうちに 鍛えられ 体の あちこちが 黒鉄に 変化した。
+rarity: S
+illustrators:
+  - Shigenori Negishi

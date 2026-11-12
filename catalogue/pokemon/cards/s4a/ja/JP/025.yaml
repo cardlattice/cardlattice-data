@@ -1,0 +1,33 @@
+name: ヤクデ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: かみつく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: かえん
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 850
+  species: はつねつポケモン
+  heightMetres: 0.7
+  weightKilograms: 1
+  flavourText: 体に 溜めた 可燃ガスで 発熱。 とくに お腹の 黄色い 部分が 熱いのだ。
+illustrators:
+  - Akira Komayama

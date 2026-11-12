@@ -1,0 +1,28 @@
+name: ランターン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: らいげき
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: のぞむなら、自分の{Lightning}エネルギーをすべてトラッシュしてよい。その場合、このワザのダメージは「90」になる。
+  abilities:
+    - name: エネアース
+      text: このパワーは、相手の番に、自分のポケモンが、相手のワザによるダメージを受けてきぜつしたとき、1回使うことができる。自分のトラッシュから、そのポケモンについていた基本エネルギーを1枚選び出し、このポケモンにつける。その番に、すでに自分の別のポケモンの「エネアース」を使っていたなら、このパワーを使うことはできない。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: チョンチー
+rarity: ★
+illustrators:
+  - Midori Harada

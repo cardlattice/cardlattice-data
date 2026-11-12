@@ -1,0 +1,35 @@
+name: クロバットVMAX
+pokemon:
+  category: pokemon
+  hp: 300
+  types:
+    - Darkness
+  stage: VMAX
+  attacks:
+    - name: ステルスポイズン
+      cost:
+        - Darkness
+        - Colorless
+      damage: "70"
+      text: 相手のバトルポケモンをどくにする。このポケモンをベンチポケモンと入れ替える。
+    - name: ダイカッター
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "180"
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: クロバットV
+rarity: SSR
+illustrators:
+  - 5ban Graphics

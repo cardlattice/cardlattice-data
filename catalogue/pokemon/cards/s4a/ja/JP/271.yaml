@@ -1,0 +1,29 @@
+name: タタッコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: しめつける
+      cost:
+        - Fighting
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 852
+  species: だだっこポケモン
+  heightMetres: 0.6
+  weightKilograms: 4
+  flavourText: 餌を 求め 地上に 上がる。 好奇心旺盛で 目にしたものは とりあえず 触手で 殴る。
+rarity: S
+illustrators:
+  - Kyoko Umemoto

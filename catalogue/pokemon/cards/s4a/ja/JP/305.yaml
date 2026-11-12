@@ -1,0 +1,35 @@
+name: ゴリランダーVMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Grass
+  stage: VMAX
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "50"
+    - name: ダイレンダ
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: 130+
+      text: のぞむなら、このポケモンについている{Grass}エネルギーを3枚まで選び、トラッシュする。その場合、トラッシュした枚数×50ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ゴリランダーV
+rarity: SSR
+illustrators:
+  - 5ban Graphics

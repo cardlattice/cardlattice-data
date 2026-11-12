@@ -1,0 +1,29 @@
+name: ガラル ダルマッカ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: れいとうパンチ
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 554
+  species: だるまポケモン
+  heightMetres: 0.7
+  weightKilograms: 40
+  flavourText: 雪深い 土地で 暮らすうち 炎袋は 冷えきり 退化。 冷気を つくる 器官が できた。
+illustrators:
+  - Akira Komayama

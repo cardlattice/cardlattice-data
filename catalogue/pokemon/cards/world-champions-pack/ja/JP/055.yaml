@@ -1,0 +1,30 @@
+name: コノハナ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ねこだまし
+      cost:
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、相手をマヒにする。
+    - name: ひっぱたく
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+  retreatCost: 1
+  evolvesFrom: タネボー
+rarity: ◆
+illustrators:
+  - Hajime Kusajima

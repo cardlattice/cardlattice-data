@@ -1,0 +1,33 @@
+name: ダストダス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ヘドロばくだん
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: どくだまり
+      text: 場にスタジアムが出ているなら、自分の番に1回使える。相手のバトルポケモンをどくにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 569
+  species: ゴミすてばポケモン
+  heightMetres: 1.9
+  weightKilograms: 107.3
+  flavourText: 食った ゴミが 体内で 毒に 変化する。 食う ゴミ しだいで 毒の 主成分も 変わる。
+  evolvesFrom: ヤブクロン
+illustrators:
+  - tetsuya koizumi

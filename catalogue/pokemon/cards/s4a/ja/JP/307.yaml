@@ -1,0 +1,35 @@
+name: リザードンV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ツメできりさく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+    - name: ほのおのうず
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "220"
+      text: このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: SSR
+illustrators:
+  - 5ban Graphics

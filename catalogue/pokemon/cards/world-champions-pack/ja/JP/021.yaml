@@ -1,0 +1,24 @@
+name: トドグラー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: れいとうビーム
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手をマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: タマザラシ
+rarity: ◆
+illustrators:
+  - Ken Sugimori

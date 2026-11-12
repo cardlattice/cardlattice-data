@@ -1,0 +1,29 @@
+name: バチンウニ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ビリビリニードル
+      cost:
+        - Lightning
+        - Lightning
+      damage: 30×
+      text: コインを4回投げ、オモテの数×30ダメージ。オモテが2回以上なら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 871
+  species: うにポケモン
+  heightMetres: 0.3
+  weightKilograms: 1
+  flavourText: 棘の 先から 電気を 放つ。 鋭い 歯で 岩に ついた 海藻を こそいで 食べる。
+illustrators:
+  - Akira Komayama

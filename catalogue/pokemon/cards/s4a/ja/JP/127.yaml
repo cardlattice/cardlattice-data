@@ -1,0 +1,35 @@
+name: ガラル ニャイキング
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: メタルクロー
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: はがねのせいしん
+      text: このポケモンがいるかぎり、自分の{Metal}ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 863
+  species: バイキングポケモン
+  heightMetres: 0.8
+  weightKilograms: 28
+  flavourText: 頭の 体毛が 硬質化して 鉄の ヘルメットのように なった。 とても 好戦的な 性質。
+  evolvesFrom: ガラル ニャース
+illustrators:
+  - Akira Komayama
