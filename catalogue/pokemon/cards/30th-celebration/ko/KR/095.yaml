@@ -1,0 +1,33 @@
+name: 잠만보
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 쓰러지기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 이 포켓몬을 잠듦으로 만든다.
+  abilities:
+    - name: 굿 슬립
+      kind: Ability
+      text: 이 포켓몬이 잠듦일 때 포켓몬 체크에서 이 포켓몬이 잠듦에서 회복하지 않았다면 이 포켓몬의 HP를 모두 회복한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 4
+  flavourText: 위 안의 소화액은 어떠한 독도 소화할 수 있다. 땅에 떨어진 것을 먹어도 괜찮다.
+  heightMetres: 2.1
+  weightKilograms: 460
+  rules: []
+  species: 졸음포켓몬
+  nationalDex:
+    - 143
+  resistances: []
+illustrators:
+  - Aya Kusube

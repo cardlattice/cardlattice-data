@@ -1,0 +1,30 @@
+name: 흔들풍손
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 두리둥실
+      cost:
+        - Psychic
+      damage: "20"
+      text: 원한다면 이 포켓몬과 붙어 있는 모든 카드를 덱으로 되돌리고 섞는다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 정처 없이 떠 있는 모습에서 길 잃은 영혼의 이정표라고 전해지는 옛날이야기도 있다.
+  heightMetres: 0.4
+  weightKilograms: 1.2
+  abilities: []
+  rules: []
+  species: 풍선포켓몬
+  nationalDex:
+    - 425
+illustrators:
+  - Shinya Komatsu

@@ -1,0 +1,35 @@
+name: 스트린더
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 치기
+      cost:
+        - Lightning
+      damage: "40"
+    - name: 썬더러스볼트
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 자신의 다음 차례에 이 포켓몬은 기술을 사용할 수 없다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 거칠게 가슴팍의 돌기를 긁어서 발산하는 전격은 15000볼트를 가볍게 뛰어넘는다.
+  heightMetres: 1.6
+  weightKilograms: 40
+  abilities: []
+  rules: []
+  species: 펑크포켓몬
+  nationalDex:
+    - 849
+  evolvesFrom: 일레즌
+  resistances: []
+illustrators:
+  - Yuriko Akase

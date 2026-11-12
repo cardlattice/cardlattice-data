@@ -1,0 +1,30 @@
+name: 팬텀 ex
+pokemon:
+  category: pokemon
+  hp: 280
+  types:
+    - Darkness
+  stage: Stage 2
+  subtypes:
+    - ex
+  attacks:
+    - name: 카오스페인
+      cost:
+        - Darkness
+        - Darkness
+      text: 상대의 포켓몬 1마리에게 데미지 카운터를 13개 올린다.
+  abilities:
+    - name: 죽음의선고
+      kind: Ability
+      text: 이 포켓몬이 상대의 포켓몬으로부터 기술의 데미지를 받아 기절했을 때 자신은 동전을 1번 던진다. 앞면이 나오면 기술을 사용한 포켓몬을 기절시킨다.
+  rules:
+    - 포켓몬 ex가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  evolvesFrom: 고우스트
+  resistances: []
+rarity: RR
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,29 @@
+name: 메타몽
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 깜짝변신
+      cost:
+        - Colorless
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 자신의 덱에서 포켓몬을 1장 선택해서 이 포켓몬과 교체한다(붙어 있는 카드, 데미지 카운터, 특수 상태, 효과 등은 모두 이어받는다). 교체했다면 이
+        카드는 덱으로 되돌린다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 몸의 세포 구성을 스스로 바꿔서 다른 생명체로 변신한다.
+  heightMetres: 0.3
+  weightKilograms: 4
+  abilities: []
+  rules: []
+  species: 변신포켓몬
+  nationalDex:
+    - 132
+  resistances: []
+illustrators:
+  - Toshinao Aoki

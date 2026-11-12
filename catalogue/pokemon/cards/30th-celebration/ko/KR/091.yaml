@@ -1,0 +1,28 @@
+name: 짜랑고우거
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: 브레이징어퍼
+      cost:
+        - Lightning
+        - Fighting
+        - Colorless
+      damage: "250"
+  retreatCost: 2
+  flavourText: 비늘을 두들기며 상대의 배짱을 시험한다. 약한 자는 그 소리에 겁을 먹고 도망쳐 버린다.
+  heightMetres: 1.6
+  weightKilograms: 78.2
+  abilities: []
+  rules: []
+  species: 비늘포켓몬
+  nationalDex:
+    - 784
+  evolvesFrom: 짜랑고우
+  weaknesses: []
+  resistances: []
+illustrators:
+  - MARINA Chikazawa

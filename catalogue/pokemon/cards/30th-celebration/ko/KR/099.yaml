@@ -1,0 +1,34 @@
+name: 히스이 조로아크
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 할퀴기
+      cost:
+        - Colorless
+      damage: "30"
+    - name: 앙심의회오리
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 상대 배틀 포켓몬의 남은 HP가 「50」이 되도록 데미지 카운터를 올린다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 백발을 흐트러트린 모습은 마치 사신 같다. 자신의 몸이 찢어질 정도의 강한 원한을 이용해 함께 죽을 각오로 원수의 숨통을 노린다.
+  heightMetres: 1.6
+  weightKilograms: 73
+  abilities: []
+  rules: []
+  species: 저주여우포켓몬
+  nationalDex:
+    - 571
+  evolvesFrom: 히스이 조로아
+  resistances: []
+illustrators:
+  - Kamome Shirahama

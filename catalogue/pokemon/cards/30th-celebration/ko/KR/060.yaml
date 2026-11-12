@@ -1,0 +1,31 @@
+name: 안농
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 미스터리 시그널
+      cost:
+        - Psychic
+        - Psychic
+      damage: "40"
+      text: 이 기술의 데미지로 상대의 포켓몬이 기절했다면 프라이즈를 1장 더 가져온다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 몸 자체는 굉장히 얇고 항상 벽에 들러붙어 있다. 모습에는 뭔가 의미가 있는 듯하다.
+  heightMetres: 0.5
+  weightKilograms: 5
+  abilities: []
+  rules: []
+  species: 심볼포켓몬
+  nationalDex:
+    - 201
+illustrators:
+  - mingo

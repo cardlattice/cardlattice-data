@@ -1,0 +1,30 @@
+name: 짜랑꼬
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 싫은소리
+      cost:
+        - Colorless
+      text: 자신의 다음 차례에 이 기술을 받은 포켓몬이 받는 기술의 데미지는 「+30」이 된다.
+    - name: 드래곤클로
+      cost:
+        - Lightning
+        - Fighting
+      damage: "40"
+  retreatCost: 1
+  flavourText: 비늘을 두들기는 소리로 동료와 커뮤니케이션을 취한다. 무리 지어 있으면 매우 시끄럽다.
+  heightMetres: 0.6
+  weightKilograms: 29.7
+  abilities: []
+  rules: []
+  species: 비늘포켓몬
+  nationalDex:
+    - 782
+  weaknesses: []
+  resistances: []
+illustrators:
+  - miki kudo

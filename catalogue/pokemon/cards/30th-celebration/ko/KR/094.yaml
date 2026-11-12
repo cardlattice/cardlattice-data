@@ -1,0 +1,31 @@
+name: 이브이
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 물어서감추기
+      cost:
+        - Colorless
+      text: 상대의 패를 보고 그 중에서 아이템을 1장 선택해서 상대의 덱의 아래로 되돌린다.
+    - name: 몸통박치기
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 불안정한 유전자 덕분에 여러 가지 진화의 가능성을 가지고 있는 특수한 포켓몬.
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  abilities: []
+  rules: []
+  species: 진화포켓몬
+  nationalDex:
+    - 133
+  resistances: []
+illustrators:
+  - Wintr Wandr

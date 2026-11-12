@@ -1,0 +1,37 @@
+name: 솔가레오
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: 메테오드라이브
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "220"
+      text: 이 포켓몬에게 붙어 있는 에너지를 모두 트래쉬한다.
+  abilities:
+    - name: 선라이즈
+      kind: Ability
+      text: 이 포켓몬이 벤치에 있다면 자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 「기본 {Metal} 에너지」를 2장까지 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 태양을 삼키는 짐승이라고 불렸다. 굉장한 양의 빛 에너지를 방출한다.
+  heightMetres: 3.4
+  weightKilograms: 230
+  rules: []
+  species: 일륜포켓몬
+  nationalDex:
+    - 791
+  evolvesFrom: 코스모움
+illustrators:
+  - Nurikabe

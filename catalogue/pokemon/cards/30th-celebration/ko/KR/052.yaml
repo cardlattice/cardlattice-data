@@ -1,0 +1,31 @@
+name: 모르페코
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 간식고르기
+      cost:
+        - Colorless
+      text: 자신의 덱을 위에서부터 3장 트래쉬하고 그 중에서 카드를 1장 선택해서 상대에게 보여주고 패로 가져온다.
+    - name: 뺨치기
+      cost:
+        - Lightning
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 위가 작아서 주머니에 넣어 둔 씨앗을 계속 먹지 않으면 금방 배가 고파진다.
+  heightMetres: 0.3
+  weightKilograms: 3
+  abilities: []
+  rules: []
+  species: 양면포켓몬
+  nationalDex:
+    - 877
+  resistances: []
+illustrators:
+  - Naoki Saito

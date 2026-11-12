@@ -1,0 +1,31 @@
+name: 니드런♀
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 울음소리
+      cost:
+        - Colorless
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬이 사용하는 기술의 데미지는 「-30」이 된다.
+    - name: 박치기
+      cost:
+        - Darkness
+      damage: "10"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 수컷보다 냄새에 민감하다. 수염으로 바람의 방향을 확인하면서 흘러온 냄새로 먹이를 찾는다.
+  heightMetres: 0.4
+  weightKilograms: 7
+  abilities: []
+  rules: []
+  species: 독침포켓몬
+  nationalDex:
+    - 29
+  resistances: []
+illustrators:
+  - Taira Akitsu

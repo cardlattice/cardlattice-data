@@ -1,0 +1,29 @@
+name: 코스모그
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 튀어오르기
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 다른 우주에서 찾아왔다. 가스로 된 몸은 매우 가벼워서 산들바람에도 날아가 버릴 정도다.
+  heightMetres: 0.2
+  weightKilograms: 0.1
+  abilities: []
+  rules: []
+  species: 성운포켓몬
+  nationalDex:
+    - 789
+illustrators:
+  - Mina Nakai
