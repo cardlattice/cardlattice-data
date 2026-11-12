@@ -1,0 +1,31 @@
+name: 岩狗狗
+rarity: C
+illustrators:
+  - Yuu Nishida
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - Single Strike
+  attacks:
+    - name: 咬碎
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+      text: 抛掷1次硬币如果为正面，则选择附着于对手战斗宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 把脖子上的岩石蹭过来是感情深厚的证明。但是岩石很锋利，相当疼。
+  nationalDex:
+    - 744
+  species: 小狗宝可梦
+  heightMetres: 0.5
+  weightKilograms: 9.2

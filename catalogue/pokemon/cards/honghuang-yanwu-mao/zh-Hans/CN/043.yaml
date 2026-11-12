@@ -1,0 +1,39 @@
+name: 诅咒娃娃
+rarity: U
+illustrators:
+  - Megumi Higuchi
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 怨影娃娃
+  subtypes:
+    - Single Strike
+  attacks:
+    - name: 觉悟怨恨
+      cost:
+        - Psychic
+      damage: 20×
+      text: 给这只宝可梦身上放置最多7个伤害指示物，造成放置的伤害指示物数量×20点伤害。
+    - name: 不祥之光
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+      text: 使对手的战斗宝可梦陷入混乱状态。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 因被丢弃的怨念而诞生。听说，如果满足它受重视的需求，就会变回原来的玩偶。
+  nationalDex:
+    - 354
+  species: 布偶宝可梦
+  heightMetres: 1.1
+  weightKilograms: 12.5

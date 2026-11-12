@@ -1,0 +1,32 @@
+name: 飞翔皮卡丘VMAX
+regulationMark: E
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Lightning
+  stage: VMAX
+  evolvesFrom: 飞翔皮卡丘V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨气球
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: 在下一个对手的回合，这只宝可梦不会受到基础宝可梦的招式的伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

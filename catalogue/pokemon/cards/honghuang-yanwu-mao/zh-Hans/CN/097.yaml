@@ -1,0 +1,29 @@
+name: 幸福蛋V
+rarity: RR
+illustrators:
+  - Saki Hayashiro
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 欢乐冲撞
+      cost:
+        - Colorless
+      damage: 10+
+      text: 追加造成这只宝可梦身上附有的能量数量×30点伤害。若希望，可在造成伤害后，选择自己弃牌区中最多3张能量，附着于这只宝可梦身上。
+  abilities:
+    - name: 自然回复
+      kind: Ability
+      text: 每当从自己的手牌给这只宝可梦附着能量时，就恢复这只宝可梦的所有特殊状态。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

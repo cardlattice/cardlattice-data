@@ -1,0 +1,38 @@
+name: 露奈雅拉
+regulationMark: E
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 科斯莫姆
+  nationalDex:
+    - 792
+  species: 月轮宝可梦
+  heightMetres: 4
+  weightKilograms: 120
+  flavourText: 有时候会从通往异世界的洞穴里，把未知的力量和生命召唤到这个世界来。
+  attacks:
+    - name: 月光伤痛
+      cost:
+        - Colorless
+        - Colorless
+      text: 给对手的所有宝可梦身上放置伤害指示物，直到其各自身上放置有的伤害指示物数量变为原来的2倍为止。
+    - name: 精神子弹
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 给对手的1只备战宝可梦，也造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

@@ -1,0 +1,28 @@
+name: 皮卡丘V
+regulationMark: E
+illustrators:
+  - HYOGONOSUKE
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 伏特攻击
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "210"
+      text: 给这只宝可梦也造成30点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

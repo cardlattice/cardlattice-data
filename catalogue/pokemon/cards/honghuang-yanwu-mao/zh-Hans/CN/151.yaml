@@ -1,0 +1,11 @@
+name: 夏科娅
+rarity: SR
+illustrators:
+  - kirisAki
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 选择最多3张自己的奖赏卡，加入手牌。然后，选择与加入手牌张数相同张数的手牌，反面朝上作为奖赏卡放置。
+    - 在自己的回合只可以使用1张支援者卡。

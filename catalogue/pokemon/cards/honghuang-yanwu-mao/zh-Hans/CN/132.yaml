@@ -1,0 +1,31 @@
+name: 时拉比V
+rarity: SR
+illustrators:
+  - Teeziro
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 新叶之舞
+      cost:
+        - Grass
+      text: 选择自己手牌中任意数量的{Grass}能量，以任意方式附着于自己的宝可梦身上。
+    - name: 斩返
+      cost:
+        - Grass
+        - Colorless
+      damage: "60"
+      text: 将这只宝可梦与备战宝可梦互换。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

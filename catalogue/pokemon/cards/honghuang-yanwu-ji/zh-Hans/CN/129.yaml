@@ -1,0 +1,32 @@
+name: 水箭龟V
+rarity: SR
+illustrators:
+  - PLANETA Igarashi
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 水枪
+      cost:
+        - Water
+      damage: "30"
+    - name: 激流炮
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "200"
+      text: 在下一个自己的回合，这只宝可梦无法使用「激流炮」。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

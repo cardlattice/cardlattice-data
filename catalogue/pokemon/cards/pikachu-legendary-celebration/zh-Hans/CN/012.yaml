@@ -1,0 +1,36 @@
+name: 伊裴尔塔尔
+regulationMark: E
+illustrators:
+  - AKIRA EGAWA
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  nationalDex:
+    - 717
+  species: 破坏宝可梦
+  heightMetres: 5.8
+  weightKilograms: 203
+  flavourText: 听说，寿命终结时，会吸光所有生物的生命，返回到茧的样子。
+  attacks:
+    - name: 破坏嘶吼
+      cost:
+        - Colorless
+        - Colorless
+      text: 选择附着于对手场上宝可梦身上最多3张特殊能量，放于弃牌区。
+    - name: 黑暗之羽
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

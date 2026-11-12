@@ -1,0 +1,33 @@
+name: 梦幻
+regulationMark: E
+illustrators:
+  - Yuu Nishida
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  flavourText: 遗传基因中含有所有宝可梦的信息，因此据说它能使用所有的招式。
+  attacks:
+    - name: 精神射击
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 神奇尾巴
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。查看自己牌库上方6张卡牌，选择其中1张物品，在给对手看过之后，加入手牌。将剩余的卡牌放回牌库并重洗牌库。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 151
+  species: 新种宝可梦
+  heightMetres: 0.4
+  weightKilograms: 4

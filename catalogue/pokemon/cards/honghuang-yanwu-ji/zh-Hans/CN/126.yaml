@@ -1,0 +1,26 @@
+name: 列阵兵
+rarity: CHR
+illustrators:
+  - Kinu Nishimura
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - Rapid Strike
+  attacks:
+    - name: 连击之阵
+      cost:
+        - Fighting
+        - Colorless
+      damage: 20×
+      text: 造成自己场上「连击」宝可梦数量×20点伤害。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 6只为一体的宝可梦。惯于团队行动，会一边变换阵形一边战斗。

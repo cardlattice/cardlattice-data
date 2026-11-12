@@ -1,0 +1,36 @@
+name: 长毛狗V
+rarity: RR
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 再续獠牙
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: 如果因为这个招式的伤害，对手的基础宝可梦昏厥的话，则多拿取1张奖赏卡。
+    - name: 疯狂冲撞
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+      text: 给这只宝可梦也造成30点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

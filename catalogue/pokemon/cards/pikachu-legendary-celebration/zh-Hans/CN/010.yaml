@@ -1,0 +1,36 @@
+name: 捷克罗姆
+regulationMark: E
+illustrators:
+  - Aya Kusube
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  nationalDex:
+    - 644
+  species: 黑阴宝可梦
+  heightMetres: 2.9
+  weightKilograms: 345
+  flavourText: 用尾巴制造出电。把全身隐藏在雷云里，在合众地区的空中飞行。
+  attacks:
+    - name: 场地粉碎
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 将场上对手的竞技场放于弃牌区。
+    - name: 焰白闪电
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 80+
+      text: 如果自己的备战区有「莱希拉姆」的话，则追加造成80点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3

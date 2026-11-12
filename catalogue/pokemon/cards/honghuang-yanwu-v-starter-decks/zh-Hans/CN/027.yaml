@@ -1,0 +1,31 @@
+name: 闪焰王牌VMAX
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Fire
+  stage: VMAX
+  evolvesFrom: 闪焰王牌V
+  subtypes:
+    - VMAX
+    - Gigantamax
+    - Single Strike
+  attacks:
+    - name: 超极巨破阵火球
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "230"
+      text: 使对手的战斗宝可梦陷入灼伤状态。在下一个自己的回合，这只宝可梦无法使用招式。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

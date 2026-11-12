@@ -1,0 +1,33 @@
+name: 伽勒尔急冻鸟V
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 精神光束
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 使对手的战斗宝可梦陷入混乱状态。
+  abilities:
+    - name: 再构筑
+      kind: Ability
+      text: 在自己的回合，如果将自己的2张手牌放于弃牌区的话，则可使用1次。从自己的牌库上方抽取1张卡牌。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

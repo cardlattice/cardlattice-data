@@ -1,0 +1,30 @@
+name: 科斯莫姆
+regulationMark: E
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 科斯莫古
+  nationalDex:
+    - 790
+  species: 原始星宝可梦
+  heightMetres: 0.1
+  weightKilograms: 999.9
+  flavourText: 一边吸收光，一边不断成长。金色的外壳坚硬得令人吃惊。
+  attacks:
+    - name: 星之守护
+      cost:
+        - Colorless
+      text: 抛掷1次硬币如果为正面，则在下一个对手的回合，这只宝可梦不受到招式的伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3

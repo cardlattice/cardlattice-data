@@ -1,0 +1,34 @@
+name: 黑马蕾冠王V
+rarity: CSR
+illustrators:
+  - Oswaldo KATO
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 暗影迷雾
+      cost:
+        - Psychic
+      damage: "10"
+      text: 在下一个对手的回合，对手无法从手牌使出并附着「特殊能量」也无法放置「竞技场」。
+    - name: 星碎
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 给对手的2只宝可梦身上，各放置5个伤害指示物。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。
