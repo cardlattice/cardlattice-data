@@ -256,6 +256,25 @@ it("accepts fossil Item HP and Abilities while rejecting them on other Trainers 
   }
 });
 
+it("accepts printed Tool attacks while preserving category and attack validation", () => {
+  const tool =
+    'name: Original synthetic Tool\npokemon:\n  category: trainer\n  subtypes: [Pokémon Tool]\n  attacks: [{name: Original synthetic attack, cost: [Colorless, Colorless], damage: "20"}]\n';
+  expect(validateCard(tool, filename)).toEqual([]);
+  for (const invalid of [
+    tool.replace("trainer", "energy"),
+    tool.replace("[Pokémon Tool]", "[Item]"),
+    tool.replace("[Pokémon Tool]", "[Supporter]"),
+    tool.replace("  subtypes: [Pokémon Tool]\n", ""),
+    tool + "  hp: 60\n",
+    tool + "  abilities: []\n",
+    tool + "  stage: Basic\n",
+    tool + "  retreatCost: 0\n",
+    tool.replace("Original synthetic attack", '" "'),
+  ]) {
+    expect(validateCard(invalid, filename).length).toBeGreaterThan(0);
+  }
+});
+
 describe("schema audit regressions", () => {
   it.each([
     "finishes: []\nstamps: []\nillustrators: []\nprintedDenominator: null\nartwork: null",
@@ -283,7 +302,14 @@ describe("schema audit regressions", () => {
 });
 
 it("validates explicit variant combinations as well as their field types", () => {
+  expect(
+    validateCard("name: Example\nvariants: {first: {edition: first-edition}}", filename),
+  ).toEqual([]);
   for (const fields of [
+    "variants: {unknown: {}}",
+    "variants: {unknown: {stamps: [], products: []}}",
+    "variants: {first: {edition: first-edition}, second: {edition: first-edition}}",
+    "finishes: [holo]\nvariants: {first: {edition: first-edition}}",
     "finishes: [non-holo]\nvariants: {first: {finish: holo}}",
     "variants: {first: {finish: holo}, second: {finish: holo}}",
     "variants: {first: {finish: holo, stamps: [one, two]}, second: {finish: holo, stamps: [two, one]}}",
@@ -378,7 +404,7 @@ it("preserves numeric printed levels and separate anniversary numbering", () => 
 });
 
 it("preserves real printed code punctuation while rejecting whitespace damage", () => {
-  for (const code of ["SM4+", "30th C", "SM-P"])
+  for (const code of ["SM4+", "30th C", "SM-P", "CSM1.5C"])
     expect(
       validateSet(
         `name: Example\nprintedIdentifiers: [{language: ja, code: "${code}"}]`,
