@@ -1,0 +1,10 @@
+name: フレア団のしたっぱ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Yusuke Ohmura

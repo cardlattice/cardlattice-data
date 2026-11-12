@@ -1,0 +1,10 @@
+name: バトルコンプレッサー（フレア団ギア）
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の山札から好きなカードを3枚まで選び、トラッシュする。そして山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

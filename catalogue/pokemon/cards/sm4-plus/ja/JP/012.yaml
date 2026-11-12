@@ -1,0 +1,39 @@
+name: フェローチェGX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ファストレイド
+      cost:
+        - Grass
+      damage: "30"
+      text: このワザは、先攻プレイヤーの最初の番でも使える。
+    - name: クルーエルスパイク
+      cost:
+        - Grass
+        - Grass
+      damage: "60"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: ビューティーGX
+      cost:
+        - Grass
+        - Grass
+      damage: 50×
+      text: 相手がすでにとったサイドの枚数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+    - Ultra Beast
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+rarity: RR
+illustrators:
+  - 5ban Graphics

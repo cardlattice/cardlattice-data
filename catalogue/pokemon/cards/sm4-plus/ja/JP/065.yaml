@@ -1,0 +1,45 @@
+name: アクジキングGX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: くいちらかす
+      cost:
+        - Darkness
+      text: 自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、このポケモンにつける。
+    - name: タイラントホール
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "180"
+    - name: グラトニーGX
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: "100"
+      text: このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを2枚多くとる。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+    - Ultra Beast
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+rarity: RR
+illustrators:
+  - 5ban Graphics

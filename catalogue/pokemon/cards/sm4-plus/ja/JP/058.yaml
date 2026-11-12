@@ -1,0 +1,33 @@
+name: ナゲツケサル
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: なげつける
+      cost:
+        - Fighting
+      text: 相手のベンチポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: チームプレイ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 自分のベンチの「ナゲツケサル」の数×30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 766
+  species: れんけいポケモン
+  heightMetres: 2
+  weightKilograms: 82.8
+  flavourText: ２０匹前後の グループを つくる。 その結束は 非常に 固く 絶対 仲間を 見捨てない。
+illustrators:
+  - Naoki Saito

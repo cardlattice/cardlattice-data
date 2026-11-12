@@ -1,0 +1,36 @@
+name: ゼルネアス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: ジオコントロール
+      cost:
+        - Fairy
+      text: 自分のベンチポケモンを2匹選び、山札から{Fairy}エネルギーを、選んだポケモンにそれぞれ1枚ずつつける。そして山札を切る。
+    - name: にじのやり
+      cost:
+        - Fairy
+        - Fairy
+        - Colorless
+      damage: "100"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 716
+  species: せいめいポケモン
+  heightMetres: 3
+  weightKilograms: 215
+  flavourText: 永遠の 命を 分け与えると 言われている。 樹木の 姿で １０００年 眠り 復活する。
+illustrators:
+  - 5ban Graphics

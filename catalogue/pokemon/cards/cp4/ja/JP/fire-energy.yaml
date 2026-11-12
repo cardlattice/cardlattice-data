@@ -1,0 +1,10 @@
+name: 基本炎エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fire
+printedDenominator: null
+collectorNumber: null
+regulationMark: null

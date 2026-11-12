@@ -1,0 +1,36 @@
+name: ダストダス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ゴミなだれ
+      cost:
+        - Psychic
+      damage: 20×
+      text: 相手のトラッシュにあるグッズの枚数×20ダメージ。
+    - name: アシッドボム
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 569
+  species: ゴミすてばポケモン
+  heightMetres: 1.9
+  weightKilograms: 107.3
+  flavourText: 右腕から 飛びだす 毒液に 注意。 ちょっと かかるだけで 未知の 毒素に 冒される。
+  evolvesFrom: ヤブクロン
+illustrators:
+  - Mitsuhiro Arita

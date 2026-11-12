@@ -1,0 +1,36 @@
+name: カプ・ブルル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ウッドホーン
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+      text: このポケモンのHPを「30」回復する。
+    - name: カームストライク
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 自分がすでにGXワザを使っていたなら、60ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 787
+  species: とちがみポケモン
+  heightMetres: 1.9
+  weightKilograms: 45.5
+  flavourText: 大木を 引き抜き ブンブン 振り回す。 草木を 茂らせて そのエネルギーを 吸収する。
+illustrators:
+  - Megumi Mizutani

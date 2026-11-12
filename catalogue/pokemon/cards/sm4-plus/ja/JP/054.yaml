@@ -1,0 +1,33 @@
+name: レジロック
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ハードスイング
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "110"
+      text: このワザのダメージは抵抗力を計算しない。
+  abilities:
+    - name: いわやまのうなり
+      text: このポケモンがいるかぎり、自分の「レジスチル」が使うワザの、相手のバトルポケモンへのダメージは「+10」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 377
+  species: いわやまポケモン
+  heightMetres: 1.7
+  weightKilograms: 230
+  flavourText: 全身が 岩で できている。 戦いで 体が 欠けても 岩を くっつけて 治してしまう。
+illustrators:
+  - kawayoo

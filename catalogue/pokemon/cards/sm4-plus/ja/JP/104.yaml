@@ -1,0 +1,10 @@
+name: カキ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - このカードを使ったら、自分の番は終わる。 自分の山札にある{Fire}エネルギーを4枚まで、自分のポケモン1匹につける。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Ken Sugimori

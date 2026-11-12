@@ -1,0 +1,30 @@
+name: ヤミカラス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ふきとばし
+      cost:
+        - Darkness
+      damage: "10"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 198
+  species: くらやみポケモン
+  heightMetres: 0.5
+  weightKilograms: 2.1
+  flavourText: 日暮れに 目覚め 夕闇を 飛ぶ。 ヤミカラスが 飛ぶまでに 家に 帰れ という ことわざも あるぞ。
+illustrators:
+  - Sekio

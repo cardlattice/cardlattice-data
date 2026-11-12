@@ -1,0 +1,33 @@
+name: ガマゲロゲEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ブルブルパンチ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、相手は手札からグッズを出して使えない。
+    - name: グレネードハンマー
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "130"
+      text: 自分のベンチポケモンを2匹選び、そのポケモンにも、それぞれ30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+illustrators:
+  - Eske Yoshinob

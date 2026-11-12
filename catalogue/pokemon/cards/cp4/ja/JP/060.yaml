@@ -1,0 +1,35 @@
+name: ボクレー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: おどろかす
+      cost:
+        - Psychic
+      text: 相手の手札からオモテを見ないで1枚選ぶ。その後、そのカードを見てから相手の山札にもどし、山札を切る。
+    - name: ひっかける
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 708
+  species: きりかぶポケモン
+  heightMetres: 0.4
+  weightKilograms: 7
+  flavourText: 腐った 切り株に 魂が 宿り ポケモンに なった。 人の 寄りつかない 森に 住む。
+illustrators:
+  - 5ban Graphics

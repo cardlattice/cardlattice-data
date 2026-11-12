@@ -1,0 +1,34 @@
+name: マギアナ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ボールアタック
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: きせかえ
+      text: 自分の番に1回使える。自分の場のポケモンについている「ポケモンのどうぐ」を1枚、手札にもどす。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 801
+  species: じんぞうポケモン
+  heightMetres: 1
+  weightKilograms: 80.5
+  flavourText: ５００年以上前に 造られた 人造ポケモン。 人の 言葉を 理解するが しゃべれない。
+illustrators:
+  - kawayoo

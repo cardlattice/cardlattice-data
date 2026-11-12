@@ -1,0 +1,28 @@
+name: ツチニン
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ちょっとつっこむ
+      cost:
+        - Colorless
+      damage: "20"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 290
+  species: したづみポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  flavourText: １０年以上 土の 中で 暮らす ことも ある。 樹木の 根っこから 栄養を 吸い取る。
+illustrators:
+  - Kyoko Umemoto

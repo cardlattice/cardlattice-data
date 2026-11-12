@@ -1,0 +1,33 @@
+name: コイル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ピッカリだま
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: ピカピカゆうどう
+      text: このポケモンがバトル場にいるかぎり、このポケモンのにげるために必要なエネルギーは、自分のベンチの「コイル」の数ぶん少なくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 81
+  species: じしゃくポケモン
+  heightMetres: 0.3
+  weightKilograms: 6
+  flavourText: 空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。
+illustrators:
+  - Akira Komayama

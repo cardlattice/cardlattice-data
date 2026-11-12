@@ -1,0 +1,35 @@
+name: ブリガロン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: タッチダウン
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: このポケモンのHPを「20」回復する。
+  abilities:
+    - name: ニードルガード
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 652
+  species: とげよろいポケモン
+  heightMetres: 1.6
+  weightKilograms: 90
+  flavourText: 体当たりで ５０トンの 戦車を ひっくり返す パワー。 自分が 盾となって 仲間を 守る。
+  evolvesFrom: ハリボーグ
+illustrators:
+  - 5ban Graphics

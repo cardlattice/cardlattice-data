@@ -1,0 +1,33 @@
+name: カイロス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: てんじょうなげ
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。
+    - name: ハサミギロチン
+      cost:
+        - Grass
+        - Grass
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 127
+  species: くわがたポケモン
+  heightMetres: 1.5
+  weightKilograms: 55
+  flavourText: 角の 一撃は 大木 さえ へし折るほど。 アローラでは クワガノンが 最大の ライバル。
+illustrators:
+  - DemizuPosuka

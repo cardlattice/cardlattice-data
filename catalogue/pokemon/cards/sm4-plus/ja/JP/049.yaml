@@ -1,0 +1,41 @@
+name: ルナアーラGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: シャドーレイ
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: 次の相手の番、このワザを受けたポケモンのHPは、回復しない。
+    - name: ルナフォールGX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      text: 相手のたねポケモン（「ポケモンGX」をのぞく）を1匹、きぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: サイコトランス
+      text: 自分の番に何回でも使える。自分の場のポケモンについている{Psychic}エネルギーを1個、自分の別のポケモンにつけ替える。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: コスモウム
+rarity: RR
+illustrators:
+  - 5ban Graphics

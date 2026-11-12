@@ -1,0 +1,35 @@
+name: カエンジシ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: もうかのとっしん
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+      damage: "110"
+      text: このポケモンにも30ダメージ。
+  abilities:
+    - name: フレアコマンド
+      text: このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 668
+  species: おうじゃポケモン
+  heightMetres: 1.5
+  weightKilograms: 81.5
+  flavourText: 群れの 中で 一番 大きな 炎の たてがみを 持つ オスが リーダーとして 仲間を 率いる。
+  evolvesFrom: シシコ
+illustrators:
+  - Naoki Saito

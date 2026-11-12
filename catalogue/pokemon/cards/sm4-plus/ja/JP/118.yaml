@@ -1,0 +1,11 @@
+name: スイレン
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - "{Water}エネルギーがついている自分のポケモン全員のHPを、それぞれ「50」回復する。"
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Kanako Eo

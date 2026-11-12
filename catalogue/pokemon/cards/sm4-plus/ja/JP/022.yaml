@@ -1,0 +1,30 @@
+name: アローラ ロコン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ほえる
+      cost: []
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: スノーアイス
+      cost:
+        - Water
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: きつねポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  flavourText: マイナス５０度の 冷気を 吐く。 アローラの老人は ケオケオという 昔の 名前で 呼ぶことも。
+illustrators:
+  - Tomokazu Komiya

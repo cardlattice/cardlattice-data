@@ -1,0 +1,32 @@
+name: アローラ サンド
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: まるくなる
+      cost: []
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。
+    - name: アイスボール
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 27
+  species: ねずみポケモン
+  heightMetres: 0.7
+  weightKilograms: 40
+  flavourText: 雪山に 棲む。 鋼の甲羅は とても 頑丈だが 硬すぎて 身体を 丸めることが できない。
+illustrators:
+  - Mizue

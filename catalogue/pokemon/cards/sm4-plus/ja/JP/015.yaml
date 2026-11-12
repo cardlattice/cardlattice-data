@@ -1,0 +1,28 @@
+name: ヒトモシ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ゆれるほのお
+      cost:
+        - Fire
+      damage: "10"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 607
+  species: ろうそくポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.1
+  flavourText: 明かりを 灯して 道案内を するように 見せかけながら 生命力を 吸い取っている。
+illustrators:
+  - Mitsuhiro Arita

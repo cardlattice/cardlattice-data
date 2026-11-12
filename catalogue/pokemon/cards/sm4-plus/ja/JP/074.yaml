@@ -1,0 +1,35 @@
+name: ディアンシー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: きらめくいのり
+      cost:
+        - Fairy
+      text: 自分の場のポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。そして山札を切る。
+    - name: ダイヤストーム
+      cost:
+        - Fairy
+        - Colorless
+      damage: "30"
+      text: 自分の{Fairy}ポケモン全員のHPを、それぞれ「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 719
+  species: ほうせきポケモン
+  heightMetres: 0.7
+  weightKilograms: 8.8
+  flavourText: メレシーの 突然変異。 ピンク色に 輝く 体は 世界一 美しいと 言われる。
+illustrators:
+  - TOKIYA

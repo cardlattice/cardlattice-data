@@ -1,0 +1,10 @@
+name: マルチつけかえ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のベンチポケモンについているエネルギーを1個、自分のバトルポケモンにつけ替える。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

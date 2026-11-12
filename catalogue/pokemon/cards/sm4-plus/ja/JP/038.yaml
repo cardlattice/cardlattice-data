@@ -1,0 +1,33 @@
+name: ハブネーク
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくのキバ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+  abilities:
+    - name: ポイズンアップ
+      text: このポケモンがいるかぎり、相手のバトルポケモンは、どくでのせるダメカンの数が1個多くなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 336
+  species: キバへびポケモン
+  heightMetres: 2.7
+  weightKilograms: 52.5
+  flavourText: 猛毒が 染み出している 鋭い 切れ味の 尻尾で 素早い ザングースに 立ち向かう。
+illustrators:
+  - Eri Yamaki

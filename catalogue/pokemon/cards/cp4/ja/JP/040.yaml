@@ -1,0 +1,36 @@
+name: ジバコイル
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: サンダーブラスト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+      text: このポケモンについている{Lightning}エネルギーを1個選び、トラッシュする。
+  abilities:
+    - name: マグネサーキット
+      text: 自分の手札から{Lightning}エネルギーを1枚選び、自分のポケモンにつける。この特性は、自分の番に何回でも使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 462
+  species: じばポケモン
+  heightMetres: 1.2
+  weightKilograms: 180
+  flavourText: 特殊な 磁場の 影響で レアコイルが 進化した。 ３つの ユニットから 磁力を 出す。
+  evolvesFrom: レアコイル
+illustrators:
+  - Hajime Kusajima

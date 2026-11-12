@@ -1,0 +1,36 @@
+name: トゲチック
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: たまひろい
+      cost:
+        - Fairy
+      text: 自分のトラッシュから基本エネルギーを3枚選び、相手に見せてから、山札にもどす。そして山札を切る。
+    - name: ようせいのかぜ
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 176
+  species: しあわせポケモン
+  heightMetres: 0.6
+  weightKilograms: 3.2
+  flavourText: 心優しい 人の 前に 幸せを もたらすため 姿を 現すと 言われている。
+  evolvesFrom: トゲピー
+illustrators:
+  - Kanako Eo

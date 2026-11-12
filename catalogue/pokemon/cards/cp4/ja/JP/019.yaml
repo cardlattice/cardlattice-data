@@ -1,0 +1,34 @@
+name: マフォクシー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ブレイズボール
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンについている{Fire}エネルギーの数×20ダメージを追加。
+  abilities:
+    - name: マジカルフレイム
+      text: 自分の手札が6枚になるように、山札を引く。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 655
+  species: キツネポケモン
+  heightMetres: 1.5
+  weightKilograms: 39
+  flavourText: 杖の 先端で 燃える 炎を 見つめて 精神統一すると 未来の 出来事を 見通せる。
+  evolvesFrom: テールナー
+illustrators:
+  - 5ban Graphics

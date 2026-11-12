@@ -1,0 +1,35 @@
+name: アマージョ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: トロピカルキック
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンのHPを「20」回復し、特殊状態もすべて回復する。
+  abilities:
+    - name: じょおうのいげん
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札を見て、その中にあるカードを、1枚トラッシュする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 763
+  species: フルーツポケモン
+  heightMetres: 1.2
+  weightKilograms: 21.4
+  flavourText: 脚を 活かした 蹴りが 得意。 倒した 相手を 足蹴に して 高笑いで 勝利を アピール。
+  evolvesFrom: アママイコ
+illustrators:
+  - Shin Nagasawa
+printedDenominator: 144

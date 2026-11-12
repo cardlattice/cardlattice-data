@@ -1,0 +1,37 @@
+name: ルガルガンGX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ツメできりさく
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "110"
+    - name: デスローグGX
+      cost:
+        - Fighting
+        - Colorless
+      damage: 50×
+      text: 相手のベンチポケモンの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: ブラッディアイ
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: イワンコ
+rarity: RR
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,35 @@
+name: アローラ ベトベトン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: かみくだく
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+  abilities:
+    - name: かがくのちから
+      text: このポケモンがいるかぎり、おたがいの場・手札・トラッシュにあるたねポケモンの特性は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 89
+  species: ヘドロポケモン
+  heightMetres: 1
+  weightKilograms: 52
+  flavourText: 意外に 大人しく なつくが 餌の ゴミを ずっと あげていないと 家の 家具を 壊して 喰らいだす。
+  evolvesFrom: アローラ ベトベター
+illustrators:
+  - Hitoshi Ariga

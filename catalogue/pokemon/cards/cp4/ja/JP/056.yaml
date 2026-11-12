@@ -1,0 +1,33 @@
+name: デオキシス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ファーストコンタクト
+      cost:
+        - Colorless
+      text: このワザは、先攻プレイヤーの最初の番でも使える。自分の山札を2枚引く。
+    - name: オーバースマッシュ
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: 次の自分の番、このポケモンが使う「オーバースマッシュ」のダメージは「+60」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 386
+  species: ＤＮＡポケモン
+  heightMetres: 1.7
+  weightKilograms: 60.8
+  flavourText: 宇宙ウィルスが 突然変異を 起こして ポケモンに なった。 オーロラの 近くに 現れる。
+illustrators:
+  - kawayoo

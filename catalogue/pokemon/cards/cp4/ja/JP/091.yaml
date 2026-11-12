@@ -1,0 +1,31 @@
+name: ギラティナEX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: カオスウィール
+      cost:
+        - Grass
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 次の相手の番、相手は手札から、「ポケモンのどうぐ」「特殊エネルギー」を出してつけられず「スタジアム」も出せない。
+  abilities:
+    - name: はんこつのはどう
+      text: このポケモンは、相手のM進化ポケモンからワザのダメージや効果を受けない。
+      kind: Ability
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+illustrators:
+  - PLANETA

@@ -1,0 +1,29 @@
+name: MスピアーEX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Grass
+  stage: MEGA
+  attacks:
+    - name: ハザードスティンガー
+      cost:
+        - Grass
+        - Grass
+      damage: "40"
+      text: このポケモンについているエネルギーをすべてトラッシュし、相手のバトルポケモンをどくとマヒにする。ポケモンチェックのとき、このどくでのせるダメカンの数は4個になる。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  evolvesFrom: スピアーEX
+illustrators:
+  - 5ban Graphics

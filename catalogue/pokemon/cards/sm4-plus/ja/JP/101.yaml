@@ -1,0 +1,12 @@
+name: こだわりハチマキ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンが使うワザの、相手のバトル場の「ポケモンGX・EX」へのダメージは「+30」される。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Eske Yoshinob

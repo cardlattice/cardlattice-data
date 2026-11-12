@@ -1,0 +1,35 @@
+name: バチュル
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Lightning
+      damage: "10"
+    - name: よるのこうしん
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにあるワザ「よるのこうしん」を持つポケモンの枚数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 595
+  species: くっつきポケモン
+  heightMetres: 0.1
+  weightKilograms: 0.6
+  flavourText: 自分では 電気を つくれないので 他の 大きな ポケモンに とりつき 静電気を 吸いとる。
+illustrators:
+  - TOKIYA

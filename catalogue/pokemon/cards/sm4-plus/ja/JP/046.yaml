@@ -1,0 +1,27 @@
+name: コスモッグ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: テレポート
+      cost:
+        - Colorless
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 789
+  species: せいうんポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.1
+  flavourText: はかない ガス状の 身体。 大気の チリを 集めながら ゆっくりと 成長していく。
+illustrators:
+  - Shin Nagasawa
