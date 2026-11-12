@@ -9,10 +9,17 @@
       "$ref": "pokemon-common.schema.json#/$defs/name"
     },
     "collectorNumber": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 100,
-      "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "rarity": {
       "anyOf": [
@@ -69,6 +76,15 @@
     },
     "variants": {
       "$ref": "pokemon-common.schema.json#/$defs/printing_variants"
+    },
+    "additionalNumbers": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_additionalNumbers"
+    },
+    "legendPart": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_legendPart"
+    },
+    "vUnionPart": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_vUnionPart"
     }
   },
   "required": ["name"],

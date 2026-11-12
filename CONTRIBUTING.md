@@ -277,7 +277,10 @@ variants:
 ```
 
 The map key identifies the variant; there is no repeated `id` property.
-`finish` is required; edition, stamps and product membership are optional.
+Record at least one observed finish, edition, stamp or product membership.
+When an edition mark is visible but its precise foil treatment is unverified,
+use `variants: {first-edition: {edition: first-edition}}` and omit `finish`.
+Empty variant objects and empty stamp/product lists alone are not observations.
 Supported editions are `first-edition` and `unlimited`; extend the vocabulary for
 other documented editions. Never infer all combinations of editions and finishes.
 If `finishes` is also supplied or inherited, it must match the variant finish
@@ -285,6 +288,67 @@ set. Remove or override incompatible inherited fields. Duplicate combinations,
 unknown editions and missing/wrong-game product references fail compilation.
 Variant product links are indexed for API product filtering. Artwork/image asset
 publication continues to use the separate rights-controlled image pipeline.
+
+## Printed localised Pokédex details
+
+When printed on the card, preserve `pokemon.flavourText` and `pokemon.species`
+in that card's language. Record printed height and weight as numeric
+`pokemon.heightMetres` and `pokemon.weightKilograms`, converting explicit printed
+units when needed. Do not fill these from a species database or another printing.
+Unknown or unprinted facts stay absent; zero is only for an explicitly printed
+zero. Measurements are nonnegative numbers bounded to 1,000,000; species text is
+limited to 200 characters and flavour text to 2,000. Species and measurements
+belong to Pokémon, not Trainer or Energy records.
+
+The rarity enum also preserves verified printed regional letter codes (such as
+`C`, `RR`, `SSR`, `PR` and `FUR`) and the gem-pack symbols `●`, `◆`, `★`, `★★` and `★★★`.
+Historical coloured star symbols use `★ (silver)` and `★ (gold)`; they are
+distinct from a black `★` and from the modern literal letter `S`.
+They are the codes actually printed, not aliases that automatically convert into
+English rarity labels. Do not guess a rarity from artwork or finish. Add other
+verified codes to the compiler and schema together. A card with no printed rarity
+symbol may omit rarity; this does not mean an unreadable symbol has been verified
+absent.
+
+Use `pokemon.level` for a printed numeric level (1–100). A level-up mechanic such
+as LV.X is separate from a numeric level. Do not infer a level from the species.
+
+Some anniversary Pikachu cards have a second printed badge, such as `09/30`.
+Keep the main collector number in the filename and preserve the badge separately:
+
+```yaml
+additionalNumbers:
+  pikachu30th: "09/30"
+```
+
+Only `01/30` through `30/30` are accepted for this badge. It never replaces the
+primary collector number or `printedDenominator`. Literal set codes can include
+printed plus signs and interior spaces, e.g. `SM4+` and `30th C`.
+
+For a genuinely unnumbered printing, choose a descriptive filename such as
+`grass-energy.yaml` and explicitly write `collectorNumber: null`. The compiler
+uses that filename as a stable semantic key while the API keeps the printed
+collector number null. Do not invent numbers, copy publisher database IDs into
+filenames, or author the generated `unnumberedKey`. Clear inherited
+`printedDenominator` with null where none is printed. Printed alphabetic codes
+such as `GRA` are actual collector identifiers and do not need this exception.
+
+Keep two physical LEGEND halves as two files. Set `legendPart: top` or `bottom`
+and link both to a shared pair collection using `collections`. Each half contains
+only its own printed stats and rules; do not duplicate the combined card's fields.
+The historical stage `Level-Up`, subtype `LV.X`, and ability kind `Ancient Trait`
+retain their distinct mechanics. A printed regulation mark does not assert current
+format legality, particularly on commemorative reprints.
+
+A localised printed set name belongs in that locale's `release.yaml` as `name`.
+For example, `cards/s4a/ko/KR/release.yaml` can supply `name: 샤이니스타 V`
+without repeating it in each Korean card or replacing the canonical set name.
+The compiled set retains these names with their language and region.
+
+For V-UNION cards, use `vUnionPart: top-left`, `top-right`, `bottom-left`, or
+`bottom-right` on each physical piece and link the assembly using a collection.
+Only enter fields actually printed on that piece; do not copy HP or attacks from
+another quadrant. LEGEND's two halves continue to use `legendPart`.
 
 Use Conventional Commits for every commit message and PR title, for example
 `feat(data): add Korean cards` or `fix(schema): reject invalid finishes`.
