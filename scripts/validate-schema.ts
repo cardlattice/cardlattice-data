@@ -160,7 +160,7 @@ export function validateSet(text: string, file: string): Problem[] {
   }
   return problems;
 }
-type Variant = { finish: string; edition?: string; stamps?: string[]; products?: string[] };
+type Variant = { finish?: string; edition?: string; stamps?: string[]; products?: string[] };
 function validateVariants(value: unknown, file: string): Problem[] {
   const { variants, finishes } = value as {
     variants?: Record<string, Variant> | null;
@@ -185,7 +185,7 @@ function validateVariants(value: unknown, file: string): Problem[] {
         message: `Duplicate variant combination at variants/${key}`,
       });
     combinations.add(signature);
-    actualFinishes.add(variant.finish);
+    if (variant.finish) actualFinishes.add(variant.finish);
   }
   if (
     finishes &&

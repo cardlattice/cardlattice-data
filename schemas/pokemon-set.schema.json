@@ -63,7 +63,7 @@
             "type": "string",
             "minLength": 1,
             "maxLength": 30,
-            "pattern": "^[A-Za-z0-9+\\-](?:[A-Za-z0-9 +\\-]*[A-Za-z0-9+\\-])?$"
+            "pattern": "^[A-Za-z0-9+.\\-](?:[A-Za-z0-9 +.\\-]*[A-Za-z0-9+.\\-])?$"
           },
           "symbol": {
             "$ref": "pokemon-common.schema.json#/$defs/name"

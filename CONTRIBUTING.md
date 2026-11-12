@@ -277,7 +277,10 @@ variants:
 ```
 
 The map key identifies the variant; there is no repeated `id` property.
-`finish` is required; edition, stamps and product membership are optional.
+Record at least one observed finish, edition, stamp or product membership.
+When an edition mark is visible but its precise foil treatment is unverified,
+use `variants: {first-edition: {edition: first-edition}}` and omit `finish`.
+Empty variant objects and empty stamp/product lists alone are not observations.
 Supported editions are `first-edition` and `unlimited`; extend the vocabulary for
 other documented editions. Never infer all combinations of editions and finishes.
 If `finishes` is also supplied or inherited, it must match the variant finish
@@ -299,6 +302,8 @@ belong to Pokémon, not Trainer or Energy records.
 
 The rarity enum also preserves verified printed regional letter codes (such as
 `C`, `RR`, `SSR`, `PR` and `FUR`) and the gem-pack symbols `●`, `◆`, `★`, `★★` and `★★★`.
+Historical coloured star symbols use `★ (silver)` and `★ (gold)`; they are
+distinct from a black `★` and from the modern literal letter `S`.
 They are the codes actually printed, not aliases that automatically convert into
 English rarity labels. Do not guess a rarity from artwork or finish. Add other
 verified codes to the compiler and schema together. A card with no printed rarity
