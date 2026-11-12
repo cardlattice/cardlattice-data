@@ -1,0 +1,18 @@
+name: Doduo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Furie-aanval
+      cost:
+        - Colorless
+      damage: 10×
+      text: Gooi 2 munten op. Deze aanval brengt 10 schade toe maal het aantal keren
+        kop.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

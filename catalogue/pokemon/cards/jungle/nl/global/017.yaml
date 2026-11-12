@@ -1,0 +1,28 @@
+name: Clefable
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Clefairy
+  attacks:
+    - name: Metronoom
+      cost:
+        - Colorless
+      text: Kies 1 van de aanvallen van de verdedigende Pokémon. Metronoom doet die
+        aanval na, behalve voor de Energiekosten en al het andere wat nodig is
+        om die aanval te gebruiken, zoals het weggooien van Energiekaarten. (Het
+        type van Clefable is nog altijd Kleurloos, ongeacht het type van de
+        Verdedigende Pokémon.)
+    - name: Minimaliseer
+      cost:
+        - Colorless
+        - Colorless
+      text: Alle schade die door aanvallen aan Clefable wordt toegebracht tijdens je
+        tegenstanders volgende beurt wordt verminderd met 20 (na het toepassen
+        van Zwakte en Weerstand).
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

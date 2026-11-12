@@ -1,0 +1,25 @@
+name: Kabuto
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Mysterieus Fossiel
+  attacks:
+    - name: Krab
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: Kabuto-pantser
+      kind: Pokémon Power
+      text: Telkens wanneer een aanval (zelfs die van jezelf) schade toebrengt aan
+        Kabuto (na het toepassen van Zwakte en Weerstand), brengt die aanval
+        slechts half de schade toe aan Kabuto (naar beneden afgerond naar de
+        dichtstbijzijnde 10). (Alle andere effecten van aanvallen blijven gewoon
+        geldig.) Deze kracht stopt met werken zolang Kabuto In Slaap, Verward,
+        of Verlamd is.
+rarity: Common
+finishes:
+  - non-holo

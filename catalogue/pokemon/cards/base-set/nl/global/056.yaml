@@ -1,0 +1,24 @@
+name: Onix
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Steenworp
+      cost:
+        - Fighting
+      damage: "10"
+    - name: Verharding
+      cost:
+        - Fighting
+        - Fighting
+      text: Telkens wanneer 30 of minder schade wordt toegebracht aan Onix tijdens je
+        tegenstanders volgende beurt (na het toepassen van Zwakte en Weerstand),
+        voorkomt dit die schade. (Alle andere gevolgen van aanvallen blijven
+        gewoon geldig.)
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

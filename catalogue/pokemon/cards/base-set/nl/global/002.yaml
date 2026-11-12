@@ -1,0 +1,30 @@
+name: Blastoise
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Wartortle
+  attacks:
+    - name: Hydropomp
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: 40+
+      text: Brengt 40 schade plus nog eens 10 schade voor elke Water Energie die aan
+        Blastoise gehecht is maar niet wordt gebruikt om de Energiekosten van
+        deze aanval te betalen. Je kunt op deze manier niet meer dan 20 schade
+        toevoegen.
+  abilities:
+    - name: Regendans
+      kind: Pokémon Power
+      text: Je mag zo vaak als je wilt tijdens je beurt (vóór je aanval) 1 Water
+        Energiekaart aan 1 van je Water Pokémon hechten. (Hiermee wordt de
+        aanhechting van 1 Energiekaart voor je beurt niet opgebruikt.) Deze
+        kracht kan niet worden gebruikt als Blastoise In Slaap, Verward of
+        Verlamd is.
+rarity: Rare
+finishes:
+  - holo

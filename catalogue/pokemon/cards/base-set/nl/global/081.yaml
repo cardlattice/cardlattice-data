@@ -1,0 +1,9 @@
+name: Energie Ophalen
+pokemon:
+  category: trainer
+  rules:
+    - Ruil 1 van de andere kaarten in je hand met ten hoogste 2
+      Basis-Energiekaarten uit je weggooistapel.
+rarity: Uncommon
+finishes:
+  - non-holo

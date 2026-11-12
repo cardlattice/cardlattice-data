@@ -1,0 +1,27 @@
+name: Nidoqueen
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Nidorina
+  attacks:
+    - name: Vriendjes
+      cost:
+        - Grass
+        - Colorless
+      damage: 20+
+      text: Brengt 20 schade toe plus nog eens 20 schade voor elke Nidoking die je in
+        het spel hebt.
+    - name: Megaslag
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

@@ -1,0 +1,9 @@
+name: Mr. Fuji
+pokemon:
+  category: trainer
+  rules:
+    - Kies een Pokémon op jouw Bank. Schud hem met alle eraan gehechte kaarten
+      door je deck.
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,29 @@
+name: Machamp
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Machoke
+  attacks:
+    - name: Seismische Schok
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: Neemt wraak
+      kind: Pokémon Power
+      text: Telkens wanneer de aanval van je tegenstander schade toebrengt aan Machamp
+        (zelfs als Machamp wordt Uitgeschakeld), brengt deze kracht 10 schade
+        toe aan de aanvallende Pokémon. (Zwakte en Weerstand niet toepassen.)
+        Deze kracht kan niet worden gebruikt als Machamp al In Slaap, Verward of
+        Verlamd is op het moment dat je tegenstander aanvalt.
+rarity: Rare
+finishes:
+  - holo
+stamps:
+  - 1st-edition

@@ -1,0 +1,22 @@
+name: Bellsprout
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Roede
+      cost:
+        - Grass
+      damage: "10"
+    - name: Roep om familie
+      cost:
+        - Grass
+      text: Zoek in je deck een Basis-Pokémon met de naam Bellsprout en plaats hem op
+        je Bank. Schud hierna je deck. (Je kunt deze aanval niet gebruiken als
+        je Bank vol is.)
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

@@ -1,0 +1,9 @@
+name: Pokédex
+pokemon:
+  category: trainer
+  rules:
+    - Bekijk ten hoogste 5 kaarten van de bovenkant van je deck en leg ze in de
+      volgorde die jij wilt.
+rarity: Uncommon
+finishes:
+  - non-holo

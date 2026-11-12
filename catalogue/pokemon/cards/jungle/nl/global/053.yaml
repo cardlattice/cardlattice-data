@@ -1,0 +1,16 @@
+name: Goldeen
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Hoornaanval
+      cost:
+        - Water
+      damage: "10"
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

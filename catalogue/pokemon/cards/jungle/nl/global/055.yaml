@@ -1,0 +1,23 @@
+name: Mankey
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Krab
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: Kijkje
+      kind: Pokémon Power
+      text: "Eenmaal tijdens je beurt (vóór je aanval), mag je naar een van de
+        volgende kijken: de bovenste kaart van het deck van een speler, een
+        willekeurige kaart in de hand van je tegenstander, of de Prijzen van een
+        van beide spelers. Deze kracht kan niet worden gebruikt als Mankey In
+        Slaap, Verward, of Verlamd is."
+rarity: Common
+finishes:
+  - non-holo

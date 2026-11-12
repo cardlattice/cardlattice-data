@@ -1,0 +1,29 @@
+name: Zapdos
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Donder
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "60"
+      text: Gooi een munt op. Als het munt is, brengt Zapdos zichzelf 30 schade toe.
+    - name: Bliksemstraal
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "100"
+      text: Om deze aanval te kunnen gebruiken, moet je alle aan Zapdos gehechte
+        Energiekaarten weggooien.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

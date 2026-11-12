@@ -1,0 +1,10 @@
+name: Pokémon-Handelaar
+pokemon:
+  category: trainer
+  rules:
+    - Ruil 1 van de Basis-Pokémon- of Ontwikkelingskaarten in je hand met een
+      van de Basis-Pokémon- of Ontwikkelingskaarten uit je deck. Laat beide
+      kaarten aan je tegenstander zien. Schud hierna je deck.
+rarity: Rare
+finishes:
+  - non-holo

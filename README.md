@@ -87,7 +87,8 @@ PR artifacts are previews. Deployment and optional R2 mirroring are operator set
 
 ## Catalogue
 
-The catalogue contains 9 sets and 1,485 English printings. All 158 existing
+The catalogue contains 13 sets and 1,715 printings: 1,485 English and 230 Dutch.
+All 158 existing
 numbered 30th Celebration cards now include rarity, confirmed holo finish, printed
 rules and applicable Pokémon stats, attacks, abilities, weaknesses, resistances
 and retreat costs. Shared anniversary stamp, regulation mark and denominator are
@@ -103,12 +104,40 @@ mark G; Basic Psychic Energy 207 has no printed regulation mark. The Psychic
 symbol in its name is written as text. Unnumbered Basic Energy cards, product promos,
 metal cards and stamped/other product variants are not covered by this count.
 The 151 Booster Bundle is linked to the set as product context, without asserting
-that a particular card is guaranteed in a bundle. Other sets remain name-only.
+that a particular card is guaranteed in a bundle. Other English sets remain name-only.
+
+The Dutch catalogue includes all numbered entries in Base Set (102), Jungle (64)
+and Fossil (62), independently transcribed from scans. These records contain
+printed names, categories, rarity where printed, holo/non-holo finish and
+applicable Pokémon HP, types and evolution stages. Their 189 Pokémon records now
+contain 317 printed attacks and 32 Pokémon Powers, including Dutch names, effect
+text and ordered attack costs. Both Ditto printings have no printed attacks and
+an explicit empty attack list. All 32 Trainer records include their Dutch rules.
+Basic Energy cards retain the printed name `Energie`; their types distinguish
+them. Weaknesses, resistances, retreat costs and illustrator credits remain
+largely unfilled. Raticate's printed `?` damage is not yet supported by the
+numeric damage field; its Dutch attack text retains the damage calculation.
+
+Printed names and rules follow the Dutch cards, including wording differences
+between holo and non-holo printings. Names such as Alakazam and moves such as
+Tackle remain unchanged where that is what the Dutch card prints. Schema keys
+and enum values (`Psychic`, `Stage 2`, `Rare`, `Pokémon Power`) are shared across
+languages, not translations of printed labels. Energy symbols inside rules text
+are expanded to those same enum names; a written Dutch type name stays Dutch.
+
+Two Dutch Pikachu promo 4 printings are also included, with their distinct attack
+translations: the Netherlands release and the tail-stamped Australian Pikachu
+World Collection 2000 release. Both belong to Wizards Black Star Promos; the
+World Collection is a linked product, not a separate numbered set. The promo
+files include their printed attacks and illustrator. Unverified release dates
+are omitted. First Edition, Unlimited, error and other variants have not been
+fully inventoried, so these counts do not establish complete Dutch coverage.
 
 This is still a partial catalogue. The separate 30th Celebration Classic
 Collection, Basic Energy section and product promos are not included. Illustrator
-credits, Pokédex numbers, flavour text, detailed foil patterns and other languages
-remain unfilled. No artwork, pricing data or third-party catalogue dumps are included.
+credits, Pokédex numbers, flavour text and detailed foil patterns remain largely
+unfilled. Languages other than English and Dutch are not yet represented.
+No artwork, pricing data or third-party catalogue dumps are included.
 
 The folder organisation takes inspiration from
 [TCGdex's series/set/card files](https://github.com/tcgdex/cards-database/tree/master/data).

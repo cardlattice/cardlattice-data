@@ -1,0 +1,16 @@
+name: Machop
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Lage Schop
+      cost:
+        - Fighting
+      damage: "20"
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

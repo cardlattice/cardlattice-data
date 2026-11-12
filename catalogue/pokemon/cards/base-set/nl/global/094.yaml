@@ -1,0 +1,8 @@
+name: Drankje
+pokemon:
+  category: trainer
+  rules:
+    - Verwijder ten hoogste 2 schadetellers van 1 van je Pokémon.
+rarity: Common
+finishes:
+  - non-holo

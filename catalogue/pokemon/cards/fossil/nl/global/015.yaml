@@ -1,0 +1,23 @@
+name: Zapdos
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Onweersbui
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "40"
+      text: Werp voor elk van je tegenstanders Pokémon op de Bank een munt op. Als het
+        kop is, brengt deze aanval 20 schade toe aan die Pokémon. (Zwakte en
+        Weerstand niet toepassen voor Pokémon op de Bank.) Daarna brengt Zapdos
+        zichzelf 10 schade toe maal het aantal keren munt.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

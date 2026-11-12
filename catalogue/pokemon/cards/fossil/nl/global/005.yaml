@@ -1,0 +1,28 @@
+name: Gengar
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Haunter
+  attacks:
+    - name: Duistere geest
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "30"
+      text: Als je tegenstander Pokémon op de Bank heeft, kies er dan 1 van en deze
+        aanval brengt hem 10 schade toe. (Zwakte en Weerstand niet toepassen
+        voor Pokémon op de Bank.)
+  abilities:
+    - name: Vervloeken
+      kind: Pokémon Power
+      text: Eenmaal tijdens je beurt (voor je aanval), mag je 1 schadeteller van 1 van
+        je tegenstanders Pokémon naar een andere verplaatsen (zelfs als het de
+        andere Pokémon zou Uitschakelen). Deze kracht kan niet worden gebruikt
+        als Gengar In Slaap, Verward, of Verlamd is.
+rarity: Rare
+finishes:
+  - holo

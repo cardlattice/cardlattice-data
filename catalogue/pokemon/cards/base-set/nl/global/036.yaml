@@ -1,0 +1,25 @@
+name: Magmar
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Vuurslag
+      cost:
+        - Fire
+        - Fire
+      damage: "30"
+    - name: Vlammenwerper
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Magmar gehechte Fire
+        Energiekaart weggooien.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

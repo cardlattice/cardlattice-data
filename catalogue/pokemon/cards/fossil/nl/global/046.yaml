@@ -1,0 +1,23 @@
+name: Ekans
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Spuw gif
+      cost:
+        - Grass
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu
+        Vergiftigd.
+    - name: Wikkel
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

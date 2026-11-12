@@ -1,0 +1,25 @@
+name: Hitmonlee
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Rekschop
+      cost:
+        - Fighting
+        - Fighting
+      text: Als je tegenstander Pokémon op de Bank heeft, kies er dan 1 van en deze
+        aanval brengt hem 20 schade toe. (Zwakte en Weerstand niet toepassen
+        voor Pokémon op de Bank.)
+    - name: Hoge sprongschop
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "50"
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

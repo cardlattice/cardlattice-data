@@ -1,0 +1,23 @@
+name: Tentacruel
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Tentacool
+  attacks:
+    - name: Supersonisch
+      cost:
+        - Water
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+    - name: Kwalbeet
+      cost:
+        - Water
+        - Water
+      damage: "10"
+      text: De Verdedigende Pokémon is nu Vergiftigd.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

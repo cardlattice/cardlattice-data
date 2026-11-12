@@ -1,0 +1,24 @@
+name: Gloom
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Oddish
+  attacks:
+    - name: Gifpoeder
+      cost:
+        - Grass
+      text: De Verdedigende Pokémon is nu Vergiftigd.
+    - name: Vieze Geur
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: De Verdedigende Pokémon en Gloom zijn nu allebei Verward (na het
+        toebrengen van schade).
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,10 @@
+name: Haal Binnen
+pokemon:
+  category: trainer
+  rules:
+    - Kies 1 van je Pokémon in het spel en neem de bijbehorende
+      Basis-Pokémon-kaart terug in je hand. (Gooi alle kaarten die aan die kaart
+      gehecht zijn weg.)
+rarity: Rare
+finishes:
+  - non-holo

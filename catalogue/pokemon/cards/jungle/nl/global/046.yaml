@@ -1,0 +1,22 @@
+name: Seaking
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Goldeen
+  attacks:
+    - name: Hoornaanval
+      cost:
+        - Water
+      damage: "10"
+    - name: Waterval
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

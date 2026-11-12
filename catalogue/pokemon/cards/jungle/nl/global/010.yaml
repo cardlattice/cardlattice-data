@@ -1,0 +1,23 @@
+name: Scyther
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Zwaardendans
+      cost:
+        - Grass
+      text: Tijdens je volgende beurt is de basisschade van Scyther’s hak-aanval 60 in
+        plaats van 30.
+    - name: Hak
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

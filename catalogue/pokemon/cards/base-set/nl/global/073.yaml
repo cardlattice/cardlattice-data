@@ -1,0 +1,9 @@
+name: Professor Oaks dubbelganger
+pokemon:
+  category: trainer
+  rules:
+    - Je tegenstander schudt zijn of haar hand door zijn of haar deck en neemt
+      vervolgens 7 kaarten.
+rarity: Rare
+finishes:
+  - non-holo

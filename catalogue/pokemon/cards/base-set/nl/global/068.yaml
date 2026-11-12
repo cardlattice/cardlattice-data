@@ -1,0 +1,18 @@
+name: Vulpix
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Verwarstraal
+      cost:
+        - Fire
+        - Fire
+      damage: "10"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

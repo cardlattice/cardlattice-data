@@ -1,0 +1,31 @@
+name: Nidoking
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Nidorino
+  attacks:
+    - name: Afranselen
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Gooi een munt op. Als het kop is, brengt deze aanval 30 schade toe plus
+        nog eens 10 schade; als het munt is, brengt deze aanval 30 schade toe en
+        brengt Nidoking zichzelf 10 schade toe.
+    - name: Vergiftig
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "20"
+      text: De Verdedigende Pokémon is nu Vergiftigd. Hij lijdt nu 20 Vergifschade
+        i.p.v. 10 na de beurt van elke speler (zelfs als hij al eerder
+        Vergiftigd was).
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

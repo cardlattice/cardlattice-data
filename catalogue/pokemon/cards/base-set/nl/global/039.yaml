@@ -1,0 +1,22 @@
+name: Porygon
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Conversie 1
+      cost:
+        - Colorless
+      text: Als de Verdedigende Pokémon een Zwakte heeft, mag je deze veranderen in
+        een type van jouw keuze, behalve Kleurloos.
+    - name: Conversie 2
+      cost:
+        - Colorless
+        - Colorless
+      text: Verander Porygons Weerstand in een type van jouw keuze, behalve Kleurloos.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

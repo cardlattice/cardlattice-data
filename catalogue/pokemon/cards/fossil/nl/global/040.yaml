@@ -1,0 +1,29 @@
+name: Omastar
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Omanyte
+  attacks:
+    - name: Waterpistool
+      cost:
+        - Water
+        - Colorless
+      damage: 20+
+      text: Brengt 20 schade toe plus nog eens 10 schade voor elke aan Omastar
+        gehechte Water Energie die niet wordt gebruikt om de energiekosten van
+        deze aanval te betalen. Je kunt op deze manier niet meer dan 20 schade
+        toevoegen.
+    - name: Spijkerkanon
+      cost:
+        - Water
+        - Water
+      damage: 30×
+      text: Werp twee munten op. Deze aanval brengt 30 schade toe maal het aantal
+        keren kop.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

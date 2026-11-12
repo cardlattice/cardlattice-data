@@ -1,0 +1,27 @@
+name: Charmeleon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Charmander
+  attacks:
+    - name: Hak
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Vlammenwerper
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Charmeleon gehechte Fire
+        Energiekaart weggooien.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

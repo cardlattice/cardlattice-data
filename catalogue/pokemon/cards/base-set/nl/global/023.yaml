@@ -1,0 +1,29 @@
+name: Arcanine
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Growlithe
+  attacks:
+    - name: Vlammenwerper
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+      text: Om deze aanval te kunnen gebruiken, moet je 1 aan Arcanine gehechte Fire
+        Energiekaart weggooien.
+    - name: Haal Neer
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Arcanine brengt zichzelf 30 schade toe.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

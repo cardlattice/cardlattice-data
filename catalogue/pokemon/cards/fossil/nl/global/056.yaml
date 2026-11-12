@@ -1,0 +1,23 @@
+name: Tentacool
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Zuur
+      cost:
+        - Water
+      damage: "10"
+  abilities:
+    - name: Wegglippen
+      kind: Pokémon Power
+      text: Gedurende ieder moment tijdens je beurt (voor je aanval), mag je Tentacool
+        weer aan je hand toevoegen. (Gooi alle aan Tentacool gehechte kaarten
+        weg.) Deze kracht kan niet worden gebruikt tijdens de beurt waarin je
+        Tentacool in het spel brengt of wanneer Tentacool In Slaap, Verward, of
+        Verlamd is.
+rarity: Common
+finishes:
+  - non-holo

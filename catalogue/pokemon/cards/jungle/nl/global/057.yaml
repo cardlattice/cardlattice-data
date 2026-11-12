@@ -1,0 +1,25 @@
+name: Nidoran♀
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Furieslag
+      cost:
+        - Grass
+      damage: 10×
+      text: Gooi 3 munten op. Deze aanval brengt 10 schade toe maal het aantal keren
+        kop.
+    - name: Roep om familie
+      cost:
+        - Grass
+        - Grass
+      text: Zoek in je deck een Basis-Pokémon met de naam Nidoran♂ of Nidoran♀ en
+        plaats deze op je Bank. Schud hierna je deck. (Je kunt deze aanval niet
+        gebruiken als je Bank vol is.)
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo

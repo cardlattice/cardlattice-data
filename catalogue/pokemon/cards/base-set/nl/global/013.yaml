@@ -1,0 +1,32 @@
+name: Poliwrath
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Poliwhirl
+  attacks:
+    - name: Waterpistool
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 30+
+      text: Brengt 30 schade toe plus nog eens 10 schade voor elke Water Energie die
+        aan Poliwrath is gehecht maar niet wordt gebruikt om de Energiekosten
+        van deze aanval te betalen. Je kunt op deze manier niet meer dan 20
+        schade toevoegen.
+    - name: Draaikolk
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Als aan de Verdedigende Pokémon Energiekaarten zijn gehecht, kies er daar
+        dan 1 van en gooi deze weg.
+  abilities: []
+rarity: Rare
+finishes:
+  - holo

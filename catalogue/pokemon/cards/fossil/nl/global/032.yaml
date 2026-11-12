@@ -1,0 +1,27 @@
+name: Cloyster
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Shellder
+  attacks:
+    - name: Klem
+      cost:
+        - Water
+        - Water
+      damage: "30"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu Verlamd.
+        Als het munt is, doet deze aanval niets (zelfs geen schade).
+    - name: Spijkerkanon
+      cost:
+        - Water
+        - Water
+      damage: 30×
+      text: Werp twee munten op. Deze aanval brengt 30 schade toe maal het aantal
+        keren kop.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

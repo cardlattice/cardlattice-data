@@ -1,0 +1,16 @@
+name: Seel
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Kopstoot
+      cost:
+        - Water
+      damage: "10"
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,25 @@
+name: Victreebel
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Weepinbell
+  attacks:
+    - name: Lokaas
+      cost:
+        - Grass
+      text: Als je tegenstander Pokémon op de Bank heeft kies er dan 1 van en ruil die
+        met zijn of haar Actieve Pokémon.
+    - name: Lijmen
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Werp een munt op. Als het kop is, kan de Verdedigende Pokémon niet
+        terugtrekken tijdens je tegenstanders volgende beurt.
+  abilities: []
+rarity: Rare
+finishes:
+  - non-holo

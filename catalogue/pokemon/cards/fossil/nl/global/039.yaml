@@ -1,0 +1,26 @@
+name: Magmar
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Rookgordijn
+      cost:
+        - Fire
+      damage: "10"
+      text: Als de Verdedigende Pokémon tijdens je tegenstanders volgende beurt
+        probeert aan te vallen, werpt je tegenstander een munt op. Als het munt
+        is, doet die aanval niets.
+    - name: Smog
+      cost:
+        - Fire
+        - Fire
+      damage: "20"
+      text: Werp een munt op. Als het kop is, is de Verdedigende Pokémon nu
+        Vergiftigd.
+  abilities: []
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,8 @@
+name: Bill
+pokemon:
+  category: trainer
+  rules:
+    - Pak 2 kaarten.
+rarity: Common
+finishes:
+  - non-holo

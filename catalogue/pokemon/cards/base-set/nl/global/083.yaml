@@ -1,0 +1,9 @@
+name: Onderhoud
+pokemon:
+  category: trainer
+  rules:
+    - Schud 2 van de andere kaarten in je hand door je deck om een kaart te
+      kunnen nemen.
+rarity: Uncommon
+finishes:
+  - non-holo

@@ -1,0 +1,26 @@
+name: Alakazam
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Kadabra
+  attacks:
+    - name: Verwarstraal
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "30"
+      text: Gooi een munt op. Als het kop is, is de Verdedigende Pokémon nu Verward.
+  abilities:
+    - name: Schadeverwisseling
+      kind: Pokémon Power
+      text: Je mag zo vaak als je wilt tijdens je beurt (vóór je aanval) 1
+        schadeteller van je ene Pokémon naar je andere verplaatsen, zolang je
+        die Pokémon maar niet Uitschakelt. Deze kracht kan niet worden gebruikt
+        als Alakazam In Slaap, Verward of Verlamd is.
+rarity: Rare
+finishes:
+  - holo

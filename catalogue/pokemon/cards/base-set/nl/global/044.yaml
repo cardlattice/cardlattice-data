@@ -1,0 +1,19 @@
+name: Bulbasaur
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Onttrek IP
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Tenzij alle schade van deze aanval wordt voorkomen, mag je 1 schadeteller
+        van Bulbasaur verwijderen.
+  abilities: []
+rarity: Common
+finishes:
+  - non-holo
