@@ -1,0 +1,28 @@
+name: 가라르 포니타
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 염동력
+      cost:
+        - Psychic
+      damage: "10"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 눈동자를 들여다보고 마음을 읽는다. 비뚤어진 마음을 발견하면 홀연 모습을 감춰버린다.
+  nationalDex:
+    - 77
+  species: 일각포켓몬
+  heightMetres: 0.8
+  weightKilograms: 24
+illustrators:
+  - Saya Tsuruta

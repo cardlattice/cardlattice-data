@@ -1,0 +1,11 @@
+name: 새 조련사
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 그 뒤, 자신의 덱을 3장 뽑는다.
+    - 서포트는 자신의 차례에 1장만 사용할 수 있다.
+illustrators:
+  - Hideki Ishikawa
+rarity: SR

@@ -1,0 +1,37 @@
+name: 대왕끼리동
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 리벤지스탬프
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 자신의 벤치 포켓몬에게 데미지 카운터가 올려져 있다면 120데미지를 추가한다.
+  abilities:
+    - name: 항균스킨
+      kind: Ability
+      text: 이 포켓몬은 특수 상태가 되지 않는다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  flavourText: 녹색 피부는 물에도 강하다. 오래전에 다른 지방에서 오게 되어 사람과 함께 일했다.
+  nationalDex:
+    - 879
+  species: 동상포켓몬
+  heightMetres: 3
+  weightKilograms: 650
+  evolvesFrom: 끼리동
+illustrators:
+  - Shin Nagasawa
+rarity: S

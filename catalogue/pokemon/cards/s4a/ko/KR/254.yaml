@@ -1,0 +1,35 @@
+name: 손지브림
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 명상
+      cost:
+        - Colorless
+      text: 이 포켓몬의 HP를 「30」회복한다.
+    - name: 세차게휘두르기
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 동전을 1번 던져서 앞면이 나오면 30데미지를 추가한다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 강한 감정을 품은 자라면 누가 됐든 조용하게 만드는데 그 수단이 매우 난폭하다.
+  nationalDex:
+    - 857
+  species: 정숙포켓몬
+  heightMetres: 0.6
+  weightKilograms: 4.8
+  evolvesFrom: 몸지브림
+illustrators:
+  - Lee HyunJung
+rarity: S

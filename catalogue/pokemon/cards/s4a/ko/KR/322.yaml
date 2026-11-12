@@ -1,0 +1,30 @@
+name: 오롱털 VMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Darkness
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 거다이드릴
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: 170+
+      text: 이 기술을 사용하기 위한 에너지보다 많이 붙어 있는 {Darkness} 에너지의 개수 × 50데미지를 추가한다. 추가할 수 있는 데미지는 {Darkness} 에너지
+        2개까지이다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 오롱털 V
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR

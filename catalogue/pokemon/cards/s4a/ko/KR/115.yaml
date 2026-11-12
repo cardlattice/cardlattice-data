@@ -1,0 +1,27 @@
+name: 깨봉이
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 베놈쇼크
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 상대의 배틀 포켓몬이 독이라면 50데미지를 추가한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 비위생적인 장소를 좋아한다. 쓰레기를 어질러놓은 채 내버려 두면 방에 나타나 그대로 눌러앉는다.
+  nationalDex:
+    - 568
+  species: 쓰레기봉투포켓몬
+  heightMetres: 0.6
+  weightKilograms: 31
+  resistances: []
+illustrators:
+  - HYOGONOSUKE

@@ -1,0 +1,27 @@
+name: 흥나숭
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 마구할퀴기
+      cost:
+        - Colorless
+      damage: 10×
+      text: 동전을 3번 던져서 앞면이 나온 수 × 10데미지를 준다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 특별한 스틱으로 리듬을 타면 화초를 생생하게 만드는 힘이 음파가 되어 퍼진다.
+  nationalDex:
+    - 810
+  species: 꼬마원숭이포켓몬
+  heightMetres: 0.3
+  weightKilograms: 5
+  resistances: []
+illustrators:
+  - Sanosuke Sakuma
+rarity: S

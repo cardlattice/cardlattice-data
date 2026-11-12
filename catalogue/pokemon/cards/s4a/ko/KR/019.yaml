@@ -1,0 +1,31 @@
+name: 단지래플
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 솔라빔
+      cost:
+        - Grass
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 맛있는 향기
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 동전을 1번 던져서 앞면이 나오면 상대의 벤치에 있는 기본 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  flavourText: 달콤한 사과를 먹고 진화했다. 몸에서 달콤한 향기를 내보내서 먹이인 벌레포켓몬을 유인한다.
+  nationalDex:
+    - 842
+  species: 사과즙포켓몬
+  heightMetres: 0.4
+  weightKilograms: 13
+  evolvesFrom: 과사삭벌레
+  resistances: []
+illustrators:
+  - Akira Komayama

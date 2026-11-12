@@ -1,0 +1,30 @@
+name: 탐리스
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 몸통박치기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 물기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 가라르의 여기저기에 있다. 양쪽 볼에 나무열매를 비축해두지 않으면 불안해한다.
+  nationalDex:
+    - 819
+  species: 볼가득포켓몬
+  heightMetres: 0.3
+  weightKilograms: 2.5
+  resistances: []
+illustrators:
+  - Mina Nakai

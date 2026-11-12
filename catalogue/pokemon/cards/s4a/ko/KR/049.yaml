@@ -1,0 +1,32 @@
+name: 빙큐보
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 눈보라
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 상대의 벤치 포켓몬 전원에게도 각각 10데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  abilities:
+    - name: 아이스페이스
+      kind: Ability
+      text: 이 포켓몬에게 데미지 카운터가 올려져 있지 않은 상태라면 이 포켓몬이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-60」이 된다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 매우 추운 곳에서 흘러 흘러 떠내려왔다. 항상 얼음으로 얼굴을 식히고 있다.
+  nationalDex:
+    - 875
+  species: 펭귄포켓몬
+  heightMetres: 1.4
+  weightKilograms: 89
+  resistances: []
+illustrators:
+  - Kagemaru Himeno

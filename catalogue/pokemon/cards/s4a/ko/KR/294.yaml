@@ -1,0 +1,28 @@
+name: 꼬지보리
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 홰치기
+      cost:
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  flavourText: 나는 것보다 헤엄치는 것이 특기로 수중에 잠수해서는 제일 좋아하는 물이끼를 기쁘게 먹는다.
+  nationalDex:
+    - 580
+  species: 물새포켓몬
+  heightMetres: 0.5
+  weightKilograms: 5.5
+illustrators:
+  - Kyoko Umemoto
+rarity: S

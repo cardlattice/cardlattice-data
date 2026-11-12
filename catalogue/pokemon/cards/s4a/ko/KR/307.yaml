@@ -1,0 +1,34 @@
+name: 리자몽 V
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 발톱 베어가르기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+    - name: 회오리불꽃
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "220"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR

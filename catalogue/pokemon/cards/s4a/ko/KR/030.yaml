@@ -1,0 +1,33 @@
+name: 가라르 마임꽁꽁
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 매드파티
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 자신의 트래쉬에 있는 기술 「매드파티」를 가진 포켓몬의 수 × 20데미지를 준다.
+  abilities:
+    - name: 셔플댄스
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 뒷면으로 된 상대의 프라이즈를 1장 선택해서 상대 덱의 가장 위에 있는 카드와 뒷면인 채로 교체한다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 탭 댄스의 달인이다. 얼음으로 만든 지팡이를 휘두르며 경쾌한 스텝을 선보인다.
+  nationalDex:
+    - 866
+  species: 코미디언포켓몬
+  heightMetres: 1.5
+  weightKilograms: 58.2
+  evolvesFrom: 가라르 마임맨
+  resistances: []
+illustrators:
+  - Naoki Saito

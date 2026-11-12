@@ -1,0 +1,25 @@
+name: 또가스
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 각성
+      cost:
+        - Darkness
+      text: 이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장 선택해서 이 포켓몬에게 올려서 진화시킨다. 그리고 덱을 섞는다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 독가스로 몸 안이 가득 차 있다. 음식물 쓰레기의 악취에 이끌려 쓰레기장을 찾아간다.
+  nationalDex:
+    - 109
+  species: 독가스포켓몬
+  heightMetres: 0.6
+  weightKilograms: 1
+  resistances: []
+illustrators:
+  - Pani Kobayashi

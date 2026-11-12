@@ -1,0 +1,25 @@
+name: 찌로꼬치
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 물뿌리기
+      cost:
+        - Water
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 날카롭고 뾰족한 턱을 자랑한다. 조금이라도 움직이는 것을 발견하면 일직선으로 돌격한다.
+  nationalDex:
+    - 846
+  species: 돌격포켓몬
+  heightMetres: 0.5
+  weightKilograms: 1
+  resistances: []
+illustrators:
+  - Mina Nakai

@@ -1,0 +1,33 @@
+name: 래비풋
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 니트로차지
+      cost:
+        - Fire
+      damage: "20"
+      text: 자신의 덱에서 {Fire} 에너지를 1장 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+    - name: 매그넘킥
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "70"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 손을 쓰지 않고 나뭇가지에서 나무열매를 따내고 리프팅한다. 발 기술을 연마하는 연습이다.
+  nationalDex:
+    - 814
+  species: 토끼포켓몬
+  heightMetres: 0.6
+  weightKilograms: 9
+  evolvesFrom: 염버니
+  resistances: []
+illustrators:
+  - Mizue

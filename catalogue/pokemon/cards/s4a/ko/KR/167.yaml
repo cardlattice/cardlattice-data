@@ -1,0 +1,12 @@
+name: 희귀한화석
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 이 카드는 HP70의 {Colorless} 타입의 기본 포켓몬으로서 필드에 내보낼 수 있다. 자신의 차례라면 필드에 나와 있는 이 카드를 트래쉬해도 좋다. 이 카드는
+      특수 상태가 되지 않으며 후퇴할 수 없다.
+    - 아이템은 자신의 차례에 몇 장이라도 사용할 수 있다.
+  hp: 70
+illustrators:
+  - 5ban Graphics

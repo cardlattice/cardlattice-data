@@ -1,0 +1,33 @@
+name: 이올브
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: 브레인웨이브
+      cost:
+        - Grass
+        - Colorless
+      damage: 90+
+      text: 이 포켓몬에게 붙어 있는 {Psychic} 에너지의 개수 × 30데미지를 추가한다.
+  abilities:
+    - name: 벅스레이더
+      kind: Ability
+      text: 자신의 차례에 1번 사용할 수 있다. 상대의 덱을 위에서부터 3장 보고 원하는 순서대로 바꾸어 덱의 위로 되돌린다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 사이코 파워를 발산해 주위를 조사한다. 관측 범위는 주변 10km에 달한다.
+  nationalDex:
+    - 826
+  species: 칠성포켓몬
+  heightMetres: 0.4
+  weightKilograms: 40.8
+  evolvesFrom: 레돔벌레
+  resistances: []
+illustrators:
+  - SATOSHI NAKAI
+rarity: S

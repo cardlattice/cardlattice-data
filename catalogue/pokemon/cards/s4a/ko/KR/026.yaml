@@ -1,0 +1,34 @@
+name: 다태우지네
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: 불꽃타래
+      cost:
+        - Fire
+      text: 이 포켓몬에게 붙어 있는 {Fire} 에너지의 개수만큼 상대의 덱을 위에서부터 트래쉬한다.
+    - name: 태워그을리기
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 상대의 배틀 포켓몬을 화상으로 만든다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  flavourText: 발열 시의 체온은 약 800도. 몸을 채찍처럼 휘면서 덤벼든다.
+  nationalDex:
+    - 851
+  species: 발열포켓몬
+  heightMetres: 3
+  weightKilograms: 120
+  evolvesFrom: 태우지네
+  resistances: []
+illustrators:
+  - nagimiso

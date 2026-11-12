@@ -1,0 +1,33 @@
+name: 가라르 가로막구리
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: 블로킹
+      cost:
+        - Darkness
+        - Colorless
+      damage: "90"
+      text: 상대의 다음 차례에 이 포켓몬은 기본 포켓몬으로부터 기술의 데미지를 받지 않는다.
+  abilities:
+    - name: 우락부락 샤우팅
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 꺼내서 진화시켰을 때 1번 사용할 수 있다. 상대의 포켓몬 1마리에게 데미지 카운터를 3개 올린다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 싸움을 반복하면서 진화한다. 팔을 크로스하고 우렁차게 외치면 어떤 상대라도 풀죽게 된다.
+  nationalDex:
+    - 862
+  species: 정지포켓몬
+  heightMetres: 1.6
+  weightKilograms: 46
+  evolvesFrom: 가라르 직구리
+  resistances: []
+illustrators:
+  - Ryuta Fuse
+rarity: S

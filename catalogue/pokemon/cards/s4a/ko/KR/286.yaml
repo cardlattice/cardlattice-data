@@ -1,0 +1,35 @@
+name: 가라르 나이킹
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 메탈크로우
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 강철정신
+      kind: Ability
+      text: 이 포켓몬이 있는 한, 자신의 {Metal} 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+20」이 된다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  flavourText: 머리의 털이 단단해져서 철로 된 헬멧처럼 되었다. 매우 호전적인 성질을 가졌다.
+  nationalDex:
+    - 863
+  species: 바이킹포켓몬
+  heightMetres: 0.8
+  weightKilograms: 28
+  evolvesFrom: 가라르 나옹
+illustrators:
+  - Ryuta Fuse
+rarity: S

@@ -1,0 +1,32 @@
+name: 이벨타르
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 어메이징데스
+      cost:
+        - Fire
+        - Psychic
+        - Darkness
+        - Colorless
+        - Colorless
+      text: 상대의 배틀 포켓몬을 기절시킨다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 수명이 다할 때 모든 생명의 목숨을 빨아들이고 고치의 모습으로 돌아간다고 한다.
+  nationalDex:
+    - 717
+  species: 파괴포켓몬
+  heightMetres: 5.8
+  weightKilograms: 203
+illustrators:
+  - Hasuno
+rarity: A

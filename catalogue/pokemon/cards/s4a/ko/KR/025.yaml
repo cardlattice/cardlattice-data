@@ -1,0 +1,31 @@
+name: 태우지네
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 물기
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 화염
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  flavourText: 몸속에 모아둔 가연성 가스로 열을 낸다. 특히 배 쪽의 노란 부분이 뜨겁다.
+  nationalDex:
+    - 850
+  species: 발열포켓몬
+  heightMetres: 0.7
+  weightKilograms: 1
+  resistances: []
+illustrators:
+  - Akira Komayama

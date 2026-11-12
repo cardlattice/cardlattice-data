@@ -1,0 +1,28 @@
+name: 가라르 달막화
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 냉동펀치
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 배틀 포켓몬을 마비로 만든다.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  flavourText: 눈이 많이 쌓인 곳에 사는 동안 불꽃 주머니가 차가워져서 퇴화했다. 그리고 냉기를 만드는 기관이 생겼다.
+  nationalDex:
+    - 554
+  species: 달마포켓몬
+  heightMetres: 0.7
+  weightKilograms: 40
+  resistances: []
+illustrators:
+  - SATOSHI NAKAI
+rarity: S

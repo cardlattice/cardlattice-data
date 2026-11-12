@@ -1,0 +1,10 @@
+name: 하이드 악 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 포켓몬에게 붙어 있는 한, {Darkness} 에너지 1개분으로 작용한다. 이 카드를 붙이고 있는 {Darkness} 포켓몬의 후퇴에 필요한 에너지는 모두
+      없어진다.
+  types:
+    - Darkness

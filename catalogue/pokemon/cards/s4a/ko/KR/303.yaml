@@ -1,0 +1,35 @@
+name: 배우르
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 코튼가드
+      cost:
+        - Colorless
+      damage: "30"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」이 된다.
+    - name: 이판사판태클
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 늠름하게 자란 뿔은 이성에게 어필하기 위한 것이다. 무기로는 사용하지 않는다.
+  nationalDex:
+    - 832
+  species: 양포켓몬
+  heightMetres: 1.3
+  weightKilograms: 43
+  evolvesFrom: 우르
+  resistances: []
+illustrators:
+  - Kouki Saitou
+rarity: S

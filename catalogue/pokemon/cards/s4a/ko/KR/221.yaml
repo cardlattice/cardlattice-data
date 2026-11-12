@@ -1,0 +1,33 @@
+name: 스이쿤
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 스플래시
+      cost:
+        - Water
+      damage: "20"
+    - name: 오로라루프
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "130"
+      text: 이 포켓몬에게 붙어 있는 {Water} 에너지를 2개 선택해서 패로 되돌린다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  flavourText: 순식간에 더럽고 탁한 물도 깨끗하게 하는 힘을 가졌다. 북풍이 다시 태어난 것이라고 한다.
+  nationalDex:
+    - 245
+  species: 오로라포켓몬
+  heightMetres: 2
+  weightKilograms: 187
+  resistances: []
+illustrators:
+  - Kagemaru Himeno
+rarity: S

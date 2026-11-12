@@ -1,0 +1,36 @@
+name: 펄스멍
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: 물고늘어지기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다.
+    - name: 투사의엄니
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: 상대의 배틀 포켓몬이 「포켓몬 V・GX」라면 90데미지를 추가한다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 만든 전기를 다리로 보내서 달리는 것을 돕는다. 삼 일 밤낮을 쉬지 않고 달릴 수 있다.
+  nationalDex:
+    - 836
+  species: 개포켓몬
+  heightMetres: 1
+  weightKilograms: 34
+  evolvesFrom: 멍파치
+  resistances: []
+illustrators:
+  - Kagemaru Himeno
+rarity: S

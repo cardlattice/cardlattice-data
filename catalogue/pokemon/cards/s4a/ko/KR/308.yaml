@@ -1,0 +1,37 @@
+name: 리자몽 VMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fire
+  stage: VMAX
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 발톱 베어가르기
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+    - name: 거다이옥염
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: 이 포켓몬에게 붙어 있는 에너지를 2개 선택해서 트래쉬한다.
+  rules:
+    - 포켓몬 VMAX가 기절한 경우 상대는 프라이즈를 3장 가져간다.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: 리자몽 V
+  resistances: []
+illustrators:
+  - aky CG Works
+rarity: SSR

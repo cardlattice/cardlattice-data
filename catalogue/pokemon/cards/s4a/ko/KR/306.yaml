@@ -1,0 +1,30 @@
+name: 백솜모카 V
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 두리둥실
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 원한다면 이 포켓몬과 붙어 있는 모든 카드를 자신의 덱으로 되돌리고 섞는다.
+  abilities:
+    - name: 해피매치
+      kind: Ability
+      text: 자신의 차례에 이 카드를 패에서 벤치로 내보냈을 때 1번 사용할 수 있다. 자신의 트래쉬에서 서포트를 1장 선택해서 상대에게 보여주고 패로 가져온다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  resistances: []
+illustrators:
+  - 5ban Graphics
+rarity: SSR

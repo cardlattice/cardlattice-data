@@ -1,0 +1,37 @@
+name: 갈가부기
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 바이스바이트
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 상대 배틀 포켓몬의 후퇴에 필요한 에너지의 개수 × 30데미지를 추가한다.
+    - name: 물고버티기
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 3
+  flavourText: 목을 자유자재로 늘이고 줄인다. 떨어져 있는 곳에서 목을 단번에 늘여 날카로운 이빨로 적의 숨통을 끊는다.
+  nationalDex:
+    - 834
+  species: 물어뜯기포켓몬
+  heightMetres: 1
+  weightKilograms: 115.5
+  evolvesFrom: 깨물부기
+  resistances: []
+illustrators:
+  - Anesaki Dynamic

@@ -1,0 +1,10 @@
+name: 캡쳐 에너지
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - 이 카드는 포켓몬에게 붙어 있는 한, {Colorless} 에너지 1개분으로 작용한다. 이 카드를 패에서 포켓몬에게 붙였을 때 자신의 덱에서 기본 포켓몬을 1장 선택해서
+      벤치로 내보낸다. 그리고 덱을 섞는다.
+  types:
+    - Colorless

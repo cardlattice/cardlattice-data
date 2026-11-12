@@ -1,0 +1,26 @@
+name: 두루지벌레
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 갉기
+      cost:
+        - Grass
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 밭에서 자주 보이는 포켓몬이다. 몸에 난 털로 주위에서 일어나는 일을 감지한다.
+  nationalDex:
+    - 824
+  species: 유충포켓몬
+  heightMetres: 0.4
+  weightKilograms: 8
+  resistances: []
+illustrators:
+  - Kyoko Umemoto
+rarity: S

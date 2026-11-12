@@ -1,0 +1,35 @@
+name: 가라르 산호르곤
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: 몰아붙이기
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: 상대의 다음 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다.
+  abilities:
+    - name: 멸망의바디
+      kind: Ability
+      text: 이 포켓몬이 배틀필드에서 상대의 포켓몬으로부터 기술의 데미지를 받아 기절했을 때 자신은 동전을 1번 던진다. 앞면이 나오면 기술을 사용한 포켓몬을 기절시킨다.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  flavourText: 영력이 높아져서 껍질에서 해방되었다. 영체로 핵이 되는 영혼을 지킨다.
+  nationalDex:
+    - 864
+  species: 산호포켓몬
+  heightMetres: 1
+  weightKilograms: 0.4
+  evolvesFrom: 가라르 코산호
+illustrators:
+  - Shin Nagasawa
+rarity: S

@@ -1,0 +1,29 @@
+name: 가이오가
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 어메이징서지
+      cost:
+        - Water
+        - Lightning
+        - Metal
+        - Colorless
+      text: 상대의 포켓몬 전원에게 각각 80데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 3
+  flavourText: 많은 비를 내리게 하는 능력으로 바다를 넓혔다고 전해진다. 해구의 밑바닥에서 잠들어 있었다.
+  nationalDex:
+    - 382
+  species: 해저포켓몬
+  heightMetres: 4.5
+  weightKilograms: 352
+  resistances: []
+illustrators:
+  - Anesaki Dynamic
+rarity: A

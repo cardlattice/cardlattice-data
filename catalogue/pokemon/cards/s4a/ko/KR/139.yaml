@@ -1,0 +1,33 @@
+name: 자마젠타 V
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 어솔트태클
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "130"
+      text: 상대의 배틀 포켓몬에게 붙어 있는 특수 에너지를 1개 선택해서 트래쉬한다.
+  abilities:
+    - name: 불굴의방패
+      kind: Ability
+      text: 이 포켓몬은 상대의 「포켓몬 VMAX」로부터 기술의 데미지를 받지 않는다.
+  rules:
+    - 포켓몬 V가 기절한 경우 상대는 프라이즈를 2장 가져간다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+illustrators:
+  - aky CG Works
+rarity: RR

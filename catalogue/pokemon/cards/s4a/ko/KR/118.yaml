@@ -1,0 +1,26 @@
+name: 후파
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 어솔트게이트
+      cost:
+        - Darkness
+      damage: "90"
+      text: 이 차례에 이 포켓몬이 벤치에서 배틀필드로 나오지 않았다면 이 기술은 실패한다. 이 기술의 데미지는 약점 계산을 하지 않는다.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  flavourText: 마음에 든 것을 링을 사용해 비밀의 거처에 모으고 있다. 링을 통해 순간이동한다.
+  nationalDex:
+    - 720
+  species: 마신포켓몬
+  heightMetres: 6.5
+  weightKilograms: 490
+  resistances: []
+illustrators:
+  - so-taro

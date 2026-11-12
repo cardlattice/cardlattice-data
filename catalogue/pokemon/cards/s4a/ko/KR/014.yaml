@@ -1,0 +1,29 @@
+name: 꼬모카
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 동료부르기
+      cost:
+        - Colorless
+      text: 자신의 덱에서 기본 포켓몬을 3장까지 선택해서 벤치로 내보낸다. 그리고 덱을 섞는다.
+    - name: 잎날가르기
+      cost:
+        - Grass
+      damage: "10"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 산들바람에 빙글빙글 돌면서 즐겁게 노래하는 귀여운 모습에 반해서 키우는 사람이 많다.
+  nationalDex:
+    - 829
+  species: 꽃장식포켓몬
+  heightMetres: 0.4
+  weightKilograms: 2.2
+  resistances: []
+illustrators:
+  - Saya Tsuruta

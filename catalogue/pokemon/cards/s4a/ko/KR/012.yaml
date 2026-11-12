@@ -1,0 +1,31 @@
+name: 레돔벌레
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 리플렉터
+      cost:
+        - Colorless
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-40」이 된다.
+    - name: 부딪치기
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 껍질 안에서 성장 중이다. 사이코 파워로 밖의 상태를 살피며 진화에 대비하고 있다.
+  nationalDex:
+    - 825
+  species: 레이돔포켓몬
+  heightMetres: 0.4
+  weightKilograms: 19.5
+  evolvesFrom: 두루지벌레
+  resistances: []
+illustrators:
+  - Misa Tsutsui

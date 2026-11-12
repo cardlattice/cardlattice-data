@@ -1,0 +1,38 @@
+name: 어치르돈
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: 딱딱한얼굴
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 상대의 다음 차례에 이 포켓몬이 받는 기술의 데미지는 「-60」이 된다.
+    - name: 콜드브레스
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 상대의 배틀 포켓몬을 잠듦으로 만든다.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 주변을 꽁꽁 얼려서 먹이를 잡지만 입이 머리 윗부분에 있어서 먹기 힘들다.
+  nationalDex:
+    - 883
+  species: 화석포켓몬
+  heightMetres: 2
+  weightKilograms: 175
+  evolvesFrom: 희귀한화석
+  resistances: []
+illustrators:
+  - Masakazu Fukuda
+rarity: S
