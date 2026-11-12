@@ -1,0 +1,33 @@
+name: 顽皮雷弹
+rarity: R
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: 霹雳电球
+  nationalDex:
+    - 101
+  species: 球宝可梦
+  heightMetres: 1.2
+  weightKilograms: 66.6
+  flavourText: 因为体内储存着多到快要溢出的电能，所以稍微受点刺激便会爆炸。
+  attacks:
+    - name: 雷电球
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+  abilities:
+    - name: 能量发电
+      kind: Ability
+      text: 如果这只宝可梦在备战区的话，则在自己的回合可以使用1次，如果使用了，则使这只宝可梦昏厥。选择自己牌库中最多2张{Lightning}能量，以任意方式附着于自己的{Lightning}宝可梦身上。并重洗牌库。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

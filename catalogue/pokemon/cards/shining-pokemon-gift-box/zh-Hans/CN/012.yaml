@@ -1,0 +1,38 @@
+name: 超梦GX
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 全力爆破
+      cost:
+        - Psychic
+      damage: 30×
+      text: 造成这只宝可梦身上附有的能量数量×30点伤害。
+    - name: 超强吸收
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: 回复这只宝可梦「30」点HP。
+    - name: 精神击破GX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "200"
+      text: 这个招式的伤害，不计算对手的战斗宝可梦身上所附加的效果。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

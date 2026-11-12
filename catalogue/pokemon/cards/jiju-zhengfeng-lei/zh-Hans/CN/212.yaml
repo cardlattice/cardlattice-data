@@ -1,0 +1,27 @@
+name: 雪绒蛾
+rarity: UR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 雪吞虫
+  flavourText: 绝不放过破坏山野环境的人。会用冰冷的翅膀四处飞翔，制造出暴风雪来惩罚他们。
+  attacks:
+    - name: 极光束
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 冰雪之舞
+      kind: Ability
+      text: 在自己的回合可以使用任意次。选择自己手牌中的1张{Water}能量，附着于备战区的{Water}宝可梦身上。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2

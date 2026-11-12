@@ -1,0 +1,11 @@
+name: 玛俐
+rarity: HR
+illustrators:
+  - kirisAki
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 双方玩家，各将自己所有的手牌反面朝上重洗，放回牌库下方。然后，自己从牌库上方抽取5张卡牌，对手从牌库上方抽取4张卡牌。
+    - 在自己的回合只可以使用1张支援者卡。
