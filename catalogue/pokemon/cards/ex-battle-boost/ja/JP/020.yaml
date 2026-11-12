@@ -1,0 +1,39 @@
+name: レシラム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: げきりん
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: このポケモンにのっているダメカンの数×10ダメージを追加。
+    - name: あおいほのお
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: このポケモンについている{Fire}エネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 643
+  species: はくようポケモン
+  heightMetres: 3.2
+  weightKilograms: 330
+  flavourText: 神話に 登場する ポケモン。 しっぽから 炎を 吹き上げて すべての ものを 焼きつくす。
+illustrators:
+  - Aya Kusube
+variants:
+  first-edition:
+    edition: first-edition

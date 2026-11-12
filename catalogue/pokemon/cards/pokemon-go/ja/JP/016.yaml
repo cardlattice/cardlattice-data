@@ -1,0 +1,38 @@
+name: カメール
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "30"
+    - name: ハイドロポンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンについている{Water}エネルギーの数×10ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 8
+  species: かめポケモン
+  heightMetres: 1
+  weightKilograms: 22.5
+  flavourText: 長生きの シンボルと されている。 甲羅に 苔が ついているのは とくに 長生きの カメールだ。
+  evolvesFrom: ゼニガメ
+rarity: U
+illustrators:
+  - kurumitsu
+stamps:
+  - pokemon-go

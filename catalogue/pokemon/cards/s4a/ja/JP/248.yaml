@@ -1,0 +1,30 @@
+name: ガラル サニーゴ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: のろいのしずく
+      cost:
+        - Psychic
+      text: ダメカン3個を、相手のポケモンに好きなようにのせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 222
+  species: さんごポケモン
+  heightMetres: 0.6
+  weightKilograms: 0.5
+  flavourText: 大昔 海だった 場所に よく 転がっている。 石ころと 間違えて 蹴ると たたられる。
+rarity: S
+illustrators:
+  - Mizue

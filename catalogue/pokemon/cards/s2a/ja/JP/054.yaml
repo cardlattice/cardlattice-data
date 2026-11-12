@@ -1,0 +1,37 @@
+name: シュバルゴ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: れんぞくぎり
+      cost:
+        - Metal
+      damage: 10+
+      text: コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、70ダメージ追加。すべてオモテなら、140ダメージ追加。
+    - name: シェルアタック
+      cost:
+        - Metal
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 589
+  species: きへいポケモン
+  heightMetres: 1
+  weightKilograms: 33
+  flavourText: チョボマキの 殻を 奪って 完全武装。 ガラル地方では 非常に 人気が 高い。
+  evolvesFrom: カブルモ
+rarity: U
+illustrators:
+  - Anesaki Dynamic

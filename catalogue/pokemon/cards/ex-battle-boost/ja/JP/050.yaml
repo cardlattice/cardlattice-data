@@ -1,0 +1,32 @@
+name: グレッグル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくづき
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 453
+  species: どくづきポケモン
+  heightMetres: 0.7
+  weightKilograms: 23
+  flavourText: 毒袋を ふくらませて 鳴らし 辺りに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。
+illustrators:
+  - Sanosuke Sakuma
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,37 @@
+name: メタグロス
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: レッグクエイク
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 次の相手の番、このワザを受けた進化ポケモンは、ワザが使えない。
+  abilities:
+    - name: ふゆうじば
+      text: このポケモンがいるかぎり、自分のポケモン全員のにげるためのエネルギーは、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 376
+  species: てつあしポケモン
+  heightMetres: 1.6
+  weightKilograms: 550
+  flavourText: スーパーコンピュータよりも すごい 判断で 相手を 分析し 冷静に 追い詰めていくのだ。
+  evolvesFrom: メタング
+rarity: U
+illustrators:
+  - kawayoo

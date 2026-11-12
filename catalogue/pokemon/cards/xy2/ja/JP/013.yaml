@@ -1,0 +1,36 @@
+name: ギャロップ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: こうそくいどう
+      cost:
+        - Fire
+      damage: "20"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: かけぬける
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: 相手のベンチポケモンを1匹選び、そのポケモンにも20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 78
+  species: ひのうまポケモン
+  heightMetres: 1.7
+  weightKilograms: 95
+  flavourText: 速く 動く 物体を 見ると 競争したくなり 猛烈な スピードで 追いかけはじめる。
+  evolvesFrom: ポニータ
+rarity: U
+illustrators:
+  - Akira Komayama

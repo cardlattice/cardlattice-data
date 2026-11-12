@@ -1,0 +1,37 @@
+name: エアームド
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: メタルアームズ
+      cost:
+        - Metal
+      damage: 10+
+      text: このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。
+    - name: カッターウインド
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 227
+  species: よろいどりポケモン
+  heightMetres: 1.7
+  weightKilograms: 50.5
+  flavourText: 鋼の 鎧を 身に まとう。 重そうに 見えるが 最大 ３００キロの 速度で 飛べるぞ。
+rarity: C
+illustrators:
+  - NC Empire

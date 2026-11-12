@@ -1,0 +1,34 @@
+name: デンリュウV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: せんこうだん
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: ダメージスパーク
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "120"
+      text: ダメカンがのっている相手のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - Ryuta Fuse

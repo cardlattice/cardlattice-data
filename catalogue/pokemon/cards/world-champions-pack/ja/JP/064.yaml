@@ -1,0 +1,32 @@
+name: コドラ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: いしあたま
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+      text: 次の相手の番、自分が受けるワザによるダメージは、「-10」される。
+    - name: ふみつけ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: コインを1回投げオモテなら、20ダメージを追加する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 2
+  evolvesFrom: ココドラ
+rarity: ◆
+illustrators:
+  - Sachiko Adachi

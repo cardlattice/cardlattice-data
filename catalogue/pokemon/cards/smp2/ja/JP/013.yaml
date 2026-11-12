@@ -1,0 +1,35 @@
+name: ゲッコウガGX
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: かすみぎり
+      cost:
+        - Water
+        - Colorless
+      damage: "130"
+      text: このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。
+    - name: ダークミストGX
+      cost:
+        - Water
+      text: 相手のベンチポケモン1匹と、そのポケモンについているすべてのカードを、相手の手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: しんしゅつきぼつ
+      text: 自分の番に、自分の手札がこのカード1枚だけなら、1回使える。このカードをベンチに出す。その後、自分の山札を3枚引く。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ゲコガシラ
+rarity: RR
+illustrators:
+  - MPC Film

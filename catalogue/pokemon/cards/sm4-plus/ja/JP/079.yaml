@@ -1,0 +1,34 @@
+name: ジジーロン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: ためる
+      cost:
+        - Colorless
+      text: 自分の山札にある基本エネルギーを1枚、このポケモンにつける。そして山札を切る。
+    - name: パワーサイクロン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 780
+  species: ゆうゆうポケモン
+  heightMetres: 3
+  weightKilograms: 185
+  flavourText: 心優しい 性質。 だが 一度 怒りに かられると 激しい 息吹で あたりを 破壊 し尽くす。
+illustrators:
+  - match

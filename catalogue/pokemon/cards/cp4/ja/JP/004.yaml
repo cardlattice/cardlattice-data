@@ -1,0 +1,27 @@
+name: イトマル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: いとをはく
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 167
+  species: いとはきポケモン
+  heightMetres: 0.5
+  weightKilograms: 8.5
+  flavourText: 獲物が 近くを 通りかかるまで 自分の 巣で 何日も 同じ 格好で じっと 待ち続ける。
+illustrators:
+  - Naoyo Kimura

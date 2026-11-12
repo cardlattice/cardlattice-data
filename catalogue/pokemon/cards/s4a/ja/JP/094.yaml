@@ -1,0 +1,27 @@
+name: タンドン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 837
+  species: せきたんポケモン
+  heightMetres: 0.3
+  weightKilograms: 12
+  flavourText: およそ４００年前に 炭鉱で 見つかった。 体の ほとんどが 石炭と 同じ 成分。
+illustrators:
+  - Misa Tsutsui

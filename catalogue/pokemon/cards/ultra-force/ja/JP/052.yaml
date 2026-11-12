@@ -1,0 +1,41 @@
+name: アーゴヨンGX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ビーストレイド
+      cost:
+        - Colorless
+      damage: 20×
+      text: 自分の場の「ウルトラビースト」の数×20ダメージ。
+    - name: ジェットタッカー
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: このワザのダメージは弱点・抵抗力を計算しない。
+    - name: スティンガーGX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: おたがいのプレイヤーは、それぞれサイドをすべて山札にもどして切る。その後、それぞれ山札を上から3枚、サイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+    - Ultra Beast
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ベベノム
+rarity: SR
+illustrators:
+  - 5ban Graphics

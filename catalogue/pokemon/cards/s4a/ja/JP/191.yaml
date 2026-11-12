@@ -1,0 +1,11 @@
+name: ウカッツ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から「めずらしい化石」を2枚まで選び、ベンチに出す。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Hitoshi Ariga

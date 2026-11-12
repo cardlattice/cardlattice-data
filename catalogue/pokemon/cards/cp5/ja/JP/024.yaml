@@ -1,0 +1,32 @@
+name: ダークライ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ダークカッター
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+    - name: アビススリープ
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをねむりにする。ポケモンチェックのとき、このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  flavourText: 人々を 深い 眠りに 誘い 夢を 見せる 能力を 持つ。 新月の 夜に 活動する。
+illustrators:
+  - kawayoo

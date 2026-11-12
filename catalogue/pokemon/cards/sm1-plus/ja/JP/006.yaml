@@ -1,0 +1,33 @@
+name: ラランテス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ソーラービーム
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: にほんばれ
+      text: このポケモンがいるかぎり、自分の{Grass}または{Fire}ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 754
+  species: はなかまポケモン
+  heightMetres: 0.9
+  weightKilograms: 18.5
+  flavourText: 鮮やかな 体色を 保つには 非常に 手間が かかるが それを 趣味にする 好事家も いるのだ。
+  evolvesFrom: カリキリ
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,37 @@
+name: ヤドラン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ぐるぐるタックル
+      cost:
+        - Colorless
+      damage: "20"
+      text: おたがいのバトルポケモンを、それぞれねむりにする。
+    - name: たそがれのひらめき
+      cost:
+        - Colorless
+        - Colorless
+      text: このワザは、相手のサイドの残り枚数が1枚のときにしか使えない。自分のサイドを2枚とる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 80
+  species: やどかりポケモン
+  heightMetres: 1.6
+  weightKilograms: 78.5
+  flavourText: シェルダーに しっぽを 噛まれて 進化。 シェルダーは しっぽから にじみ出る 甘味に 夢心地だ。
+  evolvesFrom: ヤドン
+rarity: U
+illustrators:
+  - Mina Nakai
+stamps:
+  - pokemon-go

@@ -1,0 +1,39 @@
+name: ゼクロム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: げきりん
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: このポケモンにのっているダメカンの数×10ダメージを追加。
+    - name: らいげき
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "120"
+      text: このポケモンにも40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 644
+  species: こくいんポケモン
+  heightMetres: 2.9
+  weightKilograms: 345
+  flavourText: 神話に 登場する ポケモン。 しっぽの 中に 電気を 作る 巨大な 発電器を 持つ。
+illustrators:
+  - Kagemaru Himeno
+variants:
+  first-edition:
+    edition: first-edition

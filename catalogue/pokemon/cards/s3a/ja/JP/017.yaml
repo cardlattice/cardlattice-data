@@ -1,0 +1,34 @@
+name: ライボルト
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: ライトニングボール
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities:
+    - name: ハイスピード
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を3枚引く。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 310
+  species: ほうでんポケモン
+  heightMetres: 1.5
+  weightKilograms: 40.2
+  flavourText: 電気で 筋肉を 刺激するので 素早く 動ける。 筋肉痛も 電気で ほぐすので すぐ 治る。
+  evolvesFrom: ラクライ
+rarity: U
+illustrators:
+  - SATOSHI NAKAI

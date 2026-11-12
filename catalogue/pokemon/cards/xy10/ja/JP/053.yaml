@@ -1,0 +1,40 @@
+name: プクリン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: ふくらむ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: おうふくビンタ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60×
+      text: コインを2回投げ、オモテの数×60ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 40
+  species: ふうせんポケモン
+  heightMetres: 1
+  weightKilograms: 12
+  flavourText: ボディーに 弾力性が あり 怒らせると 息を 吸いこんで どんどん 大きく ふくらむ。
+  evolvesFrom: プリン
+rarity: U
+illustrators:
+  - Mizue

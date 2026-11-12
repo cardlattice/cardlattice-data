@@ -1,0 +1,33 @@
+name: ピッピ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Psychic
+      damage: "10"
+    - name: ちいさくゆびをふる
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 35
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.5
+  flavourText: 満月の夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。
+rarity: C
+illustrators:
+  - HYOGONOSUKE

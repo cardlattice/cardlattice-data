@@ -1,0 +1,37 @@
+name: ミノマダム
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ソーラーレイ
+      cost:
+        - Grass
+      damage: "20"
+      text: 自分のポケモン全員のHPを、それぞれ「20」回復する。
+    - name: はっぱぎり
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 413
+  species: みのむしポケモン
+  heightMetres: 0.5
+  weightKilograms: 6.5
+  flavourText: ミノムッチから 進化したとき ミノが 体の 一部に なった。 一生 ミノを 脱ぐことはない。
+  evolvesFrom: ミノムッチ
+rarity: C
+illustrators:
+  - kawayoo

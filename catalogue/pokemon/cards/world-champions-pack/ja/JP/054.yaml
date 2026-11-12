@@ -1,0 +1,32 @@
+name: グラエナ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ごうだつ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: ダメージを与える前に、相手についている「トレーナーのカード」を、すべてトラッシュする。
+    - name: ダークバースト
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: 50+
+      text: 場に「カゲツのスタジアム」があるなら、20ダメージを追加する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+  retreatCost: 0
+  evolvesFrom: ポチエナ
+rarity: ★
+illustrators:
+  - Midori Harada

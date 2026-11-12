@@ -1,0 +1,36 @@
+name: ヘラクロス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: つきとばす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: かいりきホーン
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "110"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 214
+  species: １ぽんヅノポケモン
+  heightMetres: 1.5
+  weightKilograms: 54
+  flavourText: 甘いミツを 求め 森の 中を 探しまわる。 怪力は 自慢だが 飛ぶのは あまり 得意では ない。
+rarity: C
+illustrators:
+  - otumami

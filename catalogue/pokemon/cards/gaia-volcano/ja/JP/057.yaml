@@ -1,0 +1,34 @@
+name: バッフロン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: くつがえす
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。
+  abilities:
+    - name: そうしょく
+      text: このポケモンが使うワザの、相手の{Grass}ポケモンへのダメージは「+40」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 626
+  species: ずつきうしポケモン
+  heightMetres: 1.6
+  weightKilograms: 94.6
+  flavourText: 激しい 頭突きを 食らわせても ふさふさの 体毛が ダメージを 吸収して くれるのだ。
+rarity: C
+illustrators:
+  - Hiroki Asanuma

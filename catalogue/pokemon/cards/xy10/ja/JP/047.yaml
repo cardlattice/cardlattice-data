@@ -1,0 +1,35 @@
+name: ドーミラー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: てっぺき
+      cost:
+        - Metal
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: ぶちかます
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 436
+  species: せいどうポケモン
+  heightMetres: 0.5
+  weightKilograms: 60.5
+  flavourText: 古い お墓から ドーミラーに そっくりな 道具が 掘り出されたが 関係は わかっていない。
+rarity: C
+illustrators:
+  - Hajime Kusajima

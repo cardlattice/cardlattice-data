@@ -1,0 +1,35 @@
+name: キャモメ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: もってくる
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 278
+  species: うみねこポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.5
+  flavourText: 切り立った 崖に 巣を つくり 海風を 利用して 広い空を 上昇し 滑空 するのだ。
+rarity: C
+illustrators:
+  - "0313"

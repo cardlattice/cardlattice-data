@@ -1,0 +1,26 @@
+name: ヤジロン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: フューチャースピン
+      cost:
+        - Psychic
+      text: 自分または相手の山札を上から3枚見て、好きな順番に入れ替えて、山札の上にもどす。
+  abilities:
+    - name: Θ（シータ）ストップ
+      text: このポケモンは、相手のポケモンからの特性の効果を受けない。
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 一本足で 回転しながら 移動する。 古代の 遺跡から 見つかった 珍しい ポケモン。
+rarity: C
+illustrators:
+  - Ayaka Yoshida

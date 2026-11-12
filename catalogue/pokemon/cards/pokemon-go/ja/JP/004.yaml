@@ -1,0 +1,34 @@
+name: かがやくフシギバナ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: きけんなかふん
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "90"
+      text: 相手のバトルポケモンをどくとやけどとこんらんにする。
+  abilities:
+    - name: サニーブルーム
+      text: 自分の番の終わりに1回使える。自分の手札が4枚になるように、山札を引く。
+      kind: Ability
+  rules:
+    - かがやくポケモンは、デッキに1枚しか入れられない。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  flavourText: 太陽エネルギーを 栄養にして 大きな花が 開く。 日なたに 引き寄せられるように 移動する。
+  subtypes:
+    - Radiant
+illustrators:
+  - Misa Tsutsui
+rarity: K
+stamps:
+  - pokemon-go

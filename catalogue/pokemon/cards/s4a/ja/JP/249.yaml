@@ -1,0 +1,36 @@
+name: ガラル サニゴーン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: おいつめる
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: ほろびのボディ
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、自分はコインを1回投げる。オモテなら、ワザを使ったポケモンをきぜつさせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 864
+  species: さんごポケモン
+  heightMetres: 1
+  weightKilograms: 0.4
+  flavourText: 霊力が 高まり 殻から 解き放たれた。 霊体で 核の 魂を 守っている。
+  evolvesFrom: ガラル サニーゴ
+rarity: S
+illustrators:
+  - Shin Nagasawa

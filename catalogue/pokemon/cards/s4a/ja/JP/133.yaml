@@ -1,0 +1,31 @@
+name: ゾウドウ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: かいりき
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 878
+  species: どうぞうポケモン
+  heightMetres: 1.2
+  weightKilograms: 100
+  flavourText: ５トンの 荷物を もっても 平気な 力持ち ポケモン。 鼻を 使って 土を 掘る。
+illustrators:
+  - Akira Komayama

@@ -1,0 +1,42 @@
+name: リザードン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ばくれつだん
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      text: 相手のポケモンを2匹選び、それぞれに40ダメージ。［ベンチへのダメージは弱点・抵抗力の計算をしない。］
+    - name: バーンアウト
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 6
+  species: かえんポケモン
+  heightMetres: 1.7
+  weightKilograms: 90.5
+  flavourText: 苦しい 戦いを 経験した リザードンほど 炎の 温度が 高くなると 言われている。
+  evolvesFrom: リザード
+illustrators:
+  - TOKIYA
+variants:
+  first-edition:
+    edition: first-edition

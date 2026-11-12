@@ -1,0 +1,41 @@
+name: ギャラドス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: バブルこうせん
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "50"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: りゅうのいかり
+      cost:
+        - Water
+        - Water
+        - Water
+        - Water
+      damage: "180"
+      text: コインを2回投げ、1回でもウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 130
+  species: きょうあくポケモン
+  heightMetres: 6.5
+  weightKilograms: 235
+  flavourText: 非常に 狂暴な 性格。 口から出す はかいこうせんは すべてのものを 焼きつくす。
+  evolvesFrom: コイキング
+  level: 41
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

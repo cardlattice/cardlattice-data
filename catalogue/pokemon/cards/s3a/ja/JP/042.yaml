@@ -1,0 +1,35 @@
+name: セキタンザンV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: やきこがす
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "90"
+      text: 相手のバトルポケモンをやけどにする。
+    - name: ロックスマッシュ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "180"
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+rarity: RR
+illustrators:
+  - 5ban Graphics

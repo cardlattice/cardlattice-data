@@ -1,0 +1,8 @@
+name: 基本雷エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Lightning
+rarity: ★

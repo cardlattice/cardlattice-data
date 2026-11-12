@@ -1,0 +1,33 @@
+name: パッチルドン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: エレキボール
+      cost:
+        - Lightning
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: かじかむうず
+      text: このポケモンがいるかぎり、相手は手札からエネルギーをポケモンにつけるたび、そのポケモンにダメカンを2個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 881
+  species: かせきポケモン
+  heightMetres: 2.3
+  weightKilograms: 150
+  flavourText: 氷漬けの 上半身が 震えると 電気が つくられる。 歩くことが 非常に 苦手。
+  evolvesFrom: めずらしい化石
+rarity: S
+illustrators:
+  - nagimiso

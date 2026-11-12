@@ -1,0 +1,31 @@
+name: トドゼルガex
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: ぶちこわす
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 70+
+      text: 場に「スタジアム」があるなら、20ダメージを追加し、その「スタジアム」をトラッシュする。
+  abilities:
+    - name: フリージングブレス
+      text: このパワーは、自分の番に、このカードを手札から出して、自分のポケモンを進化させたとき、1回使うことができる。次の相手の番、相手プレイヤーは、手札から「トレーナーのカード」を出して、使うことができない。
+      kind: Poké-Power
+  rules:
+    - ポケモンexがきぜつしたとき、相手プレイヤーはサイドを2枚とります。
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: トドグラー
+  subtypes:
+    - ex
+rarity: ★ (silver)
+illustrators:
+  - Ryo Ueda

@@ -1,0 +1,11 @@
+name: ストーン闘エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Fighting}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Fighting}ポケモンが、相手のポケモンから受けるワザのダメージは「-20」される。
+  types:
+    - Fighting
+rarity: U

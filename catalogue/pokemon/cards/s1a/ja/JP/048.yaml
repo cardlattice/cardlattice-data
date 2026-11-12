@@ -1,0 +1,30 @@
+name: スカンプー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: どくガス
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 434
+  species: スカンクポケモン
+  heightMetres: 0.4
+  weightKilograms: 19.2
+  flavourText: おしりから 相手の 顔を めがけて ものすごく 臭い 汁を 飛ばす。 汁は ５メートル先まで とどく。
+rarity: C
+illustrators:
+  - Shigenori Negishi

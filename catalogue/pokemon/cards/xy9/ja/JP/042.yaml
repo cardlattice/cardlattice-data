@@ -1,0 +1,32 @@
+name: ニダンギル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ふかくささる
+      cost:
+        - Psychic
+        - Colorless
+      text: 相手のバトルポケモンにダメカンを3個のせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 680
+  species: とうけんポケモン
+  heightMetres: 0.8
+  weightKilograms: 4.5
+  flavourText: ２本の 剣による 複雑な 連続攻撃を 防ぐことは 剣の 達人でも 不可能だ。
+  evolvesFrom: ヒトツキ
+rarity: C
+illustrators:
+  - Hajime Kusajima

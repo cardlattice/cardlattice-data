@@ -1,0 +1,34 @@
+name: ウインディ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ほのおのたてがみ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: ウォームアップ
+      text: このポケモンに「燃えるスカーフ」がついているなら、このポケモンの最大HPは「100」大きくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 59
+  species: でんせつポケモン
+  heightMetres: 1.9
+  weightKilograms: 155
+  flavourText: 一昼夜で １００００キロの 距離を 駆けぬける 姿は 多くの 人を 魅了してきた。
+  evolvesFrom: ガーディ
+rarity: U
+illustrators:
+  - Hasuno

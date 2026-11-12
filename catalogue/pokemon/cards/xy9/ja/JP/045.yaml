@@ -1,0 +1,30 @@
+name: ボクレー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: かくせい
+      cost:
+        - Colorless
+      text: このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 708
+  species: きりかぶポケモン
+  heightMetres: 0.4
+  weightKilograms: 7
+  flavourText: 森で さまよい 死んだ 子供の 魂が 切り株に 宿り ポケモンになったと 言われている。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

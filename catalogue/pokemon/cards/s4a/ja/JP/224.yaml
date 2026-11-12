@@ -1,0 +1,28 @@
+name: メッソン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 816
+  species: みずとかげポケモン
+  heightMetres: 0.3
+  weightKilograms: 4
+  flavourText: 怯えると 玉ねぎ１００個分の 催涙成分を もつ 涙を 流して もらい泣き させる。
+rarity: S
+illustrators:
+  - Saya Tsuruta

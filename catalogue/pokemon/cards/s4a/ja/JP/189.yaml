@@ -1,0 +1,10 @@
+name: ツインエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Colorless}エネルギー2個ぶんとしてはたらく。
+      「ポケモンV・GX」についているなら、{Colorless}エネルギー1個ぶんとしてはたらく。
+  types:
+    - Colorless

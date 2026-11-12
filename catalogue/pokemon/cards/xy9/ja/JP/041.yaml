@@ -1,0 +1,30 @@
+name: ヒトツキ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ささる
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンにダメカンを1個のせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 679
+  species: とうけんポケモン
+  heightMetres: 0.8
+  weightKilograms: 2
+  flavourText: 剣の 柄を 握った 人の 腕に 青い 布を 巻きつけて 倒れるまで 命を 吸い取る。
+rarity: C
+illustrators:
+  - kawayoo

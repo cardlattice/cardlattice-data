@@ -1,0 +1,33 @@
+name: ゴリランダーV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: もりのうたげ
+      cost:
+        - Grass
+      text: 自分の山札から{Grass}タイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。
+    - name: ウッドハンマー
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: "220"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - 5ban Graphics

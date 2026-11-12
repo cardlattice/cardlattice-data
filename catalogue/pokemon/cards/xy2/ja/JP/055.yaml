@@ -1,0 +1,33 @@
+name: MリザードンEX
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Dragon
+  stage: MEGA
+  attacks:
+    - name: ワイルドブレイズ
+      cost:
+        - Fire
+        - Fire
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: 自分の山札を上から5枚トラッシュする。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: リザードンEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

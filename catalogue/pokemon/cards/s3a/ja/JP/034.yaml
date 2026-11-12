@@ -1,0 +1,33 @@
+name: ウパー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: マッドショット
+      cost:
+        - Fighting
+      damage: "10"
+    - name: たたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 194
+  species: みずうおポケモン
+  heightMetres: 0.4
+  weightKilograms: 8.5
+  flavourText: 冷たい 水の中で 生活。 あたりが 涼しくなると エサを 探しに 地上にも 現れる。
+rarity: C
+illustrators:
+  - Mina Nakai

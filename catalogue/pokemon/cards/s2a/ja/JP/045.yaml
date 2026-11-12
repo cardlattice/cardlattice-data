@@ -1,0 +1,33 @@
+name: オトスパスV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: がんじがらめ
+      cost:
+        - Fighting
+      damage: "20"
+      text: 次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。
+    - name: ムーンサルトプレス
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 120+
+      text: コインを1回投げオモテなら、100ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - PLANETA Igarashi

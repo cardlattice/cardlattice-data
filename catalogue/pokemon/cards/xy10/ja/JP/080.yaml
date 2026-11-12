@@ -1,0 +1,29 @@
+name: フーディンEX
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サプレッション
+      cost:
+        - Psychic
+        - Colorless
+      text: エネルギーがついている相手のポケモン全員に、ダメカンをそれぞれ3個ずつのせる。
+  abilities:
+    - name: スプーンまげ
+      text: この特性は、手札から「MフーディンEX」を出して、このポケモンが進化するとき、1回使える。進化する前に、相手のバトルポケモンにダメカンを2個のせ、相手のベンチポケモン1匹にもダメカンを3個のせる。
+      kind: Ability
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - Ryo Ueda

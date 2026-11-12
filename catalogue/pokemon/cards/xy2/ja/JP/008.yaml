@@ -1,0 +1,34 @@
+name: ロゼリア
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ねむりごな
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。
+    - name: いあいぎり
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 315
+  species: いばらポケモン
+  heightMetres: 0.3
+  weightKilograms: 2
+  flavourText: 右手と 左手で ２種類の 毒を 使いわけて 攻撃する。 香りが 強いほど 元気だ。
+rarity: C
+illustrators:
+  - kirisAki

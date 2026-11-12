@@ -1,0 +1,29 @@
+name: ビリリダマ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: れんぞくころがり
+      cost:
+        - Colorless
+      damage: 20×
+      text: ウラが出るまでコインを投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 100
+  species: ボールポケモン
+  heightMetres: 0.5
+  weightKilograms: 10.4
+  flavourText: 発電所などに 現れる。 モンスターボールと 間違えて 触って しびれる 人が 多い。
+rarity: C
+illustrators:
+  - Hasegawa Saki

@@ -1,0 +1,34 @@
+name: ホルビー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ほるほる
+      cost:
+        - Colorless
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: とびだしヘッド
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 659
+  species: あなほりポケモン
+  heightMetres: 0.4
+  weightKilograms: 5
+  flavourText: 耳で 穴を 掘るのが 得意。 地下１０メートルに とどく 巣穴を 一晩で つくってしまう。
+rarity: C
+illustrators:
+  - Yuka Morii

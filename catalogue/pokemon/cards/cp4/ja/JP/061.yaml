@@ -1,0 +1,36 @@
+name: オーロット
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ウッドスラム
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のベンチポケモンを2匹選び、そのポケモンにも、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: もりののろい
+      text: このポケモンがバトル場にいるかぎり、相手は手札からグッズを出して使えない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 709
+  species: ろうぼくポケモン
+  heightMetres: 1.5
+  weightKilograms: 71
+  flavourText: ほかの 木々を 自在に 操る。 森を 荒らす 人間は 死ぬまで 森から 出られないようにするのだ。
+  evolvesFrom: ボクレー
+illustrators:
+  - 5ban Graphics

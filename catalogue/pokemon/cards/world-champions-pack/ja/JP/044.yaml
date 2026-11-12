@@ -1,0 +1,29 @@
+name: ゴーリキー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ワンツーパンチ
+      cost:
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、20ダメージを追加する。
+    - name: メガトンキック
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ワンリキー
+rarity: ◆
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,34 @@
+name: バルチャイ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: もってくる
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。
+    - name: どつく
+      cost:
+        - Darkness
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 629
+  species: おむつポケモン
+  heightMetres: 0.5
+  weightKilograms: 9
+  flavourText: まだまだ 遊び盛り。 羽が 未熟で 飛べないので ぴょんぴょん 跳ね回っているよ。
+rarity: C
+illustrators:
+  - Eri Yamaki

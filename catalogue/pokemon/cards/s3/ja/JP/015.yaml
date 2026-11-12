@@ -1,0 +1,36 @@
+name: ガラル ヒヒダルマ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ずつき
+      cost:
+        - Colorless
+      damage: "40"
+    - name: フローズンヒート
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 110+
+      text: のぞむなら、このポケモンについている{Water}エネルギーを、すべてトラッシュする。その場合、60ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 555
+  species: えんじょうポケモン
+  heightMetres: 1.7
+  weightKilograms: 120
+  flavourText: 退化したはずの 炎袋が 怒りで 復活。 ところかまわず 炎を 噴きまくり 暴れる。
+  evolvesFrom: ガラル ダルマッカ
+rarity: U
+illustrators:
+  - Misa Tsutsui

@@ -1,0 +1,11 @@
+name: エネルギー回収
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュにある基本エネルギーを2枚、相手に見せてから、手札に加える。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

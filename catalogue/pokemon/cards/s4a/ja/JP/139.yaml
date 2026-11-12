@@ -1,0 +1,33 @@
+name: ザマゼンタV
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: アサルトタックル
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "130"
+      text: 相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。
+  abilities:
+    - name: ふくつのたて
+      text: このポケモンは、相手の「ポケモンVMAX」からワザのダメージを受けない。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - aky CG Works

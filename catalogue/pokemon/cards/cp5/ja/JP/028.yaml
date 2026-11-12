@@ -1,0 +1,37 @@
+name: ゲノセクト
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ちょくげきだん
+      cost:
+        - Metal
+        - Colorless
+      text: 相手のポケモンを1匹選び、30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: デストロイビーム
+      cost:
+        - Metal
+        - Metal
+        - Metal
+      damage: "90"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 649
+  species: こせいだいポケモン
+  heightMetres: 1.5
+  weightKilograms: 82.5
+  flavourText: ３億年前に いた ポケモン。 プラズマ団に 改造 され 背中に 砲台を つけられた。
+illustrators:
+  - Ken Sugimori

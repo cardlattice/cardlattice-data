@@ -1,0 +1,41 @@
+name: ガオガエンGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ハッスルブロー
+      cost:
+        - Fire
+      damage: 10+
+      text: 自分のベンチの{Fire}ポケモンの数×20ダメージ追加。
+    - name: タイガースイング
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 80+
+      text: コインを2回投げ、オモテの数×50ダメージ追加。
+    - name: バーンスラムGX
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "200"
+      text: 相手のバトルポケモンをやけどにする。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ニャヒート
+rarity: RR
+illustrators:
+  - 5ban Graphics

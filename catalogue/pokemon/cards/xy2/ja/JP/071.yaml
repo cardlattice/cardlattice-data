@@ -1,0 +1,35 @@
+name: ミミロップ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ヒップスタンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: コインを1回投げウラなら、次の自分の番、このポケモンはワザを使えない。
+  abilities:
+    - name: だいジャンプ
+      text: このポケモンと、ついているすべてのカードを、手札にもどす。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 428
+  species: うさぎポケモン
+  heightMetres: 1.2
+  weightKilograms: 33.3
+  flavourText: 警戒心が とても 強い。 危険を 感じると 軽やかに 飛び跳ねて 走り去ってしまう。
+  evolvesFrom: ミミロル
+rarity: U
+illustrators:
+  - Sanosuke Sakuma

@@ -1,0 +1,22 @@
+name: ヒトカゲ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: えんまく
+      cost:
+        - Fire
+      damage: "10"
+      text: 次の相手の番、このワザを受けた相手は、ワザを使うときコインを1回投げウラなら、そのワザは失敗する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Sachiko Adachi

@@ -1,0 +1,10 @@
+name: 改造ハンマー
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 相手の場のポケモンについている特殊エネルギーを、1個トラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Yoshinobu Saito

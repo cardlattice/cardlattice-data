@@ -1,0 +1,13 @@
+name: ふかそうち
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - コインを1回投げオモテなら、自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。ウラなら、この「ふかそうち」はトラッシュせずに、山札の下にもどす。
+    - グッズは、自分の番に何枚でも使える。
+rarity: UR
+illustrators:
+  - sadaji
+stamps:
+  - pokemon-go

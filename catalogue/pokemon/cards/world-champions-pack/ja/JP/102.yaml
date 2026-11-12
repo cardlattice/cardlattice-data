@@ -1,0 +1,14 @@
+name: 鋼エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Metal}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Metal}ポケモンが、ワザによるダメージを受けるとき、そのダメージは「-10」される。
+      {Metal}ポケモンについていないなら、この効果はなくなる。
+  types:
+    - Metal
+rarity: ★
+illustrators:
+  - Milky Isobe

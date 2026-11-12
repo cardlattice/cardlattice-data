@@ -1,0 +1,40 @@
+name: モジャンボ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: メガドレイン
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: このポケモンのHPを「20」回復する。
+    - name: くさむすび
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 相手のバトルポケモンのにげるために必要なエネルギーの数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 465
+  species: ツルじょうポケモン
+  heightMetres: 2
+  weightKilograms: 128.6
+  flavourText: 暖かい 季節に なると 目玉も 隠れてしまうほど 植物の ツルが 伸び続ける。
+  evolvesFrom: モンジャラ
+rarity: U
+illustrators:
+  - MAHOU

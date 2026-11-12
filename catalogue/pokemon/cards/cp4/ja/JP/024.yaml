@@ -1,0 +1,32 @@
+name: テッポウオ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ワイルドリバー
+      cost:
+        - Colorless
+      text: このポケモンをベンチポケモンと入れ替える。
+    - name: みずでっぽう
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 223
+  species: ふんしゃポケモン
+  heightMetres: 0.6
+  weightKilograms: 12
+  flavourText: 吸盤の ように 変化した 背びれで マンタインに くっつき 食べ残しを 分けてもらっている。
+illustrators:
+  - Suwama Chiaki

@@ -1,0 +1,37 @@
+name: ツボツボ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: おすそわけ
+      cost:
+        - Grass
+      text: 自分のベンチポケモンを1匹選び、HPを「40」回復する。
+    - name: にどづき
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 40×
+      text: コインを2回投げ、オモテの数×40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 213
+  species: はっこうポケモン
+  heightMetres: 0.6
+  weightKilograms: 20.5
+  flavourText: ツボのような 甲羅の 中に ためこんだ きのみは いつのまにか ドロドロの ジュースに 変わる。
+illustrators:
+  - MAHOU
+variants:
+  first-edition:
+    edition: first-edition

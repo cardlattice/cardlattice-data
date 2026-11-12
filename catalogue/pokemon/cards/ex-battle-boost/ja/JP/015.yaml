@@ -1,0 +1,35 @@
+name: ビクティニ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: アシストパワー
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: このポケモンについているエネルギーをすべて、ベンチポケモン1匹につけ替える。
+  abilities:
+    - name: しょうりのほし
+      text: 自分のポケモンのワザでコインを投げたとき使える。そのコインの結果をすべてなくし、はじめからコインを投げなおす。ビクティニが何匹いても、「しょうりのほし」は自分の番に1回しか使えない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 494
+  species: しょうりポケモン
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: 勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。
+illustrators:
+  - Tomokazu Komiya
+variants:
+  first-edition:
+    edition: first-edition

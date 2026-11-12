@@ -1,0 +1,30 @@
+name: ヒトカゲ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: やんちゃ
+      cost:
+        - Fire
+        - Colorless
+      damage: 20×
+      text: コインを1回投げオモテなら、このポケモンにのっているダメカンの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 4
+  species: とかげポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.5
+  flavourText: 元気すぎる ボクの ヒトカゲ。 どうしたら もっと 仲良く なれるかな？
+rarity: C
+illustrators:
+  - Akira Komayama

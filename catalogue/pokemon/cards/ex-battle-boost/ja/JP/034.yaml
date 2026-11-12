@@ -1,0 +1,39 @@
+name: ガマゲロゲ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: りんしょう
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: ワザ「りんしょう」を持つ自分のポケモンの数×30ダメージ。
+    - name: ハイパーボイス
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 537
+  species: しんどうポケモン
+  heightMetres: 1.5
+  weightKilograms: 62
+  flavourText: こぶしの コブを 振動させると パンチの 威力が 倍増する。 一撃で 大岩を 粉砕。
+  evolvesFrom: ガマガル
+illustrators:
+  - Hajime Kusajima
+variants:
+  first-edition:
+    edition: first-edition

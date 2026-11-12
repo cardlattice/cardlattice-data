@@ -1,0 +1,11 @@
+name: キャプチャーエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Colorless}エネルギー1個ぶんとしてはたらく。
+      このカードを手札からポケモンにつけたとき、自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。
+  types:
+    - Colorless
+rarity: U

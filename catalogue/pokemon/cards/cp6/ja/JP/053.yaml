@@ -1,0 +1,33 @@
+name: ディグダ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ほりすすむ
+      cost:
+        - Fighting
+        - Colorless
+      text: 相手のベンチポケモンを1匹選び、30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities:
+    - name: もぐる
+      text: このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 50
+  species: もぐらポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.8
+  flavourText: 地中の 浅い所を 移動。 掘り進んだ後は 地面が 盛り上がっているので すぐわかる。
+  level: 8
+rarity: C
+illustrators:
+  - Keiji Kinebuchi

@@ -1,0 +1,39 @@
+name: エルレイド
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: しんけいづき
+      cost:
+        - Fighting
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: しゅらのやいば
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: ダメカンがのっている自分のベンチポケモンの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 475
+  species: やいばポケモン
+  heightMetres: 1.6
+  weightKilograms: 52
+  flavourText: だれかを 守ろうと したとき ひじを伸ばし 刀のように 変化 させて 激しく 戦う。
+  evolvesFrom: キルリア
+illustrators:
+  - Hajime Kusajima
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,32 @@
+name: ガラル サニゴーンV
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ホロウミサイル
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: ダメカン3個を、相手のベンチポケモンに好きなようにのせる。
+  abilities:
+    - name: むしばむオーラ
+      text: このポケモンがバトル場にいるかぎり、相手は手札からエネルギーをポケモンにつけるたび、そのポケモンにダメカンを3個のせる。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - 5ban Graphics

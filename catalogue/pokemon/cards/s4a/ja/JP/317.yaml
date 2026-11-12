@@ -1,0 +1,33 @@
+name: ドラパルトV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: かみつく
+      cost:
+        - Psychic
+      damage: "30"
+    - name: アサルトジェット
+      cost:
+        - Psychic
+        - Psychic
+      damage: 60+
+      text: この番、このポケモンがベンチからバトル場に出ていたなら、80ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+rarity: SSR
+illustrators:
+  - aky CG Works

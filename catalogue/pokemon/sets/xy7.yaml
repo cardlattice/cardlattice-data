@@ -1,0 +1,13 @@
+name: バンデットリング
+language: ja
+region: JP
+releaseDate: 2015-06-20
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY7
+printedDenominator: 81
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

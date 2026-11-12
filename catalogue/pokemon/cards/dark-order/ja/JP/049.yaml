@@ -1,0 +1,13 @@
+name: メタルゴーグル
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけている{Metal}ポケモンは、相手のポケモンから受けるワザのダメージが「-30」され、相手のワザや特性の効果によるダメカンものらない。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Yoshinobu Saito

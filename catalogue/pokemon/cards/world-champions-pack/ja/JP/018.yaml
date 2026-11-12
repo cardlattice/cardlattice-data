@@ -1,0 +1,27 @@
+name: ユキワラシ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: なげつける
+      cost:
+        - Colorless
+      text: 相手のベンチポケモン1匹に、10ダメージ。
+    - name: にどずつき
+      cost:
+        - Water
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテ×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

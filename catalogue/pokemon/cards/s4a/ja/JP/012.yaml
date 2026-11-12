@@ -1,0 +1,33 @@
+name: レドームシ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: リフレクター
+      cost:
+        - Colorless
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-40」される。
+    - name: ぶつかる
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 825
+  species: レドームポケモン
+  heightMetres: 0.4
+  weightKilograms: 19.5
+  flavourText: 殻の 中で 成長中。 サイコパワーで 外の 様子を うかがい 進化に 備えている。
+  evolvesFrom: サッチムシ
+illustrators:
+  - Misa Tsutsui

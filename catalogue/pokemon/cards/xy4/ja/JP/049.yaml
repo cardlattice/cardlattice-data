@@ -1,0 +1,36 @@
+name: ギガイアス
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: オーバースマッシュ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 60+
+      text: 次の自分の番、このポケモンが使う「オーバースマッシュ」のダメージは「+40」される。
+  abilities:
+    - name: こうみつどアーマー
+      text: このポケモンのHPがまんたんの状態なら、このポケモンが相手のポケモンから受けるワザのダメージは「-50」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 526
+  species: こうあつポケモン
+  heightMetres: 1.7
+  weightKilograms: 260
+  flavourText: 取りこんだ 太陽光線を エネルギーコアで 反応 させて 光の玉として 撃ちだしてくる。
+  evolvesFrom: ガントル
+rarity: R
+illustrators:
+  - Akira Komayama

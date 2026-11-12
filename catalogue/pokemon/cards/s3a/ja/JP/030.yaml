@@ -1,0 +1,34 @@
+name: ディアンシー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: センシングレイ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: この番、手札からサポートを出して使っていたなら、70ダメージ追加。
+  abilities:
+    - name: きらめきのベール
+      text: このポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 719
+  species: ほうせきポケモン
+  heightMetres: 0.7
+  weightKilograms: 8.8
+  flavourText: 両手の すきまで 空気中の 炭素を 圧縮して たくさんの ダイヤを 一瞬で 生み出す。
+rarity: R
+illustrators:
+  - Sanosuke Sakuma

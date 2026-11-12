@@ -1,0 +1,29 @@
+name: クヌギダマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 204
+  species: みのむしポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.2
+  flavourText: 木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。
+rarity: C
+illustrators:
+  - Suwama Chiaki

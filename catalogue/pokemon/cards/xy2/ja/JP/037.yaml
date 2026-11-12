@@ -1,0 +1,34 @@
+name: ニャスパー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコショット
+      cost:
+        - Psychic
+      damage: "10"
+    - name: ねこだまし
+      cost:
+        - Psychic
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 677
+  species: じせいポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.5
+  flavourText: 強力な サイコパワーが 漏れ出さないように 放出する 器官を 耳で ふさいでいるのだ。
+rarity: C
+illustrators:
+  - 5ban Graphics

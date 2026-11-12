@@ -1,0 +1,31 @@
+name: ミカルゲ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: オカルトミラー
+      cost:
+        - Colorless
+      text: 自分の手札をすべて山札にもどし、山札を切る。その後、相手の手札の枚数ぶん、自分の山札を引く。
+  abilities:
+    - name: ふういんのさけび
+      text: このポケモンがいるかぎり、おたがいのプレイヤーは、手札から「ACE SPEC」のカードを出して使えない。
+      kind: Ability
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 442
+  species: ふういんポケモン
+  heightMetres: 1
+  weightKilograms: 108
+  flavourText: いつも 悪さばかり していたら 不思議な 術で 本体を 要石に 縛りつけられた。
+illustrators:
+  - Mitsuhiro Arita
+variants:
+  first-edition:
+    edition: first-edition

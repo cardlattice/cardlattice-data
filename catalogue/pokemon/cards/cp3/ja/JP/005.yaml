@@ -1,0 +1,37 @@
+name: リザードン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: おもいだす
+      cost:
+        - Colorless
+      text: このポケモンが進化前に持っていたワザを1つ選び、このワザとして使う。
+    - name: かえんばく
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 次の自分の番、このポケモンは「かえんばく」が使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 6
+  species: かえんポケモン
+  heightMetres: 1.7
+  weightKilograms: 90.5
+  flavourText: どんなことがあっても ふたりの きずながあれば 乗り越えられる。 これからも ずっと ずっと。
+  evolvesFrom: リザード
+rarity: U
+illustrators:
+  - Akira Komayama

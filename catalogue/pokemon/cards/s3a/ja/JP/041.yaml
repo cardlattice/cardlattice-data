@@ -1,0 +1,34 @@
+name: ルガルガン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: いわおとし
+      cost:
+        - Fighting
+      damage: "40"
+    - name: するどいたてがみ
+      cost:
+        - Fighting
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 745
+  species: オオカミポケモン
+  heightMetres: 1.1
+  weightKilograms: 25
+  flavourText: 群れを 作らず １匹で 暮らす。 自分の 力を 引き出してくれる トレーナーの いうことしか 聞かない。
+  evolvesFrom: イワンコ
+rarity: U
+illustrators:
+  - Anesaki Dynamic

@@ -1,0 +1,38 @@
+name: ゴチルゼル
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: サイコトリップ
+      cost:
+        - Psychic
+      damage: "40"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: ねじまげる
+      cost:
+        - Psychic
+        - Colorless
+      damage: "90"
+      text: 相手の手札からオモテを見ないで2枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 576
+  species: てんたいポケモン
+  heightMetres: 1.5
+  weightKilograms: 44
+  flavourText: 星の 動きから 未来を 見る。 すさまじい サイコパワーを もつが 争いは 好まない 気質。
+  evolvesFrom: ゴチミル
+rarity: U
+illustrators:
+  - Eri Yamaki

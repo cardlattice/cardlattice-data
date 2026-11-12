@@ -1,0 +1,39 @@
+name: ルカリオ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: スパイクドロー
+      cost:
+        - Metal
+      damage: "40"
+      text: 自分の山札を1枚引く。
+    - name: ナックルインパクト
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "160"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 448
+  species: はどうポケモン
+  heightMetres: 1.2
+  weightKilograms: 54
+  flavourText: 大岩も 粉々に 砕く 波動と 呼ばれる 力を 操って 獲物を 狩る。
+  evolvesFrom: リオル
+rarity: U
+illustrators:
+  - kodama

@@ -1,0 +1,37 @@
+name: バタフリー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: ちょうのまい
+      cost:
+        - Grass
+      text: 自分の山札から基本エネルギーを1枚選び、このポケモンにつける。そして山札を切る。つけた場合、このポケモンのHPを「40」回復する。
+    - name: かぜおこし
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 12
+  species: ちょうちょポケモン
+  heightMetres: 1.1
+  weightKilograms: 32
+  flavourText: 花の ミツが 大好物。 わずかな 花粉で 花畑の 場所を 探し出すことが できる。
+  evolvesFrom: トランセル
+rarity: U
+illustrators:
+  - sui

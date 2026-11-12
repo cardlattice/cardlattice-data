@@ -1,0 +1,35 @@
+name: ピカチュウ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: しっぽではたく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: でんきショック
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: ねずみポケモン
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: たくさんの ピカチュウを 集め 発電所を 造る 計画が 最近 発表 された。
+illustrators:
+  - Saya Tsuruta

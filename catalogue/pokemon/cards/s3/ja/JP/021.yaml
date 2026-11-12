@@ -1,0 +1,29 @@
+name: バニプッチ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: こおらせる
+      cost:
+        - Water
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 582
+  species: しんせつポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.7
+  flavourText: 暑い 土地では 暮らせない。 冷気を 吐いて 雪を 降らせ 積もった 中に 潜って 眠る。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

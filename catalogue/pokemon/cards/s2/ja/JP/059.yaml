@@ -1,0 +1,36 @@
+name: トロッゴン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: ヒートスタンプ
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 838
+  species: せきたんポケモン
+  heightMetres: 1.1
+  weightKilograms: 78
+  flavourText: 体内で 石炭を つくりだす。 昔の ガラルでは 落とした 石炭を 生活に 利用した。
+  evolvesFrom: タンドン
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

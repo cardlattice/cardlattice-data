@@ -1,0 +1,38 @@
+name: ブーバーン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: バーストパンチ
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをやけどにする。
+    - name: グラウンドバーン
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 80+
+      text: おたがいの山札を上から1枚ずつトラッシュし、その中のエネルギーの枚数×100ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 467
+  species: ばくえんポケモン
+  heightMetres: 1.6
+  weightKilograms: 68
+  flavourText: 火の玉を 撃ちだして 敵を 仕留める。 まっくろコゲに なるので 獲物を とるときには 使わない。
+  evolvesFrom: ブーバー
+rarity: U
+illustrators:
+  - Kazuma Koda

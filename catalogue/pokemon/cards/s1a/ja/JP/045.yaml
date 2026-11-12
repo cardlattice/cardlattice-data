@@ -1,0 +1,38 @@
+name: ガメノデス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: いわとばし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+      text: このワザのダメージは抵抗力を計算しない。
+    - name: ハンドプレス
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 自分の手札の枚数が、相手の手札の枚数より多いなら、80ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 689
+  species: しゅうごうポケモン
+  heightMetres: 1.3
+  weightKilograms: 96
+  flavourText: ７匹の カメテテが １匹分の 体を つくっている。 頭が 手足に 命令する 仕組み。
+  evolvesFrom: カメテテ
+rarity: U
+illustrators:
+  - Anesaki Dynamic

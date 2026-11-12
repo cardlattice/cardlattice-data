@@ -1,0 +1,33 @@
+name: バオップ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひだね
+      cost:
+        - Fire
+      damage: "10"
+    - name: かみつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 513
+  species: こうおんポケモン
+  heightMetres: 0.6
+  weightKilograms: 11
+  flavourText: 火山の 洞穴で 暮らす。 頭の ふさの 中が 燃えていて ３００度の 高温になる。
+rarity: C
+illustrators:
+  - Megumi Higuchi

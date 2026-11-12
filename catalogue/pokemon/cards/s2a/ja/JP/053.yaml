@@ -1,0 +1,37 @@
+name: ボスゴドラ
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: ギガトンスタンプ
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+  abilities:
+    - name: がんじょう
+      text: このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 306
+  species: てつヨロイポケモン
+  heightMetres: 2.1
+  weightKilograms: 360
+  flavourText: 鋼の ツノで 硬い 岩盤を 突き崩しながら 食料の 鉄を 探して トンネルを 掘る。
+  evolvesFrom: コドラ
+rarity: R
+illustrators:
+  - Hasuno

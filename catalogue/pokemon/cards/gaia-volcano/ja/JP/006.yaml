@@ -1,0 +1,35 @@
+name: ジュカイン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: リーフブレード
+      cost:
+        - Grass
+      damage: 30+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+    - name: パワーポイズン
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "120"
+      text: このポケモンについているエネルギーを1個トラッシュし、相手のバトルポケモンをどくにする。
+  abilities:
+    - name: Ω（オメガ）バリア
+      text: このポケモンは、相手が使うトレーナーズの効果を受けない。（ポケモンのどうぐ・スタジアムはのぞく。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ジュプトル
+  flavourText: ジャングルを 身軽に 走り回り 腕に 生えた 切れ味 鋭い 葉っぱで 獲物を しとめるのだ。
+rarity: R
+illustrators:
+  - hatachu

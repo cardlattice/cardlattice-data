@@ -1,0 +1,29 @@
+name: ネマシュ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ねむりのほうし
+      cost:
+        - Grass
+      damage: "10"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 755
+  species: はっこうポケモン
+  heightMetres: 0.2
+  weightKilograms: 1.5
+  flavourText: 光る 胞子を あたりに ばらまく。 危険だが ネマシュの棲む 森への ナイトツアーは 人気が ある。
+rarity: C
+illustrators:
+  - MPC Film

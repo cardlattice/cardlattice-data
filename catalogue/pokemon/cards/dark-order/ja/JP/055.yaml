@@ -1,0 +1,41 @@
+name: ガオガエンGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: クラッシュパンチ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。
+    - name: DDトルネードGX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: このポケモンにのっているダメカンの数×50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: スカーチャージ
+      text: 自分の番に1回使える。このポケモンにダメカンを3個のせる。その後、自分の山札にある{Darkness}エネルギーを3枚まで、このポケモンにつける。そして山札を切る。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  evolvesFrom: ニャヒート
+rarity: SR
+illustrators:
+  - 5ban Graphics

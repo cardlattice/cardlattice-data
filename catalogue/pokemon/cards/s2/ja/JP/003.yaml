@@ -1,0 +1,34 @@
+name: ハスボー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: プチドレイン
+      cost:
+        - Colorless
+      damage: "10"
+      text: このポケモンのHPを「10」回復する。
+    - name: ぶつかる
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 270
+  species: うきくさポケモン
+  heightMetres: 0.5
+  weightKilograms: 2.6
+  flavourText: きれいな 水を 探して 歩く。 長い 時間 水を 飲まないと 頭の 葉っぱが 枯れてしまう。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

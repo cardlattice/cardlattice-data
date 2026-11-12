@@ -1,0 +1,33 @@
+name: カブルモ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ずつき
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 588
+  species: かぶりつきポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.9
+  flavourText: チョボマキと 一緒に いるときに 電気的な 刺激を 受けると 進化する 不思議な ポケモンだ。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

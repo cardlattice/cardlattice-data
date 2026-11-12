@@ -1,0 +1,33 @@
+name: アローラ キュウコン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: オーロラビーム
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: ひかりのけっかい
+      text: このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 38
+  species: きつねポケモン
+  heightMetres: 1.1
+  weightKilograms: 19.9
+  flavourText: 体毛から 氷の粒を 生み 敵に 浴びせかける。 怒らせると 一瞬で 氷漬けに される。
+  evolvesFrom: アローラ ロコン
+illustrators:
+  - Mitsuhiro Arita

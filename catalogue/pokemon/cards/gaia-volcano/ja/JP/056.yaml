@@ -1,0 +1,36 @@
+name: マッスグマ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: みだれひっかき
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: コインを3回投げ、オモテの数×30ダメージ。
+    - name: とびだしアタック
+      cost:
+        - Colorless
+        - Colorless
+      text: 相手のベンチポケモンを1匹選び、30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 264
+  species: とっしんポケモン
+  heightMetres: 0.5
+  weightKilograms: 32.5
+  flavourText: 時速１００キロで 獲物に 襲いかかるが 真っ直ぐにしか 走れないので 失敗も 多い。
+  evolvesFrom: ジグザグマ
+rarity: C
+illustrators:
+  - match

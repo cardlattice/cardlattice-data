@@ -1,0 +1,37 @@
+name: エレブー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: パンチ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: でんきショック
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 125
+  species: でんげきポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: 突然起こる 停電の 半分は エレブーが 発電所に 集まり 電気を 喰い散らかした からだ。
+illustrators:
+  - match

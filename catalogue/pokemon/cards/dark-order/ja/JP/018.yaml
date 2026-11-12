@@ -1,0 +1,32 @@
+name: アローラ ベトベター
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ケミカルブレス
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンが受けている特殊状態の数×50ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 88
+  species: ヘドロポケモン
+  heightMetres: 0.7
+  weightKilograms: 42
+  flavourText: 結晶は 毒素の 塊。 ベトベターの 身体から 落ちると 死に至る 毒素が 漏れだすぞ。
+rarity: C
+illustrators:
+  - SATOSHI NAKAI

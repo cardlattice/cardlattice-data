@@ -1,0 +1,37 @@
+name: ハピナス
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: まんたんタマゴ
+      cost:
+        - Colorless
+      text: 自分のベンチポケモンを1匹選び、HPをすべて回復する。
+    - name: しねんのずつき
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 242
+  species: しあわせポケモン
+  heightMetres: 1.5
+  weightKilograms: 46.8
+  flavourText: 弱った ポケモンを 見つけると 自分の タマゴを 分け与え 治るまで 看病を 続ける。
+  evolvesFrom: ラッキー
+rarity: R
+illustrators:
+  - Teeziro
+stamps:
+  - pokemon-go

@@ -1,0 +1,11 @@
+name: エニシダ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から、「サポーター」または「スタジアム」を合計3枚まで選び出し、相手プレイヤーに見せてから、手札に加える。その後、その山札を切る。
+    - サポーターは、自分の番に1回だけ使うことができる。使ったら、自分のバトル場の横におき、自分の番の終わりにトラッシュする。
+rarity: ◆
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,37 @@
+name: グライオン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: かんせつしばり
+      cost:
+        - Fighting
+      damage: "20"
+      text: 次の相手の番、このワザを受けたポケモンは、手札からエネルギーを出してつけられない。
+    - name: どくづき
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 472
+  species: キバさそりポケモン
+  heightMetres: 2
+  weightKilograms: 42.5
+  flavourText: 尻尾で 木の枝に ぶら下がり 獲物を 観察する。 すきを 見て 上空から 襲いかかる。
+  evolvesFrom: グライガー
+rarity: U
+illustrators:
+  - Naoyo Kimura

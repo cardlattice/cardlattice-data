@@ -1,0 +1,20 @@
+name: オムスターBREAK
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: BREAK
+  attacks: []
+  abilities:
+    - name: あぶないしょくしゅ
+      text: 相手のベンチの「ポケモンEX」を1匹選び、バトルポケモンと入れ替える。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules:
+    - BREAK進化する前のオムスターの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: オムスター
+rarity: RR
+illustrators:
+  - 5ban Graphics

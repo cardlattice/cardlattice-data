@@ -1,0 +1,34 @@
+name: シュシュプ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: あまいかおり
+      cost:
+        - Fairy
+      text: 自分のポケモンを1匹選び、HPを「20」回復する。
+    - name: はねまわる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 682
+  species: こうすいポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.5
+  flavourText: かいだ 者を うっとりさせる 香りを 体から 漂わせる。 食べた もので 香りが 変わる。
+illustrators:
+  - 5ban Graphics

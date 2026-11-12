@@ -1,0 +1,25 @@
+name: ルギアBREAK
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: BREAK
+  attacks:
+    - name: はかいのせんこう
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules:
+    - BREAK進化する前のルギアの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ルギア
+rarity: RR
+illustrators:
+  - 5ban Graphics

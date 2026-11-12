@@ -1,0 +1,30 @@
+name: ラプラスVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  attacks:
+    - name: キョダイポンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: このポケモンについている{Water}エネルギーの数×30ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ラプラスV
+rarity: SSR
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,29 @@
+name: MミュウツーEX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: MEGA
+  attacks:
+    - name: サイキックインフィニティ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: おたがいのバトルポケモンについているエネルギーの数×30ダメージを追加。このワザのダメージは弱点の計算をしない。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ミュウツーEX
+illustrators:
+  - 5ban Graphics

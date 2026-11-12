@@ -1,0 +1,39 @@
+name: コドラ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: はねとばす
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: コインを1回投げオモテなら、30ダメージ追加。
+    - name: つきたおし
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 305
+  species: てつヨロイポケモン
+  heightMetres: 0.9
+  weightKilograms: 120
+  flavourText: 鋼の よろいを 岩に ぶつけた ときに 出る 火花の 大きさで 強さを アピールする 習性。
+  evolvesFrom: ココドラ
+rarity: C
+illustrators:
+  - Mizue

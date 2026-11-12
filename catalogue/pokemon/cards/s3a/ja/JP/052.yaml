@@ -1,0 +1,37 @@
+name: ディアルガ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: クロックバック
+      cost:
+        - Colorless
+      text: 自分のトラッシュから{Metal}エネルギーを2枚まで選び、自分のポケモン1匹につける。
+    - name: はかいのせんこう
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "130"
+      text: このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 483
+  species: じかんポケモン
+  heightMetres: 5.4
+  weightKilograms: 683
+  flavourText: 時間を 操る 力を 持つ。 シンオウ地方では 神様と 呼ばれ 神話に 登場する。
+rarity: R
+illustrators:
+  - Shin Nagasawa

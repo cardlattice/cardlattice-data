@@ -1,0 +1,30 @@
+name: ヨワシ
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ねらいうち
+      cost:
+        - Water
+      text: 相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities:
+    - name: ぎょぐん
+      text: 自分の番に1回使える。自分の手札にある「ヨワシGX」を1枚、このカードと入れ替える（ついているカード・ダメカン・特殊状態・効果などは、すべて引きつぐ）。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 746
+  species: こざかなポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.3
+  flavourText: ピンチになると 目が 潤みだし 輝く。 その光に 群れる 仲間と 敵に 立ち向かうのだ。
+illustrators:
+  - Sanosuke Sakuma

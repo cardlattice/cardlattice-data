@@ -1,0 +1,10 @@
+name: 次元の谷
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいの場の{Psychic}ポケモンが使うワザに必要なエネルギーは、それぞれ{Colorless}エネルギー1個ぶん少なくなる。
+    - スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+illustrators:
+  - Ryo Ueda

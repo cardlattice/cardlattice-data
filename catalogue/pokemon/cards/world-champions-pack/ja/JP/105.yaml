@@ -1,0 +1,8 @@
+name: 基本水エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Water
+rarity: ★

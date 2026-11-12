@@ -1,0 +1,34 @@
+name: ヨマワル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: よみがえり
+      cost:
+        - Colorless
+      text: 相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。
+    - name: そっとのせる
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンにダメカンを1個のせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 355
+  species: おむかえポケモン
+  heightMetres: 0.8
+  weightKilograms: 15
+  flavourText: どこまでも 獲物を 追い続ける。 執念深い 性格だが 朝日が 昇ると あきらめる。
+rarity: C
+illustrators:
+  - match

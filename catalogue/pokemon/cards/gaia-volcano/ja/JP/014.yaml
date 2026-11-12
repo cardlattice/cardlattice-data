@@ -1,0 +1,34 @@
+name: マグマッグ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: くさをもやす
+      cost:
+        - Fire
+      text: 相手のバトルポケモンについている{Grass}エネルギーを1個選び、トラッシュする。
+    - name: ぶつかる
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 218
+  species: ようがんポケモン
+  heightMetres: 0.7
+  weightKilograms: 35
+  flavourText: 溶岩で できた 体を 持つ。 絶えず 動いていないと 体が 冷えて 固まってしまうのだ。
+rarity: C
+illustrators:
+  - Miki Tanaka

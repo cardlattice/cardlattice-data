@@ -1,0 +1,28 @@
+name: プルリル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: あやしいひかり
+      cost:
+        - Water
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 592
+  species: ふゆうポケモン
+  heightMetres: 1.2
+  weightKilograms: 33
+  flavourText: 獲物を 毒で しびれさせて ８０００メートルの 深海に あるという 住処に 連れていく。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

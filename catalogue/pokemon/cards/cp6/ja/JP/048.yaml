@@ -1,0 +1,31 @@
+name: ドガース
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: くさいガス
+      cost:
+        - Psychic
+        - Psychic
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。ウラなら、こんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 109
+  species: どくガスポケモン
+  heightMetres: 0.6
+  weightKilograms: 1
+  flavourText: うすい バルーン状の 体に 猛毒の ガスが つまっている。 ちかくに来ると 臭い。
+  level: 13
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

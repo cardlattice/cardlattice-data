@@ -1,0 +1,9 @@
+name: ヨシダ警部補
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 相手の手札を見る。自分の山札を2枚引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR

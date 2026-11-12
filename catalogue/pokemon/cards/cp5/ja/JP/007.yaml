@@ -1,0 +1,28 @@
+name: ビクティニ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: エネアシスト
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。
+    - name: ビクトリーボール
+      cost:
+        - Fire
+        - Colorless
+      damage: "50"
+      text: このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: ビクティニが 無限に 生み出す エネルギーを 分け与えてもらうと 全身に パワーが あふれ出す。
+illustrators:
+  - Atsuko Nishida

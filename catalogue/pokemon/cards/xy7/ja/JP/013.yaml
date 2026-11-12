@@ -1,0 +1,35 @@
+name: ブースター
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ヒートブレス
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities:
+    - name: フレアエフェクト
+      text: このポケモンがいるかぎり、自分の1進化ポケモン全員は、もとのタイプに加え{Fire}タイプも持つ。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 136
+  species: ほのおポケモン
+  heightMetres: 0.9
+  weightKilograms: 25
+  flavourText: 体内に 炎袋があり 深く 息を 吸いこんだあと １７００度の 火を 吐く。
+  evolvesFrom: イーブイ
+rarity: C
+illustrators:
+  - sui

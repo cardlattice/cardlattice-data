@@ -1,0 +1,33 @@
+name: イオルブ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: ブレインウェーブ
+      cost:
+        - Grass
+        - Colorless
+      damage: 90+
+      text: このポケモンについている{Psychic}エネルギーの数×30ダメージ追加。
+  abilities:
+    - name: バグズレーダー
+      text: 自分の番に1回使える。相手の山札を上から3枚見て、好きな順番に入れ替えて、山札の上にもどす。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 826
+  species: ななほしポケモン
+  heightMetres: 0.4
+  weightKilograms: 40.8
+  flavourText: サイコパワーを 放ち 周囲を 調べている。 観測範囲は 周囲 １０キロにも 達するぞ。
+  evolvesFrom: レドームシ
+illustrators:
+  - Hitoshi Ariga

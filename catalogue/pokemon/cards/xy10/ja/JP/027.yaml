@@ -1,0 +1,31 @@
+name: ミュウ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: エンカウント
+      cost:
+        - Colorless
+      text: 自分の山札からポケモンを1枚選び、相手に見せてから、手札に加える。そして山札を切る。
+  abilities:
+    - name: はじまりのきおく
+      text: このポケモンは、自分の場のたねポケモンが持つワザをすべて使える。［ワザを使うためのエネルギーは必要。］
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 151
+  species: しんしゅポケモン
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: 遺伝子には すべての ポケモンの 情報が 含まれているので あらゆる 技が 使えるという。
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

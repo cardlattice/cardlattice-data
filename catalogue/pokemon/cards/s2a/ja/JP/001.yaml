@@ -1,0 +1,31 @@
+name: バタフリーV
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: フラフラどく
+      cost:
+        - Grass
+      text: 相手のバトルポケモンをどくとこんらんにする。
+    - name: ブラストウインド
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "130"
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+rarity: RR
+illustrators:
+  - Saki Hayashiro

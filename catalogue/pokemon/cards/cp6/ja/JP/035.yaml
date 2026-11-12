@@ -1,0 +1,37 @@
+name: コイル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: でんじは
+      cost:
+        - Lightning
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: じばく
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: このポケモンにも50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 81
+  species: じしゃくポケモン
+  heightMetres: 0.3
+  weightKilograms: 6
+  flavourText: 空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。
+  level: 13
+rarity: C
+illustrators:
+  - Keiji Kinebuchi

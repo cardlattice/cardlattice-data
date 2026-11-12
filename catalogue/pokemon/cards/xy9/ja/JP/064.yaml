@@ -1,0 +1,28 @@
+name: コラッタ
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: きけんさっち
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 19
+  species: ねずみポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.5
+  flavourText: キバは 長くて 鋭い。 一生 伸び続けるので 硬い ものを かじって 削る。
+rarity: C
+illustrators:
+  - match

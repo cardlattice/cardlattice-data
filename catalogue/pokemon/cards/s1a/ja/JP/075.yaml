@@ -1,0 +1,33 @@
+name: サダイジャV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: すなぐらい
+      cost:
+        - Fighting
+      damage: "30"
+      text: 自分のトラッシュから{Fighting}エネルギーを1枚選び、このポケモンにつける。
+    - name: サンドブレス
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "220"
+      text: このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: SR
+illustrators:
+  - aky CG Works

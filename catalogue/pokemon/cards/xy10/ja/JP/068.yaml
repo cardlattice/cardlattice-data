@@ -1,0 +1,11 @@
+name: メガキャッチャー
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 相手のベンチのM進化ポケモンを1匹選び、バトルポケモンと入れ替える。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

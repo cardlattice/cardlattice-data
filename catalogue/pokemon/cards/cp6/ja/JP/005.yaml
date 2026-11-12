@@ -1,0 +1,30 @@
+name: ビードル
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: どくばり
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 13
+  species: けむしポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.2
+  flavourText: 森や 草地に 多く 生息。 頭の 先に ５センチぐらいの 小さく 鋭い 毒バリをもつ。
+  level: 12
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,38 @@
+name: キュレム
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: げきりん
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: このポケモンにのっているダメカンの数×10ダメージを追加。
+    - name: こごえるせかい
+      cost:
+        - Water
+        - Water
+        - Colorless
+      text: 相手のポケモン全員に、それぞれ30ダメージ。［ベンチへのダメージは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 646
+  species: きょうかいポケモン
+  heightMetres: 3
+  weightKilograms: 325
+  flavourText: 強力な 冷凍エネルギーを 体内で 作り出すが 漏れ出した 冷気で 体が 凍っている。
+illustrators:
+  - Midori Harada
+variants:
+  first-edition:
+    edition: first-edition

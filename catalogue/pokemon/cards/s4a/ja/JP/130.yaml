@@ -1,0 +1,38 @@
+name: ニダンギル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: きりさく
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+    - name: ダブルスラッシュ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 80×
+      text: コインを2回投げ、オモテの数×80ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 680
+  species: とうけんポケモン
+  heightMetres: 0.8
+  weightKilograms: 4.5
+  flavourText: 進化して 双子に なった。 刃を 擦り合わせて 鳴らす 金属音で 相手を 威嚇。
+  evolvesFrom: ヒトツキ
+illustrators:
+  - Aya Kusube

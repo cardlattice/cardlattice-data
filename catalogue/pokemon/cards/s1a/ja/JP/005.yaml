@@ -1,0 +1,35 @@
+name: ユキカブリ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: たたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: はっぱカッター
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 459
+  species: じゅひょうポケモン
+  heightMetres: 1
+  weightKilograms: 50.5
+  flavourText: 雪深い 山に暮らす。 雪に 脚を 突き刺して 水分と 冷気を 吸収 するぞ。
+rarity: C
+illustrators:
+  - Shibuzoh.

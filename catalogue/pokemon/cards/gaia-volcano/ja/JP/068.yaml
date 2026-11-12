@@ -1,0 +1,11 @@
+name: 記憶のほこら
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいの場の進化しているポケモンは、進化前に持っていたすべてのワザを使える。（ワザを使うためのエネルギーは必要。）
+    - スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+rarity: U
+illustrators:
+  - Ryo Ueda

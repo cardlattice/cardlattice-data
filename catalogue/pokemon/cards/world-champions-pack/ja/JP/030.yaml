@@ -1,0 +1,24 @@
+name: ピチュー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ともだちをよぶ
+      cost:
+        - Lightning
+      text: 自分の山札から、{Lightning}ポケモン（ポケモンexはのぞく）を1枚選び出し、相手プレイヤーに見せてから、手札に加える。その後、その山札を切る。
+  abilities:
+    - name: ベイビィしんか
+      text: このパワーは、自分の番に1回使うことができる。自分の手札から「ピカチュウ」を1枚選び出し、このポケモンの上にのせ、進化させる。そのとき、このポケモンにのっているダメージカウンターをすべてとりのぞく。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+rarity: ★
+illustrators:
+  - Ken Sugimori

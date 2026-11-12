@@ -1,0 +1,31 @@
+name: キャタピー
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: むしくい
+      cost:
+        - Grass
+      damage: "10"
+  abilities:
+    - name: てきおうしんか
+      text: このポケモンは、最初の自分の番や出したばかりの番でも進化できる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 10
+  species: いもむしポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.9
+  flavourText: 頭の 触覚から 強烈な においを 出して 敵を 追い払い 身を守る。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

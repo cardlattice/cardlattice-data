@@ -1,0 +1,33 @@
+name: ヤドン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ずつき
+      cost:
+        - Colorless
+      damage: "10"
+    - name: すてきなしっぽ
+      cost:
+        - Colorless
+        - Colorless
+      text: 自分の山札からポケモンを1枚選び、相手に見せてから、手札に加える。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 79
+  species: まぬけポケモン
+  heightMetres: 1.2
+  weightKilograms: 36
+  flavourText: 水辺で ボーッとしている。 なにかが 尻尾に かみついても まる１日 気づかない。
+rarity: C
+illustrators:
+  - Akira Komayama

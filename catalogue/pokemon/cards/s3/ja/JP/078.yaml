@@ -1,0 +1,33 @@
+name: エネコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ドローアップ
+      cost:
+        - Colorless
+      text: 自分の山札からエネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: ねこキック
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 300
+  species: こねこポケモン
+  heightMetres: 0.6
+  weightKilograms: 11
+  flavourText: 自分の 尻尾を 追いかけて 遊んでいると 目を 回すといった 可愛らしい 一面を みせる。
+rarity: C
+illustrators:
+  - Saya Tsuruta

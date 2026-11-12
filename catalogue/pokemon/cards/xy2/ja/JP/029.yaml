@@ -1,0 +1,40 @@
+name: レントラー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 2
+  attacks:
+    - name: スナイプファング
+      cost:
+        - Lightning
+        - Colorless
+      damage: "40"
+      text: 相手の手札を見て、その中のトレーナーズを1枚選び、トラッシュする。
+    - name: ワイルドボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "120"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 405
+  species: がんこうポケモン
+  heightMetres: 1.4
+  weightKilograms: 42
+  flavourText: 瞳が 金色に 光るとき 壁の 向こうに 隠れている 獲物を 見つけることが できる。
+  evolvesFrom: ルクシオ
+rarity: U
+illustrators:
+  - Hitoshi Ariga

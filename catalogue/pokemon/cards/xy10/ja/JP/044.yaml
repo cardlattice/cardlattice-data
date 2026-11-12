@@ -1,0 +1,36 @@
+name: バルチャイ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: にらみつける
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: カッターウインド
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 629
+  species: おむつポケモン
+  heightMetres: 0.5
+  weightKilograms: 9
+  flavourText: 翼は 小さく まだ 飛べない。 バルジーナが 集めてきた ガイコツで お尻を 守っている。
+rarity: C
+illustrators:
+  - Midori Harada

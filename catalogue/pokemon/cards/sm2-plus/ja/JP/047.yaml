@@ -1,0 +1,10 @@
+name: アセロラ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - ダメカンがのっている自分のポケモン1匹と、ついているすべてのカードを、手札にもどす。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Ken Sugimori

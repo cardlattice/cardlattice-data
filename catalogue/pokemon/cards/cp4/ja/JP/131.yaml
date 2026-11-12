@@ -1,0 +1,9 @@
+name: ダブル無色エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、{Colorless}エネルギー2個ぶんとしてはたらく。
+illustrators:
+  - 5ban Graphics

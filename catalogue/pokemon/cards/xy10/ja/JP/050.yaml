@@ -1,0 +1,38 @@
+name: ルカリオ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: しんくうは
+      cost:
+        - Metal
+      damage: "50"
+      text: このワザのダメージは弱点・抵抗力の計算をしない。
+    - name: ファイトアローン
+      cost:
+        - Metal
+        - Colorless
+      damage: 30+
+      text: 自分の場のポケモンの数が、相手の場のポケモンの数より少ないなら、その少ない数×60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 448
+  species: はどうポケモン
+  heightMetres: 1.2
+  weightKilograms: 54
+  flavourText: あらゆる ものが 出す 波動を 読みとることで １キロ先に いる 相手の 気持ちも 理解できる。
+  evolvesFrom: リオル
+rarity: R
+illustrators:
+  - Hitoshi Ariga

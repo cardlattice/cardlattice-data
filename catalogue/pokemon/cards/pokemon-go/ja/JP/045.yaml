@@ -1,0 +1,34 @@
+name: メルタン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: でんきショック
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 808
+  species: ナットポケモン
+  heightMetres: 0.2
+  weightKilograms: 8
+  flavourText: とろりと 溶けた 鋼の 体。 地中の 鉄分や 金属を 溶かして 吸収する。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki
+stamps:
+  - pokemon-go

@@ -1,0 +1,10 @@
+name: まんたんのくすり
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のポケモン1匹のHPを、すべて回復する。その後、そのポケモンについているエネルギーを、すべてトラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

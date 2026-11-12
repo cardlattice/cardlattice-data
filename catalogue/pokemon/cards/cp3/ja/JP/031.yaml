@@ -1,0 +1,13 @@
+name: おはなのかんむり
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - 相手の番の終わりに、このカードをつけているたねポケモンのHPを「20」回復する。
+    - グッズは、自分の番に何枚でも使える。
+rarity: C
+illustrators:
+  - Aya Kusube

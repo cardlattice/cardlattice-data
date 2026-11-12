@@ -1,0 +1,36 @@
+name: ドラパルト
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: ゴーストダイブ
+      cost:
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: ダメカン3個を、相手のベンチポケモンに好きなようにのせる。
+  abilities:
+    - name: すりぬけ
+      text: このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  nationalDex:
+    - 887
+  species: ステルスポケモン
+  heightMetres: 3
+  weightKilograms: 50
+  flavourText: ツノの 穴に ドラメシヤを 入れて 暮らす。 戦いになると マッハの スピードで ドラメシヤを 飛ばす。
+  evolvesFrom: ドロンチ
+rarity: S
+illustrators:
+  - Naoki Saito

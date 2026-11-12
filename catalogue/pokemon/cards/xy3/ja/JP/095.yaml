@@ -1,0 +1,14 @@
+name: ハーブエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Grass}ポケモンにしかつけられず、ついているかぎり{Grass}エネルギー1個ぶんとしてはたらく。
+      このカードを手札から{Grass}ポケモンにつけたとき、そのポケモンのHPを「30」回復する。
+      （このカードが{Grass}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Grass
+rarity: U
+illustrators:
+  - 5ban Graphics

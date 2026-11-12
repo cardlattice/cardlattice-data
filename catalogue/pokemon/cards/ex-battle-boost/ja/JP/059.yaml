@@ -1,0 +1,31 @@
+name: ダブラン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ころがる
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 578
+  species: ぶんかつポケモン
+  heightMetres: 0.6
+  weightKilograms: 8
+  flavourText: ２つに 分裂した 脳みそを 持っているため いきなり 違う 行動を とることが あるのだ。
+  evolvesFrom: ユニラン
+illustrators:
+  - Suwama Chiaki
+variants:
+  first-edition:
+    edition: first-edition

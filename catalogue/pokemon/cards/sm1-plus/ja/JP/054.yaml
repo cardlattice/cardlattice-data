@@ -1,0 +1,41 @@
+name: アシレーヌGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: バブルビート
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 自分の場のポケモンについている{Water}エネルギーの数×20ダメージ追加。
+    - name: うみなり
+      cost:
+        - Water
+        - Water
+        - Water
+        - Colorless
+      damage: "120"
+      text: 相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+    - name: グランエコーGX
+      cost:
+        - Colorless
+        - Colorless
+      text: 自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: オシャマリ
+rarity: SR
+illustrators:
+  - 5ban Graphics

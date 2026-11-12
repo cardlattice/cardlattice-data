@@ -1,0 +1,11 @@
+name: リーリエ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Naoki Saito

@@ -1,0 +1,36 @@
+name: ガラル デスバーン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: うらみをばらまく
+      cost:
+        - Colorless
+        - Colorless
+      text: この「ガラル デスバーン」にのっているダメカンの数×2個ぶんのダメカンを、相手のポケモンに好きなようにのせる。
+    - name: マッドハンマー
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 867
+  species: おんねんポケモン
+  heightMetres: 1.6
+  weightKilograms: 66.6
+  flavourText: 強い 呪いを こめて 描かれた 古代の 絵が デスマスの 魂を 取り込み 動きだした。
+  evolvesFrom: ガラル デスマス
+illustrators:
+  - TOKIYA

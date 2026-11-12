@@ -1,0 +1,29 @@
+name: ワニノコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みだれうち
+      cost:
+        - Water
+      damage: 10×
+      text: コインを3回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 158
+  species: おおあごポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.5
+  flavourText: 小さいながらも 暴れん坊。 目の前で 動くものが あれば とにかく かみついてくる。
+rarity: C
+illustrators:
+  - Kagemaru Himeno

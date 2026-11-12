@@ -1,0 +1,35 @@
+name: ブーピッグ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ヘッドウォーキング
+      cost:
+        - Psychic
+      text: 相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。その後、そのポケモンにダメカンを3個のせる。
+    - name: なぐりとばす
+      cost:
+        - Psychic
+        - Psychic
+      damage: "50"
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 326
+  species: あやつりポケモン
+  heightMetres: 0.9
+  weightKilograms: 71.5
+  flavourText: 黒真珠で サイコパワーを 増幅させる。 不思議な ステップで 相手の 心を 操る。
+  evolvesFrom: バネブー
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

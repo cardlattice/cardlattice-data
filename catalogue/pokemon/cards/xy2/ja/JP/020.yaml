@@ -1,0 +1,36 @@
+name: トドグラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ねむる
+      cost:
+        - Colorless
+        - Colorless
+      text: このポケモンをねむりにする。このポケモンのHPを「60」回復する。
+    - name: アイスボール
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 364
+  species: たままわしポケモン
+  heightMetres: 1.1
+  weightKilograms: 87.6
+  flavourText: 鼻の 神経が 敏感。 はじめて 目に する 物は 鼻で 触って 覚えるのだ。
+  evolvesFrom: タマザラシ
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

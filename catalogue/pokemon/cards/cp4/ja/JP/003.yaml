@@ -1,0 +1,35 @@
+name: カイロス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: うしろなげ
+      cost:
+        - Grass
+      damage: "30"
+      text: 自分のベンチポケモンを1匹選び、そのポケモンにも20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: ヘビースープレックス
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: 相手のバトルポケモンのにげるために必要なエネルギーの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 127
+  species: くわがたポケモン
+  heightMetres: 1.5
+  weightKilograms: 55
+  flavourText: 長い ツノを 振り回して 攻撃してくる。 寒いときは 森の 奥に 姿を 隠す。
+illustrators:
+  - Satoshi Shirai

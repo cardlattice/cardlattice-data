@@ -1,0 +1,35 @@
+name: ヌメルゴン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: ヘビーホイップ
+      cost:
+        - Water
+        - Fairy
+        - Colorless
+      damage: 80+
+      text: コインを1回投げオモテなら、40ダメージを追加。
+  abilities:
+    - name: ぬめぬめさいせい
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。その後、このポケモンのHPを「60」回復する。この特性は、自分の番に何回でも使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 706
+  species: ドラゴンポケモン
+  heightMetres: 2
+  weightKilograms: 150.5
+  flavourText: 人懐っこい ドラゴンポケモン。 大好きな トレーナーに 抱き着いて 粘液で ヌルヌルにしてしまう。
+  evolvesFrom: ヌメイル
+rarity: R
+illustrators:
+  - 5ban Graphics

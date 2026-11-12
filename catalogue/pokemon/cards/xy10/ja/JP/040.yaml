@@ -1,0 +1,35 @@
+name: ジガルデ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: けいかい
+      cost:
+        - Fighting
+      text: 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。
+    - name: オーラブレイク
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 次の相手の番、このワザを受けた{Darkness}または{Fairy}ポケモンは、ワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 718
+  species: ちつじょポケモン
+  heightMetres: 1.2
+  weightKilograms: 33.5
+  flavourText: 洞窟の 奥深くで 暮らし 生態系を 破壊する者を 監視していると 言われている。
+rarity: U
+illustrators:
+  - 5ban Graphics

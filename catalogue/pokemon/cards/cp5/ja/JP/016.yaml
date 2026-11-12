@@ -1,0 +1,34 @@
+name: ミュウ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: よみとる
+      cost:
+        - Colorless
+      text: 相手の手札を見る。
+    - name: サイコキネシス
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: 相手のバトルポケモンについているエネルギーの数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 151
+  species: しんしゅポケモン
+  heightMetres: 0.4
+  weightKilograms: 4
+  flavourText: 遺伝子には すべての ポケモンの 情報が 含まれているので あらゆる 技が 使えるという。
+illustrators:
+  - Saya Tsuruta

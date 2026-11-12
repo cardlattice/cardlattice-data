@@ -1,0 +1,33 @@
+name: MサーナイトEX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fairy
+  stage: MEGA
+  attacks:
+    - name: ブリリアントアロー
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 自分の場のポケモンについている{Fairy}エネルギーの合計×30ダメージ。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  evolvesFrom: サーナイトEX
+rarity: RR
+illustrators:
+  - Megumi Mizutani

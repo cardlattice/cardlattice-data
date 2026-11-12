@@ -1,0 +1,31 @@
+name: プラスル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: タッグブースト
+      cost:
+        - Lightning
+      damage: 10+
+      text: 自分のベンチに「マイナン」がいるなら、50ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 311
+  species: おうえんポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.2
+  flavourText: 火花の ボンボンを 作って 仲間を 応援する。 電柱から 電気を 吸い取る。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

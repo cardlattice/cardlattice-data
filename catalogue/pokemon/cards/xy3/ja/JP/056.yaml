@@ -1,0 +1,35 @@
+name: ランドロス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ちからのさけび
+      cost:
+        - Fighting
+      damage: "20"
+      text: 自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。
+    - name: スカイラリアット
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 645
+  species: ほうじょうポケモン
+  heightMetres: 1.5
+  weightKilograms: 68
+  flavourText: ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。
+rarity: R
+illustrators:
+  - PLANETA

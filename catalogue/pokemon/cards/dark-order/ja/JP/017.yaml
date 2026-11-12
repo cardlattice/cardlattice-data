@@ -1,0 +1,30 @@
+name: ヤンチャム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: つっぱり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: コインを1回投げウラなら、このワザは失敗。オモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 674
+  species: やんちゃポケモン
+  heightMetres: 0.6
+  weightKilograms: 8
+  flavourText: 咥えている 葉っぱに 意味は なく ただの かっこつけ。 やんちゃなので 素人トレーナーには 向かない。
+rarity: C
+illustrators:
+  - Yuka Morii

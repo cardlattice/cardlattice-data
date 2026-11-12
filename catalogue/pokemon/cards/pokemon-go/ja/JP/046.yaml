@@ -1,0 +1,41 @@
+name: メルメタル
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: ずつき
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+    - name: スイングスマッシュ
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: コインを2回投げ、オモテの数×90ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  nationalDex:
+    - 809
+  species: ナットポケモン
+  heightMetres: 2.5
+  weightKilograms: 800
+  flavourText: 鉄を 産み出す 力を 持つと 崇められていた。 ３０００年の 時を 経て なぜか 蘇った。
+  evolvesFrom: メルタン
+rarity: R
+illustrators:
+  - Shigenori Negishi
+stamps:
+  - pokemon-go

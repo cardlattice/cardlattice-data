@@ -1,0 +1,32 @@
+name: マルマイン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: スピードスター
+      cost:
+        - Lightning
+      damage: "60"
+      text: このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 101
+  species: ボールポケモン
+  heightMetres: 1.2
+  weightKilograms: 66.6
+  flavourText: 少しの 刺激に 反応して 爆発する。 バクダンボールという あだ名で 怖がられている。
+  evolvesFrom: ビリリダマ
+rarity: U
+illustrators:
+  - Kyoko Umemoto

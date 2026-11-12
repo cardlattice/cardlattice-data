@@ -1,0 +1,10 @@
+name: すごいきずぐすり
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のポケモンを1匹選び、HPを「120」回復する。その後、そのポケモンについているエネルギーを2個選び、トラッシュする。（エネルギーが2個ついていないポケモンには使えない。）
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Ryo Ueda

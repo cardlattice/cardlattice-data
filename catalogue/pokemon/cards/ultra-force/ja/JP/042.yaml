@@ -1,0 +1,12 @@
+name: 鋼鉄のフライパン
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけている{Metal}ポケモンは、相手のポケモンから受けるワザのダメージが「-30」され、弱点もなくなる。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

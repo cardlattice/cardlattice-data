@@ -1,0 +1,35 @@
+name: ダダリン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ひっかける
+      cost:
+        - Colorless
+      damage: "20"
+    - name: スペシャルアンカー
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: このポケモンに特殊エネルギーがついているなら、60ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 781
+  species: もくずポケモン
+  heightMetres: 3.9
+  weightKilograms: 210
+  flavourText: 海底を 漂う 藻屑が 沈没船の 部品を 取りこんで ゴーストポケモンに 生まれ変わった。
+rarity: C
+illustrators:
+  - Masakazu Fukuda

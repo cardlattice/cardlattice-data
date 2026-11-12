@@ -1,0 +1,36 @@
+name: エアームドex
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ふきとばし
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 相手を相手のベンチポケモンと入れ替える。入れ替えるベンチポケモンは相手プレイヤーが選ぶ。
+    - name: するどいはね
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: メタルグラビティー
+      text: 残りHPが「40」以上の相手のバトルポケモンがにげるとき、相手プレイヤーは、そのポケモンにダメージカウンターを3個のせなければ、にげるができない。すでに自分の別のポケモンの「メタルグラビティー」がはたらいているなら、このボディーははたらかない。
+      kind: Poké-Body
+  rules:
+    - ポケモンexがきぜつしたとき、相手プレイヤーはサイドを2枚とります。
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 1
+  subtypes:
+    - ex
+rarity: ★ (silver)
+illustrators:
+  - Ryo Ueda

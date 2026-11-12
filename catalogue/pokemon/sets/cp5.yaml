@@ -1,0 +1,13 @@
+name: 幻・伝説ドリームキラコレクション
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: CP5
+printedDenominator: 36
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition
+language: ja
+region: JP
+releaseDate: 2016-07-16

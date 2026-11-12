@@ -1,0 +1,35 @@
+name: ノズパス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: かたまる
+      cost:
+        - Colorless
+        - Colorless
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-40」される。
+    - name: ぶつかる
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 299
+  species: コンパスポケモン
+  heightMetres: 1
+  weightKilograms: 97
+  flavourText: 磁石の 鼻は いつも 北を 向いている。 旅人は ノズパスを 見て 方角を 確かめる。
+rarity: C
+illustrators:
+  - Satoshi Shirai

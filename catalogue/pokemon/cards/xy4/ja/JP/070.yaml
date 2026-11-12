@@ -1,0 +1,36 @@
+name: キリンリキ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: サイコバイト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンに{Psychic}エネルギーがついているなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 203
+  species: くびながポケモン
+  heightMetres: 1.5
+  weightKilograms: 41.5
+  flavourText: 眠っている あいだ 尻尾の 頭が あたりを 見張っている。 尻尾は 眠らなくても 平気。
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

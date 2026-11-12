@@ -1,0 +1,32 @@
+name: コラッタ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: かみつく
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: いたずらまえば
+      text: この特性は、このカードを手札からベンチに出したとき、1回使える。相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 19
+  species: ねずみポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.5
+  flavourText: キバは 長くて鋭い。 一生 のびつづけるので 固いモノを かじって けずる。
+  level: 9
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

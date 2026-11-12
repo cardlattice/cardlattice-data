@@ -1,0 +1,37 @@
+name: プテラ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  attacks:
+    - name: かみつく
+      cost:
+        - Colorless
+      damage: "30"
+    - name: ジェットドラフト
+      cost:
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules:
+    - ひみつのコハク プテラの効果でベンチに出す
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 142
+  species: かせきポケモン
+  heightMetres: 1.8
+  weightKilograms: 59
+  flavourText: 甲高い 声で 叫びながら 古代の 大空を 飛んでいたとされる どうもうな ポケモン。
+  stage: Restored
+rarity: U
+illustrators:
+  - kawayoo

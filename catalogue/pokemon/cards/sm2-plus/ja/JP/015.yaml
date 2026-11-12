@@ -1,0 +1,35 @@
+name: ホエルコ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: はねる
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+    - name: なみのり
+      cost:
+        - Water
+        - Water
+        - Water
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 320
+  species: たまくじらポケモン
+  heightMetres: 2
+  weightKilograms: 130
+  flavourText: 人を 驚かせるのが 好き。 海水を 飲み込んで ボールの ように ふくらみ 弾んで 遊ぶ。
+illustrators:
+  - Miki Tanaka

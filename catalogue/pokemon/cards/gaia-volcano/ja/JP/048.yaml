@@ -1,0 +1,39 @@
+name: ドリュウズ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: ドリルライナー
+      cost:
+        - Metal
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: ストレートクロー
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: のぞむなら、このポケモンについているエネルギーを1個選び、トラッシュしてよい。その場合、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 530
+  species: ちていポケモン
+  heightMetres: 0.7
+  weightKilograms: 40.4
+  flavourText: 地下 １００メートルに 迷路の ような 巣穴を 作る。 地下鉄の トンネルに 穴を 開けてしまう。
+  evolvesFrom: モグリュー
+rarity: U
+illustrators:
+  - Shin Nagasawa

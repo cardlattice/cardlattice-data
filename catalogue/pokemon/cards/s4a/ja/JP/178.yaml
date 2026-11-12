@@ -1,0 +1,10 @@
+name: ローズ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分のトラッシュから基本エネルギーを2枚まで選び、自分の「ポケモンVMAX」1匹につける。その後、自分の手札をすべてトラッシュする。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Yusuke Ohmura

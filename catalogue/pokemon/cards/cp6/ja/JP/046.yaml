@@ -1,0 +1,38 @@
+name: ゴースト
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: さいみんじゅつ
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンをねむりにする。
+    - name: ゆめくい
+      cost:
+        - Psychic
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンがねむりでないなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 93
+  species: ガスじょうポケモン
+  heightMetres: 1.6
+  weightKilograms: 0.1
+  flavourText: 暗闇で 誰もいないのに 見られているような 気がしたら そこに ゴーストが いるのだ。
+  evolvesFrom: ゴース
+  level: 22
+rarity: U
+illustrators:
+  - Keiji Kinebuchi

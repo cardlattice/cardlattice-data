@@ -1,0 +1,41 @@
+name: フォレトス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: とっしん
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンにも30ダメージ。
+    - name: あいうちボンバー
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      text: おたがいのバトルポケモンをきぜつさせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 205
+  species: みのむしポケモン
+  heightMetres: 1.2
+  weightKilograms: 125.8
+  flavourText: 獲物を 呑み込む 一瞬だけ カラの 中身が 現れるが その 姿を 見た者は まだいない。
+  evolvesFrom: クヌギダマ
+rarity: U
+illustrators:
+  - Atsuko Nishida

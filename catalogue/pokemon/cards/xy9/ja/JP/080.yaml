@@ -1,0 +1,14 @@
+name: スプラッシュエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Water}ポケモンにしかつけられず、ついているかぎり{Water}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Water}ポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、トラッシュせずに手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）
+      （このカードが{Water}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Water
+rarity: U
+illustrators:
+  - 5ban Graphics

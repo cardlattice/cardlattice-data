@@ -1,0 +1,33 @@
+name: ウルガモス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ヒートブラスト
+      cost:
+        - Fire
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: あついせんぷう
+      text: 自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 637
+  species: たいようポケモン
+  heightMetres: 1.6
+  weightKilograms: 46
+  flavourText: 戦いになると ６枚の 羽から 火の粉の りんぷんを まき散らして あたり 一面を 火の海にする。
+  evolvesFrom: メラルバ
+rarity: U
+illustrators:
+  - nagimiso

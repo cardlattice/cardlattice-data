@@ -1,0 +1,31 @@
+name: ワンリキー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ダブルチョップ
+      cost:
+        - Fighting
+        - Fighting
+      damage: 20×
+      text: コインを2回投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 66
+  species: かいりきポケモン
+  heightMetres: 0.8
+  weightKilograms: 19.5
+  flavourText: 全身が 筋肉に なっており 子供ほどの 大きさしかないのに 大人 １００人を 投げ飛ばせる。
+  level: 20
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

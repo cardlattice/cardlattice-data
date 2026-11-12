@@ -1,0 +1,37 @@
+name: グランブル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: くらいつく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: とびだしヘッド
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "130"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 210
+  species: ようせいポケモン
+  heightMetres: 1.4
+  weightKilograms: 48.7
+  flavourText: 若い 女性に 大人気だが 臆病な上に 繊細なので 番犬 としては 無能だ。
+  evolvesFrom: ブルー
+rarity: U
+illustrators:
+  - SATOSHI NAKAI

@@ -1,0 +1,40 @@
+name: カバルドン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: レジストデザート
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 次の相手の番、このポケモンは「ポケモンEX」からワザのダメージや効果を受けない。
+    - name: すてみタックル
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 450
+  species: じゅうりょうポケモン
+  heightMetres: 2
+  weightKilograms: 300
+  flavourText: 体内に ためた 砂を 体の 穴から 噴き上げて 巨大な 竜巻を 作り 攻撃する。
+  evolvesFrom: ヒポポタス
+rarity: R
+illustrators:
+  - Naoyo Kimura

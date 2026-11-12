@@ -1,0 +1,12 @@
+name: デンジャラスドリル
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - このカードは、自分の手札にある{Darkness}ポケモンを1枚トラッシュしなければ使えない。
+      相手の場のポケモンについている「ポケモンのどうぐ」「特殊エネルギー」と場に出ている「スタジアム」の中から、1枚トラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

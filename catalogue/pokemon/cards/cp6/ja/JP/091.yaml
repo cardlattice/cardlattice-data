@@ -1,0 +1,33 @@
+name: MリザードンEX
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fire
+  stage: MEGA
+  attacks:
+    - name: グレンダイブ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: このポケモンにも50ダメージ。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: リザードンEX
+rarity: SR
+illustrators:
+  - 5ban Graphics

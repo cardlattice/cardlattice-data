@@ -1,0 +1,36 @@
+name: アブソル
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: シャドーシーカー
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。
+  abilities:
+    - name: あくのはき
+      text: このポケモンがいるかぎり、相手のバトル場のたねポケモンのにげるためのエネルギーは、1個ぶん多くなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 359
+  species: わざわいポケモン
+  heightMetres: 1.2
+  weightKilograms: 47
+  flavourText: 災いを もたらすと いわれるが 実際には おだやかな 性質。 災害の 危機を 人に 伝える。
+rarity: R
+illustrators:
+  - nagimiso

@@ -1,0 +1,33 @@
+name: クルミル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ひとやすみ
+      cost:
+        - Grass
+      text: このポケモンのHPを「20」回復する。
+    - name: むしくい
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 540
+  species: さいほうポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.5
+  flavourText: 葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。
+rarity: C
+illustrators:
+  - kawayoo

@@ -1,0 +1,34 @@
+name: アブソル
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: みらいよち
+      cost:
+        - Darkness
+      text: 自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: はめつのしらせ
+      cost:
+        - Darkness
+        - Colorless
+      text: このポケモンについているエネルギーを、すべて手札にもどす。次の相手の番の終わりに、このワザを受けたポケモンはきぜつする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 359
+  species: わざわいポケモン
+  heightMetres: 1.2
+  weightKilograms: 47
+  flavourText: 迷信が はびこる 昔 災いを もたらすと 忌み嫌われ 山の 奥へと 追いやられた。
+illustrators:
+  - Anesaki Dynamic

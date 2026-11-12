@@ -1,0 +1,20 @@
+name: ゲッコウガBREAK
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: BREAK
+  attacks: []
+  abilities:
+    - name: きょだいみずしゅりけん
+      text: 自分の手札から{Water}エネルギーを1枚選び、トラッシュする。その後、相手のポケモンを1匹選び、ダメカンを6個のせる。この特性は、このポケモンがバトル場にいるなら、自分の番に1回使える。
+      kind: Ability
+  rules:
+    - BREAK進化する前のゲッコウガの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ゲッコウガ
+rarity: RR
+illustrators:
+  - 5ban Graphics

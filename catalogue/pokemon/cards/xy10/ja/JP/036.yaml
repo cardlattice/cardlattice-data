@@ -1,0 +1,30 @@
+name: サナギラス
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: あばれる
+      cost:
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加。ウラなら、このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 247
+  species: だんがんポケモン
+  heightMetres: 1.2
+  weightKilograms: 152
+  flavourText: 岩盤のような 硬い 殻に 覆われているが 力は 強く 暴れると 山も 崩れてしまう。
+  evolvesFrom: ヨーギラス
+rarity: C
+illustrators:
+  - match

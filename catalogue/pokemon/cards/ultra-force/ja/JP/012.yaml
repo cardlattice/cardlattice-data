@@ -1,0 +1,35 @@
+name: オニシズクモ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: あわ
+      cost:
+        - Water
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: バブルトラップ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: 前の自分の番、自分のポケモンが「あわ」を使っていたなら、80ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 752
+  species: すいほうポケモン
+  heightMetres: 1.8
+  weightKilograms: 82
+  flavourText: 見かけに よらず 面倒見が いい。 弱く 小さな 仲間を 見つけると 水泡の 中に 入れて 守る。
+  evolvesFrom: シズクモ
+illustrators:
+  - kodama

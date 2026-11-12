@@ -1,0 +1,14 @@
+name: ストロングエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Fighting}ポケモンにしかつけられず、ついているかぎり{Fighting}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Fighting}ポケモンが使うワザの、相手のバトルポケモンへのダメージは、「+20」される。
+      （このカードが{Fighting}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Fighting
+rarity: U
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,27 @@
+name: ヤルキモノ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: おそいかかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加する。
+  abilities:
+    - name: はんげき
+      text: このポケモンが、バトル場で相手のワザによるダメージを受けたとき（このポケモンがきぜつしても）、そのワザを使ったポケモンにダメージカウンターを1個のせる。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ナマケロ
+rarity: ◆
+illustrators:
+  - Hajime Kusajima

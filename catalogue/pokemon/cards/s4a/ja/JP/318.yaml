@@ -1,0 +1,36 @@
+name: ドラパルトVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Psychic
+  stage: VMAX
+  attacks:
+    - name: ひきさく
+      cost:
+        - Psychic
+      damage: "60"
+      text: このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。
+    - name: ダイファントム
+      cost:
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: ダメカン5個を、相手のベンチポケモンに好きなようにのせる。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  evolvesFrom: ドラパルトV
+rarity: SSR
+illustrators:
+  - aky CG Works

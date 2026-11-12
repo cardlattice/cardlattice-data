@@ -1,0 +1,37 @@
+name: ダイオウドウV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: こんごうプレス
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: たたきつぶす
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Colorless
+      damage: "180"
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+rarity: SR
+illustrators:
+  - 5ban Graphics

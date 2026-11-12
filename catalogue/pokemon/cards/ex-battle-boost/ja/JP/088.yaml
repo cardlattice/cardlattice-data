@@ -1,0 +1,35 @@
+name: チラーミィ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。
+    - name: しっぽでたたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 572
+  species: チンチラポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  flavourText: きれい好きな 性格の ポケモン。 しっぽを ほうき代わりに いつも 住処の ほこりを 払っている。
+illustrators:
+  - Midori Harada
+variants:
+  first-edition:
+    edition: first-edition

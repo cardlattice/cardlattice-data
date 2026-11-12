@@ -1,0 +1,32 @@
+name: アチャモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。
+    - name: ひだね
+      cost:
+        - Fire
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 255
+  species: ひよこポケモン
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  flavourText: 体内で 炎が 燃えているので 抱きしめると とても 温かい。 １０００度の 火の玉を 飛ばす。
+rarity: C
+illustrators:
+  - Yuka Morii

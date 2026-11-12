@@ -1,0 +1,11 @@
+name: ロケット団の工作
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - コインを2回投げ、オモテの数×2枚ぶん、相手の山札を上からトラッシュする。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Hitoshi Ariga

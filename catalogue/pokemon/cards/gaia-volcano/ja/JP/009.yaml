@@ -1,0 +1,35 @@
+name: バルビート
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: アクロバット
+      cost:
+        - Grass
+      damage: 10+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+    - name: ついげき
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンが特殊状態なら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 313
+  species: ほたるポケモン
+  heightMetres: 0.7
+  weightKilograms: 17.7
+  flavourText: 水の きれいな 池に 生息。 夜に なると お尻が 光り 点滅させて 仲間と 会話。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

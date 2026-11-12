@@ -1,0 +1,32 @@
+name: サメハダー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: にらんでかみつく
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手をマヒにする。
+    - name: ダークチャージ
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 自分にダメージカウンターを1個のせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Psychic
+  retreatCost: 0
+  evolvesFrom: キバニア
+rarity: ◆
+illustrators:
+  - Midori Harada

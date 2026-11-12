@@ -1,0 +1,30 @@
+name: ミミッキュ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: くすねる
+      cost:
+        - Colorless
+      text: 自分の山札を2枚引く。
+    - name: まねっこ
+      cost:
+        - Psychic
+        - Colorless
+      text: 前の相手の番に、相手のポケモンがワザ(GXワザをのぞく)を使っていたなら、そのワザをこのワザとして使う。
+  abilities: []
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 778
+  species: ばけのかわポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.7
+  flavourText: 正体不明。 ボロ布の 中身を みた とある 学者は 恐怖の あまり ショック死した。
+illustrators:
+  - Megumi Mizutani

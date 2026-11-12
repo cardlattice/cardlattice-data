@@ -1,0 +1,38 @@
+name: バクオング
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: おそいかかる
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: コインを1回投げオモテなら、40ダメージを追加。
+    - name: だいそうおん
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 次の相手の番の終わりに、このワザを受けたポケモンと、ついているカードをすべてトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 295
+  species: そうおんポケモン
+  heightMetres: 1.5
+  weightKilograms: 84
+  flavourText: 戦いのときに 出す うなり声は まるで 地震の ように 地面を グラグラと 揺らす。
+  evolvesFrom: ドゴーム
+rarity: U
+illustrators:
+  - Masakazu Fukuda

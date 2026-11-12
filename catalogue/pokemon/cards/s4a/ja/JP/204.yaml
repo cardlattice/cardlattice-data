@@ -1,0 +1,32 @@
+name: バチンキー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: えだづき
+      cost:
+        - Grass
+      damage: "20"
+  abilities:
+    - name: とちかん
+      text: 場に自分のスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 811
+  species: ビートポケモン
+  heightMetres: 0.7
+  weightKilograms: 14
+  flavourText: ２本の スティックで 激しい ビートを 刻める バチンキーほど 仲間たちの 尊敬を 集める。
+  evolvesFrom: サルノリ
+rarity: S
+illustrators:
+  - tetsuya koizumi

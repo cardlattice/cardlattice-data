@@ -1,0 +1,39 @@
+name: ダイノーズ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: トリプルスマッシュ
+      cost:
+        - Metal
+      damage: 30×
+      text: コインを3回投げ、オモテの数×30ダメージ。
+    - name: きょうかノーズ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 50+
+      text: このポケモンに「ポケモンのどうぐ」がついているなら、50ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 476
+  species: コンパスポケモン
+  heightMetres: 1.4
+  weightKilograms: 340
+  flavourText: チビノーズと 呼ばれる 小さな ３つの ユニットを 磁力で 自由自在に 操っている。
+  evolvesFrom: ノズパス
+rarity: U
+illustrators:
+  - TOKIYA

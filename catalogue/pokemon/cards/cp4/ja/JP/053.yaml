@@ -1,0 +1,30 @@
+name: アンノーン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: めざめるパワー
+      cost:
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: おきてがみ
+      text: この特性は、自分の番に1回、このポケモンがベンチにいるなら使えて、使ったなら、このポケモンと、ついているカードをすべてトラッシュする（きぜつにはならない）。自分の山札を1枚引く。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 201
+  species: シンボルポケモン
+  heightMetres: 0.5
+  weightKilograms: 5
+  flavourText: 古代文明の 文字に 似ている。 文字が 先か アンノーンが 先か 世界の 七不思議の ひとつ。
+illustrators:
+  - Akira Komayama

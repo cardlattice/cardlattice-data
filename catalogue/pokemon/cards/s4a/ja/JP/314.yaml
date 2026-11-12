@@ -1,0 +1,33 @@
+name: ストリンダーV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: どくづき
+      cost:
+        - Lightning
+      damage: "20"
+      text: 相手のバトルポケモンをどくにする。
+    - name: エレキライオット
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 90+
+      text: 相手のバトルポケモンがどくなら、90ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SSR
+illustrators:
+  - 5ban Graphics

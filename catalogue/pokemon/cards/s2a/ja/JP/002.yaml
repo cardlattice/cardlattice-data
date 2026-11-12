@@ -1,0 +1,30 @@
+name: バタフリーVMAX
+pokemon:
+  category: pokemon
+  hp: 300
+  types:
+    - Grass
+  stage: VMAX
+  attacks:
+    - name: キョダイドクカゼ
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "150"
+      text: 相手のバトルポケモンをどくとこんらんにする。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  evolvesFrom: バタフリーV
+rarity: RRR
+illustrators:
+  - aky CG Works

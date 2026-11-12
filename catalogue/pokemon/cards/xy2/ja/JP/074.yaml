@@ -1,0 +1,11 @@
+name: びっくりメガホン
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 相手の場のポケモンについている「ポケモンのどうぐ」をすべてトラッシュする。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

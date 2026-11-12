@@ -1,0 +1,36 @@
+name: ビーダル
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ぶちかます
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: あんしんダム
+      text: このポケモンがベンチにいるかぎり、自分の山札は、相手のワザ・特性・グッズ・サポートによる、山札をトラッシュするカードの効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 400
+  species: ビーバーポケモン
+  heightMetres: 1
+  weightKilograms: 31.5
+  flavourText: 川を 木の幹や 泥の ダムで せき止めて 住処を 作る。 働き者として 知られている。
+  evolvesFrom: ビッパ
+rarity: C
+illustrators:
+  - KIYOTAKA OSHIYAMA
+stamps:
+  - pokemon-go

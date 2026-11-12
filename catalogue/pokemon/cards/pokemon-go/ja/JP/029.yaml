@@ -1,0 +1,35 @@
+name: サンダー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ライトニングボール
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "110"
+  abilities:
+    - name: エレキシンボル
+      text: このポケモンがいるかぎり、自分の{Lightning}タイプのたねポケモン（「サンダー」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+10」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 145
+  species: でんげきポケモン
+  heightMetres: 1.6
+  weightKilograms: 52.6
+  flavourText: 電気を 自在に 操る。 真っ黒な 雷雲の 中に 巣があると 言い伝えられている。
+rarity: R
+illustrators:
+  - Yuya Oka
+stamps:
+  - pokemon-go

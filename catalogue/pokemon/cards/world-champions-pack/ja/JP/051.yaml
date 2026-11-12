@@ -1,0 +1,27 @@
+name: アノプス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: れんぞくぎり
+      cost:
+        - Fighting
+        - Colorless
+      damage: 10+
+      text: コインを3回投げる。オモテが1回なら、10ダメージを追加する。オモテが2回なら、30ダメージを追加する。すべてオモテなら、50ダメージを追加する。
+  abilities:
+    - name: かたいこうら
+      text: このポケモンがワザによって受けるダメージは、「-10」される。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ツメの化石
+rarity: ◆
+illustrators:
+  - Midori Harada

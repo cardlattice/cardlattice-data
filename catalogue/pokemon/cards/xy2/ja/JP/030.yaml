@@ -1,0 +1,34 @@
+name: ジバコイルEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: エレキボール
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+    - name: デュアルバレット
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      text: 相手のポケモンを2匹選び、それぞれに50ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - Eske Yoshinob

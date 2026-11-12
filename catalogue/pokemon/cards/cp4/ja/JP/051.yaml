@@ -1,0 +1,31 @@
+name: MミュウツーEX
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Psychic
+  stage: MEGA
+  attacks:
+    - name: バニシングストライク
+      cost:
+        - Psychic
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 150+
+      text: 場にスタジアムが出ているなら、50ダメージを追加。その場合、このワザのダメージは、相手のバトルポケモンの抵抗力とかかっている効果の計算をしない。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ミュウツーEX
+illustrators:
+  - 5ban Graphics

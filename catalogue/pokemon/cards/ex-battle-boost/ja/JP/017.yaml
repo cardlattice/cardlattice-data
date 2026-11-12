@@ -1,0 +1,32 @@
+name: ポカブ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: とっしん
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 498
+  species: ひぶたポケモン
+  heightMetres: 0.5
+  weightKilograms: 9.9
+  flavourText: 敵の 攻撃を 身軽に 避けて 鼻から 火の玉を 撃ち出す。 炎で 木の実を 焼いて 食べる。
+illustrators:
+  - Kanako Eo
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,28 @@
+name: ケロマツ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: あわ
+      cost:
+        - Water
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 656
+  species: あわがえるポケモン
+  heightMetres: 0.3
+  weightKilograms: 7
+  flavourText: 繊細な 泡で 体を 包み 肌を 守る。 のんきに 見せかけて 抜け目なく 周囲を うかがう。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

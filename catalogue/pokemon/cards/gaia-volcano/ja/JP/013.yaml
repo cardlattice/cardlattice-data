@@ -1,0 +1,35 @@
+name: キュウコン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ゆれるほのお
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "70"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities:
+    - name: けっかいのやしろ
+      text: このポケモンがいるかぎり、おたがいのプレイヤーは、手札からスタジアムを出せない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 38
+  species: きつねポケモン
+  heightMetres: 1.1
+  weightKilograms: 19.9
+  flavourText: 頭が良くて 執念深い。 ふざけて 尻尾を つかむと １０００年 たたられるという。
+  evolvesFrom: ロコン
+rarity: U
+illustrators:
+  - Kanako Eo

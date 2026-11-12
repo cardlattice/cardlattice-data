@@ -1,0 +1,27 @@
+name: ラルトス
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ビンタ
+      cost:
+        - Colorless
+      damage: "10"
+    - name: テレポートブレイク
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: 自分を自分のベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Midori Harada

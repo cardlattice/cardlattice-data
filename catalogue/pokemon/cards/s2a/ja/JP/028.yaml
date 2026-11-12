@@ -1,0 +1,29 @@
+name: ブルー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: するどいキバ
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 209
+  species: ようせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.8
+  flavourText: 見た目と 違って 臆病なので 他の こいぬポケモンと 一緒に すると いじめられることも ある。
+rarity: C
+illustrators:
+  - otumami

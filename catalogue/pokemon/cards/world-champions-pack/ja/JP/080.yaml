@@ -1,0 +1,32 @@
+name: コモルー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: いかり
+      cost:
+        - Fire
+        - Colorless
+      damage: 10+
+      text: 自分のダメージカウンター×10ダメージを追加する。
+    - name: ころがりタックル
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Colorless
+  resistances:
+    - type: Fire
+    - type: Fighting
+  retreatCost: 2
+  evolvesFrom: タツベイ
+rarity: ◆
+illustrators:
+  - Midori Harada

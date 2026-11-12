@@ -1,0 +1,29 @@
+name: シシコ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: かえん
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 667
+  species: わかじしポケモン
+  heightMetres: 0.6
+  weightKilograms: 13.5
+  flavourText: 強い 相手に 立ち向かうときほど たてがみが 高温になり 全身に 力が みなぎるのだ。
+illustrators:
+  - 5ban Graphics

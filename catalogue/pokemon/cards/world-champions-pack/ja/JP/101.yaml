@@ -1,0 +1,14 @@
+name: 悪エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Darkness}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Darkness}ポケモンが、バトルポケモンに、ワザによるダメージを与えるとき、そのダメージは「+10」される。
+      {Darkness}ポケモンについていないなら、この効果はなくなる。
+  types:
+    - Darkness
+rarity: ★
+illustrators:
+  - Milky Isobe

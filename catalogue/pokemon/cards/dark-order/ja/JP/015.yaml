@@ -1,0 +1,30 @@
+name: ヨーギラス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: なしくずし
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 246
+  species: いわはだポケモン
+  heightMetres: 0.6
+  weightKilograms: 72
+  flavourText: 地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。
+rarity: C
+illustrators:
+  - Ken Sugimori

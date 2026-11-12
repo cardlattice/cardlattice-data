@@ -1,0 +1,38 @@
+name: メタング
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: メタルクロー
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+    - name: マグネブラスト
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 375
+  species: てつツメポケモン
+  heightMetres: 1.2
+  weightKilograms: 202.5
+  flavourText: 高速で 空を 飛びまわり 獲物を 見つけると 鋭いツメで がっちり つかんで 離さないのだ。
+  evolvesFrom: ダンバル
+rarity: C
+illustrators:
+  - Kazuma Koda

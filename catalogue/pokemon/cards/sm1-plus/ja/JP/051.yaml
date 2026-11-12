@@ -1,0 +1,10 @@
+name: 日輪の祭壇
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいの場の{Fire}ポケモンと{Metal}ポケモン全員の弱点は、すべてなくなる。
+    - スタジアムは、自分の番に1枚だけ、バトル場の横に出せる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+illustrators:
+  - 5ban Graphics

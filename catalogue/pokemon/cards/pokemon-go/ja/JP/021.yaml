@@ -1,0 +1,36 @@
+name: コイキング
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ぴちぴちむれる
+      cost:
+        - Colorless
+      text: 自分の山札から「コイキング」を好きなだけ選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: いかりのおびれ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 自分のトラッシュにある「コイキング」と「ギャラドス」の枚数×30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: さかなポケモン
+  heightMetres: 0.9
+  weightKilograms: 10
+  flavourText: 力も スピードも ほとんどダメ。 世界で 一番 弱くて 情けない ポケモンだ。
+rarity: C
+illustrators:
+  - N-DESIGN Inc.
+stamps:
+  - pokemon-go

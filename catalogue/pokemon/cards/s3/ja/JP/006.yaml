@@ -1,0 +1,33 @@
+name: モクロー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: かぜのつぶて
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のベンチポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities:
+    - name: スカイサーカス
+      text: この番、自分の手札から「とりつかい」を出して使っていたなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 722
+  species: くさばねポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  flavourText: 飛行しながら 切れ味 鋭い 羽根を 飛ばし 近距離では 強烈な キックを 叩きこむ。
+rarity: C
+illustrators:
+  - HYOGONOSUKE

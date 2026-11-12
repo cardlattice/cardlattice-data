@@ -1,0 +1,39 @@
+name: ナットレイ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: ガードプレス
+      cost:
+        - Metal
+      damage: "20"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-20」される。
+    - name: スローンポッドスロー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のベンチポケモン1匹にも、このポケモンについている{Metal}エネルギーの数×20ダメージ。ベンチへのダメージは{Metal}エネルギー5個ぶんまで。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 598
+  species: とげだまポケモン
+  heightMetres: 1
+  weightKilograms: 110
+  flavourText: 洞穴の 天井に はりつき 下を 通る 獲物に 向かって 鉄の トゲを 打ちこみ 襲う。
+  evolvesFrom: テッシード
+rarity: U
+illustrators:
+  - Hasuno

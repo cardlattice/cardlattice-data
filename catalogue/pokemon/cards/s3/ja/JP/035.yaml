@@ -1,0 +1,33 @@
+name: プリン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: つぶやく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ムーンキック
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 39
+  species: ふうせんポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  flavourText: 歌う 歌は 棲む 地方によって 全然 違っている。 中には シャウトするような ものまで あるぞ。
+rarity: C
+illustrators:
+  - Motofumi Fujiwara

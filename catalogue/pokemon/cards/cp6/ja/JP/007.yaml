@@ -1,0 +1,36 @@
+name: スピアー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: どくばり
+      cost:
+        - Grass
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+    - name: むれでさす
+      cost:
+        - Grass
+        - Colorless
+      text: 相手のポケモンを1匹選び、自分の場にいる｢スピアー｣の数×40ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 15
+  species: どくばちポケモン
+  heightMetres: 1
+  weightKilograms: 29.5
+  flavourText: 集団で 現れることもある。 猛スピードで 飛び回り おしりの 毒バリで 刺しまくる。
+  evolvesFrom: コクーン
+  level: 32
+rarity: U
+illustrators:
+  - Ken Sugimori

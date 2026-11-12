@@ -1,0 +1,36 @@
+name: リオル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: パンチ
+      cost:
+        - Colorless
+      damage: "10"
+    - name: でんこうせっか
+      cost:
+        - Fighting
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 447
+  species: はもんポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.2
+  flavourText: 喜びや 怒りと いった 感情を 波の形 として 見分ける 不思議な力を 持つ。
+illustrators:
+  - Naoyo Kimura
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,35 @@
+name: ガントル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: コアヒール
+      cost:
+        - Fighting
+      text: このポケモンについている{Fighting}エネルギーを1個選び、トラッシュする。その後、このポケモンのHPを「50」回復する。
+    - name: パワージェム
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 525
+  species: こうせきポケモン
+  heightMetres: 0.9
+  weightKilograms: 102
+  flavourText: 体内に 収まりきらず 漏れ出した エネルギーが 固まり オレンジ色の 結晶になった。
+  evolvesFrom: ダンゴロ
+rarity: C
+illustrators:
+  - Midori Harada

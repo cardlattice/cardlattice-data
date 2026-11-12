@@ -1,0 +1,32 @@
+name: ワタシラガ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: めぐみのわたげ
+      cost:
+        - Colorless
+      text: 自分の山札から{Grass}エネルギーを3枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。
+    - name: このは
+      cost:
+        - Grass
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 830
+  species: わたかざりポケモン
+  heightMetres: 0.5
+  weightKilograms: 2.5
+  flavourText: 頭の 綿毛で つくった 糸は 光沢があり とても 美しい。 ガラル地方の 名産品。
+  evolvesFrom: ヒメンカ
+illustrators:
+  - Mina Nakai

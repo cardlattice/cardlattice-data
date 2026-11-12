@@ -1,0 +1,36 @@
+name: ドリュウズ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: ほじくる
+      cost:
+        - Colorless
+      text: 自分の山札からエネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。
+    - name: マッハクロ−
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: このワザのダメージは抵抗力の計算をしない。
+  abilities:
+    - name: Ω（オメガ）連打
+      text: このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  evolvesFrom: モグリュー
+  flavourText: 地下 １００メートルに 迷路の ような 巣穴を 作る。 地下鉄の トンネルに 穴を 開けてしまう。
+rarity: R
+illustrators:
+  - PLANETA

@@ -1,0 +1,41 @@
+name: ギルガルド
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: ソードペイン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 相手のポケモン全員に、それぞれのっているダメカンの数が2倍になるように、ダメカンをのせる。
+    - name: メガトンスラッシュ
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 相手のベンチポケモンを2匹選び、そのポケモンにも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 681
+  species: おうけんポケモン
+  heightMetres: 1.7
+  weightKilograms: 53
+  flavourText: 王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。
+  evolvesFrom: ニダンギル
+rarity: R
+illustrators:
+  - Hitoshi Ariga

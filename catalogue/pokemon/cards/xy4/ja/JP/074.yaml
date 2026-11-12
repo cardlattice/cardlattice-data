@@ -1,0 +1,38 @@
+name: レジギガス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ひるませる
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-40」される。
+    - name: ヘビーインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 486
+  species: きょだいポケモン
+  heightMetres: 3.7
+  weightKilograms: 420
+  flavourText: 特殊な 氷山や 岩石 マグマから 自分の 姿に 似た ポケモンを つくったと 言われる。
+rarity: R
+illustrators:
+  - kawayoo

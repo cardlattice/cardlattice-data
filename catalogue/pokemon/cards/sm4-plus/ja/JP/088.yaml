@@ -1,0 +1,10 @@
+name: アクアパッチ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュにある{Water}エネルギーを1枚、ベンチの{Water}ポケモンにつける。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

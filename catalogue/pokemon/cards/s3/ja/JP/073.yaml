@@ -1,0 +1,38 @@
+name: ダイオウドウ
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: リベンジスタンプ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 自分のベンチポケモンにダメカンがのっているなら、120ダメージ追加。
+  abilities:
+    - name: こうきんスキン
+      text: このポケモンは特殊状態にならない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  nationalDex:
+    - 879
+  species: どうぞうポケモン
+  heightMetres: 3
+  weightKilograms: 650
+  flavourText: 緑の皮膚は 水にも 強い。 昔 ほかの土地から やってきて 人と いっしょに 働いた。
+  evolvesFrom: ゾウドウ
+rarity: R
+illustrators:
+  - Kouki Saitou

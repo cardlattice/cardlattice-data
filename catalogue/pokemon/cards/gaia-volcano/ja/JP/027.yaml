@@ -1,0 +1,38 @@
+name: ニドクイン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: にどげり
+      cost:
+        - Psychic
+        - Colorless
+      damage: 40×
+      text: コインを2回投げ、オモテの数×40ダメージ。
+    - name: どくどくのキバ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンをどくにする。ポケモンチェックのとき、このどくでのせるダメカンの数は2個になる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 31
+  species: ドリルポケモン
+  heightMetres: 1.3
+  weightKilograms: 60
+  flavourText: 硬くて 針のような ウロコが 体を 覆っている。 興奮すると 針が 逆立つ。
+  evolvesFrom: ニドリーナ
+rarity: U
+illustrators:
+  - Masakazu Fukuda

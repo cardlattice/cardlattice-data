@@ -1,0 +1,36 @@
+name: ロズレイド
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ウィップラッシュ
+      cost:
+        - Grass
+      text: ウラが出るまでコインを投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。
+    - name: メガドレイン
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "70"
+      text: このポケモンのHPを「20」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 407
+  species: ブーケポケモン
+  heightMetres: 0.9
+  weightKilograms: 14.5
+  flavourText: 甘い 香りで 獲物を 誘い 両腕の 毒のムチを 使って 刺したり 締めたりして しとめる。
+  evolvesFrom: ロゼリア
+rarity: U
+illustrators:
+  - Masakazu Fukuda

@@ -1,0 +1,37 @@
+name: パンプジン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ホラーノート
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 10×
+      text: 自分の手札の枚数×10ダメージ。
+  abilities:
+    - name: ビッグぼっちゃ
+      text: このポケモンに{Grass}エネルギーがついているなら、このポケモンの最大HPは「200」になる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 711
+  species: かぼちゃポケモン
+  heightMetres: 0.9
+  weightKilograms: 12.5
+  flavourText: 新月の 夜に 不気味な 声で 歌いながら 街中を さまよう。 その歌を 聞くと のろわれる。
+  evolvesFrom: バケッチャ
+rarity: R
+illustrators:
+  - Kanako Eo

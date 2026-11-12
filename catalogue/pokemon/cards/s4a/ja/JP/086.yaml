@@ -1,0 +1,35 @@
+name: ドロンチ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: よびだす
+      cost:
+        - Colorless
+      text: 自分の山札から「ドラメシヤ」を1枚選び、ベンチに出す。そして山札を切る。
+    - name: かみつく
+      cost:
+        - Psychic
+        - Psychic
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 886
+  species: せわやくポケモン
+  heightMetres: 1.4
+  weightKilograms: 11
+  flavourText: 飛行速度は 時速２００キロ。ドラメシヤと いっしょに 戦い 無事に 進化するまで 世話をする。
+  evolvesFrom: ドラメシヤ
+illustrators:
+  - Kouki Saitou

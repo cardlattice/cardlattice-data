@@ -1,0 +1,33 @@
+name: ベロバー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: たたく
+      cost:
+        - Darkness
+      damage: "10"
+    - name: ふむ
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 859
+  species: いじわるポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.5
+  flavourText: 人や ポケモンが 嫌がる ときに 発する マイナスエネルギーを 鼻から 吸いこみ 元気になる。
+rarity: C
+illustrators:
+  - Kouki Saitou

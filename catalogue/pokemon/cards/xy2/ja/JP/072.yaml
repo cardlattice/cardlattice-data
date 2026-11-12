@@ -1,0 +1,11 @@
+name: いたずらスコップ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分または相手の山札を上から1枚見て、もとにもどす。のぞむなら、そのカードをトラッシュしてよい。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - PLANETA

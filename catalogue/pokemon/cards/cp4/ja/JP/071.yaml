@@ -1,0 +1,32 @@
+name: チャーレム
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: めいそう
+      cost:
+        - Colorless
+      text: このポケモンのHPを「30」回復する。
+    - name: ヨガキック
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+      text: このワザのダメージは弱点・抵抗力の計算をしない。
+  abilities:
+    - name: Ω（オメガ）連打
+      text: このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: アサナン
+  flavourText: ヨガの 修行で 鍛えられた サイコパワーで 相手の 動きを 予測する ことが できるのだ。
+illustrators:
+  - Mitsuhiro Arita

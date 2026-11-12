@@ -1,0 +1,32 @@
+name: ビリリダマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: れんぞくころがり
+      cost:
+        - Colorless
+      damage: 10×
+      text: ウラが出るまでコインを投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 100
+  species: ボールポケモン
+  heightMetres: 0.5
+  weightKilograms: 10.4
+  flavourText: 正体 不明の 生き物。 いやな音を だしたり 突然 自爆する ことも あるという。
+  level: 10
+rarity: C
+illustrators:
+  - Keiji Kinebuchi

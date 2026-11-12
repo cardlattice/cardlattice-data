@@ -1,0 +1,8 @@
+name: 基本闘エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fighting
+rarity: ★

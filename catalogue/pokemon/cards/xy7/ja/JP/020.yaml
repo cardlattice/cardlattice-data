@@ -1,0 +1,40 @@
+name: ギャラドス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: あばれしぶき
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: おたがいのベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: アクアテール
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: このポケモンについている{Water}エネルギーの数ぶんコインを投げ、オモテの数×30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 130
+  species: きょうあくポケモン
+  heightMetres: 6.5
+  weightKilograms: 235
+  flavourText: めったに 姿を 現さないが ひとたび 暴れ出すと 大きな 都市が 壊滅するときもある。
+  evolvesFrom: コイキング
+rarity: U
+illustrators:
+  - Shin Nagasawa

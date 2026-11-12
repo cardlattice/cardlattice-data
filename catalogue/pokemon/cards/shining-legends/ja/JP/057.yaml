@@ -1,0 +1,39 @@
+name: ひかるレックウザ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: りゅうのはどう
+      cost:
+        - Lightning
+      damage: "40"
+      text: 自分の山札を上から2枚トラッシュする。
+    - name: てんくうのさばき
+      cost:
+        - Fire
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "190"
+      text: このポケモンについているエネルギーを、3個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 384
+  species: てんくうポケモン
+  heightMetres: 7
+  weightKilograms: 206.5
+  flavourText: 雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。
+  subtypes:
+    - Shining
+illustrators:
+  - Naoki Saito
+rarity: Shining

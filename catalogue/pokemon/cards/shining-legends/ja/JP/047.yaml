@@ -1,0 +1,36 @@
+name: マッギョ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: でんきショック
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: ヘッドボルト
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 618
+  species: トラップポケモン
+  heightMetres: 0.7
+  weightKilograms: 11
+  flavourText: 皮膚が 硬いので 相撲取りに 踏まれても 平気。 電気を 流すとき 笑い顔に なる。
+rarity: U
+illustrators:
+  - Naoyo Kimura

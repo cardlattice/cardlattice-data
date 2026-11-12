@@ -1,0 +1,33 @@
+name: ボクレー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: やみあんない
+      cost:
+        - Colorless
+      text: 自分のトラッシュからたねポケモンを1枚選び、ベンチに出す。
+    - name: タネばくだん
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 708
+  species: きりかぶポケモン
+  heightMetres: 0.4
+  weightKilograms: 7
+  flavourText: 森で さまよい 命を 落とした 子どもの 魂が 切り株に 宿り ポケモンに 生まれ変わった。
+rarity: C
+illustrators:
+  - sui

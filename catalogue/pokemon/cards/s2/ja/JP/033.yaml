@@ -1,0 +1,29 @@
+name: コリンク
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ぎゃっきょう
+      cost:
+        - Lightning
+      damage: 10+
+      text: 相手のサイドの残り枚数が3枚以下なら、50ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 403
+  species: せんこうポケモン
+  heightMetres: 0.5
+  weightKilograms: 9.5
+  flavourText: 危険を 感じると 全身の 体毛が 光る。 相手が 目を くらませている あいだに 逃げる。
+rarity: C
+illustrators:
+  - Uta

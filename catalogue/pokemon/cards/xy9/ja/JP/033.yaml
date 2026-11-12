@@ -1,0 +1,34 @@
+name: スリープ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: つぶやく
+      cost:
+        - Psychic
+      damage: "10"
+    - name: ねんじる
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 96
+  species: さいみんポケモン
+  heightMetres: 1
+  weightKilograms: 32.4
+  flavourText: 楽しい 夢を 見ていたはずなのに どんな夢か 思い出せないとき。 きっと スリープに 食べられたのだ。
+rarity: C
+illustrators:
+  - Shigenori Negishi

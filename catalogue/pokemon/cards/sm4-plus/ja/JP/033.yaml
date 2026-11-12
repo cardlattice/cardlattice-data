@@ -1,0 +1,38 @@
+name: デンジュモクGX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ランブルワイヤー
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+      text: 相手の山札を上から1枚トラッシュする。
+    - name: ライトニングGX
+      cost:
+        - Lightning
+      text: 相手の手札を見て、その中にあるカードを1枚、ウラにして相手のサイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: フラッシュヘッド
+      text: このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+    - Ultra Beast
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - 5ban Graphics

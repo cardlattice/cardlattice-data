@@ -1,0 +1,34 @@
+name: ジュカイン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: ジャングルエッジ
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: グロウヒーリング
+      text: 自分の手札から{Grass}エネルギーを1枚選び、自分のポケモンにつける。その後、つけたポケモンのHPを「30」回復する。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 254
+  species: みつりんポケモン
+  heightMetres: 1.7
+  weightKilograms: 52.2
+  flavourText: ジャングルを 身軽に 走り回り 腕に 生えた 切れ味 鋭い 葉っぱで 獲物を しとめるのだ。
+  evolvesFrom: ジュプトル
+rarity: U
+illustrators:
+  - Hajime Kusajima

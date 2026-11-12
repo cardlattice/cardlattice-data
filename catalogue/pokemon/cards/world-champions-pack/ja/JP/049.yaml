@@ -1,0 +1,33 @@
+name: チャーレム
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: パンチ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: まわしげり
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: コインを1回投げオモテなら、相手をマヒにする。
+  abilities:
+    - name: やるきのオーラ
+      text: このポケモンがバトル場にいるかぎり、おたがいのバトルポケモン全員の、バトルポケモンに与えるワザによるダメージは、すべて「+10」される。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: アサナン
+rarity: ◆
+illustrators:
+  - Tomoaki Imakuni

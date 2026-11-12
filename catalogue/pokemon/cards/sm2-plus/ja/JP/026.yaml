@@ -1,0 +1,33 @@
+name: カプ・テテフ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコウェーブ
+      cost:
+        - Psychic
+      damage: 20×
+      text: 相手のバトルポケモンについているエネルギーの数×20ダメージ。
+    - name: マジカルスワップ
+      cost:
+        - Psychic
+        - Colorless
+      text: 相手の場のポケモンにのっているダメカンを好きなだけ選び、相手の場のポケモンに好きなようにのせ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 786
+  species: とちがみポケモン
+  heightMetres: 1.2
+  weightKilograms: 18.6
+  flavourText: 無邪気で 残酷な アーカラの 守り神。 花の 芳しい 香りが エネルギーの 源。
+illustrators:
+  - You Iribi

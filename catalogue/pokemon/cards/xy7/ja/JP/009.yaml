@@ -1,0 +1,28 @@
+name: ミツハニー
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: むしくい
+      cost:
+        - Grass
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 415
+  species: はちのこポケモン
+  heightMetres: 0.3
+  weightKilograms: 5.5
+  flavourText: 集めた ミツを 住処に 運ぶ。 夜には たくさんの ミツハニーが 重なって ハチの巣になり 眠る。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

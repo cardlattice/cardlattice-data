@@ -1,0 +1,36 @@
+name: オトスパス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: たこがため
+      cost:
+        - Fighting
+        - Fighting
+      text: このワザを受けたポケモンは、ワザを使うためのエネルギーが{Colorless}エネルギー2個ぶん多くなり、にげられない。この効果は、この「オトスパス」がバトル場をはなれるまで続き、重ならない。
+    - name: ハードスイング
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+      text: このワザのダメージは抵抗力を計算しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 853
+  species: じゅうじゅつポケモン
+  heightMetres: 1.6
+  weightKilograms: 39
+  flavourText: 全身が 筋肉の 塊。 触手を 使って 繰りだす 絞め技の 威力は 凄まじい。
+  evolvesFrom: タタッコ
+illustrators:
+  - Shin Nagasawa

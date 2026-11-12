@@ -1,0 +1,32 @@
+name: サマヨール
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ナイトヘッド
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: 相手のベンチポケモン1匹にも、20ダメージ。
+    - name: ミステリアスライト
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 場に「フヨウのスタジアム」があるなら、相手をこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+  resistances:
+    - type: Fighting
+  retreatCost: 2
+  evolvesFrom: ヨマワル
+rarity: ★
+illustrators:
+  - Ken Sugimori

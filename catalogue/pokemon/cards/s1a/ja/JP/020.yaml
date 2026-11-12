@@ -1,0 +1,28 @@
+name: コイキング
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: はねにげ
+      cost:
+        - Colorless
+      text: このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: さかなポケモン
+  heightMetres: 0.9
+  weightKilograms: 10
+  flavourText: 力も スピードも ほとんどダメ。 世界で 一番 弱くて 情けない ポケモンだ。
+rarity: C
+illustrators:
+  - kanahei

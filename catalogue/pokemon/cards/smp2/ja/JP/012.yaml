@@ -1,0 +1,33 @@
+name: ゲッコウガ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: みだれしゅりけん
+      cost:
+        - Water
+        - Water
+      text: 相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities:
+    - name: かわりみのじゅつ
+      text: このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 658
+  species: しのびポケモン
+  heightMetres: 1.5
+  weightKilograms: 40
+  flavourText: 水を 圧縮して 手裏剣を 作り出す。 高速回転させて 飛ばすと 金属も 真っ二つ。
+  evolvesFrom: ゲコガシラ
+rarity: U
+illustrators:
+  - MPC Film

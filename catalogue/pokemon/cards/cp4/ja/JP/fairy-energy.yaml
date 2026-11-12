@@ -1,0 +1,10 @@
+name: 基本フェアリーエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Basic Energy
+  types:
+    - Fairy
+printedDenominator: null
+collectorNumber: null
+regulationMark: null

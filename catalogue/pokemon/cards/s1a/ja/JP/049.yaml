@@ -1,0 +1,37 @@
+name: スカタンク
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: ポイズンサークル
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 435
+  species: スカンクポケモン
+  heightMetres: 1
+  weightKilograms: 38
+  flavourText: お腹に 溜めこんだ 臭い 汁を 尻尾から 飛ばして 戦う。 においは 食べ物で 変わるのだ。
+  evolvesFrom: スカンプー
+rarity: U
+illustrators:
+  - sowsow

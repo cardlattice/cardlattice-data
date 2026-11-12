@@ -1,0 +1,28 @@
+name: メタモンV
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ペタッとつく
+      cost:
+        - Colorless
+      text: 自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。
+  abilities:
+    - name: Vへんげ
+      text: 自分の番に1回使える。自分のトラッシュからたねポケモンの「ポケモンV」を1枚選び、このポケモンと入れ替える（ついているカード・ダメカン・特殊状態・効果などは、すべて引きつぐ）。このポケモンは、トラッシュする。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - Saki Hayashiro

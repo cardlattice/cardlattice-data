@@ -1,0 +1,33 @@
+name: ヘルガーV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: やきこがす
+      cost:
+        - Fire
+      damage: "20"
+      text: 相手のバトルポケモンをやけどにする。
+    - name: おとしまえフレイム
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 100+
+      text: 自分のベンチの{Fire}ポケモンにダメカンがのっているなら、100ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+rarity: RR
+illustrators:
+  - Ayaka Yoshida

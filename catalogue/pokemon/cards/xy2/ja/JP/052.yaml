@@ -1,0 +1,34 @@
+name: フラエッテ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: ようせいのかぜ
+      cost:
+        - Fairy
+      damage: "20"
+  abilities:
+    - name: フラワーベール
+      text: このポケモンがいるかぎり、自分の{Grass}ポケモン全員の最大HPは、それぞれ「20」大きくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 670
+  species: いちりんポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.9
+  flavourText: 花畑を 飛び回り 枯れかけた 花を 世話する。 花の 秘められた 力を 引き出して 戦う。
+  evolvesFrom: フラベベ
+rarity: C
+illustrators:
+  - 5ban Graphics

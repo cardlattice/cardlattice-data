@@ -1,0 +1,29 @@
+name: ゴーリキー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: せいけんづき
+      cost:
+        - Fighting
+        - Fighting
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 67
+  species: かいりきポケモン
+  heightMetres: 1.5
+  weightKilograms: 70.5
+  flavourText: すごく 強靭な 肉体なので パワーセーブ ベルトを つけて 強さを 制御している。
+  evolvesFrom: ワンリキー
+illustrators:
+  - Mitsuhiro Arita

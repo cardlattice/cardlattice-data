@@ -1,0 +1,37 @@
+name: ファイアロー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: おんそくひこう
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: しゃくねつのはね
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをやけどにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 663
+  species: れっかポケモン
+  heightMetres: 1.2
+  weightKilograms: 24.5
+  flavourText: とりポケモンが 主な 獲物。 急接近からの 力強い キックで 地面に 叩き落す。
+  evolvesFrom: ヒノヤコマ
+rarity: U
+illustrators:
+  - kawayoo

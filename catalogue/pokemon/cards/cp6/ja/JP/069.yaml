@@ -1,0 +1,31 @@
+name: ポリゴン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: テクスチャー3
+      cost:
+        - Colorless
+      text: "{Grass}{Fire}{Water}{Lightning}{Psychic}{Fighting}{Darkness}{Metal}{Fair\
+        y}{Dragon}の中からタイプを1つ選ぶ。次の自分の番の終わりまで、このワザを受けたポケモンの弱点は選ばれたタイプになる。［弱点は「×2」\
+        でダメージ計算をする。］"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 137
+  species: バーチャルポケモン
+  heightMetres: 0.8
+  weightKilograms: 36.5
+  flavourText: 最高の 科学力を つかい ついに 人工の ポケモンを つくることに 成功した。
+  level: 12
+rarity: C
+illustrators:
+  - Tomoaki Imakuni

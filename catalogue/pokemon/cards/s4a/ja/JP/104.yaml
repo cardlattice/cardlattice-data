@@ -1,0 +1,27 @@
+name: ドガース
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: かくせい
+      cost:
+        - Darkness
+      text: このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 109
+  species: どくガスポケモン
+  heightMetres: 0.6
+  weightKilograms: 1
+  flavourText: 毒ガスで パンパンの 体。 生ゴミの 腐った においを 求め ゴミ捨て場に やってくる。
+illustrators:
+  - Pani Kobayashi

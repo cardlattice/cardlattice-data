@@ -1,0 +1,32 @@
+name: ジュペッタ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: おんねん
+      cost:
+        - Psychic
+        - Colorless
+      damage: 20+
+      text: 相手プレイヤーがすでにとったサイドの数×10ダメージを追加する。
+    - name: ベンチをあやつる
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: 40×
+      text: 相手のベンチポケモンの数ぶん、相手プレイヤーはコインを投げ、ウラ×40ダメージを相手に与える。このワザは、相手の弱点・抵抗力に関係なく、ダメージを与える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+  resistances:
+    - type: Fighting
+  retreatCost: 1
+  evolvesFrom: カゲボウズ
+rarity: ★
+illustrators:
+  - Ken Sugimori

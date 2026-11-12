@@ -1,0 +1,37 @@
+name: マフォクシー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ゆれるほのお
+      cost:
+        - Fire
+      damage: "40"
+      text: 相手のバトルポケモンをねむりにする。
+    - name: サイコストーム
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: おたがいの場のポケモンについているエネルギーの合計×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 655
+  species: キツネポケモン
+  heightMetres: 1.5
+  weightKilograms: 39
+  flavourText: 摂氏３０００度の 炎の 渦を 超能力で 操る。 敵を 渦で 包み 焼きつくす。
+  evolvesFrom: テールナー
+rarity: R
+illustrators:
+  - Kagemaru Himeno

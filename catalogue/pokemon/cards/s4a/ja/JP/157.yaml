@@ -1,0 +1,10 @@
+name: 回収ネット
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のポケモン（「ポケモンV・GX」をのぞく）を1匹選び、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Ryo Ueda

@@ -1,0 +1,28 @@
+name: アゴジムシ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: はさむ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 736
+  species: ようちゅうポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.4
+  flavourText: とりポケモンに 襲われないよう でんきポケモンが 棲む 場所に 集まっていることが 多い。
+illustrators:
+  - Akira Komayama

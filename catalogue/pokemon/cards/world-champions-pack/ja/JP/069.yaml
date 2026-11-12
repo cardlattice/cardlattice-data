@@ -1,0 +1,25 @@
+name: ナマケロ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ドわすれ
+      cost:
+        - Colorless
+      text: 相手の持っているワザを1つ選ぶ。次の相手の番、このワザを受けた相手は、そのワザを使うことができない。
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Tomokazu Komiya

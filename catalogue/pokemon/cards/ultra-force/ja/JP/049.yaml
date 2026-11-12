@@ -1,0 +1,10 @@
+name: ユニットエネルギー草炎水
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Grass}{Fire}{Water}の3つのタイプのエネルギー1個ぶんとしてはたらく。
+      ポケモンについていないなら、{Colorless}エネルギー1個ぶんとしてはたらく。
+  types:
+    - Colorless

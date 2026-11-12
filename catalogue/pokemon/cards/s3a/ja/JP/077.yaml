@@ -1,0 +1,31 @@
+name: ザルードV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: しばりつける
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: ジャングルライズ
+      cost:
+        - Grass
+        - Grass
+      damage: "100"
+      text: のぞむなら、自分の手札から基本エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。その後、つけたポケモンのHPをすべて回復する。
+  abilities: []
+  rules:
+    - ポケモン【V】がきぜつしたとき、相手はサイドを2枚とる。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+rarity: SR
+illustrators:
+  - PLANETA Igarashi

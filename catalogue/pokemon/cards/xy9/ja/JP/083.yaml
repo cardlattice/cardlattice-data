@@ -1,0 +1,30 @@
+name: マナフィEX
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ミネラルポンプ
+      cost:
+        - Water
+        - Water
+      damage: "60"
+      text: 自分のベンチポケモン全員のHPを、それぞれ「30」回復する。
+  abilities:
+    - name: アクアチューブ
+      text: このポケモンがいるかぎり、{Water}エネルギーがついている自分のポケモン全員のにげるために必要なエネルギーは、すべてなくなる。
+      kind: Ability
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+rarity: SR
+illustrators:
+  - Ryo Ueda

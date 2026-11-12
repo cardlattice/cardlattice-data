@@ -1,0 +1,33 @@
+name: スリープ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: いやなあんじ
+      cost:
+        - Psychic
+      text: 次の相手の番、相手が投げるコインは、すべてウラとしてあつかう。
+    - name: サイコショット
+      cost:
+        - Psychic
+        - Psychic
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 96
+  species: さいみんポケモン
+  heightMetres: 1
+  weightKilograms: 32.4
+  flavourText: 眠らせては 夢を 食べるが 悪い 夢ばかり 食べてると お腹を 壊すことが あるらしい。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

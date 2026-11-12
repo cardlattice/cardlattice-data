@@ -1,0 +1,34 @@
+name: ニューラ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: つめとぎ
+      cost:
+        - Colorless
+      text: 次の自分の番、このポケモンの「きりさく」のダメージは「80」になる。
+    - name: きりさく
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 215
+  species: かぎづめポケモン
+  heightMetres: 0.9
+  weightKilograms: 28
+  flavourText: ずる賢く 獰猛な 性質。 親が いない スキに 巣穴に 侵入。 タマゴを 盗みだす。
+illustrators:
+  - Hasuno

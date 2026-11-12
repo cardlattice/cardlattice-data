@@ -1,0 +1,29 @@
+name: ナックラー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: だいちのこどう
+      cost:
+        - Fighting
+      damage: 10+
+      text: 場にスタジアムが出ているなら、10ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 328
+  species: ありじごくポケモン
+  heightMetres: 0.7
+  weightKilograms: 15
+  flavourText: 砂漠に つくられた 巣穴は すり鉢の 形を しているので 落ちてしまうと 脱出不可能。
+rarity: C
+illustrators:
+  - Asako Ito

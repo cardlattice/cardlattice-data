@@ -1,0 +1,38 @@
+name: テラキオン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: かたきうち
+      cost:
+        - Fighting
+        - Colorless
+      damage: 30+
+      text: 前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、60ダメージを追加。
+    - name: ランドクラッシュ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 639
+  species: がんくつポケモン
+  heightMetres: 1.9
+  weightKilograms: 260
+  flavourText: 巨大な 城壁を 一撃で 突破するほどの 突進力。 伝説で 語られる ポケモン。
+illustrators:
+  - Shigenori Negishi
+variants:
+  first-edition:
+    edition: first-edition

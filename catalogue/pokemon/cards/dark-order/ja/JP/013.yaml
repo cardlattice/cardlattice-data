@@ -1,0 +1,38 @@
+name: エレザード
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: でんじスパーク
+      cost:
+        - Lightning
+      text: 相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: ボルトチェンジ
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: このポケモンをベンチの{Lightning}ポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 695
+  species: はつでんポケモン
+  heightMetres: 1
+  weightKilograms: 21
+  flavourText: 電気で 筋肉を 刺激すると １００メートルを ５秒で 走る 脚力に パワーアップする。
+  evolvesFrom: エリキテル
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

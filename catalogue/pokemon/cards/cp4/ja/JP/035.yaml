@@ -1,0 +1,32 @@
+name: ゲッコウガ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: かすみぎり
+      cost:
+        - Water
+      damage: "50"
+      text: このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果の計算をしない。
+  abilities:
+    - name: みずしゅりけん
+      text: 自分の手札から{Water}エネルギーを1枚選び、トラッシュする。その後、相手のポケモンを1匹選び、ダメカンを3個のせる。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 658
+  species: しのびポケモン
+  heightMetres: 1.5
+  weightKilograms: 40
+  flavourText: 水を 圧縮して 手裏剣を 作り出す。 高速回転させて 飛ばすと 金属も 真っ二つ。
+  evolvesFrom: ゲコガシラ
+illustrators:
+  - 5ban Graphics

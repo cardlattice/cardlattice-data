@@ -1,0 +1,32 @@
+name: グレッグル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ふむ
+      cost:
+        - Colorless
+      damage: "10"
+    - name: つきたおし
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 453
+  species: どくづきポケモン
+  heightMetres: 0.7
+  weightKilograms: 23
+  flavourText: 頬の 毒袋を 鳴らして 敵を 威嚇。 ひるんだ 隙に 毒突きを おみまいする。
+illustrators:
+  - otumami

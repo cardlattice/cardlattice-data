@@ -1,0 +1,37 @@
+name: オーロット
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: エナジープレス
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: 相手のバトルポケモンについているエネルギーの数×10ダメージを追加。
+  abilities:
+    - name: ふあんのタネ
+      text: このポケモンがバトル場にいるかぎり、相手のたねポケモンが使うワザに必要なエネルギーは、{Colorless}エネルギー1個ぶん多くなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 709
+  species: ろうぼくポケモン
+  heightMetres: 1.5
+  weightKilograms: 71
+  flavourText: 根っこを 神経の かわりにして 森の 木を 操る。 体に 住みついた ポケモンには 親切。
+  evolvesFrom: ボクレー
+rarity: U
+illustrators:
+  - Midori Harada

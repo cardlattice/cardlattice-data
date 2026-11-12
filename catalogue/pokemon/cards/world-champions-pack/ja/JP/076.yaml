@@ -1,0 +1,23 @@
+name: チルット
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: みだれづき
+      cost:
+        - Colorless
+      damage: 10×
+      text: コインを3回投げ、オモテ×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,38 @@
+name: マルノーム
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: どくガス
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+    - name: まるのみ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 相手のバトルポケモンの残りHPが、このポケモンの残りHPより少ないなら、50ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 317
+  species: どくぶくろポケモン
+  heightMetres: 1.7
+  weightKilograms: 80
+  flavourText: なんでも まるのみしてしまう。 毛穴から 猛毒の 体液を 分泌して 敵に 浴びせかける。
+  evolvesFrom: ゴクリン
+rarity: U
+illustrators:
+  - Tomokazu Komiya

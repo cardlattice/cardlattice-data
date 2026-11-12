@@ -1,0 +1,34 @@
+name: ダークライ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: やみのらせん
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: このポケモンについている{Darkness}エネルギーの数×20ダメージ追加。
+  abilities:
+    - name: ダークガード
+      text: このポケモンに{Darkness}エネルギーがついているなら、このポケモンが受けるワザのダメージは「-20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 491
+  species: あんこくポケモン
+  heightMetres: 1.5
+  weightKilograms: 50.5
+  flavourText: 人々を 深い 眠りに 誘い 夢を 見せる 能力を 持つ。 新月の 夜に 活動する。
+rarity: R
+illustrators:
+  - nagimiso

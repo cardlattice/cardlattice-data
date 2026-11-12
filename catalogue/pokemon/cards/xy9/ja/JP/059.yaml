@@ -1,0 +1,31 @@
+name: テッシード
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: かたくなる
+      cost:
+        - Metal
+        - Colorless
+      text: 次の相手の番、このポケモンは「60」以下のワザのダメージを受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 597
+  species: とげのみポケモン
+  heightMetres: 0.6
+  weightKilograms: 18.8
+  flavourText: 洞穴の 天井に 突きささり 岩の 鉄分を 吸いとる。 危険がせまると トゲを 撃ち出す。
+rarity: C
+illustrators:
+  - Satoshi Shirai

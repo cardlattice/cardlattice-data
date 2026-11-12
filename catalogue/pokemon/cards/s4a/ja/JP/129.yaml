@@ -1,0 +1,30 @@
+name: ヒトツキ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: スライスブレード
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 679
+  species: とうけんポケモン
+  heightMetres: 0.8
+  weightKilograms: 2
+  flavourText: 大昔 この 剣に よって 殺された 人間の 魂が ヒトツキの 魂に なっている。
+illustrators:
+  - Sekio

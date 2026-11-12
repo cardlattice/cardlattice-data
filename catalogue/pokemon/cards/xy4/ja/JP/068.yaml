@@ -1,0 +1,35 @@
+name: ラッキー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ひとやすみ
+      cost:
+        - Colorless
+      text: このポケモンのHPを「30」回復する。
+    - name: ラッキーパンチ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 自分の手札が7枚でないなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 113
+  species: たまごポケモン
+  heightMetres: 1.1
+  weightKilograms: 34.6
+  flavourText: 幸せを 運ぶと いわれている。 傷ついた 人に タマゴを 分けてあげる 優しい ポケモン。
+rarity: C
+illustrators:
+  - Naoyo Kimura

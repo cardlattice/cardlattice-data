@@ -1,0 +1,39 @@
+name: ケンホロウ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: かぜおこし
+      cost:
+        - Colorless
+      damage: "30"
+    - name: ハリケーンウイング
+      cost:
+        - Colorless
+        - Colorless
+      damage: 70×
+      text: コインを4回投げ、オモテの数×70ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 521
+  species: プライドポケモン
+  heightMetres: 1.2
+  weightKilograms: 29
+  flavourText: 高い 飛行能力を もち メスは 持久力に 優れる。 飛行スピードは オスが 勝る。
+  evolvesFrom: ハトーボー
+rarity: U
+illustrators:
+  - GIDORA
+stamps:
+  - pokemon-go

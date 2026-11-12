@@ -1,0 +1,36 @@
+name: ヒヤッキー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "30"
+    - name: ギガインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 516
+  species: ほうすいポケモン
+  heightMetres: 1
+  weightKilograms: 29
+  flavourText: 水が きれいな 場所を 好む。 頭に ためこんだ 水が減ると 尻尾から 吸いあげて 補給。
+  evolvesFrom: ヒヤップ
+rarity: U
+illustrators:
+  - Shigenori Negishi

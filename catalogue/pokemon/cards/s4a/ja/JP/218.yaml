@@ -1,0 +1,37 @@
+name: マルヤクデ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: つらなるほのお
+      cost:
+        - Fire
+      text: このポケモンについている{Fire}エネルギーの数ぶん、相手の山札を上からトラッシュする。
+    - name: やきこがす
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 851
+  species: はつねつポケモン
+  heightMetres: 3
+  weightKilograms: 120
+  flavourText: 発熱時の 体温は およそ ８００度。 体を 鞭のように しならせて 跳びかかってくるぞ。
+  evolvesFrom: ヤクデ
+rarity: S
+illustrators:
+  - SATOSHI NAKAI

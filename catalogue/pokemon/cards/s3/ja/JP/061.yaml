@@ -1,0 +1,29 @@
+name: フーパ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: アサルトゲート
+      cost:
+        - Darkness
+      damage: "90"
+      text: この番、このポケモンがベンチからバトル場に出ていないなら、このワザは失敗。このワザのダメージは弱点を計算しない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 720
+  species: まじんポケモン
+  heightMetres: 6.5
+  weightKilograms: 490
+  flavourText: 気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。
+rarity: R
+illustrators:
+  - so-taro

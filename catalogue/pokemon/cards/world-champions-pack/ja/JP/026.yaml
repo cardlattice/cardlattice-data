@@ -1,0 +1,28 @@
+name: レアコイル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: マグネットフォース
+      cost:
+        - Lightning
+        - Colorless
+      damage: 10×
+      text: 自分の場のエネルギーの合計×10ダメージ。
+  abilities:
+    - name: じきコントロール
+      text: このパワーは、自分の番に、自分のトラッシュに基本エネルギーがあるなら、1回使うことができる。自分の手札からカードを1枚選び出し、トラッシュする。その後、自分のトラッシュから、基本エネルギーを2枚まで選び出し、相手プレイヤーに見せてから、手札に加える（トラッシュしたカードを選ぶことはできない）。このポケモンが特殊状態なら、このパワーを使うことはできない。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Metal
+  retreatCost: 1
+  evolvesFrom: コイル
+rarity: ★
+illustrators:
+  - Masakazu Fukuda

@@ -1,0 +1,34 @@
+name: カマスジョー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "30"
+    - name: スクリュージェット
+      cost:
+        - Water
+      damage: "130"
+      text: 自分の手札から{Water}エネルギーを2枚トラッシュする。2枚トラッシュできないなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 847
+  species: くしざしポケモン
+  heightMetres: 1.3
+  weightKilograms: 30
+  flavourText: 槍のように 尖った 顎は 鋼の 硬さ。 その 身は 驚くほど 美味しいらしい。
+  evolvesFrom: サシカマス
+rarity: U
+illustrators:
+  - Kouki Saitou

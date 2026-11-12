@@ -1,0 +1,11 @@
+name: AZ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分のポケモンを1匹選び、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Naoki Saito

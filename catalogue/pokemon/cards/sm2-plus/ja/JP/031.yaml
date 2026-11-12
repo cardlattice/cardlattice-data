@@ -1,0 +1,32 @@
+name: ソルロック
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ダブルドロー
+      cost:
+        - Colorless
+      text: 自分の山札を2枚引く。
+    - name: ソーラーヒート
+      cost:
+        - Fighting
+      damage: 20+
+      text: 場にスタジアムが出ているなら、20ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 338
+  species: いんせきポケモン
+  heightMetres: 1.2
+  weightKilograms: 154
+  flavourText: 太陽エネルギーが パワーの 源 なので 昼間は 強い。 回転すると 体が 光る。
+illustrators:
+  - Masakazu Fukuda

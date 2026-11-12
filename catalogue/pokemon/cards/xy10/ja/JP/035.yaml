@@ -1,0 +1,29 @@
+name: ヨーギラス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: とつげき
+      cost:
+        - Colorless
+      damage: "20"
+      text: このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 246
+  species: いわはだポケモン
+  heightMetres: 0.6
+  weightKilograms: 72
+  flavourText: 地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。
+rarity: C
+illustrators:
+  - Suwama Chiaki

@@ -1,0 +1,36 @@
+name: デンチュラ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: しびればり
+      cost:
+        - Lightning
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: おいうちショック
+      cost:
+        - Lightning
+        - Colorless
+      damage: 20×
+      text: 相手のバトルポケモンにのっているダメカンの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 596
+  species: でんきグモポケモン
+  heightMetres: 0.8
+  weightKilograms: 14.3
+  flavourText: 電気を 帯びた お腹の 毛を 飛ばして 攻撃。 毛が 刺さると 三日三晩 全身が 痺れる。
+  evolvesFrom: バチュル
+rarity: U
+illustrators:
+  - Shigenori Negishi

@@ -1,0 +1,31 @@
+name: パルスワンV
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: そうでん
+      cost:
+        - Lightning
+      text: 自分の山札から{Lightning}エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。
+    - name: ライトニングストーム
+      cost:
+        - Lightning
+        - Colorless
+      damage: 10+
+      text: 自分の場のポケモンについている{Lightning}エネルギーの数×30ダメージ追加。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - aky CG Works

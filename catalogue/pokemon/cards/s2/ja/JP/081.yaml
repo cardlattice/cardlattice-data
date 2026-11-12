@@ -1,0 +1,40 @@
+name: ケンホロウ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: ひるませる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。
+    - name: エアスラッシュ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 521
+  species: プライドポケモン
+  heightMetres: 1.2
+  weightKilograms: 29
+  flavourText: 高い 飛行能力を もち メスは 持久力に 優れる。 飛行スピードは オスが 勝る。
+  evolvesFrom: ハトーボー
+rarity: U
+illustrators:
+  - Naoyo Kimura

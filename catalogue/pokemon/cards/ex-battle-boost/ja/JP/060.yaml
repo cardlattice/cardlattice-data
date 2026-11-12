@@ -1,0 +1,36 @@
+name: ランクルス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: みらいよち
+      cost:
+        - Colorless
+      text: 自分の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: ネットフォース
+      cost:
+        - Psychic
+      damage: 40×
+      text: 自分の場にいる「ランクルス」の数×40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 579
+  species: ぞうふくポケモン
+  heightMetres: 1
+  weightKilograms: 20.1
+  flavourText: ランクルス 同士が 握手すると 脳みそが ネットワークで つながり サイコパワーが 増幅されるのだ。
+  evolvesFrom: ダブラン
+illustrators:
+  - Kyoko Umemoto
+variants:
+  first-edition:
+    edition: first-edition

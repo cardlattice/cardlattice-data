@@ -1,0 +1,29 @@
+name: ヤミラミ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: そくばく
+      cost:
+        - Darkness
+      text: 次の相手の番、相手は手札からサポートを出して使えない。
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 302
+  species: くらやみポケモン
+  heightMetres: 0.5
+  weightKilograms: 11
+  flavourText: 宝石が 好物で メレシーを 狙って 付け回しているが ガバイトに 横取り されてしまう。
+illustrators:
+  - Aya Kusube

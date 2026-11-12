@@ -1,0 +1,34 @@
+name: ビリジオン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: すくいだす
+      cost:
+        - Grass
+      text: 自分のトラッシュからポケモンを2枚選び、相手に見せてから、手札に加える。
+    - name: サイドカウンター
+      cost:
+        - Grass
+        - Grass
+      damage: 40+
+      text: 自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、80ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 640
+  species: そうげんポケモン
+  heightMetres: 2
+  weightKilograms: 200
+  flavourText: 素早い 身のこなしで 相手を 翻弄して ポケモンを 守ると 伝説で 伝えられている。
+rarity: R
+illustrators:
+  - match

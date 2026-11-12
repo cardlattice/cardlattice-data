@@ -1,0 +1,28 @@
+name: アローラ コラッタ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost: []
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 19
+  species: ねずみポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.8
+  flavourText: 日が 暮れると 活動。 群れの ボスである ラッタのため いい餌を 求めて 街中を 駆け廻る。
+illustrators:
+  - Kouki Saitou

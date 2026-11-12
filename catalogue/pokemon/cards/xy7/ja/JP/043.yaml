@@ -1,0 +1,37 @@
+name: MバンギラスEX
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Darkness
+  stage: MEGA
+  attacks:
+    - name: デストロイヤーキング
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 110+
+      text: 相手のバトルポケモンにのっているダメカンの数×60ダメージを追加。
+  abilities:
+    - name: Θ（シータ）ダブル
+      text: このポケモンは、「ポケモンのどうぐ」を2枚までつけられる。
+      kind: Ancient Trait
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  evolvesFrom: バンギラスEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,38 @@
+name: メロエッタ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコキネシス
+      cost:
+        - Psychic
+      damage: 10+
+      text: 相手のバトルポケモンについているエネルギーの数×20ダメージを追加。
+    - name: エコーボイス
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 次の自分の番、このポケモンが使う「エコーボイス」のダメージは「+50」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 648
+  species: せんりつポケモン
+  heightMetres: 0.6
+  weightKilograms: 6.5
+  flavourText: メロエッタの 奏でる 旋律は 周りの ポケモンを 喜ばせたり 悲しませるほどの パワーがある。
+illustrators:
+  - kawayoo
+variants:
+  first-edition:
+    edition: first-edition

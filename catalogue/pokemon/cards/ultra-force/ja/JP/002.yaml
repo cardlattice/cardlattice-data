@@ -1,0 +1,37 @@
+name: ハヤシガメ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: メガドレイン
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+      text: このポケモンのHPを「30」回復する。
+    - name: はっぱカッター
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 388
+  species: こだちポケモン
+  heightMetres: 1.1
+  weightKilograms: 97
+  flavourText: きれいな 水が わき出る 場所を 知っていて 仲間の ポケモンを 背中に 乗せて そこまで 運ぶ。
+  evolvesFrom: ナエトル
+illustrators:
+  - Shigenori Negishi

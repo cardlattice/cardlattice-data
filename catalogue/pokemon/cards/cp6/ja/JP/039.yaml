@@ -1,0 +1,38 @@
+name: エレブー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: でんきショック
+      cost:
+        - Lightning
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: かみなりパンチ
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: コインを1回投げオモテなら、10ダメージを追加。ウラなら、このポケモンにも10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 125
+  species: でんげきポケモン
+  heightMetres: 1.1
+  weightKilograms: 30
+  flavourText: つよい 電気が 大好物で 大きな 発電所 などに しばしば あらわれる。
+  level: 35
+rarity: C
+illustrators:
+  - Ken Sugimori

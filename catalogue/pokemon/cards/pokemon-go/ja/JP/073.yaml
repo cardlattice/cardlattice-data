@@ -1,0 +1,35 @@
+name: ミュウツーV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ちょうねんりき
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+    - name: トランスブレイク
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "160"
+      text: このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+rarity: SR
+illustrators:
+  - PLANETA Mochizuki

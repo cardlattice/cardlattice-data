@@ -1,0 +1,11 @@
+name: フラダリ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Ken Sugimori

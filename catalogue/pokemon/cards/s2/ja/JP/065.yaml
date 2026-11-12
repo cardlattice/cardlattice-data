@@ -1,0 +1,33 @@
+name: ミカルゲ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: うらみわけ
+      cost:
+        - Darkness
+      text: おたがいの山札を上から1枚ずつトラッシュする。
+    - name: むねんのしずく
+      cost:
+        - Darkness
+        - Colorless
+      text: 自分のトラッシュにあるポケモンの枚数ぶんのダメカンを、相手のバトルポケモンにのせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 442
+  species: ふういんポケモン
+  heightMetres: 1
+  weightKilograms: 108
+  flavourText: ５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。
+rarity: U
+illustrators:
+  - Tomokazu Komiya

@@ -1,0 +1,34 @@
+name: ベベノム
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくえき
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをどくにする。
+    - name: コープスリバイバー
+      cost:
+        - Psychic
+        - Colorless
+      text: 次の相手の番、このポケモンがきぜつしても、相手はサイドをとれない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 803
+  species: どくばりポケモン
+  heightMetres: 0.6
+  weightKilograms: 1.8
+  flavourText: 異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。
+  subtypes:
+    - Ultra Beast
+illustrators:
+  - Megumi Mizutani

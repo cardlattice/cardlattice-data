@@ -1,0 +1,34 @@
+name: ニョロモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+      damage: "10"
+    - name: ハイドロポンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: このポケモンについている{Water}エネルギーの数×10ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 60
+  species: おたまポケモン
+  heightMetres: 0.6
+  weightKilograms: 12.4
+  flavourText: まだまだ 歩くのが 下手。 トレーナーに なったら 毎日 歩く 訓練を してあげよう。
+illustrators:
+  - Asako Ito

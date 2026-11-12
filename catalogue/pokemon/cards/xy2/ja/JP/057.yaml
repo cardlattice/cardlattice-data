@@ -1,0 +1,35 @@
+name: ドラミドロ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: どくをはく
+      cost:
+        - Water
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+  abilities:
+    - name: どくのけっかい
+      text: このポケモンがいるかぎり、相手のどくのポケモンは、にげられない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 691
+  species: クサモドキポケモン
+  heightMetres: 1.8
+  weightKilograms: 81.5
+  flavourText: タンカーの 船体を 腐らせる 猛毒を 縄張りに 入りこんだ ものに 見境なく 吐きかける。
+  evolvesFrom: クズモー
+rarity: U
+illustrators:
+  - 5ban Graphics

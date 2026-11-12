@@ -1,0 +1,11 @@
+name: ターゲットホイッスル（フレア団ギア）
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

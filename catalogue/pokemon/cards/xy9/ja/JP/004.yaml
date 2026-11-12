@@ -1,0 +1,28 @@
+name: タネボー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 273
+  species: どんぐりポケモン
+  heightMetres: 0.5
+  weightKilograms: 4
+  flavourText: 枝に ぶらさがっていると 木の実に そっくり。 ついばもうとした ポケモンを 驚かせて 喜ぶ。
+rarity: C
+illustrators:
+  - Kanako Eo

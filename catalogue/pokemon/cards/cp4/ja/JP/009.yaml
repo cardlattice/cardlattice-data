@@ -1,0 +1,31 @@
+name: ヌケニン
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: カースレイン
+      cost:
+        - Grass
+      text: 相手のポケモン全員に、ダメカンをそれぞれ1個ずつのせる。このポケモンをベンチポケモンと入れ替える。
+    - name: はかないさけび
+      cost:
+        - Colorless
+      damage: 50×
+      text: このポケモンにのっているダメカンの数×50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 292
+  species: ぬけがらポケモン
+  heightMetres: 0.8
+  weightKilograms: 1.2
+  flavourText: ツチニンが 進化する ときに いつの間にか モンスターボールに 入っている 不思議な ポケモンだ。
+  evolvesFrom: ツチニン
+illustrators:
+  - Aya Kusube

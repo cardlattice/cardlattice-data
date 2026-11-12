@@ -1,0 +1,35 @@
+name: ストリンダー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: ポイズンシャウト
+      cost:
+        - Lightning
+      text: 相手のポケモン全員に、それぞれ20ダメージ。相手のバトルポケモンをどくにする。［ベンチは弱点・抵抗力を計算しない。］
+    - name: ぶちかます
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 849
+  species: パンクポケモン
+  heightMetres: 1.6
+  weightKilograms: 40
+  flavourText: 胸の 突起を 掻きむしり 電気を 起こすとき あたりに ギターのような 音が 響く。
+  evolvesFrom: エレズン
+rarity: U
+illustrators:
+  - TOKIYA

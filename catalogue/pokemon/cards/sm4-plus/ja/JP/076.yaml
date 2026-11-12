@@ -1,0 +1,35 @@
+name: マシェード
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: ゆれるほうし
+      cost:
+        - Fairy
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities:
+    - name: はっこう
+      text: 自分の番に1回使える。自分の山札にある{Fairy}ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 756
+  species: はっこうポケモン
+  heightMetres: 1
+  weightKilograms: 11.5
+  flavourText: 夜中に マシェードの棲む 森に いくのは 危険。 怪しい光に 惑わされ 二度と 帰れなくなる。
+  evolvesFrom: ネマシュ
+illustrators:
+  - kawayoo

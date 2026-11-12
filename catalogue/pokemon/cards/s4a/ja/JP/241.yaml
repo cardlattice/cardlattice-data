@@ -1,0 +1,37 @@
+name: ストリンダー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: リスクテイカー
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを1回投げオモテなら、相手の山札を上から5枚トラッシュする。ウラなら、自分の山札を上から5枚トラッシュする。
+    - name: でんげき
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "160"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 849
+  species: パンクポケモン
+  heightMetres: 1.6
+  weightKilograms: 40
+  flavourText: 胸の 突起を 掻きむしり 電気を 起こすとき あたりに ギターのような 音が 響く。
+  evolvesFrom: エレズン
+rarity: S
+illustrators:
+  - Hideki Ishikawa

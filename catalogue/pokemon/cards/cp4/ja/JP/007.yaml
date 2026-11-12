@@ -1,0 +1,32 @@
+name: MジュカインEX
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Grass
+  stage: MEGA
+  attacks:
+    - name: ジャギドセイバー
+      cost:
+        - Grass
+        - Colorless
+      damage: "100"
+      text: のぞむなら、自分の手札から{Grass}エネルギーを2枚まで選び、ベンチポケモンに好きなようにつけてよい。その後、つけたポケモンのHPをすべて回復する。
+  abilities:
+    - name: Θ（シータ）ストップ
+      text: このポケモンは、相手のポケモンからの特性の効果を受けない。
+      kind: Ancient Trait
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: ジュカインEX
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,10 @@
+name: ネストボール
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - Toyste Beach

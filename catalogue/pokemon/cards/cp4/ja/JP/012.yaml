@@ -1,0 +1,28 @@
+name: ハリマロン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ミサイルばり
+      cost:
+        - Grass
+      damage: 10×
+      text: コインを4回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 650
+  species: いがぐりポケモン
+  heightMetres: 0.4
+  weightKilograms: 9
+  flavourText: 普段 やわらかい 頭の トゲは 力を こめると 鋭く とがり 岩をも つらぬくほど 硬くなる。
+illustrators:
+  - 5ban Graphics

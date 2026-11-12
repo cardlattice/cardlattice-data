@@ -1,0 +1,33 @@
+name: エモンガ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ほっぺすりすり
+      cost:
+        - Lightning
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities:
+    - name: ほっぺのつどい
+      text: 自分の番に1回使える。自分の山札にあるワザ「ほっぺすりすり」を持つポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 587
+  species: モモンガポケモン
+  heightMetres: 0.4
+  weightKilograms: 5
+  flavourText: 電撃で 木の実や むしポケモンを こんがり 焼いて 喰う。 ツツケラが 空けた 木の穴が 主な 巣だ。
+rarity: C
+illustrators:
+  - Megumi Mizutani

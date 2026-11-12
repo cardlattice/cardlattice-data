@@ -1,0 +1,38 @@
+name: キノガッサ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ギガドレイン
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: 相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。
+    - name: スカイアッパー
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "70"
+      text: このワザのダメージは抵抗力の計算をしない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 286
+  species: きのこポケモン
+  heightMetres: 1.2
+  weightKilograms: 39.2
+  flavourText: 短い 腕は パンチを 出すとき グーンと 伸びる。 プロボクサー 顔負けの テクニックを 持つ。
+  evolvesFrom: キノココ
+rarity: U
+illustrators:
+  - Hitoshi Ariga

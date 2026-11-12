@@ -1,0 +1,28 @@
+name: チョボマキ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: しるをとばす
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 616
+  species: マイマイポケモン
+  heightMetres: 0.4
+  weightKilograms: 7.7
+  flavourText: 敵に 襲われると 殻の 蓋を がっちり 閉めて 身を 守る。 ただし カブルモには 開けられる。
+rarity: C
+illustrators:
+  - Megumi Mizutani

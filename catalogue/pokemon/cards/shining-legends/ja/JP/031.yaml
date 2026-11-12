@@ -1,0 +1,30 @@
+name: ビリリダマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: エレキボール
+      cost:
+        - Lightning
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 100
+  species: ボールポケモン
+  heightMetres: 0.5
+  weightKilograms: 10.4
+  flavourText: モンスターボールが 売り出されたのと 同じ 時期に 発見された。 なにか 関係があると いわれる。
+rarity: C
+illustrators:
+  - match

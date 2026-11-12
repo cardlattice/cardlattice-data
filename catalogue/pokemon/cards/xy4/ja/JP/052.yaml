@@ -1,0 +1,36 @@
+name: ポチエナ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: かみつく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: とびかかる
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 261
+  species: かみつきポケモン
+  heightMetres: 0.5
+  weightKilograms: 13.6
+  flavourText: しつこい 性格の ポケモン。 目をつけた 獲物が ヘトヘトに 疲れるまで 追いかけ回す。
+rarity: C
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,32 @@
+name: アローラ コラッタ
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ひっさつまえば
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 19
+  species: ねずみポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.8
+  flavourText: エサを 求めて 夜な夜な 民家に 忍び込む。 大量 発生が 社会 問題と なっている。
+rarity: C
+illustrators:
+  - KIYOTAKA OSHIYAMA
+stamps:
+  - pokemon-go

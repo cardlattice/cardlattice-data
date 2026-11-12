@@ -1,0 +1,28 @@
+name: タマタマ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: れんぞくたまなげ
+      cost:
+        - Grass
+      damage: 20×
+      text: ウラが出るまでコインを投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 102
+  species: たまごポケモン
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  flavourText: テレパシーで 仲間と 交信する。 植物と ある種の タイプの 遺伝子を 併せ持つと いう。
+illustrators:
+  - kawayoo

@@ -1,0 +1,28 @@
+name: パラス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Grass
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 46
+  species: きのこポケモン
+  heightMetres: 0.3
+  weightKilograms: 5.4
+  flavourText: 冬虫夏草と いう キノコが 虫を 操っているのだ。 虫の 意思は 無視される。
+rarity: C
+illustrators:
+  - Atsuko Nishida

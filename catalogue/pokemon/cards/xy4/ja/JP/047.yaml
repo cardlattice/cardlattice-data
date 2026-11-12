@@ -1,0 +1,29 @@
+name: ダンゴロ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 524
+  species: マントルポケモン
+  heightMetres: 0.4
+  weightKilograms: 18
+  flavourText: ６角形の 耳を 持つ。 地底で 圧縮された 体は 鉄に 負けないくらい 硬い。
+rarity: C
+illustrators:
+  - 5ban Graphics

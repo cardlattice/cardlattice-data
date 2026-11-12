@@ -1,0 +1,36 @@
+name: ガラル マッギョ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: はさんでしめる
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: はんげき
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  nationalDex:
+    - 618
+  species: トラップポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.5
+  flavourText: 鉄分 たっぷりの 泥の 中で 生息していたため 頑丈な 鋼の 体に 変化した。
+rarity: U
+illustrators:
+  - Akira Komayama

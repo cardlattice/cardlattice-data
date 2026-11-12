@@ -1,0 +1,35 @@
+name: ヒトカゲ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ひのこ
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: このポケモンについている{Fire}エネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 4
+  species: とかげポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.5
+  flavourText: 生まれたときから 尻尾に 炎が ともっている。 炎が 消えたとき その 命は 終わって しまう。
+  level: 10
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

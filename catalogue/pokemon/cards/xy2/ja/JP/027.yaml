@@ -1,0 +1,35 @@
+name: コリンク
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: にらむ
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: バチバチ
+      cost:
+        - Lightning
+        - Lightning
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 403
+  species: せんこうポケモン
+  heightMetres: 0.5
+  weightKilograms: 9.5
+  flavourText: 体を 動かすたびに 筋肉が 伸び縮みして 電気が 生まれる。 ピンチになると 体が 輝く。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

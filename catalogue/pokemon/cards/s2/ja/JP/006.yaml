@@ -1,0 +1,29 @@
+name: アメタマ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: こうそくいどう
+      cost:
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 283
+  species: あめんぼポケモン
+  heightMetres: 0.5
+  weightKilograms: 1.7
+  flavourText: 水草の 多い 池や 沼に 棲む。 棲息地も 食う エサも 近い シズクモと よく 争う。
+rarity: C
+illustrators:
+  - Masakazu Fukuda

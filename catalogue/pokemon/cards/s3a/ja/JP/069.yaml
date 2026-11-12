@@ -1,0 +1,13 @@
+name: ゴツゴツメット
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Studio Bora Inc.

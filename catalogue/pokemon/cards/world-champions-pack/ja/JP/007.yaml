@@ -1,0 +1,28 @@
+name: リザード
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: こわいかお
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、次の相手の番、このワザを受けた相手は、ワザを使うことができず、にげるもできない。
+    - name: ほのおのしっぽ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ヒトカゲ
+rarity: ◆
+illustrators:
+  - Midori Harada

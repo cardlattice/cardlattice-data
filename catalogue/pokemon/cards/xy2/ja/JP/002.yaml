@@ -1,0 +1,33 @@
+name: トランセル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: かたくなる
+      cost:
+        - Colorless
+        - Colorless
+      text: 次の相手の番、このポケモンは「60」以下のワザのダメージを受けない。
+  abilities:
+    - name: てきおうしんか
+      text: このポケモンは、最初の自分の番や出したばかりの番でも進化できる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 11
+  species: さなぎポケモン
+  heightMetres: 0.7
+  weightKilograms: 9.9
+  flavourText: 鋼鉄のように 硬い 殻で やわらかい 中身を 守っている。 進化するまで じっと 耐えている。
+  evolvesFrom: キャタピー
+rarity: C
+illustrators:
+  - kawayoo

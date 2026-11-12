@@ -1,0 +1,30 @@
+name: ヤブクロン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ベノムショック
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 相手のバトルポケモンがどくなら、50ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 568
+  species: ゴミぶくろポケモン
+  heightMetres: 0.6
+  weightKilograms: 31
+  flavourText: 不衛生な 場所が 好き。 ゴミで 汚したまま 放っておくと 部屋にも 現れて 棲みつく。
+rarity: C
+illustrators:
+  - HYOGONOSUKE
