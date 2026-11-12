@@ -1,0 +1,26 @@
+name: 呱呱泡蛙
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 拍击
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 从胸部和背部发出泡泡。用具有弹力的泡泡抵挡攻击，减少伤害。

@@ -1,0 +1,25 @@
+name: 藤藤蛇
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 藤鞭
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 智商很高且非常冷静。充分地沐浴阳光后，动作会变得敏捷。

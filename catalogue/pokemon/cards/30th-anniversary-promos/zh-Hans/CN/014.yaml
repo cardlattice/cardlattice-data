@@ -1,0 +1,27 @@
+name: 暖暖猪
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 火花
+      cost:
+        - Fire
+        - Fire
+      damage: "40"
+      text: 选择这只宝可梦身上附着的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 会从鼻孔中喷出火焰。如果感冒了就不会再喷火，而是会喷出漆黑的烟。

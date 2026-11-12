@@ -1,0 +1,25 @@
+name: 火稚鸡
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 啄
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 会紧贴着训练家摇摇晃晃地走路。能从嘴里喷出摄氏1000度的灼热火球把对手烧焦。

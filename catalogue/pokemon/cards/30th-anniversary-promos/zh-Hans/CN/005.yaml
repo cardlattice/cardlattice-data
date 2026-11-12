@@ -1,0 +1,27 @@
+name: 火球鼠
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 撞击
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 胆小怯懦，总是将身体缩成球形。受到袭击时会猛烈燃烧背上的火焰保护自己。

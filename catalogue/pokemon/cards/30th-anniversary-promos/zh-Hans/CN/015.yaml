@@ -1,0 +1,27 @@
+name: 水水獭
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 贝壳刃
+      cost:
+        - Water
+        - Colorless
+      damage: 10+
+      text: 抛掷1次硬币，如果为正面，则追加造成30伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 用腹部的扇贝贝战斗。抵挡住攻击后，会立马切斩反击。

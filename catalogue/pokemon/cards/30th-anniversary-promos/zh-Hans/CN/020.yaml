@@ -1,0 +1,27 @@
+name: 火斑喵
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 火焰牙
+      cost:
+        - Fire
+        - Fire
+      damage: "20"
+      text: 令对手的战斗宝可梦陷入灼伤状态。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 通过理毛然后将积在腹中的落毛燃烧，喷出火焰。根据吐毛的方式不同，火焰也会变化。

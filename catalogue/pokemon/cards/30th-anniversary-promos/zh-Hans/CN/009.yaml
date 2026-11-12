@@ -1,0 +1,26 @@
+name: 水跃鱼
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 掷泥
+      cost:
+        - Water
+        - Water
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 头上的鳍是非常灵敏的雷达。可以不靠眼睛，从水或空气的流动中探测周围的情况。

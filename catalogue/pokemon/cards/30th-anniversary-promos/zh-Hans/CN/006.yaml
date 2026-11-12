@@ -1,0 +1,27 @@
+name: 小锯鳄
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 咬住
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "50"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 因为它发达的颚充满了力量，不管是什么都能咬碎，所以就算是它的训练家也要当心。

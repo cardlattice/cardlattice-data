@@ -1,0 +1,26 @@
+name: 木木枭
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 撞击
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 戒备心很强。白天利用光合作用积蓄力量，到了晚上就开始活动。

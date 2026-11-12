@@ -1,0 +1,26 @@
+name: 小火龙
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 火花
+      cost:
+        - Fire
+      damage: "30"
+      text: 选择这只宝可梦身上附着的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 生下来的时候，尾巴上就有火焰在燃烧。火焰熄灭时，它的生命也会结束。

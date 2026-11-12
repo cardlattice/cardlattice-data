@@ -1,0 +1,25 @@
+name: 木守宫
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 拍击
+      cost:
+        - Grass
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 能够用脚底的小刺钩住垂直的墙壁攀爬。会甩动粗粗的尾巴进行摔打。

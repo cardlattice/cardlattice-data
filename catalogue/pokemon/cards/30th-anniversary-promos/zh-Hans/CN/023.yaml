@@ -1,0 +1,27 @@
+name: 炎兔儿
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 二连踢
+      cost:
+        - Fire
+        - Colorless
+      damage: 20×
+      text: 抛掷2次硬币，造成正面次数×20伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 不断奔跑使体温升高后，火之能量会在它身体循环，促使它发挥出真正的力量。
