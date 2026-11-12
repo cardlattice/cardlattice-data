@@ -1,0 +1,32 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 바람쐬기
+      cost:
+        - Colorless
+      text: 이 포켓몬의 특수 상태를 모두 회복한다.
+    - name: 걷어차기
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - svlt

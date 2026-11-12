@@ -1,0 +1,30 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 볼트태클
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 이 포켓몬에게도 30데미지를 준다.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - danciao

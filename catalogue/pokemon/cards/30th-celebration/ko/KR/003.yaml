@@ -1,0 +1,31 @@
+name: 볼비트
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 유인하는빛
+      cost:
+        - Grass
+      text: 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다.
+    - name: 벌레의야단법석
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 엉덩이의 빛을 반짝거려 동료와 대화한다. 네오비트가 내는 달콤한 향기를 아주 좋아한다.
+  heightMetres: 0.7
+  weightKilograms: 17.7
+  species: 반딧불포켓몬
+  nationalDex:
+    - 313
+  resistances: []
+illustrators:
+  - Yoriyuki Ikegami

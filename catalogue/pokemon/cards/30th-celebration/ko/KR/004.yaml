@@ -1,0 +1,30 @@
+name: 네오비트
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 부딪치기
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 굉장한 페로몬
+      kind: Ability
+      text: 자신의 필드에 「볼비트」가 있다면 작용한다. 이 포켓몬이 있는 한, 서로의 배틀 포켓몬의 약점은 「×3」으로 계산을 한다.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  flavourText: 볼비트를 유도해서 밤하늘에 사인을 그린다. 사인의 뜻을 연구하는 학자도 있다.
+  heightMetres: 0.6
+  weightKilograms: 17.7
+  species: 반딧불포켓몬
+  nationalDex:
+    - 314
+  resistances: []
+illustrators:
+  - Shibuzoh.

@@ -1,0 +1,33 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 충전대시
+      cost:
+        - Colorless
+      text: 뒷면이 나올 때까지 동전을 던져서 앞면이 나온 수만큼까지 자신의 덱에서 「기본 {Lightning} 에너지」를 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다.
+    - name: 피카볼트
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - Akira Komayama

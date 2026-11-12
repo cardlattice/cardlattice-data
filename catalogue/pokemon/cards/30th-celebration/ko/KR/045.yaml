@@ -1,0 +1,29 @@
+name: 피카츄
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 번개떨구기
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      text: 이 포켓몬에게 붙어 있는 {Lightning} 에너지를 모두 트래쉬하고 상대의 포켓몬 1마리에게 90데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  flavourText: 뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.
+  heightMetres: 0.4
+  weightKilograms: 6
+  species: 쥐포켓몬
+  nationalDex:
+    - 25
+  resistances: []
+finishes:
+  - holo
+illustrators:
+  - nagimiso

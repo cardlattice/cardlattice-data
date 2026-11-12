@@ -1,0 +1,30 @@
+name: 야돈
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 우물에숨기
+      cost:
+        - Colorless
+      text: 동전을 1번 던져서 앞면이 나오면 상대의 다음 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다.
+    - name: 물대포
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  flavourText: 물가에서 멍하니 있다. 뭔가가 꼬리를 깨물어도 하루 종일 눈치채지 못한다.
+  heightMetres: 1.2
+  weightKilograms: 36
+  species: 얼간이포켓몬
+  nationalDex:
+    - 79
+  resistances: []
+illustrators:
+  - Uninori
