@@ -328,6 +328,26 @@ it("preserves native printed Pokédex text and measurements", () => {
       filename,
     ).length,
   ).toBeGreaterThan(0);
-  for (const rarity of ["C", "U", "R", "RR", "SR", "AR", "SAR"])
+  for (const rarity of [
+    "C",
+    "U",
+    "R",
+    "RR",
+    "SR",
+    "AR",
+    "SAR",
+    "RRR",
+    "HR",
+    "UR",
+    "S",
+    "SSR",
+    "PR",
+    "FUR",
+    "●",
+    "◆",
+    "★",
+    "★★",
+    "★★★",
+  ])
     expect(validateCard(`name: Original synthetic card\nrarity: ${rarity}`, filename)).toEqual([]);
 });
