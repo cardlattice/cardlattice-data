@@ -266,7 +266,6 @@ it("accepts printed Tool attacks while preserving category and attack validation
     tool.replace("[Pokémon Tool]", "[Supporter]"),
     tool.replace("  subtypes: [Pokémon Tool]\n", ""),
     tool + "  hp: 60\n",
-    tool + "  abilities: []\n",
     tool + "  stage: Basic\n",
     tool + "  retreatCost: 0\n",
     tool.replace("Original synthetic attack", '" "'),
@@ -462,4 +461,35 @@ it("accepts explicit unnumbered printings without authoring compiler identity fi
       filename,
     ).length,
   ).toBeGreaterThan(0);
+});
+
+it("validates printed power markers on attacks and abilities", () => {
+  const fields = `name: Example
+pokemon:
+  category: pokemon
+  attacks: [{name: Original attack, cost: [], power: VSTAR}]
+  abilities: [{name: Original ability, text: Original effect., kind: Ability, power: VSTAR}]
+`;
+  expect(validateCard(fields, filename)).toEqual([]);
+  for (const invalid of ["vstar", "V-Star", "Unknown"]) {
+    expect(validateCard(fields.replaceAll("VSTAR", invalid), filename).length).toBeGreaterThan(0);
+  }
+});
+
+it("accepts a Tool VSTAR ability without allowing Pokemon stats", () => {
+  const card = `name: Example
+pokemon:
+  category: trainer
+  subtypes: [Item, Pokémon Tool]
+  abilities: [{name: Original power, kind: Ability, text: Original effect., power: VSTAR}]
+`;
+  expect(validateCard(card, filename)).toEqual([]);
+  for (const invalid of [
+    card.replace("[Item, Pokémon Tool]", "[Item]"),
+    card.replace("[Item, Pokémon Tool]", "[Supporter]"),
+    card + "  hp: 30\n",
+    card + "  stage: Basic\n",
+  ]) {
+    expect(validateCard(invalid, filename).length).toBeGreaterThan(0);
+  }
 });
