@@ -1,0 +1,31 @@
+name: 玛纳霏
+rarity: C
+illustrators:
+  - Narumi Sato
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 490
+  species: 回游宝可梦
+  heightMetres: 0.3
+  weightKilograms: 1.4
+  flavourText: 拥有神奇的能力，能与任何宝可梦心意相通。
+  attacks:
+    - name: 飞溅
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: 海洋搜索
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。查看自己牌库上方6张卡牌，选择其中1张宝可梦，在给对手看过之后，加入手牌。将剩余的卡牌放回牌库并重洗牌库。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

@@ -1,0 +1,31 @@
+name: 路卡利欧
+rarity: C
+illustrators:
+  - Hideki Ishikawa
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: 波导弹
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "100"
+      text: 给对手的1只备战宝可梦也造成60伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: 利欧路
+  nationalDex:
+    - 448
+  species: 波导宝可梦
+  heightMetres: 1.2
+  weightKilograms: 54
+  flavourText: 通过读取所有东西发出的波导，远在1公里以外的对手的情绪也能掌握。

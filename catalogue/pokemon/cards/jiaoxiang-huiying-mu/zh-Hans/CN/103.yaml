@@ -1,0 +1,35 @@
+name: 盖诺赛克特
+rarity: U
+illustrators:
+  - Anesaki Dynamic
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  nationalDex:
+    - 649
+  species: 古生代宝可梦
+  heightMetres: 1.5
+  weightKilograms: 82.5
+  flavourText: 被等离子队改造过的古代的虫宝可梦。背上的大炮力量得到了提升。
+  attacks:
+    - name: 分叉光束
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 给对手的2只备战宝可梦，也各造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 高速飞行形态
+      kind: Ability
+      text: 如果对手场上有「宝可梦GX・EX」的话，则这只宝可梦撤退所需能量，全部消除。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

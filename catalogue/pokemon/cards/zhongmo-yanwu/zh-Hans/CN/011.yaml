@@ -1,0 +1,32 @@
+name: 乐天河童
+rarity: R
+illustrators:
+  - sowsow
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: 莲帽小童
+  nationalDex:
+    - 272
+  species: 乐天宝可梦
+  heightMetres: 1.5
+  weightKilograms: 55
+  flavourText: 乐天河童会跟着欢快的音乐摇摆身体，从而增强自己的力量。
+  attacks:
+    - name: 飞溅
+      cost:
+        - Water
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: 激情热舞
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出并进行进化时，可使用1次。在这个回合，自己的基础宝可梦所使用的招式，给对手战斗宝可梦造成的伤害「+100」。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2

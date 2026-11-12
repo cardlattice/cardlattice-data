@@ -1,0 +1,32 @@
+name: 比克提尼V
+rarity: RR
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 胜利子弹
+      cost:
+        - Fire
+      damage: 10+
+      text: 如果对手的战斗宝可梦是「宝可梦V」的话，则追加造成50点伤害。
+    - name: 闪焰射击
+      cost:
+        - Fire
+        - Colorless
+      damage: "120"
+      text: 将附着于这只宝可梦身上的能量，全部放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,13 @@
+name: 诸岛巡礼之证
+rarity: U
+illustrators:
+  - sadaji
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - 宝可梦道具可以附着在自己的宝可梦身上。每只宝可梦身上只可以附着1张宝可梦道具，并保持附加状态。
+    - 身上放有这张卡牌的「宝可梦GX・EX」的最大HP会减少「100」点，当该宝可梦受到对手的招式的伤害而昏厥时，对手拿取的奖赏卡将减少1张。
+    - 在自己的回合可以使用任意张物品卡。

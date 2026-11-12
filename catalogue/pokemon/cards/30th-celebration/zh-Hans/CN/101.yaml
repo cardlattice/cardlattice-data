@@ -1,0 +1,13 @@
+name: 高级球
+rarity: C
+regulationMark: I
+illustrators:
+  - Yuka Morii
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 只有将自己的2张手牌放于弃牌区后才可以使用这张卡牌。
+    - 选择自己牌库中的1张宝可梦，在给对手看过之后加入手牌。并重洗牌库。
+    - 在自己的回合可以使用任意张物品卡。

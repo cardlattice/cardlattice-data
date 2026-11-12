@@ -1,0 +1,11 @@
+name: 等级球
+rarity: UR
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 从自己牌库中，选择1张HP在「90」以下（包含「90」）的宝可梦，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合可以使用任意张物品卡。

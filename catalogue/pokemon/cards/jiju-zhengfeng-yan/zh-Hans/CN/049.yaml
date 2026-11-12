@@ -1,0 +1,34 @@
+name: 闪焰王牌
+rarity: R
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: 腾蹴小将
+  nationalDex:
+    - 815
+  species: 前锋宝可梦
+  heightMetres: 1.4
+  weightKilograms: 33
+  flavourText: 拥有熟练的进攻和防守技巧。只要得到声援就会更有冲劲，但有时会为了出风头而弄巧成拙。
+  attacks:
+    - name: 闪焰前锋
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "190"
+      text: 选择附着于这只宝可梦身上的2个能量，放于弃牌区。
+  abilities:
+    - name: 自由者
+      kind: Ability
+      text: 在自己的回合，当这只宝可梦从备战区被放入战斗场时，可使用1次。选择自己弃牌区中最多2张{Fire}能量，附着于这只宝可梦身上。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1

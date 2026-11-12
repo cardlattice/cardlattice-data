@@ -1,0 +1,35 @@
+name: 黑马蕾冠王VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Psychic
+  stage: VMAX
+  evolvesFrom: 黑马蕾冠王V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨灵魂
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: 追加造成自己场上宝可梦身上附有的{Psychic}能量数量×30点伤害。
+  abilities:
+    - name: 冥界之门
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己手牌中的1张{Psychic}能量，附着于自己备战区的{Psychic}宝可梦身上。然后，从自己牌库上方抽取2张卡牌。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

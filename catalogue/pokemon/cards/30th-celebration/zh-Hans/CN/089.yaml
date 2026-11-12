@@ -1,0 +1,30 @@
+name: 心鳞宝
+rarity: C
+illustrators:
+  - miki kudo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: 刺耳声
+      cost:
+        - Colorless
+      text: 在下一个自己的回合，受到这个招式影响的宝可梦所受到的招式的伤害「+30」。
+    - name: 龙爪
+      cost:
+        - Lightning
+        - Fighting
+      damage: "40"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 782
+  species: 鳞片宝可梦
+  heightMetres: 0.6
+  weightKilograms: 29.7
+  flavourText: 通过敲击鳞片的声音来和伙伴交流。聚在一起时就会非常吵。

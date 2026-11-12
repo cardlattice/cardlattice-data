@@ -1,0 +1,11 @@
+name: 涡轮补丁
+rarity: UR
+illustrators:
+  - Toyste Beach
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 抛掷1次硬币如果为正面，则选择自己弃牌区中的1张基本能量，附着于自己的基础宝可梦（除「宝可梦GX」外）身上。
+    - 在自己的回合可以使用任意张物品卡。

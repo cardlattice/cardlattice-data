@@ -1,0 +1,33 @@
+name: 伊裴尔塔尔
+rarity: A
+illustrators:
+  - Hasuno
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Basic
+  nationalDex:
+    - 717
+  species: 破坏宝可梦
+  heightMetres: 5.8
+  weightKilograms: 203
+  flavourText: 听说，寿命终结时，会吸光所有生物的生命，返回到茧的样子。
+  attacks:
+    - name: 奇幻终焉
+      cost:
+        - Fire
+        - Psychic
+        - Darkness
+        - Colorless
+        - Colorless
+      text: 使对手的战斗宝可梦昏厥。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

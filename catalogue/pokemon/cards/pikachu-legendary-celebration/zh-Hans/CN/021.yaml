@@ -1,0 +1,27 @@
+name: 冲浪皮卡丘V
+regulationMark: E
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 冲浪
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "150"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

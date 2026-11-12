@@ -1,0 +1,11 @@
+name: 组合能量草火水
+rarity: U
+pokemon:
+  category: energy
+  types:
+    - Colorless
+  subtypes:
+    - Special Energy
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就可被视作1个{Grass}{Fire}{Water}3种属性的能量。
+    - 如果没有被附着于宝可梦身上，则被视作1个{Colorless}能量。

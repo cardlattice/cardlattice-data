@@ -1,0 +1,34 @@
+name: 基拉祈
+rarity: A
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  nationalDex:
+    - 385
+  species: 祈愿宝可梦
+  heightMetres: 0.3
+  weightKilograms: 1.1
+  flavourText: 每1000年让它听一次清澈的歌声，就能让它维持7天的清醒。
+  attacks:
+    - name: 奇幻星星
+      cost:
+        - Psychic
+        - Fighting
+        - Metal
+      text: 选择自己牌库中最多7张基本能量，以任意方式附着于自己的宝可梦身上。并重洗牌库。
+  abilities:
+    - name: 梦之启示
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。查看自己牌库上方2张卡牌，选择其中1张卡牌，加入手牌。将剩余的卡牌，放回牌库上方。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1

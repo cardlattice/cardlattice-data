@@ -1,0 +1,8 @@
+name: 伊布GX套装礼盒
+language: zh-Hans
+region: CN
+printedIdentifiers:
+  - language: zh-Hans
+    region: CN
+    code: CSMYC
+printedDenominator: 8

@@ -1,0 +1,30 @@
+name: 皮卡丘
+regulationMark: null
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 40
+  level: 12
+  types:
+    - Lightning
+  attacks:
+    - name: 啃咬
+      cost:
+        - Colorless
+      damage: "10"
+    - name: 电力攻击
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: 抛掷1次硬币，如果为「反面」，则给这只宝可梦也造成10伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

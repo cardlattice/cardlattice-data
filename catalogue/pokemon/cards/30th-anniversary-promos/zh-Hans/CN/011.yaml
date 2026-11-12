@@ -1,0 +1,27 @@
+name: 小火焰猴
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 乱抓
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 抛掷3次硬币，造成正面次数×20伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 在悬崖峭壁间也能穿梭自如。生活在岩山之上。睡觉时会将火焰熄灭。

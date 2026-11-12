@@ -1,0 +1,29 @@
+name: 珍珠贝
+rarity: C
+illustrators:
+  - Anesaki Dynamic
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 366
+  species: 双壳贝宝可梦
+  heightMetres: 0.4
+  weightKilograms: 52.5
+  flavourText: 珍珠贝的珍珠非常贵重。据说，其价值或许是大舌贝珍珠的10倍以上。
+  attacks:
+    - name: 泡沫溅射
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2

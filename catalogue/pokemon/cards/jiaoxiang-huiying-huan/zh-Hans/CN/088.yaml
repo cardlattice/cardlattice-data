@@ -1,0 +1,35 @@
+name: 花洁夫人
+rarity: R
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fairy
+  stage: Stage 2
+  evolvesFrom: 花叶蒂
+  nationalDex:
+    - 671
+  species: 花园宝可梦
+  heightMetres: 1.1
+  weightKilograms: 10
+  flavourText: 会操纵自己培育的花。花洁夫人释放的落英缤纷，其美貌和力量都是压倒性的。
+  attacks:
+    - name: 花瓣舞
+      cost:
+        - Fairy
+        - Colorless
+      damage: 60×
+      text: 抛掷3次硬币，造成正面次数×60点伤害。使这只宝可梦陷入混乱状态。
+  abilities:
+    - name: 摘花
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出并进行进化时，可使用1次。在不看正面的前提下选择对手2张手牌，在查看过该卡牌的正面之后，放回对手牌库并重洗牌库。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2

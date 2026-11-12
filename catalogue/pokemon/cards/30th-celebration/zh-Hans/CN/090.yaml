@@ -1,0 +1,31 @@
+name: 鳞甲龙
+rarity: C
+illustrators:
+  - Jiro Sasumo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: 锐利之牙
+      cost:
+        - Colorless
+      damage: "20"
+    - name: 龙爪
+      cost:
+        - Lightning
+        - Fighting
+      damage: "70"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: 心鳞宝
+  nationalDex:
+    - 783
+  species: 鳞片宝可梦
+  heightMetres: 1.2
+  weightKilograms: 47
+  flavourText: 会大力敲打鳞片并跳起舞来鼓舞自己。战吼是战斗的信号。

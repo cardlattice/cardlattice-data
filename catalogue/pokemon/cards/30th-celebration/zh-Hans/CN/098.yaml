@@ -1,0 +1,27 @@
+name: 洗翠 索罗亚
+rarity: C
+illustrators:
+  - Megumi Mizutani
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 抓
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 570
+  species: 怨狐宝可梦
+  heightMetres: 0.7
+  weightKilograms: 12.5
+  flavourText: 死后灵魂在洗翠地区复苏。怨恨化为力量，从其头部冉冉飘升。会化成对手的样貌去洗刷仇恨。

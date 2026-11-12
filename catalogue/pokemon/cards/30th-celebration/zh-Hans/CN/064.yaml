@@ -1,0 +1,29 @@
+name: 科斯莫古
+rarity: C
+illustrators:
+  - Mina Nakai
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 跃起
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 789
+  species: 星云宝可梦
+  heightMetres: 0.2
+  weightKilograms: 0.1
+  flavourText: 来自其他的宇宙。气体构成的身体十分轻盈，连微风都能把它吹走。

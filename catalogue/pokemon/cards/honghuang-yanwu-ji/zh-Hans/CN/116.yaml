@@ -1,0 +1,12 @@
+name: 藤树
+rarity: U
+illustrators:
+  - Megumi Mizutani
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - Rapid Strike
+  rules:
+    - 选择自己牌库中最多3张「连击」基础宝可梦，放于备战区。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

@@ -1,0 +1,31 @@
+name: 甲贺忍蛙V-UNION
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  types:
+    - Water
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  attacks:
+    - name: 瀑布束缚
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "180"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦，无法撤退。
+  abilities:
+    - name: 足步探索
+      kind: Ability
+      text: 在自己的回合可以使用1次。查看对手的手牌。
+  retreatCost: 2
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种甲贺忍蛙V-UNION组合起来，放于备战区。
+    - 当宝可梦V-UNION昏厥时，对手将拿取3张奖赏卡。
+products:
+  - pokemon-product-sifang-greninja-v-union-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-greninja-v-union-zh-hans-cn
+vUnionPart: bottom-right

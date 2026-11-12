@@ -1,0 +1,34 @@
+name: 洗翠 索罗亚克
+rarity: C
+illustrators:
+  - Kamome Shirahama
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 抓
+      cost:
+        - Colorless
+      damage: "30"
+    - name: 怨恨漩涡
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 在对手的战斗宝可梦身上放置伤害指示物，直到其剩余HP变为「50」为止。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: 洗翠 索罗亚
+  nationalDex:
+    - 571
+  species: 咒狐宝可梦
+  heightMetres: 1.6
+  weightKilograms: 73
+  flavourText: 疯狂舞动白发的姿态如同死神。在足以撕裂自身的深刻仇怨驱使下，抱定同归于尽之心袭杀仇敌。

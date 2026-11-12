@@ -1,0 +1,42 @@
+name: 喷火龙VMAX
+collectorNumber: 079/S-P
+releaseDate: 2023-08-18
+regulationMark: D
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fire
+  stage: VMAX
+  evolvesFrom: 喷火龙V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 利爪劈开
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+    - name: 超极巨地狱灭焰
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: 选择附着于这只宝可梦身上的2个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。
+products:
+  - pokemon-product-charizard-vmax-battle-gift-box-zh-hans-cn

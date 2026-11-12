@@ -1,0 +1,35 @@
+name: 月亮伊布
+rarity: C
+illustrators:
+  - Iori Suzuki
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: 伊布
+  attacks:
+    - name: 报仇
+      cost:
+        - Darkness
+      damage: 30+
+      text: 在上一个对手的回合，如果自己的宝可梦受到招式的伤害而昏厥的话，则追加造成100伤害。
+    - name: 暗之牙
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "100"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 197
+  species: 月光宝可梦
+  heightMetres: 1
+  weightKilograms: 27
+  flavourText: 月光改变了伊布的遗传基因。会潜伏在黑暗中等待猎物。

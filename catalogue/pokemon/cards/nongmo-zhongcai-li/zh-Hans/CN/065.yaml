@@ -1,0 +1,35 @@
+name: 藏玛然特
+rarity: A
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  nationalDex:
+    - 889
+  species: 强者宝可梦
+  heightMetres: 2.9
+  weightKilograms: 785
+  flavourText: 能够反弹一切的攻击，因此被称为格斗王之盾，受到人们的畏惧与尊崇。
+  attacks:
+    - name: 金属武装
+      cost:
+        - Colorless
+      damage: "30"
+      text: 选择自己弃牌区中的1张基本能量，附着于这只宝可梦身上。
+    - name: 奇幻之盾
+      cost:
+        - Lightning
+        - Fighting
+        - Metal
+      damage: "180"
+      text: 在下一个对手的回合，这只宝可梦不会受到「宝可梦VMAX」的招式的伤害。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2

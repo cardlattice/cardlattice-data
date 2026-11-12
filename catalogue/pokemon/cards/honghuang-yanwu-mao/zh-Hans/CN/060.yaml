@@ -1,0 +1,32 @@
+name: 伽勒尔闪电鸟V
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 雷鸣蹴击
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: 在造成伤害前，选择附着于对手战斗宝可梦身上的1个特殊能量，放于弃牌区。
+  abilities:
+    - name: 斗争本能
+      kind: Ability
+      text: 这只宝可梦使用招式所需能量会减少与对手场上「宝可梦V」的数量相同数量的{Colorless}能量。
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

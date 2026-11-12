@@ -1,0 +1,34 @@
+name: 闪耀阿尔宙斯
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - Shining
+  nationalDex:
+    - 493
+  species: 创造宝可梦
+  heightMetres: 3.2
+  weightKilograms: 320
+  flavourText: 神奥神话里说，它从蛋中现身，并创造出了整个世界。
+  attacks:
+    - name: 终极箭矢
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 给对手的所有宝可梦，各造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 神话守护
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，自己所有的备战宝可梦，不会受到对手招式的伤害。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2

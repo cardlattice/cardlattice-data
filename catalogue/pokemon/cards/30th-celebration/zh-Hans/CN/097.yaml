@@ -1,0 +1,32 @@
+name: 洛奇亚
+rarity: R
+illustrators:
+  - Kazuki Minami
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 元素爆破
+      cost:
+        - Fire
+        - Water
+        - Lightning
+      damage: "250"
+      text: 选择这只宝可梦身上附着的{Fire}{Water}{Lightning}能量各1个，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 249
+  species: 潜水宝可梦
+  heightMetres: 5.2
+  weightKilograms: 216
+  flavourText: 沉睡在很深的海沟底部。据说洛奇亚挥动翅膀的话，就会引起长达40天的暴风雨。

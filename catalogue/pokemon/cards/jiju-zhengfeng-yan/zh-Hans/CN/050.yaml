@@ -1,0 +1,30 @@
+name: 闪焰王牌V
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 红莲飞腿
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "140"
+  abilities:
+    - name: 球场跑者
+      kind: Ability
+      text: 如果场上有竞技场的话，则这只宝可梦撤退所需能量，全部消除。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

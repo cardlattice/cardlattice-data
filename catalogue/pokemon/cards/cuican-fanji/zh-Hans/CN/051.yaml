@@ -1,0 +1,12 @@
+name: 大姐姐
+rarity: U
+illustrators:
+  - kirisAki
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，即使是先攻玩家的最初回合也可以使用。
+    - 从自己的牌库上方抽取2张卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

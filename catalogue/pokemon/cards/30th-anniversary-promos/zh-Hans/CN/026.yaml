@@ -1,0 +1,28 @@
+name: 呆火鳄
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 喷射火焰
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "70"
+      text: 选择这只宝可梦身上附着的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  flavourText: 火囊很小，因此能量会从头部的凹陷处溢出来，并摇曳晃动着。

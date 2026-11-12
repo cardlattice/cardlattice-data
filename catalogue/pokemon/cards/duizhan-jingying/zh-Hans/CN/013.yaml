@@ -1,0 +1,35 @@
+name: 骑拉帝纳
+rarity: R
+illustrators:
+  - Hasuno
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 487
+  species: 反抗宝可梦
+  heightMetres: 4.5
+  weightKilograms: 750
+  flavourText: 因为性格粗暴而被驱逐，一直待在毁坏的世界里，静静地看着原来的世界。
+  attacks:
+    - name: 暗影冲击
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "130"
+      text: 给自己的1只宝可梦身上，放置4个伤害指示物。
+  abilities:
+    - name: 毁坏之门
+      kind: Ability
+      text: 如果这张卡牌在弃牌区的话，则在自己的回合可以使用1次。将这张卡牌放于备战区。然后，给对手2只备战宝可梦身上，各放置1个伤害指示物。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3

@@ -1,0 +1,33 @@
+name: 连击武道熊师V
+rarity: RR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 折返瞬击
+      cost:
+        - Fighting
+      damage: "30"
+      text: 若希望，可将这只宝可梦与备战宝可梦互换。
+    - name: 百裂突进
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "150"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

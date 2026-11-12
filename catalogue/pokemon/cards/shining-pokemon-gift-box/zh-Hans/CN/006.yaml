@@ -1,0 +1,29 @@
+name: 闪耀基拉祈
+illustrators:
+  - Shigenori Negishi
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - Shining
+  nationalDex:
+    - 385
+  species: 祈愿宝可梦
+  heightMetres: 0.3
+  weightKilograms: 1.1
+  flavourText: 从遥远的过去就一直流传着这样的传说，它会在醒来时实现写在它头部许愿笺上的愿望。
+  attacks:
+    - name: 星之宿命
+      cost:
+        - Psychic
+      damage: "10"
+      text: 从对手的已经进化的战斗宝可梦身上，移除全部「进化卡」使其退化。将被移除的卡牌，放回对手的手牌。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1

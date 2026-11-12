@@ -1,0 +1,27 @@
+name: 草苗龟
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 飞叶快刀
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "60"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  flavourText: 背上的甲壳是由泥土形成的，喝水之后会变得更硬。栖息在湖泊边。

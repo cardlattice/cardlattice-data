@@ -1,0 +1,35 @@
+name: 帝牙卢卡
+rarity: R
+illustrators:
+  - toriyufu
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 逆动时钟
+      cost:
+        - Colorless
+      text: 选择自己弃牌区中的宝可梦和基本能量合计最多3张，在给对手看过之后放回牌库并重洗牌库。
+    - name: 重磅冲击
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "110"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 483
+  species: 时间宝可梦
+  heightMetres: 5.4
+  weightKilograms: 683
+  flavourText: 由于帝牙卢卡的诞生，时间才开始流动。是有着这样传说的宝可梦。

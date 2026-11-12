@@ -1,0 +1,30 @@
+name: 沙螺蟒V
+rarity: SR
+illustrators:
+  - Narumi Sato
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 大地粉碎
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "140"
+  abilities:
+    - name: 沙之防壁
+      kind: Ability
+      text: 这只宝可梦所受到的招式的伤害「-30」。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,36 @@
+name: 水箭龟&波加曼GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 飞溅制造者
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "150"
+      text: 若希望，可将自己手牌中最多3张{Water}能量，以任意方式附着于自己的宝可梦身上。然后，将被附着能量的宝可梦的HP，各回复被附着能量张数×50伤害的数值。
+    - name: 泡沫喷射器GX
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 100+
+      text: 使对手的战斗宝可梦陷入麻痹状态。如果追加附有3个{Water}能量的话，则追加造成150点伤害。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

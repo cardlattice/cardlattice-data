@@ -1,0 +1,11 @@
+name: 基本火能量
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN
+pokemon:
+  category: energy
+  types:
+    - Fire
+  subtypes:
+    - Basic Energy

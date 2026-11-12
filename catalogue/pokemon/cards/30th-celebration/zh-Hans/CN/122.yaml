@@ -1,0 +1,22 @@
+name: 洗翠 索罗亚
+rarity: AR
+illustrators:
+  - "0313"
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 抓
+      cost:
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  flavourText: 死后灵魂在洗翠地区复苏。怨恨化为力量，从其头部冉冉飘升。会化成对手的样貌去洗刷仇恨。

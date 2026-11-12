@@ -1,0 +1,34 @@
+name: 沙奈朵
+rarity: R
+illustrators:
+  - kodama
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 奇鲁莉安
+  attacks:
+    - name: 脑电波
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 追加造成这只宝可梦身上附有的{Psychic}能量数量×30点伤害。
+  abilities:
+    - name: 秘术闪耀
+      kind: Ability
+      text: 在自己的回合可以使用1次。查看自己牌库上方2张卡牌，选择其中任意数量的基本能量，以任意方式附着于自己的宝可梦身上。将剩余的卡牌加入手牌。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 如果是为了保护训练家，它就会用尽自己的精神力量制造出小型黑洞。
+  nationalDex:
+    - 282
+  species: 包容宝可梦
+  heightMetres: 1.6
+  weightKilograms: 48.4

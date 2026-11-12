@@ -1,0 +1,29 @@
+name: 伽勒尔呆呆兽
+illustrators:
+  - Ryota Murayama
+regulationMark: E
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 79
+  species: 憨憨宝可梦
+  heightMetres: 1.2
+  weightKilograms: 36
+  flavourText: 它以只生长于伽勒尔地区的植物的种子为食，因此尾巴是辣味的。
+  attacks:
+    - name: 引诱之尾
+      cost:
+        - Colorless
+      text: 抛掷1次硬币如果为正面，则选择对手的1只备战宝可梦，将其与战斗宝可梦互换。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

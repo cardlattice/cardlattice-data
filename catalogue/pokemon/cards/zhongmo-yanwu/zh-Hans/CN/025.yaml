@@ -1,0 +1,36 @@
+name: 谜拟丘VMAX
+rarity: RRR
+illustrators:
+  - Studio Bora Inc.
+pokemon:
+  category: pokemon
+  hp: 300
+  types:
+    - Psychic
+  stage: VMAX
+  evolvesFrom: 谜拟丘V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 超自然数字
+      cost:
+        - Colorless
+        - Colorless
+      text: 将4个伤害指示物，以任意方式放置于对手的宝可梦身上。在这个回合，如果从自己的手牌使出了「阿塞萝拉的预感」的话，放置的伤害指示物数量变为13个。
+    - name: 极巨暗影
+      cost:
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: 在不看对手手牌正面的前提下，选择其中1张放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

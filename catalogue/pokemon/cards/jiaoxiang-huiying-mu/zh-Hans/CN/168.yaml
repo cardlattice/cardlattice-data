@@ -1,0 +1,38 @@
+name: 雷丘&阿罗拉雷丘GX
+rarity: SR
+illustrators:
+  - tetsuya koizumi
+pokemon:
+  category: pokemon
+  hp: 260
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 串联冲击
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 80+
+      text: 在这个回合，如果这只宝可梦从备战区被放于战斗场上的话，则追加造成80点伤害，并使对手的战斗宝可梦陷入麻痹状态。
+    - name: 雷电骑行GX
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 150+
+      text: 将这只宝可梦与备战宝可梦互换。如果追加附有2个{Lightning}能量的话，则追加造成100点伤害。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

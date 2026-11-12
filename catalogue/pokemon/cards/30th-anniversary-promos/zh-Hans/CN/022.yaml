@@ -1,0 +1,26 @@
+name: 敲音猴
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 木枝突刺
+      cost:
+        - Grass
+        - Grass
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 当它用特别的木棒敲奏时，能够给予花草活力的力量就会变成音波扩散开来。

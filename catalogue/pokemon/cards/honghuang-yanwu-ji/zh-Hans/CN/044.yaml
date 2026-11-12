@@ -1,0 +1,32 @@
+name: 白马蕾冠王V
+rarity: RR
+illustrators:
+  - D.A.G Inc.
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 突刺
+      cost:
+        - Water
+      damage: "40"
+    - name: 雪矛
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "200"
+      text: 选择附着于这只宝可梦身上的2个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

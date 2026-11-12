@@ -1,0 +1,14 @@
+name: 竹兰&嘉德丽雅
+illustrators:
+  - Ken Sugimori
+  - Yusuke Ohmura
+regulationMark: C
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - TAG TEAM
+  rules:
+    - 将自己弃牌区中的1张支援者（除「竹兰&嘉德丽雅」以及因为这张卡牌的效果而被放于弃牌区的卡牌之外），在给对手看过之后，加入手牌。
+    - 另外，当使用这张卡牌时，可将1张自己的手牌放于弃牌区。在这种情况下，可从自己的牌库上方抽取3张卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

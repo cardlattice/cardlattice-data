@@ -1,0 +1,26 @@
+name: 火狐狸
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 抓
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 吃小树枝后就会变得充满活力，会从大大的耳朵里喷出超过摄氏200度的热气。

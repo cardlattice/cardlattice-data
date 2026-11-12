@@ -1,0 +1,30 @@
+name: 赛富豪
+rarity: AR
+illustrators:
+  - toriyufu
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances:
+    - type: Grass
+      value: "-30"
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: 索财灵
+  attacks:
+    - name: 欢庆
+      cost:
+        - Metal
+      text: 如果自己的手牌为30张的话，则拿取自己的2张奖赏卡。然后，将自己的手牌全部放回牌库并重洗牌库。
+    - name: 三重粉碎
+      cost:
+        - Metal
+      damage: 50×
+      text: 抛掷3次硬币，造成正面次数×50伤害。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  flavourText: 硬币堆叠起来而形成的身体非常结实。会连续发射硬币来压制敌人。

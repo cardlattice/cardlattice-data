@@ -1,0 +1,13 @@
+name: 老大的指令
+rarity: SR
+illustrators:
+  - NC Empire
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  trainers:
+    - 弗拉达利
+  rules:
+    - 选择对手的1只备战宝可梦，将其与战斗宝可梦互换。
+    - 在自己的回合只可以使用1张支援者卡。

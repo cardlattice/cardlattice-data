@@ -1,0 +1,13 @@
+name: 打火石
+rarity: U
+regulationMark: B
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 这张卡牌，只有将自己的2张手牌放于弃牌区后才可使用。
+    - 将自己牌库中最多4张{Fire}能量，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合可以使用任意张物品卡。

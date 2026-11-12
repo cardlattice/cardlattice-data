@@ -1,0 +1,34 @@
+name: 妙蛙花V
+rarity: SR
+illustrators:
+  - PLANETA Igarashi
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 绿叶吸取
+      cost:
+        - Grass
+        - Colorless
+      damage: "50"
+      text: 回复这只宝可梦「30」点HP。
+    - name: 舍身冲撞
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "190"
+      text: 给这只宝可梦也造成30点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,32 @@
+name: 皮卡丘ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 皮卡巡游
+      cost:
+        - Colorless
+      text: 选择自己牌库中任意数量的基础宝可梦，放于备战区。并重洗牌库。
+    - name: 十万伏特
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "200"
+      text: 将这只宝可梦身上附着的能量全部放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

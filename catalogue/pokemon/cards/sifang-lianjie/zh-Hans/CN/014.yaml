@@ -1,0 +1,26 @@
+name: 苍响V-UNION
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  types:
+    - Metal
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  hp: 320
+  attacks:
+    - name: 剑王之舞
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "150"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦所使用的招式的伤害「-150」。
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种苍响V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-zacian-v-union-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-zacian-v-union-zh-hans-cn
+vUnionPart: top-right

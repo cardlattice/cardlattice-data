@@ -1,0 +1,32 @@
+name: 帝王拿波V
+rarity: RR
+illustrators:
+  - Ayaka Yoshida
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 螺旋切
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 选择附着于这只宝可梦身上的1个能量，转附于备战宝可梦身上。
+  abilities:
+    - name: 帝王之眼
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，对手场上的基础宝可梦（除「拥有规则的宝可梦」外）的特性，全部消除。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

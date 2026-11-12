@@ -1,0 +1,26 @@
+name: 妙蛙种子
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 寄生种子
+      cost:
+        - Grass
+      damage: "10"
+      text: 回复这只宝可梦「10」HP。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 从出生的时候开始，背上就有一颗植物种子。这颗种子会渐渐地长大。

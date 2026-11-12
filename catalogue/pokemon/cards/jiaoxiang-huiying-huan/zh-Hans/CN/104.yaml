@@ -1,0 +1,35 @@
+name: 火焰鸟&闪电鸟&急冻鸟GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 300
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 三重燃烧
+      cost:
+        - Fire
+        - Water
+        - Lightning
+        - Colorless
+      damage: "210"
+    - name: 穹天传说GX
+      cost:
+        - Colorless
+      text: 将这只宝可梦，以及放于其身上的所有卡牌，放回自己的牌库并重洗牌库。如果追加附有{Fire}{Water}{Lightning}能量各1个的话，则给对手的3只宝可梦，各造成110点伤害。[备战宝可梦不计算弱点、抗性。][对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

@@ -1,0 +1,33 @@
+name: 莉佳的胖丁
+regulationMark: null
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 50
+  level: 13
+  types:
+    - Colorless
+  trainers:
+    - 莉佳
+  attacks:
+    - name: 一同回复
+      cost:
+        - Colorless
+      text: 从双方场上所有宝可梦上各移除1个伤害指示物。
+    - name: 温和之拳
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40-
+      text: 如果对手的战斗宝可梦身上放置有伤害指示物的话，这个招式的伤害「-30」。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  species: 气球宝可梦
+  heightMetres: 0.5
+  weightKilograms: 5.5

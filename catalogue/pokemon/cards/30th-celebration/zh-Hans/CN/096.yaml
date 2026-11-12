@@ -1,0 +1,27 @@
+name: 宝宝丁
+rarity: C
+illustrators:
+  - Kanami Ogata
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 软软圆阵
+      cost: []
+      damage: 30×
+      text: 造成自己最大HP为「30」的备战宝可梦数量×30伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 174
+  species: 气球宝可梦
+  heightMetres: 0.3
+  weightKilograms: 1
+  flavourText: 喜欢唱歌，但还不怎么在行。如果能给予恰当的表扬，就会渐渐有所提高哦。

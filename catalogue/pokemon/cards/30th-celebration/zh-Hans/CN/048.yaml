@@ -1,0 +1,32 @@
+name: 皮卡丘ex
+rarity: RR
+illustrators:
+  - takuyoa
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 麻麻狂热
+      cost:
+        - Lightning
+      text: 选择自己手牌中任意数量的基本能量，以任意方式附着于自己的宝可梦身上。
+    - name: 打雷
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "200"
+      text: 给这只宝可梦也造成30伤害。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

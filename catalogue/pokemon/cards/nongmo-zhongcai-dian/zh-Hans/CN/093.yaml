@@ -1,0 +1,32 @@
+name: 无极汰那VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 340
+  types:
+    - Darkness
+  stage: VMAX
+  evolvesFrom: 无极汰那V
+  subtypes:
+    - VMAX
+    - Eternamax
+  attacks:
+    - name: 恐惧终焉
+      cost:
+        - Darkness
+        - Colorless
+      damage: 30×
+      text: 造成自己场上{Darkness}宝可梦数量×30点伤害。
+  abilities:
+    - name: 无极领域
+      kind: Ability
+      text: 这个特性只有当自己场上所有的宝可梦都是{Darkness}属性的场合才生效。能够放于自己备战区的{Darkness}宝可梦的数量变为8只，且无法将其他属性的宝可梦放于自己场上。（当这个特性失效时，将备战宝可梦放于弃牌区，直到备战宝可梦的数量变为5只为止。）
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

@@ -1,0 +1,31 @@
+name: 烈空坐EX
+regulationMark: null
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - EX
+  attacks:
+    - name: 天之呐喊
+      cost:
+        - Colorless
+      text: 将自己牌库上方3张卡牌放于弃牌区，将其中所有能量附着于这只宝可梦身上。
+    - name: 巨龙爆破
+      cost:
+        - Fire
+        - Lightning
+      damage: 60×
+      text: 将这只宝可梦身上附着的所有{Fire}或者{Lightning}的基本能量放于弃牌区，造成放于弃牌区的能量张数×60伤害。
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦EX昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,37 @@
+name: 巨金怪
+rarity: R
+regulationMark: B
+finishes:
+  - holo
+illustrators:
+  - TOKIYA
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Metal
+  stage: Stage 2
+  evolvesFrom: 金属怪
+  attacks:
+    - name: 彗星拳
+      cost:
+        - Metal
+      damage: "60"
+      text: 在下一个自己的回合，这只宝可梦使用的「彗星拳」的伤害「+60」。
+  abilities:
+    - name: 延展
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，即使自己使用了「大吾的决断」，自己的回合也不会结束。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 376
+  species: 铁足宝可梦
+  heightMetres: 1.6
+  weightKilograms: 550
+  flavourText: 2只金属怪组合起来。通过4个大脑的并行处理，什么样的计算都只要一瞬间。

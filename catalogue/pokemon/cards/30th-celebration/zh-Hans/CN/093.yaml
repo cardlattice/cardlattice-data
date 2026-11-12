@@ -1,0 +1,28 @@
+name: 百变怪
+rarity: C
+illustrators:
+  - Toshinao Aoki
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 整蛊变身
+      cost:
+        - Colorless
+        - Colorless
+      text: 抛掷1次硬币，如果为正面，则选择自己牌库中的1张宝可梦，与这只宝可梦互换（放于其身上的卡牌、伤害指示物、特殊状态、效果等会全部继承）。如果互换了的话，则将这张卡牌放回牌库。并重洗牌库。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 132
+  species: 变身宝可梦
+  heightMetres: 0.3
+  weightKilograms: 4
+  flavourText: 会自己重组身体细胞的结构，变身成其他的生命体。

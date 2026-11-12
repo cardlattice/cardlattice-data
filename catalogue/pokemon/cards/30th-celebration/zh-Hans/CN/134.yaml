@@ -1,0 +1,35 @@
+name: 超梦ex
+rarity: FUR
+illustrators:
+  - YOSHIROTTEN
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances:
+    - type: Fighting
+      value: "-30"
+  hp: 230
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 光子子弹
+      cost:
+        - Psychic
+        - Psychic
+      text: 给对手所有「宝可梦ex」各造成50伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 精神之力
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "230"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 2
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

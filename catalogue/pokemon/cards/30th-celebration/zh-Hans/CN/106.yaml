@@ -1,0 +1,29 @@
+name: 拉普拉斯
+rarity: AR
+illustrators:
+  - Amelicart
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 乘载游动
+      cost:
+        - Colorless
+      text: 选择自己牌库中的1张支援者，在给对手看过之后加入手牌。并重洗牌库。
+    - name: 冰冻光束
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 抛掷1次硬币，如果为正面，则令对手的战斗宝可梦陷入麻痹状态。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 拥有能理解人类语言的高智商。是喜欢让人乘在背上畅游大海的宝可梦。

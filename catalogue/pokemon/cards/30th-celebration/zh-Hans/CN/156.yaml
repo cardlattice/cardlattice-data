@@ -1,0 +1,33 @@
+name: M沙奈朵EX
+regulationMark: null
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fairy
+  stage: MEGA
+  evolvesFrom: 沙奈朵EX
+  subtypes:
+    - Mega
+    - EX
+  attacks:
+    - name: 晶灿之矢
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 造成自己场上宝可梦身上附着的{Fairy}能量数量×30伤害。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - 成为M进化宝可梦时，自己的回合结束。
+    - 当宝可梦EX昏厥时，对手将拿取2张奖赏卡。

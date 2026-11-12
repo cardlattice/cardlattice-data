@@ -1,0 +1,31 @@
+name: 烈空坐V
+rarity: RR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 龙之波动
+      cost:
+        - Lightning
+      damage: "40"
+      text: 将自己牌库上方2张卡牌放于弃牌区。
+    - name: 螺旋爆破
+      cost:
+        - Fire
+        - Lightning
+      damage: 20+
+      text: 若希望，可将附着于这只宝可梦身上的{Fire}或{Lightning}属性中的1种属性的最多2张基本能量放于弃牌区，追加造成其张数×80点伤害。
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

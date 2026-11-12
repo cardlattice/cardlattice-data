@@ -1,0 +1,12 @@
+name: 奥利薇
+rarity: SR
+illustrators:
+  - kirisAki
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，只有将自己的2张手牌放于弃牌区后才可使用。
+    - 查看对手的手牌，选择其中1张训练家，放回对手的牌库下方。
+    - 在自己的回合只可以使用1张支援者卡。

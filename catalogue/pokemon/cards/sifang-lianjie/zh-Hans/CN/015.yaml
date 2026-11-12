@@ -1,0 +1,30 @@
+name: 苍响V-UNION
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  types:
+    - Metal
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  attacks:
+    - name: 钢铁之刃
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "200"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种苍响V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-zacian-v-union-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-zacian-v-union-zh-hans-cn
+vUnionPart: bottom-left

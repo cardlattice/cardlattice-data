@@ -1,0 +1,33 @@
+name: 多龙巴鲁托V
+rarity: RR
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 咬住
+      cost:
+        - Psychic
+      damage: "30"
+    - name: 突袭喷射
+      cost:
+        - Psychic
+        - Psychic
+      damage: 60+
+      text: 在这个回合，如果这只宝可梦从备战区被放于战斗场上的话，则追加造成80点伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

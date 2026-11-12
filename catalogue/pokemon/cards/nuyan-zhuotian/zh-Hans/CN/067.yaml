@@ -1,0 +1,28 @@
+name: 乌贼王
+rarity: CHR
+illustrators:
+  - Fumie Kittaka
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: 好啦鱿
+  subtypes:
+    - Rapid Strike
+  flavourText: 据说那些能够改变历史的重大事件其实都和乌贼王的催眠能力有关。
+  attacks:
+    - name: 连击触手
+      cost:
+        - Psychic
+      damage: 40×
+      text: 将自己手牌中任意数量的「连击」卡给对手查看，造成其张数×40点伤害。然后，将给对手查看过的「连击」卡放回牌库并重洗牌库。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3

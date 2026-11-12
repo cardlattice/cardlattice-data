@@ -1,0 +1,33 @@
+name: 卡比兽
+rarity: C
+illustrators:
+  - Aya Kusube
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: 瘫倒
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 令这只宝可梦陷入睡眠状态。
+  abilities:
+    - name: 安眠
+      kind: Ability
+      text: 当这只宝可梦处于睡眠状态时，在宝可梦检查中，如果这只宝可梦没有从睡眠状态恢复的话，则回复这只宝可梦的全部HP。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 143
+  species: 瞌睡宝可梦
+  heightMetres: 2.1
+  weightKilograms: 460
+  flavourText: 胃里的消化液能消化掉任何毒。即使吃了掉在地上的东西也没有问题。

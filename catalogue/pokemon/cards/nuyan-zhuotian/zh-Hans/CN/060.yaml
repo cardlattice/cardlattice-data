@@ -1,0 +1,11 @@
+name: 克拉拉
+rarity: U
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 选择自己弃牌区中最多2张宝可梦，和最多2张基本能量，在给对手看过之后，加入手牌。（可只选择宝可梦或只选择基本能量。）
+    - 在自己的回合只可以使用1张支援者卡。

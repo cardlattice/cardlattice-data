@@ -1,0 +1,29 @@
+name: 伊布
+illustrators:
+  - Souichirou Gunjima
+regulationMark: E
+products:
+  - pokemon-product-card-display-case-gift-box-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  flavourText: 由于不稳定的遗传基因，蕴含着各种各样进化可能性的特殊宝可梦。
+  attacks:
+    - name: 伊布搜索
+      cost:
+        - Colorless
+      text: 选择自己牌库中最多3张「宝可梦V」，在给对手看过之后，加入手牌。并重洗牌库。
+    - name: 踩
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

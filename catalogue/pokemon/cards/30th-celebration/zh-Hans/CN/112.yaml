@@ -1,0 +1,27 @@
+name: 水晶灯火灵
+rarity: AR
+illustrators:
+  - YASHIRO Nanaco
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances:
+    - type: Fighting
+      value: "-30"
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 灯火幽灵
+  attacks:
+    - name: 奇异灯火
+      cost:
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: 令对手的战斗宝可梦陷入灼伤和混乱状态。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 2
+  flavourText: 如果被水晶灯火灵的火焰包围，魂魄就会被吸取燃烧。只剩下行尸走肉。

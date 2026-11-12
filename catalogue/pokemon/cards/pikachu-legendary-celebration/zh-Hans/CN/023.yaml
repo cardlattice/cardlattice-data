@@ -1,0 +1,35 @@
+name: 飞翔皮卡丘V
+regulationMark: E
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 电击
+      cost:
+        - Lightning
+      damage: "20"
+      text: 抛掷1次硬币如果为正面，则使对手的战斗宝可梦陷入麻痹状态。
+    - name: 飞翔
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 抛掷1次硬币如果为反面，则这个招式失败。如果为正面，则在下一个对手的回合，这只宝可梦不受到招式的伤害和效果影响。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

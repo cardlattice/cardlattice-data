@@ -1,0 +1,30 @@
+name: 伽勒尔呆呆王V
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Darkness
+  stage: Basic
+  subtypes:
+    - V
+    - Single Strike
+  attacks:
+    - name: 调合
+      cost:
+        - Colorless
+      text: 将自己的1张手牌放于弃牌区。然后，从自己的牌库上方抽取3张卡牌。
+    - name: 破灭言语
+      cost:
+        - Darkness
+        - Colorless
+      text: 在下一个对手的回合结束时，受到这个招式影响的宝可梦会昏厥。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

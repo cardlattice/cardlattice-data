@@ -1,0 +1,11 @@
+name: N
+regulationMark: null
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 双方玩家各将所有手牌放回牌库并重洗牌库。然后，各从牌库上方抽取与各自剩余奖赏卡张数相同数量的卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

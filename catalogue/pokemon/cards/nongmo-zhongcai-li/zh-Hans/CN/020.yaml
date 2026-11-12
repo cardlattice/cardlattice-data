@@ -1,0 +1,32 @@
+name: 木木枭
+rarity: C
+illustrators:
+  - HYOGONOSUKE
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  nationalDex:
+    - 722
+  species: 草羽宝可梦
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  flavourText: 一边飞行一边射出刀刃般锐利的羽毛，距离近时会使出猛烈的踢击。
+  attacks:
+    - name: 风砾
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 给对手的1只备战宝可梦，造成60点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 空中杂耍
+      kind: Ability
+      text: 在这个回合，如果从自己的手牌使出了「养鸟人」的话，则这只宝可梦使用招式所需能量，全部消除。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

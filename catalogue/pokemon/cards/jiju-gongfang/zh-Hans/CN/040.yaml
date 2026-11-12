@@ -1,0 +1,33 @@
+name: 古月鸟V
+rarity: RR
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 鸟嘴捕捉
+      cost:
+        - Colorless
+      text: 选择自己牌库中任意卡牌最多2张，加入手牌。并重洗牌库。
+    - name: 喷吐射击
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 将附着于这只宝可梦身上的所有能量放于弃牌区，给对手的1只宝可梦，造成160点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

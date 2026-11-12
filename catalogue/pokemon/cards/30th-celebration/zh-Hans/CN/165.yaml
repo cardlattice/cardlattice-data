@@ -1,0 +1,23 @@
+name: 鲤鱼王
+regulationMark: G
+illustrators:
+  - Shinji Kanda
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  flavourText: 没力量的可怜宝可梦。即使偶尔跳得比较高，也只能勉强超过2米。
+  attacks:
+    - name: 跳跃高手
+      cost:
+        - Water
+      damage: 10+
+      text: 抛掷2次硬币，如果全为正面的话，则追加造成20伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

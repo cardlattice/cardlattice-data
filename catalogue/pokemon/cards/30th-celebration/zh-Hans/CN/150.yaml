@@ -1,0 +1,32 @@
+name: 耿鬼
+regulationMark: null
+illustrators:
+  - Takashi Yamaguchi
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 鬼斯通
+  attacks:
+    - name: 打入黑暗
+      cost:
+        - Psychic
+      text: 查看对手的手牌，选择其中最多与这只宝可梦身上附着的{Psychic}能量数量相同数量的宝可梦，放于放逐区。
+    - name: 咒术水滴
+      cost:
+        - Psychic
+        - Colorless
+      text: 将4个伤害指示物以任意方式放置于对手的宝可梦身上。
+  abilities:
+    - name: 灾变
+      kind: Poké-Body
+      text: 只要这只宝可梦在战斗场上，如果对手的宝可梦昏厥的话，将那只宝可梦放于放逐区。[除宝可梦以外的卡牌全部放于弃牌区。]
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Colorless
+      value: "-20"
+  retreatCost: 0

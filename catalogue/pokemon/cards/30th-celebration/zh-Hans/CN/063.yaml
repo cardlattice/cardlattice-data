@@ -1,0 +1,33 @@
+name: 哲尔尼亚斯
+rarity: R
+illustrators:
+  - kodama
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 大地导航
+      cost:
+        - Colorless
+      text: 选择自己牌库中最多2张竞技场，在给对手看过之后加入手牌。并重洗牌库。
+    - name: 极光角击
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 716
+  species: 生命宝可梦
+  heightMetres: 3
+  weightKilograms: 215
+  flavourText: 据说，当头上的角闪着七色光时，会分享永恒的生命。

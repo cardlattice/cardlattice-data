@@ -1,0 +1,31 @@
+name: 波克基斯VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Colorless
+  stage: VMAX
+  evolvesFrom: 波克基斯V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨滑翔
+      cost:
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 若希望，可选择自己牌库中任意卡牌最多2张，加入手牌。并重洗牌库。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

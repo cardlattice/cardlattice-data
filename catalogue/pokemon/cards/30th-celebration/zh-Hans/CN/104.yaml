@@ -1,0 +1,30 @@
+name: 阿罗拉 椰蛋树
+rarity: AR
+illustrators:
+  - AYUMI ODASHIMA
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: 超级吸取
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 回复这只宝可梦「50」HP。
+  abilities:
+    - name: 枝繁叶茂
+      kind: Ability
+      text: 如果这只宝可梦身上附着了6个及以上{Grass}能量的话，则这只宝可梦的最大HP「+250」。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: 蛋蛋
+  flavourText: 悠然惬意地长大之后，它便不再需要原来的精神力量，沉睡于体内的龙之力量已经觉醒。

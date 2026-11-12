@@ -1,0 +1,26 @@
+name: 菊草叶
+releaseDate: 2026-06-19
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-2-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 飞叶快刀
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 从头上的叶子那里会飘散出淡淡的甜香。性情温和，非常喜欢沐浴阳光。

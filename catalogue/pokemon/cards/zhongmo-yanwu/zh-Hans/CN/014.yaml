@@ -1,0 +1,34 @@
+name: 千面避役V
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 冲浪
+      cost:
+        - Water
+        - Colorless
+      damage: "40"
+    - name: 水流子弹
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "120"
+      text: 给对手的1只备战宝可梦，也造成20点伤害。［备战宝可梦不计算弱点、抗性。］
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

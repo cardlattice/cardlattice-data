@@ -1,0 +1,42 @@
+name: 路卡利欧GX
+rarity: RR
+regulationMark: B
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: 利欧路
+  attacks:
+    - name: 波导击
+      cost:
+        - Fighting
+      damage: 30+
+      text: 在这个回合，如果这只宝可梦从「利欧路」进化而来的话，则追加造成90点伤害。
+    - name: 旋风腿
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "130"
+    - name: 十字击溃GX
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 造成放置于这只宝可梦身上的伤害指示物数量×30点伤害。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

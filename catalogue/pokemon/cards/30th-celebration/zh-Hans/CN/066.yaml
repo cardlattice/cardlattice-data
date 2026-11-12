@@ -1,0 +1,37 @@
+name: 露奈雅拉
+rarity: R
+illustrators:
+  - Bun Toujo
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: 午夜射线
+      cost:
+        - Psychic
+      damage: 20+
+      text: 追加造成自己弃牌区中能量张数×20伤害。
+    - name: 月光爆破
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: 科斯莫姆
+  nationalDex:
+    - 792
+  species: 月轮宝可梦
+  heightMetres: 4
+  weightKilograms: 120
+  flavourText: 被称为邀引月亮之兽。通过将一切的光转化为能量来维持生命。

@@ -1,0 +1,29 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 18/30
+illustrators:
+  - Shinji Kanda
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 改写伏特
+      cost:
+        - Lightning
+      damage: "10"
+      text: 在下一个自己的回合结束前，受到这个招式影响的宝可梦的弱点变为{Lightning}属性。[弱点按「×2」进行伤害计算。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

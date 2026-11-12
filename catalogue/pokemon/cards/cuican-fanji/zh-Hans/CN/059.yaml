@@ -1,0 +1,11 @@
+name: 涂层钢能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Metal
+  rules:
+    - 只要这张卡牌，被附着于宝可梦身上，就会被视作1个{Metal}能量。
+    - 身上附有这张卡牌的{Metal}宝可梦的弱点，全部消除。

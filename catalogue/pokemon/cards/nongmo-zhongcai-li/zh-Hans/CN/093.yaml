@@ -1,0 +1,32 @@
+name: 烈空坐
+rarity: A
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  nationalDex:
+    - 384
+  species: 天空宝可梦
+  heightMetres: 7
+  weightKilograms: 206.5
+  flavourText: 因为飞行在高空的臭氧层中，迄今为止没人见过它的样子。
+  attacks:
+    - name: 奇幻爆破
+      cost:
+        - Grass
+        - Lightning
+        - Fighting
+      damage: 80×
+      text: 将附着于这只宝可梦身上的所有基本能量放于弃牌区，造成放于弃牌区的基本能量的属性种类数量×80点伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

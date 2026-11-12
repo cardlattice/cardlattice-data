@@ -1,0 +1,37 @@
+name: 闪耀烈空坐
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - Shining
+  nationalDex:
+    - 384
+  species: 天空宝可梦
+  heightMetres: 7
+  weightKilograms: 206.5
+  flavourText: 因为栖息在高高的云层之上的臭氧层，所以从地面无法看见它的样子。
+  attacks:
+    - name: 龙之波动
+      cost:
+        - Lightning
+      damage: "40"
+      text: 将自己牌库上方2张卡牌放于弃牌区。
+    - name: 天空的裁决
+      cost:
+        - Fire
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "190"
+      text: 将附着于这只宝可梦身上的3个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3

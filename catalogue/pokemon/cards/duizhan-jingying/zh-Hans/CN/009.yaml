@@ -1,0 +1,33 @@
+name: 卡璞·鸣鸣◇
+rarity: PR
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - Prism Star
+  flavourText: 以迅雷不及掩耳的速度扰乱敌人。看起来极度易怒，但却很快就会忘记为何生气。
+  attacks:
+    - name: 音速伏特
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "120"
+  abilities:
+    - name: 战阵之舞
+      kind: Ability
+      text: 如果这只宝可梦在备战区的话，则在自己的回合可以使用1次。给自己的2只备战宝可梦，各附着1张弃牌区中的{Lightning}能量。然后，将这张卡牌放于放逐区。（将放于其身上的卡牌，全部放于弃牌区。）
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  rules:
+    - 在1副卡组中只能放入1张同名的◇（棱镜之星）卡。这张卡牌不会被放入弃牌区，而会被放入放逐区。

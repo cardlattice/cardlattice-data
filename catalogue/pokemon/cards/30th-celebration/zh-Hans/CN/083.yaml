@@ -1,0 +1,36 @@
+name: 坚果哑铃
+rarity: C
+illustrators:
+  - Po-Suzuki
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: 针刺
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: 爆炸针刺
+      cost:
+        - Metal
+        - Metal
+      text: 给对手所有宝可梦各造成50伤害。给这只宝可梦也造成130伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  evolvesFrom: 种子铁球
+  nationalDex:
+    - 598
+  species: 刺球宝可梦
+  heightMetres: 1
+  weightKilograms: 110
+  flavourText: 用尖刺刺裂岩壁之后，它会用触手的尖端接触裂缝吸收营养。

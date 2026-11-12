@@ -1,0 +1,40 @@
+name: 露奈雅拉GX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 科斯莫姆
+  attacks:
+    - name: 暗影之光
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "120"
+      text: 在下一个对手的回合，受到这个招式影响的宝可梦，无法回复HP。
+    - name: 月神降临GX
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      text: 使对手的1只基础宝可梦（除「宝可梦GX」外）昏厥。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 精神移行
+      kind: Ability
+      text: 在自己的回合可以使用任意次。将1个附着于自己场上宝可梦身上的{Psychic}能量，转附于自己其他宝可梦身上。
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - 5ban Graphics

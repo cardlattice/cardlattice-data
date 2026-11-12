@@ -1,0 +1,30 @@
+name: 七夕青鸟
+illustrators:
+  - sui
+regulationMark: E
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: 青绵鸟
+  nationalDex:
+    - 334
+  species: 哼唱宝可梦
+  heightMetres: 1.1
+  weightKilograms: 20.6
+  flavourText: 在晴朗日子里会混在棉花云里自由地在空中飞来飞去，会用优美的高音歌唱。
+  attacks:
+    - name: 滑翔
+      cost:
+        - Water
+        - Metal
+      damage: "60"
+  abilities:
+    - name: 诱惑音调
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己牌库中的1张支援者，给对手查看。将剩余的牌库重洗，并将选择的卡牌放回牌库上方。
+  weaknesses: []
+  resistances: []
+  retreatCost: 0

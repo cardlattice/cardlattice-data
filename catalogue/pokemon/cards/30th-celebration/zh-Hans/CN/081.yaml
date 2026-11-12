@@ -1,0 +1,34 @@
+name: 基拉祈ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances:
+    - type: Grass
+      value: "-30"
+  hp: 160
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: 愿望成真
+      cost:
+        - Colorless
+      text: 从牌库上方抽取卡牌，直到自己的手牌变为7张为止。
+    - name: 高速星星
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 这个招式的伤害不计算弱点、抗性以及对手战斗宝可梦身上所附加的效果。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

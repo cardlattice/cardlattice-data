@@ -1,0 +1,44 @@
+name: 月亮伊布GX
+releaseDate: 2023-01-13
+regulationMark: A
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: 伊布
+  attacks:
+    - name: 折返瞬击
+      cost:
+        - Darkness
+      damage: "30"
+      text: 若希望，可将这只宝可梦与备战宝可梦互换。
+    - name: 暗影子弹
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 给对手的1只备战宝可梦，也造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 黑夜哭喊GX
+      cost:
+        - Darkness
+        - Colorless
+      text: 将附着于对手场上宝可梦身上的2个能量，放于弃牌区。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  subtypes:
+    - GX
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。
+illustrators:
+  - 5ban Graphics
+products:
+  - pokemon-product-eevee-gx-umbreon

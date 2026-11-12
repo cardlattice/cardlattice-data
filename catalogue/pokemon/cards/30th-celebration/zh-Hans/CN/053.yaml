@@ -1,0 +1,34 @@
+name: 密勒顿
+rarity: R
+illustrators:
+  - Kazumasa Yasukuni
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 音速伏特
+      cost:
+        - Lightning
+      damage: "20"
+    - name: 闪电猛冲
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "140"
+      text: 选择这只宝可梦身上附着的2个{Lightning}能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 1008
+  species: 悖谬宝可梦
+  heightMetres: 3.5
+  weightKilograms: 240
+  flavourText: 它似乎就是古老的书籍中提及的铁大蛇。传说它曾用雷电将大地变为灰烬。

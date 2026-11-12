@@ -1,0 +1,30 @@
+name: 暴飞龙ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: 轰鸣呼声
+      cost:
+        - Colorless
+      text: 选择自己弃牌区中最多3张{Dragon}宝可梦，放于备战区。
+    - name: 龙之波动
+      cost:
+        - Fire
+        - Water
+      damage: "240"
+      text: 将自己牌库上方2张卡牌放于弃牌区。
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: 甲壳龙
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

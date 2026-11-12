@@ -1,0 +1,32 @@
+name: 呆火鳄ex
+rarity: RR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 致焦
+      cost:
+        - Fire
+      text: 令对手的战斗宝可梦陷入灼伤状态。
+    - name: 愉快火焰
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 70×
+      text: 造成自己已经获得的奖赏卡张数×70伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

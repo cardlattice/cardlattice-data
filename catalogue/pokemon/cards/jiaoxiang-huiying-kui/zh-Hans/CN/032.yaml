@@ -1,0 +1,39 @@
+name: 臭臭泥&阿罗拉臭臭泥GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 腐坏毒液
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      text: 使对手的战斗宝可梦陷入中毒状态。因这个中毒而放置的伤害指示物数量变为8个。
+    - name: 毒液舔舐
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 如果对手的战斗宝可梦处于中毒状态，则回复这只宝可梦「100」点HP。
+    - name: 黏着特调GX
+      cost: []
+      text: 使对手的战斗宝可梦陷入中毒和麻痹状态。如果追加附有4个能量的话，则因这个中毒而放置的伤害指示物数量变为15个。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

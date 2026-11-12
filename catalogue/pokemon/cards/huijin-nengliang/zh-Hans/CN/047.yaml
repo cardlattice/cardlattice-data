@@ -1,0 +1,43 @@
+name: 喷火龙GX
+illustrators:
+  - 5ban Graphics
+regulationMark: A
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: 火恐龙
+  subtypes:
+    - GX
+  attacks:
+    - name: 翅膀攻击
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+    - name: 红莲风暴
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: 将附着于这只宝可梦身上的3个{Fire}能量，放于弃牌区。
+    - name: 惊怒驱逐GX
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      text: 将对手牌库上方的10张卡牌放于弃牌区。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

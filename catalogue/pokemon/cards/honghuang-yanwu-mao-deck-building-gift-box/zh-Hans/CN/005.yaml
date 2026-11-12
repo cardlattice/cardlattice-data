@@ -1,0 +1,36 @@
+name: 龙卷云V
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - V
+    - Single Strike
+  attacks:
+    - name: 穿堂风
+      cost:
+        - Colorless
+      damage: 20+
+      text: 如果场上有竞技场的话，则追加造成20点伤害。
+    - name: 爆破重锤
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 选择附着于这只宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

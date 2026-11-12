@@ -1,0 +1,25 @@
+name: 百变怪◇
+rarity: PR
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - Prism Star
+  flavourText: 因其惊人的变身能力，无论与谁都能成为伙伴。但是百变怪同类间关系恶劣。
+  attacks: []
+  abilities:
+    - name: 万能进化
+      kind: Ability
+      text: 在自己的回合，可以从手牌中使出1阶进化宝可梦，放于这只宝可梦身上进行进化。（在自己最初的回合，以及这只宝可梦刚出场的回合除外。）
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 在1副卡组中只能放入1张同名的◇（棱镜之星）卡。这张卡牌不会被放入弃牌区，而会被放入放逐区。

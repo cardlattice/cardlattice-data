@@ -1,0 +1,11 @@
+name: 基本斗能量
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN
+pokemon:
+  category: energy
+  types:
+    - Fighting
+  subtypes:
+    - Basic Energy

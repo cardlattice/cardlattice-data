@@ -1,0 +1,33 @@
+name: 美洛耶塔
+rarity: U
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 648
+  species: 旋律宝可梦
+  heightMetres: 0.6
+  weightKilograms: 6.5
+  flavourText: 用特殊的发声法唱出的旋律可以自由地操纵听者的情绪。
+  attacks:
+    - name: 旋律回声
+      cost:
+        - Psychic
+        - Colorless
+      damage: 70×
+      text: 造成自己场上宝可梦身上附有的「汇流能量」数量×70点伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

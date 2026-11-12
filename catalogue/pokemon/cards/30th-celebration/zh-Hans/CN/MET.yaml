@@ -1,0 +1,11 @@
+name: 基本钢能量
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN
+pokemon:
+  category: energy
+  types:
+    - Metal
+  subtypes:
+    - Basic Energy

@@ -1,0 +1,33 @@
+name: 电萤虫
+rarity: C
+illustrators:
+  - Yoriyuki Ikegami
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 引诱光芒
+      cost:
+        - Grass
+      text: 选择对手的1只备战宝可梦，将其与战斗宝可梦互换。
+    - name: 虫鸣
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 313
+  species: 萤火虫宝可梦
+  heightMetres: 0.7
+  weightKilograms: 17.7
+  flavourText: 会闪烁臀部的光来和伙伴交流。非常喜欢甜甜萤放出的甜甜香气。

@@ -1,0 +1,35 @@
+name: 捷克罗姆
+rarity: R
+illustrators:
+  - akagi
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 劈开
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+    - name: 闪电焰袭
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 如果这只宝可梦身上附着了{Fire}能量的话，则追加造成80伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 644
+  species: 黑阴宝可梦
+  heightMetres: 2.9
+  weightKilograms: 345
+  flavourText: 用闪电让世界燃烧殆尽的传说的宝可梦。会辅佐创造理想世界的人。

@@ -1,0 +1,12 @@
+name: 小菊儿的璀璨
+rarity: U
+illustrators:
+  - Yusuke Ohmura
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - Fusion Strike
+  rules:
+    - 选择自己最多2只「汇流」宝可梦，各附着1张自己牌库中的「汇流能量」。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

@@ -1,0 +1,35 @@
+name: 樱花鱼
+rarity: U
+illustrators:
+  - Misa Tsutsui
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 珍珠贝
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 368
+  species: 南海宝可梦
+  heightMetres: 1.8
+  weightKilograms: 22.6
+  flavourText: 吸食猎物的体液。剩下的肉会沉入海底，成为其他宝可梦的食物。
+  attacks:
+    - name: 吸取之吻
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+      text: 回复这只宝可梦「30」点HP。
+  abilities:
+    - name: 连击消除器
+      kind: Ability
+      text: 只要这只宝可梦在场上，对手场上的「连击」宝可梦的特性，全部消除。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

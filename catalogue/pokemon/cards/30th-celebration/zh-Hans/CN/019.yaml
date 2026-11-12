@@ -1,0 +1,30 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 03/30
+illustrators:
+  - satoma
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 电光
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+      text: 给对手的1只备战宝可梦也造成20伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

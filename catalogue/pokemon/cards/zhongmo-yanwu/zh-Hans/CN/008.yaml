@@ -1,0 +1,30 @@
+name: 水君V
+rarity: RR
+illustrators:
+  - Ayaka Yoshida
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 暴雪回旋曲
+      cost:
+        - Water
+        - Colorless
+      damage: 20+
+      text: 追加造成双方备战宝可梦数量×20点伤害。
+  abilities:
+    - name: 瞬步
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。从自己的牌库上方抽取1张卡牌。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

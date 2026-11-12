@@ -1,0 +1,11 @@
+name: 空木博士的指导
+rarity: U
+illustrators:
+  - Hideki Ishikawa
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 将自己牌库中，最多3张HP在「60」以下（包含60）的宝可梦，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

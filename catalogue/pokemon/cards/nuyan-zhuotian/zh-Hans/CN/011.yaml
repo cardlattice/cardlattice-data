@@ -1,0 +1,37 @@
+name: 炒炒猪
+rarity: U
+illustrators:
+  - tetsuya koizumi
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: 暖暖猪
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 499
+  species: 火猪宝可梦
+  heightMetres: 1
+  weightKilograms: 55.5
+  flavourText: 如果体内的火焰燃起，动作就会变得非常敏捷。危机时刻会喷出烟雾。
+  attacks:
+    - name: 冲撞
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: 烈焰
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "90"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3

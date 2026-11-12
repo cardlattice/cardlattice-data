@@ -1,0 +1,33 @@
+name: 帕路奇亚
+regulationMark: E
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 484
+  species: 空间宝可梦
+  heightMetres: 4.2
+  weightKilograms: 336
+  flavourText: 拥有扭曲空间的能力。在神奥地区的神话里被描述成神。
+  attacks:
+    - name: 超频粉碎
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 在下一个自己的回合，这只宝可梦的「超频粉碎」的伤害「+80」。
+  abilities:
+    - name: 绝对空间
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，对手就无法从手牌使出竞技场。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2

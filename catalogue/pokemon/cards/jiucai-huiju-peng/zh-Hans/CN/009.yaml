@@ -1,0 +1,36 @@
+name: 叶伊布VMAX
+rarity: RRR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Grass
+  stage: VMAX
+  evolvesFrom: 叶伊布V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 打草结
+      cost:
+        - Grass
+        - Colorless
+      damage: 60×
+      text: 造成对手战斗宝可梦的撤退所需能量数量×60点伤害。
+    - name: 极巨绿叶
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "170"
+      text: 回复这只宝可梦「30」点HP。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

@@ -1,0 +1,12 @@
+name: 昼珠
+rarity: U
+illustrators:
+  - Megumi Mizutani
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，只有在对手的战斗场上有2阶进化宝可梦时才可使用。
+    - 将自己牌库中任意卡牌最多2张，加入手牌。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

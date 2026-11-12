@@ -1,0 +1,25 @@
+name: 优雅猫
+regulationMark: null
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: 向尾喵
+  attacks:
+    - name: 能量弹MAX
+      cost:
+        - Colorless
+      damage: 10×
+      text: 造成自己所有战斗宝可梦的能量数量×10伤害。
+  abilities:
+    - name: 能量抽取
+      kind: Poké-Power
+      text: 在自己的回合可以使用1次这个力量。选择自己手牌中的1张能量，放于弃牌区。然后，从自己牌库上方抽取最多3张卡牌。如果这只宝可梦处于特殊状态的话，则无法使用这个力量。
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1

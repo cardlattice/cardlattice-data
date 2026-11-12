@@ -1,0 +1,22 @@
+name: 超梦V-UNION
+illustrators:
+  - AKIRA EGAWA
+pokemon:
+  category: pokemon
+  types:
+    - Psychic
+  stage: V-UNION
+  subtypes:
+    - V-UNION
+  attacks:
+    - name: 同盟增辉
+      cost:
+        - Colorless
+      text: 选择自己弃牌区中最多2张{Psychic}能量，附着于这只宝可梦身上。
+  rules:
+    - 对战中有1次机会，在自己的回合，可将自己弃牌区中的4种超梦V-UNION组合起来，放于备战区。
+products:
+  - pokemon-product-sifang-mewtwo-v-union-gift-box-zh-hans-cn
+collections:
+  - pokemon-collection-sifang-mewtwo-v-union-zh-hans-cn
+vUnionPart: top-left

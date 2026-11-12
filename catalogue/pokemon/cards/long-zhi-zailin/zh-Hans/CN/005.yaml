@@ -1,0 +1,39 @@
+name: 快龙
+illustrators:
+  - Hiroyuki Yamamoto
+regulationMark: A
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: 哈克龙
+  nationalDex:
+    - 149
+  species: 龙宝可梦
+  heightMetres: 2.2
+  weightKilograms: 210
+  flavourText: 平常都是非常稳重的，但如果触碰到了它的逆鳞，就会不毁灭一切不罢休。
+  attacks:
+    - name: 龙波
+      cost:
+        - Grass
+        - Lightning
+      damage: "130"
+      text: 将附着于这只宝可梦身上的{Grass}能量和{Lightning}能量各1个，放于弃牌区。
+    - name: 巨尾
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+      text: 抛掷1次硬币如果为反面，则这个招式失败。
+  abilities: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3

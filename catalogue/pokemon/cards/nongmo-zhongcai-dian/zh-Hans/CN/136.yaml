@@ -1,0 +1,33 @@
+name: 暴噬龟VMAX
+rarity: HR
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  evolvesFrom: 暴噬龟V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 超极巨重头猛突
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 160+
+      text: 抛掷1次硬币如果为正面，则追加造成80点伤害。
+  abilities:
+    - name: 坚硬甲壳
+      kind: Ability
+      text: 这只宝可梦所受到的招式的伤害「-30」。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

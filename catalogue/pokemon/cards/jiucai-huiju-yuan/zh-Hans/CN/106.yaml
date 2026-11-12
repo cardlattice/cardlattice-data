@@ -1,0 +1,35 @@
+name: 图图犬
+rarity: C
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 235
+  species: 画画宝可梦
+  heightMetres: 1.2
+  weightKilograms: 58
+  flavourText: 会用尾巴前端渗出的体液画下标记。对于有些标记，爱好者会以高价买卖。
+  attacks:
+    - name: 弃牌写生
+      cost:
+        - Colorless
+      text: 选择自己弃牌区中最多2张「汇流」训练家，在给对手看过之后，加入手牌。
+    - name: 摆尾拍击
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1

@@ -1,0 +1,13 @@
+name: 蝴蝶结徽章
+rarity: U
+illustrators:
+  - Studio Bora Inc.
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Pokémon Tool
+  rules:
+    - 宝可梦道具可以附着在自己的宝可梦身上。每只宝可梦身上只可以附着1张宝可梦道具，并保持附加状态。
+    - 身上放有这张卡牌的，名字中带有「仙子伊布V」的宝可梦，受到对手宝可梦的招式的伤害而昏厥时，对手拿取的奖赏卡将减少1张。
+    - 在自己的回合可以使用任意张物品卡。

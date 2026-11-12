@@ -1,0 +1,30 @@
+name: 藏玛然特V
+regulationMark: E
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 重磅冲击
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "150"
+  abilities:
+    - name: 盾之低吼
+      kind: Ability
+      text: 只要这只宝可梦在场上，自己的所有{Fighting}宝可梦，受到对手的「宝可梦VMAX」的招式的伤害「-20」。这个效果，无论拥有这个特性的宝可梦有多少只，都不会叠加。
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

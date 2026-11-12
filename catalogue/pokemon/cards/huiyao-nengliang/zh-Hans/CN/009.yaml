@@ -1,0 +1,11 @@
+name: 聂梓
+illustrators:
+  - Megumi Mizutani
+regulationMark: D
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 选择自己牌库中1张{Darkness}宝可梦和1张能量，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

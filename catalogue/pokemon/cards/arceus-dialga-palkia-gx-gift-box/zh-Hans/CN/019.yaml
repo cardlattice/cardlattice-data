@@ -1,0 +1,11 @@
+name: 彩虹能量
+regulationMark: A
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  types:
+    - Colorless
+  rules:
+    - 当将这张卡牌从手牌使出附着于宝可梦身上时，给该宝可梦身上放置1个伤害指示物。只要这张卡牌，被附着于宝可梦身上，就可被视作1个所有属性的能量。
+    - 如果没有被附着于宝可梦身上，则被视作1个{Colorless}能量。

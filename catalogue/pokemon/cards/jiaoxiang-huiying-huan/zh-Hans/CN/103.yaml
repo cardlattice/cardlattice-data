@@ -1,0 +1,42 @@
+name: 伊布&卡比兽GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 应援
+      cost:
+        - Colorless
+      text: 将自己手牌中的1张能量，附着于自己的宝可梦身上。
+    - name: 抛掷压制
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 如果对手的战斗宝可梦为进化宝可梦的话，则追加造成120点伤害。
+    - name: 百力吨友谊GX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "210"
+      text: 如果追加附有1个能量的话，则从自己的牌库上方抽取卡牌，直到自己的手牌变为10张为止。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

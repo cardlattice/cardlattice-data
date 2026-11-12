@@ -1,0 +1,35 @@
+name: 猎斑鱼
+rarity: U
+illustrators:
+  - otumami
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 珍珠贝
+  subtypes:
+    - Fusion Strike
+  nationalDex:
+    - 367
+  species: 深海宝可梦
+  heightMetres: 1.7
+  weightKilograms: 27
+  flavourText: 栖息在深海中。传说，如果猎斑鱼被冲上沙滩，就会有不祥的事情发生。
+  attacks:
+    - name: 大口撕咬
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: 一击妨碍
+      kind: Ability
+      text: 只要这只宝可梦在场上，对手的「一击」宝可梦使用招式所需能量，就会增加1个{Colorless}能量。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

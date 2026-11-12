@@ -1,0 +1,35 @@
+name: 沼王
+rarity: U
+regulationMark: B
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: 乌波
+  attacks:
+    - name: 水炮
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 追加造成这只宝可梦身上附有的{Water}能量数量×20点伤害。
+  abilities:
+    - name: 冲刷
+      kind: Ability
+      text: 在自己的回合可以使用任意次。将附着于自己备战宝可梦身上的1个{Water}能量，转附于自己战斗宝可梦身上。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 195
+  species: 水鱼宝可梦
+  heightMetres: 1.4
+  weightKilograms: 75
+  flavourText: 性格悠闲自得。随心所欲游动时，头总会撞到船底。

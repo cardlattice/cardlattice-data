@@ -1,0 +1,22 @@
+name: 阿罗拉 喵喵
+rarity: AR
+illustrators:
+  - OKUBO
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: 聚宝功
+      cost: []
+      damage: "10"
+      text: 从自己牌库上方抽取1张卡牌。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  flavourText: 过去曾经和阿罗拉的王族一起享受奢侈浮华的生活。所以对食物十分挑剔。

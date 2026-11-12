@@ -1,0 +1,31 @@
+name: 由克希
+regulationMark: null
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 70
+  level: 55
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 480
+  species: 知识宝可梦
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  attacks:
+    - name: 精神还原
+      cost:
+        - Colorless
+      damage: "20"
+      text: 若希望，可以将这只宝可梦以及放于其身上的所有卡牌以任意顺序重新排列，放回自己的牌库下方。
+  abilities:
+    - name: 设置
+      kind: Poké-Power
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可以使用1次。从牌库上方抽取卡牌，直到自己的手牌变为7张为止。
+  weaknesses:
+    - type: Psychic
+      value: "+20"
+  resistances: []
+  retreatCost: 1

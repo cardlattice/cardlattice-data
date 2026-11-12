@@ -1,0 +1,31 @@
+name: 未知图腾
+rarity: C
+illustrators:
+  - mingo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 神秘信号
+      cost:
+        - Psychic
+        - Psychic
+      damage: "40"
+      text: 如果对手的宝可梦受到这个招式的伤害而昏厥的话，则多拿取1张奖赏卡。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 201
+  species: 象征宝可梦
+  heightMetres: 0.5
+  weightKilograms: 5
+  flavourText: 身体很薄，会一直贴在墙上。它的外形好像有着某种含义。

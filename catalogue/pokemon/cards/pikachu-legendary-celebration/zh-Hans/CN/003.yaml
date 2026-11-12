@@ -1,0 +1,37 @@
+name: 凤王
+regulationMark: E
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  nationalDex:
+    - 250
+  species: 虹色宝可梦
+  heightMetres: 3.8
+  weightKilograms: 199
+  flavourText: 据说会一边闪耀着七彩翅膀，一边出现在正直的训练家面前。
+  attacks:
+    - name: 神圣之火
+      cost:
+        - Fire
+        - Colorless
+      text: 给对手的1只宝可梦，造成50点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 大字爆炎
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: 选择附着于这只宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2

@@ -1,0 +1,12 @@
+name: 神秘宝藏
+rarity: U
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 这张卡牌，只有将自己的1张手牌放于弃牌区后才可使用。
+    - 将自己牌库中的1张{Psychic}或{Dragon}宝可梦，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合可以使用任意张物品卡。

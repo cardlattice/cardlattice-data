@@ -1,0 +1,34 @@
+name: 凤王
+rarity: R
+illustrators:
+  - Anesaki Dynamic
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: 神圣气息
+      cost:
+        - Fire
+        - Fire
+      text: 将这只宝可梦身上附着的能量全部放于弃牌区。回复自己1只备战宝可梦的全部HP。
+    - name: 火焰之翼
+      cost:
+        - Fire
+        - Fire
+        - Fire
+      damage: "100"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 250
+  species: 虹色宝可梦
+  heightMetres: 3.8
+  weightKilograms: 199
+  flavourText: 记载于神话中的宝可梦。说其身体闪耀着七彩光芒，飞过的地方会形成彩虹。

@@ -1,0 +1,29 @@
+name: 焚焰蚣VMAX
+illustrators:
+  - Oswaldo KATO
+regulationMark: D
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Fire
+  stage: VMAX
+  evolvesFrom: 焚焰蚣V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 超极巨百火焚野
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: 追加造成这只宝可梦身上附有的{Fire}能量数量×40点伤害。若希望，可在造成伤害后，选择自己弃牌区中的1张{Fire}能量，附着于这只宝可梦身上。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

@@ -1,0 +1,41 @@
+name: 路卡利欧&美录梅塔GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 260
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 钢铁之拳
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 将自己牌库中的1张{Metal}能量，附着于这只宝可梦身上。并重洗牌库。
+    - name: 重磅冲击
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "150"
+    - name: 全金属壁垒GX
+      cost:
+        - Colorless
+      text: 在这场对战结束前，自己的所有{Metal}宝可梦，受到对手宝可梦的全部招式的伤害「-30」。如果追加附有1个能量的话，则将附着于对手战斗宝可梦身上的能量，全部放于弃牌区。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

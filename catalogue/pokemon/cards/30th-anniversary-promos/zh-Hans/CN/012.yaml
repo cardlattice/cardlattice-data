@@ -1,0 +1,25 @@
+name: 波加曼
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 啄
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 自尊心很强，讨厌从人那里接受食物。长长的绒毛能抵御寒冷。

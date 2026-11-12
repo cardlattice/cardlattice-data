@@ -1,0 +1,11 @@
+name: 基本水能量
+regulationMark: null
+printedDenominator: null
+illustrators:
+  - YOSHIROTTEN
+pokemon:
+  category: energy
+  types:
+    - Water
+  subtypes:
+    - Basic Energy

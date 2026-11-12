@@ -1,0 +1,29 @@
+name: 科斯莫古
+regulationMark: E
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 789
+  species: 星云宝可梦
+  heightMetres: 0.2
+  weightKilograms: 0.1
+  flavourText: 是否是这个世界的宝可梦尚且是个谜。在遇到危机的时候会使用空间跳跃，隐身去安全的地方。
+  attacks:
+    - name: 星之守护
+      cost:
+        - Colorless
+      text: 抛掷1次硬币如果为正面，则在下一个对手的回合，这只宝可梦不受到招式的伤害。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

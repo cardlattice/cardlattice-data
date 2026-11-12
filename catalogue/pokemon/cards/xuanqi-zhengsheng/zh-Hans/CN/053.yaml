@@ -1,0 +1,13 @@
+name: 小霞&科拿
+rarity: U
+illustrators:
+  - Megumi Mizutani
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+    - TAG TEAM
+  rules:
+    - 将自己牌库中最多3张{Water}能量，在给对手看过之后，加入手牌。并重洗牌库。
+    - 另外，当使用这张卡牌时，可将5张自己的手牌放于弃牌区。在这种情况下，在这个回合，即使自己已经使用过GX招式了，自己的{Water}宝可梦，依然可以使用GX招式。
+    - 在自己的回合只可以使用1张支援者卡。

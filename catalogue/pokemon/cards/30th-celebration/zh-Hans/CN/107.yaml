@@ -1,0 +1,27 @@
+name: 急冻鸟
+rarity: AR
+illustrators:
+  - mashu
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 冰雹
+      cost:
+        - Water
+        - Water
+        - Colorless
+      text: 给对手所有宝可梦各造成30伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities:
+    - name: 冻结展翼
+      kind: Ability
+      text: 如果自己场上有「火焰鸟」「闪电鸟」的话，则在自己的回合可以使用1次。选择自己手牌中的1张「基本{Water}能量」，附着于这只宝可梦身上。
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 据说它那蓝色的美丽羽毛是由冰构成的。会飘曳着长尾巴飞过茫茫雪山。

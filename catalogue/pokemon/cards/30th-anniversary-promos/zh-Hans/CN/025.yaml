@@ -1,0 +1,27 @@
+name: 新叶喵
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 树叶
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 毛茸茸的体毛有着近似于植物的成分。会勤于洗脸以防止干燥。

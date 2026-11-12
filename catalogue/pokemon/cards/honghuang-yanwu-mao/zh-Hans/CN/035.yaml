@@ -1,0 +1,30 @@
+name: 卡璞・鸣鸣VMAX
+rarity: RRR
+illustrators:
+  - PLANETA Tsuji
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Lightning
+  stage: VMAX
+  evolvesFrom: 卡璞・鸣鸣V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨冲击
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "180"
+      text: 如果自己的剩余奖赏卡张数，比对手的剩余奖赏卡张数多的话，则使对手的战斗宝可梦陷入麻痹状态。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

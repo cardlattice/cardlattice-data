@@ -1,0 +1,32 @@
+name: 索罗亚克
+rarity: R
+illustrators:
+  - Souichirou Gunjima
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: 索罗亚
+  nationalDex:
+    - 571
+  species: 妖狐宝可梦
+  heightMetres: 1.6
+  weightKilograms: 81.1
+  flavourText: 据说，栖息地快要暴露在人类面前时，它就会制造出幻象，让人在森林里不断徘徊。
+  attacks:
+    - name: 暗黑爆破
+      cost:
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: 幻影变幻
+      kind: Ability
+      text: 在自己的回合可以使用1次。选择自己弃牌区中的1张1阶进化宝可梦（除「索罗亚克」外）。然后，将这只宝可梦，以及放于其身上的所有卡牌，放于弃牌区，将被选择的宝可梦放于这只宝可梦原先的位置。
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2

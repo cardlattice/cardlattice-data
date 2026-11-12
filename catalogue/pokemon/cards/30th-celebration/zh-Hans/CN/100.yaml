@@ -1,0 +1,32 @@
+name: 一家鼠
+rarity: C
+illustrators:
+  - Kariya
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: 一同啃住
+      cost:
+        - Colorless
+      text: 抛掷与自己场上的「一家鼠」数量相同次数的硬币，从对手牌库上方将出现正面次数×2张卡牌放于弃牌区。
+    - name: 拍击
+      cost:
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: 一对鼠
+  nationalDex:
+    - 925
+  species: 家族宝可梦
+  heightMetres: 0.3
+  weightKilograms: 2.8
+  flavourText: 身型大的2只会一边保护孩子一边战斗。对抗强大的对手时会集体出阵。

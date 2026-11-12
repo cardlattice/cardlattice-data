@@ -1,0 +1,15 @@
+name: 神奥的伙伴
+collectorNumber: 213/S-P
+releaseDate: 2024-11-15
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 从自己的牌库上方抽取3张卡牌。
+    - 在自己的回合只可以使用1张支援者卡。
+regulationMark: F
+illustrators:
+  - Ryuta Fuse
+products:
+  - pokemon-product-friends-reunion

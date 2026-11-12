@@ -1,0 +1,19 @@
+name: 甲贺忍蛙BREAK
+regulationMark: null
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: BREAK
+  evolvesFrom: 甲贺忍蛙
+  subtypes:
+    - BREAK
+  abilities:
+    - name: 巨大飞水手里剑
+      kind: Ability
+      text: 选择自己手牌中的1张{Water}能量，放于弃牌区。然后，选择对手的1只宝可梦，放置6个伤害指示物。如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次这个特性。
+  rules:
+    - 继承BREAK进化前的甲贺忍蛙的「招式、特性、弱点、抗性、撤退」。

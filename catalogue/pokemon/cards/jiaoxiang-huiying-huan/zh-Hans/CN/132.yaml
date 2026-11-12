@@ -1,0 +1,11 @@
+name: 重置印章
+rarity: U
+illustrators:
+  - sadaji
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 对手将其所有的手牌放回牌库并重洗牌库。然后，对手从牌库上方抽取与对手剩余奖赏卡张数相同数量的卡牌。
+    - 在自己的回合可以使用任意张物品卡。

@@ -1,0 +1,35 @@
+name: 轰擂金刚猩VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Grass
+  stage: VMAX
+  evolvesFrom: 轰擂金刚猩V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 抓
+      cost:
+        - Colorless
+      damage: "50"
+    - name: 极巨连打
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: 130+
+      text: 若希望，可选择附着于这只宝可梦身上最多3张{Grass}能量，放于弃牌区。在这种情况下，追加造成其张数×50点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

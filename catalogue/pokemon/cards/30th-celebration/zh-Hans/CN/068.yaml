@@ -1,0 +1,32 @@
+name: 固拉多
+rarity: R
+illustrators:
+  - Takumi Wada
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: 大地破坏
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "250"
+      text: 给自己所有备战宝可梦也各造成20伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 383
+  species: 大陆宝可梦
+  heightMetres: 3.5
+  weightKilograms: 950
+  flavourText: 据说能用高温蒸发水分扩张大地。曾与盖欧卡激烈交战。

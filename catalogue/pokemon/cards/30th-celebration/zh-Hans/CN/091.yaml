@@ -1,0 +1,28 @@
+name: 杖尾鳞甲龙
+rarity: C
+illustrators:
+  - MARINA Chikazawa
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: 炽热冲天
+      cost:
+        - Lightning
+        - Fighting
+        - Colorless
+      damage: "250"
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: 鳞甲龙
+  nationalDex:
+    - 784
+  species: 鳞片宝可梦
+  heightMetres: 1.6
+  weightKilograms: 78.2
+  flavourText: 会敲响鳞片来测试对手胆量。弱小的家伙会被那声音吓跑。

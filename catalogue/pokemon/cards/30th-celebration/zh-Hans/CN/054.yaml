@@ -1,0 +1,36 @@
+name: 超梦
+rarity: R
+illustrators:
+  - nagimiso
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 给予力量
+      cost:
+        - Psychic
+      text: 选择自己弃牌区中最多2张基本能量，附着于自己的1只宝可梦身上。
+    - name: 精神驱动
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "120"
+      text: 选择这只宝可梦身上附着的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 150
+  species: 基因宝可梦
+  heightMetres: 2
+  weightKilograms: 122
+  flavourText: 通过梦幻的基因制造出来的宝可梦。拥有无与伦比的力量和凶暴的心灵。

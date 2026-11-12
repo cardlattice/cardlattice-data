@@ -1,0 +1,30 @@
+name: 冲浪皮卡丘VMAX
+regulationMark: E
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Lightning
+  stage: VMAX
+  evolvesFrom: 冲浪皮卡丘V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 极巨冲浪
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "160"
+      text: 给对手的所有备战宝可梦，也各造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

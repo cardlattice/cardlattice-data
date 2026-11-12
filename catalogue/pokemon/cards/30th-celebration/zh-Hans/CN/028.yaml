@@ -1,0 +1,31 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 12/30
+illustrators:
+  - USGMEN
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 皮卡连锁
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: 40×
+      text: 造成自己场上的「皮卡丘（包含「宝可梦ex」）」数量×40伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

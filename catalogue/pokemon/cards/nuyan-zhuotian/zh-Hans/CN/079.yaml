@@ -1,0 +1,11 @@
+name: 赛宝利
+rarity: SR
+illustrators:
+  - kirisAki
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 从自己的牌库上方抽取3张卡牌。然后，对手将对手自己的备战宝可梦放于弃牌区，直到其数量变为3只为止。
+    - 在自己的回合只可以使用1张支援者卡。

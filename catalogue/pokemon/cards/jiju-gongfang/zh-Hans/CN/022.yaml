@@ -1,0 +1,30 @@
+name: 咚咚鼠
+rarity: C
+illustrators:
+  - Shibuzoh.
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 702
+  species: 天线宝可梦
+  heightMetres: 0.2
+  weightKilograms: 2.2
+  flavourText: 上面的胡子是探索周边的感应器。下面长出的胡子是释放电的器官。
+  attacks:
+    - name: 疯狂派对
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 造成自己弃牌区中，拥有招式「疯狂派对」的宝可梦的数量×20点伤害。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1

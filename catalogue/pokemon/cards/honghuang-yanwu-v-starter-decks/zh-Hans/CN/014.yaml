@@ -1,0 +1,31 @@
+name: 轰擂金刚猩VMAX
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Grass
+  stage: VMAX
+  evolvesFrom: 轰擂金刚猩V
+  subtypes:
+    - VMAX
+    - Gigantamax
+    - Rapid Strike
+  attacks:
+    - name: 超极巨狂擂乱打
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 给对手的2只备战宝可梦，也各造成40点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

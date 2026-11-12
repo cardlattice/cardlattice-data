@@ -1,0 +1,23 @@
+name: 杖尾鳞甲龙
+rarity: AR
+illustrators:
+  - Gemi
+pokemon:
+  category: pokemon
+  abilities: []
+  resistances: []
+  hp: 180
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: 鳞甲龙
+  attacks:
+    - name: 炽热冲天
+      cost:
+        - Lightning
+        - Fighting
+        - Colorless
+      damage: "250"
+  weaknesses: []
+  retreatCost: 2
+  flavourText: 会敲响鳞片来测试对手胆量。弱小的家伙会被那声音吓跑。

@@ -1,0 +1,38 @@
+name: 一击武道熊师VMAX
+rarity: HR
+illustrators:
+  - Kinu Nishimura
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fighting
+  stage: VMAX
+  evolvesFrom: 一击武道熊师V
+  subtypes:
+    - VMAX
+    - Gigantamax
+    - Single Strike
+  attacks:
+    - name: 正拳突刺
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+    - name: 超极巨夺命一击
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "270"
+      text: 将附着于这只宝可梦身上的能量，全部放于弃牌区。这个招式的伤害，不计算对手的战斗宝可梦身上所附加的效果。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

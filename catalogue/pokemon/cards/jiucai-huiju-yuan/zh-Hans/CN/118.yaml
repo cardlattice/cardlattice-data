@@ -1,0 +1,12 @@
+name: 强力糖锭
+rarity: U
+illustrators:
+  - Toyste Beach
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Fusion Strike
+  rules:
+    - 在这个回合，自己的「汇流」宝可梦所使用的招式，给对手战斗宝可梦造成的伤害「+30」。
+    - 在自己的回合可以使用任意张物品卡。

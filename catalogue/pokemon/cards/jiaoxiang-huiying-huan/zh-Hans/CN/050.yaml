@@ -1,0 +1,39 @@
+name: 乌鸦头头GX
+rarity: RR
+illustrators:
+  - sadaji
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: 黑暗鸦
+  subtypes:
+    - GX
+  attacks:
+    - name: 羽毛风暴
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 给对手处于备战区的2只「宝可梦GX・EX」，也各造成30点伤害。[备战宝可梦不计算弱点、抗性。]
+    - name: 不公GX
+      cost:
+        - Colorless
+        - Colorless
+      text: 查看对手的手牌，将其中2张卡牌，放于弃牌区。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 夜之支配者
+      kind: Ability
+      text: 只要这只宝可梦在战斗场上，对方就无法从手牌使出「宝可梦道具」「特殊能量」也无法放置「竞技场」。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

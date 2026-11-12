@@ -1,0 +1,31 @@
+name: 梦幻ex
+rarity: RR
+illustrators:
+  - aky CG Works
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 瞬移破坏
+      cost:
+        - Psychic
+      damage: "30"
+      text: 若希望，可以将这只宝可梦与备战宝可梦互换。
+  abilities:
+    - name: 记忆螺旋
+      kind: Ability
+      text: 这只宝可梦可以使用自己备战宝可梦所拥有的全部招式。[需要满足使用招式所需能量。]
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  subtypes:
+    - ex
+  rules:
+    - 当宝可梦ex昏厥时，对手将拿取2张奖赏卡。

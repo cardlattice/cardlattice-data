@@ -1,0 +1,29 @@
+name: 索财灵
+rarity: C
+illustrators:
+  - Fujimoto Gold
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 多走走
+      cost:
+        - Colorless
+      text: 抛掷1次硬币，如果为正面，则选择自己牌库中任意1张卡牌，加入手牌。并重洗牌库。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 999
+  species: 寻宝宝可梦
+  heightMetres: 0.1
+  weightKilograms: 0.1
+  flavourText: 背着古老的硬币四处徘徊。会吸取试图捡起硬币的人的生命力来维生。

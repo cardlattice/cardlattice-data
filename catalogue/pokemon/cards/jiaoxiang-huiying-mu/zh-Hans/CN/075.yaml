@@ -1,0 +1,37 @@
+name: 咚咚鼠GX
+rarity: RR
+illustrators:
+  - PLANETA Igarashi
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 劈啪作响
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+    - name: 劈啪折返GX
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: 使对手的战斗宝可梦陷入麻痹状态。将这只宝可梦，以及放于其身上的所有卡牌，放回手牌。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 咚咚替换
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可使用1次。将自己的手牌全部放于弃牌区，从牌库上方抽取6张卡牌。在这个回合，如果已经使用了其他的「咚咚替换」了的话，则无法使用这个特性。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

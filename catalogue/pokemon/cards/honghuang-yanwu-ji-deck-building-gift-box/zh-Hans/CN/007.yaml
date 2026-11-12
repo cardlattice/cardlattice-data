@@ -1,0 +1,11 @@
+name: 潮漩扇
+illustrators:
+  - sadaji
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - Rapid Strike
+  rules:
+    - 选择附着于对手场上宝可梦身上的1个特殊能量，放回对手的牌库下方。
+    - 在自己的回合可以使用任意张物品卡。

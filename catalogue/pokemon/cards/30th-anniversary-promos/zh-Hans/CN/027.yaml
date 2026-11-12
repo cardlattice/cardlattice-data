@@ -1,0 +1,26 @@
+name: 润水鸭
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 翅膀攻击
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 很久以前从远方的土地来到这里栖息。羽毛分泌出的凝胶有防水和防污的效果。

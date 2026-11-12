@@ -1,0 +1,34 @@
+name: 巨金怪V
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - V
+    - Rapid Strike
+  attacks:
+    - name: 子弹拳
+      cost:
+        - Metal
+      damage: 20+
+      text: 抛掷2次硬币，追加造成正面次数×20点伤害。
+    - name: 同步重锤
+      cost:
+        - Metal
+        - Colorless
+      damage: 60+
+      text: 如果这只宝可梦身上附有的能量数量与对手战斗宝可梦身上附有的能量数量相同的话，则追加造成90点伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,34 @@
+name: 烈箭鹰V
+rarity: RR
+illustrators:
+  - Ryota Murayama
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 快速飞行
+      cost:
+        - Colorless
+      text: 这个招式，即使是先攻玩家的最初回合也可以使用。将自己的手牌全部放于弃牌区，从牌库上方抽取6张卡牌。
+    - name: 红莲之翼
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "160"
+      text: 选择附着于这只宝可梦身上的1个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

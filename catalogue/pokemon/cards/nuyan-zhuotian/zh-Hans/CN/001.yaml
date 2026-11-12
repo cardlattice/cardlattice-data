@@ -1,0 +1,29 @@
+name: 独角虫
+rarity: C
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 13
+  species: 毛毛虫宝可梦
+  heightMetres: 0.3
+  weightKilograms: 3.2
+  flavourText: 毒针十分的厉害。醒目的体色是用来警告对手的。
+  attacks:
+    - name: 突刺
+      cost:
+        - Grass
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1

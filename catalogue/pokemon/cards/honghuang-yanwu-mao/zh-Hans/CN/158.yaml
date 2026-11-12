@@ -1,0 +1,33 @@
+name: 一击武道熊师V
+rarity: CSR
+illustrators:
+  - Yuu Nishida
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - V
+    - Single Strike
+  attacks:
+    - name: 磨砺
+      cost:
+        - Fighting
+      text: 选择自己牌库中的最多2张{Fighting}能量，附着于这只宝可梦身上。并重洗牌库。
+    - name: 冲击重拳
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "180"
+      text: 在下一个自己的回合，这只宝可梦无法使用「冲击重拳」。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,35 @@
+name: 巨炭山VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fighting
+  stage: VMAX
+  evolvesFrom: 巨炭山V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 喷火弹
+      cost:
+        - Fighting
+      damage: 40+
+      text: 将自己牌库上方的1张卡牌放于弃牌区，如果该卡牌是能量的话，则追加造成90点伤害。然后，将放于弃牌区的能量附着于这只宝可梦身上。
+    - name: 超极巨石破天惊
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "240"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

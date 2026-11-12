@@ -1,0 +1,36 @@
+name: 尼多王
+rarity: U
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: 尼多力诺
+  nationalDex:
+    - 34
+  species: 钻锥宝可梦
+  heightMetres: 1.4
+  weightKilograms: 62
+  flavourText: 像石头一样坚硬的皮肤以及长长的角是它的特征。角上有毒需要注意。
+  attacks:
+    - name: 强行拖出
+      cost:
+        - Colorless
+        - Colorless
+      text: 选择对手的1只备战宝可梦，将其与战斗宝可梦互换。然后，给新出场的宝可梦造成50点伤害。
+    - name: 国王战鼓
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 如果自己的备战区中有「尼多后」的话，则追加造成100点伤害。
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3

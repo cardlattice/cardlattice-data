@@ -1,0 +1,34 @@
+name: 锹农炮虫V
+rarity: RR
+illustrators:
+  - Ayaka Yoshida
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 麻痹伏特
+      cost:
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: 在下一个对手的回合，对手无法从手牌使出物品。
+    - name: 超电磁炮
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "190"
+      text: 选择附着于这只宝可梦身上的2个能量，放于弃牌区。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

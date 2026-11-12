@@ -1,0 +1,30 @@
+name: 叉字蝠V
+rarity: RR
+illustrators:
+  - PLANETA Mochizuki
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Darkness
+  stage: Basic
+  subtypes:
+    - V
+  attacks:
+    - name: 毒牙
+      cost:
+        - Darkness
+        - Colorless
+      damage: "70"
+      text: 使对手的战斗宝可梦陷入中毒状态。
+  abilities:
+    - name: 暗夜资产
+      kind: Ability
+      text: 在自己的回合，当将这张卡牌从手牌使出放于备战区时，可使用1次。从牌库上方抽取卡牌。直到自己的手牌变为6张为止。在这个回合，如果已经使用了其他的「暗夜资产」了的话，则无法使用这个特性。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦V昏厥时，对手将拿取2张奖赏卡。

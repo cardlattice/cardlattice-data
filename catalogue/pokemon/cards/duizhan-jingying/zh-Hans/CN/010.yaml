@@ -1,0 +1,37 @@
+name: 捷拉奥拉GX
+rarity: RR
+illustrators:
+  - PLANETA Otani
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - GX
+  attacks:
+    - name: 等离子闪电拳
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "160"
+      text: 在下一个自己的回合，这只宝可梦无法使用招式。
+    - name: 满溢电压GX
+      cost:
+        - Lightning
+      text: 将自己弃牌区中的5张基本能量，以任意方式附着于自己的宝可梦身上。[对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 迅雷领域
+      kind: Ability
+      text: 只要这只宝可梦在场上，身上附有{Lightning}能量的自己的所有宝可梦撤退所需能量，全部消除。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

@@ -1,0 +1,11 @@
+name: 怪兽狂
+rarity: U
+illustrators:
+  - Hitoshi Ariga
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 从自己的牌库中将最多3张撤退所需能量为4个的宝可梦，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

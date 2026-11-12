@@ -1,0 +1,36 @@
+name: 达克莱伊&克雷色利亚LEGEND
+regulationMark: null
+pokemon:
+  category: pokemon
+  types:
+    - Darkness
+    - Psychic
+  stage: LEGEND
+  subtypes:
+    - LEGEND
+  attacks:
+    - name: 放逐危机
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: 将这只宝可梦身上附着的2个能量放于放逐区。将受到这个招式的伤害而昏厥的宝可梦以及放于其身上的所有卡牌放于放逐区。
+    - name: 月之诱惑
+      cost:
+        - Psychic
+      text: 选择对手宝可梦身上放置的任意数量的伤害指示物，以任意方式转放于对手的宝可梦身上。
+  weaknesses:
+    - type: Fighting
+      value: ×2
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 将手牌中的2种达克莱伊&克雷色利亚LEGEND组合后，放于备战区。
+    - 当这只宝可梦昏厥时，对手将拿取2张奖赏卡。
+legendPart: bottom
+collections:
+  - pokemon-collection-30th-celebration-darkrai-cresselia-legend-zh-hans-cn

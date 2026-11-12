@@ -1,0 +1,32 @@
+name: 刺梭鱼
+rarity: C
+illustrators:
+  - Hitoshi Ariga
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 846
+  species: 突击宝可梦
+  heightMetres: 0.5
+  weightKilograms: 1
+  flavourText: 尖锐的下巴是它的骄傲。只要发现周围有什么小动作，就会一直线冲过去。
+  attacks:
+    - name: 结群
+      cost:
+        - Colorless
+      text: 选择自己牌库中最多2张「刺梭鱼」，放于备战区。并重洗牌库。
+    - name: 啄
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1

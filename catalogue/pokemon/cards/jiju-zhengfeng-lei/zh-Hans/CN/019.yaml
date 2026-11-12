@@ -1,0 +1,35 @@
+name: 千面避役VMAX
+rarity: RRR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Water
+  stage: VMAX
+  evolvesFrom: 千面避役V
+  subtypes:
+    - VMAX
+    - Dynamax
+  attacks:
+    - name: 水炮狙击
+      cost:
+        - Water
+      damage: "60"
+      text: 若希望，可选择附着于对手战斗宝可梦身上的1个能量，放回对手的手牌。
+    - name: 极巨子弹
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "160"
+      text: 给对手的1只备战宝可梦，也造成60点伤害。[备战宝可梦不计算弱点、抗性。]
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

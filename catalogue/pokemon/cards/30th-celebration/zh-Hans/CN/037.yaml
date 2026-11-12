@@ -1,0 +1,29 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 21/30
+illustrators:
+  - OOYAMA
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 南国心境
+      cost:
+        - Colorless
+        - Colorless
+      text: 令这只宝可梦陷入睡眠状态。从牌库上方抽取卡牌，直到自己的手牌变为6张为止。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

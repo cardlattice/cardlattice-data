@@ -1,0 +1,11 @@
+name: 阿塞萝拉的预感
+rarity: U
+illustrators:
+  - Shiburingaru
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 查看对手的手牌，从自己的牌库上方抽取与对手的手牌中训练家张数相同张数的卡牌。
+    - 在自己的回合只可以使用1张支援者卡。

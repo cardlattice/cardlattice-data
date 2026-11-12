@@ -1,0 +1,34 @@
+name: 喷火龙&长尾火狐GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 夺目闪焰
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+      damage: "180"
+      text: 若希望，可将自己牌库中任意卡牌最多3张，加入手牌。并重洗牌库。
+    - name: 红莲火柱GX
+      cost:
+        - Fire
+      text: 将自己弃牌区中的5张基本能量，以任意方式附着于自己的宝可梦身上。如果追加附有1个能量的话，则使对手的战斗宝可梦陷入灼伤和混乱状态。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

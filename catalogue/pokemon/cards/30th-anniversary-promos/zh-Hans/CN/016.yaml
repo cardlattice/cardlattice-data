@@ -1,0 +1,27 @@
+name: 哈力栗
+releaseDate: 2026-08-07
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-3-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: 飞弹针
+      cost:
+        - Grass
+        - Colorless
+      damage: 10×
+      text: 抛掷4次硬币，造成正面次数×10伤害。
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 头部的刺平时很柔软，如果注入了力量，就会变得尖锐，硬得连岩石也能刺穿。

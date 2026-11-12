@@ -1,0 +1,26 @@
+name: 杰尼龟
+releaseDate: 2026-03-20
+regulationMark: J
+illustrators:
+  - Saboteri
+products:
+  - pokemon-product-30th-first-partners-vol-1-zh-hans-cn
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: 泡沫
+      cost:
+        - Water
+      damage: "10"
+      text: 抛掷1次硬币，如果为正面，则令对手的战斗宝可梦陷入麻痹状态。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: 当它把长长的脖子缩回壳里时，会顺势发射出力道强劲的水枪。

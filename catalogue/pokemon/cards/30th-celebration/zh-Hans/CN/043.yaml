@@ -1,0 +1,31 @@
+name: 皮卡丘
+additionalNumbers:
+  pikachu30th: 27/30
+illustrators:
+  - Nurikabe
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: 斗志惊雷
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: 如果对手的战斗宝可梦是「宝可梦ex」的话，则追加造成80伤害。
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 25
+  species: 鼠宝可梦
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 脸颊两边有着小小的电力袋。遇到危险时就会放电。

@@ -1,0 +1,10 @@
+name: 汇流能量
+rarity: U
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+    - Fusion Strike
+  rules:
+    - 这张卡牌只能附着于「汇流」宝可梦身上，如果这张卡牌附着于「汇流」宝可梦之外的宝可梦身上的话，则将其放于弃牌区。
+    - 只要这张卡牌，被附着于宝可梦身上，就可被视作1个所有属性的能量，身上附有这张卡牌的宝可梦，不会受到对手宝可梦的特性的效果影响。

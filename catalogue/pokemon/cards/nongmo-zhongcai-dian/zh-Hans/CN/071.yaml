@@ -1,0 +1,35 @@
+name: 苍响
+rarity: A
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  nationalDex:
+    - 888
+  species: 强者宝可梦
+  heightMetres: 2.8
+  weightKilograms: 355
+  flavourText: 用过去使用的兵器武装自己。即使是超极巨化宝可梦，也能以一剑将之拿下。
+  attacks:
+    - name: 金属武器
+      cost:
+        - Colorless
+      damage: "30"
+      text: 选择自己弃牌区中的1张基本能量，附着于这只宝可梦身上。
+    - name: 奇幻之剑
+      cost:
+        - Grass
+        - Psychic
+        - Metal
+      damage: 150+
+      text: 如果对手场上有「宝可梦VMAX」的话，则追加造成150点伤害。
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2

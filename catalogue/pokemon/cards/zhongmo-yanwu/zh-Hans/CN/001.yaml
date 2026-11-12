@@ -1,0 +1,38 @@
+name: 炎帝
+rarity: R
+illustrators:
+  - NC Empire
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - Single Strike
+  nationalDex:
+    - 244
+  species: 火山宝可梦
+  heightMetres: 2.1
+  weightKilograms: 198
+  flavourText: 据说如果炎帝吼叫的话，世界上的某处火山就会喷发。
+  attacks:
+    - name: 愤怒之牙
+      cost:
+        - Fire
+        - Colorless
+      damage: 10×
+      text: 造成自己备战区中所有「一击」宝可梦身上放置的伤害指示物数量×10点伤害。
+    - name: 高温冲撞
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: 给这只宝可梦也造成30点伤害。
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2

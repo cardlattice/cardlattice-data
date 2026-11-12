@@ -1,0 +1,45 @@
+name: 奈克洛兹玛 黄昏之鬃GX
+rarity: HR
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - GX
+    - Ultra Beast
+  attacks:
+    - name: 利爪劈开
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+    - name: 流星风暴
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Colorless
+      damage: "220"
+      text: 将附着于这只宝可梦身上的3个能量，放于弃牌区。
+    - name: 日食GX
+      cost:
+        - Metal
+        - Metal
+        - Metal
+      damage: "250"
+      text: 这个招式，只有在自己的剩余奖赏卡张数，比对手多的时候才可使用。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  rules:
+    - 当宝可梦GX昏厥时，对手将拿取2张奖赏卡。

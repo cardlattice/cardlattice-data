@@ -1,0 +1,32 @@
+name: 以欧路普VMAX
+illustrators:
+  - Teeziro
+regulationMark: D
+pokemon:
+  category: pokemon
+  hp: 310
+  types:
+    - Grass
+  stage: VMAX
+  evolvesFrom: 以欧路普V
+  subtypes:
+    - VMAX
+    - Gigantamax
+  attacks:
+    - name: 超极巨波澜壮阔
+      cost:
+        - Grass
+        - Colorless
+      damage: 50+
+      text: 追加造成对手战斗宝可梦身上附有的能量数量×50点伤害。
+  abilities:
+    - name: 怪异光线
+      kind: Ability
+      text: 如果这只宝可梦在战斗场上的话，则在自己的回合可以使用1次。给对手的所有宝可梦身上，各放置1个伤害指示物。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦VMAX昏厥时，对手将拿取3张奖赏卡。

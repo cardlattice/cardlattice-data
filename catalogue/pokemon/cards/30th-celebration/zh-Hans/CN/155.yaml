@@ -1,0 +1,33 @@
+name: 盖诺赛克特EX
+regulationMark: null
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - EX
+  trainers:
+    - 等离子队
+  attacks:
+    - name: 巨大加农
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "100"
+      text: 选择对手的1只备战宝可梦，给那只宝可梦也造成20伤害。[对备战宝可梦的伤害，不计算弱点、抗性。]
+  abilities:
+    - name: 红色信号
+      kind: Ability
+      text: 每当从自己的手牌将「等离子能量」附着于这只宝可梦身上时，可以使用1次这个特性。选择对手的1只备战宝可梦，将其与战斗宝可梦互换。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当宝可梦EX昏厥时，对手将拿取2张奖赏卡。

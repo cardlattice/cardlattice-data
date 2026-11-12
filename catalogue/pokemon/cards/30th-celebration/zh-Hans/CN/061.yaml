@@ -1,0 +1,30 @@
+name: 飘飘球
+rarity: C
+illustrators:
+  - Shinya Komatsu
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: 飘飘扬
+      cost:
+        - Psychic
+      damage: "20"
+      text: 若希望，可以将这只宝可梦以及放于其身上的全部的卡牌放回牌库并重洗牌库。
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 425
+  species: 气球宝可梦
+  heightMetres: 0.4
+  weightKilograms: 1.2
+  flavourText: 漫无目的地浮在空中的样子，使它在某些民间故事里被相传为迷途灵魂的路标。

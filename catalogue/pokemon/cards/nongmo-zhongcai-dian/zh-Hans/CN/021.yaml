@@ -1,0 +1,31 @@
+name: 古月鸟
+rarity: C
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Basic
+  nationalDex:
+    - 845
+  species: 一口吞宝可梦
+  heightMetres: 0.8
+  weightKilograms: 18
+  flavourText: 因为特别贪吃，所以想把肉滚滚的刺梭鱼整个吞下，结果却把它卡在了喉咙里。
+  attacks:
+    - name: 连续一口导弹
+      cost:
+        - Colorless
+        - Colorless
+      damage: 60×
+      text: 将自己备战区中任意数量的「刺梭鱼」放于弃牌区，造成其张数×60点伤害。
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1

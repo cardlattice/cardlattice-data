@@ -1,0 +1,32 @@
+name: 帕路奇亚LV.X
+regulationMark: null
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Level-Up
+  subtypes:
+    - LV.X
+  attacks:
+    - name: 水炮反射
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "60"
+      text: 若希望，可以将这只宝可梦身上所有的能量以任意方式转附于自己的备战宝可梦身上。（如果自己没有备战宝可梦的话，则这个效果消除。）
+  abilities:
+    - name: 重建
+      kind: Poké-Power
+      text: 在自己的回合可以使用1次。对手玩家选择我方的1只备战宝可梦，自己选择对手的1只备战宝可梦。然后，各将被选择的宝可梦与战斗宝可梦互换。（没有备战宝可梦的玩家不用执行互换。）如果这只宝可梦处于特殊状态的话，则无法使用这个力量。
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 叠放于帕路奇亚身上
+    - 将这张卡牌叠放于战斗场上的帕路奇亚身上使其升级。可以使用升级前的招式、宝可力量，宝可体质也生效。
