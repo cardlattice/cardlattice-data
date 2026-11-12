@@ -297,7 +297,8 @@ zero. Measurements are nonnegative numbers bounded to 1,000,000; species text is
 limited to 200 characters and flavour text to 2,000. Species and measurements
 belong to Pokémon, not Trainer or Energy records.
 
-The rarity enum also preserves verified printed regional codes `C`, `U`, `R`, `RR`, `SR`, `AR` and `SAR`.
+The rarity enum also preserves verified printed regional letter codes (such as
+`C`, `RR`, `SSR`, `PR` and `FUR`) and the gem-pack symbols `●`, `◆`, `★`, `★★` and `★★★`.
 They are the codes actually printed, not aliases that automatically convert into
 English rarity labels. Do not guess a rarity from artwork or finish. Add other
 verified codes to the compiler and schema together. A card with no printed rarity
