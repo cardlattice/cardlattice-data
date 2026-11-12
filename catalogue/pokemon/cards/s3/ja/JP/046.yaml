@@ -1,0 +1,35 @@
+name: フライゴン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: デザートゲイザー
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+  abilities:
+    - name: すなのめいきゅう
+      text: このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、にげられない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 330
+  species: せいれいポケモン
+  heightMetres: 2
+  weightKilograms: 82
+  flavourText: 自らが 巻き起こす 砂嵐の 中心に いるので 滅多に 人前に 現れない ポケモン。
+  evolvesFrom: ビブラーバ
+rarity: U
+illustrators:
+  - hatachu

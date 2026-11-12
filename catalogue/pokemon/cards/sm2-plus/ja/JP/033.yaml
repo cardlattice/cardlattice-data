@@ -1,0 +1,36 @@
+name: ルガルガン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: デンジャラスクロー
+      cost:
+        - Fighting
+      damage: 30+
+      text: 相手のバトルポケモンがたねポケモンなら、30ダメージ追加。
+    - name: おいつめる
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 745
+  species: オオカミポケモン
+  heightMetres: 1.1
+  weightKilograms: 25
+  flavourText: 手強い 相手を 前に するほど 血が 高ぶる。 勝つためなら 我が身を かえりみず 襲いかかる。
+  evolvesFrom: イワンコ
+illustrators:
+  - Shin Nagasawa

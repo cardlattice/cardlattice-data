@@ -1,0 +1,34 @@
+name: オオタチ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: じょうきげん
+      cost:
+        - Colorless
+      text: 自分の山札を3枚引く。
+    - name: テールスマッシュ
+      cost:
+        - Colorless
+      damage: "90"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 162
+  species: どうながポケモン
+  heightMetres: 1.8
+  weightKilograms: 32.5
+  flavourText: 細長い 体の 形に 合わせた 巣を 作り 他の ポケモンは 入れなくしている。
+  evolvesFrom: オタチ
+rarity: C
+illustrators:
+  - tetsuya koizumi

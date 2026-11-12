@@ -1,0 +1,37 @@
+name: ボーマンダVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Colorless
+  stage: VMAX
+  attacks:
+    - name: ツインソニック
+      cost:
+        - Colorless
+      text: 相手のポケモン2匹に、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: ダイウイング
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "240"
+      text: 次の自分の番、このポケモンは「ダイウイング」が使えない。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: ボーマンダV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

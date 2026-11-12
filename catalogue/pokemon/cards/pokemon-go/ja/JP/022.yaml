@@ -1,0 +1,39 @@
+name: ギャラドス
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: あばれまくる
+      cost:
+        - Colorless
+      text: ウラが出るまでコインを投げ、オモテの数×2枚ぶん、相手の山札を上からトラッシュする。
+    - name: ワイルドスプラッシュ
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "230"
+      text: 自分の山札を上から5枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 130
+  species: きょうあくポケモン
+  heightMetres: 6.5
+  weightKilograms: 235
+  flavourText: 非常に 狂暴な 性格。 口から出す 破壊光線は すべてのものを 焼きつくす。
+  evolvesFrom: コイキング
+rarity: R
+illustrators:
+  - Mitsuhiro Arita
+stamps:
+  - pokemon-go

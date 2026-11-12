@@ -1,0 +1,37 @@
+name: ウッウ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ダイビング
+      cost:
+        - Water
+      damage: "20"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: ハイドロポンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンについている{Water}エネルギーの数×20ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 845
+  species: うのみポケモン
+  heightMetres: 0.8
+  weightKilograms: 18
+  flavourText: 相手を 一撃で 打ち負かすほど パワフルだが 忘れっぽいので 戦っている 相手を 忘れる。
+illustrators:
+  - Mitsuhiro Arita

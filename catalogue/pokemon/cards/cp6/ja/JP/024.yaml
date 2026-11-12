@@ -1,0 +1,39 @@
+name: ニョロゾ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ドわすれ
+      cost:
+        - Water
+        - Water
+      damage: "30"
+      text: 相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。
+    - name: おうふくビンタ
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 50×
+      text: コインを2回投げ、オモテの数×50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 61
+  species: おたまポケモン
+  heightMetres: 1
+  weightKilograms: 20
+  flavourText: ２本の 足は 発達しており 地上で 暮らせるのに なぜか 水中 生活が 好き。
+  evolvesFrom: ニョロモ
+  level: 28
+rarity: C
+illustrators:
+  - Ken Sugimori

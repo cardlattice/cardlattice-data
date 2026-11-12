@@ -1,0 +1,31 @@
+name: ピカチュウ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ほっぺすりすり
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: でんこうせっか
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 黄色い体は 元気のしるし。 真っ赤なほっぺで あいさつすれば ピカピカえがおに 出会えるよ！
+rarity: RR
+illustrators:
+  - Kagemaru Himeno

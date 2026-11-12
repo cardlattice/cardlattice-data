@@ -1,0 +1,33 @@
+name: コロトック
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: いやなおと
+      cost:
+        - Colorless
+      text: 次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+60」される。
+    - name: きりさく
+      cost:
+        - Grass
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 402
+  species: こおろぎポケモン
+  heightMetres: 1
+  weightKilograms: 25.5
+  flavourText: 感情を メロディで 表す。 メロディの 法則性を 学者たちが 研究している。
+  evolvesFrom: コロボーシ
+rarity: C
+illustrators:
+  - Suwama Chiaki

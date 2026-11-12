@@ -1,0 +1,29 @@
+name: ヤミラミ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: アンダードロー
+      cost:
+        - Colorless
+      text: 自分の山札の下からカードを2枚引く。
+    - name: だましうち
+      cost:
+        - Psychic
+        - Colorless
+      text: 相手のポケモン1匹に、そのポケモンの弱点・抵抗力・すべての効果に関係なく、20ダメージ。
+  abilities:
+    - name: シンクロニシティー
+      text: 場に「フヨウのスタジアム」があるなら、このポケモンは、相手のポケモンexのワザによるダメージを受けない。
+      kind: Poké-Body
+  rules: []
+  weaknesses: []
+  resistances:
+    - type: Colorless
+  retreatCost: 1
+rarity: ★
+illustrators:
+  - Ken Sugimori

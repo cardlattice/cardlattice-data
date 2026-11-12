@@ -1,0 +1,33 @@
+name: メタグロスex
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: スキャンブラスト
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "70"
+      text: 相手と同じ名前の相手のベンチポケモン全員にも、それぞれ70ダメージ。
+  abilities:
+    - name: マグネティックリドロー
+      text: このパワーは、このポケモンがバトル場にいるなら、自分の番に1回使うことができる。おたがいのプレイヤーは、それぞれ、自分の手札をすべて山札にもどし、切る。その後、それぞれ、自分の山札からカードを4枚引く。このポケモンが特殊状態なら、このパワーを使うことはできない。
+      kind: Poké-Power
+  rules:
+    - ポケモンexがきぜつしたとき、相手プレイヤーはサイドを2枚とります。
+  weaknesses:
+    - type: Fire
+    - type: Fighting
+  resistances:
+    - type: Grass
+  retreatCost: 4
+  evolvesFrom: メタング
+  subtypes:
+    - ex
+rarity: ★ (silver)
+illustrators:
+  - Ryo Ueda

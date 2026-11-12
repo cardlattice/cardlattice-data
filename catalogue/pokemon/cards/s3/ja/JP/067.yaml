@@ -1,0 +1,37 @@
+name: ハッサムVMAX
+pokemon:
+  category: pokemon
+  hp: 320
+  types:
+    - Metal
+  stage: VMAX
+  attacks:
+    - name: ハードシザー
+      cost:
+        - Metal
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+    - name: ダイスチル
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "190"
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Dynamax
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  evolvesFrom: ハッサムV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

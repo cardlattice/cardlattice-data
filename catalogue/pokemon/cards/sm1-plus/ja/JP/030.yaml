@@ -1,0 +1,31 @@
+name: ウソッキー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: いわおとし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+  abilities:
+    - name: みちをふさぐ
+      text: このポケモンがいるかぎり、相手がベンチに出せるポケモンの数は、4匹になる。相手のベンチに5匹以上いる場合は、相手はベンチが4匹になるまでポケモンをトラッシュする。［ベンチの数を変更する効果は、少ない数が優先される。］
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 185
+  species: まねポケモン
+  heightMetres: 1.2
+  weightKilograms: 38
+  flavourText: 襲われないため 樹木の 真似を するが 嫌いな 水を かけられて あわてて 逃げだしていく。
+illustrators:
+  - Hajime Kusajima

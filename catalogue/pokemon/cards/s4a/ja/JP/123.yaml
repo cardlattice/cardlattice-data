@@ -1,0 +1,34 @@
+name: オーロンゲ
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: エナジープレス
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: 相手のバトルポケモンについているエネルギーの数×30ダメージ追加。
+  abilities:
+    - name: あくのせいやく
+      text: このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、ワザを使うためのエネルギーが、{Colorless}エネルギー1個ぶん多くなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 861
+  species: ビルドアップポケモン
+  heightMetres: 1.5
+  weightKilograms: 61
+  flavourText: 髪の毛を 全身に 巻きつけると 筋力が アップ。 カイリキーを ねじ伏せる パワーを 発揮する。
+  evolvesFrom: ギモー
+illustrators:
+  - nagimiso

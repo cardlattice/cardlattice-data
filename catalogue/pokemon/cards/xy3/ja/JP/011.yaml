@@ -1,0 +1,38 @@
+name: ブーバーン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ニトロチャージ
+      cost:
+        - Fire
+      damage: "30"
+      text: 自分の山札から{Fire}エネルギーを1枚選び、このポケモンにつける。そして山札を切る。
+    - name: ツインボンバー
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 自分のベンチに「エレキブル」がいるなら、80ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 467
+  species: ばくえんポケモン
+  heightMetres: 1.6
+  weightKilograms: 68
+  flavourText: 腕の 先から 摂氏２０００度の 火の玉を 発射する。 火山の 火口を 住処にする。
+  evolvesFrom: ブーバー
+rarity: U
+illustrators:
+  - PLANETA

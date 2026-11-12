@@ -1,0 +1,37 @@
+name: トランセル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: かたまる
+      cost:
+        - Colorless
+        - Colorless
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-40」される。
+    - name: しびれごな
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 11
+  species: さなぎポケモン
+  heightMetres: 0.7
+  weightKilograms: 9.9
+  flavourText: 硬い カラに 包まれているが 中身は やわらかいので 強い 攻撃には 耐えられない。
+  evolvesFrom: キャタピー
+  level: 21
+rarity: C
+illustrators:
+  - Ken Sugimori

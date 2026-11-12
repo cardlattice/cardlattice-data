@@ -1,0 +1,32 @@
+name: イトマル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ぶらさがる
+      cost:
+        - Darkness
+      damage: "10"
+    - name: チクチクさす
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 167
+  species: いとはきポケモン
+  heightMetres: 0.5
+  weightKilograms: 8.5
+  flavourText: キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。
+illustrators:
+  - Kyoko Umemoto

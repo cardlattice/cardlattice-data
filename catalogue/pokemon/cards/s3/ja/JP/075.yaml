@@ -1,0 +1,31 @@
+name: ノコッチ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: さいごのひとほり
+      text: このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の山札を上から2枚トラッシュする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 206
+  species: つちへびポケモン
+  heightMetres: 1.5
+  weightKilograms: 14
+  flavourText: 人の 姿を 見ると シッポで 穴を 掘って 逃げてしまう。 もし 出会えたなら ラッキーだよ。
+rarity: C
+illustrators:
+  - Kazuma Koda

@@ -1,0 +1,36 @@
+name: エリキテル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: バチバチ
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 694
+  species: はつでんポケモン
+  heightMetres: 0.5
+  weightKilograms: 6
+  flavourText: 頭の 両わきの ひだには 太陽の 光を 浴びると 発電する 細胞が あるのだ。
+rarity: C
+illustrators:
+  - Ken Sugimori

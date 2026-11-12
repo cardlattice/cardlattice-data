@@ -1,0 +1,29 @@
+name: アーマルド
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: ロックブラスト
+      cost:
+        - Fighting
+      text: 自分の{Fighting}エネルギーを5枚までトラッシュし、トラッシュした枚数ぶん、相手の場のポケモンを選ぶ（同じポケモンを2回以上選んでもよい）。その後、選んだポケモン全員に、それが選ばれた回数×20ダメージを、弱点・抵抗力に関係なく与える。
+    - name: マッハクロー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: このワザは、相手の抵抗力に関係なく、ダメージを与える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: アノプス
+rarity: ★
+illustrators:
+  - Ken Sugimori

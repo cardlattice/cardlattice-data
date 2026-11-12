@@ -1,0 +1,37 @@
+name: ブニャット
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: にゃんこプレス
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを1回投げオモテなら、40ダメージを追加。ウラなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 432
+  species: とらねこポケモン
+  heightMetres: 1
+  weightKilograms: 43.8
+  flavourText: 体を 大きく 見せて 相手を 威圧するため ふたまたの 尻尾で ウエストを ぎゅっと 絞っている。
+  evolvesFrom: ニャルマー
+rarity: C
+illustrators:
+  - Kagemaru Himeno

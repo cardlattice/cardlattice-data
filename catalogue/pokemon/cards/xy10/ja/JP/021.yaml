@@ -1,0 +1,34 @@
+name: ガメノデス
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ツメできりさく
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: ハンドブロック
+      text: この特性は、場に自分のスタジアムが出ているなら、はたらく。このポケモンがいるかぎり、相手は手札から特殊エネルギーを出してつけられない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 689
+  species: しゅうごうポケモン
+  heightMetres: 1.3
+  weightKilograms: 96
+  flavourText: 手足にも 脳が あり 勝手に 動けるが 普段は 頭の ガメノデスの 命令に 従う。
+  evolvesFrom: カメテテ
+rarity: C
+illustrators:
+  - Shin Nagasawa

@@ -1,0 +1,37 @@
+name: ムクバード
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: おそいかかる
+      cost:
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージ追加。
+    - name: つばさでうつ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 397
+  species: むくどりポケモン
+  heightMetres: 0.6
+  weightKilograms: 15.5
+  flavourText: 森や 草原に 生息。 グループが 出くわすと なわばりを かけた 争いが はじまる。
+  evolvesFrom: ムックル
+rarity: C
+illustrators:
+  - chibi

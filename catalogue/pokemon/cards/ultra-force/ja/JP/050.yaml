@@ -1,0 +1,10 @@
+name: ユニットエネルギー雷超鋼
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Lightning}{Psychic}{Metal}の3つのタイプのエネルギー1個ぶんとしてはたらく。
+      ポケモンについていないなら、{Colorless}エネルギー1個ぶんとしてはたらく。
+  types:
+    - Colorless

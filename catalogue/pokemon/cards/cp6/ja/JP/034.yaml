@@ -1,0 +1,39 @@
+name: ライチュウ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: たいでん
+      cost:
+        - Lightning
+      text: 自分のトラッシュから{Lightning}エネルギーを1枚選び、このポケモンにつける。
+    - name: スパークボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 70+
+      text: のぞむなら、このポケモンについているエネルギーをすべてトラッシュしてよい。その場合、70ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 26
+  species: ねずみポケモン
+  heightMetres: 0.8
+  weightKilograms: 30
+  flavourText: 電撃は １０万ボルトに 達することもあり ヘタにさわると インドゾウでも 気絶する。
+  evolvesFrom: ピカチュウ
+  level: 40
+rarity: R
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,32 @@
+name: ルクシオ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: エレキック
+      cost:
+        - Lightning
+      damage: "30"
+  abilities:
+    - name: トップエントリー
+      text: 自分の番のはじめに、山札からこのカードを引いたとき、自分のベンチに空きがあるなら、手札に加える前に1回使える。このカードを自分のベンチに出す。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 404
+  species: でんこうポケモン
+  heightMetres: 0.9
+  weightKilograms: 30.5
+  flavourText: 鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 相手を気絶させる。
+  evolvesFrom: コリンク
+rarity: C
+illustrators:
+  - ryoma uratsuka

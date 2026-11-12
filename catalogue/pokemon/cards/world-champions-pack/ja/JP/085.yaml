@@ -1,0 +1,10 @@
+name: スーパーボール
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の山札から、「たねポケモン（ポケモンexはのぞく）」を1枚選び出し、自分のベンチに出す。その後、その山札を切る。
+rarity: ◆
+illustrators:
+  - Nakaoka

@@ -1,0 +1,32 @@
+name: ガラル マッギョV
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: トラップバイト
+      cost:
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを12個のせる。
+  abilities:
+    - name: メタルはだ
+      text: このポケモンの最大HPは、このポケモンについている{Metal}エネルギー1個につき「20」大きくなる。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+rarity: SR
+illustrators:
+  - PLANETA Tsuji

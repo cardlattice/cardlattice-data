@@ -1,0 +1,31 @@
+name: アマカジ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: あまいかおり
+      cost:
+        - Grass
+      text: 自分のポケモン1匹のHPを「30」回復する。
+    - name: はねる
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 761
+  species: フルーツポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.2
+  flavourText: 美味しそうな 香りが 体から 漏れ出している。 匂いに 誘われた ドデカバシに 丸呑みに される。
+illustrators:
+  - Akira Komayama

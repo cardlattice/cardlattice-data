@@ -1,0 +1,22 @@
+name: ナックラー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ふいをつく
+      cost:
+        - Colorless
+      damage: "20"
+      text: コインを1回投げウラなら、このワザは失敗する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Sachiko Adachi

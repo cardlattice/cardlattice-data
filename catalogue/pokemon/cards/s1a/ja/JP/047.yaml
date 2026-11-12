@@ -1,0 +1,34 @@
+name: タイレーツ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。
+    - name: チームアタック
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: 自分のベンチの、名前に「タイレーツ」とつくポケモンの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 870
+  species: じんけいポケモン
+  heightMetres: 3
+  weightKilograms: 62
+  flavourText: ヘイチョーと 呼ばれる １匹と ヘイと 呼ばれる ５匹で ひとつ。 ヘイチョーの 命令は 絶対。
+rarity: C
+illustrators:
+  - Misa Tsutsui

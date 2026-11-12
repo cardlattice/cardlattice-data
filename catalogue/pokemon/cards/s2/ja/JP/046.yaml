@@ -1,0 +1,34 @@
+name: ブリムオン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: むねんのしずく
+      cost:
+        - Psychic
+      text: 自分のトラッシュにあるポケモンの枚数ぶんのダメカンを、相手のバトルポケモンにのせる。
+  abilities:
+    - name: マインドハット
+      text: 自分の番に1回使える。おたがいのプレイヤーは、それぞれ自分の手札を1枚選び、トラッシュする。（トラッシュは相手から行う。手札がないプレイヤーはトラッシュしない。）
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 858
+  species: せいじゃくポケモン
+  heightMetres: 2.1
+  weightKilograms: 5.1
+  flavourText: 頭痛になるほどの サイコパワーを 周囲に 放って ほかの 生物を 遠ざけているのだ。
+  evolvesFrom: テブリム
+rarity: R
+illustrators:
+  - Kagemaru Himeno

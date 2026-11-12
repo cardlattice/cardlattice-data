@@ -1,0 +1,28 @@
+name: レディバ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: こうそくいどう
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 165
+  species: いつつぼしポケモン
+  heightMetres: 1
+  weightKilograms: 10.8
+  flavourText: 臆病で 常に 群れていないと 不安。 背中の模様は １匹 １匹 微妙に 違う 形。
+illustrators:
+  - Ayaka Yoshida

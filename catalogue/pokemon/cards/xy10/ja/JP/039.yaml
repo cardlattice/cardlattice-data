@@ -1,0 +1,34 @@
+name: メレシー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ストーンエッジ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities:
+    - name: エナジーキーパー
+      text: このポケモンがいるかぎり、自分のたねポケモンについている基本エネルギーは、相手のワザ・特性・トレーナーズのトラッシュする効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 703
+  species: ほうせきポケモン
+  heightMetres: 0.3
+  weightKilograms: 5.7
+  flavourText: 生まれてから 数億年の間 地底で 眠っていた。 洞窟を 掘ると たまに 出てくる。
+rarity: C
+illustrators:
+  - Yuka Morii

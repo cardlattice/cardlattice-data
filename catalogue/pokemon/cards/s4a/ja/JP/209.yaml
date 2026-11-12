@@ -1,0 +1,32 @@
+name: ヒメンカ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Colorless
+      text: 自分の山札からたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。
+    - name: はっぱカッター
+      cost:
+        - Grass
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 829
+  species: はなかざりポケモン
+  heightMetres: 0.4
+  weightKilograms: 2.2
+  flavourText: そよ風で くるくる 回りながら 楽しそうに 歌う 愛らしさに 魅せられ 育てる 人が 多い。
+rarity: S
+illustrators:
+  - Kyoko Umemoto

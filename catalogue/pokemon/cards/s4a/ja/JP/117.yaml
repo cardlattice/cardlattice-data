@@ -1,0 +1,34 @@
+name: イベルタル
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: アメイジングデス
+      cost:
+        - Fire
+        - Psychic
+        - Darkness
+        - Colorless
+        - Colorless
+      text: 相手のバトルポケモンをきぜつさせる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 717
+  species: はかいポケモン
+  heightMetres: 5.8
+  weightKilograms: 203
+  flavourText: 寿命が つきるとき あらゆる 生き物の 命を 吸いつくし 繭の 姿に 戻るという。
+illustrators:
+  - Hasuno
+rarity: A

@@ -1,0 +1,37 @@
+name: ウツドン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: つるのムチ
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+    - name: どくえき
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 70
+  species: ハエとりポケモン
+  heightMetres: 1
+  weightKilograms: 6.4
+  flavourText: 葉っぱの 部分は カッターになって 相手を 切り裂く。 口からは なんでも 溶かす 液体を 吐く。
+  evolvesFrom: マダツボミ
+rarity: C
+illustrators:
+  - Mizue

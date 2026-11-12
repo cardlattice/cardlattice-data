@@ -1,0 +1,28 @@
+name: シズクモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: あわ
+      cost:
+        - Water
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 751
+  species: すいほうポケモン
+  heightMetres: 0.3
+  weightKilograms: 4
+  flavourText: 餌を 求め 地上に あがる。 水泡を 被るのは 呼吸と 柔らかい 頭を 守るため。
+illustrators:
+  - Kagemaru Himeno

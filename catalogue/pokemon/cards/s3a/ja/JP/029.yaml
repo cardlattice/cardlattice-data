@@ -1,0 +1,35 @@
+name: ゼルネアス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ジオハント
+      cost:
+        - Psychic
+      text: 自分のトラッシュから好きなカードを1枚選び、相手に見せて、手札に加える。
+    - name: オーロラゲイン
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "100"
+      text: このポケモンのHPを「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 716
+  species: せいめいポケモン
+  heightMetres: 3
+  weightKilograms: 215
+  flavourText: 頭の ツノが 七色に 輝くとき 永遠の 命を 分け与えると 言われている。
+rarity: R
+illustrators:
+  - Kagemaru Himeno

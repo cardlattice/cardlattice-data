@@ -1,0 +1,22 @@
+name: オーロットBREAK
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: BREAK
+  attacks:
+    - name: サイレントフィアー
+      cost:
+        - Psychic
+        - Colorless
+      text: 相手のポケモン全員に、ダメカンをそれぞれ3個ずつのせる。
+  abilities: []
+  rules:
+    - BREAK進化する前のオーロットの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: オーロット
+rarity: RR
+illustrators:
+  - 5ban Graphics

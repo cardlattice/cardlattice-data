@@ -1,0 +1,34 @@
+name: ポッタイシ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: バブルこうせん
+      cost:
+        - Water
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 394
+  species: ペンギンポケモン
+  heightMetres: 0.8
+  weightKilograms: 23
+  flavourText: 仲間を 作らずに 暮らす。 翼の 強烈な 一撃は 大木を 真っ二つに へし折る。
+  evolvesFrom: ポッチャマ
+illustrators:
+  - Mizue

@@ -1,0 +1,11 @@
+name: ピーピーマックス
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の山札を上から6枚見て、その中の基本エネルギーを1枚選び、自分のベンチのたねポケモンにつける。残りのカードは山札にもどし、山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

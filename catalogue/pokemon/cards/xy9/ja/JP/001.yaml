@@ -1,0 +1,34 @@
+name: チコリータ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: ちょっとすいとる
+      cost:
+        - Grass
+        - Colorless
+      damage: "10"
+      text: このポケモンのHPを「10」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 152
+  species: はっぱポケモン
+  heightMetres: 0.9
+  weightKilograms: 6.4
+  flavourText: 頭の 葉っぱで まわりの 温度や 湿度を 探る。 日差しを 浴びることが 大好き。
+rarity: C
+illustrators:
+  - Akira Komayama

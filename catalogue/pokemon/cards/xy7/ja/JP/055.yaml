@@ -1,0 +1,31 @@
+name: モンメン
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: わたぶとん
+      cost:
+        - Fairy
+      damage: "10"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 546
+  species: わたたまポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.6
+  flavourText: 集団で いると 落ち着くのか 仲間を みつけると くっついて いつのまにか 雲のように なる。
+rarity: C
+illustrators:
+  - Kanako Eo

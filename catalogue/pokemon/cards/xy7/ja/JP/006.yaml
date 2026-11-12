@@ -1,0 +1,34 @@
+name: アリアドス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: かこいこむ
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: どくのす
+      text: おたがいのバトルポケモン（{Grass}ポケモンはのぞく）を、それぞれどくにする。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 168
+  species: あしながポケモン
+  heightMetres: 1.1
+  weightKilograms: 33.5
+  flavourText: 獲物の 体に 糸を つけて わざと 逃がす。 糸を たどれば 仲間ごと 捕まえられるからだ。
+  evolvesFrom: イトマル
+rarity: C
+illustrators:
+  - Hajime Kusajima

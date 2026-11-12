@@ -1,0 +1,32 @@
+name: イーブイ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+  abilities:
+    - name: エナジーしんか
+      text: この特性は、自分の手札から基本エネルギーをこのポケモンにつけたとき、1回使える。つけたエネルギーと同じタイプの、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 133
+  species: しんかポケモン
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  flavourText: 進化のとき 姿と 能力が 変わることで きびしい 環境に 対応する 珍しい ポケモン。
+rarity: C
+illustrators:
+  - sui

@@ -1,0 +1,36 @@
+name: ルギア
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ライジングバーン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンが「ポケモンEX」なら、60ダメージを追加。
+  abilities:
+    - name: プレッシャー
+      text: このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは、すべて「-20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 249
+  species: せんすいポケモン
+  heightMetres: 5.2
+  weightKilograms: 216
+  flavourText: 海の神様と 伝えられる ポケモン。 嵐の 夜 姿を 見たという 話が 伝えられる。
+rarity: R
+illustrators:
+  - TOKIYA

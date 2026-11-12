@@ -1,0 +1,33 @@
+name: ナックラー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Colorless
+      damage: "10"
+    - name: どろかけ
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 328
+  species: ありじごくポケモン
+  heightMetres: 0.7
+  weightKilograms: 15
+  flavourText: 絶対に 脱出 不可能な すりばち状の 巣穴を つくって 獲物が 落ちてくるのを 待つ。
+rarity: C
+illustrators:
+  - Suwama Chiaki

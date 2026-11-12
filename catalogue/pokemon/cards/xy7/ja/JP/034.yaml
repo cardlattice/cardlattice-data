@@ -1,0 +1,32 @@
+name: ゴビット
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: スマッシュパンチ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 622
+  species: ゴーレムポケモン
+  heightMetres: 1
+  weightKilograms: 92
+  flavourText: 古代の 科学力に よって 粘土から つくられた ポケモン。 数千年 動き続ける。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

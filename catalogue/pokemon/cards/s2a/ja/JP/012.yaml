@@ -1,0 +1,28 @@
+name: メラルバ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: こがす
+      cost:
+        - Fire
+      text: 相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 636
+  species: たいまつポケモン
+  heightMetres: 1.1
+  weightKilograms: 28.8
+  flavourText: 炎を 使って 身を 守る。 昔の 人々は 太陽に 巣が あると 信じていた。
+rarity: C
+illustrators:
+  - Uta

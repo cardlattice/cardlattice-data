@@ -1,0 +1,31 @@
+name: デデンネ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: マッドパーティ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 702
+  species: アンテナポケモン
+  heightMetres: 0.2
+  weightKilograms: 2.2
+  flavourText: 上の ヒゲは 辺りを 探る センサーで 下に 生えた ヒゲは 電気を 放つ 器官 なのだ。
+rarity: C
+illustrators:
+  - Shibuzoh.

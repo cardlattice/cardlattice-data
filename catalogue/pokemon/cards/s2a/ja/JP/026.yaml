@@ -1,0 +1,33 @@
+name: エレズン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ビンタ
+      cost:
+        - Colorless
+      damage: "10"
+    - name: バチバチ
+      cost:
+        - Lightning
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 848
+  species: あかごポケモン
+  heightMetres: 0.4
+  weightKilograms: 11
+  flavourText: 体内の 毒袋に 溜めた 毒素を 皮膚から 分泌。 触ると ピリピリと 痺れる。
+rarity: C
+illustrators:
+  - Akira Komayama

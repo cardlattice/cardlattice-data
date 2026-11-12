@@ -1,0 +1,34 @@
+name: オニゴーリ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: こなゆき
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+      text: 相手をねむりにする。
+    - name: すてみタックル
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 自分にも10ダメージ。
+  abilities:
+    - name: シンクロニシティー
+      text: 場に「プリムのスタジアム」があるなら、このポケモンが相手のワザによって受けるダメージは、「-30」される。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Metal
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ユキワラシ
+rarity: ◆
+illustrators:
+  - Ken Sugimori

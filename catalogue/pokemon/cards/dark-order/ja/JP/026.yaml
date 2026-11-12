@@ -1,0 +1,38 @@
+name: ゾロアーク
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ちょうはつ
+      cost:
+        - Darkness
+      text: 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。
+    - name: ナイトパニッシュ
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにあるポケモンの枚数×20ダメージ。与えられるダメージはポケモン10枚ぶんまで。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 571
+  species: ばけぎつねポケモン
+  heightMetres: 1.6
+  weightKilograms: 81.1
+  flavourText: 相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。
+  evolvesFrom: ゾロア
+rarity: R
+illustrators:
+  - Masakazu Fukuda

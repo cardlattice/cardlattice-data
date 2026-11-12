@@ -1,0 +1,37 @@
+name: キュウコン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: たたりめ
+      cost:
+        - Fire
+      damage: 30+
+      text: 相手のバトルポケモンが特殊状態なら、90ダメージ追加。
+    - name: ゆれるほのお
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 38
+  species: きつねポケモン
+  heightMetres: 1.1
+  weightKilograms: 19.9
+  flavourText: しっぽの １本 １本に 神通力が 込められている。 １０００年 生きると 言われる。
+  evolvesFrom: ロコン
+rarity: U
+illustrators:
+  - AKIRA EGAWA

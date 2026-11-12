@@ -1,0 +1,28 @@
+name: サッチムシ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: かじる
+      cost:
+        - Grass
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 824
+  species: ようちゅうポケモン
+  heightMetres: 0.4
+  weightKilograms: 8
+  flavourText: 畑で よく見かける ポケモン。 体に 生えた 毛で まわりで 起きていることを 感じとる。
+rarity: S
+illustrators:
+  - Kyoko Umemoto

@@ -1,0 +1,38 @@
+name: トルネロス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ジェットドラフト
+      cost:
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。
+    - name: エアスラッシュ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 641
+  species: せんぷうポケモン
+  heightMetres: 1.5
+  weightKilograms: 63
+  flavourText: トルネロスの 尻尾から 噴き出した エネルギーが 大嵐を 起こす。 民家を 吹き飛ばす パワー。
+rarity: R
+illustrators:
+  - Masakazu Fukuda

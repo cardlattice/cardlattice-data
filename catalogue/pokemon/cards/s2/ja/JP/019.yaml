@@ -1,0 +1,36 @@
+name: クイタラン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: したでなめる
+      cost:
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 631
+  species: アリクイポケモン
+  heightMetres: 1.4
+  weightKilograms: 58
+  flavourText: しっぽの 穴から 空気を 取りこみ 炎を 燃やす。 穴を 塞がれると 具合が 悪くなる。
+rarity: C
+illustrators:
+  - Satoshi Shirai

@@ -1,0 +1,35 @@
+name: フレフワン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: ようせいのかぜ
+      cost:
+        - Fairy
+        - Fairy
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: フェアリートランス
+      text: 自分の場のポケモンについている{Fairy}エネルギーを1個選び、自分の別のポケモンにつけ替える。この特性は、自分の番に何回でも使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 683
+  species: ほうこうポケモン
+  heightMetres: 0.8
+  weightKilograms: 15.5
+  flavourText: さまざまな においを 作り出す。 相手の 嫌がる においを 出して 戦いを 有利に 進めるのだ。
+  evolvesFrom: シュシュプ
+illustrators:
+  - 5ban Graphics

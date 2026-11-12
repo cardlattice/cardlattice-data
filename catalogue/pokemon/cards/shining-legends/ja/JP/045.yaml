@@ -1,0 +1,41 @@
+name: ゴルーグ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: トリプルスマッシュ
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: コインを3回投げ、オモテの数×60ダメージ追加。
+    - name: ゴルーグハンマー
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 623
+  species: ゴーレムポケモン
+  heightMetres: 2.8
+  weightKilograms: 330
+  flavourText: ゴルーグを 作った 古代人から 人や ポケモンを 守るように 命令されていると 言われている。
+  evolvesFrom: ゴビット
+rarity: U
+illustrators:
+  - Kagemaru Himeno

@@ -1,0 +1,11 @@
+name: サイキッカーの心眼
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 相手の手札を見る。自分の手札を好きなだけトラッシュし、トラッシュした枚数ぶん、自分の山札を引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Yusuke Ohmura

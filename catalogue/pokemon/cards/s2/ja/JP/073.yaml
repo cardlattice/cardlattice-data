@@ -1,0 +1,38 @@
+name: ダイノーズ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: じゅうりょくおとし
+      cost:
+        - Metal
+      damage: 10+
+      text: 相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。
+    - name: ヘビーインパクト
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  nationalDex:
+    - 476
+  species: コンパスポケモン
+  heightMetres: 1.4
+  weightKilograms: 340
+  flavourText: ３つの 小さな ユニットを 使い エサを とったり 敵と 戦う。 本体は ほぼ 命令するだけ。
+  evolvesFrom: ノズパス
+rarity: U
+illustrators:
+  - Anesaki Dynamic

@@ -1,0 +1,35 @@
+name: ニドリーナ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "20"
+    - name: かいりき
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 30
+  species: どくばりポケモン
+  heightMetres: 0.8
+  weightKilograms: 20
+  flavourText: 子供に エサを 分け与えるとき 親が かみくだき やわらかくした エサを 吐き戻して 与える。
+  evolvesFrom: ニドラン♀
+rarity: C
+illustrators:
+  - Aya Kusube

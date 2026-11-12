@@ -1,0 +1,34 @@
+name: ハリテヤマ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ロケットはりて
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: あついしぼう
+      text: このポケモンが、相手の{Fire}または{Water}ポケモンから受けるワザのダメージは、「-30」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 297
+  species: つっぱりポケモン
+  heightMetres: 2.3
+  weightKilograms: 253.8
+  flavourText: 両足で 地面を 踏み鳴らして パワーを ためる。 張り手 １発で １０トン トラックを 吹っ飛ばす。
+  evolvesFrom: マクノシタ
+rarity: U
+illustrators:
+  - TOKIYA

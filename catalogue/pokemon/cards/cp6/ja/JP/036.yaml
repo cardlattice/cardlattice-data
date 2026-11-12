@@ -1,0 +1,41 @@
+name: レアコイル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: でんじは
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: じばく
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンにも80ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 82
+  species: じしゃくポケモン
+  heightMetres: 1
+  weightKilograms: 60
+  flavourText: 複数の コイルが 連結して 強力な 磁力線と 高電圧を 放射する。
+  evolvesFrom: コイル
+  level: 30
+rarity: R
+illustrators:
+  - Keiji Kinebuchi

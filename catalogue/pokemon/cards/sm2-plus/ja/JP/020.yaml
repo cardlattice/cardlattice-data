@@ -1,0 +1,41 @@
+name: エレキブル
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: かみなりパンチ
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: コインを1回投げオモテなら、60ダメージ追加。ウラなら、このポケモンにも20ダメージ。
+    - name: ギガインパクト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 466
+  species: らいでんポケモン
+  heightMetres: 1.8
+  weightKilograms: 138.6
+  flavourText: 尻尾の 先を 敵に 押しつけ 高圧電流を 流し込む。 一瞬で 敵は 黒コゲ。
+  evolvesFrom: エレブー
+illustrators:
+  - kawayoo

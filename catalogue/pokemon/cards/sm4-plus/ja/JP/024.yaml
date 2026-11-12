@@ -1,0 +1,32 @@
+name: レジアイス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: フロストスマッシュ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: ひょうざんのたて
+      text: 自分の場に「レジロック」がいるなら、このポケモンは、相手の2進化ポケモンからワザのダメージや効果を受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 378
+  species: ひょうざんポケモン
+  heightMetres: 1.8
+  weightKilograms: 175
+  flavourText: 氷河の 中で 数千年 眠っていたと 言われている。 マグマでも 体は 溶けない。
+illustrators:
+  - Masakazu Fukuda

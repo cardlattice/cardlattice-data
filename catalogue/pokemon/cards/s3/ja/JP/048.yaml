@@ -1,0 +1,39 @@
+name: カバルドン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: トリプルスマッシュ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 80×
+      text: コインを3回投げ、オモテの数×80ダメージ。
+    - name: ランドクラッシュ
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "150"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 450
+  species: じゅうりょうポケモン
+  heightMetres: 2
+  weightKilograms: 300
+  flavourText: 体の 穴には たまに 石が 詰まる。 石を 取ってくれるので イシズマイを 大切に 守る。
+  evolvesFrom: ヒポポタス
+rarity: U
+illustrators:
+  - KEIICHIRO ITO

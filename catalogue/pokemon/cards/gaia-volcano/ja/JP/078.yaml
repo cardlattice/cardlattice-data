@@ -1,0 +1,12 @@
+name: マツブサの隠し玉
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - このカードは、自分の手札がこのカード1枚だけのときにしか使えない。
+      自分のトラッシュから{Fighting}ポケモンを1枚選び、ベンチに出す。その後、自分の山札を5枚引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Hitoshi Ariga

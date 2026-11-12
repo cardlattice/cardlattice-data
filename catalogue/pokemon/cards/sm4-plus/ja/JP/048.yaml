@@ -1,0 +1,38 @@
+name: ルナアーラ
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: バーストボール
+      cost:
+        - Psychic
+      damage: 40×
+      text: このポケモンについている{Psychic}エネルギーの数×40ダメージ。
+    - name: がちりんのつばさ
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "130"
+      text: このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 792
+  species: がちりんポケモン
+  heightMetres: 4
+  weightKilograms: 120
+  flavourText: コスモッグが 進化した ♀だと いわれる。 第３の 眼が 浮かぶとき 別世界へと 飛び去っていく。
+  evolvesFrom: コスモウム
+illustrators:
+  - 5ban Graphics

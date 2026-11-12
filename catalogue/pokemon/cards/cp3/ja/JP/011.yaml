@@ -1,0 +1,40 @@
+name: ライチュウ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: エレキサークル
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のベンチポケモンの数×20ダメージ。
+    - name: 10まんボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "100"
+      text: このポケモンについているエネルギーをすべてトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 26
+  species: ねずみポケモン
+  heightMetres: 0.8
+  weightKilograms: 30
+  flavourText: 今日の予定は「なんにもしない」。 じまんのしっぽも くるりん耳も 今は おやすみなさい。
+  evolvesFrom: ピカチュウ
+rarity: C
+illustrators:
+  - Aya Kusube

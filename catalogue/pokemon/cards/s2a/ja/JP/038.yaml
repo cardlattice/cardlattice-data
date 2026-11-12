@@ -1,0 +1,28 @@
+name: ディグダ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Fighting
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 50
+  species: もぐらポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.8
+  flavourText: ディグダが 通ったあとの 大地は ほどよく 耕されて 最高の 畑に なる。
+rarity: C
+illustrators:
+  - Hideki Ishikawa

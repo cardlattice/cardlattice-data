@@ -1,0 +1,39 @@
+name: カジリガメ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: まんりきバイト
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。
+    - name: くらいつく
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 834
+  species: かみつきポケモン
+  heightMetres: 1
+  weightKilograms: 115.5
+  flavourText: 首が 伸び縮みする。 離れた ところから 首を 一気に 伸ばし 鋭い キバで 敵を しとめる。
+  evolvesFrom: カムカメ
+illustrators:
+  - Anesaki Dynamic

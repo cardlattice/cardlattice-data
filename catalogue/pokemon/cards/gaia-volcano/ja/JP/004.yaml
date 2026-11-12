@@ -1,0 +1,36 @@
+name: ジュプトル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: はたく
+      cost:
+        - Grass
+      damage: "20"
+    - name: こうそくいどう
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 253
+  species: もりトカゲポケモン
+  heightMetres: 0.9
+  weightKilograms: 21.6
+  flavourText: 密林に 生息する。 枝から 枝へ 飛び移りながら 移動して 獲物に 接近する。
+  evolvesFrom: キモリ
+rarity: C
+illustrators:
+  - match

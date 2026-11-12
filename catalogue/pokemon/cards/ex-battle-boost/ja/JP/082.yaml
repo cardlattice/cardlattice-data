@@ -1,0 +1,39 @@
+name: ジヘッド
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: かみくだく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: ドラゴンクロー
+      cost:
+        - Psychic
+        - Darkness
+        - Darkness
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 634
+  species: らんぼうポケモン
+  heightMetres: 1.4
+  weightKilograms: 50
+  flavourText: 縄張りの エサを 食べつくすと ほかの 土地へ 移動する。 ２つの 頭は 仲が 悪い。
+  evolvesFrom: モノズ
+illustrators:
+  - Yukiko Baba
+variants:
+  first-edition:
+    edition: first-edition

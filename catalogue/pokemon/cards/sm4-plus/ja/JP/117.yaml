@@ -1,0 +1,46 @@
+name: テッカグヤGX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ロケットフォール
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。
+    - name: ムーンプレス
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+    - name: ブラスターGX
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 自分のサイドをすべてオモテにする。（対戦が終わるまで、そのサイドはオモテのまま。）［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+    - Ultra Beast
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 4
+rarity: SR
+illustrators:
+  - 5ban Graphics

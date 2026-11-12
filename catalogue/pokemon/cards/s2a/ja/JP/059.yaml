@@ -1,0 +1,30 @@
+name: ヤヤコマ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 661
+  species: コマドリポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.7
+  flavourText: 身体は いつでも 暖かい。 寒い 地域の トレーナーは ベッドで 一緒に 寝るらしい。
+rarity: C
+illustrators:
+  - Midori Harada

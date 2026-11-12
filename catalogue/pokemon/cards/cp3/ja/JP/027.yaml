@@ -1,0 +1,37 @@
+name: ディアンシー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: きらめく
+      cost:
+        - Fairy
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+    - name: ダイヤストーム
+      cost:
+        - Fairy
+        - Fairy
+        - Colorless
+      damage: "60"
+      text: 自分の{Fairy}ポケモン全員のHPを、それぞれ「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 719
+  species: ほうせきポケモン
+  heightMetres: 0.7
+  weightKilograms: 8.8
+  flavourText: 魔法のとびらをあけて 今日も 夢色のパーティがはじまる。 秘密のあいことばを教えてあげる。
+rarity: U
+illustrators:
+  - Mizue

@@ -1,0 +1,33 @@
+name: フタチマル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: アクアテール
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: このポケモンについている{Water}エネルギーの数ぶんコインを投げ、オモテの数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 502
+  species: しゅぎょうポケモン
+  heightMetres: 0.8
+  weightKilograms: 24.5
+  flavourText: 身につけた ホタチさばきの 技は フタチマルに よって 違う。 ホタチの 手入れは 欠かさない。
+  evolvesFrom: ミジュマル
+illustrators:
+  - Mizue
+variants:
+  first-edition:
+    edition: first-edition

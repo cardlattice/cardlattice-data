@@ -1,0 +1,13 @@
+name: ライジングフィスト
+language: ja
+region: JP
+releaseDate: 2014-06-14
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY3
+printedDenominator: 96
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

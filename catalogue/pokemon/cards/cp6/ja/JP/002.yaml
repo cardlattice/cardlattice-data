@@ -1,0 +1,32 @@
+name: MフシギバナEX
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Grass
+  stage: MEGA
+  attacks:
+    - name: クライシスバイン
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Colorless
+      damage: "120"
+      text: 相手のバトルポケモンをどくとマヒにする。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  evolvesFrom: フシギバナEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

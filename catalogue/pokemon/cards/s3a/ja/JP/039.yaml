@@ -1,0 +1,35 @@
+name: ジガルデ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ビーム
+      cost:
+        - Fighting
+      damage: "30"
+    - name: コアリベンジャー
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: 自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、80ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 718
+  species: ちつじょポケモン
+  heightMetres: 4.5
+  weightKilograms: 610
+  flavourText: すべての ジガルデ・セルが 集まり 誕生する。 生態系を 乱すものを 武力で 鎮める。
+rarity: R
+illustrators:
+  - Ryuta Fuse

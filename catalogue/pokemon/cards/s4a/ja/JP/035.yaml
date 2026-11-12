@@ -1,0 +1,33 @@
+name: ミロカロス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: なみのり
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: ブライトヒール
+      text: 自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「20」回復する。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 350
+  species: いつくしみポケモン
+  heightMetres: 6.2
+  weightKilograms: 162
+  flavourText: もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。
+  evolvesFrom: ヒンバス
+illustrators:
+  - AKIRA EGAWA

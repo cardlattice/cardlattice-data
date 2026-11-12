@@ -1,0 +1,35 @@
+name: シロデスナ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: せいきをすいとる
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。
+  abilities:
+    - name: すなのぼうへき
+      text: このポケモンが受けるワザのダメージは「-20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 770
+  species: すなのしろポケモン
+  heightMetres: 1.3
+  weightKilograms: 250
+  flavourText: 城の 下には 精気を 吸われ 干からびた 者たちの 骨が 大量に 埋まっている。
+  evolvesFrom: スナバァ
+illustrators:
+  - Kouki Saitou

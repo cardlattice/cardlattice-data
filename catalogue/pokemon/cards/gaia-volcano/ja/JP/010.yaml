@@ -1,0 +1,33 @@
+name: イルミーゼ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: てだすけ
+      cost:
+        - Grass
+      text: 自分の山札から基本エネルギーを1枚選び、自分のベンチポケモンにつける。そして山札を切る。
+    - name: ぐるぐるサイン
+      cost:
+        - Colorless
+      damage: "10"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 314
+  species: ほたるポケモン
+  heightMetres: 0.6
+  weightKilograms: 17.7
+  flavourText: 甘い 香りで バルビートを 誘導して 夜空に 光の サインを 描く。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

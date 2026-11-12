@@ -1,0 +1,29 @@
+name: リオル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ダブルスマッシュ
+      cost:
+        - Colorless
+      damage: 10×
+      text: コインを2回投げ、オモテの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 447
+  species: はもんポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.2
+  flavourText: 体から 発する 波動は 怖いとき 悲しいときに 強まり ピンチを 仲間に 伝える。
+rarity: C
+illustrators:
+  - You Iribi

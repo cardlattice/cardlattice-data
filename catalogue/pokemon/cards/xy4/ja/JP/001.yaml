@@ -1,0 +1,30 @@
+name: コンパン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: しびれごな
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 48
+  species: こんちゅうポケモン
+  heightMetres: 1
+  weightKilograms: 30
+  flavourText: 小さな 目が たくさん 集まって 大きな 目に なっている。 夜になると 明かりに 集まる。
+rarity: C
+illustrators:
+  - Sumiyoshi Kizuki

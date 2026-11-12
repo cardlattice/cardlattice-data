@@ -1,0 +1,36 @@
+name: ラッタ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: かみくだく
+      cost:
+        - Colorless
+      damage: "10"
+      text: 相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: かげでかみつく
+      cost:
+        - Colorless
+      damage: 60×
+      text: 相手のトラッシュにある特殊エネルギーの枚数×60ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 20
+  species: ねずみポケモン
+  heightMetres: 0.7
+  weightKilograms: 18.5
+  flavourText: 後ろ足の 指は ３本で 小さな みずかきが ついている。 川を 泳いで わたる。
+  evolvesFrom: コラッタ
+  level: 41
+rarity: U
+illustrators:
+  - Ken Sugimori

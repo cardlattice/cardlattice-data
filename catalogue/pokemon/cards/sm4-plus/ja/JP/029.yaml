@@ -1,0 +1,36 @@
+name: ライチュウ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: ボルテッカー
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "130"
+      text: このポケモンにも30ダメージ。
+  abilities:
+    - name: エボルショック
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをマヒにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 26
+  species: ねずみポケモン
+  heightMetres: 0.8
+  weightKilograms: 30
+  flavourText: 電撃は １０万ボルトに 達することもあり ヘタに触ると インド象でも 気絶する。
+  evolvesFrom: ピカチュウ
+illustrators:
+  - Kagemaru Himeno

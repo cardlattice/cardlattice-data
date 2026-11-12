@@ -1,0 +1,39 @@
+name: ゴローン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: すてみタックル
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: このポケモンにも20ダメージ。
+    - name: ころがる
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 75
+  species: がんせきポケモン
+  heightMetres: 1
+  weightKilograms: 105
+  flavourText: 山から 転がり 落ちるとき 体の あちこちが 取れても 気にしない 豪快な 性格。
+  evolvesFrom: イシツブテ
+rarity: C
+illustrators:
+  - Naoyo Kimura

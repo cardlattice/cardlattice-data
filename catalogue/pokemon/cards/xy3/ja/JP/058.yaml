@@ -1,0 +1,37 @@
+name: チゴラス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  attacks:
+    - name: かじる
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+    - name: かみくだく
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules:
+    - アゴの化石の効果でベンチに出す
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 696
+  species: ようくんポケモン
+  heightMetres: 0.8
+  weightKilograms: 26
+  flavourText: 化石から 復活した ポケモン。 気に入らない ことが あると かんしゃくを 起こして 大暴れ。
+  stage: Restored
+rarity: C
+illustrators:
+  - 5ban Graphics

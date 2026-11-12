@@ -1,0 +1,37 @@
+name: レアコイル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: バチバチ
+      cost:
+        - Lightning
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: エレキボール
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 82
+  species: じしゃくポケモン
+  heightMetres: 1
+  weightKilograms: 60
+  flavourText: ナゾの 電波を 発信しており 半径１キロの 範囲では 気温が ２度 上がる。
+  evolvesFrom: コイル
+illustrators:
+  - Tomokazu Komiya

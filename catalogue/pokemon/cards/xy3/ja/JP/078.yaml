@@ -1,0 +1,40 @@
+name: ケッキング
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: ドわすれ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。
+    - name: グーパンチ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 289
+  species: ものぐさポケモン
+  heightMetres: 2
+  weightKilograms: 130.5
+  flavourText: 世界一 ぐうたらな ポケモン。 手が 届く 範囲の エサを 食べつくすと 居場所を 替える。
+  evolvesFrom: ヤルキモノ
+rarity: R
+illustrators:
+  - PLANETA

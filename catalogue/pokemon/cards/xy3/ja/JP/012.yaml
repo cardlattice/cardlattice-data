@@ -1,0 +1,30 @@
+name: アチャモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: でんこうせっか
+      cost:
+        - Fire
+        - Colorless
+      damage: 10+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 255
+  species: ひよこポケモン
+  heightMetres: 0.4
+  weightKilograms: 2.5
+  flavourText: お腹に 炎袋を 持つ。 抱きしめると ぽかぽか 温かい。 命ある 限り 燃え続ける。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

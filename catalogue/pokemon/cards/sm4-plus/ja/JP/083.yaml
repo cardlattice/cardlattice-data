@@ -1,0 +1,29 @@
+name: イーブイ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: フレンズパレット
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10×
+      text: 自分のベンチポケモンのタイプの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 133
+  species: しんかポケモン
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  flavourText: アンバランス かつ 不安定な 遺伝子を 持っており 様々な 進化の 可能性を 秘めている。
+illustrators:
+  - Hideki Ishikawa

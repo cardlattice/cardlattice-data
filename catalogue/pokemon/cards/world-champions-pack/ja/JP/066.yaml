@@ -1,0 +1,23 @@
+name: ダンバル
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: じりょくせん
+      cost:
+        - Metal
+      damage: "10"
+      text: コインを1回投げオモテなら、相手の基本エネルギーを1個選び、相手の別のポケモンにつけ替える。（相手のポケモンが1匹なら、この効果はなくなる。）
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 2
+rarity: ●
+illustrators:
+  - Midori Harada

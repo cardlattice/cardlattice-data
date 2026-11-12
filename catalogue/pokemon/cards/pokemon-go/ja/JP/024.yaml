@@ -1,0 +1,35 @@
+name: フリーザー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: フリーズウインド
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "110"
+  abilities:
+    - name: アイスシンボル
+      text: このポケモンがいるかぎり、自分の{Water}タイプのたねポケモン（「フリーザー」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+10」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 144
+  species: れいとうポケモン
+  heightMetres: 1.7
+  weightKilograms: 55.4
+  flavourText: 青く 美しい 羽根は 氷で できていると 言われている。 長い 尾を たなびかせ 雪山を 飛ぶ。
+rarity: R
+illustrators:
+  - Jiro Sasumo
+stamps:
+  - pokemon-go

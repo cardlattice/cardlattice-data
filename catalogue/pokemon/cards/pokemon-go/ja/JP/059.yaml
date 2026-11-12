@@ -1,0 +1,31 @@
+name: ケッキングV
+pokemon:
+  category: pokemon
+  hp: 230
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ヘビーインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "260"
+  abilities:
+    - name: なまけぐせ
+      text: 自分のサイドの残り枚数が6枚・4枚・2枚なら、このポケモンはワザが使えない。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: RR
+illustrators:
+  - Saki Hayashiro

@@ -1,0 +1,36 @@
+name: アマルルガ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: こごえるかぜ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手のバトルポケモンをねむりにする。
+  abilities:
+    - name: アイスウォール
+      text: このポケモンがいるかぎり、{Water}エネルギーがついている自分の{Water}ポケモン全員が、相手のポケモンから受けるワザのダメージは「-20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 699
+  species: ツンドラポケモン
+  heightMetres: 2.7
+  weightKilograms: 225
+  flavourText: マイナス１５０度の 冷気を ひし形の 結晶から 出して 敵を 包み 氷漬けにする。
+  evolvesFrom: アマルス
+rarity: U
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,37 @@
+name: チルタリス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: はばたく
+      cost:
+        - Colorless
+      damage: "20"
+    - name: フェアリーフレンド
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 自分のベンチに{Fairy}ポケモンがいるなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 334
+  species: ハミングポケモン
+  heightMetres: 1.1
+  weightKilograms: 20.6
+  flavourText: みんなを 夢中にさせちゃう この もふもふ。 そんなに 魅力的かしら？
+  evolvesFrom: チルット
+rarity: U
+illustrators:
+  - Kagemaru Himeno

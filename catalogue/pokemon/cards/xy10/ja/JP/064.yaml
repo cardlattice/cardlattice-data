@@ -1,0 +1,28 @@
+name: チラーミィ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: おそうじ
+      cost:
+        - Colorless
+      text: 相手の場のポケモンについている「ポケモンのどうぐ」を1枚選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 572
+  species: チンチラポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  flavourText: きれい好きな 性格の ポケモン。 尻尾を ほうきがわりに いつも 住処の ほこりを 払っている。
+rarity: C
+illustrators:
+  - kirisAki

@@ -1,0 +1,35 @@
+name: コジョンド
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: エアロターン
+      cost:
+        - Fighting
+      damage: "40"
+      text: このポケモンと、ついているすべてのカードを、手札にもどす。
+    - name: とびひざげり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 620
+  species: ぶじゅつポケモン
+  heightMetres: 1.4
+  weightKilograms: 35.5
+  flavourText: 腕の 体毛を ムチのように あつかう。 両腕の 攻撃は 目にも 止まらぬ 速さ。
+  evolvesFrom: コジョフー
+rarity: C
+illustrators:
+  - TOKIYA

@@ -1,0 +1,38 @@
+name: リザードンVMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Fire
+  stage: VMAX
+  attacks:
+    - name: ツメできりさく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+    - name: キョダイゴクエン
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "300"
+      text: このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: リザードンV
+rarity: SSR
+illustrators:
+  - aky CG Works

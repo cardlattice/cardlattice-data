@@ -1,0 +1,35 @@
+name: ゴチルゼル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: サイコリポート
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手の手札を見る。
+  abilities:
+    - name: テレポートルーム
+      text: 場に出ているスタジアムをトラッシュする。その後、自分のトラッシュから別の名前のスタジアムを1枚選び、場に出す。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 576
+  species: てんたいポケモン
+  heightMetres: 1.5
+  weightKilograms: 44
+  flavourText: 強力な サイコパワーの 影響で ゴチルゼルの 周囲の 空間が ねじれ 何万光年も 遠くの 星空が 映る。
+  evolvesFrom: ゴチミル
+rarity: U
+illustrators:
+  - kirisAki

@@ -1,0 +1,34 @@
+name: ポニータ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: こうそくいどう
+      cost:
+        - Fire
+      damage: "10"
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: ほのおのしっぽ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 77
+  species: ひのうまポケモン
+  heightMetres: 1
+  weightKilograms: 30
+  flavourText: 生まれたばかりでは 立つのがやっと。 だが 走るほどに 足腰は 鍛えられて 速度が 増していく。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

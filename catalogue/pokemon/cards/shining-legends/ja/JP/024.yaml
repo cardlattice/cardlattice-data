@@ -1,0 +1,36 @@
+name: フローゼル
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: ひれカッター
+      cost:
+        - Colorless
+      damage: "20"
+    - name: アクアボム
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 419
+  species: うみイタチポケモン
+  heightMetres: 1.1
+  weightKilograms: 33.5
+  flavourText: 発達した 浮き袋で 浮かぶ。 おぼれた 人を 救助する 手伝いを している ポケモンだ。
+  evolvesFrom: ブイゼル
+rarity: U
+illustrators:
+  - Suwama Chiaki

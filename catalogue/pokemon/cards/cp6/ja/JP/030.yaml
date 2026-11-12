@@ -1,0 +1,21 @@
+name: スターミーBREAK
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: BREAK
+  attacks:
+    - name: ブレイクスター
+      cost:
+        - Water
+      text: 相手のBREAK進化ポケモン全員に、それぞれ100ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules:
+    - BREAK進化する前のスターミーの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: スターミー
+rarity: RR
+illustrators:
+  - 5ban Graphics

@@ -1,0 +1,35 @@
+name: ドーミラー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Metal
+      damage: "10"
+    - name: スピードひこう
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 436
+  species: せいどうポケモン
+  heightMetres: 0.5
+  weightKilograms: 60.5
+  flavourText: 古い 遺跡に 現れる。 体の 模様は ガラルには ない 文化の もので 謎。
+rarity: C
+illustrators:
+  - Midori Harada

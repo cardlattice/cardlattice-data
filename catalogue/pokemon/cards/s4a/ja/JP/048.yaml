@@ -1,0 +1,32 @@
+name: モスノウ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: オーロラビーム
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: ひょうせつのまい
+      text: 自分の番に何回でも使える。自分の手札から{Water}エネルギーを1枚選び、ベンチの{Water}ポケモンにつける。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 873
+  species: こおりがポケモン
+  heightMetres: 1.3
+  weightKilograms: 42
+  flavourText: 野山を 荒らすものには 容赦 しない。 冷たいはねで 飛びまわり 吹雪を 起こして 懲らしめる。
+  evolvesFrom: ユキハミ
+illustrators:
+  - kirisAki

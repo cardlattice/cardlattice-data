@@ -1,0 +1,35 @@
+name: フシギバナ
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: ソーラービーム
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities:
+    - name: みつりんのぬし
+      text: このポケモンがいるかぎり、自分の場のポケモンについているすべての基本{Grass}エネルギーは、それぞれ{Grass}エネルギー2個ぶんとしてはたらく。この効果は、この特性を持つポケモンが何匹いても、重ならない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 3
+  species: たねポケモン
+  heightMetres: 2
+  weightKilograms: 100
+  flavourText: 大きな 花びらを 広げ 太陽の 光を 浴びていると 体に 元気が みなぎっていく。
+  evolvesFrom: フシギソウ
+rarity: U
+illustrators:
+  - Eske Yoshinob

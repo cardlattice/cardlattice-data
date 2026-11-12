@@ -1,0 +1,36 @@
+name: ウツボット
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: きけんなかふん
+      cost:
+        - Grass
+      damage: "20"
+      text: 相手のバトルポケモンをどくとやけどとこんらんにする。
+    - name: からめてすいとる
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンのHPを「20」回復する。次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 71
+  species: ハエとりポケモン
+  heightMetres: 1.7
+  weightKilograms: 15.5
+  flavourText: ジャングルの 奥地に ウツボット ばかり いる 地帯が あって 行ったら ２度と 帰ってこれない。
+  evolvesFrom: ウツドン
+illustrators:
+  - TOKIYA

@@ -1,0 +1,38 @@
+name: グソクムシャ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: であいがしら
+      cost:
+        - Water
+      damage: 20+
+      text: この番、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。
+    - name: きりさく
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 768
+  species: そうこうポケモン
+  heightMetres: 2
+  weightKilograms: 108
+  flavourText: 勝つためには 手段を 問わない。 相手の 隙を ついて 前脚の 小さな ツメで とどめを 刺す。
+  evolvesFrom: コソクムシ
+rarity: R
+illustrators:
+  - otumami
+stamps:
+  - pokemon-go

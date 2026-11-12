@@ -1,0 +1,24 @@
+name: ブリガロンBREAK
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Grass
+  stage: BREAK
+  attacks:
+    - name: タフハンマー
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "160"
+      text: このポケモンにも30ダメージ。相手のベンチポケモンを1匹選び、そのポケモンにも30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules:
+    - BREAK進化する前のブリガロンの「ワザ・特性・弱点・抵抗力・にげる」を引きつぐ。
+  subtypes:
+    - BREAK
+  evolvesFrom: ブリガロン
+illustrators:
+  - 5ban Graphics

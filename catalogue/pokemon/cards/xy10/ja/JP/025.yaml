@@ -1,0 +1,28 @@
+name: ドガース
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ぶんれつ
+      cost:
+        - Psychic
+      text: 自分の山札から「ドガース」を2枚まで選び、ベンチに出す。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 109
+  species: どくガスポケモン
+  heightMetres: 0.6
+  weightKilograms: 1
+  flavourText: 空気よりも 軽い ガスを 体に ためて 浮かんでいる。 ガスは くさい上に 爆発する。
+rarity: C
+illustrators:
+  - sui

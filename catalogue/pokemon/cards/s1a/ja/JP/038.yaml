@@ -1,0 +1,36 @@
+name: イエッサン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: リフレッシュタイム
+      cost:
+        - Colorless
+      text: 自分のポケモン全員のHPを、それぞれ「30」回復する。
+    - name: サイケこうせん
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 876
+  species: かんじょうポケモン
+  heightMetres: 0.9
+  weightKilograms: 28
+  flavourText: 高い 知能を もつ ポケモン。 仲間同士で ツノを 寄せあい 情報 交換を する。
+rarity: C
+illustrators:
+  - Mizue

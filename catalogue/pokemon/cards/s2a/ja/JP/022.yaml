@@ -1,0 +1,33 @@
+name: クマシュン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: チョップ
+      cost:
+        - Colorless
+      damage: "10"
+    - name: つらら
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 613
+  species: ひょうけつポケモン
+  heightMetres: 0.5
+  weightKilograms: 8.5
+  flavourText: 体調が いいと 鼻水の 粘り気が 増す。 嫌な 相手に 鼻水を ぺとりと なすりつける。
+rarity: C
+illustrators:
+  - Saya Tsuruta

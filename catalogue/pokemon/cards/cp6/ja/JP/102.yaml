@@ -1,0 +1,38 @@
+name: イマクニ?のドードー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ハモる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: このワザを使ったプレイヤーはこのワザを使った瞬間から歌を歌いはじめなければならない。（歌を歌っている間、対戦は続行する。）歌が歌い終わったら、相手に30ダメージを与える。
+  abilities:
+    - name: にげまくり
+      text: このドードーがにげるときはカードを持ち、思い切り投げる。なぜなら逃げまくるから。スナップをきかせて水平に投げるとよく飛ぶぞ！
+      kind: Pokémon Power
+  rules:
+    - (このカードは、公式大会では使えない。)
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 84
+  species: ふたごどりポケモン
+  heightMetres: 1.4
+  weightKilograms: 39.2
+  level: 15
+  trainers:
+    - イマクニ?
+rarity: U
+illustrators:
+  - Imakuni?

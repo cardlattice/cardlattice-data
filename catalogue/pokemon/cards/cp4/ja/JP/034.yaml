@@ -1,0 +1,30 @@
+name: ゲコガシラ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: したでなめる
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 657
+  species: あわがえるポケモン
+  heightMetres: 0.6
+  weightKilograms: 10.9
+  flavourText: 泡で 包んだ 小石を 投げる 技を 使う。 ３０メートル 先の 空き缶に 当てる コントロール。
+  evolvesFrom: ケロマツ
+illustrators:
+  - 5ban Graphics

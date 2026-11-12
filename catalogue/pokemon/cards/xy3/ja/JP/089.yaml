@@ -1,0 +1,11 @@
+name: 化石研究員
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から「アマルス」または「チゴラス」を、合計2枚まで選び、ベンチに出す。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: U
+illustrators:
+  - Naoki Saito

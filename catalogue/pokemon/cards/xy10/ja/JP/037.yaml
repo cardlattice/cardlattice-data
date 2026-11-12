@@ -1,0 +1,36 @@
+name: ミノマダム
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: すなしぶき
+      cost:
+        - Fighting
+      damage: "30"
+    - name: ツインボンバー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 自分のベンチに「ガーメイル」がいるなら、60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 413
+  species: みのむしポケモン
+  heightMetres: 0.5
+  weightKilograms: 6.5
+  flavourText: ミノムッチから 進化したとき ミノが 体の 一部に なった。 一生 ミノを 脱ぐことはない。
+  evolvesFrom: ミノムッチ
+rarity: C
+illustrators:
+  - Hajime Kusajima

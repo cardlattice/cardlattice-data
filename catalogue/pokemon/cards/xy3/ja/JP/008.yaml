@@ -1,0 +1,29 @@
+name: チョボマキ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: とびつく
+      cost:
+        - Grass
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 616
+  species: マイマイポケモン
+  heightMetres: 0.4
+  weightKilograms: 7.7
+  flavourText: カブルモと 一緒に いるときに 電気的な刺激を 受けると お互いの 体が 進化する。
+rarity: C
+illustrators:
+  - sui

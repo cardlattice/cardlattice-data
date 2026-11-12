@@ -1,0 +1,31 @@
+name: MヘラクロスEX
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Grass
+  stage: MEGA
+  attacks:
+    - name: ビッグバンホーン
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 180-
+      text: このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: ヘラクロスEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

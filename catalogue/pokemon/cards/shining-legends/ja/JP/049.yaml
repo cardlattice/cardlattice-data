@@ -1,0 +1,36 @@
+name: チョロネコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ひっかく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: しっぽビンタ
+      cost:
+        - Darkness
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 509
+  species: しょうわるポケモン
+  heightMetres: 0.4
+  weightKilograms: 10.1
+  flavourText: かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。
+rarity: C
+illustrators:
+  - Naoyo Kimura

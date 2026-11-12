@@ -1,0 +1,34 @@
+name: ムンナ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: みすかす
+      cost:
+        - Psychic
+      text: 相手の手札を見る。
+    - name: にどずつき
+      cost:
+        - Psychic
+        - Colorless
+      damage: 20×
+      text: コインを2回投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 517
+  species: ゆめくいポケモン
+  heightMetres: 0.6
+  weightKilograms: 23.3
+  flavourText: 悪い 夢に うなされている ポケモンや 人の 前に 現われ その夢を 食べてしまう ポケモン。
+rarity: C
+illustrators:
+  - MAHOU

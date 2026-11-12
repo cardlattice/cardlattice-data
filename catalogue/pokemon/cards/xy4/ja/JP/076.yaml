@@ -1,0 +1,38 @@
+name: ホルード
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: くだく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: じしん
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 自分のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 660
+  species: あなほりポケモン
+  heightMetres: 1
+  weightKilograms: 42.4
+  flavourText: 大きな 耳は １トンを 超える 岩を 楽に 持ち上げる パワー。 工事現場で 大活躍する。
+  evolvesFrom: ホルビー
+rarity: U
+illustrators:
+  - match

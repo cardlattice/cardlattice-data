@@ -1,0 +1,36 @@
+name: フライゴン
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Dragon
+  stage: Stage 2
+  attacks:
+    - name: レインボーシャワー
+      cost:
+        - Colorless
+      text: 自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。
+    - name: サンドスイープ
+      cost:
+        - Grass
+        - Fighting
+        - Colorless
+      damage: "70"
+      text: エネルギーがついている自分のポケモン全員のHPを、それぞれ「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 330
+  species: せいれいポケモン
+  heightMetres: 2
+  weightKilograms: 82
+  flavourText: 羽の 羽ばたきで 砂漠の 砂を 巻き上げて 姿を 隠す。 赤い カバーが 砂から 目を 守る。
+  evolvesFrom: ビブラーバ
+rarity: U
+illustrators:
+  - Masakazu Fukuda

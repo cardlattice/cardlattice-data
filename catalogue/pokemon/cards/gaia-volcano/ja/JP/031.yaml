@@ -1,0 +1,39 @@
+name: ドサイドン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: がんせきふらし
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      text: コインを3回投げ、オモテの数×20ダメージを、相手のポケモン全員にそれぞれ与える。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: ストーンエッジ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: コインを1回投げオモテなら、40ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 464
+  species: ドリルポケモン
+  heightMetres: 2.4
+  weightKilograms: 282.8
+  flavourText: 岩を 手のひらの 穴に つめて 筋肉の 力で 発射する。 まれに イシツブテを 飛ばす。
+  evolvesFrom: サイドン
+rarity: U
+illustrators:
+  - Kouki Saitou

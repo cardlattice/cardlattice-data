@@ -1,0 +1,39 @@
+name: ピクシー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: ムーンバリア
+      cost:
+        - Fairy
+      damage: "30"
+      text: 次の相手の番、このポケモンは{Dragon}ポケモンからワザのダメージや効果を受けない。
+    - name: ローリングアタック
+      cost:
+        - Fairy
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 36
+  species: ようせいポケモン
+  heightMetres: 1.3
+  weightKilograms: 40
+  flavourText: 妖精の 仲間で めったに 人前に 出てこない。 気配を 感じて すぐに 逃げてしまうようだ。
+  evolvesFrom: ピッピ
+rarity: U
+illustrators:
+  - Sanosuke Sakuma

@@ -1,0 +1,29 @@
+name: ナッシー[Exeggutor]
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ふみつけ[Stomp]
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、10ダメージを追加。 Flip a coin. If heads, this attack does 10 more
+        damage.
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 103
+  species: やしのみポケモン [Coconut Pokémon]
+  evolvesFrom: タマタマ[Exeggcute]
+rarity: U
+illustrators:
+  - Dr.Ooyama

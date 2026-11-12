@@ -1,0 +1,38 @@
+name: ランプラー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: のろいのしずく
+      cost:
+        - Psychic
+      text: ダメカン3個を、相手のポケモンに好きなようにのせる。
+    - name: よるのこうしん
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにあるワザ「よるのこうしん」を持つポケモンの枚数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 608
+  species: ランプポケモン
+  heightMetres: 0.6
+  weightKilograms: 13
+  flavourText: 魂を 吸いとり 火を灯す。 人が 死ぬのを 待つため 病院を うろつくようになった。
+  evolvesFrom: ヒトモシ
+rarity: C
+illustrators:
+  - kawayoo

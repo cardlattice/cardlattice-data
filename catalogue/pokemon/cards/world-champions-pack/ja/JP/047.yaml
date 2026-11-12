@@ -1,0 +1,33 @@
+name: カブトプス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: さそってつきさす
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+      text: のぞむなら、ダメージを与える前に、相手のベンチポケモンを1匹選び、相手のバトルポケモンと入れ替えてよい（新しく出てきたポケモンにダメージを与える）。
+    - name: こうそくカマ
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: げんしのまなざし
+      text: このポケモンがバトル場にいるかぎり、相手プレイヤーは、手札から「ポケモンのカード」を出して、バトルポケモンを進化させることができない。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: カブト
+rarity: ★
+illustrators:
+  - Ken Sugimori

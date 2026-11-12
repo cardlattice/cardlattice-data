@@ -1,0 +1,35 @@
+name: ムシャーナ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: おもいでのゆめ
+      cost:
+        - Psychic
+      text: 自分のトラッシュから好きなカードを3枚選び、相手に見せてから、山札にもどす。そして山札を切る。
+    - name: ゆめみのまい
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: おたがいのバトルポケモンを、それぞれねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 518
+  species: ゆめうつつポケモン
+  heightMetres: 1.1
+  weightKilograms: 60.5
+  flavourText: おでこから 出ている 煙の 中には 人や ポケモンの 見た 夢が たくさん つまっているのだ。
+  evolvesFrom: ムンナ
+rarity: U
+illustrators:
+  - Suwama Chiaki

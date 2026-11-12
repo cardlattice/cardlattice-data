@@ -1,0 +1,38 @@
+name: ガマゲロゲ
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: ぐるぐるパンチ
+      cost:
+        - Water
+      damage: "30"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: きょうしん
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 相手のバトルポケモンがこんらんなら、120ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 537
+  species: しんどうポケモン
+  heightMetres: 1.5
+  weightKilograms: 62
+  flavourText: 全身の コブを 震わせて 地震のような 揺れを 起こす。 グレッグルと 近い 種類。
+  evolvesFrom: ガマガル
+rarity: U
+illustrators:
+  - SATOSHI NAKAI

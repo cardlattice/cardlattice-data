@@ -1,0 +1,36 @@
+name: ポットデス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: マッドパーティ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。
+  abilities:
+    - name: ティーブレイク
+      text: 自分の番に、自分の手札からワザ「マッドパーティ」を持つポケモンを1枚トラッシュするなら、1回使える。自分の山札を2枚引く。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 855
+  species: こうちゃポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.4
+  flavourText: アンティークの ポットに 棲みつく。 ほとんどが 贋作だが ごくまれに 真作が 見つかる ことも。
+  evolvesFrom: ヤバチャ
+rarity: S
+illustrators:
+  - Sanosuke Sakuma

@@ -1,0 +1,40 @@
+name: ギャラドス
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: たたきつぶす
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+    - name: おおあらし
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "200"
+      text: 場に出ているスタジアムをトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 130
+  species: きょうあくポケモン
+  heightMetres: 6.5
+  weightKilograms: 235
+  flavourText: 非常に 狂暴な 性格。 口から出す 破壊光線は すべてのものを 焼きつくす。
+  evolvesFrom: コイキング
+rarity: R
+illustrators:
+  - hatachu

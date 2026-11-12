@@ -1,0 +1,36 @@
+name: モンジャラ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: すいとる
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: このポケモンのHPを「20」回復する。
+    - name: つるのムチ
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 114
+  species: ツルじょうポケモン
+  heightMetres: 1
+  weightKilograms: 35
+  flavourText: 動くものに ツルを 絡める。 ツルは 微妙に 揺れているので 絡みつかれると くすぐったい。
+rarity: C
+illustrators:
+  - match

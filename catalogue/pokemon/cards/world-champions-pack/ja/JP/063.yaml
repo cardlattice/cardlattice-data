@@ -1,0 +1,27 @@
+name: ココドラ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ほりあてる
+      cost:
+        - Colorless
+      text: 自分のトラッシュからエネルギーを1枚選び出し、相手プレイヤーに見せてから、手札に加える。
+    - name: たいあたり
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 2
+rarity: ●
+illustrators:
+  - Tomokazu Komiya

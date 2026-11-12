@@ -1,0 +1,38 @@
+name: カブトプス
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: すいつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。
+    - name: シザークロス
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: コインを1回投げオモテなら、60ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 141
+  species: こうらポケモン
+  heightMetres: 1.3
+  weightKilograms: 40.5
+  flavourText: 細い 体で 素早く 泳ぐ。 捕らえた 獲物は カマで 切り裂き 体液を 吸っていたらしい。
+  evolvesFrom: カブト
+rarity: U
+illustrators:
+  - Kyoko Umemoto

@@ -1,0 +1,31 @@
+name: ワンパチ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ほえる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: バチバチ
+      cost:
+        - Lightning
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 835
+  species: こいぬポケモン
+  heightMetres: 0.3
+  weightKilograms: 13.5
+  flavourText: 走る ときに しっぽの 根元から 電気を 生み出す。 ガラルでは 牧羊犬として 人気。
+illustrators:
+  - Akira Komayama

@@ -1,0 +1,35 @@
+name: ロトム
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: エレキボール
+      cost:
+        - Lightning
+      damage: "20"
+    - name: いたずらでんき
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを3回投げ、オモテの数ぶん、相手の手札からオモテを見ないでカードを選ぶ。その後、そのカードを見てから相手の山札にもどし、山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 479
+  species: プラズマポケモン
+  heightMetres: 0.3
+  weightKilograms: 0.3
+  flavourText: プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。
+rarity: C
+illustrators:
+  - Mizue

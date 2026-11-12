@@ -1,0 +1,34 @@
+name: アリアドス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: どくばり
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+  abilities:
+    - name: スパイダーネット
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチの進化ポケモンを1匹選び、バトルポケモンと入れ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 168
+  species: あしながポケモン
+  heightMetres: 1.1
+  weightKilograms: 33.5
+  flavourText: 糸を はいて 獲物を 捕らえる。 夜に なると 巣から 離れて 積極的に 狩りを するぞ。
+  evolvesFrom: イトマル
+rarity: U
+illustrators:
+  - Shin Nagasawa

@@ -1,0 +1,35 @@
+name: ヒトカゲ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: すいこむ
+      cost:
+        - Fire
+      text: 自分のトラッシュから{Fire}エネルギーを2枚選び、このポケモンにつける。
+    - name: ほのお
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 4
+  species: とかげポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.5
+  flavourText: ヒトカゲの しっぽの 炎は 命の ともしび。 元気な ときは 炎も 力強く 燃え上がる。
+illustrators:
+  - match
+variants:
+  first-edition:
+    edition: first-edition

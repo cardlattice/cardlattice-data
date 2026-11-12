@@ -1,0 +1,13 @@
+name: ガイアボルケーノ
+language: ja
+region: JP
+releaseDate: 2014-12-13
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY5
+printedDenominator: 70
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

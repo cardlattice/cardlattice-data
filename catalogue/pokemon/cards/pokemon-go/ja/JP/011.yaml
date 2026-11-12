@@ -1,0 +1,36 @@
+name: かがやくリザードン
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: かえんばく
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "250"
+      text: 次の自分の番、このポケモンは「かえんばく」が使えない。
+  abilities:
+    - name: エキサイトハート
+      text: 相手がすでにとったサイドの枚数ぶん、このポケモンがワザを使うための{Colorless}エネルギーは少なくなる。
+      kind: Ability
+  rules:
+    - かがやくポケモンは、デッキに1枚しか入れられない。
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  flavourText: 岩石も 焼けるような 灼熱の 炎を 吐いて 山火事を 起こすことが ある。
+  subtypes:
+    - Radiant
+illustrators:
+  - Shigenori Negishi
+rarity: K
+stamps:
+  - pokemon-go

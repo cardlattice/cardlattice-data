@@ -1,0 +1,34 @@
+name: ガラル カモネギ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: いわくだき
+      cost:
+        - Fighting
+      damage: 10+
+      text: コインを1回投げオモテなら、30ダメージ追加。
+    - name: つきさす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 83
+  species: かるがもポケモン
+  heightMetres: 0.8
+  weightKilograms: 42
+  flavourText: ガラルに 棲む カモネギの 姿。 太く たくましい ネギを 振るい 勇敢に 戦う 戦士。
+rarity: C
+illustrators:
+  - Akira Komayama

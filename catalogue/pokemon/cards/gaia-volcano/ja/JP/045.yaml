@@ -1,0 +1,38 @@
+name: ボスゴドラEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: はがねのずつき
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: コインを1回投げオモテなら、30ダメージを追加。
+    - name: レイジングハンマー
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: このポケモンにのっているダメカンの数×10ダメージを追加。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+rarity: RR
+illustrators:
+  - Eske Yoshinob

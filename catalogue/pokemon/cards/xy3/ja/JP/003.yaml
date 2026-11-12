@@ -1,0 +1,35 @@
+name: ウツボット
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: スパイラルドレイン
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: このポケモンのHPを「30」回復する。
+  abilities:
+    - name: ただようかおり
+      text: このポケモンについている{Grass}エネルギーを1個選び、トラッシュする。その後、相手のバトルポケモンをどくとこんらんにする。この特性は、自分の番に1回使える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 71
+  species: ハエとりポケモン
+  heightMetres: 1.7
+  weightKilograms: 15.5
+  flavourText: ジャングルの 奥地に ウツボット ばかり いる 地帯が あって 行ったら ２度と 帰ってこれない。
+  evolvesFrom: ウツドン
+rarity: R
+illustrators:
+  - Sanosuke Sakuma

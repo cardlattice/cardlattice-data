@@ -1,0 +1,37 @@
+name: ヌオー
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+    - name: どしゃくずし
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このワザのダメージは抵抗力の計算をしない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 195
+  species: みずうおポケモン
+  heightMetres: 1.4
+  weightKilograms: 75
+  flavourText: のんびりとした 性格で 気ままに 泳いでは いつも 船底に 頭を ぶつけている。
+  evolvesFrom: ウパー
+rarity: C
+illustrators:
+  - Naoyo Kimura

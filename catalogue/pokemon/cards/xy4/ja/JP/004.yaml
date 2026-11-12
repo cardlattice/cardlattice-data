@@ -1,0 +1,38 @@
+name: メガヤンマ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ふきながし
+      cost:
+        - Grass
+      text: 自分の手札をすべて山札にもどし、山札を切る。その後、山札を6枚引く。
+    - name: きしゅうこうげき
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: この番、このポケモンがベンチからバトル場に出ていたなら、50ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 469
+  species: オニトンボポケモン
+  heightMetres: 1.9
+  weightKilograms: 51.5
+  flavourText: 高速で 飛んで すれ違った 相手の 首を 一瞬で かみちぎる 戦い方を 好む。
+  evolvesFrom: ヤンヤンマ
+rarity: U
+illustrators:
+  - Mitsuhiro Arita

@@ -1,0 +1,35 @@
+name: ダンバル
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Metal
+      text: 自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。
+    - name: ぶつかる
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 374
+  species: てっきゅうポケモン
+  heightMetres: 0.6
+  weightKilograms: 95.2
+  flavourText: 怒らせると 暴れるだけでなく 強い 磁力を 放つので 機械の 類は 壊れてしまう。
+rarity: C
+illustrators:
+  - Aya Kusube

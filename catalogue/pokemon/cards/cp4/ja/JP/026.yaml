@@ -1,0 +1,32 @@
+name: ミズゴロウ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Water
+      damage: "10"
+    - name: どろかけ
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 258
+  species: ぬまうおポケモン
+  heightMetres: 0.4
+  weightKilograms: 7.6
+  flavourText: 頭の ヒレで 水の 流れを 感じて まわりの 様子を 知る。 岩を 持ち上げる 力持ち。
+illustrators:
+  - Aya Kusube

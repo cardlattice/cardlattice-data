@@ -1,0 +1,29 @@
+name: ヒンバス
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ふいをつく
+      cost:
+        - Colorless
+      damage: "10"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 349
+  species: さかなポケモン
+  heightMetres: 0.6
+  weightKilograms: 7.4
+  flavourText: なんでも 食べるので 汚い 川や 湖でも 生きていける。 だれも 注目しない ポケモン。
+rarity: C
+illustrators:
+  - Shigenori Negishi

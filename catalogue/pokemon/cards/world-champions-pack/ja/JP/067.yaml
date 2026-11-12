@@ -1,0 +1,28 @@
+name: メタング
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Metal
+  stage: Stage 1
+  attacks:
+    - name: コメットパンチ
+      cost:
+        - Metal
+        - Colorless
+      damage: 30+
+      text: 次の自分の番、自分が使う「コメットパンチ」のダメージは、「+30」される。
+  abilities:
+    - name: クリアボディー
+      text: このポケモンは特殊状態にならず、このポケモンが受けている特殊状態は、すべて消える。
+      kind: Poké-Body
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 2
+  evolvesFrom: ダンバル
+rarity: ◆
+illustrators:
+  - Tomokazu Komiya

@@ -1,0 +1,42 @@
+name: ゴロンダ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: シメる
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手は相手自身の手札を、2枚トラッシュする。
+    - name: あばれまわる
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: このポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 675
+  species: こわもてポケモン
+  heightMetres: 2.1
+  weightKilograms: 136
+  flavourText: 竹の 葉っぱの 揺れで 敵の 動きを 読む。 ケンカっ早いが 仲間への 情は 厚い。
+  evolvesFrom: ヤンチャム
+rarity: U
+illustrators:
+  - Satoshi Shirai

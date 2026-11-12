@@ -1,0 +1,35 @@
+name: ミブリム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ともだちをさがす
+      cost:
+        - Colorless
+      text: 自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: サイコショット
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 856
+  species: おだやかポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.4
+  flavourText: 頭の 突起で 生物の 気持ちを 感じとる。 穏やかな ものにしか 心を 開かない。
+rarity: S
+illustrators:
+  - otumami

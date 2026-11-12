@@ -1,0 +1,36 @@
+name: ヌマクロー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: どろかけ
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+    - name: がむしゃら
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを2回投げ、オモテの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 259
+  species: ぬまうおポケモン
+  heightMetres: 0.7
+  weightKilograms: 28
+  flavourText: ドロドロに ぬかるんだ 足場で 生活する うちに 鍛えられ 強靭な 足腰に なった。
+  evolvesFrom: ミズゴロウ
+illustrators:
+  - sui

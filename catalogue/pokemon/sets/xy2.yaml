@@ -1,0 +1,13 @@
+name: ワイルドブレイズ
+language: ja
+region: JP
+releaseDate: 2014-03-15
+printedIdentifiers:
+  - language: ja
+    region: JP
+    code: XY2
+printedDenominator: 80
+regulationMark: null
+variants:
+  first-edition:
+    edition: first-edition

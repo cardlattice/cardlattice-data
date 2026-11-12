@@ -1,0 +1,36 @@
+name: ガルーラ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ふりおろす
+      cost:
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。
+    - name: ハリケーンパンチ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: コインを4回投げ、オモテの数×50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 115
+  species: おやこポケモン
+  heightMetres: 2.2
+  weightKilograms: 80
+  flavourText: ガルーラの 母親の 愛情は 深い。 我が子を 守るためならば 死さえ 恐れないと いわれている。
+illustrators:
+  - TOKIYA

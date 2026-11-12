@@ -1,0 +1,28 @@
+name: ユキハミ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: なかまをよぶ
+      cost:
+        - Water
+      text: 自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 872
+  species: いもむしポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.8
+  flavourText: 冷気の 混ざった 糸を 吐く。 糸で 体を 枝に 巻きつけ 氷柱の 振りをして 眠るのだ。
+rarity: S
+illustrators:
+  - Yumi

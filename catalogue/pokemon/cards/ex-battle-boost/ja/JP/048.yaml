@@ -1,0 +1,32 @@
+name: ラルトス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイコトリップ
+      cost:
+        - Psychic
+        - Colorless
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 280
+  species: きもちポケモン
+  heightMetres: 0.4
+  weightKilograms: 6.6
+  flavourText: 赤いツノで 人や ポケモンの 温かな 気持ちを キャッチすると 全身が ほのかに 熱くなる。
+illustrators:
+  - Naoyo Kimura
+variants:
+  first-edition:
+    edition: first-edition

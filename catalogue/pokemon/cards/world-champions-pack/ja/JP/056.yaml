@@ -1,0 +1,34 @@
+name: ダーテングex
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: スキルハック
+      cost:
+        - Darkness
+      text: 相手の手札を見て、「ポケモンのカード」を1枚選び出す。その後、そのカードの持っているワザを1つ選び、そのワザのダメージや効果を、このワザのものとして使う。（自分のエネルギーに関係する効果にしたがえないなら、このワザは失敗する。）
+    - name: はめつのじゅもん
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手と同じ名前の相手のベンチポケモン全員にも、それぞれ60ダメージ。
+  abilities: []
+  rules:
+    - ポケモンexがきぜつしたとき、相手プレイヤーはサイドを2枚とります。
+  weaknesses:
+    - type: Grass
+    - type: Fighting
+  resistances:
+    - type: Psychic
+  retreatCost: 1
+  evolvesFrom: コノハナ
+  subtypes:
+    - ex
+rarity: ★ (silver)
+illustrators:
+  - Ryo Ueda

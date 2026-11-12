@@ -1,0 +1,39 @@
+name: シロデスナ
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: すなにしずめる
+      cost:
+        - Colorless
+        - Colorless
+      text: 相手の山札を上から1枚トラッシュする。このポケモンに「のろいのスコップ」がついているなら、さらに2枚トラッシュする。
+    - name: ちょうきゅうしゅう
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: このポケモンのHPを「30」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 4
+  nationalDex:
+    - 770
+  species: すなのしろポケモン
+  heightMetres: 1.3
+  weightKilograms: 250
+  flavourText: 砂嵐を 巻き起こし 相手の 身動きを 封じてから 生気を 奪う 恐ろしい ポケモンだ。
+  evolvesFrom: スナバァ
+rarity: U
+illustrators:
+  - Hasuno

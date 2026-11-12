@@ -1,0 +1,35 @@
+name: スリープ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: はたく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: あやしいひかり
+      cost:
+        - Psychic
+        - Psychic
+      damage: "10"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 96
+  species: さいみんポケモン
+  heightMetres: 1
+  weightKilograms: 32.4
+  flavourText: ユメを 食べるという 伝説の 生き物 バクの 子孫。 催眠術が 得意だ。
+  level: 12
+rarity: C
+illustrators:
+  - Ken Sugimori

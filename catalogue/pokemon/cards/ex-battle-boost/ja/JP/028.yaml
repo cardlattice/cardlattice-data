@@ -1,0 +1,35 @@
+name: フィオネ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ひろう
+      cost:
+        - Colorless
+      text: 自分のトラッシュから好きなカードを1枚選び、相手に見せてから、山札の上にもどす。
+    - name: アクアブーメラン
+      cost:
+        - Water
+      damage: "20"
+      text: このポケモンと、ついているすべてのカードを、手札にもどす。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 489
+  species: かいようポケモン
+  heightMetres: 0.4
+  weightKilograms: 3.1
+  flavourText: 暖かい 海を 漂っている。 どんな 遠くに 流されても 生まれた 場所に かならず戻る。
+illustrators:
+  - kawayoo
+variants:
+  first-edition:
+    edition: first-edition

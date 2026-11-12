@@ -1,0 +1,37 @@
+name: ゴース
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ちいさいうらみ
+      cost:
+        - Psychic
+      text: 次の相手の番、このポケモンが、相手のポケモンからワザのダメージできぜつしたなら、ワザを使ったポケモンについているエネルギーを1個選び、トラッシュする。
+    - name: あくむ
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 92
+  species: ガスじょうポケモン
+  heightMetres: 1.3
+  weightKilograms: 0.1
+  flavourText: うすい ガス状の 生命体。 ガスに つつまれると インドゾウも ２秒で たおれる。
+  level: 8
+rarity: C
+illustrators:
+  - Keiji Kinebuchi

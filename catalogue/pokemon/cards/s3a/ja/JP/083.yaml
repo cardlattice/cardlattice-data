@@ -1,0 +1,11 @@
+name: おとなのおねえさん
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - このカードは、先攻プレイヤーの最初の番でも使える。 自分の山札を2枚引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - kirisAki

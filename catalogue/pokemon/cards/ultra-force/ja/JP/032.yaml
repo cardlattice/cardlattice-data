@@ -1,0 +1,35 @@
+name: ドクロッグ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: どくづき
+      cost:
+        - Fighting
+      damage: "30"
+      text: 相手のバトルポケモンをどくにする。
+    - name: むねんをはらす
+      cost:
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 前の相手の番に、ワザのダメージで、自分の{Psychic}ポケモンがきぜつしていたなら、70ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 454
+  species: どくづきポケモン
+  heightMetres: 1.3
+  weightKilograms: 44.4
+  flavourText: こぶしの トゲからは かすり傷でも 命を 落とすほどの 猛毒を 分泌する。
+  evolvesFrom: グレッグル
+illustrators:
+  - Hasuno

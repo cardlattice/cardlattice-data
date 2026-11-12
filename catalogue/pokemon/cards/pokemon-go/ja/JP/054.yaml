@@ -1,0 +1,35 @@
+name: イーブイ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: あまえごえ
+      cost:
+        - Colorless
+      text: 相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。
+    - name: たいあたり
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 133
+  species: しんかポケモン
+  heightMetres: 0.3
+  weightKilograms: 6.5
+  flavourText: まわりの 環境に 合わせて 体の つくりを 変えていく 能力の 持ち主。
+rarity: C
+illustrators:
+  - N-DESIGN Inc.
+stamps:
+  - pokemon-go

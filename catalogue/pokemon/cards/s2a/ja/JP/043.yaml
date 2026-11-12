@@ -1,0 +1,32 @@
+name: ソルロック
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: いわおとし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: レジストシェード
+      text: 自分の場に「ルナトーン」がいるなら、相手のポケモン全員の抵抗力は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 338
+  species: いんせきポケモン
+  heightMetres: 1.2
+  weightKilograms: 154
+  flavourText: 体を 回転 させると 太陽の ような 光を 放ち 敵の 目を 眩ませる。
+rarity: U
+illustrators:
+  - Miki Tanaka

@@ -1,0 +1,28 @@
+name: コイキング
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: じっとする
+      cost:
+        - Water
+      text: このポケモンのHPを「10」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: さかなポケモン
+  heightMetres: 0.9
+  weightKilograms: 10
+  flavourText: 遥か 大昔は それなりに 強かったが 時が 経つに つれて どんどんどんどん 弱くなっていった。
+rarity: C
+illustrators:
+  - Framestore

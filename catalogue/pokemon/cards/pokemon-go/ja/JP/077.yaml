@@ -1,0 +1,35 @@
+name: メルメタルV
+pokemon:
+  category: pokemon
+  hp: 220
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: アームチャージ
+      cost:
+        - Metal
+        - Metal
+      damage: "50"
+      text: のぞむなら、自分の手札から{Metal}エネルギーを1枚選び、このポケモンにつける。
+    - name: メガトンパンチ
+      cost:
+        - Metal
+        - Metal
+        - Metal
+      damage: "140"
+  abilities: []
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 3
+rarity: SR
+illustrators:
+  - sadaji

@@ -1,0 +1,41 @@
+name: ルガルガンGX
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: かみくだく
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+      text: 相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+    - name: アクセルロック
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "120"
+    - name: ガルファングGX
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "200"
+      text: このポケモンについているエネルギーを、2個トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: イワンコ
+rarity: SR
+illustrators:
+  - 5ban Graphics

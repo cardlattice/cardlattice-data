@@ -1,0 +1,33 @@
+name: レックウザ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: アメイジングバースト
+      cost:
+        - Grass
+        - Lightning
+        - Fighting
+      damage: 80×
+      text: このポケモンについている基本エネルギーをすべてトラッシュし、トラッシュした基本エネルギーのタイプの数×80ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 384
+  species: てんくうポケモン
+  heightMetres: 7
+  weightKilograms: 206.5
+  flavourText: はるか 上空の オゾン層の 中を 飛んでいるため 最近まで 姿を 見た 者は いなかった。
+illustrators:
+  - 5ban Graphics
+rarity: A

@@ -1,0 +1,31 @@
+name: ジヘッド
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: たたきつける
+      cost:
+        - Psychic
+        - Darkness
+      damage: 30×
+      text: コインを2回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 634
+  species: らんぼうポケモン
+  heightMetres: 1.4
+  weightKilograms: 50
+  flavourText: ２つの 頭は 仲が 悪く 相手より 多く 食べることで 主導権を 握ろうと する。
+  evolvesFrom: モノズ
+rarity: C
+illustrators:
+  - Kagemaru Himeno

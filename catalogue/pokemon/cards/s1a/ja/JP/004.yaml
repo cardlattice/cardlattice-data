@@ -1,0 +1,35 @@
+name: ツボツボ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: きのみひろい
+      cost:
+        - Colorless
+      text: 自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。
+    - name: しめつける
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 213
+  species: はっこうポケモン
+  heightMetres: 0.6
+  weightKilograms: 20.5
+  flavourText: 甲羅に 木の実を たくわえている。 襲われないように 岩の 下に こもって じっとしている。
+rarity: U
+illustrators:
+  - HYOGONOSUKE

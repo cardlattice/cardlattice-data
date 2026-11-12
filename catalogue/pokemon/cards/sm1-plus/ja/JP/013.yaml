@@ -1,0 +1,35 @@
+name: ニョロトノ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: てんこをとる
+      cost:
+        - Water
+      text: 自分の山札にある「ニョロモ」「ニョロゾ」「ニョロボン」を1枚ずつ、ベンチに出す。そして山札を切る。
+    - name: ハイパージャンプ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 186
+  species: かえるポケモン
+  heightMetres: 1.1
+  weightKilograms: 33.9
+  flavourText: 月夜に 集まり 大合唱。 その鳴き声は 怒鳴り声のようで 美しくはないが 味が あるぞ。
+  evolvesFrom: ニョロゾ
+illustrators:
+  - Saya Tsuruta

@@ -1,0 +1,36 @@
+name: パルキア
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: スパイラルドレイン
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: このポケモンのHPを「30」回復する。
+    - name: アクアブレード
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 484
+  species: くうかんポケモン
+  heightMetres: 4.2
+  weightKilograms: 336
+  flavourText: 並行して 並ぶ 空間の 狭間に 住むと 言われている。 神話に 登場する ポケモン。
+rarity: R
+illustrators:
+  - Eske Yoshinob

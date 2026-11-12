@@ -1,0 +1,31 @@
+name: カジリガメV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: パワーバイト
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "130"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: かたいこうら
+      text: このポケモンが受けるワザのダメージは「-30」される。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 4
+rarity: RR
+illustrators:
+  - aky CG Works

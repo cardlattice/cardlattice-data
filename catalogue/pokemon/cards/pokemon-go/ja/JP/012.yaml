@@ -1,0 +1,35 @@
+name: ファイヤー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ほのおのつばさ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "110"
+  abilities:
+    - name: フレアシンボル
+      text: このポケモンがいるかぎり、自分の{Fire}タイプのたねポケモン（「ファイヤー」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+10」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 146
+  species: かえんポケモン
+  heightMetres: 2
+  weightKilograms: 60
+  flavourText: 羽ばたくと 翼の 炎が 赤く 美しく きらめく 伝説の 鳥ポケモンの １匹。
+rarity: R
+illustrators:
+  - Pani Kobayashi
+stamps:
+  - pokemon-go

@@ -1,0 +1,34 @@
+name: ガラガラ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: ねらいうち
+      cost:
+        - Fighting
+      text: 相手のポケモンを1匹選び、30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: ほねふうしゃ
+      cost:
+        - Fighting
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンが「ポケモンEX」なら、このポケモンをベンチポケモンと入れ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 105
+  species: ほねずきポケモン
+  heightMetres: 1
+  weightKilograms: 45
+  flavourText: 骨は 大事な 武器である。 ブーメランのように 投げて 獲物に ぶつけ 気絶させる。
+  evolvesFrom: カラカラ
+illustrators:
+  - match

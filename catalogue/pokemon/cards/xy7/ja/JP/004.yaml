@@ -1,0 +1,36 @@
+name: キレイハナ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: ウインドミル
+      cost:
+        - Grass
+      damage: "20"
+      text: このポケモンをベンチポケモンと入れ替える。
+    - name: フラワーミキサー
+      cost:
+        - Grass
+        - Colorless
+      damage: "60"
+      text: 自分の場のポケモンについている{Grass}エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 182
+  species: フラワーポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.8
+  flavourText: 大雨の 季節が 終わると 暖かい 日差しに 誘われた キレイハナが 踊りはじめる。
+  evolvesFrom: クサイハナ
+rarity: C
+illustrators:
+  - Mizue

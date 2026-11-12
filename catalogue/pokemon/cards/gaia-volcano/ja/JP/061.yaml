@@ -1,0 +1,11 @@
+name: ふしぎなアメ
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせて進化させる。（最初の自分の番と、この番出したばかりのたねポケモンには使えない。）
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - Toyste Beach

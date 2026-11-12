@@ -1,0 +1,39 @@
+name: ファイアロー
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: アクロバット
+      cost:
+        - Fire
+      damage: 30+
+      text: コインを2回投げ、オモテの数×30ダメージを追加。
+    - name: ジェットシュート
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「+40」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 663
+  species: れっかポケモン
+  heightMetres: 1.2
+  weightKilograms: 24.5
+  flavourText: 激しい 戦いで 興奮すると 全身の 羽毛の すきまから 火の粉を 噴き出して 飛行する。
+  evolvesFrom: ヒノヤコマ
+rarity: U
+illustrators:
+  - Mitsuhiro Arita

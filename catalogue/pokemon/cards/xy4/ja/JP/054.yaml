@@ -1,0 +1,33 @@
+name: ミカルゲ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: ビーキャン
+      cost:
+        - Colorless
+      damage: "10"
+      text: 次の相手の番、このワザを受けたポケモンは、手札からポケモンを出して進化できない。
+    - name: あやしいひかり
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 442
+  species: ふういんポケモン
+  heightMetres: 1
+  weightKilograms: 108
+  flavourText: １０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。
+rarity: U
+illustrators:
+  - PLANETA

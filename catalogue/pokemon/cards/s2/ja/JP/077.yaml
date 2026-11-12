@@ -1,0 +1,35 @@
+name: カビゴン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: もってくる
+      cost:
+        - Colorless
+      text: 自分の山札を2枚引く。
+    - name: たおれこむ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: このポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 143
+  species: いねむりポケモン
+  heightMetres: 2.1
+  weightKilograms: 460
+  flavourText: １日に 食べ物を ４００キロ 食べないと 気がすまない。 食べ終わると 眠ってしまう。
+rarity: U
+illustrators:
+  - Eri Yamaki

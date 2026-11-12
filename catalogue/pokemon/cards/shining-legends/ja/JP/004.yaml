@@ -1,0 +1,34 @@
+name: ひかるセレビィ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: リーフステップ
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: タイムリコール
+      text: このポケモンがいるかぎり、自分の進化しているポケモン全員は、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 251
+  species: ときわたりポケモン
+  heightMetres: 0.6
+  weightKilograms: 5
+  flavourText: 時間を超えて あちこち さまよう。 セレビィが 姿を 現した 森は 草木が 生い茂るという。
+  subtypes:
+    - Shining
+illustrators:
+  - Sanosuke Sakuma
+rarity: Shining

@@ -1,0 +1,33 @@
+name: サワムラー
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: のびるキック
+      cost:
+        - Fighting
+      text: 相手のベンチポケモンを1匹選び、30ダメージ。［ベンチは弱点・抵抗力の計算をしない。］
+    - name: かいてんげり
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 106
+  species: キックポケモン
+  heightMetres: 1.5
+  weightKilograms: 49.8
+  flavourText: 脚が 自由に 伸び縮みして 遠く 離れている 場合でも 相手を 蹴り上げることができる。
+rarity: C
+illustrators:
+  - Hitoshi Ariga

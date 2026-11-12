@@ -1,0 +1,39 @@
+name: ダイオウドウVMAX
+pokemon:
+  category: pokemon
+  hp: 340
+  types:
+    - Metal
+  stage: VMAX
+  attacks:
+    - name: デンジャラスノーズ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: 100+
+      text: 相手のバトルポケモンがたねポケモンなら、100ダメージ追加。
+    - name: キョダイハンマー
+      cost:
+        - Metal
+        - Metal
+        - Metal
+        - Colorless
+      damage: "240"
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+  evolvesFrom: ダイオウドウV
+rarity: RRR
+illustrators:
+  - 5ban Graphics

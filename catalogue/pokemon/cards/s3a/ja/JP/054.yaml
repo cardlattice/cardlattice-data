@@ -1,0 +1,36 @@
+name: マギアナ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: オーバーホール
+      cost:
+        - Metal
+      text: 自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。
+    - name: からくりカノン
+      cost:
+        - Metal
+        - Colorless
+      damage: 10+
+      text: 相手のベンチポケモンの数×20ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 801
+  species: じんぞうポケモン
+  heightMetres: 1
+  weightKilograms: 80.5
+  flavourText: およそ ５００年前 科学者に よって 作られた。 ソウルハートと 呼ばれる パーツが 本体なのだ。
+rarity: R
+illustrators:
+  - AKIRA EGAWA

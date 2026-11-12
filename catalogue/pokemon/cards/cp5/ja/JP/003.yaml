@@ -1,0 +1,35 @@
+name: シェイミ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: アロマセラピー
+      cost:
+        - Colorless
+        - Colorless
+      text: 自分のポケモン全員のHPを、それぞれ「30」回復する。
+    - name: マジカルリーフ
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを1回投げオモテなら、20ダメージを追加し、このポケモンのHPを「20」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 492
+  species: かんしゃポケモン
+  heightMetres: 0.2
+  weightKilograms: 2.1
+  flavourText: グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。
+illustrators:
+  - Ken Sugimori

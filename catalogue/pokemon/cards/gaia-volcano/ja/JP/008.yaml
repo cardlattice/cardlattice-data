@@ -1,0 +1,37 @@
+name: キノガッサ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ばくれつパンチ
+      cost:
+        - Fighting
+        - Colorless
+      damage: 40+
+      text: コインを1回投げオモテなら、20ダメージを追加し、相手のバトルポケモンをこんらんにする。
+    - name: メガトンキック
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 286
+  species: きのこポケモン
+  heightMetres: 1.2
+  weightKilograms: 39.2
+  flavourText: 毒の 胞子を ばらまき 吸いこんで 苦しむ 相手に 強烈な パンチを くらわせる。
+  evolvesFrom: キノココ
+rarity: U
+illustrators:
+  - Suwama Chiaki

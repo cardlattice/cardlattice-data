@@ -1,0 +1,36 @@
+name: ブルンゲル
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: おせっかい
+      cost:
+        - Water
+      text: 相手のトラッシュからエネルギーを3枚選び、相手のポケモンに好きなようにつける。
+    - name: からまるしぶき
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 相手のバトルポケモンについているエネルギーの数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 593
+  species: ふゆうポケモン
+  heightMetres: 2.2
+  weightKilograms: 135
+  flavourText: 体の ほとんどが 海水。 海底には ブルンゲルが 沈めた 船で できた 城が あるという。
+  evolvesFrom: プルリル
+rarity: U
+illustrators:
+  - Masakazu Fukuda

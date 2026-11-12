@@ -1,0 +1,37 @@
+name: ネイティ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ひとやすみ
+      cost:
+        - Colorless
+      text: このポケモンのHPを「20」回復する。
+    - name: つつく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 177
+  species: ことりポケモン
+  heightMetres: 0.2
+  weightKilograms: 2
+  flavourText: 器用に 木の幹を 駆け登る。 枝先に できた 新しい 木の芽を 好んで ついばむ。
+rarity: C
+illustrators:
+  - HYOGONOSUKE
+stamps:
+  - pokemon-go

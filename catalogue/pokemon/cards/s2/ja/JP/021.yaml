@@ -1,0 +1,39 @@
+name: ペリッパー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: つばさでうつ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: パワーサイクロン
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 279
+  species: みずどりポケモン
+  heightMetres: 1.2
+  weightKilograms: 28
+  flavourText: 口の中に 小さなポケモンや タマゴを入れて 安全な 場所に 届けてくれる 空の 運び屋。
+  evolvesFrom: キャモメ
+rarity: U
+illustrators:
+  - Eri Yamaki

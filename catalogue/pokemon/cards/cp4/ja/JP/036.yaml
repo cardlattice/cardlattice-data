@@ -1,0 +1,35 @@
+name: ピカチュウ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: ほっぺすりすり
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: でんこうせっか
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: ねずみポケモン
+  heightMetres: 0.4
+  weightKilograms: 6
+  flavourText: 尻尾を 立てて まわりの 様子を 探っていると ときどき 雷が 尻尾に 落ちてくる。
+illustrators:
+  - MAHOU

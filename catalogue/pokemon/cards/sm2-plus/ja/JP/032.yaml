@@ -1,0 +1,32 @@
+name: イワンコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: いわおとし
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 744
+  species: こいぬポケモン
+  heightMetres: 0.5
+  weightKilograms: 9.2
+  flavourText: よく なつくので 初心者に お勧めのポケモンと いわれるが 育つと 気性は 荒くなる。
+illustrators:
+  - match

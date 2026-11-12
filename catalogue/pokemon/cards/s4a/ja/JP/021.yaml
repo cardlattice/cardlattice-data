@@ -1,0 +1,31 @@
+name: レシラム
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: アメイジングブレイズ
+      cost:
+        - Fire
+        - Lightning
+        - Darkness
+      damage: "270"
+      text: このポケモンにも60ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 643
+  species: はくようポケモン
+  heightMetres: 3.2
+  weightKilograms: 330
+  flavourText: レシラムの 尻尾が 燃えると 熱エネルギーで 大気が 動いて 世界の 天気が 変化する。
+illustrators:
+  - PLANETA Tsuji
+rarity: A

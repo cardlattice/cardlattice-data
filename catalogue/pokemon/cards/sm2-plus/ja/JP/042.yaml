@@ -1,0 +1,34 @@
+name: エルフーン
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fairy
+  stage: Stage 1
+  attacks:
+    - name: よけいなわたげ
+      cost:
+        - Colorless
+      text: 次の自分の番、このワザを受けたポケモンがきぜつしたとき、サイドを2枚多くとる。
+    - name: ようせいのかぜ
+      cost:
+        - Fairy
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 547
+  species: かぜかくれポケモン
+  heightMetres: 0.7
+  weightKilograms: 6.6
+  flavourText: 風に 乗り 民家に 侵入。 部屋中を 綿まみれに すると ニコニコ 笑って 去っていく。
+  evolvesFrom: モンメン
+illustrators:
+  - Kouki Saitou

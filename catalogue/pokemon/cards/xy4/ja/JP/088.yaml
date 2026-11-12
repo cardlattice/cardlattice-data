@@ -1,0 +1,14 @@
+name: ミステリーエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Psychic}ポケモンにしかつけられず、ついているかぎり{Psychic}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Psychic}ポケモンのにげるために必要なエネルギーは、2個ぶん少なくなる。
+      （このカードが{Psychic}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Psychic
+rarity: U
+illustrators:
+  - 5ban Graphics

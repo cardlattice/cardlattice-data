@@ -1,0 +1,11 @@
+name: ゲンジのスタジアム
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - おたがいのバトル場の{Colorless}ポケモン全員の、相手のワザによって受けるダメージは、すべて「-10」される。
+    - スタジアムは、自分の番に1回だけ、バトル場の横に出すことができる。別の名前のスタジアムが場に出たなら、このカードをトラッシュする。
+rarity: ◆
+illustrators:
+  - Ryo Ueda

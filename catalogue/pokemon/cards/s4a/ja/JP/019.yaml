@@ -1,0 +1,32 @@
+name: タルップル
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ソーラービーム
+      cost:
+        - Grass
+        - Colorless
+      damage: "70"
+  abilities:
+    - name: おいしいかおり
+      text: 自分の番に1回使える。コインを1回投げオモテなら、相手のベンチのたねポケモンを1匹選び、バトルポケモンと入れ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 842
+  species: りんごじるポケモン
+  heightMetres: 0.4
+  weightKilograms: 13
+  flavourText: 甘い りんごを 食べて 進化。 体から 甘い においを だして 餌の 虫ポケモンを 引き寄せる。
+  evolvesFrom: カジッチュ
+illustrators:
+  - Akira Komayama

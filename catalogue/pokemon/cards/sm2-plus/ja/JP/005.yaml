@@ -1,0 +1,36 @@
+name: レディアン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: スピードスター
+      cost:
+        - Grass
+      damage: "30"
+      text: このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。
+    - name: れんぞくパンチ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: コインを4回投げ、オモテの数×40ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 166
+  species: いつつぼしポケモン
+  heightMetres: 1.4
+  weightKilograms: 35.6
+  flavourText: 星明りが エネルギーと いわれるが 普通に 木の実も 大好物。 昼間は 草に 包まって 寝てる。
+  evolvesFrom: レディバ
+illustrators:
+  - Atsuko Nishida

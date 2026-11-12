@@ -1,0 +1,36 @@
+name: カラマネロ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: からまるコントロール
+      cost:
+        - Colorless
+      text: 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。
+    - name: トラッシュテンタクル
+      cost:
+        - Darkness
+      damage: "30"
+      text: 自分のトラッシュから好きなカードを1枚選び、相手に見せてから、手札に加える。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 687
+  species: ぎゃくてんポケモン
+  heightMetres: 1.5
+  weightKilograms: 47
+  flavourText: 催眠術で おびき寄せて 頭の 触手で 絡め取り 消化液を 浴びせて しとめる。
+  evolvesFrom: マーイーカ
+rarity: C
+illustrators:
+  - Masakazu Fukuda

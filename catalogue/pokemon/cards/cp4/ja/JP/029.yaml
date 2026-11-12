@@ -1,0 +1,36 @@
+name: レジアイス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: れいとうビーム
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: レジストブリザード
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 次の相手の番、このポケモンは「ポケモンEX」からワザのダメージや効果を受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 378
+  species: ひょうざんポケモン
+  heightMetres: 1.8
+  weightKilograms: 175
+  flavourText: 氷河期に できた 氷で 体が 作られている。 マイナス２００度の 冷気を 操る。
+illustrators:
+  - Miki Tanaka

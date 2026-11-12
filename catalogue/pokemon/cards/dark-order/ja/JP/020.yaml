@@ -1,0 +1,41 @@
+name: バンギラス
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Darkness
+  stage: Stage 2
+  attacks:
+    - name: スピンテール
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      text: 相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: かみちぎる
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 130+
+      text: 相手のバトルポケモンが「ポケモンGX・EX」なら、100ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 248
+  species: よろいポケモン
+  heightMetres: 2
+  weightKilograms: 202
+  flavourText: バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。
+  evolvesFrom: サナギラス
+rarity: R
+illustrators:
+  - Hasuno

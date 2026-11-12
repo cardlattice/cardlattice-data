@@ -1,0 +1,37 @@
+name: フシギバナ
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: ソーラービーム
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities:
+    - name: クラクラキャッチャー
+      text: 自分の番に1回使える。コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくとねむりにする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 3
+  species: たねポケモン
+  heightMetres: 2
+  weightKilograms: 100
+  flavourText: 太陽エネルギーを 栄養にして 大きな花が 開く。 日なたに 引き寄せられるように 移動する。
+  evolvesFrom: フシギソウ
+rarity: R
+illustrators:
+  - KEIICHIRO ITO
+stamps:
+  - pokemon-go

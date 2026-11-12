@@ -1,0 +1,28 @@
+name: キルリア
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: さいみんじゅつ
+      cost:
+        - Colorless
+      text: 相手をねむりにする。
+    - name: ゆめくい
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+      text: 相手がねむりでないなら、このワザは失敗する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: ラルトス
+rarity: ◆
+illustrators:
+  - Sachiko Adachi

@@ -1,0 +1,39 @@
+name: ムクホーク
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Stage 2
+  attacks:
+    - name: ハリケーンミキサー
+      cost:
+        - Colorless
+      damage: "70"
+      text: 自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。
+    - name: ブレイブバード
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  nationalDex:
+    - 398
+  species: もうきんポケモン
+  heightMetres: 1.2
+  weightKilograms: 24.9
+  flavourText: ムクホークに なると 群れから 離れて １匹で 生きていく。 強靭な 翼を 持っている。
+  evolvesFrom: ムクバード
+rarity: U
+illustrators:
+  - AKIRA EGAWA

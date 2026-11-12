@@ -1,0 +1,35 @@
+name: ドラミドロ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: バッドポイズン
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンをどくにする。ポケモンチェックのとき、このどくでのせるダメカンの数は4個になる。
+    - name: りゅうのはどう
+      cost:
+        - Water
+        - Psychic
+      damage: "60"
+      text: 自分の山札を上から1枚トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 691
+  species: クサモドキポケモン
+  heightMetres: 1.8
+  weightKilograms: 81.5
+  flavourText: ドラミドロが 住む 海域に 迷いこんだ 船は ２度と 生きて 戻れないと 言われている。
+  evolvesFrom: クズモー
+rarity: R
+illustrators:
+  - Shin Nagasawa

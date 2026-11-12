@@ -1,0 +1,37 @@
+name: ジガルデEX
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: だいちのこどう
+      cost:
+        - Fighting
+      damage: 20+
+      text: 場にスタジアムが出ているなら、20ダメージを追加。
+    - name: セルストーム
+      cost:
+        - Fighting
+        - Colorless
+      damage: "60"
+      text: このポケモンのHPを「30」回復する。
+    - name: グランドフォース
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+illustrators:
+  - Eske Yoshinob

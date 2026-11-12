@@ -1,0 +1,36 @@
+name: ガブリアス
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: クイックダイブ
+      cost:
+        - Colorless
+        - Colorless
+      text: 相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: おうじゃのやいば
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 100+
+      text: この番、手札から「シロナ」を出して使っていたなら、100ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  nationalDex:
+    - 445
+  species: マッハポケモン
+  heightMetres: 1.9
+  weightKilograms: 95
+  flavourText: 頭に ついた ２つの 突起は センサーの 役目。 遥か 先の 獲物の 様子も わかる。
+  evolvesFrom: ガバイト
+illustrators:
+  - Megumi Mizutani

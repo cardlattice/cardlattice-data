@@ -1,0 +1,40 @@
+name: ガチゴラス
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 1
+  attacks:
+    - name: くいやぶる
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンに特殊エネルギーがついているなら、90ダメージを追加。
+    - name: ギガインパクト
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 697
+  species: ぼうくんポケモン
+  heightMetres: 2.5
+  weightKilograms: 270
+  flavourText: 分厚い 鉄板を 紙のように かみちぎる おおあごで 古代の 世界では 無敵を 誇った。
+  evolvesFrom: チゴラス
+rarity: U
+illustrators:
+  - 5ban Graphics

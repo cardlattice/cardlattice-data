@@ -1,0 +1,10 @@
+name: ふつうのつりざお
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュからポケモンを2枚までと、基本エネルギーを2枚まで選び、相手に見せて、山札にもどして切る。（ポケモンまたは基本エネルギーのどちらかだけでもよい。）
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - 5ban Graphics

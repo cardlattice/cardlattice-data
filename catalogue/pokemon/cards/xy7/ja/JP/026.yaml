@@ -1,0 +1,37 @@
+name: サンダース
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  attacks:
+    - name: サンダーブラスト
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities:
+    - name: エレキエフェクト
+      text: このポケモンがいるかぎり、自分の1進化ポケモン全員は、もとのタイプに加え{Lightning}タイプも持つ。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 135
+  species: かみなりポケモン
+  heightMetres: 0.8
+  weightKilograms: 24.5
+  flavourText: 空気中の マイナスイオンを 吸いこんで 約１００００ボルトの 電気を 吐き出すことがある。
+  evolvesFrom: イーブイ
+rarity: R
+illustrators:
+  - Sanosuke Sakuma

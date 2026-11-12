@@ -1,0 +1,39 @@
+name: カビゴン
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: ねがえり
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: このワザは、このポケモンがねむりでも使える。このポケモンがねむりなら、90ダメージを追加。
+    - name: のみこむ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 143
+  species: いねむりポケモン
+  heightMetres: 2.1
+  weightKilograms: 460
+  flavourText: カビが 生えていても 腐っていても 大丈夫。 カビゴンの 胃袋は なんでも 消化できるのだ。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

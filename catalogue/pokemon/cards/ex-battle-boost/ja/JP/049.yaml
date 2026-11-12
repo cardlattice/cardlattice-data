@@ -1,0 +1,39 @@
+name: キルリア
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: サイコトリップ
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+    - name: かいてんアタック
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 281
+  species: かんじょうポケモン
+  heightMetres: 0.8
+  weightKilograms: 20.2
+  flavourText: トレーナーが 喜ぶと キルリアに エネルギーが 満ちあふれ 楽しそうに くるくると 踊る。
+  evolvesFrom: ラルトス
+illustrators:
+  - Yukiko Baba
+variants:
+  first-edition:
+    edition: first-edition

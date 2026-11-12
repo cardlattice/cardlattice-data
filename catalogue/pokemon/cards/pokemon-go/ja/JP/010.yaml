@@ -1,0 +1,38 @@
+name: リザードン
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: フレアドライブ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "170"
+      text: このポケモンについている{Fire}エネルギーを、すべてトラッシュする。
+  abilities:
+    - name: もえさかる
+      text: このポケモンがいるかぎり、自分の場のポケモンについている基本{Fire}エネルギーは、それぞれ{Fire}エネルギー2個ぶんとしてはたらく。この効果は、この特性を持つポケモンが何匹いても、重ならない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 6
+  species: かえんポケモン
+  heightMetres: 1.7
+  weightKilograms: 90.5
+  flavourText: 岩石も 焼けるような 灼熱の 炎を 吐いて 山火事を 起こすことが ある。
+  evolvesFrom: リザード
+rarity: R
+illustrators:
+  - N-DESIGN Inc.
+stamps:
+  - pokemon-go

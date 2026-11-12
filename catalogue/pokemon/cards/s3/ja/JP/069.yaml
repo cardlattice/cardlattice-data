@@ -1,0 +1,30 @@
+name: ギアル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: えんぐん
+      cost:
+        - Metal
+      text: 自分の山札から{Metal}ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 599
+  species: はぐるまポケモン
+  heightMetres: 0.3
+  weightKilograms: 21
+  flavourText: ２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。
+rarity: C
+illustrators:
+  - Kouki Saitou

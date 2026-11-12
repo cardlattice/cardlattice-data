@@ -1,0 +1,36 @@
+name: パルシェン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: いきなりはさむ
+      cost:
+        - Water
+      damage: "10"
+      text: この番、このポケモンが「シェルダー」から進化していたなら、相手のバトルポケモンをマヒにする。
+    - name: なみのり
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 91
+  species: ２まいがいポケモン
+  heightMetres: 1.5
+  weightKilograms: 132.5
+  flavourText: 殻が 非常に 硬く ナパーム弾でも 壊せない。 攻撃するときだけ 開く。
+  evolvesFrom: シェルダー
+rarity: U
+illustrators:
+  - Saya Tsuruta

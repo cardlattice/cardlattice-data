@@ -1,0 +1,35 @@
+name: プラスル
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: タッグドロー
+      cost:
+        - Colorless
+      text: 自分の手札をすべて山札にもどし、山札を切る。その後、山札を4枚引く。自分のベンチに「マイナン」がいるなら、さらに4枚引く。
+    - name: プラスイオン
+      cost:
+        - Lightning
+      damage: 20+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 311
+  species: おうえんポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.2
+  flavourText: 火花の ボンボンを 作って 仲間を 応援する。 電柱から 電気を 吸い取る。
+illustrators:
+  - Kouki Saitou
+variants:
+  first-edition:
+    edition: first-edition

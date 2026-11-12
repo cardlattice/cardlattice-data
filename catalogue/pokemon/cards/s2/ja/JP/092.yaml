@@ -1,0 +1,13 @@
+name: ボスの指令
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。
+    - サポートは、自分の番に1枚しか使えない。
+  trainers:
+    - サカキ
+rarity: R
+illustrators:
+  - nagimiso

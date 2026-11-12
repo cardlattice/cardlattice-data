@@ -1,0 +1,33 @@
+name: アマカジ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: こうごうせい
+      cost:
+        - Colorless
+      text: 自分の山札から{Grass}エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。
+    - name: はねまわる
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 761
+  species: フルーツポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.2
+  flavourText: 体から 漏れ出す 果実の 甘い においが 鳥ポケモンの 食欲を 激しく 刺激する。
+rarity: C
+illustrators:
+  - Yuka Morii

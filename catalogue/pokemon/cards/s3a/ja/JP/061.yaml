@@ -1,0 +1,30 @@
+name: ツツケラ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 731
+  species: きつつきポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.2
+  flavourText: 細く 見えるが 強靭な 首の 筋肉を持つ。 秒間 １６連打で 木を 突きまくるぞ。
+rarity: C
+illustrators:
+  - Yukiko Baba

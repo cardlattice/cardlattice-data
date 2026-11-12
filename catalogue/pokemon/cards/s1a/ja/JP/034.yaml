@@ -1,0 +1,30 @@
+name: ネイティ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: さきどり
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 177
+  species: ことりポケモン
+  heightMetres: 0.2
+  weightKilograms: 2
+  flavourText: 器用に 木の幹を 駆け登る。 枝先に できた 新しい 木の芽を 好んで ついばむ。
+rarity: C
+illustrators:
+  - Naoyo Kimura

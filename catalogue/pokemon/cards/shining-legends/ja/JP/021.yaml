@@ -1,0 +1,39 @@
+name: オーダイル
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: かみくだく
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンについているエネルギーを、1個トラッシュする。
+    - name: ハイドロスプラッシュ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "130"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 160
+  species: おおあごポケモン
+  heightMetres: 2.3
+  weightKilograms: 88.8
+  flavourText: 普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。
+  evolvesFrom: アリゲイツ
+rarity: U
+illustrators:
+  - nagimiso

@@ -1,0 +1,36 @@
+name: ニョロゾ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: みずかけ
+      cost:
+        - Water
+      damage: "20"
+    - name: とどめをさす
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: ダメージを与えるとき、すでに相手のバトルポケモンにダメカンがのっているなら、50ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 61
+  species: おたまポケモン
+  heightMetres: 1
+  weightKilograms: 20
+  flavourText: 陸でも 水中でも 暮らせる。 地上では いつも 汗をかき 皮膚を ぬめぬめ させている。
+  evolvesFrom: ニョロモ
+rarity: C
+illustrators:
+  - Kanako Eo

@@ -1,0 +1,33 @@
+name: ロコン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: あやしいひかり
+      cost:
+        - Fire
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: けとばす
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: きつねポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  flavourText: 子どもだが ６本の しっぽが 美しい。 成長すると さらに しっぽが 増える。
+rarity: C
+illustrators:
+  - sui

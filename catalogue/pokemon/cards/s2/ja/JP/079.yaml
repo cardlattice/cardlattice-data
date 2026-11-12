@@ -1,0 +1,35 @@
+name: マメパト
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: とりぶえ
+      cost:
+        - Colorless
+      text: 自分の山札から、抵抗力が{Fighting}タイプのポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。
+    - name: するどいはね
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 519
+  species: こばとポケモン
+  heightMetres: 0.3
+  weightKilograms: 2.1
+  flavourText: 人の住む 場所に 現れる。 エサを まくと 何百匹でも 集まってくるので 注意だぞ。
+rarity: C
+illustrators:
+  - Ryota Murayama

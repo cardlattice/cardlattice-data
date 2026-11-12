@@ -1,0 +1,37 @@
+name: ガバイト
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "20"
+    - name: ひきさく
+      cost:
+        - Water
+        - Fighting
+      damage: "40"
+      text: このワザのダメージは、相手のバトルポケモンにかかっている効果の計算をしない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 444
+  species: ほらあなポケモン
+  heightMetres: 1.4
+  weightKilograms: 56
+  flavourText: 光り輝く ものが 大好きで 洞くつの 中で 見つけた 宝を 自分の巣に ため込む。
+  evolvesFrom: フカマル
+illustrators:
+  - Shigenori Negishi
+variants:
+  first-edition:
+    edition: first-edition

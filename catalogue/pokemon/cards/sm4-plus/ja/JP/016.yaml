@@ -1,0 +1,28 @@
+name: ランプラー
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: おにび
+      cost:
+        - Fire
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 608
+  species: ランプポケモン
+  heightMetres: 0.6
+  weightKilograms: 13
+  flavourText: 魂を 吸いとり 火を灯す。 人が 死ぬのを 待つため 病院を うろつくようになった。
+  evolvesFrom: ヒトモシ
+illustrators:
+  - "0313"

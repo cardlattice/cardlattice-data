@@ -1,0 +1,38 @@
+name: ドンメル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+    - name: ふみつけ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 50+
+      text: コインを1回投げオモテなら、50ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 322
+  species: どんかんポケモン
+  heightMetres: 0.7
+  weightKilograms: 24
+  flavourText: １２００度の マグマを 体内に ためこんでいる。 炎の 技を 使うと コブは 小さく しぼむ。
+rarity: C
+illustrators:
+  - Shibuzoh.
+stamps:
+  - pokemon-go

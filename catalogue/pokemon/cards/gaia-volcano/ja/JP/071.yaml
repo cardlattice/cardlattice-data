@@ -1,0 +1,33 @@
+name: オーロットEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: くらいもり
+      cost:
+        - Grass
+      damage: "20"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: ウッドブラスト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: このポケモンについている{Grass}エネルギーの数×20ダメージを追加。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+rarity: SR
+illustrators:
+  - Ryo Ueda

@@ -1,0 +1,35 @@
+name: クレッフィ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: フェアリーロック
+      cost:
+        - Fairy
+        - Colorless
+      damage: "30"
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+  abilities:
+    - name: ひみつのカギ
+      text: このポケモンがいるかぎり、自分の{Fairy}ポケモン全員の抵抗力は、すべて「-40」になる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 707
+  species: かぎたばポケモン
+  heightMetres: 0.2
+  weightKilograms: 3
+  flavourText: カギを 集める 習性。 敵に 襲われると ジャラジャラと カギを 打ち鳴らして 威嚇する。
+rarity: C
+illustrators:
+  - 5ban Graphics

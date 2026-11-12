@@ -1,0 +1,38 @@
+name: アリアドス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: どくいとしばり
+      cost:
+        - Colorless
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくとマヒにする。
+    - name: すいとる
+      cost:
+        - Grass
+        - Colorless
+      damage: "50"
+      text: このポケモンのHPを「50」回復する。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 168
+  species: あしながポケモン
+  heightMetres: 1.1
+  weightKilograms: 33.5
+  flavourText: 糸を はいて 獲物を 捕らえる。 夜に なると 巣から 離れて 積極的に 狩りを するぞ。
+  evolvesFrom: イトマル
+rarity: C
+illustrators:
+  - Misa Tsutsui
+stamps:
+  - pokemon-go

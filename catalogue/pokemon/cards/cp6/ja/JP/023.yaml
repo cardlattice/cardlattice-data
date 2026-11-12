@@ -1,0 +1,30 @@
+name: ニョロモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: みずでっぽう
+      cost:
+        - Water
+        - Water
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 60
+  species: おたまポケモン
+  heightMetres: 0.6
+  weightKilograms: 12.4
+  flavourText: スベスベした 黒い皮膚は 薄く 湿っている。 内臓の 一部が 透けて 渦巻状に みえる。
+  level: 13
+rarity: C
+illustrators:
+  - Ken Sugimori

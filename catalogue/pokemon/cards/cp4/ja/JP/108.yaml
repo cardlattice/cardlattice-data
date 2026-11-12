@@ -1,0 +1,10 @@
+name: レッドカード
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 相手は相手自身の手札をすべて山札にもどし、山札を切る。その後、相手は山札を4枚引く。
+    - グッズは、自分の番に何枚でも使える。
+illustrators:
+  - 5ban Graphics

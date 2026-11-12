@@ -1,0 +1,35 @@
+name: ピカチュウEX
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: アイアンテール
+      cost:
+        - Colorless
+      damage: 30×
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージ。
+    - name: オーバースパーク
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: このポケモンについている{Lightning}エネルギーをすべてトラッシュし、トラッシュした枚数×50ダメージ。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+rarity: SR
+illustrators:
+  - Megumi Mizutani

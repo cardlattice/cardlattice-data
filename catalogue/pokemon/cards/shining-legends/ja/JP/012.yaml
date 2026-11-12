@@ -1,0 +1,37 @@
+name: コータス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: こうあつねつ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: 次の自分の番、このポケモンの「こうあつねつ」のダメージは「+50」される。
+    - name: かえんほうしゃ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "90"
+      text: このポケモンについているエネルギーを、1個トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 324
+  species: せきたんポケモン
+  heightMetres: 0.5
+  weightKilograms: 80.4
+  flavourText: 石炭が エネルギーの 源。 コータスの 棲んでいる 山には 多くの 石炭が 眠っている。
+rarity: U
+illustrators:
+  - Suwama Chiaki

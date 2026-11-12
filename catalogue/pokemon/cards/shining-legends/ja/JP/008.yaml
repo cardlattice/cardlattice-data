@@ -1,0 +1,34 @@
+name: シェイミ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ぱたぱた
+      cost:
+        - Grass
+      text: 自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。
+    - name: まきかえす
+      cost:
+        - Grass
+        - Colorless
+      damage: 30+
+      text: 前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 492
+  species: かんしゃポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.2
+  flavourText: 大気の 毒素を 分解して 荒れた 大地を 一瞬のうちに 花畑にする 力を 持つ。
+rarity: R
+illustrators:
+  - Mizue

@@ -1,0 +1,38 @@
+name: ザシアン
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: エナジーストリーム
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+      text: 自分のトラッシュから{Metal}エネルギーを1枚選び、このポケモンにつける。
+    - name: スマッシュエッジ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "120"
+      text: コインを1回投げウラなら、このポケモンについているエネルギーを2個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 888
+  species: つわものポケモン
+  heightMetres: 2.8
+  weightKilograms: 355
+  flavourText: かつての 得物で 武装した。 キョダイマックスポケモンも 一刀の もとに 切り捨てる。
+illustrators:
+  - Hideki Ishikawa

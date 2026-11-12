@@ -1,0 +1,23 @@
+name: カゲボウズ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ナイトメア
+      cost:
+        - Psychic
+      damage: "10"
+      text: コインを1回投げオモテなら、相手をねむりにする。ウラなら、相手をこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+  resistances:
+    - type: Fighting
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Ken Sugimori

@@ -1,0 +1,34 @@
+name: ミミッキュ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: ツメできりさく
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+  abilities:
+    - name: いやしジャマー
+      text: このポケモンがいるかぎり、相手のベンチポケモン全員のHPは、回復しない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 778
+  species: ばけのかわポケモン
+  heightMetres: 0.2
+  weightKilograms: 0.7
+  flavourText: 怖がられないように ピカチュウに 似せた ボロ布を かぶっているが 余計に 不気味に なってしまった。
+rarity: U
+illustrators:
+  - Ryota Murayama

@@ -1,0 +1,36 @@
+name: バオッキー
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: ほのお
+      cost:
+        - Fire
+      damage: "30"
+    - name: ギガインパクト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "110"
+      text: 次の自分の番、このポケモンはワザが使えない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 514
+  species: ひのこポケモン
+  heightMetres: 1
+  weightKilograms: 28
+  flavourText: 興奮すると 頭や 尻尾から 火の粉が 舞いあがって 熱くなる。 なぜか 甘いものが 大好物。
+  evolvesFrom: バオップ
+rarity: U
+illustrators:
+  - "0313"

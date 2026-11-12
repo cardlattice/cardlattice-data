@@ -1,0 +1,38 @@
+name: ソルガレオGX
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: メテオドライブ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "230"
+      text: このポケモンについているエネルギーを、すべてトラッシュする。
+    - name: ソルバーストGX
+      cost:
+        - Metal
+      text: 自分の山札にあるエネルギーを5枚まで、自分のポケモンに好きなようにつける。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities:
+    - name: ウルトラロード
+      text: 自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。
+      kind: Ability
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  evolvesFrom: コスモウム
+rarity: RR
+illustrators:
+  - 5ban Graphics

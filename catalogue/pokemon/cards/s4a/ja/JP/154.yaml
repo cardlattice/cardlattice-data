@@ -1,0 +1,31 @@
+name: バイウールーV
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: リベンジバースト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 120+
+      text: 相手がすでにとったサイドの枚数×30ダメージ追加。
+  abilities:
+    - name: やわらかウール
+      text: このポケモンが受けるワザのダメージは「-30」される。
+      kind: Ability
+  rules:
+    - ポケモンVがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - V
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - 5ban Graphics

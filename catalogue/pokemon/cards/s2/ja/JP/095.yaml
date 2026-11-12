@@ -1,0 +1,11 @@
+name: ホラー超エネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは、ポケモンについているかぎり、{Psychic}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Psychic}ポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。
+  types:
+    - Psychic
+rarity: U

@@ -1,0 +1,31 @@
+name: MライボルトEX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Lightning
+  stage: MEGA
+  attacks:
+    - name: ターボボルト
+      cost:
+        - Lightning
+        - Colorless
+      damage: "110"
+      text: 自分のトラッシュから基本エネルギーを2枚選び、ベンチポケモン1匹につける。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 0
+  evolvesFrom: ライボルトEX
+illustrators:
+  - 5ban Graphics

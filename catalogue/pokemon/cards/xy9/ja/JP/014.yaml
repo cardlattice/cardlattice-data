@@ -1,0 +1,36 @@
+name: ヤドラン
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: うっかりヘッド
+      cost:
+        - Water
+      damage: 10+
+      text: コインを1回投げオモテなら、50ダメージを追加。
+    - name: ミラクルホームラン
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: このワザを使ったとき、自分のサイドの残り枚数が1枚なら、この対戦は自分の勝ちになる。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 80
+  species: やどかりポケモン
+  heightMetres: 1.6
+  weightKilograms: 78.5
+  flavourText: ヤドンが 海へ エサを 取りにいったとき シェルダーに 尻尾を かまれ ヤドランになった。
+  evolvesFrom: ヤドン
+rarity: C
+illustrators:
+  - kirisAki

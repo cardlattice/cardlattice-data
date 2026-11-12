@@ -1,0 +1,36 @@
+name: ナッシー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ドタマわり
+      cost:
+        - Grass
+      damage: "30"
+      text: 相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザが使えない。
+    - name: ソーラービーム
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "90"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 103
+  species: やしのみポケモン
+  heightMetres: 2
+  weightKilograms: 120
+  flavourText: ３つの頭は 皆 別の ことを 考えている。 行きたい 方向が 違うと 身動きが とれなくなる。
+  evolvesFrom: タマタマ
+rarity: U
+illustrators:
+  - miki kudo

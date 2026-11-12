@@ -1,0 +1,35 @@
+name: マイナン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: もってくる
+      cost:
+        - Colorless
+      text: 自分の山札を1枚引く。
+    - name: スパーク
+      cost:
+        - Lightning
+      damage: "20"
+      text: 相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 312
+  species: おうえんポケモン
+  heightMetres: 0.4
+  weightKilograms: 4.2
+  flavourText: マイナンと プラスルの 電気は 血液の 流れを 良くして こりを ほぐす 効果が ある。
+rarity: C
+illustrators:
+  - nagimiso

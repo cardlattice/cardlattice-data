@@ -1,0 +1,35 @@
+name: ガラル バリコオル
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: マッドパーティ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: 自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。
+  abilities:
+    - name: シャッフルダンス
+      text: 自分の番に1回使える。ウラになっている相手のサイドを1枚選び、相手の山札の一番上のカードと、ウラのまま入れ替える。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 866
+  species: コメディアンポケモン
+  heightMetres: 1.5
+  weightKilograms: 58.2
+  flavourText: タップダンスの 達人。 氷で できた ステッキを 振り 軽やかな ステップを 披露する。
+  evolvesFrom: ガラル バリヤード
+rarity: S
+illustrators:
+  - Hideki Ishikawa

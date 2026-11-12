@@ -1,0 +1,35 @@
+name: タイプ：ヌル
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: むじひないちげき
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンにダメカンがのっているなら、30ダメージ追加。
+    - name: ヘッドバング
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 772
+  species: じんこうポケモン
+  heightMetres: 1.9
+  weightKilograms: 120.5
+  flavourText: 重い 制御マスクを つけており 本来の 能力を だせない。 特別な 力を 秘めている。
+illustrators:
+  - match

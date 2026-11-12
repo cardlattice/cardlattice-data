@@ -1,0 +1,29 @@
+name: カラカラ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: きまぐれタックル
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 104
+  species: こどくポケモン
+  heightMetres: 0.4
+  weightKilograms: 6.5
+  flavourText: 死に別れた 母親の 骨を いつも 被っているので 素顔が どんなふうか わからない。
+illustrators:
+  - Sumiyoshi Kizuki

@@ -1,0 +1,13 @@
+name: サイクロンエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Colorless}エネルギー1個ぶんとしてはたらく。
+      このカードを手札から出して、自分のバトルポケモンにつけたとき、相手のバトルポケモンを1匹選び、相手のベンチポケモンと入れ替える。入れ替えるベンチポケモンは相手プレイヤーが選ぶ。
+  types:
+    - Colorless
+rarity: ◆
+illustrators:
+  - Shin-ichi Yoshikawa

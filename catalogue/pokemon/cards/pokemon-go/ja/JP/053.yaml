@@ -1,0 +1,28 @@
+name: メタモン
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks: []
+  abilities:
+    - name: いきなりへんげ
+      text: このポケモンは、自分のトラッシュにあるたねポケモン（「ルールを持つポケモン」をのぞく）が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 132
+  species: へんしんポケモン
+  heightMetres: 0.3
+  weightKilograms: 4
+  flavourText: 全身の 細胞を 組み替えて 見たもの そっくりに 変身するが 力が 抜けると もとにもどる。
+illustrators:
+  - Misa Tsutsui
+stamps:
+  - pokemon-go

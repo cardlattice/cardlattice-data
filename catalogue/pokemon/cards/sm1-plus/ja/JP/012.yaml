@@ -1,0 +1,36 @@
+name: ニョロゾ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: おうふくビンタ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: コインを2回投げ、オモテの数×30ダメージ。
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 61
+  species: おたまポケモン
+  heightMetres: 1
+  weightKilograms: 20
+  flavourText: 陸上を 練り歩いて 餌の むしポケモンを 探す。 食べるのは 安全な 水の中。
+  evolvesFrom: ニョロモ
+illustrators:
+  - Atsuko Nishida

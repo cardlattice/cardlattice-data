@@ -1,0 +1,34 @@
+name: キュウコン
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: いろげしょう
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: 相手のバトルポケモンのタイプと同じタイプの基本エネルギーが、このポケモンについているなら、40ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 38
+  species: きつねポケモン
+  heightMetres: 1.1
+  weightKilograms: 19.9
+  flavourText: ９本の 長い しっぽ それぞれに 神通力が こめられており １０００年 生きることが できる。
+  evolvesFrom: ロコン
+illustrators:
+  - Satoshi Shirai
+variants:
+  first-edition:
+    edition: first-edition

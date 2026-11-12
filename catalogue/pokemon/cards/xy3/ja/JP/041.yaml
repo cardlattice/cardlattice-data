@@ -1,0 +1,41 @@
+name: ゴルーグ
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ぶちこわす
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 場にスタジアムが出ているなら、60ダメージを追加。その後、そのスタジアムをトラッシュする。
+    - name: ゴルーグハンマー
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 623
+  species: ゴーレムポケモン
+  heightMetres: 2.8
+  weightKilograms: 330
+  flavourText: ゴルーグを 作った 古代人から 人や ポケモンを 守るように 命令されていると 言われている。
+  evolvesFrom: ゴビット
+rarity: U
+illustrators:
+  - PLANETA

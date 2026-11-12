@@ -1,0 +1,37 @@
+name: メレシー
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fairy
+  stage: Basic
+  attacks:
+    - name: クリスタルバリア
+      cost:
+        - Fairy
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+    - name: ワンダーブラスト
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: このポケモンについている{Fairy}エネルギーの数×20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances:
+    - type: Darkness
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 703
+  species: ほうせきポケモン
+  heightMetres: 0.3
+  weightKilograms: 5.7
+  flavourText: 地下深くの 高温 高圧な 環境で 生まれた。 頭の 石から エネルギーを 放つ。
+rarity: R
+illustrators:
+  - 5ban Graphics

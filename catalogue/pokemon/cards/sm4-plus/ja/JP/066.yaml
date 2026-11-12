@@ -1,0 +1,32 @@
+name: アローラ ディグダ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: あなさぐり
+      cost: []
+      text: 自分の山札を上から3枚見て、好きな順番に入れ替えて、山札の上にもどす。
+    - name: どろかけ
+      cost:
+        - Metal
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 50
+  species: もぐらポケモン
+  heightMetres: 0.2
+  weightKilograms: 1
+  flavourText: 頭から 生えているのは 髭が 変化 したもので 金属質。 ゆらゆら 動き 仲間と 交信。
+illustrators:
+  - Megumi Mizutani

@@ -1,0 +1,31 @@
+name: ジュカインEX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: ねむけどく
+      cost:
+        - Grass
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくとねむりにする。
+    - name: アサシンクロー
+      cost:
+        - Grass
+        - Colorless
+      damage: 60+
+      text: 相手のバトルポケモンが特殊状態なら、70ダメージを追加。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Eske Yoshinob

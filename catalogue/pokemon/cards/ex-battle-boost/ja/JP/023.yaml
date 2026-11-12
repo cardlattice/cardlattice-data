@@ -1,0 +1,41 @@
+name: ギャラドス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: たけりくるう
+      cost:
+        - Water
+        - Colorless
+      damage: 20×
+      text: おたがいのプレイヤーがすでにとったサイドの枚数×20ダメージ。
+    - name: ハイドロスプラッシュ
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 130
+  species: きょうあくポケモン
+  heightMetres: 6.5
+  weightKilograms: 235
+  flavourText: 一度 暴れだした ギャラドスは あらしが 吹きすさんでいようとも どんなものでも 焼きつくしてしまう。
+  evolvesFrom: コイキング
+illustrators:
+  - hatachu
+variants:
+  first-edition:
+    edition: first-edition

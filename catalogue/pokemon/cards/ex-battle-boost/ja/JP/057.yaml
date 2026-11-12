@@ -1,0 +1,37 @@
+name: ゴチルゼル
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  attacks:
+    - name: マッドキネシス
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: このポケモンについている{Psychic}エネルギーの数×20ダメージを追加。
+  abilities:
+    - name: マジックルーム
+      text: このポケモンがバトル場にいるかぎり、相手は手札から「グッズ」を出して使えない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 576
+  species: てんたいポケモン
+  heightMetres: 1.5
+  weightKilograms: 44
+  flavourText: 強力な サイコパワーの 影響で ゴチルゼルの 周囲の 空間が ねじれ 何万光年も 遠くの 星空が 映る。
+  evolvesFrom: ゴチミル
+illustrators:
+  - kawayoo
+variants:
+  first-edition:
+    edition: first-edition

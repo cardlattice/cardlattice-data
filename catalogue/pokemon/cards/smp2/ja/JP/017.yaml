@@ -1,0 +1,42 @@
+name: ミュウツーGX
+pokemon:
+  category: pokemon
+  hp: 190
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: テレキネシス
+      cost:
+        - Psychic
+        - Colorless
+      text: 相手のポケモン1匹に、50ダメージ。このワザのダメージは弱点・抵抗力を計算しない。
+    - name: しはいのはどう
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 相手のバトルポケモンをこんらんにする。
+    - name: サイキックノヴァGX
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "180"
+      text: 次の相手の番、このポケモンはワザのダメージを受けない。［対戦中、自分はGXワザを1回しか使えない。］
+  abilities: []
+  rules:
+    - ポケモンGXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - GX
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+rarity: RR
+illustrators:
+  - MPC Film

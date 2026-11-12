@@ -1,0 +1,35 @@
+name: ヌイコグマ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: とびつく
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: コインを1回投げオモテなら、40ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 759
+  species: じたばたポケモン
+  heightMetres: 0.5
+  weightKilograms: 6.8
+  flavourText: ふわふわの 毛並みは 触り心地が 抜群だが うかつに 手を だすと 手痛い 反撃を 受けてしまう。
+rarity: C
+illustrators:
+  - so-taro

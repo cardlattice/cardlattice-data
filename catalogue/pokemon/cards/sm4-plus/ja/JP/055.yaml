@@ -1,0 +1,33 @@
+name: イワンコ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: おいつめる
+      cost:
+        - Fighting
+      text: 次の相手の番、このワザを受けたポケモンは、にげられない。
+    - name: けりつける
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 744
+  species: こいぬポケモン
+  heightMetres: 0.5
+  weightKilograms: 9.2
+  flavourText: よく なつくので 初心者に お勧めのポケモンと いわれるが 育つと 気性は 荒くなる。
+illustrators:
+  - Naoki Saito

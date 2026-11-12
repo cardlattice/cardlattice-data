@@ -1,0 +1,36 @@
+name: ネイティオ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: エネワープ
+      cost:
+        - Colorless
+      text: 相手のベンチポケモンについているエネルギーを1個選び、相手のバトルポケモンにつけ替える。
+    - name: サイコキネシス
+      cost:
+        - Psychic
+      damage: 10+
+      text: 相手のバトルポケモンについているエネルギーの数×30ダメージ追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 178
+  species: せいれいポケモン
+  heightMetres: 1.5
+  weightKilograms: 15
+  flavourText: ほとんど 動かず 鳴きもせず じっとするのは 過去と 未来を 見ているからだと 信じられている。
+  evolvesFrom: ネイティ
+rarity: U
+illustrators:
+  - so-taro

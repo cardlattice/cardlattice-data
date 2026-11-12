@@ -1,0 +1,10 @@
+name: ボールガイ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札から、名前に「ボール」とつく、それぞれちがう名前のグッズを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Hitoshi Ariga

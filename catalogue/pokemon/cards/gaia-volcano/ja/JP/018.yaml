@@ -1,0 +1,31 @@
+name: アチャモ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: フレアボーナス
+      cost:
+        - Fire
+      text: 自分の手札から{Fire}エネルギーを1枚選び、トラッシュする。その後、自分の山札を2枚引く。
+    - name: かぎづめ
+      cost:
+        - Fire
+      damage: "20"
+      text: コインを1回投げウラなら、このワザは失敗。
+  abilities:
+    - name: Ω（オメガ）連打
+      text: このポケモンは、ワザを2回連続で使える。（1回目で相手のバトルポケモンがきぜつしたなら、次のポケモンが出た後、2回目を使う。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  flavourText: 体内で 炎が 燃えているので 抱きしめると とても 温かい。 １０００度の 火の玉を 飛ばす。
+rarity: C
+illustrators:
+  - 5ban Graphics

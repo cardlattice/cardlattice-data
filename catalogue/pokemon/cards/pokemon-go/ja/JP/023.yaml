@@ -1,0 +1,37 @@
+name: ラプラス
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: れいとうビーム
+      cost:
+        - Water
+      damage: "20"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+    - name: なみのり
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "110"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 131
+  species: のりものポケモン
+  heightMetres: 2.5
+  weightKilograms: 220
+  flavourText: 賢く 心優しい ポケモン。 きれいな 歌声を 響かせながら 海の上を 泳いで いく。
+rarity: R
+illustrators:
+  - N-DESIGN Inc.
+stamps:
+  - pokemon-go

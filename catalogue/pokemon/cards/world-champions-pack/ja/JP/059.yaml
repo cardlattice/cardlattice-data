@@ -1,0 +1,29 @@
+name: ノクタス
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ミサイルばり
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: コインを4回投げ、オモテ×20ダメージ。
+  abilities:
+    - name: ポイズンストラクチャー
+      text: このパワーは、場に「カゲツのスタジアム」があるなら、自分の番に1回使うことができる。相手のバトルポケモンを1匹選び、どくにする。このポケモンが特殊状態なら、このパワーを使うことはできない。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+  retreatCost: 1
+  evolvesFrom: サボネア
+rarity: ◆
+illustrators:
+  - Ken Sugimori

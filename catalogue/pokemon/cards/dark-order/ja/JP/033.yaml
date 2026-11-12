@@ -1,0 +1,39 @@
+name: エアームド
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: カームストライク
+      cost:
+        - Metal
+        - Colorless
+      damage: 20+
+      text: 自分がすでにGXワザを使っていたなら、70ダメージ追加。
+    - name: はがねのつばさ
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "90"
+      text: 次の相手の番、このポケモンが受けるワザのダメージは「-30」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 227
+  species: よろいどりポケモン
+  heightMetres: 1.7
+  weightKilograms: 50.5
+  flavourText: 鉄の 身体は 頑丈だが さびやすいので 雨の 日は 巣穴で じっと しているよ。
+rarity: U
+illustrators:
+  - kirisAki

@@ -1,0 +1,32 @@
+name: ガラル マタドガス
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: バッドポイズン
+      cost:
+        - Darkness
+      text: 相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は4個になる。
+  abilities:
+    - name: かがくへんかガス
+      text: このポケモンがバトル場にいるかぎり、相手の場のポケモンの特性（「かがくへんかガス」をのぞく）は、すべてなくなる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 110
+  species: どくガスポケモン
+  heightMetres: 3
+  weightKilograms: 16
+  flavourText: 大気の 汚い 成分を 吸収し きれいな 空気を フンの 代わりに 吐き出している。
+  evolvesFrom: ドガース
+rarity: S
+illustrators:
+  - Kouki Saitou

@@ -1,0 +1,21 @@
+name: サボネア
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: だましうち
+      cost:
+        - Colorless
+      text: 相手のポケモン1匹に、そのポケモンの弱点・抵抗力・すべての効果に関係なく、10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Hajime Kusajima

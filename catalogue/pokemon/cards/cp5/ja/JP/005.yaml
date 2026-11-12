@@ -1,0 +1,37 @@
+name: ファイヤー
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: かえん
+      cost:
+        - Fire
+      damage: "20"
+    - name: フレアバード
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: のぞむなら、40ダメージを追加してよい。その場合、このポケモンにも20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 146
+  species: かえんポケモン
+  heightMetres: 2
+  weightKilograms: 60
+  flavourText: 伝説の とりポケモンの １匹。 ファイヤーが 姿を 見せると 春が 訪れると 言われている。
+illustrators:
+  - OOYAMA

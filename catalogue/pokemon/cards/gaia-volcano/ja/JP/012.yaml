@@ -1,0 +1,32 @@
+name: ロコン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: ほえる
+      cost:
+        - Colorless
+      text: 相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］
+    - name: かじる
+      cost:
+        - Fire
+      damage: "10"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: きつねポケモン
+  heightMetres: 0.6
+  weightKilograms: 9.9
+  flavourText: 子供だが ６本の 尻尾が 美しい。 成長すると さらに 尻尾が 増える。
+rarity: C
+illustrators:
+  - kirisAki

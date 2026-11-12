@@ -1,0 +1,29 @@
+name: マギアナ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: もてなす
+      cost:
+        - Colorless
+      text: 自分のベンチポケモンを1匹選び、HPを「40」回復する。
+    - name: プリズムウェーブ
+      cost:
+        - Metal
+      damage: 20×
+      text: 相手のベンチポケモンのタイプの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  flavourText: 金属質の 体の マギアナは ５００年前に 人の手によって 生み出された 人造ポケモンだ。
+illustrators:
+  - Sanosuke Sakuma

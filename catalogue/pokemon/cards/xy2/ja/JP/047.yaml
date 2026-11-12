@@ -1,0 +1,35 @@
+name: スカンプー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: えんまく
+      cost:
+        - Darkness
+      text: 次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 434
+  species: スカンクポケモン
+  heightMetres: 0.4
+  weightKilograms: 19.2
+  flavourText: お尻から飛ばす くさい 汁の においは 半径２キロに 広がり まわりの ポケモンは いなくなる。
+rarity: C
+illustrators:
+  - Kyoko Umemoto

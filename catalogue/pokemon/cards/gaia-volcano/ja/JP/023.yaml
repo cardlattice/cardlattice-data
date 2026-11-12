@@ -1,0 +1,29 @@
+name: ラクライ
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: かみなりのキバ
+      cost:
+        - Lightning
+      damage: "10"
+      text: コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。
+  abilities:
+    - name: Ω（オメガ）バリア
+      text: このポケモンは、相手が使うトレーナーズの効果を受けない。（ポケモンのどうぐ・スタジアムはのぞく。）
+      kind: Ancient Trait
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Metal
+      value: "-20"
+  retreatCost: 1
+  flavourText: 静電気を 体毛に たくわえて 放電する。 嵐が 近づくと 全身から 火花を 散らす。
+rarity: C
+illustrators:
+  - Sanosuke Sakuma

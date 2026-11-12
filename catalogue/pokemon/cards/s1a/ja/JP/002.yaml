@@ -1,0 +1,33 @@
+name: トランセル
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: ぶつかる
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: てきおうしんか
+      text: このポケモンは、最初の自分の番や出したばかりの番でも進化できる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 11
+  species: さなぎポケモン
+  heightMetres: 0.7
+  weightKilograms: 9.9
+  flavourText: 進化を 待っている 状態。 硬くなる ことしか できないので 襲われないよう じっとしている。
+  evolvesFrom: キャタピー
+rarity: C
+illustrators:
+  - Asako Ito

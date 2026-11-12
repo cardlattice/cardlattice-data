@@ -1,0 +1,35 @@
+name: オオタチ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: ここほれサーチ
+      cost:
+        - Colorless
+      text: 自分の山札を上から4枚見て、その中から2枚選び、手札に加える。残りのカードはトラッシュする。
+    - name: たたきつける
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: コインを2回投げ、オモテの数×30ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 162
+  species: どうながポケモン
+  heightMetres: 1.8
+  weightKilograms: 32.5
+  flavourText: 母親は 細長い 体で 子供を 包みこみ 眠らせる。 速い 動きで 敵を 追いこむ。
+  evolvesFrom: オタチ
+rarity: C
+illustrators:
+  - Kagemaru Himeno

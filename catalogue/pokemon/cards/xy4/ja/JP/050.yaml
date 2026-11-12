@@ -1,0 +1,37 @@
+name: ヤミカラス
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: おそいかかる
+      cost:
+        - Darkness
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+    - name: つばさでうつ
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 198
+  species: くらやみポケモン
+  heightMetres: 0.5
+  weightKilograms: 2.1
+  flavourText: 輝く 物を 拾っては 秘密の 場所に 隠しておく。 よく ニャースと 奪い合いになる。
+rarity: C
+illustrators:
+  - Kagemaru Himeno

@@ -1,0 +1,11 @@
+name: とりつかい
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の山札を3枚引く。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Hideki Ishikawa

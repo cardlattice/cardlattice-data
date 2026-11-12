@@ -1,0 +1,35 @@
+name: ヤンヤンマ
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: とんぼがえり
+      cost:
+        - Colorless
+      damage: "10"
+      text: のぞむなら、このポケモンをベンチポケモンと入れ替える。
+    - name: カッターウインド
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 193
+  species: うすばねポケモン
+  heightMetres: 1.2
+  weightKilograms: 38
+  flavourText: 高速で 羽を 羽ばたかせると 衝撃波が 発生して まわりの 窓ガラスが 割れていく。
+rarity: C
+illustrators:
+  - MAHOU

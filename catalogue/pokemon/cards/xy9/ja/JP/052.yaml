@@ -1,0 +1,33 @@
+name: ヤンチャム
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: なぐる
+      cost:
+        - Colorless
+      damage: "10"
+    - name: がちんこ
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 674
+  species: やんちゃポケモン
+  heightMetres: 0.6
+  weightKilograms: 8
+  flavourText: 一生懸命 怖い 顔で 相手を にらみつけるが 頭を なでられると つい にやけてしまう。
+rarity: C
+illustrators:
+  - MAHOU

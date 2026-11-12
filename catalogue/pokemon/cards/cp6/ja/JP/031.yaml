@@ -1,0 +1,30 @@
+name: コイキング
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: じたばた
+      cost:
+        - Water
+      damage: 10×
+      text: このポケモンにのっているダメカンの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: さかなポケモン
+  heightMetres: 0.9
+  weightKilograms: 10
+  flavourText: 力も スピードも ほとんどダメ。 世界で 一番 弱くて なさけない ポケモンだ。
+  level: 8
+rarity: C
+illustrators:
+  - Mitsuhiro Arita

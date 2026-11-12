@@ -1,0 +1,38 @@
+name: ガオガエン
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ガッデムパンチ
+      cost:
+        - Fire
+        - Colorless
+      damage: 50+
+      text: 自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。
+    - name: フレアドライブ
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "180"
+      text: このポケモンについている{Fire}エネルギーを、すべてトラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 727
+  species: ヒールポケモン
+  heightMetres: 1.8
+  weightKilograms: 83
+  flavourText: 粗暴で 身勝手な 性格。 気分が 乗らなければ トレーナーの 命令も 平気で 無視するぞ。
+  evolvesFrom: ニャヒート
+rarity: U
+illustrators:
+  - Emi Ando

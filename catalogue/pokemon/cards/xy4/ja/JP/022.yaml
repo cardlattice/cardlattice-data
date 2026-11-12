@@ -1,0 +1,35 @@
+name: ママンボウ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: ふかくもぐる
+      cost:
+        - Water
+      text: このポケモンのHPを「30」回復する。このポケモンをベンチポケモンと入れ替える。
+    - name: なみのり
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 594
+  species: かいほうポケモン
+  heightMetres: 1.2
+  weightKilograms: 31.6
+  flavourText: 大海原を 漂って 暮らす。 傷ついた ポケモンを 見つけると 抱きかかえて 岸まで 運ぶ。
+rarity: C
+illustrators:
+  - Kouki Saitou

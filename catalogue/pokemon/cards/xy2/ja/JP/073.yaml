@@ -1,0 +1,11 @@
+name: せいなるはい
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 自分のトラッシュからポケモンを5枚選び、相手に見せてから、山札にもどす。そして山札を切る。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - PLANETA

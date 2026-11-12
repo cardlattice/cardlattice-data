@@ -1,0 +1,13 @@
+name: ルアーモジュール
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - おたがいのプレイヤーは、それぞれ自分の山札を上から3枚オモテにして、その中にあるポケモンをすべて、相手に見せて、手札に加える。残りのカードは山札にもどして切る。
+    - グッズは、自分の番に何枚でも使える。
+rarity: UR
+illustrators:
+  - ORBITALLINK Inc.
+stamps:
+  - pokemon-go

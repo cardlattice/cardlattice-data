@@ -1,0 +1,12 @@
+name: センパイとコウハイ
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。
+      自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。
+    - サポートは、自分の番に1枚しか使えない。
+rarity: SR
+illustrators:
+  - Hitoshi Ariga

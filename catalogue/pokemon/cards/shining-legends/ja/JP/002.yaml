@@ -1,0 +1,38 @@
+name: フシギソウ
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: はっぱカッター
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+    - name: もうどくのムチ
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンをどくとこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  nationalDex:
+    - 2
+  species: たねポケモン
+  heightMetres: 1
+  weightKilograms: 13
+  flavourText: つぼみが 背中に ついていて 養分を 吸収していくと 大きな 花が 咲くという。
+  evolvesFrom: フシギダネ
+rarity: C
+illustrators:
+  - Kouki Saitou

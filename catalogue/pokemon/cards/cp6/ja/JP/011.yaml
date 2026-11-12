@@ -1,0 +1,39 @@
+name: リザードン
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fire
+  stage: Stage 2
+  attacks:
+    - name: ほのおのうず
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "200"
+      text: このポケモンについているエネルギーを3個選び、トラッシュする。
+  abilities:
+    - name: エナジーバーン
+      text: このポケモンについているエネルギーは、すべて{Fire}タイプになる。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 6
+  species: かえんポケモン
+  heightMetres: 1.7
+  weightKilograms: 90.5
+  flavourText: 地上 １４００メートル まで 羽を つかって 飛ぶことができる。 高熱の 炎を はく。
+  evolvesFrom: リザード
+  level: 76
+rarity: R
+illustrators:
+  - Mitsuhiro Arita

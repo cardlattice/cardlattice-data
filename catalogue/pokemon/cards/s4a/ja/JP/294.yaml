@@ -1,0 +1,30 @@
+name: コアルヒー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: はばたく
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  nationalDex:
+    - 580
+  species: みずどりポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.5
+  flavourText: 飛ぶよりも 泳ぐのが 得意で 水中に 潜っては 大好きな 水ゴケを うれしそうに 食べる。
+rarity: S
+illustrators:
+  - Kyoko Umemoto

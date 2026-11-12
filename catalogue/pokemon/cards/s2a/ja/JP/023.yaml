@@ -1,0 +1,37 @@
+name: ツンベアー
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 1
+  attacks:
+    - name: きりさく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+    - name: ひょうけつざん
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: このポケモンにも50ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 614
+  species: とうけつポケモン
+  heightMetres: 2.6
+  weightKilograms: 260
+  flavourText: 吐息を 凍らせ つくった キバは 鋼より 硬い。 寒い 海を エサを 探して 泳ぎまわる。
+  evolvesFrom: クマシュン
+rarity: U
+illustrators:
+  - Masakazu Fukuda

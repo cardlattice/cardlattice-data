@@ -1,0 +1,36 @@
+name: アイアント
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: そぎおとす
+      cost:
+        - Colorless
+      text: 相手の手札を、オモテを見ないで4枚になるまで選び、トラッシュする。
+    - name: シザークロス
+      cost:
+        - Metal
+        - Colorless
+      damage: 20+
+      text: コインを1回投げオモテなら、20ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 632
+  species: てつアリポケモン
+  heightMetres: 0.3
+  weightKilograms: 33
+  flavourText: 天敵の クイタランに 対して みんなで 役割分担 しながら 反撃して 巣から 追い払う。
+rarity: C
+illustrators:
+  - Midori Harada

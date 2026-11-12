@@ -1,0 +1,35 @@
+name: アマージョ
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: パワーウィップ
+      cost:
+        - Colorless
+      text: 相手のポケモン1匹に、このポケモンについているエネルギーの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］
+    - name: おあずけキック
+      cost:
+        - Grass
+        - Colorless
+      damage: "100"
+      text: のぞむなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 763
+  species: フルーツポケモン
+  heightMetres: 1.2
+  weightKilograms: 21.4
+  flavourText: すらりと 伸びた 脚と 残忍な 心を もち 恐れられている。 敵を 容赦なく 踏みにじる。
+  evolvesFrom: アママイコ
+rarity: U
+illustrators:
+  - so-taro

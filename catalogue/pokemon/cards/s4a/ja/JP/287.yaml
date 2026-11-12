@@ -1,0 +1,35 @@
+name: ガラルマッギョ
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: ダメージラッシュ
+      cost:
+        - Metal
+        - Colorless
+      damage: 30+
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。
+  abilities:
+    - name: トラバサミ
+      text: このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、トラッシュする。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 2
+  nationalDex:
+    - 618
+  species: トラップポケモン
+  heightMetres: 0.7
+  weightKilograms: 20.5
+  flavourText: 鉄分 たっぷりの 泥の 中で 生息していたため 頑丈な 鋼の 体に 変化した。
+rarity: S
+illustrators:
+  - tetsuya koizumi

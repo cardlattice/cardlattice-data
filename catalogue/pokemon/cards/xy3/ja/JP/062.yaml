@@ -1,0 +1,31 @@
+name: ズルッグ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: どつく
+      cost:
+        - Darkness
+        - Darkness
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 559
+  species: だっぴポケモン
+  heightMetres: 0.6
+  weightKilograms: 11.8
+  flavourText: 皮を 首まで 引き上げて 防御の 姿勢。 ゴムのような 弾力で ダメージを 減らす。
+rarity: C
+illustrators:
+  - Tomokazu Komiya

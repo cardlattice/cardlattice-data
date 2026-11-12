@@ -1,0 +1,28 @@
+name: オムスター
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: ひきもどす
+      cost:
+        - Colorless
+      text: 相手の「進化ポケモン」全員を、それぞれ1進化ぶん退化させる。退化のためにはがした「ポケモンのカード」は、相手プレイヤーの手札にもどす。
+    - name: ハイドロキャノン
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: このワザに必要なエネルギーよりも多く{Water}エネルギーがついているなら、多い{Water}エネルギー×20ダメージを追加する。追加できるダメージは、{Water}エネルギー2個ぶんまで。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: オムナイト
+rarity: ★
+illustrators:
+  - Ken Sugimori

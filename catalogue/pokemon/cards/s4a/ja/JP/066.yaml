@@ -1,0 +1,32 @@
+name: ピクシー
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ムーンキック
+      cost:
+        - Psychic
+        - Colorless
+      damage: "60"
+  abilities:
+    - name: ちゃめっけ
+      text: 自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを1個選び、相手の山札の上にもどす。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 36
+  species: ようせいポケモン
+  heightMetres: 1.3
+  weightKilograms: 40
+  flavourText: 妖精の 仲間で めったに 人前に 出てこない。 気配を 感じて すぐに 逃げてしまうようだ。
+  evolvesFrom: ピッピ
+illustrators:
+  - miki kudo

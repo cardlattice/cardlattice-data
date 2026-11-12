@@ -1,0 +1,34 @@
+name: オドシシ
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: つのでまどわす
+      cost:
+        - Colorless
+      text: コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。
+    - name: ビッグチャージ
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 自分のベンチにM進化ポケモンがいるなら、50ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 234
+  species: おおツノポケモン
+  heightMetres: 1.4
+  weightKilograms: 71.2
+  flavourText: ツノの 曲がり具合が まわりの 空気の 流れを 微妙に 変え 不思議な 空間を 作り出す。
+rarity: C
+illustrators:
+  - sui

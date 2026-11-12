@@ -1,0 +1,33 @@
+name: ヤナップ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: タネばくだん
+      cost:
+        - Grass
+      damage: "10"
+    - name: かみつく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 511
+  species: くさざるポケモン
+  heightMetres: 0.6
+  weightKilograms: 10.5
+  flavourText: 木の実を 探すのが 上手で あちこちで 集めて 仲間に 分け与える 優しさを 持つ。
+rarity: C
+illustrators:
+  - Mina Nakai

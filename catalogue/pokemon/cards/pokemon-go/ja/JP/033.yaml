@@ -1,0 +1,39 @@
+name: ネイティオ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ピンポイントウェーブ
+      cost:
+        - Psychic
+      text: 相手の「ポケモンV」1匹に、90ダメージ。このワザのダメージは弱点・抵抗力を計算しない。
+    - name: サイコトリップ
+      cost:
+        - Psychic
+        - Colorless
+      damage: "50"
+      text: 相手のバトルポケモンをこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  nationalDex:
+    - 178
+  species: せいれいポケモン
+  heightMetres: 1.5
+  weightKilograms: 15
+  flavourText: ほとんど 動かず 鳴きもせず じっとするのは 過去と 未来を 見ているからだと 信じられている。
+  evolvesFrom: ネイティ
+rarity: U
+illustrators:
+  - Hataya
+stamps:
+  - pokemon-go

@@ -1,0 +1,40 @@
+name: ドラピオン
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  attacks:
+    - name: ベノムショック
+      cost:
+        - Darkness
+      damage: 20+
+      text: 相手のバトルポケモンがどくなら、40ダメージを追加。
+    - name: どくのキバ
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: 相手のバトルポケモンをどくにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 452
+  species: ばけさそりポケモン
+  heightMetres: 1.3
+  weightKilograms: 61.5
+  flavourText: 自慢の パワーで 相手を ばらばらに できるのに さらに 猛毒で とどめを 刺すのだ。
+  evolvesFrom: スコルピ
+rarity: U
+illustrators:
+  - Hitoshi Ariga

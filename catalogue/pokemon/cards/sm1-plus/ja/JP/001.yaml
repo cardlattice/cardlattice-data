@@ -1,0 +1,32 @@
+name: モクロー
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: たいあたり
+      cost:
+        - Colorless
+      damage: "10"
+    - name: このは
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 722
+  species: くさばねポケモン
+  heightMetres: 0.3
+  weightKilograms: 1.5
+  flavourText: 警戒心が 強い。 昼は 光合成で 力を 溜めて 夜になったら 活動開始。
+illustrators:
+  - Megumi Mizutani

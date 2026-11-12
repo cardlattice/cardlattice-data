@@ -1,0 +1,28 @@
+name: チョンチー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: プラスイオン
+      cost:
+        - Lightning
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージを追加する。
+    - name: マイナスイオン
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: 次の相手の番、このワザを受けた相手が使うワザによるダメージは、「-10」される。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Mitsuhiro Arita

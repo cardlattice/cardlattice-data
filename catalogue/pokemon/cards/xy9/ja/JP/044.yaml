@@ -1,0 +1,28 @@
+name: クズモー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: かくれる
+      cost:
+        - Psychic
+      text: コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 690
+  species: クサモドキポケモン
+  heightMetres: 0.5
+  weightKilograms: 7.3
+  flavourText: 腐った 海藻に そっくり。 敵の 目を ごまかしながら 進化する 力を 蓄える。
+rarity: C
+illustrators:
+  - Yukiko Baba

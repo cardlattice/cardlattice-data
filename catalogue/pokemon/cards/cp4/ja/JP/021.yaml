@@ -1,0 +1,34 @@
+name: カエンジシ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  attacks:
+    - name: しゃくねつのキバ
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: のぞむなら、このポケモンについている{Fire}エネルギーを1個選び、トラッシュしてよい。その場合、30ダメージを追加。
+  abilities:
+    - name: いかくのたてがみ
+      text: このポケモンは、相手のたねポケモンからワザのダメージを受けない。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 668
+  species: おうじゃポケモン
+  heightMetres: 1.5
+  weightKilograms: 81.5
+  flavourText: 群れの 中で 一番 大きな 炎の たてがみを 持つ オスが リーダーとして 仲間を 率いる。
+  evolvesFrom: シシコ
+illustrators:
+  - 5ban Graphics

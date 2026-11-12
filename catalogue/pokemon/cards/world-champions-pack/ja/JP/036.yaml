@@ -1,0 +1,27 @@
+name: ヤジロン
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: サイケこうせん
+      cost:
+        - Psychic
+      damage: "10"
+      text: コインを1回投げオモテなら、相手をこんらんにする。
+    - name: かいてんアタック
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+rarity: ●
+illustrators:
+  - Mitsuhiro Arita

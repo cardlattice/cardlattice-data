@@ -1,0 +1,34 @@
+name: カイリキー
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fighting
+  stage: Stage 2
+  attacks:
+    - name: カイリキクラッシャー
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "80"
+      text: 次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-40」される。
+  abilities:
+    - name: とうこん
+      text: このポケモンがいるかぎり、自分の{Fighting}ポケモンが使うワザの、相手のバトルポケモンへのダメージは、「+20」される。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 68
+  species: かいりきポケモン
+  heightMetres: 1.6
+  weightKilograms: 130
+  flavourText: 発達した ４本の 腕は ２秒間に １０００発の パンチを 繰り出すことができる。
+  evolvesFrom: ゴーリキー
+illustrators:
+  - PLANETA

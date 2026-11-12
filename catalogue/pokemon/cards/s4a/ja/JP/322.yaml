@@ -1,0 +1,30 @@
+name: オーロンゲVMAX
+pokemon:
+  category: pokemon
+  hp: 330
+  types:
+    - Darkness
+  stage: VMAX
+  attacks:
+    - name: キョダイドリル
+      cost:
+        - Darkness
+        - Darkness
+        - Darkness
+      damage: 170+
+      text: このワザを使うためのエネルギーより、多くついている{Darkness}エネルギーの数×50ダメージ追加。追加できるダメージは{Darkness}エネルギー2個ぶんまで。
+  abilities: []
+  rules:
+    - ポケモンVMAXがきぜつしたとき、相手はサイドを3枚とる。
+  subtypes:
+    - VMAX
+    - Gigantamax
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  evolvesFrom: オーロンゲV
+rarity: SSR
+illustrators:
+  - 5ban Graphics

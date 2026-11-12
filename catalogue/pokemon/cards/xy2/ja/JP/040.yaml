@@ -1,0 +1,34 @@
+name: イシツブテ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: ころがる
+      cost:
+        - Fighting
+      damage: "10"
+    - name: じたばた
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10×
+      text: このポケモンにのっているダメカンの数×10ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 74
+  species: がんせきポケモン
+  heightMetres: 0.4
+  weightKilograms: 20
+  flavourText: 草原や 山に 生息する。 石ころに 似ていて 気がつかず 踏んだり つまずいたりしてしまう。
+rarity: C
+illustrators:
+  - MAHOU

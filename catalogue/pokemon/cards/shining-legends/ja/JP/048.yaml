@@ -1,0 +1,30 @@
+name: ミカルゲ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: のろいのしずく
+      cost:
+        - Darkness
+        - Colorless
+      text: ダメカン3個を、相手のポケモンに好きなようにのせる。
+  abilities:
+    - name: じゅばくのうず
+      text: このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、にげられない。
+      kind: Ability
+  rules: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 442
+  species: ふういんポケモン
+  heightMetres: 1
+  weightKilograms: 108
+  flavourText: １０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。
+rarity: U
+illustrators:
+  - Kouki Saitou

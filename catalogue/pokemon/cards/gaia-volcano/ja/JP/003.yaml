@@ -1,0 +1,29 @@
+name: キモリ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: でんこうせっか
+      cost:
+        - Grass
+      damage: 10+
+      text: コインを1回投げオモテなら、10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 252
+  species: もりトカゲポケモン
+  heightMetres: 0.5
+  weightKilograms: 5
+  flavourText: 足の 裏の 小さな トゲが 壁や 天井に 引っかかるので 逆さまに なっても 落ちないのだ。
+rarity: C
+illustrators:
+  - Akira Komayama

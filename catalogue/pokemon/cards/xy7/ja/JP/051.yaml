@@ -1,0 +1,39 @@
+name: レジスチル
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: アイアンヘッド
+      cost:
+        - Metal
+        - Colorless
+      damage: 30×
+      text: ウラが出るまでコインを投げ、オモテの数×30ダメージ。
+    - name: ふういんのてっつい
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手のバトルポケモンが「ポケモンEX」なら、そのポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 379
+  species: くろがねポケモン
+  heightMetres: 1.9
+  weightKilograms: 205
+  flavourText: どんな 金属よりも 硬いと 言われる 体。 調査の 結果 体の 中は 空洞だった。
+rarity: U
+illustrators:
+  - Kouki Saitou

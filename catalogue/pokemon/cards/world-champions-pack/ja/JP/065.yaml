@@ -1,0 +1,36 @@
+name: ボスゴドラ
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Stage 2
+  attacks:
+    - name: メタルクロー
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+    - name: かきみだす
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: 相手の山札の上からカードを1枚トラッシュする。
+  abilities:
+    - name: やまならし
+      text: このパワーは、自分の番に1回使うことができる。自分の山札の上からカードを5枚見て、好きな順番に入れ替え、その山札の上にもどす。このポケモンが特殊状態なら、このパワーを使うことはできない。
+      kind: Poké-Power
+  rules: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+  retreatCost: 4
+  evolvesFrom: コドラ
+rarity: ★
+illustrators:
+  - Ken Sugimori

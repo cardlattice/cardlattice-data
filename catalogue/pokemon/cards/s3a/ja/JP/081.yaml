@@ -1,0 +1,36 @@
+name: ハガネールV
+pokemon:
+  category: pokemon
+  hp: 250
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: レイジングハンマー
+      cost:
+        - Metal
+        - Colorless
+      damage: 30+
+      text: このポケモンにのっているダメカンの数×10ダメージ追加。
+    - name: アイアンタックル
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "210"
+      text: このポケモンにも30ダメージ。
+  abilities: []
+  rules:
+    - ポケモン【V】がきぜつしたとき、相手はサイドを2枚とる。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 4
+rarity: SR
+illustrators:
+  - Satoshi Shirai

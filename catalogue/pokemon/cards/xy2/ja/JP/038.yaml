@@ -1,0 +1,36 @@
+name: ニャオニクス
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: みみであやつる
+      cost:
+        - Psychic
+      text: 相手の場のポケモンにのっているダメカンを好きなだけ選び、相手の場のポケモンに好きなようにのせ替える。
+    - name: サイコキネシス
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: 60+
+      text: 相手のバトルポケモンについているエネルギーの数×10ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 678
+  species: よくせいポケモン
+  heightMetres: 0.6
+  weightKilograms: 8.5
+  flavourText: 危険が 迫ると 耳を 持ち上げ １０トン トラックを ひねりつぶす サイコパワーを 解放する。
+  evolvesFrom: ニャスパー
+rarity: R
+illustrators:
+  - 5ban Graphics

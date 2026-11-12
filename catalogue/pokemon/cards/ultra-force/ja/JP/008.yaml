@@ -1,0 +1,32 @@
+name: ポッチャマ
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: つつく
+      cost:
+        - Colorless
+      damage: "10"
+    - name: スプラッシュ
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 393
+  species: ペンギンポケモン
+  heightMetres: 0.4
+  weightKilograms: 5.2
+  flavourText: プライドが 高く 人から 食べ物を もらう ことを 嫌う。 長い 産毛が 寒さを 防ぐ。
+illustrators:
+  - Shibuzoh.

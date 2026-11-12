@@ -1,0 +1,37 @@
+name: ドゴーム
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  attacks:
+    - name: はたく
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: エナジープレス
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: 相手のバトルポケモンについているエネルギーの数×30ダメージを追加。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 294
+  species: おおごえポケモン
+  heightMetres: 1
+  weightKilograms: 40.5
+  flavourText: 思い切り 吸いこんだ 空気を 発達した 腹筋を 使って 吐き出すことで 大声を 出す。
+  evolvesFrom: ゴニョニョ
+rarity: C
+illustrators:
+  - MAHOU

@@ -1,0 +1,38 @@
+name: カメックス
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: Stage 2
+  attacks:
+    - name: ハイドロポンプ
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 90+
+      text: このポケモンについている{Water}エネルギーの数×30ダメージ追加。
+  abilities:
+    - name: かつりょくせん
+      text: 自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札からエネルギーを6枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。
+      kind: Ability
+  rules: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 9
+  species: こうらポケモン
+  heightMetres: 1.6
+  weightKilograms: 85.5
+  flavourText: 体が 重たく のしかかって 相手を 気絶させる。 ピンチの ときは 殻に 隠れる。
+  evolvesFrom: カメール
+rarity: R
+illustrators:
+  - NC Empire
+stamps:
+  - pokemon-go

@@ -1,0 +1,28 @@
+name: ニャスパー
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: キラキラ
+      cost:
+        - Psychic
+      text: 相手のバトルポケモンをねむりにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 677
+  species: じせいポケモン
+  heightMetres: 0.3
+  weightKilograms: 3.5
+  flavourText: わたしの いちばん。 とびきり かわいい。 ちいさな おひめさま。
+rarity: C
+illustrators:
+  - Kanako Eo

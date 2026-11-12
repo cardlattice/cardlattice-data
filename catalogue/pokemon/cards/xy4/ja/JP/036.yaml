@@ -1,0 +1,34 @@
+name: ゴクリン
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: どくガス
+      cost:
+        - Psychic
+      text: コインを1回投げオモテなら、相手のバトルポケモンをどくにする。
+    - name: ヘドロばくだん
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 316
+  species: いぶくろポケモン
+  heightMetres: 0.4
+  weightKilograms: 10.3
+  flavourText: 心臓や 脳みそは 小さく 体の 大部分が 胃袋。 なんでも 溶かす 胃液を 出す。
+rarity: C
+illustrators:
+  - Hajime Kusajima

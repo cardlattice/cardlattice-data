@@ -1,0 +1,14 @@
+name: フラッシュエネルギー
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - このカードは{Lightning}ポケモンにしかつけられず、ついているかぎり{Lightning}エネルギー1個ぶんとしてはたらく。
+      このカードをつけている{Lightning}ポケモンの弱点は、すべてなくなる。
+      （このカードが{Lightning}ポケモン以外についているなら、トラッシュする。）
+  types:
+    - Lightning
+rarity: U
+illustrators:
+  - 5ban Graphics

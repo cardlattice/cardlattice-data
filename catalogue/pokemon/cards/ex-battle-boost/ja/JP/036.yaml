@@ -1,0 +1,38 @@
+name: キュレムEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: いてつくつばさ
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: 相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。
+    - name: ヘイルブリザード
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: 次の自分の番、このポケモンは「ヘイルブリザード」を使えない。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+illustrators:
+  - Shizurow
+variants:
+  first-edition:
+    edition: first-edition

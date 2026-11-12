@@ -1,0 +1,10 @@
+name: ハンサム
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 自分の山札を下から3枚引く。
+    - サポートは、自分の番に1枚しか使えない。
+illustrators:
+  - Ken Sugimori

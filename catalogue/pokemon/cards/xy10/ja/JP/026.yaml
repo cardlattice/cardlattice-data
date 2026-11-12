@@ -1,0 +1,37 @@
+name: マタドガス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 1
+  attacks:
+    - name: ふうせんバクダン
+      cost:
+        - Colorless
+        - Colorless
+      text: コインを2回投げ、オモテの数×2枚ぶん、相手の山札を上からトラッシュする。
+    - name: のうこうリキッド
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: おたがいのバトルポケモンを、それぞれどくとこんらんにする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 110
+  species: どくガスポケモン
+  heightMetres: 1.2
+  weightKilograms: 9.5
+  flavourText: ごくまれに 突然変異で 双子の 小さい ドガースが 連結したまま 出ることがある。
+  evolvesFrom: ドガース
+rarity: C
+illustrators:
+  - Shin Nagasawa

@@ -1,0 +1,12 @@
+name: フシギバナソウルリンク
+pokemon:
+  category: trainer
+  subtypes:
+    - Pokémon Tool
+  rules:
+    - ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。
+    - このカードをつけているポケモンが「MフシギバナEX」になっても、自分の番は終わらない。
+    - グッズは、自分の番に何枚でも使える。
+rarity: U
+illustrators:
+  - 5ban Graphics

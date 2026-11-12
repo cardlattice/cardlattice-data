@@ -1,0 +1,29 @@
+name: カブルモ
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: れんぞくずつき
+      cost:
+        - Colorless
+      damage: 20×
+      text: ウラが出るまでコインを投げ、オモテの数×20ダメージ。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 588
+  species: かぶりつきポケモン
+  heightMetres: 0.5
+  weightKilograms: 5.9
+  flavourText: 電気エネルギーに 反応する 不思議な 体質。 チョボマキと ともに いると 進化する。
+rarity: C
+illustrators:
+  - Mizue

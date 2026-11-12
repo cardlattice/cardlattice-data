@@ -1,0 +1,38 @@
+name: ホワイトキュレムEX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: ドラゴンストリーム
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: コインを1回投げオモテなら、自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。
+    - name: コールドフレア
+      cost:
+        - Fire
+        - Fire
+        - Water
+        - Colorless
+      damage: "150"
+      text: このポケモンについている{Fire}エネルギーを2個トラッシュし、相手のバトルポケモンをやけどにする。
+  abilities: []
+  rules:
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 3
+illustrators:
+  - Eske Yoshinob
+variants:
+  first-edition:
+    edition: first-edition

@@ -1,0 +1,30 @@
+name: MフーディンEX
+pokemon:
+  category: pokemon
+  hp: 210
+  types:
+    - Psychic
+  stage: MEGA
+  attacks:
+    - name: ゼンフォース
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: 相手のバトルポケモンにのっているダメカンの数×30ダメージを追加。
+  abilities: []
+  rules:
+    - M進化ポケモンになったとき、自分の番は終わる。
+    - ポケモンEXがきぜつしたとき、相手はサイドを2枚とる。
+  subtypes:
+    - EX
+    - Mega
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  evolvesFrom: フーディンEX
+rarity: RR
+illustrators:
+  - 5ban Graphics

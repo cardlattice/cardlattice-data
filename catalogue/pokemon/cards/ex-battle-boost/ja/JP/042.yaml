@@ -1,0 +1,37 @@
+name: ボルトロス
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: じゅうでん
+      cost:
+        - Colorless
+      text: 自分の山札から{Lightning}エネルギーを1枚選び、このポケモンにつける。そして山札を切る。
+    - name: ディザスターボルト
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "80"
+      text: このポケモンについているエネルギーを1個選び、トラッシュする。
+  abilities: []
+  rules: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 642
+  species: らいげきポケモン
+  heightMetres: 1.5
+  weightKilograms: 61
+  flavourText: しっぽの トゲから 電撃を 撃ち出す。 イッシュ地方の 空を 飛び回り 雷を 落とす。
+illustrators:
+  - Yukiko Baba
+variants:
+  first-edition:
+    edition: first-edition
