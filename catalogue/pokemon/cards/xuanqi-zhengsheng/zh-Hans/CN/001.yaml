@@ -1,0 +1,38 @@
+name: 妙蛙花&藤藤蛇GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 270
+  types:
+    - Grass
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 森林抛掷
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "160"
+    - name: 花蛇添足GX
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: 给对手的所有宝可梦，各造成50点伤害。如果追加附有2个能量的话，则将自己所有宝可梦的HP，全部回复。[备战宝可梦不计算弱点、抗性。][对战中，己方的GX招式只能使用1次。]
+  abilities:
+    - name: 光辉蔓藤
+      kind: Ability
+      text: 在自己的回合，如果这只宝可梦在战斗场上的话，则每次从自己的手牌将{Grass}能量附着于这只宝可梦身上时，可使用1次。选择对手的1只备战宝可梦，将其与战斗宝可梦互换。
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

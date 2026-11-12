@@ -1,0 +1,33 @@
+name: 超级长耳兔&胖丁GX
+rarity: RR
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 240
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 跳跃气球
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: 追加造成对手场上「宝可梦GX・EX」数量×60点伤害。
+    - name: 泡芙粉碎者GX
+      cost:
+        - Colorless
+      text: 使对手的战斗宝可梦陷入睡眠状态。如果追加附有4个能量的话，则给对手的1只备战宝可梦，造成200点伤害。[备战宝可梦不计算弱点、抗性。][对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

@@ -1,0 +1,33 @@
+name: 阿尔宙斯&帝牙卢卡&帕路奇亚GX
+illustrators:
+  - Mitsuhiro Arita
+regulationMark: C
+pokemon:
+  category: pokemon
+  hp: 280
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - GX
+    - TAG TEAM
+  attacks:
+    - name: 终极射线
+      cost:
+        - Water
+        - Metal
+        - Colorless
+      damage: "150"
+      text: 将自己牌库中最多3张基本能量，以任意方式附着于自己的宝可梦身上。并重洗牌库。
+    - name: 起源变更GX
+      cost:
+        - Metal
+      text: 在这场对战结束前，己方的所有宝可梦使用的招式，给对手的战斗宝可梦造成的伤害「+30」。如果追加附有1个{Water}能量的话，则自己的所有宝可梦使用招式的伤害导致对手战斗宝可梦昏厥时，多拿取1张奖赏卡。[对战中，己方的GX招式只能使用1次。]
+  abilities: []
+  weaknesses:
+    - type: Fairy
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  rules:
+    - 当TAG TEAM昏厥时，对手将拿取3张奖赏卡。

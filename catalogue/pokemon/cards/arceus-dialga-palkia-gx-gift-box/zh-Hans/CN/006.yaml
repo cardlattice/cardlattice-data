@@ -1,0 +1,11 @@
+name: 场地吹风机
+illustrators:
+  - Toyste Beach
+regulationMark: A
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - 将场上最多2张「宝可梦道具」或「竞技场」，放于弃牌区。
+    - 在自己的回合可以使用任意张物品卡。

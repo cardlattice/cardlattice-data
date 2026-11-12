@@ -1,0 +1,12 @@
+name: 鸣依
+rarity: R
+illustrators:
+  - Yusuke Ohmura
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 这张卡牌，只有在上一个对手的回合，自己的宝可梦昏厥时才可使用。
+    - 将自己牌库中的宝可梦、训练家、基本能量各1张，在给对手看过之后，加入手牌。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。

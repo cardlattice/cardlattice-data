@@ -1,0 +1,11 @@
+name: 大木博士的安排
+rarity: U
+illustrators:
+  - Megumi Mizutani
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - 将自己牌库中，属性各不同的基础宝可梦最多3张，放于备战区。并重洗牌库。
+    - 在自己的回合只可以使用1张支援者卡。
