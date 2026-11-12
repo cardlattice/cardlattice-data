@@ -155,7 +155,6 @@
             "properties": {
               "stage": false,
               "evolvesFrom": false,
-              "attacks": false,
               "weaknesses": false,
               "resistances": false,
               "retreatCost": false,
@@ -308,6 +307,37 @@
                     "ACE SPEC"
                   ]
                 }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": ["category"],
+            "properties": {
+              "category": {
+                "enum": ["trainer", "energy"]
+              }
+            }
+          },
+          "then": {
+            "if": {
+              "required": ["category", "subtypes"],
+              "properties": {
+                "category": {
+                  "const": "trainer"
+                },
+                "subtypes": {
+                  "type": "array",
+                  "contains": {
+                    "const": "Pokémon Tool"
+                  }
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "attacks": false
               }
             }
           }
