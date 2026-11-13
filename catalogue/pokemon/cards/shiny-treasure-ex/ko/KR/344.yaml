@@ -1,4 +1,5 @@
 name: 저지맨
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

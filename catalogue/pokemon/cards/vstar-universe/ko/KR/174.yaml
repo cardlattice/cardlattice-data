@@ -1,4 +1,5 @@
 name: 귀뚤톡크
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

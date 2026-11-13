@@ -1,4 +1,5 @@
 name: 라프라스 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 320

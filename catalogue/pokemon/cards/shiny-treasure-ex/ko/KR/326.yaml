@@ -1,4 +1,5 @@
 name: 후딘 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 310

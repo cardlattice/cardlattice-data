@@ -1,4 +1,5 @@
 name: 안농
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

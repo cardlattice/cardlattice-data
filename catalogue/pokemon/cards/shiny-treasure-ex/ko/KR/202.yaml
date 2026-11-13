@@ -1,4 +1,5 @@
 name: 나로테
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

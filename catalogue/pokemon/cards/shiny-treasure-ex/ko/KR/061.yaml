@@ -1,4 +1,5 @@
 name: 렌트라
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 150

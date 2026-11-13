@@ -1,4 +1,5 @@
 name: 로스트스위퍼
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

@@ -1,4 +1,5 @@
 name: 밀탱크
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 110

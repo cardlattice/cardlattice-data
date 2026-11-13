@@ -1,4 +1,5 @@
 name: 랜드로스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

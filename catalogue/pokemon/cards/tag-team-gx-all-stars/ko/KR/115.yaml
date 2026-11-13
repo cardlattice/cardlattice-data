@@ -1,4 +1,5 @@
 name: 다부니
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 90

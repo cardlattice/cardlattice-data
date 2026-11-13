@@ -1,4 +1,5 @@
 name: 랄토스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

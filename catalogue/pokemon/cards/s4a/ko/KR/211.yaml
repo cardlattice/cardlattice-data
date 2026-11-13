@@ -1,4 +1,5 @@
 name: 과사삭벌레
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 40

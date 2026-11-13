@@ -1,4 +1,5 @@
 name: 일렉트릭파워
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

@@ -1,4 +1,5 @@
 name: 이브이
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

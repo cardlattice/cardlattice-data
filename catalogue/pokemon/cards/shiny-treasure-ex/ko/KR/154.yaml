@@ -1,4 +1,5 @@
 name: 시비꼬 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 160

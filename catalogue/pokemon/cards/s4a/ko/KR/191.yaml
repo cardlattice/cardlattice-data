@@ -1,4 +1,5 @@
 name: 두송
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

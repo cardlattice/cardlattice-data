@@ -1,4 +1,5 @@
 name: 월로
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

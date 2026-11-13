@@ -1,4 +1,5 @@
 name: 사다이사
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

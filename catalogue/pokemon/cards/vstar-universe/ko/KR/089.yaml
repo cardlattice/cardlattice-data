@@ -1,4 +1,5 @@
 name: 레파르다스
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 100

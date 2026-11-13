@@ -1,4 +1,5 @@
 name: 구르데
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 50

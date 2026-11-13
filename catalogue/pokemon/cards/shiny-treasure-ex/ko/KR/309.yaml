@@ -1,4 +1,5 @@
 name: 메타몽
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

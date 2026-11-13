@@ -1,4 +1,5 @@
 name: 프레셔스볼
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

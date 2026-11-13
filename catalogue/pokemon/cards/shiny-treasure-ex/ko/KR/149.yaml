@@ -1,4 +1,5 @@
 name: 요씽리스
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 120

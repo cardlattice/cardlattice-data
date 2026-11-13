@@ -1,4 +1,5 @@
 name: 맛보돈
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

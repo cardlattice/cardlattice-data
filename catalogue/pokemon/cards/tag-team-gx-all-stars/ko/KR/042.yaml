@@ -1,4 +1,5 @@
 name: 쥬피썬더
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 100

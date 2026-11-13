@@ -1,4 +1,5 @@
 name: 신비록 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 220

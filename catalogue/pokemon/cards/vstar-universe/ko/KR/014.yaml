@@ -1,4 +1,5 @@
 name: 리자몽 VSTAR
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 280

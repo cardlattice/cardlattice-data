@@ -1,4 +1,5 @@
 name: 파치리스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

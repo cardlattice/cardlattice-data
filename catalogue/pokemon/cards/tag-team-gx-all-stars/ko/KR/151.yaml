@@ -1,4 +1,5 @@
 name: 비주기의 추방
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

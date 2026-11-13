@@ -1,4 +1,5 @@
 name: 자크로
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

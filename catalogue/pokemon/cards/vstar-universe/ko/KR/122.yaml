@@ -1,4 +1,5 @@
 name: 비버통
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

@@ -1,4 +1,5 @@
 name: 칠색조
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

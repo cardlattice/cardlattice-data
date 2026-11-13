@@ -1,4 +1,5 @@
 name: 카르본
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

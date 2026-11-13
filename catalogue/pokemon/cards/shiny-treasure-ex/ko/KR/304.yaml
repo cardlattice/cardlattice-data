@@ -1,4 +1,5 @@
 name: 구구
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 50

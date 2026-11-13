@@ -1,4 +1,5 @@
 name: 뮤 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 180

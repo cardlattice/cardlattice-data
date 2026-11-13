@@ -1,4 +1,5 @@
 name: 달무리나
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 90

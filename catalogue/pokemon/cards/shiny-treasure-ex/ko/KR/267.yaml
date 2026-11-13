@@ -1,4 +1,5 @@
 name: 바우첼
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

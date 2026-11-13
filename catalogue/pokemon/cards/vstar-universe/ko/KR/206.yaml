@@ -1,4 +1,5 @@
 name: 모부기
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

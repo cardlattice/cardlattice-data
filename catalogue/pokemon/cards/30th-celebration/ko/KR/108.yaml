@@ -1,4 +1,5 @@
 name: 썬더
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

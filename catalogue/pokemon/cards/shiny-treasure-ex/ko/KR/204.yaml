@@ -1,4 +1,5 @@
 name: 올리뇨
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

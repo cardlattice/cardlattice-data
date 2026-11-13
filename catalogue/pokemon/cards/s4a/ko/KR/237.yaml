@@ -1,4 +1,5 @@
 name: 로토무
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

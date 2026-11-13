@@ -1,4 +1,5 @@
 name: 모스노우
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

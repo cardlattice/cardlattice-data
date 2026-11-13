@@ -1,4 +1,5 @@
 name: 칼라마네로
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 90

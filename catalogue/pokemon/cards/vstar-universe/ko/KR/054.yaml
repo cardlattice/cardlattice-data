@@ -1,4 +1,5 @@
 name: 뮤 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 310

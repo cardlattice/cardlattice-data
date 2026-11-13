@@ -1,4 +1,5 @@
 name: 바오키 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 210

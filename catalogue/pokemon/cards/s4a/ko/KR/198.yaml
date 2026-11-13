@@ -1,4 +1,5 @@
 name: 포켓몬놀이
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

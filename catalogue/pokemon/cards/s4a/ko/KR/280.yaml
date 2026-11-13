@@ -1,4 +1,5 @@
 name: 훔처우
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

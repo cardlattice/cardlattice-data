@@ -1,4 +1,5 @@
 name: 메탈코어 배리어
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

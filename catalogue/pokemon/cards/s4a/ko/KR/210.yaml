@@ -1,4 +1,5 @@
 name: 백솜모카
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

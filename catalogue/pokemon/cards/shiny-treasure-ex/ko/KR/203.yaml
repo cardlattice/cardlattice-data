@@ -1,4 +1,5 @@
 name: 미니브
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

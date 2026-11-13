@@ -1,4 +1,5 @@
 name: 싸리용
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

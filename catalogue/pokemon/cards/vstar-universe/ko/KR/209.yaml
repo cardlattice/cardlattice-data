@@ -1,4 +1,5 @@
 name: 메리프
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

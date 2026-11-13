@@ -1,4 +1,5 @@
 name: 스태솔트
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

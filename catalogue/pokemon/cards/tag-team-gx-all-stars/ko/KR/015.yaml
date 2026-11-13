@@ -1,4 +1,5 @@
 name: 종이신도
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

@@ -1,4 +1,5 @@
 name: 빼미스로우
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

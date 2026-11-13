@@ -1,4 +1,5 @@
 name: 드라꼰
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

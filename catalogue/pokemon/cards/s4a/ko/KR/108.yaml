@@ -1,4 +1,5 @@
 name: 크로뱃 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 180

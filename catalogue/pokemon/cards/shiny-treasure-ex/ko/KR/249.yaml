@@ -1,4 +1,5 @@
 name: 빠르모트
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

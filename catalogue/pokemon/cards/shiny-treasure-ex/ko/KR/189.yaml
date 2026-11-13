@@ -1,4 +1,5 @@
 name: 리버설 에너지
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: energy
   subtypes:

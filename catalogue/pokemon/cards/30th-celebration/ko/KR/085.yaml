@@ -1,4 +1,5 @@
 name: 자시안
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

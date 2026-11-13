@@ -1,4 +1,5 @@
 name: 때때무노
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

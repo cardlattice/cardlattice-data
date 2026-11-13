@@ -1,4 +1,5 @@
 name: 멜탄
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 70

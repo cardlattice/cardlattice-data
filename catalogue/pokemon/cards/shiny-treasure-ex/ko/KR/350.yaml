@@ -1,4 +1,5 @@
 name: 네르케
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

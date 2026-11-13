@@ -1,4 +1,5 @@
 name: 식스테일
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

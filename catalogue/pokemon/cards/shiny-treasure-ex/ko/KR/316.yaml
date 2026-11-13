@@ -1,4 +1,5 @@
 name: 퍼퓨돈
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

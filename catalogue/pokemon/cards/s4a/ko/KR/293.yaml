@@ -1,4 +1,5 @@
 name: 치라치노
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

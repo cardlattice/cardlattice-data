@@ -1,4 +1,5 @@
 name: 탄동
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

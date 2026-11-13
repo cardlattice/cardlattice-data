@@ -1,4 +1,5 @@
 name: 탐리스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

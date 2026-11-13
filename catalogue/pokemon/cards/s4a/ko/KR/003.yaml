@@ -1,4 +1,5 @@
 name: 모크나이퍼
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

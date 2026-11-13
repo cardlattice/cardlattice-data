@@ -1,4 +1,5 @@
 name: 부스터
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 110

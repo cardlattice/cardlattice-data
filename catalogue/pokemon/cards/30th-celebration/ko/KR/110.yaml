@@ -1,4 +1,5 @@
 name: 모르페코
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

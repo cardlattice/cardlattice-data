@@ -1,4 +1,5 @@
 name: 축복마을
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

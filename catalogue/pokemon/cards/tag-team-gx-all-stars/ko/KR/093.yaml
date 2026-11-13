@@ -1,4 +1,5 @@
 name: 멜메탈
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 150

@@ -1,4 +1,5 @@
 name: 블루의 탐색
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

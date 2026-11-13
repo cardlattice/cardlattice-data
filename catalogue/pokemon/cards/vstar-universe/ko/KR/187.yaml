@@ -1,4 +1,5 @@
 name: 큐아링
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

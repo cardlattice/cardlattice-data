@@ -1,4 +1,5 @@
 name: 음뱃
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

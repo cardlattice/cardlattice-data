@@ -1,4 +1,5 @@
 name: 기본 악 에너지
+finishes: [reverse-holo]
 pokemon:
   category: energy
   subtypes:

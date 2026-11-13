@@ -1,4 +1,5 @@
 name: 둥실라이드
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 110

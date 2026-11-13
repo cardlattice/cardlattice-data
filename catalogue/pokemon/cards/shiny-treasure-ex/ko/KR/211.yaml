@@ -1,4 +1,5 @@
 name: 리자드
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

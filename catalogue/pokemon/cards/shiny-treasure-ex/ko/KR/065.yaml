@@ -1,4 +1,5 @@
 name: 스트린더
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

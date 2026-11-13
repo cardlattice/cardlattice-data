@@ -1,4 +1,5 @@
 name: 빛나는 세레비
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 50

@@ -1,4 +1,5 @@
 name: 마그마번
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

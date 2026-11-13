@@ -1,4 +1,5 @@
 name: 네오라이트 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 170

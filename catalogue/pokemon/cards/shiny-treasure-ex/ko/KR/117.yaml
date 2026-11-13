@@ -1,4 +1,5 @@
 name: 팔데아 토오 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 280

@@ -1,4 +1,5 @@
 name: 이벨타르
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

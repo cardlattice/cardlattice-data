@@ -1,4 +1,5 @@
 name: 오라티프
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

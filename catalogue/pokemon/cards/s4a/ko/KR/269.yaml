@@ -1,4 +1,5 @@
 name: 모래뱀
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

@@ -1,4 +1,5 @@
 name: 팔데아의 학생
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

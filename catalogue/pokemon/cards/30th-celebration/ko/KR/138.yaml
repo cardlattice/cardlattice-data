@@ -1,4 +1,5 @@
 name: 이슬
+finishes: [holo]
 pokemon:
   category: trainer
   rules:

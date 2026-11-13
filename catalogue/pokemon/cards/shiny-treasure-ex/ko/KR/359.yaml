@@ -1,4 +1,5 @@
 name: 딩루 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 240

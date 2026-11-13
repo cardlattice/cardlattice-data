@@ -1,4 +1,5 @@
 name: 일목
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

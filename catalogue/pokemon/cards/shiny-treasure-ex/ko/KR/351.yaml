@@ -1,4 +1,5 @@
 name: 네모
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

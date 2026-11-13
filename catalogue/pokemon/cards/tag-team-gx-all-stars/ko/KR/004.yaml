@@ -1,4 +1,5 @@
 name: 통통코
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 40

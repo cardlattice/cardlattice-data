@@ -1,4 +1,5 @@
 name: 포켓몬 교체
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

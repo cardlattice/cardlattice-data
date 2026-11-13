@@ -1,4 +1,5 @@
 name: 부르롱
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

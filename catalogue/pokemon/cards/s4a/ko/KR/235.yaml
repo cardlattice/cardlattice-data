@@ -1,4 +1,5 @@
 name: 어래곤
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 150

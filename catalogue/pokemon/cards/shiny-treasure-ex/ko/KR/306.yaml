@@ -1,4 +1,5 @@
 name: 푸린
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

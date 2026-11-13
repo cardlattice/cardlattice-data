@@ -1,4 +1,5 @@
 name: 하느라기
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 30

@@ -1,4 +1,5 @@
 name: 밀로틱
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

@@ -1,4 +1,5 @@
 name: 에이스번
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 170

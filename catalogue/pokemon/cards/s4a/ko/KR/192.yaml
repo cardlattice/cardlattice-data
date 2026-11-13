@@ -1,4 +1,5 @@
 name: 로즈
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

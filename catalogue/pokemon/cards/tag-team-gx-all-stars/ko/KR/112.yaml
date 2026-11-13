@@ -1,4 +1,5 @@
 name: 폴리곤Z
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

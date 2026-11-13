@@ -1,4 +1,5 @@
 name: 포트데스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

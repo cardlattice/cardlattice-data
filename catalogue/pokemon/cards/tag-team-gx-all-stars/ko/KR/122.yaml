@@ -1,4 +1,5 @@
 name: 리셋 스탬프
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

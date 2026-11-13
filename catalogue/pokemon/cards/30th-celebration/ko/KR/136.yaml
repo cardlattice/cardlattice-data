@@ -1,4 +1,5 @@
 name: 피카츄
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 40

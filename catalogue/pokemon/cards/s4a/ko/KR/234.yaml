@@ -1,4 +1,5 @@
 name: 빙큐보
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

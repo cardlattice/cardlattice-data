@@ -1,4 +1,5 @@
 name: 마리
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

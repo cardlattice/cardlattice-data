@@ -1,4 +1,5 @@
 name: 대도각참
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 170

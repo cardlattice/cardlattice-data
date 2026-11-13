@@ -1,4 +1,5 @@
 name: 울머기
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

@@ -1,4 +1,5 @@
 name: 쏘겨모
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

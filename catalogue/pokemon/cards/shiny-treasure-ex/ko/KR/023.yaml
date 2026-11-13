@@ -1,4 +1,5 @@
 name: 클레스퍼트라 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 260

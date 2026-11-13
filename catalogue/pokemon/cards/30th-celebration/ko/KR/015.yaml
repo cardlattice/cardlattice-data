@@ -1,4 +1,5 @@
 name: 개굴닌자 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 300

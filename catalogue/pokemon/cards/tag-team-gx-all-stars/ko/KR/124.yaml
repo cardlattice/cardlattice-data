@@ -1,4 +1,5 @@
 name: 모험가방
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

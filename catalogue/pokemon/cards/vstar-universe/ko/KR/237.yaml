@@ -1,4 +1,5 @@
 name: 멜론
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

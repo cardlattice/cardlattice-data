@@ -1,4 +1,5 @@
 name: 무너진 스타디움
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

@@ -1,4 +1,5 @@
 name: 또가스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

@@ -1,4 +1,5 @@
 name: 포켓기어3.0
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

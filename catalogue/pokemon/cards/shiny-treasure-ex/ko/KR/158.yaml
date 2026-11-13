@@ -1,4 +1,5 @@
 name: 네스트볼
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

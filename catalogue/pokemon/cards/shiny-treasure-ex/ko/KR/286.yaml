@@ -1,4 +1,5 @@
 name: 초롱순
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 40

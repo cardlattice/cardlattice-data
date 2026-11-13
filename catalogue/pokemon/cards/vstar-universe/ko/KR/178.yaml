@@ -1,4 +1,5 @@
 name: 마나피
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

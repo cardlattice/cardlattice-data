@@ -1,4 +1,5 @@
 name: 잠만보
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 150

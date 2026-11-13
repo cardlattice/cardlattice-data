@@ -1,4 +1,5 @@
 name: 약어리
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 30

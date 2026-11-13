@@ -1,4 +1,5 @@
 name: 두루지벌레
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 50

@@ -1,4 +1,5 @@
 name: 제라오라 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 320

@@ -1,4 +1,5 @@
 name: 자망칼
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

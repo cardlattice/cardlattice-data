@@ -1,4 +1,5 @@
 name: 더트자전거
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

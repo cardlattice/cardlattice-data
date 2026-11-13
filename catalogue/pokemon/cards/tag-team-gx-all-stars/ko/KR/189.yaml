@@ -1,4 +1,5 @@
 name: 관광객
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:
