@@ -3,6 +3,8 @@
 Trading-card facts maintained through small GitHub contributions.
 [The application](https://github.com/cardlattice/cardlattice) compiles these files
 in CI, then indexes the resulting JSON catalogue for public API reads.
+See the [catalogue dashboard](https://status.cardlattice.com)
+for current coverage.
 
 **To correct a card, edit its YAML file and open a pull request.** No database
 knowledge, generated identifiers, citations or source-evidence files are required.
@@ -24,7 +26,7 @@ catalogue/
             002.yaml
 ```
 
-`pokemon/cards/mega-evolution/en/US/001.yaml` currently contains:
+A minimal card file, such as `pokemon/cards/mega-evolution/en/US/001.yaml`:
 
 ```yaml
 name: "Bulbasaur"
@@ -50,8 +52,7 @@ merge keys fail validation. Data files cannot execute code.
 ## Validation and CI
 
 [Catalogue workflow](.github/workflows/catalogue.yml) ·
-[Actions runs](https://github.com/cardlattice/cardlattice-data/actions) ·
-[Initial PR and checks](https://github.com/cardlattice/cardlattice-data/pull/1)
+[Actions runs](https://github.com/cardlattice/cardlattice-data/actions)
 
 The workflow runs on pull requests and main pushes. A dedicated **Validate Pokémon
 YAML schema** job checks only added/modified card and set YAML files in a PR against
@@ -85,60 +86,7 @@ counts. The origin verifies and indexes it without rebuilding the catalogue.
 A scheduled main-branch job publishes at most one immutable release per UTC day.
 PR artifacts are previews. Deployment and optional R2 mirroring are operator setup.
 
-## Catalogue
-
-Exact record counts are recorded in each compiled `dist/manifest.json`.
-The notes below describe reviewed portions of this partial catalogue; they do not
-establish complete coverage of a language.
-All 158 existing
-numbered 30th Celebration cards now include rarity, confirmed holo finish, printed
-rules and applicable Pokémon stats, attacks, abilities, weaknesses, resistances
-and retreat costs. Shared anniversary stamp, regulation mark and denominator are
-top-level set fields.
-
-Scarlet & Violet—151 includes all 207 numbered entries (001–207), with names,
-rarities, categories, applicable printed stats, evolution stages, attacks and
-costs, abilities, weaknesses, resistances, retreat costs and rules. These were
-transcribed from the publisher's card images; normal, holo and reverse-holo
-availability was checked against its checklist and printed player guide.
-All cards inherit the printed denominator of 165. Cards 001–206 have regulation
-mark G; Basic Psychic Energy 207 has no printed regulation mark. The Psychic
-symbol in its name is written as text. Unnumbered Basic Energy cards, product promos,
-metal cards and stamped/other product variants are not covered by this count.
-The 151 Booster Bundle is linked to the set as product context, without asserting
-that a particular card is guaranteed in a bundle. Other English sets remain name-only.
-
-The Dutch catalogue includes all numbered entries in Base Set (102), Jungle (64)
-and Fossil (62), independently transcribed from scans. These records contain
-printed names, categories, rarity where printed, holo/non-holo finish and
-applicable Pokémon HP, types and evolution stages. Their 189 Pokémon records now
-contain 317 printed attacks and 32 Pokémon Powers, including Dutch names, effect
-text and ordered attack costs. Both Ditto printings have no printed attacks and
-an explicit empty attack list. All 32 Trainer records include their Dutch rules.
-Basic Energy cards retain the printed name `Energie`; their types distinguish
-them. Weaknesses, resistances, retreat costs and illustrator credits remain
-largely unfilled. Raticate's printed `?` damage is not yet supported by the
-numeric damage field; its Dutch attack text retains the damage calculation.
-
-Printed names and rules follow the Dutch cards, including wording differences
-between holo and non-holo printings. Names such as Alakazam and moves such as
-Tackle remain unchanged where that is what the Dutch card prints. Schema keys
-and enum values (`Psychic`, `Stage 2`, `Rare`, `Pokémon Power`) are shared across
-languages, not translations of printed labels. Energy symbols inside rules text
-are expanded to those same enum names; a written Dutch type name stays Dutch.
-
-Two Dutch Pikachu promo 4 printings are also included, with their distinct attack
-translations: the Netherlands release and the tail-stamped Australian Pikachu
-World Collection 2000 release. Both belong to Wizards Black Star Promos; the
-World Collection is a linked product, not a separate numbered set. The promo
-files include their printed attacks and illustrator. Unverified release dates
-are omitted. First Edition, Unlimited, error and other variants have not been
-fully inventoried, so these counts do not establish complete Dutch coverage.
-
-This is still a partial catalogue. The separate 30th Celebration Classic
-Collection, Basic Energy section and product promos are not included. Illustrator
-credits, Pokédex numbers, flavour text and detailed foil patterns remain largely
-unfilled. No artwork, pricing data or third-party catalogue dumps are included.
+## Licensing and attribution
 
 The folder organisation takes inspiration from
 [TCGdex's series/set/card files](https://github.com/tcgdex/cards-database/tree/master/data).
@@ -148,7 +96,7 @@ Original factual metadata: [CC0-1.0](LICENSE-DATA).
 Build scripts and configuration: [MIT](LICENSE).
 These licences do not cover publisher artwork or trademarks.
 
-## Catalogue status on GitHub Pages
+## Build and publish the dashboard
 
 The status dashboard is generated from the same validated, compiled snapshot as
 bulk downloads. It makes no requests to the API or third-party catalogues.
@@ -163,12 +111,16 @@ aggregated measurements and source revision. HTML is pre-rendered; filtering,
 pagination and theme selection are progressive enhancements. No artwork is
 published by this dashboard.
 
-CI builds the dashboard for every PR. Successful `main` builds deploy `site/`
-using GitHub Pages Actions; PRs cannot deploy. Configure Settings → Pages →
-Source as **GitHub Actions**. The expected project URL is
-<https://cardlattice.github.io/cardlattice-data/>. Daily scheduled builds also
-refresh the page. A failed build leaves the previous deployment intact; the
-visible commit link identifies exactly which source revision is displayed.
+CI builds the dashboard for every data PR. Successful main builds deploy to
+Cloudflare Pages using the `cardlattice-status` project. PRs cannot deploy.
+Configure the repository variable `CLOUDFLARE_ACCOUNT_ID` and secret
+`CLOUDFLARE_API_TOKEN` (Cloudflare Pages Edit), and attach
+`status.cardlattice.com` to that project. GitHub Pages is no longer deployed.
+
+The same deployment serves the verified manifest and immutable snapshot under
+`/data/`, with public CORS headers for the browser app at `cardlattice.com`.
+The manifest revalidates; checksum-named JSON may be cached indefinitely. The
+Rust API at `api.cardlattice.com` is coming soon. The snapshot contains no artwork.
 
 Counts are printing records grouped by set, language and region, after compiler
 inheritance. Finish coverage includes a nonempty `finishes` array or a named

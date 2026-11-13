@@ -11,17 +11,25 @@ permissions:
 jobs:
   schema:
     name: Validate Pokémon YAML schema
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    outputs:
+      build-needed: ${{ steps.changes.outputs.needed }}
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24.22.2'
       - run: npm install --global pnpm@12.18.0
       - run: pnpm install --frozen-lockfile
+      - name: Detect catalogue changes
+        id: changes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: node scripts/catalogue-build-needed.ts "$BASE_SHA"
       - name: Check validator formatting, lint, types and tests
         run: pnpm check:tools
       - name: Validate only changed PR data
@@ -36,11 +44,12 @@ jobs:
   build:
     name: Validate data and build catalogue
     needs: schema
-    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || needs.schema.outputs.build-needed == 'true'
+    runs-on: ubuntu-24.04
     outputs:
       source: ${{ steps.source.outputs.commit }}
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - name: Read pinned compiler and source revision
@@ -51,17 +60,26 @@ jobs:
           [[ "$ref" =~ ^[0-9a-f]{40}$ ]]
           printf 'builder=%s\n' "$ref" >> "$GITHUB_OUTPUT"
           printf 'commit=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: cardlattice/cardlattice
           ref: ${{ steps.source.outputs.builder }}
           path: .builder
           persist-credentials: false
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24.22.2'
       - name: Install Rust
         run: rustup update stable && rustup default stable
+      - name: Cache Rust compiler and dependencies
+        uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2
+        with:
+          workspaces: .builder -> target
+          key: ${{ steps.source.outputs.builder }}
+          cache-workspace-crates: 'true'
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Compile catalogue tool
+        run: cargo build --locked --manifest-path .builder/Cargo.toml -p cardlattice-api --bin cardlattice-api
       - name: Full data validation and compiler regressions on main
         if: github.event_name != 'pull_request'
         run: ./scripts/check.sh
@@ -75,37 +93,51 @@ jobs:
           sha256sum dist/catalogue-*.json
       - name: Build catalogue status page
         run: node scripts/build-status.ts
-      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
+          name: status-site
           path: site/
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+          if-no-files-found: error
+          retention-days: 7
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: catalogue-${{ steps.source.outputs.commit }}
           path: dist/
           if-no-files-found: error
           retention-days: 30
   pages:
+    name: Deploy Cloudflare Pages status
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
+    runs-on: ubuntu-24.04
     concurrency:
-      group: github-pages
+      group: cloudflare-status-production
       cancel-in-progress: false
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: production
+      url: https://status.cardlattice.com
     steps:
-      - name: Deploy catalogue status
-        id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.22.2'
+      - run: npm install --global pnpm@12.18.0
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: status-site
+          path: site/
+      - name: Publish status and catalogue snapshot
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: pnpm exec wrangler pages deploy site --project-name cardlattice-status --branch main
   release:
     if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
       actions: read

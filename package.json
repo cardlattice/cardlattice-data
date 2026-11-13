@@ -23,7 +23,8 @@
     "oxfmt": "0.75.0",
     "oxlint": "1.90.0",
     "typescript": "^5.9.0",
-    "vitest": "^4.0.0"
+    "vitest": "^4.0.0",
+    "wrangler": "4.161.0"
   },
   "engines": {
     "node": ">=24"
