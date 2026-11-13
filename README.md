@@ -3,7 +3,7 @@
 Trading-card facts maintained through small GitHub contributions.
 [The application](https://github.com/cardlattice/cardlattice) compiles these files
 in CI, then indexes the resulting JSON catalogue for public API reads.
-See the [catalogue dashboard](https://cardlattice.github.io/cardlattice-data/)
+See the [catalogue dashboard](https://status.cardlattice.com)
 for current coverage.
 
 **To correct a card, edit its YAML file and open a pull request.** No database
@@ -111,12 +111,16 @@ aggregated measurements and source revision. HTML is pre-rendered; filtering,
 pagination and theme selection are progressive enhancements. No artwork is
 published by this dashboard.
 
-CI builds the dashboard for every PR. Successful `main` builds deploy `site/`
-using GitHub Pages Actions; PRs cannot deploy. Configure Settings → Pages →
-Source as **GitHub Actions**. The expected project URL is
-<https://cardlattice.github.io/cardlattice-data/>. Daily scheduled builds also
-refresh the page. A failed build leaves the previous deployment intact; the
-visible commit link identifies exactly which source revision is displayed.
+CI builds the dashboard for every data PR. Successful main builds deploy to
+Cloudflare Pages using the `cardlattice-status` project. PRs cannot deploy.
+Configure the repository variable `CLOUDFLARE_ACCOUNT_ID` and secret
+`CLOUDFLARE_API_TOKEN` (Cloudflare Pages Edit), and attach
+`status.cardlattice.com` to that project. GitHub Pages is no longer deployed.
+
+The same deployment serves the verified manifest and immutable snapshot under
+`/data/`, with public CORS headers for the browser app at `cardlattice.com`.
+The manifest revalidates; checksum-named JSON may be cached indefinitely. The
+Rust API at `api.cardlattice.com` is coming soon. The snapshot contains no artwork.
 
 Counts are printing records grouped by set, language and region, after compiler
 inheritance. Finish coverage includes a nonempty `finishes` array or a named
