@@ -1,4 +1,5 @@
 name: 메타몽 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 170

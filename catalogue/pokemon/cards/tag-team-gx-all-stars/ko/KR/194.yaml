@@ -1,4 +1,5 @@
 name: 보미카
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

@@ -1,4 +1,5 @@
 name: 절각참
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

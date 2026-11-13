@@ -1,4 +1,5 @@
 name: 이상한사탕
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

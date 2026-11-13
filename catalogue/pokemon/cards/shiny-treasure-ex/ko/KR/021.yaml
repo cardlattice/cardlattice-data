@@ -1,4 +1,5 @@
 name: 스코빌런
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 110

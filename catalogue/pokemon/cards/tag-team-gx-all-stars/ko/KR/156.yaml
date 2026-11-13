@@ -1,4 +1,5 @@
 name: 전진
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

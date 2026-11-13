@@ -1,4 +1,5 @@
 name: 단단지
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

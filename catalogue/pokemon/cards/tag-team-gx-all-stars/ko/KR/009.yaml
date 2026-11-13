@@ -1,4 +1,5 @@
 name: 나무돌이
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 80

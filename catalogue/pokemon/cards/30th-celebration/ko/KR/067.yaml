@@ -1,4 +1,5 @@
 name: 모으령
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

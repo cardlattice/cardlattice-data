@@ -1,4 +1,5 @@
 name: 정상으로 가는 눈길
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

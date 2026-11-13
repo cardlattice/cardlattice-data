@@ -1,4 +1,5 @@
 name: 가이오가
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

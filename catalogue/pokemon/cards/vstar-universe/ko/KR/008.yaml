@@ -1,4 +1,5 @@
 name: 토대부기
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 190

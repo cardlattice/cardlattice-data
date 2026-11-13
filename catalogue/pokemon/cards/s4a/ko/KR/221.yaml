@@ -1,4 +1,5 @@
 name: 스이쿤
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

@@ -1,4 +1,5 @@
 name: 바닥트리오
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

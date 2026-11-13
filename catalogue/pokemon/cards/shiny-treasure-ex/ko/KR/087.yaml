@@ -1,4 +1,5 @@
 name: 클레피
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

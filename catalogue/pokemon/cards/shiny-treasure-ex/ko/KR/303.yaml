@@ -1,4 +1,5 @@
 name: 모토마
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

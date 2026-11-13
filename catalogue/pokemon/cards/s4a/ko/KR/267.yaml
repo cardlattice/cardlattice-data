@@ -1,4 +1,5 @@
 name: 탄차곤
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

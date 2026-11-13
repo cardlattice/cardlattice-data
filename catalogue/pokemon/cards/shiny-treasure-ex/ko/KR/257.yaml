@@ -1,4 +1,5 @@
 name: 네이티오
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

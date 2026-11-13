@@ -1,4 +1,5 @@
 name: 냄새꼬
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

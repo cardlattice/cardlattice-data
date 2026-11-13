@@ -1,4 +1,5 @@
 name: 폭슬라이
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

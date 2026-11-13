@@ -1,4 +1,5 @@
 name: 두코
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 70

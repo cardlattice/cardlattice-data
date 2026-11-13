@@ -1,4 +1,5 @@
 name: 라이츄
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

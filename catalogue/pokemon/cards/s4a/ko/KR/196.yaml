@@ -1,4 +1,5 @@
 name: 새 조련사
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

@@ -1,4 +1,5 @@
 name: 금랑
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

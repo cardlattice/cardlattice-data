@@ -1,4 +1,5 @@
 name: 포켓패드
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

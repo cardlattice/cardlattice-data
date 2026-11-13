@@ -1,4 +1,5 @@
 name: 그린의 전략
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

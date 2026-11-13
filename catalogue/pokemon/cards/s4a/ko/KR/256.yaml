@@ -1,4 +1,5 @@
 name: 마빌크
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 50

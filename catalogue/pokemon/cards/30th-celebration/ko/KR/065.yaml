@@ -1,4 +1,5 @@
 name: 코스모움
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

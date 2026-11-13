@@ -1,4 +1,5 @@
 name: 찬란한 전지충이
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

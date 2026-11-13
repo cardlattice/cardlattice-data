@@ -1,4 +1,5 @@
 name: 뮤츠 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 230

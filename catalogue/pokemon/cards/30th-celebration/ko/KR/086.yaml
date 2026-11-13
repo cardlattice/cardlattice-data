@@ -1,4 +1,5 @@
 name: 자마젠타
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

@@ -1,4 +1,5 @@
 name: 리오르
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

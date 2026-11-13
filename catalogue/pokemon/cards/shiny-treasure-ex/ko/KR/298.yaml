@@ -1,4 +1,5 @@
 name: 태깅구르
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

@@ -1,4 +1,5 @@
 name: 모야모
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

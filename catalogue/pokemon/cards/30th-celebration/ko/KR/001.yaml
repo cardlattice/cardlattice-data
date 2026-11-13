@@ -1,4 +1,5 @@
 name: 아라리
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

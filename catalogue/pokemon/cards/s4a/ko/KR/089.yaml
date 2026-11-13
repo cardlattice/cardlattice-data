@@ -1,4 +1,5 @@
 name: 드래펄트 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 320

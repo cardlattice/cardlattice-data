@@ -1,4 +1,5 @@
 name: 제크로무
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

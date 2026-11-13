@@ -1,4 +1,5 @@
 name: 크로뱃 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 300

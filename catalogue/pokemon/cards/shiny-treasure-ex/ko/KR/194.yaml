@@ -1,4 +1,5 @@
 name: 스라크
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

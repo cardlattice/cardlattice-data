@@ -1,4 +1,5 @@
 name: 체육관 트레이너
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

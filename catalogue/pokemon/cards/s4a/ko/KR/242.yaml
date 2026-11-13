@@ -1,4 +1,5 @@
 name: 찌르성게
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

@@ -1,4 +1,5 @@
 name: 코일
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

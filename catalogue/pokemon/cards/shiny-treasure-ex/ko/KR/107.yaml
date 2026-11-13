@@ -1,4 +1,5 @@
 name: 베베솔트
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 70

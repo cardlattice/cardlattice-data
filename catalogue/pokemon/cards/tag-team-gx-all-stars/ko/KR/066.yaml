@@ -1,4 +1,5 @@
 name: 아고용
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

@@ -1,4 +1,5 @@
 name: 묘두기
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

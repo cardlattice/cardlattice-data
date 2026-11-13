@@ -1,4 +1,5 @@
 name: 리자몽 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 330

@@ -1,4 +1,5 @@
 name: 별가사리
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

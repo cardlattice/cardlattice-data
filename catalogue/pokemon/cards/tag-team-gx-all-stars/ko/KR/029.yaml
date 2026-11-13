@@ -1,4 +1,5 @@
 name: 꼬부기
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

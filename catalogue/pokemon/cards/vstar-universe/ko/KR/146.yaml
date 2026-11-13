@@ -1,4 +1,5 @@
 name: 잎새숨기 판초
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

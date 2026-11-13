@@ -1,4 +1,5 @@
 name: 라우드본 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 340

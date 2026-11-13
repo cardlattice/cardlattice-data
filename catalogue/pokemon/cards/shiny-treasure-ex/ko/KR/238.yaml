@@ -1,4 +1,5 @@
 name: 찌리리공
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

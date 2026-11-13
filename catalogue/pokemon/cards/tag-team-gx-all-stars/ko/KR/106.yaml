@@ -1,4 +1,5 @@
 name: 페르시온
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 100

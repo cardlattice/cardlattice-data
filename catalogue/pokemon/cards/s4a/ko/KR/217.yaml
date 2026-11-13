@@ -1,4 +1,5 @@
 name: 태우지네
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 70

@@ -1,4 +1,5 @@
 name: 배우르
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

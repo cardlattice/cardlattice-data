@@ -1,4 +1,5 @@
 name: 몸지브림
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

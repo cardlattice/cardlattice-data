@@ -1,4 +1,5 @@
 name: 어리짱
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

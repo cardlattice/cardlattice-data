@@ -1,4 +1,5 @@
 name: 샹델라
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

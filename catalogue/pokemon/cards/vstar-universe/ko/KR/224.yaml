@@ -1,4 +1,5 @@
 name: 브리무음 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 320

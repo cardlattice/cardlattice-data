@@ -1,4 +1,5 @@
 name: 돌핀맨
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 150

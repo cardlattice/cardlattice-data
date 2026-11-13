@@ -1,4 +1,5 @@
 name: 웨이니발 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 320

@@ -1,4 +1,5 @@
 name: 펄기아
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

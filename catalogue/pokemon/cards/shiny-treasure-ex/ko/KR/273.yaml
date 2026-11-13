@@ -1,4 +1,5 @@
 name: 두드리짱
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

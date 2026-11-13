@@ -1,4 +1,5 @@
 name: 카디나르마
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

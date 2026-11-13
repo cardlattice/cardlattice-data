@@ -1,4 +1,5 @@
 name: 테사
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

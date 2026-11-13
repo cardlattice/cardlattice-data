@@ -1,4 +1,5 @@
 name: 하푸우
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

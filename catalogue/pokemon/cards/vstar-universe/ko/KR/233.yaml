@@ -1,4 +1,5 @@
 name: 레지기가스 VSTAR
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 300

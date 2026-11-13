@@ -1,4 +1,5 @@
 name: 입치트 GX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 170

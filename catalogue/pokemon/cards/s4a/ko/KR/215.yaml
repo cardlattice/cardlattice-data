@@ -1,4 +1,5 @@
 name: 래비풋
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

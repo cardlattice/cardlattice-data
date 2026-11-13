@@ -1,4 +1,5 @@
 name: 콜로솔트
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 180

@@ -1,4 +1,5 @@
 name: 럭시오
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 90

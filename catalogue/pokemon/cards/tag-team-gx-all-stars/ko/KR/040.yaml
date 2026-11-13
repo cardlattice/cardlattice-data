@@ -1,4 +1,5 @@
 name: 카푸느지느
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 120

@@ -1,4 +1,5 @@
 name: 두리쥐
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 30

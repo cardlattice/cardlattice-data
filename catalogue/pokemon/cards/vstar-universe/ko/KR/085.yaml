@@ -1,4 +1,5 @@
 name: 드래피온 V
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 210

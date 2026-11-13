@@ -1,4 +1,5 @@
 name: 미라이돈
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

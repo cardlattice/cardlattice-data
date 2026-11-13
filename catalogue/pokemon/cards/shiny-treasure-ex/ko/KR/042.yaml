@@ -1,4 +1,5 @@
 name: 아꾸왁
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 90

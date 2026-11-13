@@ -1,4 +1,5 @@
 name: 콕코구리
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

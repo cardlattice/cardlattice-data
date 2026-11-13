@@ -1,4 +1,5 @@
 name: 마휘핑
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 110

@@ -1,4 +1,5 @@
 name: 갈가부기
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

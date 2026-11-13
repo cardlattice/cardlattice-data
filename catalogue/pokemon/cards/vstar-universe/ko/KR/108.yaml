@@ -1,4 +1,5 @@
 name: 레쿠쟈 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 320

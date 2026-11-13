@@ -1,4 +1,5 @@
 name: 미라주게이트
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

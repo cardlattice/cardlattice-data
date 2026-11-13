@@ -1,4 +1,5 @@
 name: 찌로꼬치
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

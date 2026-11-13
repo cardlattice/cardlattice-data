@@ -1,4 +1,5 @@
 name: 성원숭
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 90

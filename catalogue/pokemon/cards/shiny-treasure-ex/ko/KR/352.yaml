@@ -1,4 +1,5 @@
 name: 모란
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

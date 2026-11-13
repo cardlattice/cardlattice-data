@@ -1,4 +1,5 @@
 name: 픽시
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 110

@@ -1,4 +1,5 @@
 name: 나오하
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

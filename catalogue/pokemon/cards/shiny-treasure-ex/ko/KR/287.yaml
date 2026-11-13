@@ -1,4 +1,5 @@
 name: 팔데아 우파
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 60

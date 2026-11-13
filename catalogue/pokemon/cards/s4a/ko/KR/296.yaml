@@ -1,4 +1,5 @@
 name: 파르빗
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 40

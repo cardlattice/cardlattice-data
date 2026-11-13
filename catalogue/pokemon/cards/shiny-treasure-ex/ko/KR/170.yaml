@@ -1,4 +1,5 @@
 name: 타이트밴드
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

@@ -1,4 +1,5 @@
 name: 카운터 게인
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

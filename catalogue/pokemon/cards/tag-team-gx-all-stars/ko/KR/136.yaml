@@ -1,4 +1,5 @@
 name: 포켓몬통신
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

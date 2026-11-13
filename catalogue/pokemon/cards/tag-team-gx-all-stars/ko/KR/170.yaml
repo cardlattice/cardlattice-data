@@ -1,4 +1,5 @@
 name: 리사이클 에너지
+finishes: [reverse-holo]
 pokemon:
   category: energy
   subtypes:

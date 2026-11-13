@@ -1,4 +1,5 @@
 name: 앱솔
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

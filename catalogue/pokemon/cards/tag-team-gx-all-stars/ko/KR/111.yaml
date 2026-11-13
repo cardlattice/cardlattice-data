@@ -1,4 +1,5 @@
 name: 폴리곤2
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 80

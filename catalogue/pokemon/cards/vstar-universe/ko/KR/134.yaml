@@ -1,4 +1,5 @@
 name: 다크패치
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

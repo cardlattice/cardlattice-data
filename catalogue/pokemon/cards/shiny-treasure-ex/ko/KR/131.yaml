@@ -1,4 +1,5 @@
 name: 부르르룸
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 140

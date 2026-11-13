@@ -1,4 +1,5 @@
 name: 데인차
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 30

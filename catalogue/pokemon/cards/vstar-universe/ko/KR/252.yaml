@@ -1,4 +1,5 @@
 name: 기본 불꽃 에너지
+finishes: [holo]
 pokemon:
   category: energy
   subtypes:

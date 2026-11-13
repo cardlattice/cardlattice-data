@@ -1,4 +1,5 @@
 name: 조로아크
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

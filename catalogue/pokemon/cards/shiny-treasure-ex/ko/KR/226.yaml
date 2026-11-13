@@ -1,4 +1,5 @@
 name: 바다그다
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 50

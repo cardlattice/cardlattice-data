@@ -1,4 +1,5 @@
 name: 냐스퍼
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 60

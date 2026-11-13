@@ -1,4 +1,5 @@
 name: 하랑우탄
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

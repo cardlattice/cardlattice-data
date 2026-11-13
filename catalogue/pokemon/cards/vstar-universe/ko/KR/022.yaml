@@ -1,4 +1,5 @@
 name: 춤추새
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: pokemon
   hp: 90

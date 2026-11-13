@@ -1,4 +1,5 @@
 name: 상록숲
+finishes: [reverse-holo]
 pokemon:
   category: trainer
   subtypes:

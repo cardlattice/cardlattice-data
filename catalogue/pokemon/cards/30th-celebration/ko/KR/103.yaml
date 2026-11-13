@@ -1,4 +1,5 @@
 name: 하이퍼볼
+finishes: [holo]
 pokemon:
   category: trainer
   subtypes:

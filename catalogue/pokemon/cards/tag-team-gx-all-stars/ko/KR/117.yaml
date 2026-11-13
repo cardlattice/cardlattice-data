@@ -1,4 +1,5 @@
 name: 크라파
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 80

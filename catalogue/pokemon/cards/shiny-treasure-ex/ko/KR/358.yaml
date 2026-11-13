@@ -1,4 +1,5 @@
 name: 미라이돈 ex
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 220

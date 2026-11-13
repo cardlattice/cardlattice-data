@@ -1,4 +1,5 @@
 name: 케오퍼스
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

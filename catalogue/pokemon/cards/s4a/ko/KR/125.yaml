@@ -1,4 +1,5 @@
 name: 무한다이노 VMAX
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 340

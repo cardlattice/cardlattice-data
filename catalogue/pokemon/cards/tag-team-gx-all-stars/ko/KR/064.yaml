@@ -1,4 +1,5 @@
 name: 마샤도
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 80

@@ -1,4 +1,5 @@
 name: 마그마의 용소
+finishes: [non-holo, reverse-holo]
 pokemon:
   category: trainer
   subtypes:

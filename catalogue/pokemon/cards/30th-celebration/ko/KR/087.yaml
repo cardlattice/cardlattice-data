@@ -1,4 +1,5 @@
 name: 타부자고
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 130

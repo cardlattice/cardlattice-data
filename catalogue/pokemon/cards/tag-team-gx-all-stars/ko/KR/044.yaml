@@ -1,4 +1,5 @@
 name: 라이코
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 120

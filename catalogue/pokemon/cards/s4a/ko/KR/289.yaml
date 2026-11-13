@@ -1,4 +1,5 @@
 name: 끼리동
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 100

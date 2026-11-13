@@ -1,4 +1,5 @@
 name: 올리르바
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 150

@@ -1,4 +1,5 @@
 name: 제브라이카
+finishes: [reverse-holo]
 pokemon:
   category: pokemon
   hp: 110

@@ -1,4 +1,5 @@
 name: 파밀리쥐
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 80

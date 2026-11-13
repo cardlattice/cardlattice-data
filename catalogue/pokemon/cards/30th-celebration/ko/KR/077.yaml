@@ -1,4 +1,5 @@
 name: 블래키
+finishes: [holo]
 pokemon:
   category: pokemon
   hp: 110
