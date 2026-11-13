@@ -8,7 +8,7 @@ permissions:
 jobs:
   title:
     name: Conventional PR title
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       # No PR code is checked out or executed with the base repository token.
       - name: Validate the current PR title
@@ -31,7 +31,7 @@ jobs:
           JS
   commits:
     name: Conventional commit messages
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Validate every commit in the PR
         env:
