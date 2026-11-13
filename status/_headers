@@ -1,0 +1,9 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+/data/*
+  Access-Control-Allow-Origin: *
+/data/manifest.json
+  Cache-Control: no-cache, must-revalidate
+/data/catalogue-*.json
+  Cache-Control: public, max-age=31536000, immutable

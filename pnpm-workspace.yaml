@@ -1,0 +1,7 @@
+minimumReleaseAgeExclude:
+  - miniflare@5.20261110.2-beta
+  - wrangler@4.161.0
+
+allowBuilds:
+  esbuild: true
+  workerd: true
