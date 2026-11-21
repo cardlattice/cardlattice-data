@@ -1,0 +1,31 @@
+name: Deerling
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Wild Kick
+      cost:
+        - Grass
+        - Grass
+      damage: "40"
+      text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1

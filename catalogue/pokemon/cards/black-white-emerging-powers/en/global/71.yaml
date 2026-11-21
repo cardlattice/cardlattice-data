@@ -1,0 +1,26 @@
+name: Ferroseed
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Pierce
+      cost:
+        - Metal
+        - Metal
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

@@ -1,0 +1,29 @@
+name: Watchog
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Patrat
+  attacks:
+    - name: Watcheck
+      cost:
+        - Colorless
+      text: Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.
+    - name: Quick Tail Smash
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20+"
+      text: Before doing damage, you may flip a coin. If heads, this attack does 60 more damage. If tails, this attack does nothing.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

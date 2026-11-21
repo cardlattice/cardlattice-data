@@ -1,0 +1,24 @@
+name: Sawk
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Five Fierce Chops
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20×"
+      text: Flip 5 coins. This attack does 20 damage times the number of heads. This Pokémon can't attack during your next turn.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

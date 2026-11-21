@@ -1,0 +1,31 @@
+name: Whirlipede
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Venipede
+  attacks:
+    - name: Venoshock
+      cost:
+        - Psychic
+      damage: "10+"
+      text: If the Defending Pokémon is Poisoned, this attack does 60 more damage.
+    - name: Steamroller
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: This attack's damage isn't affected by Resistance.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 3

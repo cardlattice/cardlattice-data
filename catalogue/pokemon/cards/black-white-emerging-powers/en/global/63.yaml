@@ -1,0 +1,30 @@
+name: Terrakion
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Boulder Crush
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+    - name: Sacred Sword
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "100"
+      text: This Pokémon can't use Sacred Sword during your next turn.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4

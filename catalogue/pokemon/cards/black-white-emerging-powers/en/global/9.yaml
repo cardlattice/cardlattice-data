@@ -1,0 +1,26 @@
+name: Cottonee
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Absorb
+      cost:
+        - Grass
+      damage: "10"
+      text: Heal 10 damage from this Pokémon.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1

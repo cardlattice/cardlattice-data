@@ -1,0 +1,29 @@
+name: Gothorita
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Gothita
+  attacks:
+    - name: Deleting Glare
+      cost:
+        - Psychic
+      text: Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.
+    - name: Super Psy Bolt
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

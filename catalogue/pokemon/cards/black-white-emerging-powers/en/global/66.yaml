@@ -1,0 +1,31 @@
+name: Zorua
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Ram
+      cost:
+        - Darkness
+      damage: "10"
+    - name: Rising Lunge
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20+"
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1

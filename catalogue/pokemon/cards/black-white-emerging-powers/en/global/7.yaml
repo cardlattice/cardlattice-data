@@ -1,0 +1,29 @@
+name: Leavanny
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Swadloon
+  attacks:
+    - name: Nurturing
+      cost:
+        - Colorless
+      text: Choose 1 of your Pokémon. Search your deck for a card that evolves from that Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.
+    - name: X-Scissor
+      cost:
+        - Grass
+        - Colorless
+      damage: "30+"
+      text: Flip a coin. If heads, this attack does 50 more damage.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

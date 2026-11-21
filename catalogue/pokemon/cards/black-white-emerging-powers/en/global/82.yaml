@@ -1,0 +1,33 @@
+name: Unfezant
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Tranquill
+  attacks:
+    - name: Tailwind
+      cost:
+        - Colorless
+      text: Attach an Energy card from your hand to 1 of your Pokémon.
+    - name: Feather Strike
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40+"
+      text: Flip a coin. If heads, this attack does 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0

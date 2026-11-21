@@ -1,0 +1,30 @@
+name: Leavanny
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Swadloon
+  attacks:
+    - name: Slash
+      cost:
+        - Colorless
+      damage: "30"
+    - name: Triple Cutter
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "60×"
+      text: Flip 3 coins. This attack does 60 damage times the number of heads.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

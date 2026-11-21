@@ -1,0 +1,23 @@
+name: Cubchoo
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Icicle Punch
+      cost:
+        - Water
+        - Water
+      damage: "30"
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2

@@ -1,0 +1,33 @@
+name: Liepard
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Purrloin
+  attacks:
+    - name: Feint Attack
+      cost:
+        - Darkness
+      text: Does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness, Resistance, or any other effects on that Pokémon.
+    - name: Claw Rend
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "50+"
+      text: If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1

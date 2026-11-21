@@ -1,0 +1,32 @@
+name: Klink
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Spinning Attack
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Gear Grind
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "30×"
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1

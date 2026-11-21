@@ -1,0 +1,30 @@
+name: Gothitelle
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Gothorita
+  abilities:
+    - name: Magic Room
+      kind: Ability
+      text: As long as this Pokémon is your Active Pokémon, your opponent can't play any Item cards from his or her hand.
+  attacks:
+    - name: Madkinesis
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30+"
+      text: Does 20 more damage for each {Psychic} Energy attached to this Pokémon.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2

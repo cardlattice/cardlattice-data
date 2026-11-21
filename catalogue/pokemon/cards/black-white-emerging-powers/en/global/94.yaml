@@ -1,0 +1,14 @@
+name: Max Potion
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to that Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).

@@ -1,0 +1,27 @@
+name: Sewaddle
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Gnaw
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Razor Leaf
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

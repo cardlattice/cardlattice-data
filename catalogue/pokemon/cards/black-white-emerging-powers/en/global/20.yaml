@@ -1,0 +1,28 @@
+name: Darumaka
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Combustion
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2

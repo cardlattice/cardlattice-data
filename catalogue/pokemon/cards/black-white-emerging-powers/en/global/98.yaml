@@ -1,0 +1,31 @@
+name: Tornadus
+rarity: Ultra Rare
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Energy Wheel
+      cost:
+        - Colorless
+      text: Move an Energy from 1 of your Benched Pokémon to this Pokémon.
+    - name: Hurricane
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1

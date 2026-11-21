@@ -1,0 +1,26 @@
+name: Sewaddle
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: String Shot
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

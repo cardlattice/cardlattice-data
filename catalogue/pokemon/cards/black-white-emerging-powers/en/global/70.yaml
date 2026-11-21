@@ -1,0 +1,27 @@
+name: Ferroseed
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Pin Missile
+      cost:
+        - Metal
+        - Colorless
+      damage: "10×"
+      text: Flip 4 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

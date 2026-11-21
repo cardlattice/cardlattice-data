@@ -1,0 +1,27 @@
+name: Venipede
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Poison Sting
+      cost:
+        - Psychic
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2

@@ -1,0 +1,28 @@
+name: Thundurus
+rarity: Ultra Rare
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Charge
+      cost:
+        - Colorless
+      text: Search your deck for a {Lightning} Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+    - name: Disaster Volt
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "80"
+      text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

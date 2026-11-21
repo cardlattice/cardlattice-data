@@ -1,0 +1,30 @@
+name: Petilil
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Sumiyoshi Kizuki
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Stun Spore
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Cut
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1

@@ -1,0 +1,23 @@
+name: Minccino
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Last Resort
+      cost:
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

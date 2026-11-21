@@ -1,0 +1,23 @@
+name: Sandile
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Bite
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2

@@ -1,0 +1,33 @@
+name: Zoroark
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Zorua
+  attacks:
+    - name: Fury Swipes
+      cost:
+        - Darkness
+      damage: "20×"
+      text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    - name: Night Daze
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

@@ -1,0 +1,34 @@
+name: Ferrothorn
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Ferroseed
+  attacks:
+    - name: Steel Feelers
+      cost:
+        - Metal
+      damage: "30×"
+      text: Flip 3 coins. This attack does 30 damage times the number of heads.
+    - name: Gyro Ball
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

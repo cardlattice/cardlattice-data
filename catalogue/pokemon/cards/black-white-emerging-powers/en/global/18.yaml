@@ -1,0 +1,27 @@
+name: Pansear
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Collect
+      cost:
+        - Colorless
+      text: Draw a card.
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1

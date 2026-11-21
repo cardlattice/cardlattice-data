@@ -1,0 +1,27 @@
+name: Basculin
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Splatter
+      cost:
+        - Water
+        - Colorless
+      text: Does 30 damage to one of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1

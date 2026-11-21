@@ -1,0 +1,35 @@
+name: Excadrill
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Drilbur
+  attacks:
+    - name: Dig
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+    - name: Earthquake
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 2

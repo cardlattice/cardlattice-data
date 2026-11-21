@@ -1,0 +1,27 @@
+name: Purrloin
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Knock Off
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, discard a random card from your opponent's hand.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
