@@ -82,6 +82,9 @@
     },
     "size": {
       "$ref": "pokemon-common.schema.json#/$defs/cardSize"
+    },
+    "printingErrors": {
+      "$ref": "pokemon-common.schema.json#/$defs/printing_printingErrors"
     }
   },
   "required": []
