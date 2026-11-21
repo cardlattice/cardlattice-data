@@ -34,11 +34,18 @@ variants:
   non-winner:
     finish: non-holo
     stamps: []
+    size: standard
   winner:
-    # Standard and jumbo Winner copies share this finish/stamp combination.
-    # The schema cannot distinguish their physical size or card stock.
     finish: non-holo
     stamps:
       - winner
     products:
       - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: jumbo

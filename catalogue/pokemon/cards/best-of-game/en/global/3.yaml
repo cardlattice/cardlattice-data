@@ -11,3 +11,5 @@ variants:
   non-winner:
     finish: reverse-holo
     stamps: []
+    size: standard
+    foilPattern: cosmos

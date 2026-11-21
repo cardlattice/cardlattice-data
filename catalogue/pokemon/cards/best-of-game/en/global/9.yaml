@@ -38,9 +38,12 @@ variants:
       - winner
     products:
       - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+    foilPattern: cosmos
   jumbo-winner:
     finish: non-holo
     stamps:
       - winner
     products:
       - pokemon-product-best-of-game-battlezone-prize-kit
+    size: jumbo
