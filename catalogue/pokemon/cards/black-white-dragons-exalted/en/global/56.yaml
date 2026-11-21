@@ -1,2 +1,38 @@
 name: Gothorita
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Gothita
+  attacks:
+    - name: Hypnoblast
+      cost:
+        - Psychic
+      damage: "10"
+      text: The Defending Pokémon is now Asleep.
+    - name: Mind Shock
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: This attack's damage isn't affected by Weakness or Resistance.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 575
+  species: Manipulate Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 18.007617089
+  resistances: []
+  flavourText: Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.
+illustrators:
+  - Mizue
+finishes:
+  - non-holo
+  - reverse-holo

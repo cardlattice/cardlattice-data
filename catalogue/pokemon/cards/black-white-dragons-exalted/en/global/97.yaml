@@ -1,2 +1,38 @@
 name: Hydreigon
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: Zweilous
+  abilities:
+    - name: Dark Trance
+      kind: Ability
+      text: As often as you like during your turn (before your attack), you may move a {Darkness} Energy attached to 1 of your Pokémon to another of your Pokémon.
+  attacks:
+    - name: Dragonblast
+      cost:
+        - Psychic
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "140"
+      text: Discard 2 {Darkness} Energy attached to this Pokémon.
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 635
+  species: Brutal Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 159.982028899
+  resistances: []
+  flavourText: This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+  - reverse-holo

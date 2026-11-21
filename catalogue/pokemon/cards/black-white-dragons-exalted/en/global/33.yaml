@@ -1,2 +1,35 @@
 name: Floatzel
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Buizel
+  attacks:
+    - name: Wave Splash
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Waterfall
+      cost:
+        - Water
+        - Water
+      damage: "60"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 419
+  species: Sea Weasel Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 33.520476143
+  resistances: []
+  flavourText: It is a common sight around fishing ports. It is known to rescue people and carry off prey.
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo

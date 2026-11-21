@@ -1,2 +1,37 @@
 name: Flaaffy
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Mareep
+  attacks:
+    - name: Cotton Guard
+      cost:
+        - Colorless
+      damage: "20"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    - name: Power Gem
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 180
+  species: Wool Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 13.290256441
+  resistances: []
+  flavourText: If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo

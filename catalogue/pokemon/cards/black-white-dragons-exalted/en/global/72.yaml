@@ -1,2 +1,36 @@
 name: Murkrow
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Peck
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Wing Attack
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 198
+  species: Darkness Pokémon
+  heightMetres: 0.508
+  weightKilograms: 2.086524902
+  flavourText: If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo
+  - reverse-holo

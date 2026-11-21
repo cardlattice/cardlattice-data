@@ -1,2 +1,38 @@
 name: Nincada
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Dig
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 290
+  species: Trainee Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.488467677
+  resistances: []
+  flavourText: It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.
+illustrators:
+  - MAHOU
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  pokemon-league:
+    stamps:
+      - pokemon-league

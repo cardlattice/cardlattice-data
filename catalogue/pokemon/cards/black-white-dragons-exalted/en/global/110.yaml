@@ -1,2 +1,36 @@
 name: Bouffalant
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  abilities:
+    - name: Bouffer
+      kind: Ability
+      text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  attacks:
+    - name: Gold Breaker
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: If the Defending Pokémon is a Pokémon-EX, this attack does 60 more damage.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 626
+  species: Bash Buffalo Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 94.619368382
+  resistances: []
+  flavourText: They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.
+illustrators:
+  - Akira Komayama
+finishes:
+  - non-holo
+  - reverse-holo

@@ -1,2 +1,36 @@
 name: Golett
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Nap
+      cost:
+        - Colorless
+        - Colorless
+      text: Heal 40 damage from this Pokémon.
+    - name: Pound
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 622
+  species: Automaton Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 91.988532636
+  resistances: []
+  flavourText: The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo
+  - reverse-holo

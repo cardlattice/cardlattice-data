@@ -1,2 +1,36 @@
 name: Drifblim
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Drifloon
+  attacks:
+    - name: Shadow Steal
+      cost:
+        - Colorless
+      damage: 50×
+      text: Does 50 damage times the number of Special Energy cards in your opponent's discard pile.
+    - name: Plentiful Placement
+      cost:
+        - Psychic
+        - Colorless
+      text: Put 4 damage counters on 1 of your opponent's Pokémon.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 426
+  species: Blimp Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 15.013907447
+  resistances: []
+  flavourText: At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.
+illustrators:
+  - Kanako Eo
+finishes:
+  - non-holo
+  - reverse-holo

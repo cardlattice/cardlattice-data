@@ -31,3 +31,12 @@ pokemon:
         - Colorless
       damage: 40×
       text: Does 40 damage times the number of Prize cards you have taken.
+  nationalDex:
+    - 553
+  species: Intimidation Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 96.297660151
+  flavourText: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+rarity: Shiny Rare
+finishes:
+  - holo

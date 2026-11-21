@@ -1,2 +1,40 @@
 name: Throh
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Squeeze
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.
+    - name: Superpower
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 538
+  species: Judo Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 55.519706088
+  resistances: []
+  flavourText: When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo
+  - reverse-holo

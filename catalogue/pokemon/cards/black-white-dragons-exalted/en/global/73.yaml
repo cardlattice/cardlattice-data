@@ -1,2 +1,41 @@
 name: Honchkrow
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Murkrow
+  attacks:
+    - name: Whirlwind
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.
+    - name: Diving Swipe
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: Discard a random card from your opponent's hand.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 430
+  species: Big Boss Pokémon
+  heightMetres: 0.889
+  weightKilograms: 27.306260674
+  flavourText: If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo

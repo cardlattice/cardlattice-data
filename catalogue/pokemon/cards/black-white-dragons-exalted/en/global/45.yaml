@@ -1,2 +1,43 @@
 name: Emolga
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Call for Family
+      cost:
+        - Colorless
+      text: Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+    - name: Static Shock
+      cost:
+        - Lightning
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 587
+  species: Sky Squirrel Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.98951607
+  flavourText: They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
+illustrators:
+  - Kanako Eo
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  pokemon-league:
+    stamps:
+      - pokemon-league

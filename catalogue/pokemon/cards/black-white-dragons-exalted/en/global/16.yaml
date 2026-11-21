@@ -1,2 +1,40 @@
 name: Maractus
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Stun Needle
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Reinforced Needle
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 556
+  species: Cactus Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 27.986649229
+  flavourText: Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.
+illustrators:
+  - sui
+finishes:
+  - non-holo
+  - reverse-holo

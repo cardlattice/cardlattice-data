@@ -1,2 +1,41 @@
 name: Probopass
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Nosepass
+  attacks:
+    - name: Magnetic Lines
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: You may move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.
+    - name: Heavy Nose
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 476
+  species: Compass Pokémon
+  heightMetres: 1.397
+  weightKilograms: 340.012840552
+  flavourText: It freely controls three small units called Mini-Noses using magnetic force.
+illustrators:
+  - match
+finishes:
+  - non-holo
+  - reverse-holo

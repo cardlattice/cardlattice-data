@@ -1,2 +1,37 @@
 name: Milotic
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Feebas
+  attacks:
+    - name: Clear Search
+      cost:
+        - Water
+      text: Search your deck for any 3 cards and put them into your hand. Shuffle your deck afterward.
+    - name: Water Pulse
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon is now Asleep.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 350
+  species: Tender Pokémon
+  heightMetres: 6.1976
+  weightKilograms: 161.977835327
+  resistances: []
+  flavourText: Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.
+illustrators:
+  - Mizue
+finishes:
+  - holo
+  - reverse-holo

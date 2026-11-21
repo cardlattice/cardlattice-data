@@ -1,2 +1,35 @@
 name: Minccino
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Pound
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Reckless Charge
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: This Pokémon does 10 damage to itself.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 572
+  species: Chinchilla Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.805982336
+  resistances: []
+  flavourText: They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

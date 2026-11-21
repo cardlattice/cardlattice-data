@@ -1,2 +1,35 @@
 name: Terrakion-EX
-rarity: Ultra Rare
+rarity: ★ (silver)
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - EX
+  attacks:
+    - name: Rock Tumble
+      cost:
+        - Fighting
+        - Colorless
+      damage: "50"
+      text: This attack's damage isn't affected by Resistance.
+    - name: Pump-up Smash
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "90"
+      text: Attach 2 basic Energy cards from your hand to your Benched Pokémon in any way you like.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  rules:
+    - When Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  resistances: []
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo

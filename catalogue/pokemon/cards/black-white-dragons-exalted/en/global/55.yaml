@@ -1,2 +1,29 @@
 name: Gothita
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Future Sight
+      cost:
+        - Psychic
+      text: Look at the top 5 cards of your deck and put them back on top of your deck in any order.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 574
+  species: Fixation Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.805982336
+  resistances: []
+  flavourText: They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.
+illustrators:
+  - Aya Kusube
+finishes:
+  - non-holo
+  - reverse-holo

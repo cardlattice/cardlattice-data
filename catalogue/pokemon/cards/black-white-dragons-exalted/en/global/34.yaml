@@ -1,2 +1,30 @@
 name: Tympole
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Bubble
+      cost:
+        - Water
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 535
+  species: Tadpole Pokémon
+  heightMetres: 0.508
+  weightKilograms: 4.490564463
+  resistances: []
+  flavourText: By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo
+  - reverse-holo

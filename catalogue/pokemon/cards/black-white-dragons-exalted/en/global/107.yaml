@@ -1,2 +1,41 @@
 name: Bibarel
 rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Bidoof
+  attacks:
+    - name: Amnesia
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    - name: Tumbling Tackle
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Both this Pokémon and the Defending Pokémon are now Asleep.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 400
+  species: Beaver Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 31.479310478
+  resistances: []
+  flavourText: A river dammed by Bibarel will never overflow its banks, which is appreciated by people nearby.
+illustrators:
+  - kawayoo
+finishes:
+  - non-holo
+  - reverse-holo

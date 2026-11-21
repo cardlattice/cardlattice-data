@@ -1,2 +1,35 @@
 name: Mareep
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Cotton Guard
+      cost:
+        - Colorless
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    - name: Thunder Jolt
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 179
+  species: Wool Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 7.801788764
+  resistances: []
+  flavourText: Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.
+illustrators:
+  - sui
+finishes:
+  - non-holo
+  - reverse-holo

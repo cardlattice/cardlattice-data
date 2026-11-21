@@ -1,2 +1,39 @@
 name: Aggron
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 2
+  evolvesFrom: Lairon
+  abilities:
+    - name: Toppling Wind
+      kind: Ability
+      text: When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard the top 3 cards of your opponent's deck.
+  attacks:
+    - name: Giga Horn
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "90"
+      text: Flip 2 coins. If both of them are tails, this attack does nothing.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  nationalDex:
+    - 306
+  species: Iron Armor Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 360.016264069
+  flavourText: While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - holo
+  - reverse-holo

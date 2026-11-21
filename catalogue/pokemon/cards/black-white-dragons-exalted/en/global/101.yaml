@@ -1,2 +1,30 @@
 name: Slakoth
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Smack 'n' Slack
+      cost:
+        - Colorless
+      damage: "10"
+      text: This Pokémon is now Asleep.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 287
+  species: Slacker Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 23.995036373
+  resistances: []
+  flavourText: It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.
+illustrators:
+  - Kanako Eo
+finishes:
+  - non-holo
+  - reverse-holo

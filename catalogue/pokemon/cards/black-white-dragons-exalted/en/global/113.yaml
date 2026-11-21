@@ -1,2 +1,14 @@
 name: Devolution Spray
 rarity: Uncommon
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Devolve 1 of your evolved Pokémon and put the highest stage Evolution card on it into your hand. (That Pokémon can't evolve this turn.)
+    - You may play as many Item cards as you like during your turn (before your attack).
+illustrators:
+  - Ryo Ueda
+finishes:
+  - non-holo
+  - reverse-holo

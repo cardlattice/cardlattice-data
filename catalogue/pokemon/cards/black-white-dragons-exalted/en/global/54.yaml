@@ -1,2 +1,36 @@
 name: Garbodor
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Trubbish
+  abilities:
+    - name: Garbotoxin
+      kind: Ability
+      text: If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).
+  attacks:
+    - name: Sludge Toss
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 569
+  species: Trash Heap Pokémon
+  heightMetres: 1.905
+  weightKilograms: 107.319954742
+  resistances: []
+  flavourText: It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.
+illustrators:
+  - kawayoo
+finishes:
+  - holo
+  - reverse-holo

@@ -1,2 +1,29 @@
 name: Buizel
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Wave Splash
+      cost:
+        - Colorless
+      damage: "10"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 418
+  species: Sea Weasel Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 29.48350405
+  resistances: []
+  flavourText: It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.
+illustrators:
+  - Kyoko Umemoto
+finishes:
+  - non-holo
+  - reverse-holo

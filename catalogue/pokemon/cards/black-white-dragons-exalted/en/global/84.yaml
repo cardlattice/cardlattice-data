@@ -1,2 +1,36 @@
 name: Altaria
 rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Swablu
+  abilities:
+    - name: Fight Song
+      kind: Ability
+      text: Your {Dragon} Pokémon's attacks do 20 more damage to the Active Pokémon (before applying Weakness and Resistance).
+  attacks:
+    - name: Glide
+      cost:
+        - Water
+        - Metal
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 334
+  species: Humming Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 20.593093598
+  resistances: []
+  flavourText: If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.
+illustrators:
+  - HiRON
+finishes:
+  - holo
+  - reverse-holo

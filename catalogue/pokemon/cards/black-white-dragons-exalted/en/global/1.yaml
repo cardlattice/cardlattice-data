@@ -13,7 +13,7 @@ pokemon:
       value: ×2
   retreatCost: 1
   resistances:
-    - type: Fighting
+    - type: Water
       value: "-20"
   attacks:
     - name: Flail Around
@@ -21,3 +21,12 @@ pokemon:
         - Grass
       damage: 10×
       text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  nationalDex:
+    - 187
+  species: Cottonweed Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 0.498951607
+  flavourText: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+finishes:
+  - non-holo
+  - reverse-holo

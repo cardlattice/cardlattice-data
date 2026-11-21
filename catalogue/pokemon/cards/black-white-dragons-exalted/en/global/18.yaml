@@ -1,2 +1,29 @@
 name: Vulpix
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Singe
+      cost:
+        - Fire
+      text: The Defending Pokémon is now Burned.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: Fox Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 9.888313666
+  resistances: []
+  flavourText: It controls balls of fire. As it grows, its six tails split from their tips to make more tails.
+illustrators:
+  - MAHOU
+finishes:
+  - non-holo
+  - reverse-holo

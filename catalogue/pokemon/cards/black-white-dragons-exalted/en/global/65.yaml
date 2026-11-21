@@ -1,2 +1,37 @@
 name: Roggenrola
 rarity: Common
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Stone Edge
+      cost:
+        - Fighting
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+    - name: Hammer In
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 524
+  species: Mantle Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 18.007617089
+  resistances: []
+  flavourText: They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.
+illustrators:
+  - Kyoko Umemoto
+finishes:
+  - non-holo
+  - reverse-holo
