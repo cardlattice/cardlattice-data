@@ -37,3 +37,4 @@ variants:
   unlimited-holo:
     edition: unlimited
     finish: holo
+    foilPattern: cosmos
