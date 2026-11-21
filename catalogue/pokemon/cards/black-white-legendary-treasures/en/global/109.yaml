@@ -22,3 +22,4 @@ variants:
     finish: reverse-holo
     stamps:
       - pokemon-league
+    foilPattern: mirror

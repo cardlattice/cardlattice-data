@@ -38,6 +38,7 @@ pokemon:
 variants:
   holo:
     finish: holo
+    foilPattern: tinsel
   reverse-holo:
     finish: reverse-holo
   cosmos:
