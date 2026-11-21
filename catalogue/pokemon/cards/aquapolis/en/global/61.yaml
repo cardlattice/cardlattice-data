@@ -1,7 +1,27 @@
-name: "Smoochum"
+name: Smoochum
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 30
-  types: [Psychic]
+  types:
+    - Psychic
+  stage: Baby
+  attacks:
+    - name: Energy Kiss
+      cost:
+        - Psychic
+      damage: 10×
+      text: Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads.
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  rules:
+    - Baby Pokémon counts as a Basic Pokémon
+    - Evolves into Jynx. Put Jynx on the Baby Pokémon.
+    - If your Active Pokémon is a Baby Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent’s turn ends.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo

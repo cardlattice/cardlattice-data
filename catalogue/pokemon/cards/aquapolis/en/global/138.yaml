@@ -1,6 +1,14 @@
-name: "Undersea Ruins"
+name: Undersea Ruins
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: trainer
-  subtypes: [Stadium]
+  subtypes:
+    - Stadium
+  rules:
+    - This card stays in play when you play it. Discard this card if another Stadium card comes into play.
+    - Once during each player’s turn (before attacking), that player may flip a coin. If heads, that player chooses 1 of his or her Evolved Pokémon in play and discards the top Evolution card from that Pokémon, devolving it.
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo

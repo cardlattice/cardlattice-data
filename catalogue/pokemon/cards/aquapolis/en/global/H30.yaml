@@ -1,7 +1,33 @@
-name: "Victreebel"
+name: Victreebel
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
   hp: 90
-  types: [Grass]
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Weepinbell
+  attacks:
+    - name: Corrosive Acid
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "40"
+      text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+  abilities:
+    - name: Fragrance Trap
+      text: Once during your turn (before your attack), you may flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch the Defending Pokémon with it. This power can’t be used if Victreebel is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  species: Flycatcher Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 15.42214058
+illustrators:
+  - Miki Tanaka
+printedDenominator: H32

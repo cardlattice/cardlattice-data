@@ -1,7 +1,32 @@
-name: "Primeape"
+name: Primeape
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Fighting]
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Mankey
+  attacks:
+    - name: Karate Chop
+      cost:
+        - Fighting
+        - Colorless
+      damage: 40-
+      text: Damage from this attack is reduced by 10 for each damage counter on Primeape.
+    - name: Sudden Charge
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Tomokazu Komiya
+finishes:
+  - non-holo

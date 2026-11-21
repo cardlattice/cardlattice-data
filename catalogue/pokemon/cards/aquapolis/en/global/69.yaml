@@ -1,7 +1,30 @@
-name: "Chansey"
+name: Chansey
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 100
-  types: [Colorless]
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Rollout
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Double-edge
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Chansey does 40 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo

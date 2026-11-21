@@ -1,7 +1,23 @@
-name: "Spinarak"
+name: Spinarak
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Sharp Stinger
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Miki Tanaka
+finishes:
+  - non-holo

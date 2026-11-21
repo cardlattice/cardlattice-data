@@ -1,7 +1,31 @@
-name: "Scyther"
+name: Scyther
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 60
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Quick Turn
+      cost:
+        - Grass
+      damage: 10×
+      text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Cross-Cut
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Hisao Nakamura
+finishes:
+  - non-holo

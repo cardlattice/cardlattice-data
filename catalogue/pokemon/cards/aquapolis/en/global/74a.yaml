@@ -1,7 +1,31 @@
-name: "Drowzee"
+name: Drowzee
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Psychic]
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Sleep Inducer
+      cost:
+        - Psychic
+      text: Flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep.
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Hisao Nakamura
+finishes:
+  - non-holo
+externalIds:
+  - namespace: e-reader
+    value: C-21-a

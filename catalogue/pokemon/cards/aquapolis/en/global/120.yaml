@@ -1,5 +1,11 @@
-name: "Energy Switch"
+name: Energy Switch
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: trainer
+  rules:
+    - Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.
+illustrators:
+  - Mikio Menjo
+finishes:
+  - non-holo

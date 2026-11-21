@@ -1,7 +1,32 @@
-name: "Slowking"
+name: Slowking
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Psychic]
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Slowpoke
+  attacks:
+    - name: Bursting Hand
+      cost:
+        - Colorless
+      damage: 10×
+      text: Look at your opponent’s hand. This attack does 10 damage times the number of Energy cards there.
+    - name: Shuffle Attack
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Look at a number of cards on top of your opponent’s deck equal to the number of Energy cards attached to the Defending Pokémon. Put those cards in any order, and then put them back on top of your opponent’s deck.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Aya Kusube
+finishes:
+  - non-holo

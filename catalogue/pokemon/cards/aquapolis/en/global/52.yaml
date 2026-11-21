@@ -1,7 +1,30 @@
-name: "Magnemite"
+name: Magnemite
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Metal]
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Attract
+      cost:
+        - Metal
+      text: Choose 1 of your opponent’s Benched Pokémon and switch the Defending Pokémon with it.
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Grass
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Shin-ichi Yoshida
+finishes:
+  - non-holo

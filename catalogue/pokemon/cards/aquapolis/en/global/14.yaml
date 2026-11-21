@@ -1,7 +1,32 @@
-name: "Houndoom"
+name: Houndoom
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Fire]
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Houndour
+  attacks:
+    - name: Smokescreen
+      cost:
+        - Colorless
+      damage: "10"
+      text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+    - name: Burn Up
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "60"
+      text: Flip a coin. If tails, discard all Fire Energy cards attached to Houndoom.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo

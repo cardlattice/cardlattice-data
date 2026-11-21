@@ -1,7 +1,29 @@
-name: "Hoppip"
+name: Hoppip
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Careless Tackle
+      cost:
+        - Colorless
+      damage: "20"
+      text: Hoppip does 10 damage to itself.
+  abilities:
+    - name: Lightweight
+      text: You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.
+      kind: Poké-Body
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Water
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Yuka Morii
+finishes:
+  - non-holo

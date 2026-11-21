@@ -1,6 +1,14 @@
-name: "Pokémon Park"
+name: Pokémon Park
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: trainer
-  subtypes: [Stadium]
+  subtypes:
+    - Stadium
+  rules:
+    - This card stays in play when you play it. Discard this card if another Stadium card comes into play.
+    - Once during each of his or her turns, whenever a player attaches an Energy card from his or her hand to 1 of his or her Benched Pokémon, he or she removes 1 damage counter, if any, from that Pokémon.
+illustrators:
+  - Kazuo Yazawa
+finishes:
+  - non-holo

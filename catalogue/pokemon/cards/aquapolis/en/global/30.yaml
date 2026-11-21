@@ -1,7 +1,33 @@
-name: "Quagsire"
+name: Quagsire
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Water]
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Wooper
+  attacks:
+    - name: Water Gun
+      cost:
+        - Water
+      damage: 20+
+      text: This attack does 20 damage plus 10 more damage for each Water Energy attached to Quagsire but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+    - name: Slam
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: Flip 2 coins. This attack does 50 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo

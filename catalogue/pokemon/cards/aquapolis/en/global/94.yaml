@@ -1,7 +1,30 @@
-name: "Miltank"
+name: Miltank
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 60
-  types: [Colorless]
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Continuous Tumble
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo

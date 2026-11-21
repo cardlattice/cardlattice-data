@@ -1,7 +1,31 @@
-name: "Scyther"
+name: Scyther
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Slash
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Swift
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo

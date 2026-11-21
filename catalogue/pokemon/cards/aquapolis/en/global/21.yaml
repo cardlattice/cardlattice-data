@@ -1,7 +1,29 @@
-name: "Lanturn"
+name: Lanturn
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Lightning]
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Chinchou
+  attacks:
+    - name: Electric Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: This attack does 20 damage plus 10 more damage for each Lightning Energy attached to Lanturn. Flip a coin. If tails, Lanturn does 10 damage to itself for each Lightning Energy attached to it.
+  abilities:
+    - name: Ion Coating
+      text: You may use this power once during each of your turns (before your attack). All Lightning Energy attached to your Active Pokémon becomes Water Energy for the rest of the turn. (This effect ends if your Active Pokémon retreats or is returned to your hand.) This power can’t be used if Lanturn is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Yuka Morii
+finishes:
+  - non-holo

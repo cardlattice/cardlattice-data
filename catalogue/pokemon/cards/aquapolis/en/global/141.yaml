@@ -1,5 +1,12 @@
-name: "Weakness Guard"
+name: Weakness Guard
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: trainer
+  rules:
+    - Attach this card to 1 of your Pokémon. Discard it at the end of your opponent’s next turn.
+    - As long as this card is attached, this Pokémon has no Weakness.
+illustrators:
+  - Jungo Suzuki
+finishes:
+  - non-holo

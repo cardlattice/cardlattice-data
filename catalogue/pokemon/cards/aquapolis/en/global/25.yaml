@@ -1,7 +1,32 @@
-name: "Ninetales"
+name: Ninetales
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Fire]
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Vulpix
+  attacks:
+    - name: Miracle Tail
+      cost:
+        - Fire
+      damage: "10"
+      text: Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.
+    - name: Roasting Heat
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: If the Defending Pokémon is Burned, this attack does 40 damage plus 20 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo

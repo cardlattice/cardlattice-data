@@ -1,7 +1,29 @@
-name: "Exeggutor"
+name: Exeggutor
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Grass]
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Exeggcute
+  attacks:
+    - name: Super Eggsplosion
+      cost:
+        - Colorless
+      damage: 40×
+      text: Discard any number of Energy cards attached to any of your Pokémon. Flip a number of coins equal to the number of Energy cards discarded this way. This attack does 40 damage times the number of heads.
+    - name: Called Shot
+      cost:
+        - Grass
+      text: Choose 1 of your opponent’s Benched Pokémon. This attack does 10 damage times the amount of Grass Energy attached to Exeggutor. (Don’t apply Weakness or Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo

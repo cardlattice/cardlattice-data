@@ -1,7 +1,31 @@
-name: "Vileplume"
+name: Vileplume
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 100
-  types: [Grass]
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Gloom
+  attacks:
+    - name: Poison Scent
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.
+    - name: Addictive Pollen
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Flip a coin. If heads, your opponent can’t play Supporter cards during his or her next turn.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Kyoko Umemoto
+finishes:
+  - non-holo

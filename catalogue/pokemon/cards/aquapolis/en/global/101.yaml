@@ -1,7 +1,32 @@
-name: "Pinsir"
+name: Pinsir
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 60
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Horn Grab
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.
+    - name: Super Slice
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "90"
+      text: Flip 2 coins. If either of them is tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Toshinao Aoki
+finishes:
+  - non-holo

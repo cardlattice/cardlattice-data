@@ -1,7 +1,29 @@
-name: "Aipom"
+name: Aipom
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Colorless]
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Stretch Tail
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and this attack does 10 damage to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    - name: Skedaddle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Return Aipom and all basic Energy cards attached to it to your hand. If you have no Benched Pokémon, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo

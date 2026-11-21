@@ -1,7 +1,25 @@
-name: "Onix"
+name: Onix
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 60
-  types: [Fighting]
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Crush
+      cost:
+        - Fighting
+        - Colorless
+      damage: 20×
+      text: Flip a number of coins equal to the amount of Energy attached to Onix. This attack does 20 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Hajime Kusajima
+finishes:
+  - non-holo

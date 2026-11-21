@@ -1,8 +1,41 @@
-name: "Nidoking"
+name: Nidoking
 rarity: Rare
 printedDenominator: 147
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
   hp: 100
-  types: [Colorless]
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Nidorino
+  attacks:
+    - name: Poison Horn
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "20"
+      text: The Defending Pokémon is now Poisoned.
+    - name: Rolling Thunder
+      cost:
+        - Lightning
+        - Lightning
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness or Resistance for Benched Pokémon.)
+  abilities:
+    - name: Crystal Type
+      text: Whenever you attach a Grass, Lightning, or Fighting basic Energy card from your hand to Nidoking, Nidoking’s type (color) becomes the same as that Energy card type until the end of the turn.
+      kind: Poké-Body
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 3
+  species: Drill Pokémon
+  heightMetres: 1.397
+  weightKilograms: 62.14215469
+illustrators:
+  - Hironobu Yoshida

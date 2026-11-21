@@ -1,7 +1,30 @@
-name: "Octillery"
+name: Octillery
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Water]
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Remoraid
+  attacks:
+    - name: Smokescreen
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+  abilities:
+    - name: Suction Cups
+      text: As long as Octillery is your Active Pokémon, whenever the Defending Pokémon retreats, discard all Energy cards attached to the Defending Pokémon when it goes to the Bench.
+      kind: Poké-Body
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo

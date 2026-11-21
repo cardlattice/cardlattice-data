@@ -1,7 +1,23 @@
-name: "Grimer"
+name: Grimer
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Poison Sludge
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Keiji Kinebuchi
+finishes:
+  - non-holo

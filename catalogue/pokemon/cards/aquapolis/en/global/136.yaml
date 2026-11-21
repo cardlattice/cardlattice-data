@@ -1,6 +1,14 @@
-name: "Town Volunteers"
+name: Town Volunteers
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: trainer
-  subtypes: [Supporter]
+  subtypes:
+    - Supporter
+  rules:
+    - You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    - Take 5 Baby Pokémon, Basic Pokémon, Evolution, and/or basic Energy cards from your discard pile and then show them to your opponent. Shuffle them into your deck.
+illustrators:
+  - Ken Sugimori
+finishes:
+  - non-holo

@@ -1,7 +1,28 @@
-name: "Larvitar"
+name: Larvitar
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Fighting]
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Mountain Eater
+      cost:
+        - Colorless
+      text: Your opponent discards the top card from his or her deck. Then you remove a damage counter from Larvitar.
+    - name: Rising Lunge
+      cost:
+        - Fighting
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo

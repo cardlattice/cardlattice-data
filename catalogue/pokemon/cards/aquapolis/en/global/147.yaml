@@ -1,6 +1,14 @@
-name: "Warp Energy"
+name: Warp Energy
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: energy
-  subtypes: [Special Energy]
+  subtypes:
+    - Special Energy
+  rules:
+    - Warp Energy provides 1 Colorless Energy.
+    - When you attach Warp Energy from your hand to your Active Pokémon, switch your Active Pokémon with 1 of your Benched Pokémon.
+illustrators:
+  - Shin-ichi Yoshikawa
+finishes:
+  - non-holo

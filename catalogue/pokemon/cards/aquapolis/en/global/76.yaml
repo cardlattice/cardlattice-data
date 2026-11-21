@@ -1,7 +1,28 @@
-name: "Exeggcute"
+name: Exeggcute
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Growth Spurt
+      cost:
+        - Colorless
+      text: Attach an Energy card from your hand to Exeggcute.
+    - name: Sleep Powder
+      cost:
+        - Grass
+      damage: "10"
+      text: The Defending Pokémon is now Asleep.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo

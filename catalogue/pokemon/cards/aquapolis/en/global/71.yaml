@@ -1,7 +1,29 @@
-name: "Chinchou"
+name: Chinchou
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Lightning]
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Jolt
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Confuse Ray
+      cost:
+        - Lightning
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Hisao Nakamura
+finishes:
+  - non-holo

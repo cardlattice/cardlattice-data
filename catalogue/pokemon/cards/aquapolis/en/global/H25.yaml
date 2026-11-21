@@ -1,7 +1,32 @@
-name: "Suicune"
+name: Suicune
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
   hp: 70
-  types: [Water]
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Hypno Wave
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.
+  abilities:
+    - name: Pure Body
+      text: To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)
+      kind: Poké-Body
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  species: Aurora Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 186.88005644
+illustrators:
+  - Atsuko Nishida
+printedDenominator: H32

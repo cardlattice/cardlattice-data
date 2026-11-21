@@ -1,7 +1,29 @@
-name: "Marill"
+name: Marill
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Water]
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Headbutt
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Sleepy Ball
+      cost:
+        - Water
+        - Colorless
+      damage: "10"
+      text: The Defending Pokémon is now Asleep.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo

@@ -1,7 +1,32 @@
-name: "Muk"
+name: Muk
 rarity: Rare
-finishes: [holo]
+finishes:
+  - holo
 pokemon:
   category: pokemon
   hp: 70
-  types: [Grass]
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Grimer
+  attacks:
+    - name: Burning Sludge
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: Flip a number of coins equal to the amount of Grass Energy attached to Muk. If any of them are heads, the Defending Pokémon is now Poisoned and Burned.
+  abilities:
+    - name: Heavyweight
+      text: As long as there is a Grass Energy attached to Muk, you must pay an additional {Colorless}{Colorless} to retreat it.
+      kind: Poké-Body
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  species: Sludge Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 29.93709642
+illustrators:
+  - Hajime Kusajima
+printedDenominator: H32

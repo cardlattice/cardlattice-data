@@ -1,7 +1,28 @@
-name: "Houndour"
+name: Houndour
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Fire]
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Singe
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Burned.
+    - name: Flare
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo

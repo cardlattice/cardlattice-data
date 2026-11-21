@@ -1,7 +1,34 @@
-name: "Tangela"
+name: Tangela
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 60
-  types: [Grass]
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Tickling Vines
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.
+    - name: Double Kick
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Water
+      value: "-30"
+  retreatCost: 2
+illustrators:
+  - Tomokazu Komiya
+finishes:
+  - non-holo

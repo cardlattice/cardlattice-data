@@ -1,5 +1,19 @@
-name: "Fighting Cube 01"
+name: Fighting Cube 01
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: trainer
+  subtypes:
+    - Technical Machine
+  rules:
+    - Attach this card to 1 of your Fighting Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Fighting Cube 01.
+  attacks:
+    - name: Violent Rage
+      cost:
+        - Fighting
+      damage: 10×
+      text: Flip a number of coins equal to the number of damage counters on this Pokémon. This attack does 10 damage times the number of heads.
+illustrators:
+  - '"Big Mama" Tagawa'
+finishes:
+  - non-holo

@@ -1,7 +1,30 @@
-name: "Porygon"
+name: Porygon
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Colorless]
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Data Sort
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, choose a Trainer card from your discard pile, show it to your opponent, and then shuffle it into your deck.
+    - name: Peck
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Masako Yamashita
+finishes:
+  - non-holo
+externalIds:
+  - namespace: e-reader
+    value: C-32-a

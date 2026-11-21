@@ -1,7 +1,32 @@
-name: "Bellossom"
+name: Bellossom
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 90
-  types: [Grass]
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Gloom
+  attacks:
+    - name: Knife Leaf
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 30×
+      text: Flip 3 coins. This attack does 30 damage times the number of heads.
+  abilities:
+    - name: Flower Supplement
+      text: Once during your turn (before your attack), you may flip a coin. If heads, attach 1 basic Energy card from your hand to 1 of your Benched Pokémon. This power can’t be used if Bellossom is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Water
+      value: "-30"
+  retreatCost: 2
+illustrators:
+  - Sumiyoshi Kizuki
+finishes:
+  - non-holo

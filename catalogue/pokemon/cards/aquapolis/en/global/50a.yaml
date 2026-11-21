@@ -1,7 +1,35 @@
-name: "Golduck"
+name: Golduck
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 70
-  types: [Water]
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Psyduck
+  attacks:
+    - name: Slash
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Distortion Beam
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Sumiyoshi Kizuki
+finishes:
+  - non-holo
+externalIds:
+  - namespace: e-reader
+    value: C-12-a

@@ -1,7 +1,27 @@
-name: "Wooper"
+name: Wooper
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Water]
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Tail Whap
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Deep Dive
+      cost:
+        - Water
+      text: Flip 3 coins. For each heads, remove 1 damage counter from Wooper.
+  abilities: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo

@@ -1,7 +1,29 @@
-name: "Cubone"
+name: Cubone
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Fighting]
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Teary Eyes
+      cost:
+        - Colorless
+      text: During your opponent’s next turn, any damage done to Cubone by attacks is reduced by 20.
+    - name: Tackle
+      cost:
+        - Fighting
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Lightning
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo

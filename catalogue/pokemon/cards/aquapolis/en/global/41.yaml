@@ -1,7 +1,32 @@
-name: "Umbreon"
+name: Umbreon
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 80
-  types: [Darkness]
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Shadow Bind
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+  abilities:
+    - name: Dark Moon
+      text: As long as Umbreon is your Active Pokémon and has a Darkness Energy attached to it, once during your turn (before your attack), you may look at your opponent’s hand. Choose from it a number of cards up to the number of Darkness Energy attached to Umbreon and shuffle them into your opponent’s deck. Your opponent then draws the same number of cards from his or her deck. This power can’t be used if Umbreon is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo

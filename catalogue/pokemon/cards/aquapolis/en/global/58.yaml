@@ -1,7 +1,31 @@
-name: "Seadra"
+name: Seadra
 rarity: Uncommon
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 70
-  types: [Water]
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Horsea
+  attacks:
+    - name: Wave Splash
+      cost:
+        - Water
+      damage: "20"
+    - name: Water Bullet
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Flip a number of coins equal to the number of Water Energy attached to Seadra. This attack does 30 damage plus 10 more damage for each heads.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo

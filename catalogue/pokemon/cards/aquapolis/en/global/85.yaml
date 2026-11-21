@@ -1,7 +1,25 @@
-name: "Horsea"
+name: Horsea
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Water]
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Reverse Thrust
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Switch Horsea with 1 of your Benched Pokémon, if any.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo

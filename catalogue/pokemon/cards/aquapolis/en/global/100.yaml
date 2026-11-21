@@ -1,7 +1,31 @@
-name: "Phanpy"
+name: Phanpy
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Fighting]
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Flail
+      cost:
+        - Colorless
+      damage: 10×
+      text: This attack does 10 damage times the number of damage counters on Phanpy.
+    - name: Rollout
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Lightning
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo

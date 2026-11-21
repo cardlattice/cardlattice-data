@@ -1,7 +1,30 @@
-name: "Blissey"
+name: Blissey
 rarity: Rare
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 120
-  types: [Colorless]
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Chansey
+  attacks:
+    - name: Smash Bomber
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities:
+    - name: Happy Healing
+      text: Once during your turn (before your attack), choose 1 of your Benched Pokémon and flip a coin. If heads, count the number of Energy attached to Blissey and then remove that many damage counters from the chosen Benched Pokémon. This power can’t be used if Blissey is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo

@@ -1,7 +1,24 @@
-name: "Vulpix"
+name: Vulpix
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 50
-  types: [Fire]
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Collect Fire
+      cost:
+        - Fire
+      damage: "10"
+      text: If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Vulpix.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Keiko Fukuyama
+finishes:
+  - non-holo

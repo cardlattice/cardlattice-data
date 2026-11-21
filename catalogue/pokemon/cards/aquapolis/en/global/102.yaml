@@ -1,7 +1,29 @@
-name: "Ponyta"
+name: Ponyta
 rarity: Common
 printedDenominator: 147
 pokemon:
   category: pokemon
   hp: 40
-  types: [Fire]
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Ember
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Discard a Fire Energy card attached to Ponyta.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Shin-ichi Yoshida
+finishes:
+  - non-holo
