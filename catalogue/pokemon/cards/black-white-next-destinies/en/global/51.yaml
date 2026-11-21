@@ -1,0 +1,34 @@
+"name": "Zekrom-EX"
+"rarity": "Rare"
+"illustrators":
+  - "Shizurow"
+"finishes":
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 180
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "subtypes":
+    - "EX"
+  "attacks":
+    - "name": "Glinting Claw"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50+"
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    - "name": "Strong Volt"
+      "cost":
+        - "Lightning"
+        - "Lightning"
+        - "Colorless"
+        - "Colorless"
+      "damage": "150"
+      "text": "Discard 2 Energy attached to this Pokémon."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 3

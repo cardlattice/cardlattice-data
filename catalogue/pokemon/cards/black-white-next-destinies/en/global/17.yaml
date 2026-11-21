@@ -1,0 +1,23 @@
+"name": "Darumaka"
+"rarity": "Common"
+"illustrators":
+  - "Atsuko Nishida"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Hammer In"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 3

@@ -1,0 +1,28 @@
+"name": "Kricketot"
+"rarity": "Common"
+"illustrators":
+  - "MAHOU"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Grass"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Beat"
+      "cost":
+        - "Grass"
+      "damage": "10"
+    - "name": "Double Headbutt"
+      "cost":
+        - "Grass"
+        - "Grass"
+      "damage": "10+"
+      "text": "Flip 2 coins. This attack does 10 more damage for each heads."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "retreatCost": 1

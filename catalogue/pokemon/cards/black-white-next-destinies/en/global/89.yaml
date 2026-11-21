@@ -1,0 +1,13 @@
+"name": "Level Ball"
+"rarity": "Uncommon"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "trainer"
+  "subtypes":
+    - "Item"
+  "rules":
+    - "Search your deck for a Pokémon with 90 HP or less, reveal it, and put it into your hand. Shuffle your deck afterward."

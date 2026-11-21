@@ -1,0 +1,27 @@
+"name": "Vanillite"
+"rarity": "Common"
+"illustrators":
+  - "Kanako Eo"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Beat"
+      "cost":
+        - "Colorless"
+      "damage": "10"
+    - "name": "Icy Snow"
+      "cost":
+        - "Water"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 1

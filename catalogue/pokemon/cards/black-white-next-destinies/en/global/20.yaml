@@ -1,0 +1,30 @@
+"name": "Chandelure"
+"rarity": "Rare"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Fire"
+  "stage": "Stage 2"
+  "evolvesFrom": "Lampent"
+  "attacks":
+    - "name": "Flame Burst"
+      "cost":
+        - "Fire"
+      "damage": "30"
+      "text": "Does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    - "name": "Inferno"
+      "cost":
+        - "Fire"
+        - "Colorless"
+      "damage": "80"
+      "text": "Discard all Energy attached to this Pokémon. The Defending Pokémon is now Burned."
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 2

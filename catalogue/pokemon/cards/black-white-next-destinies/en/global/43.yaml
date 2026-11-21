@@ -1,0 +1,23 @@
+"name": "Shinx"
+"rarity": "Common"
+"illustrators":
+  - "Naoki Saito"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Reckless Charge"
+      "cost":
+        - "Colorless"
+      "damage": "20"
+      "text": "This Pokémon does 10 damage to itself."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1

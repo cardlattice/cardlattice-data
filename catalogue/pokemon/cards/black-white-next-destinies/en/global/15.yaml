@@ -1,0 +1,23 @@
+"name": "Pansear"
+"rarity": "Common"
+"illustrators":
+  - "James Turner"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Flare"
+      "cost":
+        - "Fire"
+        - "Colorless"
+      "damage": "30"
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 1

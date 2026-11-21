@@ -1,0 +1,29 @@
+"name": "Simipour"
+"rarity": "Rare"
+"illustrators":
+  - "Akira Komayama"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Water"
+  "stage": "Stage 1"
+  "evolvesFrom": "Panpour"
+  "attacks":
+    - "name": "Collect"
+      "cost":
+        - "Water"
+      "text": "Draw 3 cards."
+    - "name": "Stadium Wave"
+      "cost":
+        - "Water"
+        - "Colorless"
+      "damage": "30+"
+      "text": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Asleep."
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "retreatCost": 1

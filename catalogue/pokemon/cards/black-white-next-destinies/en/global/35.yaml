@@ -1,0 +1,30 @@
+"name": "Jellicent"
+"rarity": "Rare"
+"illustrators":
+  - "Mitsuhiro Arita"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Water"
+  "stage": "Stage 1"
+  "evolvesFrom": "Frillish"
+  "attacks":
+    - "name": "Vengeful Wish"
+      "cost":
+        - "Colorless"
+      "text": "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does the same amount of damage to the Defending Pokémon."
+    - "name": "Absorb Life"
+      "cost":
+        - "Water"
+        - "Water"
+        - "Colorless"
+      "damage": "30"
+      "text": "Heal 30 damage from this Pokémon."
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "retreatCost": 2

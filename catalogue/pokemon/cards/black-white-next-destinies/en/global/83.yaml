@@ -1,0 +1,30 @@
+"name": "Pidove"
+"rarity": "Common"
+"illustrators":
+  - "MAHOU"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Colorless"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Scout"
+      "cost":
+        - "Colorless"
+      "text": "Your opponent reveals his or her hand."
+    - "name": "Gust"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "resistances":
+    - "type": "Fighting"
+      "value": "-20"
+  "retreatCost": 1

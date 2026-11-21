@@ -1,0 +1,31 @@
+"name": "Gardevoir"
+"rarity": "Rare"
+"illustrators":
+  - "Mizue"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 110
+  "types":
+    - "Psychic"
+  "stage": "Stage 2"
+  "evolvesFrom": "Kirlia"
+  "abilities":
+    - "name": "Psychic Mirage"
+      "kind": "Ability"
+      "text": "Each basic {Psychic} Energy attached to your {Psychic} Pokémon provides {Psychic}{Psychic} Energy. You can't apply more than 1 Psychic Mirage Ability at a time."
+  "attacks":
+    - "name": "Mind Shock"
+      "cost":
+        - "Psychic"
+        - "Psychic"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60"
+      "text": "This attack's damage isn't affected by Weakness or Resistance."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 2

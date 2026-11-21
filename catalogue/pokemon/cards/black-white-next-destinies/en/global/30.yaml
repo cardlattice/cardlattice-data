@@ -1,0 +1,27 @@
+"name": "Basculin"
+"rarity": "Uncommon"
+"illustrators":
+  - "Kagemaru Himeno"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Bite"
+      "cost":
+        - "Colorless"
+      "damage": "10"
+    - "name": "Bared Fangs"
+      "cost":
+        - "Water"
+      "damage": "40"
+      "text": "If, before this Pokémon does damage, the Defending Pokémon has no damage counters on it, this attack does nothing."
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "retreatCost": 1

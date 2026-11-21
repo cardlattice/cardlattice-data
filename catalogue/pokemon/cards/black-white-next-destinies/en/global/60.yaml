@@ -1,0 +1,29 @@
+"name": "Darmanitan"
+"rarity": "Rare"
+"illustrators":
+  - "Shin Nagasawa"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 110
+  "types":
+    - "Psychic"
+  "stage": "Stage 1"
+  "evolvesFrom": "Darumaka"
+  "attacks":
+    - "name": "Synchrodraw"
+      "cost":
+        - "Psychic"
+      "text": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand."
+    - "name": "DarMAXitan"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "50×"
+      "text": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 3

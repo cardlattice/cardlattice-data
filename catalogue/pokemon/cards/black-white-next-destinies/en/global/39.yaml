@@ -1,0 +1,28 @@
+"name": "Pikachu"
+"rarity": "Common"
+"illustrators":
+  - "Akira Komayama"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Thundershock"
+      "cost":
+        - "Lightning"
+      "damage": "10"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    - "name": "Tail Whap"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1

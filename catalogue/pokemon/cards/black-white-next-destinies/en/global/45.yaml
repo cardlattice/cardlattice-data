@@ -1,0 +1,29 @@
+"name": "Luxio"
+"rarity": "Uncommon"
+"illustrators":
+  - "Naoki Saito"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Lightning"
+  "stage": "Stage 1"
+  "evolvesFrom": "Shinx"
+  "attacks":
+    - "name": "Quick Turn"
+      "cost":
+        - "Lightning"
+      "damage": "20×"
+      "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+    - "name": "Bite"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "30"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 0

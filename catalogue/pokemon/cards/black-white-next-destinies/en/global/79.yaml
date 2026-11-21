@@ -1,0 +1,32 @@
+"name": "Wigglytuff"
+"rarity": "Rare"
+"illustrators":
+  - "Shin Nagasawa"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Colorless"
+  "stage": "Stage 1"
+  "evolvesFrom": "Jigglypuff"
+  "attacks":
+    - "name": "Round"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20×"
+      "text": "Does 20 damage times the number of your Pokémon that have the Round attack."
+    - "name": "Hypnoblast"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 2

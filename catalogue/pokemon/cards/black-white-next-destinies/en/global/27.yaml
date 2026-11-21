@@ -1,0 +1,35 @@
+"name": "Articuno"
+"rarity": "Rare"
+"illustrators":
+  - "Ryo Ueda"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Ice Beam"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    - "name": "Ice Wing"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "80"
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "resistances":
+    - "type": "Fighting"
+      "value": "-20"
+  "retreatCost": 2

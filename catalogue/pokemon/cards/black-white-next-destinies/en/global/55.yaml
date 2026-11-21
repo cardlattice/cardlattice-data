@@ -1,0 +1,27 @@
+"name": "Ralts"
+"rarity": "Common"
+"illustrators":
+  - "Mitsuhiro Arita"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Psychic"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Psyshot"
+      "cost":
+        - "Psychic"
+      "damage": "10"
+    - "name": "Smack"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 1

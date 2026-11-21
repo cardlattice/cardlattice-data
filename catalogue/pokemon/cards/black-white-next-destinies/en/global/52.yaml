@@ -1,0 +1,24 @@
+"name": "Grimer"
+"rarity": "Common"
+"illustrators":
+  - "Kagemaru Himeno"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Psychic"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Nasty Goo"
+      "cost":
+        - "Psychic"
+        - "Colorless"
+      "damage": "20"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 2

@@ -1,0 +1,13 @@
+"name": "Skyarrow Bridge"
+"rarity": "Uncommon"
+"illustrators":
+  - "Ryo Ueda"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "trainer"
+  "subtypes":
+    - "Stadium"
+  "rules":
+    - "The Retreat Cost of each Basic Pokémon in play is {Colorless} less."

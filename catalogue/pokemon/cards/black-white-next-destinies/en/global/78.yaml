@@ -1,0 +1,28 @@
+"name": "Jigglypuff"
+"rarity": "Uncommon"
+"illustrators":
+  - "sui"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Colorless"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Sing"
+      "cost":
+        - "Colorless"
+      "text": "The Defending Pokémon is now Asleep."
+    - "name": "Double Slap"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20×"
+      "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 2

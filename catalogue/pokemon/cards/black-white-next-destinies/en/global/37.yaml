@@ -1,0 +1,32 @@
+"name": "Beartic"
+"rarity": "Rare"
+"illustrators":
+  - "kawayoo"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Water"
+  "stage": "Stage 1"
+  "evolvesFrom": "Cubchoo"
+  "attacks":
+    - "name": "Daunt"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "40"
+      "text": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+    - "name": "Ambush"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60+"
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 3

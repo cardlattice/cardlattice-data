@@ -1,0 +1,23 @@
+"name": "Panpour"
+"rarity": "Common"
+"illustrators":
+  - "Reiko Tanoue"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Water Gun"
+      "cost":
+        - "Water"
+        - "Colorless"
+      "damage": "30"
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "retreatCost": 1

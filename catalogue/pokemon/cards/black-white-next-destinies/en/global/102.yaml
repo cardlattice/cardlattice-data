@@ -1,0 +1,28 @@
+"name": "Zoroark"
+"rarity": "Shiny Rare"
+"illustrators":
+  - "5ban Graphics"
+"pokemon":
+  "category": "pokemon"
+  "hp": 100
+  "types":
+    - "Darkness"
+  "stage": "Stage 1"
+  "evolvesFrom": "Zorua"
+  "attacks":
+    - "name": "Nasty Plot"
+      "cost":
+        - "Darkness"
+      "text": "Search your deck for a card and put it into your hand. Shuffle your deck afterward."
+    - "name": "Foul Play"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "text": "Choose 1 of the Defending Pokémon's attacks and use it as this attack."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 1

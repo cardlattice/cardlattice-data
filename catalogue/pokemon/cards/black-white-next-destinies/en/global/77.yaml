@@ -1,0 +1,27 @@
+"name": "Ferroseed"
+"rarity": "Common"
+"illustrators":
+  - "match"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Metal"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Self Destruct"
+      "cost":
+        - "Metal"
+        - "Colorless"
+      "damage": "60"
+      "text": "This Pokémon does 60 damage to itself."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 3

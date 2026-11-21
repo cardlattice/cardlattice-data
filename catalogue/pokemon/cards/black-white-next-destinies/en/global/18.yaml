@@ -1,0 +1,22 @@
+"name": "Litwick"
+"rarity": "Common"
+"illustrators":
+  - "Kanako Eo"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Flare"
+      "cost":
+        - "Fire"
+      "damage": "10"
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 1

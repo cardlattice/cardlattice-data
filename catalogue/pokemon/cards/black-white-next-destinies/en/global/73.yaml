@@ -1,0 +1,31 @@
+"name": "Scraggy"
+"rarity": "Uncommon"
+"illustrators":
+  - "Mizue"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Darkness"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Shed Skin"
+      "cost":
+        - "Colorless"
+      "text": "Heal 40 damage from this Pokémon."
+    - "name": "Lunge"
+      "cost":
+        - "Darkness"
+        - "Darkness"
+      "damage": "40"
+      "text": "Flip a coin. If tails, this attack does nothing."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 2

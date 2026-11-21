@@ -1,0 +1,23 @@
+"name": "Munna"
+"rarity": "Common"
+"illustrators":
+  - "Mitsuhiro Arita"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Psychic"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Ram"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 2

@@ -1,0 +1,31 @@
+"name": "Luxio"
+"rarity": "Uncommon"
+"illustrators":
+  - "Kouki Saitou"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Lightning"
+  "stage": "Stage 1"
+  "evolvesFrom": "Shinx"
+  "attacks":
+    - "name": "Jump On"
+      "cost":
+        - "Lightning"
+      "damage": "20+"
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    - "name": "Wild Charge"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60"
+      "text": "This Pokémon does 10 damage to itself."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1

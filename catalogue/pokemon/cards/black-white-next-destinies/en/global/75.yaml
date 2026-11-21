@@ -1,0 +1,33 @@
+"name": "Bronzor"
+"rarity": "Common"
+"illustrators":
+  - "Naoki Saito"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Metal"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Knock Away"
+      "cost":
+        - "Metal"
+        - "Colorless"
+      "damage": "10+"
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+    - "name": "Spinning Attack"
+      "cost":
+        - "Metal"
+        - "Colorless"
+        - "Colorless"
+      "damage": "40"
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 3

@@ -1,0 +1,32 @@
+"name": "Simisage"
+"rarity": "Rare"
+"illustrators":
+  - "kawayoo"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Grass"
+  "stage": "Stage 1"
+  "evolvesFrom": "Pansage"
+  "attacks":
+    - "name": "Collect"
+      "cost":
+        - "Grass"
+      "text": "Draw 3 cards."
+    - "name": "Stadium Drain"
+      "cost":
+        - "Grass"
+        - "Colorless"
+      "damage": "30+"
+      "text": "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Water"
+      "value": "-20"
+  "retreatCost": 2

@@ -1,0 +1,26 @@
+"name": "Seedot"
+"rarity": "Common"
+"illustrators":
+  - "Kagemaru Himeno"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 40
+  "types":
+    - "Grass"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Trip Over"
+      "cost":
+        - "Colorless"
+      "damage": "10+"
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Water"
+      "value": "-20"
+  "retreatCost": 1

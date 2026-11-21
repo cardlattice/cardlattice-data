@@ -1,0 +1,27 @@
+"name": "Chandelure"
+"rarity": "Shiny Rare"
+"illustrators":
+  - "5ban Graphics"
+"pokemon":
+  "category": "pokemon"
+  "hp": 130
+  "types":
+    - "Psychic"
+  "stage": "Stage 2"
+  "evolvesFrom": "Lampent"
+  "abilities":
+    - "name": "Cursed Shadow"
+      "kind": "Ability"
+      "text": "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may put 3 damage counters on your opponent's Pokémon in any way you like."
+  "attacks":
+    - "name": "Eerie Glow"
+      "cost":
+        - "Psychic"
+        - "Psychic"
+        - "Colorless"
+      "damage": "50"
+      "text": "The Defending Pokémon is now Burned and Confused."
+  "weaknesses":
+    - "type": "Darkness"
+      "value": "×2"
+  "retreatCost": 2

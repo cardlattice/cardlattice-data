@@ -1,0 +1,30 @@
+"name": "Beheeyem"
+"rarity": "Rare"
+"illustrators":
+  - "Kouki Saitou"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Psychic"
+  "stage": "Stage 1"
+  "evolvesFrom": "Elgyem"
+  "attacks":
+    - "name": "Brain Control"
+      "cost":
+        - "Psychic"
+      "text": "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent's deck."
+    - "name": "Psybeam"
+      "cost":
+        - "Psychic"
+        - "Colorless"
+        - "Colorless"
+      "damage": "40"
+      "text": "The Defending Pokémon is now Confused."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 1

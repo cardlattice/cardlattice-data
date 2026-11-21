@@ -1,0 +1,34 @@
+"name": "Regigigas-EX"
+"rarity": "Ultra Rare"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 180
+  "types":
+    - "Colorless"
+  "stage": "Basic"
+  "subtypes":
+    - "EX"
+  "attacks":
+    - "name": "Giga Power"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60+"
+      "text": "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself."
+    - "name": "Raging Hammer"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50+"
+      "text": "Does 10 more damage for each damage counter on this Pokémon."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 4

@@ -1,0 +1,31 @@
+"name": "Hippopotas"
+"rarity": "Common"
+"illustrators":
+  - "match"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Fighting"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Sand Jet"
+      "cost":
+        - "Fighting"
+      "text": "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    - "name": "Bite"
+      "cost":
+        - "Fighting"
+        - "Colorless"
+        - "Colorless"
+      "damage": "30"
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "resistances":
+    - "type": "Lightning"
+      "value": "-20"
+  "retreatCost": 4

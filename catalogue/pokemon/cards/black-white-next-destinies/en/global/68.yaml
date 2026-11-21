@@ -1,0 +1,29 @@
+"name": "Mienshao"
+"rarity": "Uncommon"
+"illustrators":
+  - "Suwama Chiaki"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Fighting"
+  "stage": "Stage 1"
+  "evolvesFrom": "Mienfoo"
+  "attacks":
+    - "name": "Haul In"
+      "cost":
+        - "Colorless"
+      "text": "Search your deck for 2 Pokémon Tool cards, reveal them, and put them into your hand. Shuffle your deck afterward."
+    - "name": "Meditate"
+      "cost":
+        - "Fighting"
+        - "Colorless"
+      "damage": "30+"
+      "text": "Does 10 more damage for each damage counter on the Defending Pokémon."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 1

@@ -1,0 +1,23 @@
+"name": "Growlithe"
+"rarity": "Common"
+"illustrators":
+  - "Mizue"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Combustion"
+      "cost":
+        - "Fire"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 2

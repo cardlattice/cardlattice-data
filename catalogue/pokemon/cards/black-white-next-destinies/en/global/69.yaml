@@ -1,0 +1,31 @@
+"name": "Sneasel"
+"rarity": "Common"
+"illustrators":
+  - "Masakazu Fukuda"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Darkness"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Corner"
+      "cost":
+        - "Darkness"
+      "damage": "10"
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    - "name": "Scratch"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 1

@@ -1,0 +1,34 @@
+"name": "Kyurem-EX"
+"rarity": "Rare"
+"illustrators":
+  - "Shizurow"
+"finishes":
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 180
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "subtypes":
+    - "EX"
+  "attacks":
+    - "name": "Frozen Wings"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60"
+      "text": "Discard a Special Energy attached to the Defending Pokémon."
+    - "name": "Hail Blizzard"
+      "cost":
+        - "Water"
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "120"
+      "text": "This Pokémon can't use Hail Blizzard during your next turn."
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 3

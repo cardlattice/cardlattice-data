@@ -1,0 +1,32 @@
+"name": "Mewtwo-EX"
+"rarity": "Rare"
+"illustrators":
+  - "Shizurow"
+"finishes":
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 170
+  "types":
+    - "Psychic"
+  "stage": "Basic"
+  "subtypes":
+    - "EX"
+  "attacks":
+    - "name": "X Ball"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20×"
+      "text": "Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon."
+    - "name": "Psydrive"
+      "cost":
+        - "Psychic"
+        - "Psychic"
+        - "Colorless"
+      "damage": "120"
+      "text": "Discard an Energy attached to this Pokémon."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 2

@@ -1,0 +1,28 @@
+"name": "Shinx"
+"rarity": "Common"
+"illustrators":
+  - "Atsuko Nishida"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Jump On"
+      "cost":
+        - "Lightning"
+      "damage": "10+"
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+    - "name": "Static Shock"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1

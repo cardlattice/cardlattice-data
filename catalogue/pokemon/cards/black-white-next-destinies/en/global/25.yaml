@@ -1,0 +1,28 @@
+"name": "Lapras"
+"rarity": "Rare"
+"illustrators":
+  - "Kouki Saitou"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 100
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Call for Family"
+      "cost":
+        - "Water"
+      "text": "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+    - "name": "Reckless Charge"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "40"
+      "text": "This Pokémon does 20 damage to itself."
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "retreatCost": 2

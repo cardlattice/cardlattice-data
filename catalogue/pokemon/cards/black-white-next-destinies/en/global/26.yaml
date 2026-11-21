@@ -1,0 +1,29 @@
+"name": "Lapras"
+"rarity": "Uncommon"
+"illustrators":
+  - "Mizue"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Water Arrow"
+      "cost":
+        - "Water"
+        - "Colorless"
+      "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    - "name": "Surf"
+      "cost":
+        - "Water"
+        - "Water"
+        - "Colorless"
+      "damage": "60"
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 2
