@@ -1,0 +1,41 @@
+name: Lilligant
+rarity: Rare
+illustrators:
+  - Akira Komayama
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Petilil
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Aromax
+      cost:
+        - Grass
+      text: Heal all damage from 1 of your Benched Pokémon.
+    - name: Windmill
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+      text: Switch this Pokémon with 1 of your Benched Pokémon.
+  nationalDex:
+    - 549
+  species: Flowering Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 16.283966083
+  flavourText: The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.
+  abilities: []
+  rules: []
+  subtypes: []

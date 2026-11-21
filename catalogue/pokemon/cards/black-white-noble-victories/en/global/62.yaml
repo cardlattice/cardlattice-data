@@ -1,0 +1,33 @@
+name: Timburr
+rarity: Common
+illustrators:
+  - Tomokazu Komiya
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Pummel
+      cost:
+        - Fighting
+      damage: "10+"
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  nationalDex:
+    - 532
+  species: Muscular Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 12.519149412
+  flavourText: It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

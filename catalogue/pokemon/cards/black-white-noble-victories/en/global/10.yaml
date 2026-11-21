@@ -1,0 +1,41 @@
+name: Amoonguss
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Foongus
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 2
+  attacks:
+    - name: Toxic
+      cost:
+        - Grass
+      text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+    - name: Body Slam
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  nationalDex:
+    - 591
+  species: Mushroom Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 10.477983747
+  flavourText: They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.
+  abilities: []
+  rules: []
+  subtypes: []

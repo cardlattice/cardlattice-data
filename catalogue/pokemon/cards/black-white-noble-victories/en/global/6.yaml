@@ -1,0 +1,37 @@
+name: Dwebble
+rarity: Common
+illustrators:
+  - MAHOU
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Withdraw
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+    - name: Slash
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 557
+  species: Rock Inn Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 14.51495584
+  flavourText: This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

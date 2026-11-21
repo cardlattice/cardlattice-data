@@ -1,0 +1,39 @@
+name: Pawniard
+rarity: Common
+illustrators:
+  - Tomokazu Komiya
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Pierce
+      cost:
+        - Metal
+      damage: "10"
+    - name: Cut
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 624
+  species: Sharp Blade Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.205828325
+  flavourText: Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.
+  abilities: []
+  rules: []
+  subtypes: []

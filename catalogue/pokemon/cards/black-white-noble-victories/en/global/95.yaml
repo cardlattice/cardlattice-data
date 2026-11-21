@@ -1,0 +1,14 @@
+name: Super Rod
+rarity: Uncommon
+illustrators:
+  - 5ban Graphics
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile back into your deck.
+    - You may play as many Item cards as you like during your turn (before your attack).

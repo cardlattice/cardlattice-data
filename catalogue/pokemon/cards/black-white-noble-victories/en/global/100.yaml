@@ -1,0 +1,37 @@
+name: Cobalion
+rarity: Ultra Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  attacks:
+    - name: Energy Press
+      cost:
+        - Metal
+        - Colorless
+      damage: "20+"
+      text: Does 20 more damage for each Energy attached to the Defending Pokémon.
+    - name: Iron Breaker
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "80"
+      text: The Defending Pokémon can't attack during your opponent's next turn.
+  flavourText: It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.
+  abilities: []
+  rules: []
+  subtypes: []

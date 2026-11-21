@@ -1,0 +1,35 @@
+name: Pawniard
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Iron Head
+      cost:
+        - Colorless
+      damage: "10×"
+      text: Flip a coin until you get tails. This attack does 10 damage times the number of heads.
+  nationalDex:
+    - 624
+  species: Sharp Blade Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.205828325
+  flavourText: They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.
+  abilities: []
+  rules: []
+  subtypes: []

@@ -1,0 +1,38 @@
+name: Cryogonal
+rarity: Rare
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Ice Chain
+      cost:
+        - Water
+      text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.
+    - name: Frost Vanish
+      cost:
+        - Water
+        - Water
+      damage: "40"
+      text: You may return this Pokémon and all cards attached to it to your hand.
+  nationalDex:
+    - 615
+  species: Crystallizing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 148.007190331
+  flavourText: They are born in snow clouds. They use chains made of ice crystals to capture prey.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

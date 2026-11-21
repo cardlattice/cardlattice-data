@@ -1,0 +1,34 @@
+name: Virizion
+rarity: Ultra Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Double Draw
+      cost:
+        - Colorless
+      text: Draw 2 cards.
+    - name: Leaf Wallop
+      cost:
+        - Grass
+        - Colorless
+      damage: "40"
+      text: During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).
+  flavourText: Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.
+  abilities: []
+  rules: []
+  subtypes: []

@@ -1,0 +1,39 @@
+name: Durant
+rarity: Uncommon
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Devour
+      cost:
+        - Metal
+      text: For each of your Durant in play, discard the top card of your opponent's deck.
+    - name: Vice Grip
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  nationalDex:
+    - 632
+  species: Iron Ant Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 33.021524536
+  flavourText: They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.
+  abilities: []
+  rules: []
+  subtypes: []

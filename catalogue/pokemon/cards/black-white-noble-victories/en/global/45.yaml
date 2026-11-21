@@ -1,0 +1,33 @@
+name: Yamask
+rarity: Common
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Ambush
+      cost:
+        - Colorless
+      damage: "10+"
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  nationalDex:
+    - 562
+  species: Spirit Pokémon
+  heightMetres: 0.508
+  weightKilograms: 1.496854821
+  flavourText: These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

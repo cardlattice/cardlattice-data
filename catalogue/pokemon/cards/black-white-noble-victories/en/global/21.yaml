@@ -1,0 +1,41 @@
+name: Volcarona
+rarity: Rare
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Larvesta
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Fiery Dance
+      cost:
+        - Fire
+      damage: "30"
+      text: Attach a basic Energy card from your discard pile to 1 of your Pokémon.
+    - name: Heat Wave
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon is now Burned.
+  nationalDex:
+    - 637
+  species: Sun Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 45.994266318
+  flavourText: When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

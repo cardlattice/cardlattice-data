@@ -1,0 +1,33 @@
+name: Vanillite
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Icicle Barb
+      cost:
+        - Water
+      damage: "10+"
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  nationalDex:
+    - 582
+  species: Fresh Snow Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.715263862
+  flavourText: This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

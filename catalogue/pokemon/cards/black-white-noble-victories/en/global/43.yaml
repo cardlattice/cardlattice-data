@@ -1,0 +1,50 @@
+name: Victini
+rarity: Rare
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo
+  - holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: V-blast
+      cost:
+        - Psychic
+      damage: "120"
+      text: Flip 2 coins. If either of them is tails, this attack does nothing.
+  nationalDex:
+    - 494
+  species: Victory Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 3.991612856
+  flavourText: It creates an unlimited supply of energy inside its body, which it shares with those who touch it.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  noble-victories:
+    finish: holo
+    stamps:
+      - noble-victories
+    foilPattern: tinsel
+  noble-victories-staff:
+    finish: holo
+    stamps:
+      - noble-victories
+      - staff
+    foilPattern: tinsel

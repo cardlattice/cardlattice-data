@@ -1,0 +1,46 @@
+name: Golurk
+rarity: Rare
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Golett
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 4
+  attacks:
+    - name: Hammer Arm
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "60"
+      text: Discard the top card of your opponent's deck.
+    - name: Hurricane Punch
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "50×"
+      text: Flip 4 coins. This attack does 50 damage times the number of heads.
+  nationalDex:
+    - 623
+  species: Automaton Pokémon
+  heightMetres: 2.794
+  weightKilograms: 329.988449175
+  flavourText: It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.
+  abilities: []
+  rules: []
+  subtypes: []

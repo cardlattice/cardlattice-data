@@ -1,0 +1,47 @@
+name: Fraxure
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Axew
+  retreatCost: 2
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Dual Chop
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30×"
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  nationalDex:
+    - 611
+  species: Axe Jaw Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 36.015234178
+  flavourText: Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.
+  weaknesses: []
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  play-pokemon:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - play-pokemon
