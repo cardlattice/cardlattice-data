@@ -42,3 +42,13 @@ pokemon:
   heightMetres: 1.8034
   weightKilograms: 117.979375437
   flavourText: It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-electivire-dusknoir-scizor-en

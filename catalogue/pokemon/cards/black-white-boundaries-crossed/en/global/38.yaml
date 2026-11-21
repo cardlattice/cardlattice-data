@@ -36,3 +36,32 @@ pokemon:
   heightMetres: 0.889
   weightKilograms: 16.011810661
   flavourText: It carries food all day long. When someone is lost in the mountains, it shares that food.
+variants:
+  standard-non-holo:
+    finish: non-holo
+  parallel:
+    finish: reverse-holo
+  pokemon-league-1st-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 1st-place
+  pokemon-league-2nd-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 2nd-place
+  pokemon-league-3rd-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 3rd-place
+  pokemon-league-4th-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 4th-place

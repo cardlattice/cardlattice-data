@@ -12,3 +12,12 @@ pokemon:
   rules:
     - Search your deck for a Trainer card, reveal it, and put it into your hand. Shuffle your deck afterward.
     - You may play only 1 Supporter card during your turn (before your attack).
+variants:
+  standard-non-holo:
+    finish: non-holo
+  parallel:
+    finish: reverse-holo
+  pokemon-league:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league

@@ -42,3 +42,13 @@ pokemon:
   heightMetres: 1.6002
   weightKilograms: 150.002996759
   flavourText: It has mastered fast and powerful fighting moves. It grows a beard of fire.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-serperior-emboar-samurott-en

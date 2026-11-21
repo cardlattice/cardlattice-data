@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 illustrators:
   - Satoshi Shirai
 pokemon:
@@ -23,7 +24,8 @@ pokemon:
       text: Does 10 more damage for each Water Energy attached to this Pokémon.
   abilities:
     - name: Deluge
-      text: As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon.
+      text: As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1
+        of your Pokémon.
       kind: Ability
   weaknesses:
     - type: Grass
@@ -38,3 +40,12 @@ pokemon:
   heightMetres: 1.6002
   weightKilograms: 85.502161745
   flavourText: The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  ice-shock:
+    finish: non-holo
+    products:
+      - pokemon-product-boundaries-crossed-ice-shock-en

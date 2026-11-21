@@ -18,7 +18,8 @@ pokemon:
         - Fire
         - Colorless
         - Colorless
-      text: This attack does 40 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      text: This attack does 40 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched
+        Pokémon.)
     - name: Scorching Fire
       cost:
         - Fire
@@ -42,3 +43,13 @@ pokemon:
   heightMetres: 1.7018
   weightKilograms: 90.491677815
   flavourText: It is said that Charizard’s fire burns hotter if it has experienced harsh battles.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-xy-two-pack-blister-venusaur-charizard-blastoise-en

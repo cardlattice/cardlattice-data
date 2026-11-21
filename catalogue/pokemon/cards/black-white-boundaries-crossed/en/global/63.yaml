@@ -23,7 +23,8 @@ pokemon:
       text: This attack’s damage isn’t affected by Resistance.
   abilities:
     - name: Sinister Hand
-      text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your opponent’s Pokémon to another of your opponent’s Pokémon.
+      text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your
+        opponent’s Pokémon to another of your opponent’s Pokémon.
       kind: Ability
   weaknesses:
     - type: Darkness
@@ -38,3 +39,14 @@ pokemon:
   heightMetres: 2.2098
   weightKilograms: 106.59420695
   flavourText: It is said to take lost spirits into its pliant body and guide them home.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-electivire-dusknoir-scizor-en
+      - pokemon-product-psychic-gym-collector-pack-en

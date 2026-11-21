@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 illustrators:
   - 5ban Graphics
 pokemon:
@@ -40,3 +41,13 @@ pokemon:
   heightMetres: 3.6068
   weightKilograms: 324.998933105
   flavourText: This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.
+variants:
+  standard-non-holo:
+    finish: non-holo
+  parallel:
+    finish: reverse-holo
+  cold-fire:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-boundaries-crossed-cold-fire-en

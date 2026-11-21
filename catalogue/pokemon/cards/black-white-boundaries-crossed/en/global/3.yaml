@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 illustrators:
   - Shin Nagasawa
 pokemon:
@@ -40,3 +41,12 @@ pokemon:
   heightMetres: 1.1938
   weightKilograms: 18.59728717
   flavourText: Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  ho-oh-legendary-battle-deck:
+    finish: non-holo
+    products:
+      - pokemon-product-ho-oh-legendary-battle-deck-en

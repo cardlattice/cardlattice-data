@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 illustrators:
   - BERUBURI
 pokemon:
@@ -18,7 +19,8 @@ pokemon:
         - Lightning
         - Colorless
         - Colorless
-      text: This attack does 30 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      text: This attack does 30 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for
+        Benched Pokémon.)
     - name: Shock Wave
       cost:
         - Lightning
@@ -40,4 +42,19 @@ pokemon:
   species: Thunderbolt Pokémon
   heightMetres: 1.8034
   weightKilograms: 138.617828272
-  flavourText: The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity into the foe.
+  flavourText: The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity
+    into the foe.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  ice-shock:
+    finish: non-holo
+    products:
+      - pokemon-product-boundaries-crossed-ice-shock-en
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-electivire-dusknoir-scizor-en
