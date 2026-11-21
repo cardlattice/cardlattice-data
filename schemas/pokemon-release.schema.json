@@ -79,6 +79,9 @@
     },
     "name": {
       "$ref": "pokemon-common.schema.json#/$defs/name"
+    },
+    "size": {
+      "$ref": "pokemon-common.schema.json#/$defs/cardSize"
     }
   },
   "required": []
