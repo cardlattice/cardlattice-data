@@ -40,3 +40,18 @@
   "weightKilograms": 55.383628377
   "flavourText": "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air."
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "black-white-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-black-white-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "xy-kanto-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-xy-kanto-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"

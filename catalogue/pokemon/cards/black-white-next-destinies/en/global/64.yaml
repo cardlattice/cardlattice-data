@@ -34,3 +34,13 @@
   "weightKilograms": 53.97749203
   "flavourText": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away."
   "resistances": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "dark-explorers-lucario-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-lucario-stage-1-blister-en"
+    "foilPattern": "cosmos"

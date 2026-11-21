@@ -5,6 +5,7 @@
 "finishes":
   - "non-holo"
   - "reverse-holo"
+  - "holo"
 "pokemon":
   "category": "pokemon"
   "hp": 130
@@ -35,3 +36,17 @@
   "weightKilograms": 154.992512829
   "flavourText": "Its proud and regal appearance has captured the hearts of people since long ago."
   "resistances": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "prerelease":
+    "finish": "holo"
+    "stamps":
+      - "next-destinies"
+  "prerelease-staff":
+    "finish": "holo"
+    "stamps":
+      - "next-destinies"
+      - "staff"

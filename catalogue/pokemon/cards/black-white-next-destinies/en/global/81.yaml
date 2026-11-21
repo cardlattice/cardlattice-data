@@ -5,6 +5,7 @@
 "finishes":
   - "non-holo"
   - "reverse-holo"
+  - "holo"
 "pokemon":
   "category": "pokemon"
   "hp": 90
@@ -35,3 +36,13 @@
   "flavourText": "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "dark-explorers-persian-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-persian-stage-1-blister-en"
+    "foilPattern": "cosmos"

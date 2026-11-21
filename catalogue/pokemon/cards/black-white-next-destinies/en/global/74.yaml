@@ -5,6 +5,7 @@
 "finishes":
   - "holo"
   - "reverse-holo"
+  - "non-holo"
 "pokemon":
   "category": "pokemon"
   "hp": 90
@@ -39,3 +40,12 @@
   "weightKilograms": 29.982455657
   "flavourText": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader."
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-voltage-vortex-en":
+    "finish": "non-holo"
+    "products":
+      - "pokemon-product-next-destinies-voltage-vortex-en"

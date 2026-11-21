@@ -5,6 +5,7 @@
 "finishes":
   - "non-holo"
   - "reverse-holo"
+  - "holo"
 "pokemon":
   "category": "pokemon"
   "hp": 60
@@ -29,3 +30,13 @@
   "flavourText": "The extension and contraction of its muscles generates electricity. It glows when in trouble."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "dark-explorers-luxray-stage-2-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-luxray-stage-2-blister-en"
+    "foilPattern": "cracked-ice"

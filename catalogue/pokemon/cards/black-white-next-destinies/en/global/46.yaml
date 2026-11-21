@@ -5,6 +5,7 @@
 "finishes":
   - "holo"
   - "reverse-holo"
+  - "non-holo"
 "pokemon":
   "category": "pokemon"
   "hp": 140
@@ -37,3 +38,27 @@
   "flavourText": "It can see clearly through walls to track down its prey and seek its lost young."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-voltage-vortex-en":
+    "finish": "non-holo"
+    "products":
+      - "pokemon-product-next-destinies-voltage-vortex-en"
+  "dark-explorers-luxray-stage-2-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-luxray-stage-2-blister-en"
+    "foilPattern": "cracked-ice"
+  "dark-explorers-luxray-three-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-luxray-three-pack-blister-en"
+    "foilPattern": "cracked-ice"
+  "lightning-gym-collector-pack-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-lightning-gym-collector-pack-en"
+    "foilPattern": "cosmos"

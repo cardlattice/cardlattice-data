@@ -41,3 +41,23 @@
   "weightKilograms": 60.010270551
   "flavourText": "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring."
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "black-white-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-black-white-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "xy-kanto-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-xy-kanto-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "plasma-freeze-moltres-single-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-plasma-freeze-moltres-single-pack-blister-en"
+    "foilPattern": "cosmos"

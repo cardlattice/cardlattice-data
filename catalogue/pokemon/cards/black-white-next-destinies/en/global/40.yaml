@@ -5,6 +5,7 @@
 "finishes":
   - "non-holo"
   - "reverse-holo"
+  - "holo"
 "pokemon":
   "category": "pokemon"
   "hp": 90
@@ -37,3 +38,13 @@
   "flavourText": "Its tail discharges electricity into the ground, protecting it from getting shocked."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "boundaries-crossed-raichu-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-boundaries-crossed-raichu-stage-1-blister-en"
+    "foilPattern": "cosmos"

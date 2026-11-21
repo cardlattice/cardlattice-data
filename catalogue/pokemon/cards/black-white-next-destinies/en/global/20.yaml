@@ -5,6 +5,7 @@
 "finishes":
   - "holo"
   - "reverse-holo"
+  - "non-holo"
 "pokemon":
   "category": "pokemon"
   "hp": 120
@@ -36,3 +37,17 @@
   "flavourText": "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-explosive-edge-en":
+    "finish": "non-holo"
+    "products":
+      - "pokemon-product-next-destinies-explosive-edge-en"
+  "dragons-exalted-chandelure-three-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dragons-exalted-chandelure-three-pack-blister-en"
+    "foilPattern": "cracked-ice"

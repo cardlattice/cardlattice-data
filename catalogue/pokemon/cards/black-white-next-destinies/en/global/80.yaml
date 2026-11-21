@@ -34,3 +34,12 @@
   "flavourText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "black-white-meowth-variety-blister-en":
+    "finish": "reverse-holo"
+    "products":
+      - "pokemon-product-black-white-meowth-variety-blister-en"

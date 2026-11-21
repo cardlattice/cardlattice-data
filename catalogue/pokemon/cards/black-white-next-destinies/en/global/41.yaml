@@ -40,3 +40,18 @@
   "weightKilograms": 52.61671492
   "flavourText": "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "black-white-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-black-white-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "xy-kanto-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-xy-kanto-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"

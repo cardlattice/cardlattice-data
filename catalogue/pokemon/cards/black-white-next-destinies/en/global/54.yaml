@@ -34,3 +34,17 @@
     - "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+    "size": "standard"
+  "battle-arena-mewtwo-darkrai-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-battle-arena-mewtwo-darkrai-en"
+    "size": "standard"
+  "mewtwo-collection-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-mewtwo-collection-en"
+    "size": "jumbo"

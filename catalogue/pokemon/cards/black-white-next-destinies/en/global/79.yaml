@@ -5,6 +5,7 @@
 "finishes":
   - "non-holo"
   - "reverse-holo"
+  - "holo"
 "pokemon":
   "category": "pokemon"
   "hp": 90
@@ -38,3 +39,18 @@
   "flavourText": "Its fine fur feels sublime to the touch. It can expand its body by inhaling air."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "plasma-storm-wigglytuff-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-plasma-storm-wigglytuff-stage-1-blister-en"
+    "foilPattern": "cosmos"
+  "plasma-storm-wigglytuff-rerelease-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-plasma-storm-wigglytuff-rerelease-blister-en"
+    "foilPattern": "cosmos"

@@ -5,6 +5,7 @@
 "finishes":
   - "non-holo"
   - "reverse-holo"
+  - "holo"
 "pokemon":
   "category": "pokemon"
   "hp": 130
@@ -37,3 +38,12 @@
   "flavourText": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
   "resistances": []
   "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-explosive-edge-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-next-destinies-explosive-edge-en"
