@@ -41,8 +41,10 @@ variants:
     finish: holo
     stamps:
       - noble-victories
+    foilPattern: tinsel
   noble-victories-staff:
     finish: holo
     stamps:
       - noble-victories
       - staff
+    foilPattern: tinsel
