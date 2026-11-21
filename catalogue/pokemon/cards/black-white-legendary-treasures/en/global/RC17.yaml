@@ -28,3 +28,8 @@ pokemon:
   heightMetres: 1.0922
   weightKilograms: 30.980358871
   flavourText: Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

@@ -33,3 +33,8 @@ pokemon:
   heightMetres: 0.7112
   weightKilograms: 19.005520303
   flavourText: Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

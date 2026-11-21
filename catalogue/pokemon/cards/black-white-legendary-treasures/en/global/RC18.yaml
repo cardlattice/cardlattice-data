@@ -26,3 +26,8 @@ pokemon:
   heightMetres: 0.4064
   weightKilograms: 5.805982336
   flavourText: Minccino greet each other by grooming one another thoroughly with their tails.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

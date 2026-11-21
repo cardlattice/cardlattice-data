@@ -33,3 +33,8 @@ pokemon:
   heightMetres: 0.7112
   weightKilograms: 11.022294591
   flavourText: When its opponent can’t be paralyzed, it contorts itself with unexpected speed and flops away.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

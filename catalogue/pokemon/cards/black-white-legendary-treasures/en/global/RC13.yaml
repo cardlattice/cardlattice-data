@@ -27,3 +27,8 @@ pokemon:
   heightMetres: 0.4064
   weightKilograms: 10.115109851
   flavourText: Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

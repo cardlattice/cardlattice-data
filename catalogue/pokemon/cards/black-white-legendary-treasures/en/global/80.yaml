@@ -35,3 +35,11 @@ pokemon:
   heightMetres: 1.1938
   weightKilograms: 53.97749203
   flavourText: A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos:
+    finish: holo
+    foilPattern: cosmos

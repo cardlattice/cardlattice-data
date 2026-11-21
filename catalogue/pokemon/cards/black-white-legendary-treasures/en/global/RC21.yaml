@@ -31,3 +31,8 @@ pokemon:
     - EX
   rules:
     - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

@@ -4,6 +4,7 @@ printedDenominator: 113
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 illustrators:
   - match
 pokemon:
@@ -40,3 +41,13 @@ pokemon:
   heightMetres: 1.6002
   weightKilograms: 81.102315756
   flavourText: Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo
+  cosmos:
+    finish: holo
+    foilPattern: cosmos

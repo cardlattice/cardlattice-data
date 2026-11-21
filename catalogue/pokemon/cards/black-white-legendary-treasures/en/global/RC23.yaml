@@ -26,3 +26,8 @@ pokemon:
       value: "-20"
   retreatCost: 0
   flavourText: It glides on its outstretched membrane while shocking foes with the electricity stored in the pouches on its cheeks.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

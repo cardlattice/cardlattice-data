@@ -30,3 +30,8 @@ pokemon:
   heightMetres: 0.4064
   weightKilograms: 2.494758035
   flavourText: A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

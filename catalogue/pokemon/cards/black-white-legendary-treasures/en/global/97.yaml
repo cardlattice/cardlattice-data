@@ -35,3 +35,32 @@ pokemon:
   heightMetres: 0.7874
   weightKilograms: 17.281869297
   flavourText: It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  league-1st-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 1st-place
+  league-2nd-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 2nd-place
+  league-3rd-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 3rd-place
+  league-4th-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 4th-place

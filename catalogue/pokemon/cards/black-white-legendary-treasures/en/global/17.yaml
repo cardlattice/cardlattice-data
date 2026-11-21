@@ -34,3 +34,12 @@ pokemon:
   heightMetres: 0.6096
   weightKilograms: 8.482177319
   flavourText: The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  build-a-bear:
+    finish: non-holo
+    stamps:
+      - build-a-bear-workshop

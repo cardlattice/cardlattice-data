@@ -31,3 +31,8 @@ pokemon:
   heightMetres: 0.4064
   weightKilograms: 5.987419284
   flavourText: It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

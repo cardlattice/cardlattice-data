@@ -29,3 +29,6 @@ pokemon:
   resistances: []
   retreatCost: 2
   flavourText: This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.
+finishes:
+  - holo
+rarity: ★ (silver)

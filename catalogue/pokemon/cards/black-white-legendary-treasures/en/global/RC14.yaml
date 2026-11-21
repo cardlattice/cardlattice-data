@@ -26,3 +26,8 @@ pokemon:
   heightMetres: 0.3048
   weightKilograms: 6.486370891
   flavourText: Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

@@ -33,3 +33,8 @@ pokemon:
   heightMetres: 0.7874
   weightKilograms: 16.011810661
   flavourText: When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

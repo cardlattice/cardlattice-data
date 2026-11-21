@@ -32,3 +32,8 @@ pokemon:
   heightMetres: 0.7874
   weightKilograms: 20.184860465
   flavourText: If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

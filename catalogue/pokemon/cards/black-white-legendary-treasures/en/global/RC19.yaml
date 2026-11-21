@@ -32,3 +32,8 @@ pokemon:
   heightMetres: 0.508
   weightKilograms: 7.484274105
   flavourText: Cinccino’s body is coated in a special oil that helps it deflect attacks, such as punches.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

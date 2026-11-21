@@ -33,3 +33,8 @@ pokemon:
   heightMetres: 1.6002
   weightKilograms: 48.398305879
   flavourText: To protect its Trainer, it will expend all its psychic power to create a small black hole.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

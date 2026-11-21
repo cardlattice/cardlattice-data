@@ -31,3 +31,8 @@ pokemon:
   heightMetres: 0.6096
   weightKilograms: 8.119303423
   flavourText: Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

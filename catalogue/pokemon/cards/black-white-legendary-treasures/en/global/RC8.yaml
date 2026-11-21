@@ -30,3 +30,8 @@ pokemon:
   heightMetres: 0.4064
   weightKilograms: 6.622448602
   flavourText: If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

@@ -41,3 +41,11 @@ pokemon:
   heightMetres: 1.7018
   weightKilograms: 90.491677815
   flavourText: It is said that Charizard’s fire burns hotter if it has experienced harsh battles.
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos:
+    finish: holo
+    foilPattern: cosmos

@@ -35,3 +35,8 @@ pokemon:
   heightMetres: 1.8034
   weightKilograms: 125.781164201
   flavourText: In its territory, it leaves scratches on trees that bear delicious berries or fruits.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

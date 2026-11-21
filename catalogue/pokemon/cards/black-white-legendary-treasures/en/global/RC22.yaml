@@ -29,3 +29,8 @@ pokemon:
   resistances: []
   retreatCost: 2
   flavourText: This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection
