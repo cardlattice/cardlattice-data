@@ -1,0 +1,6 @@
+name: "Apricorn Forest"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Stadium]

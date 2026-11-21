@@ -1,0 +1,7 @@
+name: "Skiploom"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Grass]

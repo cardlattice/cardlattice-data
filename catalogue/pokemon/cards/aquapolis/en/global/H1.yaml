@@ -1,0 +1,7 @@
+name: "Ampharos"
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Lightning]

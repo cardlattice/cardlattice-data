@@ -1,0 +1,7 @@
+name: "Magnemite"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Metal]

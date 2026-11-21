@@ -1,0 +1,6 @@
+name: "Metal Energy"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: energy
+  subtypes: [Special Energy]

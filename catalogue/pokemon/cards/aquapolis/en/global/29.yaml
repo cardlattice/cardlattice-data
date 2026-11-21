@@ -1,0 +1,7 @@
+name: "Primeape"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Fighting]

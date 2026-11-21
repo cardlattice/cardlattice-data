@@ -1,0 +1,7 @@
+name: "Chansey"
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Colorless]

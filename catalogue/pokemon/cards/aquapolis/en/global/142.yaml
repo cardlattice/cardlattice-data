@@ -1,0 +1,6 @@
+name: "Darkness Energy"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: energy
+  subtypes: [Special Energy]

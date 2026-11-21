@@ -1,0 +1,7 @@
+name: "Steelix"
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Metal]

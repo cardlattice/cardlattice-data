@@ -1,0 +1,6 @@
+name: "Undersea Ruins"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Stadium]

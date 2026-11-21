@@ -1,0 +1,7 @@
+name: "Kangaskhan"
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Colorless]

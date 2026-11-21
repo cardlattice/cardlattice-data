@@ -1,0 +1,6 @@
+name: "Memory Berry"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Pokémon Tool]

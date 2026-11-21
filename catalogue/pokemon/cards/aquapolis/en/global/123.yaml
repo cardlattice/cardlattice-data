@@ -1,0 +1,6 @@
+name: "Forest Guardian"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Supporter]

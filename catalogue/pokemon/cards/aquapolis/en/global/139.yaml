@@ -1,0 +1,6 @@
+name: "Power Plant"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Stadium]

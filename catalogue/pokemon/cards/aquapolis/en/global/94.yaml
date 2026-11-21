@@ -1,0 +1,7 @@
+name: "Miltank"
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Colorless]

@@ -1,0 +1,7 @@
+name: "Houndour"
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Fire]

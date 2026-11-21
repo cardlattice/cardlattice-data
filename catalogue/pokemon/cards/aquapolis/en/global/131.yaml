@@ -1,0 +1,6 @@
+name: "Pokémon Park"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Stadium]

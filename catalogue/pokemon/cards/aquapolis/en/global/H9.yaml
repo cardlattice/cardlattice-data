@@ -1,0 +1,7 @@
+name: "Espeon"
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Psychic]

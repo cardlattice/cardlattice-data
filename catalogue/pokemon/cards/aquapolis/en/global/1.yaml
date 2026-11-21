@@ -1,0 +1,7 @@
+name: "Ampharos"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Lightning]

@@ -1,0 +1,7 @@
+name: "Suicune"
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Water]

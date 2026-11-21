@@ -1,0 +1,6 @@
+name: "Town Volunteers"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Supporter]

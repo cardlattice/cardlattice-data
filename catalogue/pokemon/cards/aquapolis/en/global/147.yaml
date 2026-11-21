@@ -1,0 +1,6 @@
+name: "Warp Energy"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: energy
+  subtypes: [Special Energy]

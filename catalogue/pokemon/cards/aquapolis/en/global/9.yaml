@@ -1,0 +1,7 @@
+name: "Elekid"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 30
+  types: [Lightning]

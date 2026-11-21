@@ -1,0 +1,7 @@
+name: "Horsea"
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Water]

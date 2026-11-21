@@ -1,0 +1,7 @@
+name: "Magneton"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Metal]

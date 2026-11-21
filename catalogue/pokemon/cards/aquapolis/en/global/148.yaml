@@ -1,0 +1,8 @@
+name: "Kingdra"
+rarity: Rare
+printedDenominator: 147
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 110
+  types: [Colorless]

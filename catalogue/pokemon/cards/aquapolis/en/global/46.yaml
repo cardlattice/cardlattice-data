@@ -1,0 +1,7 @@
+name: "Dodrio"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Colorless]

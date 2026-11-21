@@ -1,0 +1,7 @@
+name: "Wooper"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Water]

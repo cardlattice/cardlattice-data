@@ -1,0 +1,7 @@
+name: "Sudowoodo"
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Fighting]

@@ -1,0 +1,7 @@
+name: "Flaaffy"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Lightning]

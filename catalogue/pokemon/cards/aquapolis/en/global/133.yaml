@@ -1,0 +1,6 @@
+name: "Seer"
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes: [Supporter]

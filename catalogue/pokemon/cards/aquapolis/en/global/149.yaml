@@ -1,0 +1,8 @@
+name: "Lugia"
+rarity: Rare
+printedDenominator: 147
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Colorless]

@@ -1,0 +1,8 @@
+name: "Nidoking"
+rarity: Rare
+printedDenominator: 147
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Colorless]

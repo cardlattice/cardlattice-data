@@ -1,0 +1,7 @@
+name: "Victreebel"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Grass]

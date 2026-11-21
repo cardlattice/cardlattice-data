@@ -1,0 +1,7 @@
+name: "Tyranitar"
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Darkness]

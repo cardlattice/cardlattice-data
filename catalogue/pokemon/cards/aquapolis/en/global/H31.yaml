@@ -1,0 +1,7 @@
+name: "Vileplume"
+rarity: Rare
+finishes: [holo]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Grass]
