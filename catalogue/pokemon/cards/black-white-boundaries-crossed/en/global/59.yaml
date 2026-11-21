@@ -1,0 +1,33 @@
+name: Spoink
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Sumiyoshi Kizuki
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Flail Around
+      cost:
+        - Psychic
+      damage: 10×
+      text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 325
+  species: Bounce Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 30.617484975
+  flavourText: Using its tail like a spring, it keeps its heart beating by bouncing constantly. If it stops, it dies.

@@ -1,0 +1,39 @@
+name: Trapinch
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kyoko Umemoto
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Smithereen Smash
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    - name: Bite
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 328
+  species: Ant Pit Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 15.013907447
+  flavourText: It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.

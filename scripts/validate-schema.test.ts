@@ -5,6 +5,94 @@ import { afterEach, describe, expect, it } from "vitest";
 import { validateCard, validateCatalogue, validateSet, validateSets } from "./validate-schema.ts";
 
 const filename = "catalogue/pokemon/cards/30th-celebration/en/US/001.yaml";
+
+it("preserves lettered denominators and separately printed IDs", () => {
+  for (const fields of [
+    "printedDenominator: 147",
+    "printedDenominator: H32",
+    "printedDenominator: RC25",
+    "additionalNumbers: {printedId: Y-02}",
+  ])
+    expect(validateCard(`name: Original synthetic card\n${fields}\n`, filename)).toEqual([]);
+  for (const fields of [
+    'printedDenominator: "147"',
+    "printedDenominator: RC0",
+    "printedDenominator: RC025",
+    'printedDenominator: " RC25"',
+    "printedDenominator: é32",
+    'additionalNumbers: {printedId: " Y-02"}',
+  ])
+    expect(
+      validateCard(`name: Original synthetic card\n${fields}\n`, filename).length,
+    ).toBeGreaterThan(0);
+});
+
+it("accepts historical Technical Machine attacks without allowing Pokémon stats", () => {
+  const card =
+    'name: Original synthetic machine\npokemon:\n  category: trainer\n  subtypes: [Technical Machine]\n  attacks: [{name: Original attack, cost: [Colorless], damage: "20"}]\n';
+  expect(validateCard(card, filename)).toEqual([]);
+  for (const invalid of [
+    card.replace("category: trainer", "category: pokemon"),
+    card.replace("category: trainer", "category: energy"),
+    card.replace("[Technical Machine]", "[Item]"),
+    card + "  hp: 30\n",
+    card + "  abilities: []\n",
+    card + "  stage: Baby\n",
+  ])
+    expect(validateCard(invalid, filename).length).toBeGreaterThan(0);
+  expect(
+    validateCard(
+      "name: Original synthetic baby\npokemon: {category: pokemon, stage: Baby}\n",
+      filename,
+    ),
+  ).toEqual([]);
+});
+
+it("distinguishes observed standard and jumbo variants without weakening duplicate checks", () => {
+  const card =
+    "name: Original synthetic card\nvariants:\n  normal: {size: standard, finish: non-holo, stamps: [winner]}\n  jumbo: {size: jumbo, finish: non-holo, stamps: [winner]}\n";
+  expect(validateCard(card, filename)).toEqual([]);
+  expect(
+    validateCard(card.replace("size: jumbo", "size: standard"), filename).length,
+  ).toBeGreaterThan(0);
+  expect(
+    validateCard(card.replace("size: jumbo", "size: oversized"), filename).length,
+  ).toBeGreaterThan(0);
+  expect(validateCard(`size: jumbo\n${card}`, filename).length).toBeGreaterThan(0);
+});
+
+it("distinguishes verified foil patterns without permitting non-holo foil", () => {
+  const card =
+    "name: Original synthetic card\nvariants:\n  first: {finish: holo, foilPattern: cosmos}\n  second: {finish: holo, foilPattern: cracked-ice}\n";
+  expect(validateCard(card, filename)).toEqual([]);
+  expect(validateCard(card.replace("cracked-ice", "cosmos"), filename).length).toBeGreaterThan(0);
+  expect(
+    validateCard(card.replaceAll("finish: holo", "finish: non-holo"), filename).length,
+  ).toBeGreaterThan(0);
+});
+
+it("preserves observed corrected text and graphic errors without changing gameplay", () => {
+  const card =
+    "name: Original synthetic card\nprintingErrors: [stage-2-evolution-frame]\nvariants:\n  first: {finish: reverse-holo, foilPattern: mirror, flavourText: Original synthetic first printing.}\n  corrected: {finish: reverse-holo, foilPattern: mirror, flavourText: Original synthetic corrected printing.}\n";
+  expect(validateCard(card, filename)).toEqual([]);
+  expect(
+    validateCard(
+      card.replace("Original synthetic corrected printing.", "Original synthetic first printing."),
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+  for (const pattern of ["tinsel", "energy-symbol", "sheen"])
+    expect(validateCard(card.replaceAll("mirror", pattern), filename)).toEqual([]);
+  expect(
+    validateCard(
+      card.replace(
+        "[stage-2-evolution-frame]",
+        "[stage-2-evolution-frame, stage-2-evolution-frame]",
+      ),
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+});
 const directories: string[] = [];
 afterEach(async () => {
   await Promise.all(

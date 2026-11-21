@@ -1,0 +1,39 @@
+name: Heracross
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Horn Attack
+      cost:
+        - Grass
+      damage: "20"
+    - name: Giga Horn
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "80"
+      text: Flip 2 coins. If both of them are tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 214
+  species: Single Horn Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 53.97749203
+  flavourText: No matter how heavy its opponents, it flings them far away with its prized horn.

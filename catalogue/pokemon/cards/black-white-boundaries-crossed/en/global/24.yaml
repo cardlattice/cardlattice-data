@@ -1,0 +1,37 @@
+name: Tepig
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Flare
+      cost:
+        - Fire
+      damage: "10"
+    - name: Rollout
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 498
+  species: Fire Pig Pokémon
+  heightMetres: 0.508
+  weightKilograms: 9.888313666
+  flavourText: It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.

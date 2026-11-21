@@ -1,0 +1,33 @@
+name: Mienfoo
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Steady Punch
+      cost:
+        - Fighting
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 619
+  species: Martial Arts Pokémon
+  heightMetres: 0.889
+  weightKilograms: 20.003423517
+  flavourText: In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.

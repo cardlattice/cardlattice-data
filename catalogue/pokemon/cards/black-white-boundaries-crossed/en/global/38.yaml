@@ -1,0 +1,67 @@
+name: Delibird
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Sumiyoshi Kizuki
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Present
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.
+    - name: Icy Wind
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon is now Asleep.
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 225
+  species: Delivery Pokémon
+  heightMetres: 0.889
+  weightKilograms: 16.011810661
+  flavourText: It carries food all day long. When someone is lost in the mountains, it shares that food.
+variants:
+  standard-non-holo:
+    finish: non-holo
+  parallel:
+    finish: reverse-holo
+  pokemon-league-1st-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 1st-place
+  pokemon-league-2nd-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 2nd-place
+  pokemon-league-3rd-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 3rd-place
+  pokemon-league-4th-place:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league
+      - 4th-place

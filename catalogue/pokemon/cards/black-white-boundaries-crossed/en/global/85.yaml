@@ -1,0 +1,39 @@
+name: Crustle
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Dwebble
+  attacks:
+    - name: Stone Edge
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 70+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  abilities:
+    - name: Sturdy
+      text: If this Pokémon has full HP and would be Knocked Out by damage from an attack, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.
+      kind: Ability
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 558
+  species: Stone Home Pokémon
+  heightMetres: 1.397
+  weightKilograms: 199.988875933
+  flavourText: When its boulder is broken in battles for territory, it feels unsure and begins to weaken.

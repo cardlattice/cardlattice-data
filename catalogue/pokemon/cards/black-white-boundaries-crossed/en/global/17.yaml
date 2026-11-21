@@ -1,0 +1,43 @@
+name: Lilligant
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Petilil
+  attacks:
+    - name: Return
+      cost:
+        - Colorless
+      damage: "20"
+      text: Draw cards until you have 6 cards in your hand.
+    - name: Magical Leaf
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 549
+  species: Flowering Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 16.283966083
+  flavourText: The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.

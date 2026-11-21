@@ -1,0 +1,43 @@
+name: Bellossom
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Gloom
+  attacks:
+    - name: Grass Knot
+      cost:
+        - Grass
+      damage: 10+
+      text: Does 20 more damage for each Colorless in the Defending Pokémon’s Retreat Cost.
+    - name: Petal Dance
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 182
+  species: Flower Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.805982336
+  flavourText: When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.

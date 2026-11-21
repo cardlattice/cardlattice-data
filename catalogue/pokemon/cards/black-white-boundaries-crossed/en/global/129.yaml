@@ -1,0 +1,14 @@
+name: Great Ball
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Look at the top 7 cards of your deck. You may reveal a Pokémon you find there and put it into your hand. Shuffle the other cards back into your deck.
+    - You may play as many Item cards as you like during your turn (before your attack).

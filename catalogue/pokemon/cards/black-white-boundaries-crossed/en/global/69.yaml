@@ -1,0 +1,40 @@
+name: Musharna
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Satoshi Shirai
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Munna
+  attacks:
+    - name: Telekinesis
+      cost:
+        - Psychic
+      text: This attack does 30 damage to 1 of your opponent’s Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.
+    - name: Dream Waltz
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: This attack can be used even if this Pokémon is Asleep. If this Pokémon is Asleep, this attack does 30 more damage.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 518
+  species: Drowsing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 60.509222158
+  flavourText: The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.

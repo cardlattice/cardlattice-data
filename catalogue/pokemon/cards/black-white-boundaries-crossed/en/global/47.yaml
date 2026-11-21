@@ -1,0 +1,40 @@
+name: Keldeo
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Slicing Blade
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+    - name: Hydro Pump
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: Does 10 more damage for each Water Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 647
+  species: Colt Pokémon
+  heightMetres: 1.397
+  weightKilograms: 48.489024353
+  flavourText: It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.

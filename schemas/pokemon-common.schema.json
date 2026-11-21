@@ -296,7 +296,8 @@
                     "Stadium",
                     "Pokémon Tool",
                     "Pokémon Tool F",
-                    "ACE SPEC"
+                    "ACE SPEC",
+                    "Technical Machine"
                   ]
                 }
               }
@@ -352,7 +353,7 @@
                 "subtypes": {
                   "type": "array",
                   "contains": {
-                    "const": "Pokémon Tool"
+                    "enum": ["Pokémon Tool", "Technical Machine"]
                   }
                 }
               }
@@ -499,6 +500,12 @@
         },
         "vUnionPart": {
           "$ref": "pokemon-common.schema.json#/$defs/printing_vUnionPart"
+        },
+        "size": {
+          "$ref": "pokemon-common.schema.json#/$defs/cardSize"
+        },
+        "printingErrors": {
+          "$ref": "pokemon-common.schema.json#/$defs/printing_printingErrors"
         }
       },
       "required": []
@@ -509,6 +516,7 @@
     "stage": {
       "enum": [
         "Basic",
+        "Baby",
         "Stage 1",
         "Stage 2",
         "Restored",
@@ -556,6 +564,7 @@
         "Stadium",
         "Pokémon Tool",
         "Pokémon Tool F",
+        "Technical Machine",
         "ACE SPEC",
         "Basic Energy",
         "Special Energy"
@@ -710,6 +719,18 @@
         },
         "products": {
           "$ref": "pokemon-common.schema.json#/$defs/references"
+        },
+        "size": {
+          "$ref": "pokemon-common.schema.json#/$defs/cardSize"
+        },
+        "foilPattern": {
+          "$ref": "pokemon-common.schema.json#/$defs/foilPattern"
+        },
+        "flavourText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
         }
       },
       "anyOf": [
@@ -742,6 +763,38 @@
               "minItems": 1
             }
           }
+        },
+        {
+          "required": ["size"],
+          "properties": {
+            "size": {}
+          }
+        },
+        {
+          "required": ["foilPattern"],
+          "properties": {
+            "foilPattern": {}
+          }
+        },
+        {
+          "required": ["flavourText"],
+          "properties": {
+            "flavourText": {}
+          }
+        }
+      ],
+      "allOf": [
+        {
+          "if": {
+            "required": ["foilPattern"]
+          },
+          "then": {
+            "properties": {
+              "finish": {
+                "enum": ["holo", "reverse-holo"]
+              }
+            }
+          }
         }
       ]
     },
@@ -772,6 +825,10 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 9999
+        },
+        {
+          "type": "string",
+          "pattern": "^[A-Z]{1,8}[1-9][0-9]{0,3}$"
         },
         {
           "type": "null"
@@ -822,13 +879,17 @@
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["pikachu30th"],
           "properties": {
             "pikachu30th": {
               "type": "string",
               "pattern": "^(0[1-9]|[12][0-9]|30)/30$"
+            },
+            "printedId": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9-]{0,31}$"
             }
-          }
+          },
+          "minProperties": 1
         },
         {
           "type": "null"
@@ -868,6 +929,23 @@
           "type": "null"
         }
       ]
+    },
+    "cardSize": {
+      "enum": ["standard", "jumbo"]
+    },
+    "foilPattern": {
+      "enum": ["cosmos", "cracked-ice", "crosshatch", "tinsel", "mirror", "energy-symbol", "sheen"]
+    },
+    "printingError": {
+      "enum": ["stage-2-evolution-frame"]
+    },
+    "printing_printingErrors": {
+      "type": "array",
+      "items": {
+        "$ref": "pokemon-common.schema.json#/$defs/printingError"
+      },
+      "maxItems": 10,
+      "uniqueItems": true
     }
   }
 }

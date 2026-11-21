@@ -1,0 +1,41 @@
+name: Azumarill
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Marill
+  attacks:
+    - name: Deep Dive
+      cost:
+        - Colorless
+        - Colorless
+      text: Flip 2 coins. For each heads, heal 40 damage from this Pokémon.
+    - name: Aqua Sonic
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "70"
+      text: This attack’s damage isn’t affected by Resistance.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 184
+  species: Aqua Rabbit Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 28.485600836
+  flavourText: Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.

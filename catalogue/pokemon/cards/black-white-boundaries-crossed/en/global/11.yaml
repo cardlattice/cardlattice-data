@@ -1,0 +1,37 @@
+name: Snivy
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Vine Whip
+      cost:
+        - Grass
+      damage: "10"
+    - name: Cut
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 495
+  species: Grass Snake Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 8.119303423
+  flavourText: It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.

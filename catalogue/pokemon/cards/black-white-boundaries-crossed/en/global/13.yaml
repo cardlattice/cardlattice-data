@@ -1,0 +1,52 @@
+name: Serperior
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Servine
+  attacks:
+    - name: Double Slash
+      cost:
+        - Grass
+        - Colorless
+      damage: 50×
+      text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    - name: Mega Drain
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: Heal 30 damage from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 497
+  species: Regal Pokémon
+  heightMetres: 3.302
+  weightKilograms: 63.003980193
+  flavourText: It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-serperior-emboar-samurott-en

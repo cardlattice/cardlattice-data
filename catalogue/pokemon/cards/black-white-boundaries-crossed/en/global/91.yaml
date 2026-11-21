@@ -1,0 +1,41 @@
+name: Liepard
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Purrloin
+  attacks:
+    - name: Tail Trickery
+      cost:
+        - Darkness
+      text: The Defending Pokémon is now Confused.
+    - name: Assist
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      text: Flip a coin. If heads, choose 1 of your Benched Pokémon’s attacks and use it as this attack.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 510
+  species: Cruel Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 37.512088999
+  flavourText: Their beautiful form comes from the muscles they have developed. They run silently in the night.

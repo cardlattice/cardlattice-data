@@ -1,0 +1,37 @@
+name: Gothita
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Pound
+      cost:
+        - Psychic
+      damage: "10"
+    - name: Psypunch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 574
+  species: Fixation Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.805982336
+  flavourText: Their ribbonlike feelers increase their psychic power. They are always staring at something.
