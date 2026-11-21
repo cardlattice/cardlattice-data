@@ -44,5 +44,6 @@ variants:
     finish: reverse-holo
   pokemon-league:
     finish: reverse-holo
+    foilPattern: crosshatch
     stamps:
       - pokemon-league

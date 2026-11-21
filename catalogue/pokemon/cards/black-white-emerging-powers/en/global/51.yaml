@@ -45,5 +45,6 @@ variants:
     finish: reverse-holo
   next-destinies-blister:
     finish: holo
+    foilPattern: cracked-ice
     products:
       - pokemon-product-next-destinies-gigalith-blister

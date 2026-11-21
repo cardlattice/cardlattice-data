@@ -19,5 +19,6 @@ variants:
     finish: reverse-holo
   player-rewards:
     finish: reverse-holo
+    foilPattern: crosshatch
     stamps:
       - pokemon-league

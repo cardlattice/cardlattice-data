@@ -46,9 +46,11 @@ variants:
     finish: reverse-holo
   next-destinies-blister:
     finish: holo
+    foilPattern: cracked-ice
     products:
       - pokemon-product-next-destinies-beartic-blister
   water-gym-pack:
     finish: holo
+    foilPattern: cosmos
     products:
       - pokemon-product-water-gym-collector-pack

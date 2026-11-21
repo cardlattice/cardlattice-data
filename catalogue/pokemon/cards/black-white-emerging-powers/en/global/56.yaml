@@ -44,5 +44,6 @@ variants:
     finish: reverse-holo
   dragons-exalted-blister:
     finish: holo
+    foilPattern: cosmos
     products:
       - pokemon-product-dragons-exalted-excadrill-blister
