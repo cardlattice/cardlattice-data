@@ -28,7 +28,8 @@ pokemon:
   species: Rock Inn Pokémon
   heightMetres: 0.3048
   weightKilograms: 14.51495584
-  flavourText: It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.
+  flavourText: It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated
+    until it locates a replacement.
   resistances: []
 finishes:
   - non-holo

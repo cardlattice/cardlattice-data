@@ -30,7 +30,8 @@ pokemon:
   species: EleSpider Pokémon
   heightMetres: 0.7874
   weightKilograms: 14.288159655
-  flavourText: They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.
+  flavourText: They employ an electrically charged web to trap their prey. While it is immobilized by
+    shock, they leisurely consume it.
   resistances: []
 finishes:
   - non-holo

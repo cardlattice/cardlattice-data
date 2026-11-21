@@ -46,17 +46,21 @@ variants:
     finish: reverse-holo
     stamps:
       - regional-championships
+    foilPattern: crosshatch
   regional-championships-staff:
     finish: reverse-holo
     stamps:
       - regional-championships
       - staff
+    foilPattern: crosshatch
   state-province-territory-championships:
     finish: reverse-holo
     stamps:
       - state-province-territory-championships
+    foilPattern: crosshatch
   state-province-territory-championships-staff:
     finish: reverse-holo
     stamps:
       - state-province-territory-championships
       - staff
+    foilPattern: crosshatch

@@ -34,7 +34,8 @@ pokemon:
   species: Moonlight Pokémon
   heightMetres: 0.9906
   weightKilograms: 26.988746015
-  flavourText: When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.
+  flavourText: When exposed to the moon's aura, the rings on its body glow faintly and it gains a
+    mysterious power.
 finishes:
   - non-holo
   - reverse-holo

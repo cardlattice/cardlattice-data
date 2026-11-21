@@ -32,7 +32,8 @@ pokemon:
   species: Sharp Blade Pokémon
   heightMetres: 0.508
   weightKilograms: 10.205828325
-  flavourText: They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.
+  flavourText: They fight at Bisharp's command. They cling to their prey and inflict damage by sinking
+    their blades into it.
 finishes:
   - non-holo
   - reverse-holo

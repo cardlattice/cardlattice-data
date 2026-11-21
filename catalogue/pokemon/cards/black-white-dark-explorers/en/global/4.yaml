@@ -40,18 +40,22 @@ variants:
     stamps:
       - pokemon-league
       - 1st-place
+    foilPattern: crosshatch
   pokemon-league-2nd-place:
     finish: reverse-holo
     stamps:
       - pokemon-league
       - 2nd-place
+    foilPattern: crosshatch
   pokemon-league-3rd-place:
     finish: reverse-holo
     stamps:
       - pokemon-league
       - 3rd-place
+    foilPattern: crosshatch
   pokemon-league-4th-place:
     finish: reverse-holo
     stamps:
       - pokemon-league
       - 4th-place
+    foilPattern: crosshatch

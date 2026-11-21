@@ -16,7 +16,8 @@ pokemon:
     - name: Tag Draw
       cost:
         - Colorless
-      text: Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards.
+      text: Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more
+        cards.
     - name: Positive Ion
       cost:
         - Lightning

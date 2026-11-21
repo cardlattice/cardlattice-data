@@ -27,13 +27,15 @@ pokemon:
         - Lightning
         - Colorless
         - Colorless
-      text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60 damage to the new Defending Pokémon.
+      text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60
+        damage to the new Defending Pokémon.
   nationalDex:
     - 604
   species: EleFish Pokémon
   heightMetres: 2.1082
   weightKilograms: 80.512645675
-  flavourText: With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.
+  flavourText: With their sucker mouths, they suck in prey. Then they use their fangs to shock the
+    prey with electricity.
   resistances: []
 finishes:
   - holo

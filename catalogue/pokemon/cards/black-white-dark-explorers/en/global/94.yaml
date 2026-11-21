@@ -12,3 +12,13 @@ pokemon:
 finishes:
   - non-holo
   - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  pokemon-league:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league
+    foilPattern: mirror

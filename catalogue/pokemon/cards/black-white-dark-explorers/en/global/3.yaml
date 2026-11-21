@@ -19,7 +19,8 @@ pokemon:
   abilities:
     - name: Floral Scent
       kind: Ability
-      text: Once during your turn (before your attack), you may search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+      text: Once during your turn (before your attack), you may search your deck for a Pokémon, reveal it,
+        and put it into your hand. Shuffle your deck afterward.
   attacks:
     - name: Poison Powder
       cost:
@@ -38,3 +39,13 @@ pokemon:
 finishes:
   - holo
   - reverse-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-xy-kanto-two-pack-blister

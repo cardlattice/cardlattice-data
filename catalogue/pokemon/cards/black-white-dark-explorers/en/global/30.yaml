@@ -30,7 +30,8 @@ pokemon:
   species: Fresh Snow Pokémon
   heightMetres: 0.7874
   weightKilograms: 25.900124327
-  flavourText: By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.
+  flavourText: By controlling its body heat, it can freeze the atmosphere around it to make a
+    diamond-dust flurry.
   resistances: []
 finishes:
   - non-holo

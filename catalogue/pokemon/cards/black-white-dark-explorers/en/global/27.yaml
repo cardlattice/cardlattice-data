@@ -23,7 +23,8 @@ pokemon:
   species: Penguin Pokémon
   heightMetres: 0.4064
   weightKilograms: 5.216312255
-  flavourText: A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.
+  flavourText: A poor walker, it often falls down. However, its strong pride makes it puff up its
+    chest without a care.
   resistances: []
 finishes:
   - non-holo

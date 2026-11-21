@@ -34,7 +34,19 @@ pokemon:
   species: Illusion Fox Pokémon
   heightMetres: 1.6002
   weightKilograms: 81.102315756
-  flavourText: Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.
+  flavourText: Bonds between these Pokémon are very strong. It protects the safety of its pack by
+    tricking its opponents.
 finishes:
   - non-holo
   - reverse-holo
+  - holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  cracked-ice-holo:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-dark-explorers-shadows-theme-deck

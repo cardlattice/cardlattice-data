@@ -37,7 +37,23 @@ pokemon:
   species: Intimidation Pokémon
   heightMetres: 1.4986
   weightKilograms: 96.297660151
-  flavourText: They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.
+  flavourText: They never allow prey to escape. Their jaws are so powerful, they can crush the body of
+    an automobile.
 finishes:
   - holo
   - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo
+    products:
+      - pokemon-product-dark-explorers-raiders-theme-deck
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-plasma-blast-krookodile-blister

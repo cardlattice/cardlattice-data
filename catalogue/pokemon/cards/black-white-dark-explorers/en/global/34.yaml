@@ -30,7 +30,8 @@ pokemon:
   species: Icy Snow Pokémon
   heightMetres: 1.0922
   weightKilograms: 41.004750248
-  flavourText: Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.
+  flavourText: Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to
+    southern areas.
   resistances: []
 finishes:
   - non-holo

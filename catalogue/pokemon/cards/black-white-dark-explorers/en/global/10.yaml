@@ -24,7 +24,8 @@ pokemon:
   species: Snail Pokémon
   heightMetres: 0.4064
   weightKilograms: 7.71107029
-  flavourText: When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.
+  flavourText: When attacked, it defends itself by closing the lid of its shell. It can spit a sticky,
+    poisonous liquid.
   resistances: []
 finishes:
   - non-holo

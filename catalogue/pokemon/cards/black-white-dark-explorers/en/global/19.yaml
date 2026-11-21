@@ -30,7 +30,8 @@ pokemon:
   species: Anteater Pokémon
   heightMetres: 1.397
   weightKilograms: 58.014464123
-  flavourText: Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.
+  flavourText: Using their very hot, flame-covered tongues, they burn through Durant's steel bodies
+    and consume their insides.
   resistances: []
 finishes:
   - non-holo

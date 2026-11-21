@@ -22,7 +22,8 @@ pokemon:
   species: Attaching Pokémon
   heightMetres: 0.1016
   weightKilograms: 0.589670081
-  flavourText: They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.
+  flavourText: They attach themselves to large-bodied Pokémon and absorb static electricity, which
+    they store in an electric pouch.
   resistances: []
 finishes:
   - non-holo

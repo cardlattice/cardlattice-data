@@ -23,13 +23,15 @@ pokemon:
         - Colorless
         - Colorless
       damage: "50"
-      text: The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon and all cards attached to it into your deck.
+      text: The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon and all cards
+        attached to it into your deck.
   nationalDex:
     - 617
   species: Shell Out Pokémon
   heightMetres: 0.7874
   weightKilograms: 25.310454246
-  flavourText: When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.
+  flavourText: When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in
+    many layers of thin membrane.
   resistances: []
 finishes:
   - non-holo

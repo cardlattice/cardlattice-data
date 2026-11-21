@@ -35,7 +35,8 @@ pokemon:
   species: Seed Pokémon
   heightMetres: 0.9906
   weightKilograms: 13.018101019
-  flavourText: When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.
+  flavourText: When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's
+    coming bloom.
 finishes:
   - non-holo
   - reverse-holo

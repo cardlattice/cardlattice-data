@@ -16,7 +16,8 @@ pokemon:
   abilities:
     - name: Diving Draw
       kind: Ability
-      text: Once during your turn (before your attack), you may discard a card from your hand. If you do, draw 2 cards.
+      text: Once during your turn (before your attack), you may discard a card from your hand. If you do,
+        draw 2 cards.
   attacks:
     - name: Attack Command
       cost:
@@ -28,8 +29,17 @@ pokemon:
   species: Emperor Pokémon
   heightMetres: 1.7018
   weightKilograms: 84.504258531
-  flavourText: If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.
+  flavourText: If anyone were to hurt its pride, it would slash them with wings that can cleave
+    through an ice floe.
   resistances: []
 finishes:
   - holo
   - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo

@@ -43,3 +43,4 @@ variants:
   build-a-bear-workshop:
     stamps:
       - build-a-bear-workshop
+    finish: non-holo

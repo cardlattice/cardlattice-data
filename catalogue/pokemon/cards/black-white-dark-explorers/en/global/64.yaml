@@ -19,7 +19,8 @@ pokemon:
     - name: Sand Dive
       cost:
         - Colorless
-      text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.
+      text: Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your
+        opponent's next turn.
     - name: Corkscrew Punch
       cost:
         - Darkness
@@ -31,7 +32,8 @@ pokemon:
   species: Desert Croc Pokémon
   heightMetres: 0.7112
   weightKilograms: 15.195344395
-  flavourText: They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.
+  flavourText: They live buried in the sands of the desert. The sun-warmed sands prevent their body
+    temperature from dropping.
 finishes:
   - non-holo
   - reverse-holo

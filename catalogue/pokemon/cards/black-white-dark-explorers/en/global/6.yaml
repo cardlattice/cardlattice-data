@@ -33,7 +33,8 @@ pokemon:
   species: Verdant Pokémon
   heightMetres: 0.9906
   weightKilograms: 25.491891194
-  flavourText: It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.
+  flavourText: It basically does not fight. With cells similar to those of plants, it can perform
+    photosynthesis.
 finishes:
   - non-holo
   - reverse-holo

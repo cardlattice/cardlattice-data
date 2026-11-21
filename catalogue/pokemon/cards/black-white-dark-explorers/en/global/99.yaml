@@ -7,7 +7,8 @@ pokemon:
   subtypes:
     - Item
   rules:
-    - Reveal cards from the top of your deck until you reveal a Supporter card. Put it into your hand. Shuffle the other cards back into your deck.
+    - Reveal cards from the top of your deck until you reveal a Supporter card. Put it into your
+      hand. Shuffle the other cards back into your deck.
     - You may play as many Item cards as you like during your turn (before your attack).
 finishes:
   - non-holo

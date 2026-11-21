@@ -30,7 +30,8 @@ pokemon:
   species: Muscular Pokémon
   heightMetres: 1.1938
   weightKilograms: 40.006847034
-  flavourText: They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
+  flavourText: They strengthen their bodies by carrying steel beams. They show off their big muscles
+    to their friends.
   resistances: []
 finishes:
   - non-holo

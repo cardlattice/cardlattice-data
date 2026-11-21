@@ -24,7 +24,8 @@ pokemon:
   species: Torch Pokémon
   heightMetres: 1.0922
   weightKilograms: 28.803115495
-  flavourText: The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
+  flavourText: The base of volcanoes is where they make their homes. They shoot fire from their five
+    horns to repel attacking enemies.
   resistances: []
 finishes:
   - non-holo

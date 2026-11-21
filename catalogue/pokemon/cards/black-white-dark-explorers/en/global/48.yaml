@@ -45,8 +45,10 @@ variants:
     finish: reverse-holo
     stamps:
       - national-championships
+    foilPattern: crosshatch
   national-championships-staff:
     finish: reverse-holo
     stamps:
       - national-championships
       - staff
+    foilPattern: crosshatch

@@ -1,5 +1,5 @@
 name: Gardevoir
-rarity: Shiny Rare
+rarity: ★ (silver)
 illustrators:
   - 5ban Graphics
 pokemon:
@@ -16,7 +16,8 @@ pokemon:
   abilities:
     - name: Psychic Mirage
       kind: Ability
-      text: Each basic Psychic Energy attached to your Psychic Pokémon provides {Psychic}{Psychic} Energy. You can't apply more than 1 Psychic Mirage Ability at a time.
+      text: Each basic Psychic Energy attached to your Psychic Pokémon provides {Psychic}{Psychic} Energy.
+        You can't apply more than 1 Psychic Mirage Ability at a time.
   attacks:
     - name: Mind Shock
       cost:

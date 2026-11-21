@@ -49,8 +49,10 @@ variants:
     finish: reverse-holo
     stamps:
       - regional-championships
+    foilPattern: crosshatch
   regional-championships-staff:
     finish: reverse-holo
     stamps:
       - regional-championships
       - staff
+    foilPattern: crosshatch

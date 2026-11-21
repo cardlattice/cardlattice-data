@@ -37,7 +37,8 @@ pokemon:
   species: Subterrene Pokémon
   heightMetres: 0.7112
   weightKilograms: 40.415080167
-  flavourText: It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.
+  flavourText: It can help in tunnel construction. Its drill has evolved into steel strong enough to
+    bore through iron plates.
 finishes:
   - non-holo
   - reverse-holo

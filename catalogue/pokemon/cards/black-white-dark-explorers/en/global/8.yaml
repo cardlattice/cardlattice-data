@@ -25,13 +25,15 @@ pokemon:
         - Colorless
         - Colorless
       damage: "70"
-      text: Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+      text: Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon.
+        (Don't apply Weakness and Resistance for Benched Pokémon.)
   nationalDex:
     - 558
   species: Stone Home Pokémon
   heightMetres: 1.397
   weightKilograms: 199.988875933
-  flavourText: It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.
+  flavourText: It possesses legs of enormous strength, enabling it to carry heavy slabs for many days,
+    even when crossing arid land.
   resistances: []
 finishes:
   - non-holo

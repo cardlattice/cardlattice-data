@@ -27,7 +27,8 @@ pokemon:
   species: Water Bird Pokémon
   heightMetres: 0.508
   weightKilograms: 5.488467677
-  flavourText: These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.
+  flavourText: These bird Pokémon are excellent divers. They swim around in the water eating their
+    favorite food—peat moss.
 finishes:
   - non-holo
   - reverse-holo

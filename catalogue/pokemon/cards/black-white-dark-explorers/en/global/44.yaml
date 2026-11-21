@@ -23,7 +23,8 @@ pokemon:
   species: EleFish Pokémon
   heightMetres: 0.2032
   weightKilograms: 0.317514659
-  flavourText: These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.
+  flavourText: These Pokémon move in schools. They have an electricity-generating organ, so they
+    discharge electricity if in danger.
   resistances: []
 finishes:
   - non-holo

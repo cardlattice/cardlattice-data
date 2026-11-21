@@ -27,7 +27,17 @@ pokemon:
   species: Shedding Pokémon
   heightMetres: 0.6096
   weightKilograms: 11.79340162
-  flavourText: Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.
+  flavourText: Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its
+    skin up to its neck.
 finishes:
   - non-holo
   - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  energy-symbol-reverse-holo:
+    finish: reverse-holo
+    foilPattern: energy-symbol
+  mirror-reverse-holo:
+    finish: reverse-holo
+    foilPattern: mirror

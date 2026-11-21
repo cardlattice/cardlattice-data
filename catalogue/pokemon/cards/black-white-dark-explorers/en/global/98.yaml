@@ -21,3 +21,4 @@ variants:
     finish: reverse-holo
     stamps:
       - professor-program
+    foilPattern: crosshatch

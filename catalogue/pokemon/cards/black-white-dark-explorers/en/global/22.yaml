@@ -24,13 +24,15 @@ pokemon:
         - Colorless
         - Colorless
       damage: "70"
-      text: You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.
+      text: You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now
+        Burned.
   nationalDex:
     - 637
   species: Sun Pokémon
   heightMetres: 1.6002
   weightKilograms: 45.994266318
-  flavourText: A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.
+  flavourText: A sea of fire engulfs the surroundings of their battles, since they use their six wings
+    to scatter their ember scales.
   resistances: []
 finishes:
   - holo

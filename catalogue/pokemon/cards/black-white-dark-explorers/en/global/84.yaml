@@ -41,8 +41,10 @@ variants:
     finish: reverse-holo
     stamps:
       - city-championships
+    foilPattern: crosshatch
   city-championships-staff:
     finish: reverse-holo
     stamps:
       - city-championships
       - staff
+    foilPattern: crosshatch

@@ -26,7 +26,8 @@ pokemon:
   species: Diapered Pokémon
   heightMetres: 0.508
   weightKilograms: 8.981128926
-  flavourText: Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.
+  flavourText: Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it
+    discards the bones it was wearing.
 finishes:
   - non-holo
   - reverse-holo

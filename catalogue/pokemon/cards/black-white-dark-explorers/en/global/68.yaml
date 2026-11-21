@@ -34,7 +34,8 @@ pokemon:
   species: Hoodlum Pokémon
   heightMetres: 1.0922
   weightKilograms: 29.982455657
-  flavourText: Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.
+  flavourText: Groups of them beat up anything that enters their territory. Each can spit acidic
+    liquid from its mouth.
 finishes:
   - non-holo
   - reverse-holo

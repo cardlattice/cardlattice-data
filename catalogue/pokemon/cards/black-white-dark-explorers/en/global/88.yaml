@@ -28,13 +28,15 @@ pokemon:
         - Colorless
         - Colorless
       damage: "60"
-      text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+      text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is
+        reduced by 30 (before applying Weakness and Resistance).
   nationalDex:
     - 508
   species: Big-Hearted Pokémon
   heightMetres: 1.1938
   weightKilograms: 61.008173765
-  flavourText: It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.
+  flavourText: It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it
+    from the cold.
   resistances: []
 finishes:
   - non-holo

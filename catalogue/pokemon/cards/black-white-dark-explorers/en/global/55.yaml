@@ -26,7 +26,8 @@ pokemon:
   species: Mole Pokémon
   heightMetres: 0.3048
   weightKilograms: 8.482177319
-  flavourText: It makes its way swiftly through the soil by putting both claws together and rotating at high speed.
+  flavourText: It makes its way swiftly through the soil by putting both claws together and rotating
+    at high speed.
 finishes:
   - non-holo
   - reverse-holo

@@ -16,7 +16,8 @@ pokemon:
   abilities:
     - name: Softboiled
       kind: Ability
-      text: Once during your turn (before your attack), you may flip a coin. If heads, heal 30 damage from your Active Pokémon.
+      text: Once during your turn (before your attack), you may flip a coin. If heads, heal 30 damage from
+        your Active Pokémon.
   attacks:
     - name: Double-Edge
       cost:
@@ -35,3 +36,11 @@ pokemon:
 finishes:
   - holo
   - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo

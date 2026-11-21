@@ -16,11 +16,13 @@ pokemon:
     - name: Negative Ion
       cost:
         - Colorless
-      text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+      text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is
+        reduced by 30 (before applying Weakness and Resistance).
     - name: Electrishower
       cost:
         - Lightning
-      text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+      text: This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and
+        Resistance for Benched Pokémon.)
   nationalDex:
     - 312
   species: Cheering Pokémon
