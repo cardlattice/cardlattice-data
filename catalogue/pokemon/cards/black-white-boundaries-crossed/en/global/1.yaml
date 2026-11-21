@@ -1,0 +1,28 @@
+name: Oddish
+rarity: Common
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Absorb
+      cost:
+        - Grass
+      damage: "10"
+      text: Heal 10 damage from this Pokémon.
+    - name: Acid
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
