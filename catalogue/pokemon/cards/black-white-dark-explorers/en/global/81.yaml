@@ -1,0 +1,14 @@
+name: Chansey
+rarity: Common
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2

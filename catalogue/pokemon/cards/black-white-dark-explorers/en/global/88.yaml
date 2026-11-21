@@ -1,0 +1,15 @@
+name: Stoutland
+rarity: Rare
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Herdier
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3

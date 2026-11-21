@@ -1,0 +1,14 @@
+name: Karrablast
+rarity: Common
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

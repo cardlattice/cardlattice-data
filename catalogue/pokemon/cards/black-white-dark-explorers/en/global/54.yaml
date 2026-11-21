@@ -1,0 +1,18 @@
+name: Groudon-EX
+illustrators:
+  - Shizurow
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 4

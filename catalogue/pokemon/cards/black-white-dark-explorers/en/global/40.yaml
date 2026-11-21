@@ -1,0 +1,14 @@
+name: Minun
+rarity: Common
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

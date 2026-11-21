@@ -1,0 +1,17 @@
+name: Woobat
+rarity: Common
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1

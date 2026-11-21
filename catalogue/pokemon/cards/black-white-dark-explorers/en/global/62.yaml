@@ -1,0 +1,11 @@
+name: Sableye
+rarity: Uncommon
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  retreatCost: 1

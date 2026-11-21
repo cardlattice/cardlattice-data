@@ -1,0 +1,15 @@
+name: Eelektross
+rarity: Rare
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 2
+  evolvesFrom: Eelektrik
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3

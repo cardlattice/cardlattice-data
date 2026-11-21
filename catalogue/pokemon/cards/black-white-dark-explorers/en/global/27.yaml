@@ -1,0 +1,14 @@
+name: Piplup
+rarity: Common
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 1

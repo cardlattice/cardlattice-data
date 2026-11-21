@@ -1,0 +1,12 @@
+name: Haxorus
+rarity: Rare
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Fraxure
+  retreatCost: 3

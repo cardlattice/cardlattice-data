@@ -1,0 +1,17 @@
+name: Chatot
+rarity: Uncommon
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1

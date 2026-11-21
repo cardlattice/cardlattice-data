@@ -1,0 +1,8 @@
+name: Rare Candy
+rarity: Uncommon
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: trainer
+  subtypes:
+    - Item

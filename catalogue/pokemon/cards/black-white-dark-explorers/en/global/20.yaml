@@ -1,0 +1,14 @@
+name: Larvesta
+rarity: Common
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3

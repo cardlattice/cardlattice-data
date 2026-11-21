@@ -1,0 +1,15 @@
+name: Blaziken
+rarity: Rare
+illustrators:
+  - TOKIYA
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: Combusken
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2

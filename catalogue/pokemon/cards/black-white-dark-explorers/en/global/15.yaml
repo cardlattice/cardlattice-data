@@ -1,0 +1,14 @@
+name: Torchic
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1

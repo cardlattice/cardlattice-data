@@ -1,0 +1,14 @@
+name: Joltik
+rarity: Common
+illustrators:
+  - Miki Tanaka
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

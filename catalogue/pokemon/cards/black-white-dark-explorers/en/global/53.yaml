@@ -1,0 +1,14 @@
+name: Aerodactyl
+rarity: Rare
+illustrators:
+  - Naoyo Kimura
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Restored
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1

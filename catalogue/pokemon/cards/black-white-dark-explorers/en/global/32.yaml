@@ -1,0 +1,15 @@
+name: Palpitoad
+rarity: Uncommon
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Tympole
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2

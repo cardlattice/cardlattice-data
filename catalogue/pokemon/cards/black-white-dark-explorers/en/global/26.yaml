@@ -1,0 +1,15 @@
+name: Kyogre-EX
+illustrators:
+  - Shizurow
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 4

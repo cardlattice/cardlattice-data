@@ -1,0 +1,15 @@
+name: Vaporeon
+rarity: Uncommon
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2

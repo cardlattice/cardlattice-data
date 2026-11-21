@@ -1,0 +1,17 @@
+name: Vullaby
+rarity: Uncommon
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1

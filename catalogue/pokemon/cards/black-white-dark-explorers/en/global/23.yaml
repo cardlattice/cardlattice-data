@@ -1,0 +1,14 @@
+name: Slowpoke
+rarity: Common
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 3

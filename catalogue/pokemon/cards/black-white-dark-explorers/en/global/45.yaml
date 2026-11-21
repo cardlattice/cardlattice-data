@@ -1,0 +1,14 @@
+name: Tynamo
+rarity: Common
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

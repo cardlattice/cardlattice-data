@@ -1,0 +1,14 @@
+name: Vanillite
+rarity: Common
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1

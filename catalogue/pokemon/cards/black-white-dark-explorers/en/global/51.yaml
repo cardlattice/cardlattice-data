@@ -1,0 +1,14 @@
+name: Yamask
+rarity: Uncommon
+illustrators:
+  - Aya Kusube
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 1

@@ -1,0 +1,15 @@
+name: Cofagrigus
+rarity: Rare
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Yamask
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 2

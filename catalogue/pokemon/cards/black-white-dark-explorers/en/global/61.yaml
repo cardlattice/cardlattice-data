@@ -1,0 +1,18 @@
+name: Umbreon
+rarity: Uncommon
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

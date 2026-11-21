@@ -1,0 +1,16 @@
+name: Entei-EX
+rarity: Ultra Rare
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3

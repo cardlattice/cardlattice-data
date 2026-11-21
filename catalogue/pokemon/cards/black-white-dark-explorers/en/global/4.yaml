@@ -1,0 +1,14 @@
+name: Scyther
+rarity: Uncommon
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

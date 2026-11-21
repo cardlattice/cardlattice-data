@@ -1,0 +1,15 @@
+name: Espeon
+rarity: Rare
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

@@ -1,0 +1,15 @@
+name: Raikou-EX
+illustrators:
+  - shizurow
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Lightning
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

@@ -1,0 +1,14 @@
+name: Shelmet
+rarity: Common
+illustrators:
+  - Shigenori Negishi
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3

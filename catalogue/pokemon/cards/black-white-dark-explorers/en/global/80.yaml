@@ -1,0 +1,14 @@
+name: Chansey
+rarity: Common
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3

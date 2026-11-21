@@ -1,0 +1,18 @@
+name: Krookodile
+rarity: Rare
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Darkness
+  stage: Stage 2
+  evolvesFrom: Krokorok
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3

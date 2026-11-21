@@ -1,0 +1,14 @@
+name: Eevee
+rarity: Common
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

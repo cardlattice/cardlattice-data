@@ -1,0 +1,14 @@
+name: Lillipup
+rarity: Common
+illustrators:
+  - Kyoko Umemoto
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

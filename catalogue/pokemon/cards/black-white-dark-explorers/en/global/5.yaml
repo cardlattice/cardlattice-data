@@ -1,0 +1,17 @@
+name: Carnivine
+rarity: Rare
+illustrators:
+  - Yukiko Baba
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 2

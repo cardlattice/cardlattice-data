@@ -1,0 +1,14 @@
+name: Torkoal
+rarity: Uncommon
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2

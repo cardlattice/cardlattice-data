@@ -1,0 +1,15 @@
+name: Entei-EX
+illustrators:
+  - shizurow
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3

@@ -1,0 +1,14 @@
+name: Torchic
+rarity: Common
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1

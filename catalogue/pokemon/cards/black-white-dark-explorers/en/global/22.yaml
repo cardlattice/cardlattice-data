@@ -1,0 +1,15 @@
+name: Volcarona
+rarity: Rare
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Larvesta
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3

@@ -1,0 +1,15 @@
+name: Eelektrik
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Tynamo
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2

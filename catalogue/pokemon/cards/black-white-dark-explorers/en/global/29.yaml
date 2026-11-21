@@ -1,0 +1,15 @@
+name: Empoleon
+rarity: Rare
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Prinplup
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2

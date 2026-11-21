@@ -1,0 +1,18 @@
+name: Leafeon
+rarity: Rare
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1

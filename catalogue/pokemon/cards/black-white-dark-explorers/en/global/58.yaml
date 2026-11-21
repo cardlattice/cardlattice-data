@@ -1,0 +1,14 @@
+name: Timburr
+rarity: Common
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

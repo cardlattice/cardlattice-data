@@ -1,0 +1,17 @@
+name: Sandile
+rarity: Common
+illustrators:
+  - Hajime Kusajima
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

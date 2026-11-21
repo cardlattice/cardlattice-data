@@ -1,0 +1,17 @@
+name: Zorua
+rarity: Common
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
