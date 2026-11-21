@@ -46,26 +46,6 @@ generated automatically. Existing semantic keys remain unchanged by this layout.
    reviews the correction before merging.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for adding cards, sets and shared identities.
-The English set scaffold covers main and special expansions, Black Star promos,
-McDonald's and POP sets, separately numbered Trainer Kit halves, Classic decks,
-basic Energy sets and miscellaneous numbered promotional sets known on
-2026-11-21. It includes the announced Mega Evolution—Flowing Fists expansion.
-New placeholders record names, English language and expansion series where
-applicable; they contain no cards or inferred printing defaults. Existing set
-keys and cards are preserved. English Shining Legends and Pokémon GO have
-`-en` keys because the existing keys represent differently numbered Japanese sets.
-
-The scope was checked against the
-[English expansion list](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions),
-[Trainer Kit releases](https://bulbapedia.bulbagarden.net/wiki/Deck#Trainer_Kit)
-and [Pokémon's release schedule](https://press.pokemon.com/en/Items/Schedule/Pokemon-Trading-Card-Game?types=3).
-This is a set scaffold, not a third-party card catalogue import. Reprint-only
-distributions such as Prize Packs, Trick or Trade and World Championship decks
-belong to products/collections under the catalogue's existing model, rather
-than new printing sets. Subsets such as Trainer Galleries stay within their
-parent expansion. Regional dates, printed codes and card details can be added
-when verified for each release.
-
 YAML comments are welcome. Unknown fields, duplicate keys, anchors, aliases and
 merge keys fail validation. Data files cannot execute code.
 
