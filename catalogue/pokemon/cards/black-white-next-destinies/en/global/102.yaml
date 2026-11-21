@@ -35,3 +35,5 @@
   "abilities": []
 "finishes":
   - "holo"
+"printingErrors":
+  - "stage-2-evolution-frame"
