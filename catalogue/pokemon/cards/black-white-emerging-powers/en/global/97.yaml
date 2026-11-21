@@ -26,3 +26,5 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  flavourText: The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
+  resistances: []

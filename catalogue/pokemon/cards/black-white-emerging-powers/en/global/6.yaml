@@ -26,3 +26,10 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 541
+  species: Leaf-Wrapped Pokémon
+  heightMetres: 0.508
+  weightKilograms: 7.30283716
+  flavourText: Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.
+  resistances: []

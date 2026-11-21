@@ -24,3 +24,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  nationalDex:
+    - 597
+  species: Thorn Seed Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 18.77872412
+  flavourText: When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.

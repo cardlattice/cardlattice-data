@@ -28,3 +28,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 511
+  species: Grass Monkey Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 10.47798375
+  flavourText: This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.

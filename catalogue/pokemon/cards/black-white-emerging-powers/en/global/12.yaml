@@ -31,3 +31,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 547
+  species: Windveiled Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 6.6224486
+  flavourText: Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.

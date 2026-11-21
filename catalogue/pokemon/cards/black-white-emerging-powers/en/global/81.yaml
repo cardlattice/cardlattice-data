@@ -31,3 +31,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 520
+  species: Wild Pigeon Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 15.01390745
+  flavourText: Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.

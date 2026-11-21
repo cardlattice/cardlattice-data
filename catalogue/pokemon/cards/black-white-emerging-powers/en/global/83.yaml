@@ -27,3 +27,10 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 531
+  species: Hearing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 30.98035887
+  flavourText: Its auditory sense is astounding. It has a radarlike ability to understand its surroundings through slight sounds.
+  resistances: []

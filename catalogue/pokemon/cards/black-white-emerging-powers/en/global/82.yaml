@@ -31,3 +31,18 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 0
+  nationalDex:
+    - 521
+  species: Proud Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 28.98455244
+  flavourText: Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  pokemon-league:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league

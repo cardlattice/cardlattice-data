@@ -32,3 +32,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 2
+  nationalDex:
+    - 586
+  species: Season Pokémon
+  heightMetres: 1.905
+  weightKilograms: 92.48748424
+  flavourText: The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.

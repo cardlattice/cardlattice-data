@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 illustrators:
   - Naoki Saito
 pokemon:
@@ -29,3 +30,28 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 4
+  nationalDex:
+    - 526
+  species: Compressed Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 259.99914648
+  flavourText: The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    products:
+      - pokemon-product-next-destinies-gigalith-blister
+  prerelease:
+    finish: holo
+    stamps:
+      - black-white-emerging-powers
+  prerelease-staff:
+    finish: holo
+    stamps:
+      - black-white-emerging-powers
+      - staff

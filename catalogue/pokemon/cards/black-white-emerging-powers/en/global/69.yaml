@@ -31,3 +31,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 630
+  species: Bone Vulture Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 39.50789543
+  flavourText: Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.

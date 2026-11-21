@@ -3,6 +3,7 @@ rarity: Common
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 illustrators:
   - Kagemaru Himeno
 pokemon:
@@ -26,3 +27,19 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 524
+  species: Mantle Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 18.00761709
+  flavourText: Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    products:
+      - pokemon-product-next-destinies-gigalith-blister

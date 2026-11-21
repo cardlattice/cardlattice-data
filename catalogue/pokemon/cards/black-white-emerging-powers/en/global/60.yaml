@@ -21,3 +21,10 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 551
+  species: Desert Croc Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 15.1953444
+  flavourText: They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.
+  resistances: []

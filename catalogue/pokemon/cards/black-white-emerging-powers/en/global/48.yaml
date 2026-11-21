@@ -28,3 +28,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 576
+  species: Astral Body Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 43.99845989
+  flavourText: They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.
+  resistances: []

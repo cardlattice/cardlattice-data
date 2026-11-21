@@ -27,3 +27,9 @@ pokemon:
     - type: Lightning
       value: "-20"
   retreatCost: 2
+  nationalDex:
+    - 529
+  species: Mole Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 8.48217732
+  flavourText: It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.

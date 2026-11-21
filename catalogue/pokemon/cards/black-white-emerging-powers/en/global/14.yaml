@@ -31,3 +31,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 549
+  species: Flowering Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 16.28396608
+  flavourText: Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.

@@ -32,3 +32,23 @@ pokemon:
     - type: Metal
       value: ×2
   retreatCost: 3
+  nationalDex:
+    - 614
+  species: Freezing Pokémon
+  heightMetres: 2.5908
+  weightKilograms: 259.99914648
+  flavourText: It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.
+  resistances: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    products:
+      - pokemon-product-next-destinies-beartic-blister
+  water-gym-pack:
+    finish: holo
+    products:
+      - pokemon-product-water-gym-collector-pack

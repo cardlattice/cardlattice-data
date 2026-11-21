@@ -29,3 +29,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 627
+  species: Eaglet Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.47798375
+  flavourText: They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.

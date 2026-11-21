@@ -31,3 +31,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  nationalDex:
+    - 571
+  species: Illusion Fox Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 81.10231576
+  flavourText: Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.

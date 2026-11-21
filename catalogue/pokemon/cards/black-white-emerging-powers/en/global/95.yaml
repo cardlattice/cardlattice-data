@@ -12,3 +12,12 @@ pokemon:
   rules:
     - Switch your opponent's Active Pokémon with 1 of his or her Benched Pokémon.
     - You may play as many Item cards as you like during your turn (before your attack).
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  player-rewards:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league

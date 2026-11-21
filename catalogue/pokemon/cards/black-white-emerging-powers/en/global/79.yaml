@@ -27,3 +27,10 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 505
+  species: Lookout Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 26.98874602
+  flavourText: When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.
+  resistances: []

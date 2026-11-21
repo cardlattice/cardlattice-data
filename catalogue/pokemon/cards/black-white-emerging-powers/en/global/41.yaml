@@ -29,3 +29,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 561
+  species: Avianoid Pokémon
+  heightMetres: 1.397
+  weightKilograms: 14.01600423
+  flavourText: The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.

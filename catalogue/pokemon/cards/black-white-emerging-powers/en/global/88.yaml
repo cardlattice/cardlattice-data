@@ -32,3 +32,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 628
+  species: Valiant Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 41.00475025
+  flavourText: The more scars they have, the more respect these brave soldiers of the sky get from their peers.

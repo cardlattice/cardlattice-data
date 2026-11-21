@@ -22,3 +22,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 538
+  species: Judo Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 55.51970609
+  flavourText: When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.
+  resistances: []

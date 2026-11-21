@@ -28,3 +28,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 627
+  species: Eaglet Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.47798375
+  flavourText: They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.

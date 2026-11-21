@@ -25,3 +25,9 @@ pokemon:
     - type: Lightning
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 529
+  species: Mole Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 8.48217732
+  flavourText: It makes its way swiftly through the soil by putting both claws together and rotating at high speed.

@@ -33,3 +33,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 581
+  species: White Bird Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 24.22183256
+  flavourText: It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes.

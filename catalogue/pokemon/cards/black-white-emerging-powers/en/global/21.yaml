@@ -31,3 +31,10 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 3
+  nationalDex:
+    - 555
+  species: Blazing Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 92.89571738
+  flavourText: Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.
+  resistances: []

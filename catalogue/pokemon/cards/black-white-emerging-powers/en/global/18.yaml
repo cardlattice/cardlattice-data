@@ -25,3 +25,10 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 513
+  species: High Temp Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 11.02229459
+  flavourText: This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600° F.
+  resistances: []

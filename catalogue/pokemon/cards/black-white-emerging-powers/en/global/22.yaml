@@ -25,3 +25,10 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 515
+  species: Spray Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 13.51705263
+  flavourText: It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.
+  resistances: []

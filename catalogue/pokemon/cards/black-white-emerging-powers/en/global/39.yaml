@@ -29,3 +29,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 3
+  nationalDex:
+    - 544
+  species: Curlipede Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 58.51341573
+  flavourText: It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.
+  resistances: []

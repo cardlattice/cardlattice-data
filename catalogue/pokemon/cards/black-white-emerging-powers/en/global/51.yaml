@@ -3,6 +3,7 @@ rarity: Uncommon
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 illustrators:
   - Kouki Saitou
 pokemon:
@@ -30,3 +31,19 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 3
+  nationalDex:
+    - 525
+  species: Ore Pokémon
+  heightMetres: 0.889
+  weightKilograms: 102.01292401
+  flavourText: When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    products:
+      - pokemon-product-next-destinies-gigalith-blister

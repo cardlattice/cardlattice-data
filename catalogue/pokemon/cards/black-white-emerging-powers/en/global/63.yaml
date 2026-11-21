@@ -28,3 +28,10 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 4
+  nationalDex:
+    - 639
+  species: Cavern Pokémon
+  heightMetres: 1.905
+  weightKilograms: 259.99914648
+  flavourText: This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.
+  resistances: []

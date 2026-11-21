@@ -22,3 +22,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 539
+  species: Karate Pokémon
+  heightMetres: 1.397
+  weightKilograms: 50.98378239
+  flavourText: Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.
+  resistances: []

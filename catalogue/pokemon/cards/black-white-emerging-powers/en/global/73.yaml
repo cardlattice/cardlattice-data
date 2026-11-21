@@ -21,7 +21,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      text: Does 10 damage for each Energy attached to this Pokémon to one of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+      text: Does 10 damage for each Energy attached to this Pokémon to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
   weaknesses:
     - type: Fire
       value: ×2
@@ -29,3 +29,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 3
+  nationalDex:
+    - 598
+  species: Thorn Pod Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 109.99614973
+  flavourText: It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.

@@ -20,3 +20,10 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 595
+  species: Attaching Pokémon
+  heightMetres: 0.1016
+  weightKilograms: 0.58967008
+  flavourText: Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.
+  resistances: []

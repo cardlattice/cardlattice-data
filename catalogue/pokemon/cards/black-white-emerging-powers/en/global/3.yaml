@@ -24,3 +24,10 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 540
+  species: Sewing Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 2.49475804
+  flavourText: Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.
+  resistances: []

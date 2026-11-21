@@ -28,3 +28,9 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 580
+  species: Water Bird Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.48846768
+  flavourText: When attacked, it uses its feathers to splash water, escaping under cover of the spray.

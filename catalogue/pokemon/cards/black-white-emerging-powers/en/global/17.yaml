@@ -32,3 +32,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 640
+  species: Grassland Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 199.98887593
+  flavourText: This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.

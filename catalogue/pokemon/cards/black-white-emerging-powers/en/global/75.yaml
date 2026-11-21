@@ -31,3 +31,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 600
+  species: Gear Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 50.98378239
+  flavourText: Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.

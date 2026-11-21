@@ -27,3 +27,10 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 573
+  species: Scarf Pokémon
+  heightMetres: 0.508
+  weightKilograms: 7.48427411
+  flavourText: Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.
+  resistances: []

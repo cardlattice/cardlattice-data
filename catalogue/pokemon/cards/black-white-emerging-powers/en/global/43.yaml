@@ -26,3 +26,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 574
+  species: Fixation Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.80598234
+  flavourText: Their ribbonlike feelers increase their psychic power. They are always staring at something.
+  resistances: []

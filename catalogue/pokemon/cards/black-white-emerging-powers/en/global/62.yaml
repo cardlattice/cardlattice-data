@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 illustrators:
   - Naoki Saito
 pokemon:
@@ -31,3 +32,18 @@ pokemon:
     - type: Lightning
       value: "-20"
   retreatCost: 3
+  nationalDex:
+    - 553
+  species: Intimidation Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 96.29766015
+  flavourText: They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  power-play:
+    finish: holo
+    products:
+      - pokemon-product-emerging-powers-power-play

@@ -24,3 +24,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 546
+  species: Cotton Puff Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 0.58967008
+  flavourText: When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.

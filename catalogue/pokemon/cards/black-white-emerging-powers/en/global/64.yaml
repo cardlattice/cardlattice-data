@@ -25,3 +25,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 509
+  species: Devious Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 10.11510985
+  flavourText: They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.

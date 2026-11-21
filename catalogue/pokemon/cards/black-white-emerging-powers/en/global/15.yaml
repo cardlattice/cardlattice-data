@@ -29,3 +29,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 585
+  species: Season Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 19.50447191
+  flavourText: The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.

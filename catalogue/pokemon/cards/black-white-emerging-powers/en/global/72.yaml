@@ -32,3 +32,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  nationalDex:
+    - 598
+  species: Thorn Pod Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 109.99614973
+  flavourText: They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.

@@ -32,3 +32,9 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 2
+  nationalDex:
+    - 512
+  species: Thorn Monkey Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 30.48140726
+  flavourText: Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.

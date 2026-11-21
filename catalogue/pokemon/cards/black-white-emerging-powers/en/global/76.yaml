@@ -32,3 +32,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 4
+  nationalDex:
+    - 601
+  species: Gear Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 81.01159728
+  flavourText: The gear with the red core is rotated at high speed for a rapid energy charge.

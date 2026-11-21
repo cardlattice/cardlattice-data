@@ -25,3 +25,10 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 540
+  species: Sewing Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 2.49475804
+  flavourText: This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.
+  resistances: []

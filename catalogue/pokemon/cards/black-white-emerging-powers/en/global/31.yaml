@@ -29,3 +29,10 @@ pokemon:
     - type: Metal
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 614
+  species: Freezing Pokémon
+  heightMetres: 2.5908
+  weightKilograms: 259.99914648
+  flavourText: It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.
+  resistances: []

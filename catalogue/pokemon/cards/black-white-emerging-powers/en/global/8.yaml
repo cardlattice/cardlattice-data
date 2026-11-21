@@ -28,3 +28,10 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 542
+  species: Nurturing Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 20.50237512
+  flavourText: It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.
+  resistances: []

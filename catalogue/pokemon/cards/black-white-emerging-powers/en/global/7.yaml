@@ -27,3 +27,10 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 542
+  species: Nurturing Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 20.50237512
+  flavourText: Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.
+  resistances: []

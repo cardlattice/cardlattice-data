@@ -31,3 +31,9 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 1
+  nationalDex:
+    - 510
+  species: Cruel Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 37.512089
+  flavourText: These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.

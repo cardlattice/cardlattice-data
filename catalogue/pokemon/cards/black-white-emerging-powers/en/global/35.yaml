@@ -27,3 +27,10 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 642
+  species: Bolt Strike Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 61.00817377
+  flavourText: The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
+  resistances: []

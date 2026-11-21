@@ -29,3 +29,10 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 3
+  nationalDex:
+    - 525
+  species: Ore Pokémon
+  heightMetres: 0.889
+  weightKilograms: 102.01292401
+  flavourText: Because its energy was too great to be contained, the energy leaked and formed orange crystals.
+  resistances: []

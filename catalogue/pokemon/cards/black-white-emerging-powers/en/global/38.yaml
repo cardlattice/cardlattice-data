@@ -25,3 +25,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 543
+  species: Centipede Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.30703073
+  flavourText: It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.
+  resistances: []

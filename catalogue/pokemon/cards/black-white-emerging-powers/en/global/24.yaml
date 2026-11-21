@@ -28,3 +28,10 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 1
+  nationalDex:
+    - 550
+  species: Hostile Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 18.00761709
+  flavourText: Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.
+  resistances: []

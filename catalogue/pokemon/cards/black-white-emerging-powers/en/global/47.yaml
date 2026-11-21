@@ -28,3 +28,10 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 2
+  nationalDex:
+    - 576
+  species: Astral Body Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 43.99845989
+  flavourText: Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.
+  resistances: []
