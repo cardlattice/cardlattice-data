@@ -22,3 +22,22 @@ pokemon:
   resistances: []
   retreatCost: 2
   evolvesFrom: Dark Ivysaur
+  # The adjacent printed ID Y-03 is not a National Pokédex number.
+  # The additionalNumbers schema cannot represent this identifier.
+  species: Seed Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 100.24391377
+  rules:
+    - Put Dark Venusaur on the Stage 1 card
+variants:
+  non-winner:
+    finish: non-holo
+    stamps: []
+  winner:
+    # Standard and jumbo Winner copies share this finish/stamp combination.
+    # The schema cannot distinguish their physical size or card stock.
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit

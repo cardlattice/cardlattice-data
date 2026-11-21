@@ -18,7 +18,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      damage: 10×
+      damage: "10×"
       text: Flip 4 coins. This attack does 10 damage times the number of heads.
   weaknesses:
     - type: Fighting
@@ -26,3 +26,18 @@ pokemon:
     - type: Psychic
       value: "-30"
   retreatCost: 1
+  species: Sharp Claw Pokémon
+  heightMetres: 0.889
+  weightKilograms: 28.12272694
+variants:
+  non-winner:
+    finish: non-holo
+    stamps: []
+  winner:
+    # Standard and jumbo Winner copies share this finish/stamp combination.
+    # The schema cannot distinguish their physical size or card stock.
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit

@@ -3,6 +3,7 @@ illustrators:
   - Ken Sugimori
 finishes:
   - reverse-holo
+  - non-holo
 pokemon:
   category: pokemon
   hp: 60
@@ -24,5 +25,22 @@ pokemon:
     - type: Psychic
   resistances: []
   retreatCost: 1
-stamps:
-  - winner
+  species: Punching Pokémon
+  heightMetres: 1.397
+  weightKilograms: 50.34875307
+  nationalDex:
+    - 107
+  level: 29
+variants:
+  winner:
+    finish: reverse-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit

@@ -3,6 +3,7 @@ illustrators:
   - Shin-ichi Yoshida
 finishes:
   - reverse-holo
+  - non-holo
 pokemon:
   category: pokemon
   hp: 70
@@ -31,5 +32,22 @@ pokemon:
     - type: Psychic
   resistances: []
   retreatCost: 2
-stamps:
-  - winner
+  species: Genetic Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 122.01634753
+  nationalDex:
+    - 150
+  level: 35
+variants:
+  winner:
+    finish: reverse-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit

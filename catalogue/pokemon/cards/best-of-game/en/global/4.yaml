@@ -1,6 +1,6 @@
 name: Rocket's Scizor
 illustrators:
-  - K. Hoshiba
+  - K Hoshiba
 finishes:
   - non-holo
 pokemon:
@@ -27,3 +27,18 @@ pokemon:
     - type: Grass
       value: "-30"
   retreatCost: 2
+  species: Scissors Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 117.9340162
+variants:
+  non-winner:
+    finish: non-holo
+    stamps: []
+  winner:
+    # Standard and jumbo Winner copies share this finish/stamp combination.
+    # The schema cannot distinguish their physical size or card stock.
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit

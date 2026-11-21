@@ -24,3 +24,22 @@ pokemon:
     - type: Psychic
   resistances: []
   retreatCost: 2
+  species: Punching Pokémon
+  heightMetres: 1.397
+  weightKilograms: 50.34875307
+  nationalDex:
+    - 107
+  level: 33
+  flavourText: While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.
+variants:
+  # Jumbo Hitmonchan prints 70 HP, not the standard card's 60 HP.
+  # Variant gameplay overrides are unsupported; that jumbo is not included.
+  non-winner:
+    finish: reverse-holo
+    stamps: []
+  winner:
+    finish: reverse-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
