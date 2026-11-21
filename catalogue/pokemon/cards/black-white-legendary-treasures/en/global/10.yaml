@@ -1,4 +1,32 @@
-name: "Sewaddle"
-rarity: "Common"
+name: Sewaddle
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Gnaw
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 540
+  species: Sewing Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 2.494758035
+  flavourText: Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.

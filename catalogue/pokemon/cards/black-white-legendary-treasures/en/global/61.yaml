@@ -1,4 +1,31 @@
-name: "Sableye"
-rarity: "Uncommon"
+name: Sableye
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Hiroki Asanuma
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Tight Jaw
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 302
+  species: Darkness Pokémon
+  heightMetres: 0.508
+  weightKilograms: 11.022294591
+  flavourText: It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.

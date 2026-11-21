@@ -1,3 +1,38 @@
-name: "White Kyurem-EX"
+name: White Kyurem-EX
 printedDenominator: 113
-finishes: [holo]
+finishes:
+  - holo
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Dragon Stream
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Flip a coin. If heads, attach a basic Energy card from your discard pile to this Pokémon.
+    - name: Ice Burn
+      cost:
+        - Fire
+        - Fire
+        - Water
+        - Colorless
+      damage: "150"
+      text: Discard 2 Fire Energy attached to this Pokémon. The Defending Pokémon is now Burned.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

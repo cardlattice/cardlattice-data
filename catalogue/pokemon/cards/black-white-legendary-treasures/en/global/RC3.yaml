@@ -1,2 +1,33 @@
-name: "Serperior"
-rarity: "Uncommon"
+name: Serperior
+rarity: Uncommon
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Servine
+  attacks:
+    - name: Solar Beam
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "80"
+  abilities:
+    - name: Royal Garden
+      kind: Ability
+      text: If this Pokémon has any Grass Energy attached to it, this Pokémon has no Retreat Cost.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 497
+  species: Regal Pokémon
+  heightMetres: 3.302
+  weightKilograms: 63.003980193
+  flavourText: It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.

@@ -1,4 +1,32 @@
-name: "Natu"
-rarity: "Common"
+name: Natu
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Peck
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 177
+  species: Tiny Bird Pokémon
+  heightMetres: 0.2032
+  weightKilograms: 1.995806428
+  flavourText: It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.

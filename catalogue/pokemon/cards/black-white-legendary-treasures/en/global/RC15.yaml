@@ -1,2 +1,32 @@
-name: "Teddiursa"
-rarity: "Common"
+name: Teddiursa
+rarity: Common
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Honey Snack
+      cost:
+        - Colorless
+      text: Heal 20 damage from this Pokémon.
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 216
+  species: Little Bear Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 8.799691978
+  flavourText: It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.

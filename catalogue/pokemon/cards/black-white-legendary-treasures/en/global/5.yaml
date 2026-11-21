@@ -1,4 +1,35 @@
-name: "Carnivine"
-rarity: "Uncommon"
+name: Carnivine
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - HIRON
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Ambush Bite
+      cost:
+        - Grass
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 20 more damage and discard an Energy attached to the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 455
+  species: Bug Catcher Pokémon
+  heightMetres: 1.397
+  weightKilograms: 26.988746015
+  flavourText: Using its tentacles to lash itself to trees, it lies in wait for prey, luring it close with sweet-smelling drool.

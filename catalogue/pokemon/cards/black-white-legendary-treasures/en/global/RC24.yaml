@@ -1,2 +1,28 @@
-name: "Mew-EX"
-rarity: "Ultra Rare"
+name: Mew-EX
+rarity: Ultra Rare
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Replace
+      cost:
+        - Psychic
+      text: Move as many Energy attached to your Pokémon to your other Pokémon in any way you like.
+  abilities:
+    - name: Versatile
+      kind: Ability
+      text: This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

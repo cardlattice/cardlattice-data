@@ -1,4 +1,35 @@
-name: "Minun"
-rarity: "Uncommon"
+name: Minun
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Negative Ion
+      cost:
+        - Colorless
+      text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).
+    - name: Electrishower
+      cost:
+        - Lightning
+      text: This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 312
+  species: Cheering Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.218409041
+  flavourText: It cheers on friends. If its friends are losing, its body lets off more and more sparks.

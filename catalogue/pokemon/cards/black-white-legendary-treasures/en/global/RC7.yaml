@@ -1,2 +1,33 @@
-name: "Pikachu"
-rarity: "Uncommon"
+name: Pikachu
+rarity: Uncommon
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Thundershock
+      cost:
+        - Lightning
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Tail Whap
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 25
+  species: Mouse Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.987419284
+  flavourText: It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.

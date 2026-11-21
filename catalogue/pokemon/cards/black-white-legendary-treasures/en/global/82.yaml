@@ -1,3 +1,39 @@
-name: "Excadrill-EX"
+name: Excadrill-EX
 printedDenominator: 113
-finishes: [holo]
+finishes:
+  - holo
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Dig Out
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Discard the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon.
+    - name: Break Ground
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 3
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

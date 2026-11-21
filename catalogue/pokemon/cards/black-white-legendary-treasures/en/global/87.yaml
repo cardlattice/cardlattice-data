@@ -1,4 +1,32 @@
-name: "Spiritomb"
-rarity: "Uncommon"
+name: Spiritomb
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Hexed Mirror
+      cost:
+        - Colorless
+      text: Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand.
+  abilities:
+    - name: Sealing Scream
+      kind: Ability
+      text: Each player can’t play any ACE SPEC cards from his or her hand.
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 442
+  species: Forbidden Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 108.000343297
+  flavourText: Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.

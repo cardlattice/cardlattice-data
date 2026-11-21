@@ -1,2 +1,29 @@
-name: "Purrloin"
-rarity: "Uncommon"
+name: Purrloin
+rarity: Uncommon
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Captivate
+      cost:
+        - Darkness
+      text: Flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 509
+  species: Devious Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 10.115109851
+  flavourText: Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.

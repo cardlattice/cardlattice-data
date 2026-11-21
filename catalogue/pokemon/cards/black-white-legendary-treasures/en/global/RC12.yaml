@@ -1,2 +1,35 @@
-name: "Stunfisk"
-rarity: "Uncommon"
+name: Stunfisk
+rarity: Uncommon
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Attract
+      cost:
+        - Fighting
+      text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+    - name: Mud-Slap
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "70"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 618
+  species: Trap Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 11.022294591
+  flavourText: When its opponent can’t be paralyzed, it contorts itself with unexpected speed and flops away.

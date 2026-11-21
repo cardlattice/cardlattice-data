@@ -1,2 +1,11 @@
-name: "Elesa"
-rarity: "Common"
+name: Elesa
+rarity: Common
+illustrators:
+  - Yusuke Ohmura
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - Search your deck for 3 Pokémon Tool cards, reveal them, and put them into your hand. Shuffle your deck afterward.
+    - You may play only 1 Supporter card during your turn (before your attack).

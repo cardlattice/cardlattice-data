@@ -1,4 +1,39 @@
-name: "Serperior"
-rarity: "Rare"
+name: Serperior
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - hatachu
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Servine
+  attacks:
+    - name: Leaf Tornado
+      cost:
+        - Grass
+        - Colorless
+      damage: "60"
+      text: Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.
+  abilities:
+    - name: Royal Heal
+      kind: Ability
+      text: At any time between turns, heal 10 damage from each of your Pokémon.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 497
+  species: Regal Pokémon
+  heightMetres: 3.302
+  weightKilograms: 63.003980193
+  flavourText: They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.

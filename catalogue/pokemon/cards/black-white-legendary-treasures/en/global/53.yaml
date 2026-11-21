@@ -1,4 +1,40 @@
-name: "Mewtwo"
-rarity: "Rare"
+name: Mewtwo
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Ayaka Yoshida
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Power Edge
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Psyslash
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: Discard 2 Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 150
+  species: Genetic Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 122.01634753
+  flavourText: A Pokémon created by recombining Mew’s genes. It’s said to have the most savage heart among Pokémon.

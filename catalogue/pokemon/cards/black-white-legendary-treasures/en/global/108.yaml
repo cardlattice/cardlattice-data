@@ -1,4 +1,40 @@
-name: "Tornadus"
-rarity: "Rare"
+name: Tornadus
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Miki Tanaka
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Energy Wheel
+      cost:
+        - Colorless
+      text: Move an Energy from 1 of your Benched Pokémon to this Pokémon.
+    - name: Hurricane
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 641
+  species: Cyclone Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 63.003980193
+  flavourText: The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.

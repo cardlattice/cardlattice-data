@@ -1,4 +1,36 @@
-name: "Solosis"
-rarity: "Common"
+name: Solosis
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Nap
+      cost:
+        - Psychic
+      text: Heal 20 damage from this Pokémon.
+    - name: Ram
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 577
+  species: Cell Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 0.997903214
+  flavourText: Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.

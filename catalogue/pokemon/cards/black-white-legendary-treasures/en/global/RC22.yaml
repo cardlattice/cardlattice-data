@@ -1,2 +1,31 @@
-name: "Reshiram"
-rarity: "Ultra Rare"
+name: Reshiram
+rarity: Ultra Rare
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Outrage
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Does 10 more damage for each damage counter on this Pokémon.
+    - name: Blue Flare
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "120"
+      text: Discard 2 Fire Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  flavourText: This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.

@@ -1,2 +1,34 @@
-name: "Meloetta-EX"
-rarity: "Rare"
+name: Meloetta-EX
+rarity: Rare
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Brilliant Voice
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.
+    - name: Round
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: 30×
+      text: Does 30 damage times the number of your Pokémon that have the Round attack.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

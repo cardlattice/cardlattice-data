@@ -1,4 +1,37 @@
-name: "Deino"
-rarity: "Common"
+name: Deino
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Deep Growl
+      cost:
+        - Darkness
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Power Breath
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: Discard an Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 633
+  species: Irate Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 17.281869297
+  flavourText: It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.

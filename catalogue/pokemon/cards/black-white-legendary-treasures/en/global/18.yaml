@@ -1,4 +1,39 @@
-name: "Charmeleon"
-rarity: "Uncommon"
+name: Charmeleon
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Charmander
+  attacks:
+    - name: Flare
+      cost:
+        - Fire
+      damage: "20"
+    - name: Raging Claws
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Does 10 more damage for each damage counter on this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 5
+  species: Flame Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 19.005520303
+  flavourText: In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.

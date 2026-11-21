@@ -1,2 +1,35 @@
-name: "Gardevoir"
-rarity: "Uncommon"
+name: Gardevoir
+rarity: Uncommon
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Kirlia
+  attacks:
+    - name: Psybeam
+      cost:
+        - Psychic
+        - Colorless
+      damage: "40"
+      text: The Defending Pokémon is now Confused.
+    - name: Eternal Radiance
+      cost:
+        - Psychic
+        - Psychic
+      text: Move all damage counters from this Pokémon to the Defending Pokémon. This Pokémon can’t use Eternal Radiance during your next turn.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 282
+  species: Embrace Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 48.398305879
+  flavourText: To protect its Trainer, it will expend all its psychic power to create a small black hole.

@@ -1,4 +1,42 @@
-name: "Gyarados"
-rarity: "Rare"
+name: Gyarados
+rarity: Rare
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - hatachu
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Magikarp
+  attacks:
+    - name: Howling Rampage
+      cost:
+        - Water
+        - Colorless
+      damage: 20×
+      text: Does 20 damage times the number of Prize cards both players have taken.
+    - name: Hydro Splash
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 130
+  species: Atrocious Pokémon
+  heightMetres: 6.5024
+  weightKilograms: 235.006206897
+  flavourText: Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.

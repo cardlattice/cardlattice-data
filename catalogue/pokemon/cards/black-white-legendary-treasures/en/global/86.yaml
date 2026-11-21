@@ -1,4 +1,38 @@
-name: "Meloetta"
-rarity: "Rare"
+name: Meloetta
+rarity: Rare
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Magical Dance
+      cost:
+        - Colorless
+      text: Heal 30 damage from each of your Benched Pokémon.
+    - name: Shooting Star Pirouette
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Flip a coin until you get tails. This attack does 30 more damage for each heads.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 648
+  species: Melody Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 6.486370891
+  flavourText: The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.

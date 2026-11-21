@@ -1,4 +1,39 @@
-name: "Garchomp"
-rarity: "Rare"
+name: Garchomp
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Dragon
+  stage: Stage 2
+  evolvesFrom: Gabite
+  attacks:
+    - name: Mach Cut
+      cost:
+        - Fighting
+      damage: "60"
+      text: Discard a Special Energy attached to the Defending Pokémon.
+    - name: Dragonblade
+      cost:
+        - Water
+        - Fighting
+      damage: "100"
+      text: Discard the top 2 cards of your deck.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 445
+  species: Mach Pokémon
+  heightMetres: 1.905
+  weightKilograms: 94.982242278
+  flavourText: It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.

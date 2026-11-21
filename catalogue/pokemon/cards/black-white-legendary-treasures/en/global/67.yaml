@@ -1,4 +1,39 @@
-name: "Trubbish"
-rarity: "Common"
+name: Trubbish
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Pound
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Poison Gas
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon is now Poisoned.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 568
+  species: Trash Bag Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 30.980358871
+  flavourText: Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.

@@ -1,3 +1,38 @@
-name: "Kyurem-EX"
+name: Kyurem-EX
 printedDenominator: 113
-finishes: [holo]
+finishes:
+  - holo
+illustrators:
+  - Shizurow
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Frozen Wings
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Discard a Special Energy attached to the Defending Pokémon.
+    - name: Hail Blizzard
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: This Pokémon can’t use Hail Blizzard during your next turn.
+  abilities: []
+  weaknesses:
+    - type: Metal
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

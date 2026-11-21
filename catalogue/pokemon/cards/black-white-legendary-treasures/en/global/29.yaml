@@ -1,3 +1,38 @@
-name: "Reshiram-EX"
+name: Reshiram-EX
 printedDenominator: 113
-finishes: [holo]
+finishes:
+  - holo
+illustrators:
+  - Shizurow
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Glinting Claw
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+    - name: Brave Fire
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: Flip a coin. If tails, this Pokémon does 50 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

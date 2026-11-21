@@ -1,4 +1,38 @@
-name: "Swoobat"
-rarity: "Uncommon"
+name: Swoobat
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Woobat
+  attacks:
+    - name: Energy Gift
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.
+    - name: Heart Stamp
+      cost:
+        - Psychic
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 528
+  species: Courting Pokémon
+  heightMetres: 0.889
+  weightKilograms: 10.477983747
+  flavourText: It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.

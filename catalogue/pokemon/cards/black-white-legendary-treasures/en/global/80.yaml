@@ -1,4 +1,37 @@
-name: "Lucario"
-rarity: "Rare"
+name: Lucario
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Riolu
+  attacks:
+    - name: Aura Sphere
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities:
+    - name: Reflexive Retaliation
+      kind: Ability
+      text: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 448
+  species: Aura Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 53.97749203
+  flavourText: A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.

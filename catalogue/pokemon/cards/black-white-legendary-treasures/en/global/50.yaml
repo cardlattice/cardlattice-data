@@ -1,4 +1,38 @@
-name: "Thundurus"
-rarity: "Rare"
+name: Thundurus
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Yukiko Baba
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Charge
+      cost:
+        - Colorless
+      text: Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.
+    - name: Disaster Volt
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "80"
+      text: Discard an Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 642
+  species: Bolt Strike Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 61.008173765
+  flavourText: The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.

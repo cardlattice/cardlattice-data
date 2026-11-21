@@ -1,4 +1,40 @@
-name: "Stunfisk"
-rarity: "Uncommon"
+name: Stunfisk
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Yuka Morii
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Muddy Water
+      cost:
+        - Fighting
+      damage: "20"
+      text: Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    - name: Rumble
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 3
+  nationalDex:
+    - 618
+  species: Trap Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 11.022294591
+  flavourText: It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.

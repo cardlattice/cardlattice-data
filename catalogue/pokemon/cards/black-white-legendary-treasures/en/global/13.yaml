@@ -1,4 +1,32 @@
-name: "Dwebble"
-rarity: "Common"
+name: Dwebble
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Bug Bite
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 557
+  species: Rock Inn Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 14.51495584
+  flavourText: When it finds a stone of a suitable size, it secretes a liquid from its mouth to open up a hole to crawl into.

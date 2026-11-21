@@ -1,4 +1,35 @@
-name: "Ninetales"
-rarity: "Rare"
+name: Ninetales
+rarity: Rare
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Satoshi Shirai
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Vulpix
+  attacks:
+    - name: Color Coordination
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: If this Pokémon has any basic Energy attached to it that is the same type as the Defending Pokémon, this attack does 40 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 38
+  species: Fox Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 19.912705043
+  flavourText: Each of its nine tails is imbued with supernatural power, and it can live for a thousand years.

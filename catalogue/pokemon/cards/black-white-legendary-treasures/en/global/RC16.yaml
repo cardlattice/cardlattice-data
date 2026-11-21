@@ -1,2 +1,37 @@
-name: "Ursaring"
-rarity: "Common"
+name: Ursaring
+rarity: Common
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Teddiursa
+  attacks:
+    - name: Picnic Weather
+      cost:
+        - Colorless
+        - Colorless
+      text: Put a Teddiursa from your discard pile onto your Bench. Then, attach an Energy card from your discard pile to that Pokémon.
+    - name: Fury Swipes
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: Flip 3 coins. This attack does 50 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 217
+  species: Hibernator Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 125.781164201
+  flavourText: In its territory, it leaves scratches on trees that bear delicious berries or fruits.

@@ -1,4 +1,36 @@
-name: "Plusle"
-rarity: "Uncommon"
+name: Plusle
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Tag Draw
+      cost:
+        - Colorless
+      text: Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards.
+    - name: Positive Ion
+      cost:
+        - Lightning
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 311
+  species: Cheering Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.218409041
+  flavourText: It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.

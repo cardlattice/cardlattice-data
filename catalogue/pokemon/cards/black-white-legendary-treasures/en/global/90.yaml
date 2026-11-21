@@ -1,4 +1,42 @@
-name: "Zoroark"
-rarity: "Rare"
+name: Zoroark
+rarity: Rare
 printedDenominator: 113
-finishes: [holo, reverse-holo]
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Zorua
+  attacks:
+    - name: Brutal Bash
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Does 20 damage times the number of Darkness Pokémon you have in play.
+    - name: Dark Rush
+      cost:
+        - Darkness
+        - Darkness
+      damage: 20×
+      text: Does 20 damage times the number of damage counters on this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 571
+  species: Illusion Fox Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 81.102315756
+  flavourText: Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.

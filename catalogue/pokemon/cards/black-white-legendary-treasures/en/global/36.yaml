@@ -1,4 +1,36 @@
-name: "Phione"
-rarity: "Rare"
+name: Phione
+rarity: Rare
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Pull Out
+      cost:
+        - Colorless
+      text: Put a card from your discard pile on top of your deck.
+    - name: Aqua Boomerang
+      cost:
+        - Water
+      damage: "20"
+      text: Return this Pokémon and all cards attached to it to your hand.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 489
+  species: Sea Drifter Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 3.084428116
+  flavourText: It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.

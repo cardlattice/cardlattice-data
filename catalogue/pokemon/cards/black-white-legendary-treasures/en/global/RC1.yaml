@@ -1,19 +1,33 @@
-name: "Snivy"
-rarity: "Common"
-illustrators: [Atsuko Nishida]
+name: Snivy
+rarity: Common
+illustrators:
+  - Eske Yoshinob
 pokemon:
   category: pokemon
   hp: 50
-  types: [Grass]
+  types:
+    - Grass
   stage: Basic
   attacks:
     - name: Growth
-      cost: [Colorless]
-      text: "Attach a Grass Energy card from your hand to this Pokémon."
+      cost:
+        - Colorless
+      text: Attach a Grass Energy card from your hand to this Pokémon.
     - name: Razor Leaf
-      cost: [Grass, Colorless, Colorless]
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
       damage: "30"
+  abilities: []
   weaknesses:
     - type: Fire
-      value: "×2"
+      value: ×2
+  resistances: []
   retreatCost: 1
+  nationalDex:
+    - 495
+  species: Grass Snake Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 8.119303423
+  flavourText: Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.

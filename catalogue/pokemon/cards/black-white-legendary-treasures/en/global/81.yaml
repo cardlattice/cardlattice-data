@@ -1,4 +1,40 @@
-name: "Gallade"
-rarity: "Rare"
+name: Gallade
+rarity: Rare
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Hajime Kusajima
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Kirlia
+  attacks:
+    - name: Nerve Shot
+      cost:
+        - Fighting
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Pandemonium Blade
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: Does 20 more damage for each of your Benched Pokémon that has any damage counters on it.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 475
+  species: Blade Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 51.981685602
+  flavourText: When trying to protect someone, it extends its elbows as if they were swords and fights savagely.

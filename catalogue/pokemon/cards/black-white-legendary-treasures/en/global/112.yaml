@@ -1,4 +1,15 @@
-name: "Energy Switch"
-rarity: "Uncommon"
+name: Energy Switch
+rarity: Uncommon
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kent Kanetsuna
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Move a basic Energy from 1 of your Pokémon to another of your Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).

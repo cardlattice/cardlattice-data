@@ -1,4 +1,33 @@
-name: "Ralts"
-rarity: "Common"
+name: Ralts
+rarity: Common
 printedDenominator: 113
-finishes: [non-holo, reverse-holo]
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoyo Kimura
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Mind Bend
+      cost:
+        - Psychic
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 280
+  species: Feeling Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 6.622448602
+  flavourText: If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.
