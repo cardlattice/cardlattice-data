@@ -70,6 +70,29 @@ it("distinguishes verified foil patterns without permitting non-holo foil", () =
     validateCard(card.replaceAll("finish: holo", "finish: non-holo"), filename).length,
   ).toBeGreaterThan(0);
 });
+
+it("preserves observed corrected text and graphic errors without changing gameplay", () => {
+  const card =
+    "name: Original synthetic card\nprintingErrors: [stage-2-evolution-frame]\nvariants:\n  first: {finish: reverse-holo, foilPattern: mirror, flavourText: Original synthetic first printing.}\n  corrected: {finish: reverse-holo, foilPattern: mirror, flavourText: Original synthetic corrected printing.}\n";
+  expect(validateCard(card, filename)).toEqual([]);
+  expect(
+    validateCard(
+      card.replace("Original synthetic corrected printing.", "Original synthetic first printing."),
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+  for (const pattern of ["tinsel", "energy-symbol", "sheen"])
+    expect(validateCard(card.replaceAll("mirror", pattern), filename)).toEqual([]);
+  expect(
+    validateCard(
+      card.replace(
+        "[stage-2-evolution-frame]",
+        "[stage-2-evolution-frame, stage-2-evolution-frame]",
+      ),
+      filename,
+    ).length,
+  ).toBeGreaterThan(0);
+});
 const directories: string[] = [];
 afterEach(async () => {
   await Promise.all(
