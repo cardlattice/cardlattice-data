@@ -1,1 +1,40 @@
 name: Dusknoir
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Dusclops
+  attacks:
+    - name: Shadow Punch
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: This attack’s damage isn’t affected by Resistance.
+  abilities:
+    - name: Sinister Hand
+      text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your opponent’s Pokémon to another of your opponent’s Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 477
+  species: Gripper Pokémon
+  heightMetres: 2.2098
+  weightKilograms: 106.59420695
+  flavourText: It is said to take lost spirits into its pliant body and guide them home.

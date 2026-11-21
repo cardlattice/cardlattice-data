@@ -1,4 +1,7 @@
 name: Golurk
+rarity: ★ (silver)
+finishes:
+  - holo
 illustrators:
   - 5ban Graphics
 pokemon:
@@ -24,7 +27,17 @@ pokemon:
         - Colorless
       damage: "90"
       text: During your opponent’s next turn, this Pokémon has no Weakness.
+  abilities: []
   weaknesses:
     - type: Darkness
       value: ×2
+  resistances: []
   retreatCost: 4
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 623
+  species: Automaton Pokémon
+  heightMetres: 2.794
+  weightKilograms: 329.988449175
+  flavourText: This extremely rare Pokémon is a different color than usual. It is very hard to find.

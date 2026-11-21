@@ -1,2 +1,32 @@
 name: Duskull
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Confuse Ray
+      cost:
+        - Psychic
+      text: The Defending Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 355
+  species: Requiem Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 15.013907447
+  flavourText: It loves the crying of children. It startles bad kids by passing through walls and making them cry.

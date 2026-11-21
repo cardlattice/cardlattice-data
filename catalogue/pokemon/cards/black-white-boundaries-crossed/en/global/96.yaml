@@ -1,2 +1,41 @@
 name: Skarmory
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Hajime Kusajima
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Metal Sound
+      cost:
+        - Metal
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Swift
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 227
+  species: Armor Bird Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 50.484830781
+  flavourText: Its heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.

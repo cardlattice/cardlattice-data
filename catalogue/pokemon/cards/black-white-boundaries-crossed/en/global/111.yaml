@@ -1,2 +1,37 @@
 name: Dunsparce
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Double Draw
+      cost:
+        - Colorless
+      text: Draw 2 cards.
+    - name: Dig
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 206
+  species: Land Snake Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 14.016004233
+  flavourText: It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.

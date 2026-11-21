@@ -1,2 +1,39 @@
 name: Vullaby
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Gust
+      cost:
+        - Darkness
+      damage: "10"
+    - name: Razor Wing
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 629
+  species: Diapered Pokémon
+  heightMetres: 0.508
+  weightKilograms: 8.981128926
+  flavourText: They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.

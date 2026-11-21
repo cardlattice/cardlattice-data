@@ -1,2 +1,39 @@
 name: Raticate
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Rattata
+  attacks:
+    - name: Gnaw Through
+      cost:
+        - Colorless
+      text: Discard a Pokémon Tool card attached to the Defending Pokémon.
+    - name: Super Fang
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Put damage counters on the Defending Pokémon until its remaining HP is 10.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 20
+  species: Mouse Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 18.506568696
+  flavourText: With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.

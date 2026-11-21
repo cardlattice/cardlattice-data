@@ -1,2 +1,39 @@
 name: Woobat
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Miki Tanaka
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Scout
+      cost:
+        - Psychic
+      text: Your opponent reveals his or her hand.
+    - name: Heart Stamp
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 527
+  species: Bat Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 2.086524902
+  flavourText: The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.

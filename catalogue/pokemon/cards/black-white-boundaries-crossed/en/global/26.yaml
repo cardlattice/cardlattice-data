@@ -1,1 +1,44 @@
 name: Emboar
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: Pignite
+  attacks:
+    - name: Firebreathing
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+    - name: Fire Blast
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: Discard an Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 500
+  species: Mega Fire Pig Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 150.002996759
+  flavourText: It has mastered fast and powerful fighting moves. It grows a beard of fire.

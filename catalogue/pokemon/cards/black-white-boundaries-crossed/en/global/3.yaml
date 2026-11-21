@@ -1,1 +1,42 @@
 name: Vileplume
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Gloom
+  attacks:
+    - name: Pollen Spray
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: The Defending Pokémon is now Asleep and Poisoned.
+  abilities:
+    - name: Allergy Panic
+      text: Apply Weakness for each Pokémon (both yours and your opponent’s) as ×4 instead.
+      kind: Ability
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 45
+  species: Flower Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 18.59728717
+  flavourText: Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.

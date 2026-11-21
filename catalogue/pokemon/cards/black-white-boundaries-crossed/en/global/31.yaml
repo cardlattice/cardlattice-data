@@ -1,1 +1,40 @@
 name: Blastoise
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Satoshi Shirai
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Wartortle
+  attacks:
+    - name: Hydro Pump
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 60+
+      text: Does 10 more damage for each Water Energy attached to this Pokémon.
+  abilities:
+    - name: Deluge
+      text: As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 9
+  species: Shellfish Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 85.502161745
+  flavourText: The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.

@@ -1,2 +1,14 @@
 name: Switch
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ayaka Yoshida
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Switch your Active Pokémon with 1 of your Benched Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).

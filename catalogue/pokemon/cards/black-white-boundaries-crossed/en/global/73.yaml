@@ -1,2 +1,38 @@
 name: Whirlipede
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Venipede
+  attacks:
+    - name: Spinning Attack
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities:
+    - name: Poison Point
+      text: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+      kind: Ability
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 544
+  species: Curlipede Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 58.51341573
+  flavourText: Storing energy for evolution, it sits. But, when predators approach, it moves to stab them with poison spikes.

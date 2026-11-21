@@ -1,2 +1,37 @@
 name: Oshawott
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Rain Splash
+      cost:
+        - Water
+      damage: "10"
+    - name: Seashell Attack
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 501
+  species: Sea Otter Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.89670081
+  flavourText: It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.

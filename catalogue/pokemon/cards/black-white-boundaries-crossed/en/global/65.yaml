@@ -1,2 +1,34 @@
 name: Croagunk
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Poison Jab
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: The Defending Pokémon is now Poisoned.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 453
+  species: Toxic Mouth Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 22.997133159
+  flavourText: Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.

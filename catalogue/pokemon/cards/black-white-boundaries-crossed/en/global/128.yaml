@@ -1,2 +1,14 @@
 name: Energy Search
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Search your deck for a basic Energy card, reveal it, and put it into your hand. Shuffle your deck afterward.
+    - You may play as many Item cards as you like during your turn (before your attack).

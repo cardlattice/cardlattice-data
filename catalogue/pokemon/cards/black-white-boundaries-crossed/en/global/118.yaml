@@ -1,2 +1,32 @@
 name: Patrat
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Patrol
+      cost:
+        - Colorless
+      text: Look at the top 3 cards of your deck and put them back on top of your deck in any order.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 504
+  species: Scout Pokémon
+  heightMetres: 0.508
+  weightKilograms: 11.611964672
+  flavourText: Extremely cautious, one of them will always be on the lookout, but it won’t notice a foe coming from behind.

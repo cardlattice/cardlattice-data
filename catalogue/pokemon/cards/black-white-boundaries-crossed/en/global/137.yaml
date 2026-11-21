@@ -1,1 +1,15 @@
 name: Computer Search
+rarity: ACE SPEC Rare
+finishes:
+  - holo
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+    - ACE SPEC
+  rules:
+    - You can’t have more than 1 ACE SPEC card in your deck.
+    - Discard 2 cards from your hand. (If you can’t discard 2 cards, you can’t play this card.) Search your deck for a card and put it into your hand. Shuffle your deck afterward.
+    - You may play as many Item cards as you like during your turn (before your attack).

@@ -1,2 +1,36 @@
 name: Venipede
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shigenori Negishi
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Bug Bite
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: Poison Point
+      text: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.
+      kind: Ability
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 543
+  species: Centipede Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.307030729
+  flavourText: Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey’s location and state.

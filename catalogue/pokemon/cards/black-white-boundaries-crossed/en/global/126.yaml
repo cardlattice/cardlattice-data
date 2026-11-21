@@ -1,2 +1,37 @@
 name: Audino
 rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Hip Bump
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.
+  abilities:
+    - name: Busybody
+      text: Once during your turn (before your attack), if this Pokémon is in your hand, you may reveal it. If you do, heal 10 damage and remove a Special Condition from your Active Pokémon. Then, discard this Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 531
+  species: Hearing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 30.980358871
+  flavourText: Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.

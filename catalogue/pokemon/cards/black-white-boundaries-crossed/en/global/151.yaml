@@ -1,4 +1,7 @@
 name: Terrakion
+rarity: ★ (silver)
+finishes:
+  - holo
 illustrators:
   - 5ban Graphics
 pokemon:
@@ -20,7 +23,17 @@ pokemon:
         - Fighting
         - Colorless
       damage: "90"
+  abilities: []
   weaknesses:
     - type: Grass
       value: ×2
+  resistances: []
   retreatCost: 4
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 639
+  species: Cavern Pokémon
+  heightMetres: 1.905
+  weightKilograms: 259.999146484
+  flavourText: This extremely rare Pokémon is a different color than usual. It is very hard to find.

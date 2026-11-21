@@ -1,2 +1,33 @@
 name: Makuhita
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Slap Push
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 296
+  species: Guts Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 86.409346485
+  flavourText: It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.

@@ -1,2 +1,42 @@
 name: White Kyurem
 rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Damage Rush
+      cost:
+        - Fire
+        - Colorless
+      damage: 20×
+      text: Flip a coin until you get tails. This attack does 20 damage times the number of heads.
+    - name: Cold Fire
+      cost:
+        - Fire
+        - Water
+        - Colorless
+        - Colorless
+      damage: 80+
+      text: Flip a coin. If heads, this attack does 40 more damage.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 646
+  species: Boundary Pokémon
+  heightMetres: 3.6068
+  weightKilograms: 324.998933105
+  flavourText: This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.

@@ -1,2 +1,42 @@
 name: Black Kyurem
 rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Dual Claw
+      cost:
+        - Lightning
+        - Colorless
+      damage: 20×
+      text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    - name: Flash Freeze
+      cost:
+        - Water
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: Discard an Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 646
+  species: Boundary Pokémon
+  heightMetres: 3.302
+  weightKilograms: 324.998933105
+  flavourText: This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.

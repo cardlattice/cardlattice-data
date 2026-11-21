@@ -1,2 +1,32 @@
 name: Rattata
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Yukiko Baba
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Paralyzing Gaze
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 19
+  species: Mouse Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 3.492661249
+  flavourText: It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.

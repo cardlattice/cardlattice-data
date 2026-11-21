@@ -1,2 +1,35 @@
 name: Petilil
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Sleep Powder
+      cost:
+        - Grass
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 548
+  species: Bulb Pokémon
+  heightMetres: 0.508
+  weightKilograms: 6.622448602
+  flavourText: The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.

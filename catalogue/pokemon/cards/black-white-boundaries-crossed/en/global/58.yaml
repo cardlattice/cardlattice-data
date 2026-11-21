@@ -1,2 +1,34 @@
 name: Wobbuffet
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Headbutt Bounce
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 202
+  species: Patient Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 28.485600836
+  flavourText: It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.

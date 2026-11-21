@@ -1,2 +1,42 @@
 name: Mienshao
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Mienfoo
+  attacks:
+    - name: Knock Off
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20"
+      text: Discard a random card from your opponent’s hand.
+    - name: Double Whip
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 70×
+      text: Flip 2 coins. This attack does 70 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 620
+  species: Martial Arts Pokémon
+  heightMetres: 1.397
+  weightKilograms: 35.516282571
+  flavourText: Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.

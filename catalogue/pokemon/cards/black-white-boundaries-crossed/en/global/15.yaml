@@ -1,2 +1,40 @@
 name: Whimsicott
 rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Cottonee
+  attacks:
+    - name: Fluffy Tag
+      cost:
+        - Colorless
+      text: Switch this Pokémon with 1 of your Benched Pokémon. During your next turn, the attacks of that Pokémon do 40 more damage to the Active Pokémon (before applying Weakness and Resistance).
+    - name: Stun Spore
+      cost:
+        - Grass
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 547
+  species: Windveiled Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 6.622448602
+  flavourText: They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.

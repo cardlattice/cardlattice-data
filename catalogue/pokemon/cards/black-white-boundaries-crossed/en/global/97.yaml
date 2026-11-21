@@ -1,2 +1,36 @@
 name: Klink
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Reckless Charge
+      cost:
+        - Metal
+        - Colorless
+      damage: "30"
+      text: This Pokémon does 10 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 599
+  species: Gear Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 21.001326731
+  flavourText: The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.

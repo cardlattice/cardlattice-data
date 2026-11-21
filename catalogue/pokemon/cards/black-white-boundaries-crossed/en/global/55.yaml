@@ -1,2 +1,33 @@
 name: Chinchou
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Electripult
+      cost:
+        - Lightning
+        - Colorless
+      text: This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 170
+  species: Angler Pokémon
+  heightMetres: 0.508
+  weightKilograms: 12.020197805
+  flavourText: It discharges positive and negative electricity from its antenna tips to shock its foes.

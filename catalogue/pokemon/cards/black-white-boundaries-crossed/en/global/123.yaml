@@ -1,2 +1,36 @@
 name: Pidove
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Tomokazu Komiya
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Razor Wind
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 519
+  species: Tiny Pigeon Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 2.086524902
+  flavourText: This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one.

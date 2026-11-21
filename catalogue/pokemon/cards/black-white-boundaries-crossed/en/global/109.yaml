@@ -1,2 +1,42 @@
 name: Snorlax
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Double Lariat
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: Flip 2 coins. This attack does 40 damage times the number of heads.
+    - name: Rollout
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 143
+  species: Sleeping Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 459.988022417
+  flavourText: When its belly is full, it becomes too lethargic to even lift a finger, so it is safe to bounce on its belly.

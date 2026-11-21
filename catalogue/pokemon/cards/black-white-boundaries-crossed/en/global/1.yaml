@@ -1,5 +1,8 @@
 name: Oddish
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
 illustrators:
   - Kanako Eo
 pokemon:
@@ -19,6 +22,7 @@ pokemon:
         - Colorless
         - Colorless
       damage: "20"
+  abilities: []
   weaknesses:
     - type: Fire
       value: ×2
@@ -26,3 +30,11 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 43
+  species: Weed Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.397749203
+  flavourText: It often plants its root feet in the ground during the day and sows seeds as it walks about at night.

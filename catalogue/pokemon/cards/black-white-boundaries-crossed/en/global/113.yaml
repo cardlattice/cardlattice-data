@@ -1,2 +1,38 @@
 name: Skitty
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Double Slap
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 300
+  species: Kitten Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 11.022294591
+  flavourText: It shows its cute side by chasing its own tail until it gets dizzy.

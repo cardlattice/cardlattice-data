@@ -1,2 +1,39 @@
 name: Pikachu
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Pika Punch
+      cost:
+        - Lightning
+      damage: "10"
+    - name: Double Voltage
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: 40×
+      text: Flip 2 coins. This attack does 40 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 25
+  species: Mouse Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.987419284
+  flavourText: It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.

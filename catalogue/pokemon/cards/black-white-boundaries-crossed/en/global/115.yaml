@@ -1,2 +1,34 @@
 name: Spinda
 rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Whimsy Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 327
+  species: Spot Panda Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 4.98951607
+  flavourText: No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.

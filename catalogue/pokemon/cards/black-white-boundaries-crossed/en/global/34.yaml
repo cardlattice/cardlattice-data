@@ -1,2 +1,38 @@
 name: Golduck
 rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Psyduck
+  attacks:
+    - name: Confuse Ray
+      cost:
+        - Colorless
+      text: The Defending Pokémon is now Confused.
+    - name: Water Gun
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 0
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 55
+  species: Duck Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 76.611751293
+  flavourText: It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.
