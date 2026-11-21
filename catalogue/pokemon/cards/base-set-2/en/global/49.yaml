@@ -1,0 +1,9 @@
+name: "Machoke"
+rarity: Uncommon
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Fighting]
+  stage: Stage 1
+  evolvesFrom: "Machop"

@@ -1,0 +1,9 @@
+name: "Nidoqueen"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Grass]
+  stage: Stage 2
+  evolvesFrom: "Nidorina"

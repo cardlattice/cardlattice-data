@@ -1,0 +1,9 @@
+name: "Metapod"
+rarity: Common
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Grass]
+  stage: Stage 1
+  evolvesFrom: "Caterpie"

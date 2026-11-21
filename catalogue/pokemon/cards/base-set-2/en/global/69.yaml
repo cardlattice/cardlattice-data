@@ -1,0 +1,8 @@
+name: "Charmander"
+rarity: Common
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Fire]
+  stage: Basic

@@ -1,0 +1,8 @@
+name: "Electabuzz"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Lightning]
+  stage: Basic

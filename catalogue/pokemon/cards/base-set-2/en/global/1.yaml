@@ -1,0 +1,9 @@
+name: "Alakazam"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Psychic]
+  stage: Stage 2
+  evolvesFrom: "Kadabra"

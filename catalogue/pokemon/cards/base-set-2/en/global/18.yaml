@@ -1,0 +1,9 @@
+name: "Venusaur"
+rarity: Rare
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Grass]
+  stage: Stage 2
+  evolvesFrom: "Ivysaur"

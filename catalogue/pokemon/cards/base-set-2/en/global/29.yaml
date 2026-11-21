@@ -1,0 +1,8 @@
+name: "Pinsir"
+rarity: Rare
+illustrators: [Kagemaru Himeno]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Grass]
+  stage: Basic

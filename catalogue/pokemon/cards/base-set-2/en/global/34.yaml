@@ -1,0 +1,9 @@
+name: "Butterfree"
+rarity: Uncommon
+illustrators: [Kagemaru Himeno]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Grass]
+  stage: Stage 2
+  evolvesFrom: "Metapod"

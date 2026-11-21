@@ -1,0 +1,9 @@
+name: "Charizard"
+rarity: Rare
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Fire]
+  stage: Stage 2
+  evolvesFrom: "Charmeleon"

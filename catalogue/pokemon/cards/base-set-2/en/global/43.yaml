@@ -1,0 +1,9 @@
+name: "Haunter"
+rarity: Uncommon
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Psychic]
+  stage: Stage 1
+  evolvesFrom: "Gastly"

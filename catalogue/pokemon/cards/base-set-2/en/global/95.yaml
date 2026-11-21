@@ -1,0 +1,8 @@
+name: "Staryu"
+rarity: Common
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Water]
+  stage: Basic

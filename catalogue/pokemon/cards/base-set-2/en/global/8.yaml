@@ -1,0 +1,8 @@
+name: "Hitmonchan"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Fighting]
+  stage: Basic

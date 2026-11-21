@@ -1,0 +1,9 @@
+name: "Pidgeot"
+rarity: Rare
+illustrators: [Kagemaru Himeno]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Colorless]
+  stage: Stage 2
+  evolvesFrom: "Pidgeotto"

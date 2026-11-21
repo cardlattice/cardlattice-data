@@ -1,0 +1,9 @@
+name: "Gyarados"
+rarity: Rare
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Water]
+  stage: Stage 1
+  evolvesFrom: "Magikarp"

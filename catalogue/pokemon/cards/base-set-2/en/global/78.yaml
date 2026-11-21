@@ -1,0 +1,8 @@
+name: "Machop"
+rarity: Common
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Fighting]
+  stage: Basic

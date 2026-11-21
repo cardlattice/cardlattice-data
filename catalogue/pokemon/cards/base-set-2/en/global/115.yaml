@@ -1,0 +1,5 @@
+name: "Pokédex"
+rarity: Uncommon
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: trainer

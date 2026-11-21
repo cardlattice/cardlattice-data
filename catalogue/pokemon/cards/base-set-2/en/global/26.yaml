@@ -1,0 +1,8 @@
+name: "Kangaskhan"
+rarity: Rare
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Colorless]
+  stage: Basic

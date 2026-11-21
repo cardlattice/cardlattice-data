@@ -1,0 +1,9 @@
+name: "Seaking"
+rarity: Uncommon
+illustrators: [Kagemaru Himeno]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Water]
+  stage: Stage 1
+  evolvesFrom: "Goldeen"

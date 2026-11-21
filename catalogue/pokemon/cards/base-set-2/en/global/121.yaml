@@ -1,0 +1,5 @@
+name: "Poké Ball"
+rarity: Common
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: trainer

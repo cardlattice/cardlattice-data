@@ -1,0 +1,8 @@
+name: "Cubone"
+rarity: Common
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Fighting]
+  stage: Basic

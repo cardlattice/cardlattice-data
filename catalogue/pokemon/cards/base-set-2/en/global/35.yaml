@@ -1,0 +1,9 @@
+name: "Charmeleon"
+rarity: Uncommon
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 80
+  types: [Fire]
+  stage: Stage 1
+  evolvesFrom: "Charmander"

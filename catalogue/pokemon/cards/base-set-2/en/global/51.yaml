@@ -1,0 +1,8 @@
+name: "Magmar"
+rarity: Uncommon
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Fire]
+  stage: Basic

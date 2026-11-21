@@ -1,0 +1,9 @@
+name: "Dodrio"
+rarity: Uncommon
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Colorless]
+  stage: Stage 1
+  evolvesFrom: "Doduo"

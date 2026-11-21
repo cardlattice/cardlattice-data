@@ -1,0 +1,9 @@
+name: "Blastoise"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Water]
+  stage: Stage 2
+  evolvesFrom: "Wartortle"

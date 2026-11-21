@@ -1,0 +1,8 @@
+name: "Farfetch'd"
+rarity: Uncommon
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Colorless]
+  stage: Basic

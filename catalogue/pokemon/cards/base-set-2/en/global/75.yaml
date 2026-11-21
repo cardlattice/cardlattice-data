@@ -1,0 +1,8 @@
+name: "Gastly"
+rarity: Common
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: pokemon
+  hp: 30
+  types: [Psychic]
+  stage: Basic

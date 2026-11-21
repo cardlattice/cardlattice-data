@@ -1,0 +1,9 @@
+name: "Clefable"
+rarity: Rare
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Colorless]
+  stage: Stage 1
+  evolvesFrom: "Clefairy"

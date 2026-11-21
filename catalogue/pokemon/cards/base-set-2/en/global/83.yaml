@@ -1,0 +1,8 @@
+name: "Nidoran♂"
+rarity: Common
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Grass]
+  stage: Basic

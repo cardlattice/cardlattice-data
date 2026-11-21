@@ -1,0 +1,8 @@
+name: "Magikarp"
+rarity: Uncommon
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 30
+  types: [Water]
+  stage: Basic

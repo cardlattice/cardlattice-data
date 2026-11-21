@@ -1,0 +1,8 @@
+name: "Snorlax"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Colorless]
+  stage: Basic

@@ -1,0 +1,5 @@
+name: "Pokémon Center"
+rarity: Uncommon
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: trainer

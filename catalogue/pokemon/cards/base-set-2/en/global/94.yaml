@@ -1,0 +1,9 @@
+name: "Starmie"
+rarity: Common
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Water]
+  stage: Stage 1
+  evolvesFrom: "Staryu"

@@ -1,0 +1,8 @@
+name: "Jigglypuff"
+rarity: Common
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Colorless]
+  stage: Basic

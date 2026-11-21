@@ -1,0 +1,8 @@
+name: "Rhyhorn"
+rarity: Common
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Fighting]
+  stage: Basic

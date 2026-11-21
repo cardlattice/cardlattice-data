@@ -1,0 +1,8 @@
+name: "Onix"
+rarity: Common
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Fighting]
+  stage: Basic

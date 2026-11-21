@@ -1,0 +1,8 @@
+name: "Lickitung"
+rarity: Uncommon
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 90
+  types: [Colorless]
+  stage: Basic

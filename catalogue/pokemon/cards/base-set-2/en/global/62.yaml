@@ -1,0 +1,8 @@
+name: "Tauros"
+rarity: Uncommon
+illustrators: [Kagemaru Himeno]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Colorless]
+  stage: Basic

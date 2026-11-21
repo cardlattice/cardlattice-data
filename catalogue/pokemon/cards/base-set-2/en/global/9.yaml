@@ -1,0 +1,9 @@
+name: "Magneton"
+rarity: Rare
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Lightning]
+  stage: Stage 1
+  evolvesFrom: "Magnemite"

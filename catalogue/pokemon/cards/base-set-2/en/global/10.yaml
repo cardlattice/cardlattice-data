@@ -1,0 +1,8 @@
+name: "Mewtwo"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 60
+  types: [Psychic]
+  stage: Basic

@@ -1,0 +1,8 @@
+name: "Chansey"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 120
+  types: [Colorless]
+  stage: Basic

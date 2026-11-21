@@ -1,0 +1,9 @@
+name: "Arcanine"
+rarity: Uncommon
+illustrators: [Ken Sugimori]
+pokemon:
+  category: pokemon
+  hp: 100
+  types: [Fire]
+  stage: Stage 1
+  evolvesFrom: "Growlithe"

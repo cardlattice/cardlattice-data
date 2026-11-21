@@ -1,0 +1,8 @@
+name: "Diglett"
+rarity: Common
+illustrators: [Keiji Kinebuchi]
+pokemon:
+  category: pokemon
+  hp: 30
+  types: [Fighting]
+  stage: Basic

@@ -1,0 +1,8 @@
+name: "Bulbasaur"
+rarity: Common
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 40
+  types: [Grass]
+  stage: Basic

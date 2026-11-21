@@ -1,0 +1,5 @@
+name: "Pokémon Trader"
+rarity: Rare
+illustrators: [Ken Sugimori]
+pokemon:
+  category: trainer

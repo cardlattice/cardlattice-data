@@ -1,0 +1,8 @@
+name: "Spearow"
+rarity: Common
+illustrators: [Mitsuhiro Arita]
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Colorless]
+  stage: Basic
