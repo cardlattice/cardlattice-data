@@ -1,0 +1,20 @@
+name: Landorus
+rarity: Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1

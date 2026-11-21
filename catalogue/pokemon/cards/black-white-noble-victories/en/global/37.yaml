@@ -1,0 +1,17 @@
+name: Emolga
+rarity: Uncommon
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

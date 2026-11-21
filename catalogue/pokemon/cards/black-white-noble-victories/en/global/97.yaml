@@ -1,0 +1,19 @@
+name: Virizion
+rarity: Ultra Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1

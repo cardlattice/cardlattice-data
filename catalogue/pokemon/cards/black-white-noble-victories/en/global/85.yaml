@@ -1,0 +1,17 @@
+name: Audino
+rarity: Uncommon
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2

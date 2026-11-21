@@ -1,0 +1,17 @@
+name: Sewaddle
+rarity: Common
+illustrators:
+  - Mizue
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1

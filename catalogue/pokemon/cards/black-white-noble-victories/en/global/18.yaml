@@ -1,0 +1,17 @@
+name: Heatmor
+rarity: Uncommon
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2

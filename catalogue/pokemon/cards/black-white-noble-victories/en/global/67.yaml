@@ -1,0 +1,18 @@
+name: Archeops
+rarity: Rare
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Archen
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2

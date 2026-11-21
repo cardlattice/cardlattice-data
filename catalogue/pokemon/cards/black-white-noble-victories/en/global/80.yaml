@@ -1,0 +1,21 @@
+name: Escavalier
+rarity: Rare
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Karrablast
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3

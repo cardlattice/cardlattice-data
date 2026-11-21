@@ -1,0 +1,18 @@
+name: Leavanny
+rarity: Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Swadloon
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2

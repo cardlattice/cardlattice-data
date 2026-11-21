@@ -1,0 +1,18 @@
+name: Jellicent
+rarity: Rare
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Frillish
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 3

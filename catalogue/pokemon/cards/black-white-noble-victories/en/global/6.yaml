@@ -1,0 +1,17 @@
+name: Dwebble
+rarity: Common
+illustrators:
+  - MAHOU
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2

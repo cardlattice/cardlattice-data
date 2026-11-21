@@ -1,0 +1,17 @@
+name: Archen
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Restored
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1

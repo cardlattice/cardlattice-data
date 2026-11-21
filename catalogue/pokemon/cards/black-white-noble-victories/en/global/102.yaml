@@ -1,0 +1,14 @@
+name: Meowth
+rarity: Rare
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

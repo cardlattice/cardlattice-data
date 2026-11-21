@@ -1,0 +1,21 @@
+name: Bisharp
+rarity: Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Pawniard
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

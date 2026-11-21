@@ -1,0 +1,14 @@
+name: Axew
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  retreatCost: 1

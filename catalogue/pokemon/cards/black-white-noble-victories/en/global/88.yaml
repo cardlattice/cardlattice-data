@@ -1,0 +1,15 @@
+name: Haxorus
+rarity: Rare
+illustrators:
+  - Kouki Saitou
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Fraxure
+  retreatCost: 2

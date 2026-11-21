@@ -1,0 +1,17 @@
+name: Blitzle
+rarity: Common
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1

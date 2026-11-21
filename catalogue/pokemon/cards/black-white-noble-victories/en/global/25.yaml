@@ -1,0 +1,17 @@
+name: Tirtouga
+rarity: Uncommon
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Restored
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3

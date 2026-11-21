@@ -1,0 +1,17 @@
+name: Vanillite
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1

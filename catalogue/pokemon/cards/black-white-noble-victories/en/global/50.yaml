@@ -1,0 +1,17 @@
+name: Solosis
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

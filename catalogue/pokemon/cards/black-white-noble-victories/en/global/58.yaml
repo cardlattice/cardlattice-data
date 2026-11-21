@@ -1,0 +1,17 @@
+name: Litwick
+rarity: Common
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 1

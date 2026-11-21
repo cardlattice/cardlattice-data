@@ -1,0 +1,17 @@
+name: Tympole
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1

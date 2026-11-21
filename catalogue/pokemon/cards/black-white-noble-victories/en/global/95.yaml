@@ -1,0 +1,11 @@
+name: Super Rod
+rarity: Uncommon
+illustrators:
+  - 5ban Graphics
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: trainer
+  subtypes:
+    - Item

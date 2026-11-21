@@ -1,0 +1,19 @@
+name: Cobalion
+rarity: Ultra Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2

@@ -1,0 +1,18 @@
+name: Eelektross
+rarity: Rare
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 2
+  evolvesFrom: Eelektrik
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3

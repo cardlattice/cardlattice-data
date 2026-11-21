@@ -1,0 +1,17 @@
+name: Mienfoo
+rarity: Common
+illustrators:
+  - match
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

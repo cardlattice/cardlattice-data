@@ -1,0 +1,17 @@
+name: Trubbish
+rarity: Common
+illustrators:
+  - MAHOU
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1

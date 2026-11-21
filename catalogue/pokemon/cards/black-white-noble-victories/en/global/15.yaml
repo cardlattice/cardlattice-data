@@ -1,0 +1,17 @@
+name: Victini
+rarity: Rare
+illustrators:
+  - Naoki Saito
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1

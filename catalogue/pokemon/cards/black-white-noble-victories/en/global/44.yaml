@@ -1,0 +1,17 @@
+name: Yamask
+rarity: Common
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 1

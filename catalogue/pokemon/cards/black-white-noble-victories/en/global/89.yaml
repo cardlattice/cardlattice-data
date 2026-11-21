@@ -1,0 +1,14 @@
+name: Druddigon
+rarity: Rare
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  retreatCost: 2

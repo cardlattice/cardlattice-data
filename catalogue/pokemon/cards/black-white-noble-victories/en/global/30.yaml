@@ -1,0 +1,17 @@
+name: Frillish
+rarity: Common
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
