@@ -1,0 +1,33 @@
+name: Krookodile
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Darkness
+  stage: Stage 2
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  evolvesFrom: Krokorok
+  resistances:
+    - type: Psychic
+      value: "-20"
+  attacks:
+    - name: Dark Clamp
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+    - name: Bombast
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: Does 40 damage times the number of Prize cards you have taken.

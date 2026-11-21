@@ -1,0 +1,23 @@
+name: Hoppip
+rarity: Common
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  resistances:
+    - type: Fighting
+      value: "-20"
+  attacks:
+    - name: Flail Around
+      cost:
+        - Grass
+      damage: 10×
+      text: Flip 3 coins. This attack does 10 damage times the number of heads.
