@@ -29,3 +29,11 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 643
+  "species": "Vast White Pokémon"
+  "heightMetres": 3.2004
+  "weightKilograms": 329.988449175
+  "flavourText": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+  "resistances": []
+  "abilities": []

@@ -21,3 +21,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 605
+  "species": "Cerebral Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 8.981128926
+  "flavourText": "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches."
+  "resistances": []
+  "abilities": []

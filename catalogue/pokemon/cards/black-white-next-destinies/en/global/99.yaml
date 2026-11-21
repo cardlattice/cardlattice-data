@@ -32,3 +32,7 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 4
+  "rules":
+    - "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  "resistances": []
+  "abilities": []

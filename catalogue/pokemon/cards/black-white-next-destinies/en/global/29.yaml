@@ -27,3 +27,11 @@
     - "type": "Lightning"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 516
+  "species": "Geyser Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 28.984552443
+  "flavourText": "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail."
+  "resistances": []
+  "abilities": []

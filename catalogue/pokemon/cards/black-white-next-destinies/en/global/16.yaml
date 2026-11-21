@@ -27,3 +27,11 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 514
+  "species": "Ember Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 27.986649229
+  "flavourText": "It loves sweets because they become energy for the fire burning inside its body."
+  "resistances": []
+  "abilities": []

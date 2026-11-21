@@ -27,3 +27,11 @@
     - "type": "Metal"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 131
+  "species": "Transport Pokémon"
+  "heightMetres": 2.4892
+  "weightKilograms": 219.99229945
+  "flavourText": "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
+  "resistances": []
+  "abilities": []

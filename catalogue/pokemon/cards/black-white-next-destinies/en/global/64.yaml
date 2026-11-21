@@ -27,3 +27,10 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 448
+  "species": "Aura Pokémon"
+  "heightMetres": 1.1938
+  "weightKilograms": 53.97749203
+  "flavourText": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away."
+  "resistances": []

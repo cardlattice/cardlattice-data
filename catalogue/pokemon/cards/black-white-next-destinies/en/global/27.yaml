@@ -33,3 +33,10 @@
     - "type": "Fighting"
       "value": "-20"
   "retreatCost": 2
+  "nationalDex":
+    - 144
+  "species": "Freeze Pokémon"
+  "heightMetres": 1.7018
+  "weightKilograms": 55.383628377
+  "flavourText": "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air."
+  "abilities": []

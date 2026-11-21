@@ -24,3 +24,10 @@
     - "type": "Water"
       "value": "-20"
   "retreatCost": 1
+  "nationalDex":
+    - 273
+  "species": "Acorn Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 3.991612856
+  "flavourText": "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon."
+  "abilities": []

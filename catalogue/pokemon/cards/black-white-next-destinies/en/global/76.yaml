@@ -31,3 +31,9 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 4
+  "nationalDex":
+    - 437
+  "species": "Bronze Bell Pokémon"
+  "heightMetres": 1.2954
+  "weightKilograms": 187.016134151
+  "flavourText": "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests."

@@ -27,3 +27,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 3
+  "nationalDex":
+    - 555
+  "species": "Blazing Pokémon"
+  "heightMetres": 1.2954
+  "weightKilograms": 92.895717376
+  "flavourText": "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally."
+  "resistances": []
+  "abilities": []

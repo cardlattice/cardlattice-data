@@ -25,3 +25,10 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 3
+  "nationalDex":
+    - 597
+  "species": "Thorn Seed Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 18.778724118
+  "flavourText": "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away."
+  "abilities": []

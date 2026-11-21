@@ -32,3 +32,10 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 1
+  "nationalDex":
+    - 461
+  "species": "Sharp Claw Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 34.01942775
+  "flavourText": "Evolution made it even more devious. It communicates by clawing signs in boulders."
+  "abilities": []

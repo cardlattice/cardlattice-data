@@ -30,3 +30,9 @@
     - "type": "Water"
       "value": "-20"
   "retreatCost": 2
+  "nationalDex":
+    - 591
+  "species": "Mushroom Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 10.477983747
+  "flavourText": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion."

@@ -27,3 +27,10 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 3
+  "nationalDex":
+    - 518
+  "species": "Drowsing Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 60.509222158
+  "flavourText": "With the mist from its forehead, it can create shapes of things from dreams it has eaten."
+  "resistances": []

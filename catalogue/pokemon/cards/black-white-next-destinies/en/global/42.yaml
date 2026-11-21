@@ -26,3 +26,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 403
+  "species": "Flash Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 9.480080533
+  "flavourText": "The extension and contraction of its muscles generates electricity. It glows when in trouble."
+  "resistances": []
+  "abilities": []

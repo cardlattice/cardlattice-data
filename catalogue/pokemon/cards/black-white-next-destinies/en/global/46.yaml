@@ -29,3 +29,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 405
+  "species": "Gleam Eyes Pokémon"
+  "heightMetres": 1.397
+  "weightKilograms": 42.002653462
+  "flavourText": "It can see clearly through walls to track down its prey and seek its lost young."
+  "resistances": []
+  "abilities": []

@@ -29,3 +29,10 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 282
+  "species": "Embrace Pokémon"
+  "heightMetres": 1.6002
+  "weightKilograms": 48.398305879
+  "flavourText": "To protect its Trainer, it will expend all its psychic power to create a small black hole."
+  "resistances": []

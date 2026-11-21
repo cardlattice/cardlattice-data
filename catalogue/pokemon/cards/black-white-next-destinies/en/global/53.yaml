@@ -31,3 +31,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 4
+  "nationalDex":
+    - 89
+  "species": "Sludge Pokémon"
+  "heightMetres": 1.1938
+  "weightKilograms": 29.982455657
+  "flavourText": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact."
+  "resistances": []
+  "abilities": []

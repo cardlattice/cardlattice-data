@@ -35,3 +35,10 @@
     - "type": "Lightning"
       "value": "-20"
   "retreatCost": 4
+  "nationalDex":
+    - 450
+  "species": "Heavyweight Pokémon"
+  "heightMetres": 2.0066
+  "weightKilograms": 300.005993518
+  "flavourText": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength."
+  "abilities": []

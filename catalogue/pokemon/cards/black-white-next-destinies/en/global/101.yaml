@@ -25,3 +25,12 @@
     - "type": "Darkness"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 609
+  "species": "Luring Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 34.291583172
+  "flavourText": "This extremely rare Pokémon is a different color than usual. It is very hard to find."
+  "resistances": []
+"finishes":
+  - "holo"

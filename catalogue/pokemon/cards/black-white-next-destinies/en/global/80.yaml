@@ -26,3 +26,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 52
+  "species": "Scratch Cat Pokémon"
+  "heightMetres": 0.4064
+  "weightKilograms": 4.218409041
+  "flavourText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly."
+  "resistances": []
+  "abilities": []

@@ -29,3 +29,10 @@
     - "type": "Water"
       "value": "-20"
   "retreatCost": 1
+  "nationalDex":
+    - 590
+  "species": "Mushroom Pokémon"
+  "heightMetres": 0.2032
+  "weightKilograms": 0.997903214
+  "flavourText": "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown."
+  "abilities": []

@@ -23,3 +23,11 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 608
+  "species": "Lamp Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 13.018101019
+  "flavourText": "It arrives near the moment of death and steals spirit from the body."
+  "resistances": []
+  "abilities": []

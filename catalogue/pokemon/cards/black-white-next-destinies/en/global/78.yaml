@@ -26,3 +26,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 39
+  "species": "Balloon Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 5.488467677
+  "flavourText": "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy."
+  "resistances": []
+  "abilities": []

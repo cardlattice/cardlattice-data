@@ -21,3 +21,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 619
+  "species": "Martial Arts Pokémon"
+  "heightMetres": 0.889
+  "weightKilograms": 20.003423517
+  "flavourText": "They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise."
+  "resistances": []
+  "abilities": []

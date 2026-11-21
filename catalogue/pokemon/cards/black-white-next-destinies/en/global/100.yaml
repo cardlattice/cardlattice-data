@@ -25,3 +25,12 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 4
+  "nationalDex":
+    - 500
+  "species": "Mega Fire Pig Pokémon"
+  "heightMetres": 1.6002
+  "weightKilograms": 150.002996759
+  "flavourText": "This extremely rare Pokémon is a different color than usual. It is very hard to find."
+  "resistances": []
+"finishes":
+  - "holo"

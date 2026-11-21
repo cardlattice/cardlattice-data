@@ -25,3 +25,11 @@
     - "type": "Lightning"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 592
+  "species": "Floating Pokémon"
+  "heightMetres": 1.1938
+  "weightKilograms": 33.021524536
+  "flavourText": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface."
+  "resistances": []
+  "abilities": []

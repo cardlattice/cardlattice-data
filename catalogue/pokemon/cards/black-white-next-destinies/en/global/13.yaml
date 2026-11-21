@@ -29,3 +29,11 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 3
+  "nationalDex":
+    - 59
+  "species": "Legendary Pokémon"
+  "heightMetres": 1.905
+  "weightKilograms": 154.992512829
+  "flavourText": "Its proud and regal appearance has captured the hearts of people since long ago."
+  "resistances": []
+  "abilities": []

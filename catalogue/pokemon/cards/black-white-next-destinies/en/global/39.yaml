@@ -26,3 +26,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 25
+  "species": "Mouse Pokémon"
+  "heightMetres": 0.4064
+  "weightKilograms": 5.987419284
+  "flavourText": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
+  "resistances": []
+  "abilities": []

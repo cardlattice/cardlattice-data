@@ -29,3 +29,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 26
+  "species": "Mouse Pokémon"
+  "heightMetres": 0.7874
+  "weightKilograms": 29.982455657
+  "flavourText": "Its tail discharges electricity into the ground, protecting it from getting shocked."
+  "resistances": []
+  "abilities": []

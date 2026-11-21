@@ -32,3 +32,10 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 2
+  "nationalDex":
+    - 560
+  "species": "Hoodlum Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 29.982455657
+  "flavourText": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader."
+  "abilities": []

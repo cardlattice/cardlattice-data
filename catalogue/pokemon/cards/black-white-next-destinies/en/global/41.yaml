@@ -33,3 +33,10 @@
     - "type": "Fighting"
       "value": "-20"
   "retreatCost": 2
+  "nationalDex":
+    - 145
+  "species": "Electric Pokémon"
+  "heightMetres": 1.6002
+  "weightKilograms": 52.61671492
+  "flavourText": "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
+  "abilities": []

@@ -21,3 +21,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 517
+  "species": "Dream Eater Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 23.314647818
+  "flavourText": "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
+  "resistances": []
+  "abilities": []

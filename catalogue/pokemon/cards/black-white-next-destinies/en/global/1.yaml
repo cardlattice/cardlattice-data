@@ -28,3 +28,11 @@
     - "type": "Fire"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 127
+  "species": "Stag Beetle Pokémon"
+  "heightMetres": 1.4986
+  "weightKilograms": 55.020754481
+  "flavourText": "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far."
+  "resistances": []
+  "abilities": []

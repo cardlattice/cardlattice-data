@@ -28,3 +28,10 @@
     - "type": "Metal"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 584
+  "species": "Snowstorm Pokémon"
+  "heightMetres": 1.2954
+  "weightKilograms": 57.515512516
+  "flavourText": "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards."
+  "resistances": []

@@ -29,3 +29,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 644
+  "species": "Deep Black Pokémon"
+  "heightMetres": 2.8956
+  "weightKilograms": 345.002356622
+  "flavourText": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
+  "resistances": []
+  "abilities": []

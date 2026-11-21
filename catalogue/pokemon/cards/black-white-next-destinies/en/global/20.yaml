@@ -28,3 +28,11 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 609
+  "species": "Luring Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 34.291583172
+  "flavourText": "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind."
+  "resistances": []
+  "abilities": []

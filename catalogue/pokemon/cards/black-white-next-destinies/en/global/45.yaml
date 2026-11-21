@@ -27,3 +27,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 0
+  "nationalDex":
+    - 404
+  "species": "Spark Pokémon"
+  "heightMetres": 0.889
+  "weightKilograms": 30.481407264
+  "flavourText": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+  "resistances": []
+  "abilities": []

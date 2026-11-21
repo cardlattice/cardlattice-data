@@ -25,3 +25,11 @@
     - "type": "Metal"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 582
+  "species": "Fresh Snow Pokémon"
+  "heightMetres": 0.4064
+  "weightKilograms": 5.715263862
+  "flavourText": "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them."
+  "resistances": []
+  "abilities": []

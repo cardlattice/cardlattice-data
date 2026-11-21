@@ -24,3 +24,11 @@
     - "type": "Lightning"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 120
+  "species": "Star Shape Pokémon"
+  "heightMetres": 0.7874
+  "weightKilograms": 34.518379357
+  "flavourText": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight."
+  "resistances": []
+  "abilities": []

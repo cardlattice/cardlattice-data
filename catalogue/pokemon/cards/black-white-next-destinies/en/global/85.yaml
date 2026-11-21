@@ -28,3 +28,10 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 573
+  "species": "Scarf Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 7.484274105
+  "flavourText": "Their white fur is coated in a special oil that makes it easy for them to deflect attacks."
+  "resistances": []

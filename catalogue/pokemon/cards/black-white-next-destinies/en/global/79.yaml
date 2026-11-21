@@ -30,3 +30,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 40
+  "species": "Balloon Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 12.020197805
+  "flavourText": "Its fine fur feels sublime to the touch. It can expand its body by inhaling air."
+  "resistances": []
+  "abilities": []

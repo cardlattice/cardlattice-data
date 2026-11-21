@@ -20,3 +20,11 @@
     - "type": "Water"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 607
+  "species": "Candle Pokémon"
+  "heightMetres": 0.3048
+  "weightKilograms": 3.084428116
+  "flavourText": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it."
+  "resistances": []
+  "abilities": []

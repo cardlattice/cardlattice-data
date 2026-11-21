@@ -30,3 +30,11 @@
     - "type": "Metal"
       "value": "×2"
   "retreatCost": 3
+  "nationalDex":
+    - 614
+  "species": "Freezing Pokémon"
+  "heightMetres": 2.5908
+  "weightKilograms": 259.999146484
+  "flavourText": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey."
+  "resistances": []
+  "abilities": []

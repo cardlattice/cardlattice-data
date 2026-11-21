@@ -26,3 +26,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 447
+  "species": "Emanation Pokémon"
+  "heightMetres": 0.7112
+  "weightKilograms": 20.184860465
+  "flavourText": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves."
+  "resistances": []
+  "abilities": []

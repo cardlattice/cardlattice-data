@@ -28,3 +28,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 606
+  "species": "Cerebral Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 34.518379357
+  "flavourText": "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers."
+  "resistances": []
+  "abilities": []

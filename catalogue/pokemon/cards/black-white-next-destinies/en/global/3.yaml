@@ -26,3 +26,11 @@
     - "type": "Fire"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 401
+  "species": "Cricket Pokémon"
+  "heightMetres": 0.3048
+  "weightKilograms": 2.222602613
+  "flavourText": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
+  "resistances": []
+  "abilities": []

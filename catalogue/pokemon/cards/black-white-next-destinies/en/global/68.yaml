@@ -27,3 +27,11 @@
     - "type": "Psychic"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 620
+  "species": "Martial Arts Pokémon"
+  "heightMetres": 1.397
+  "weightKilograms": 35.516282571
+  "flavourText": "They use the long fur on their arms as a whip to strike their opponents."
+  "resistances": []
+  "abilities": []

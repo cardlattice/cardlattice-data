@@ -31,3 +31,10 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 3
+  "nationalDex":
+    - 436
+  "species": "Bronze Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 60.509222158
+  "flavourText": "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
+  "abilities": []

@@ -26,3 +26,11 @@
     - "type": "Lightning"
       "value": "×2"
   "retreatCost": 0
+  "nationalDex":
+    - 121
+  "species": "Mysterious Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 80.013694068
+  "flavourText": "At the center of its body is a red core, which sends mysterious radio signals into the night sky."
+  "resistances": []
+  "abilities": []

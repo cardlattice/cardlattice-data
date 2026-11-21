@@ -26,3 +26,10 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 1
+  "nationalDex":
+    - 274
+  "species": "Wily Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 27.986649229
+  "flavourText": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests."
+  "abilities": []

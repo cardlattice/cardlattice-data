@@ -28,3 +28,10 @@
     - "type": "Fighting"
       "value": "-20"
   "retreatCost": 1
+  "nationalDex":
+    - 519
+  "species": "Tiny Pigeon Pokémon"
+  "heightMetres": 0.3048
+  "weightKilograms": 2.086524902
+  "flavourText": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+  "abilities": []

@@ -28,3 +28,11 @@
     - "type": "Lightning"
       "value": "×2"
   "retreatCost": 2
+  "nationalDex":
+    - 593
+  "species": "Floating Pokémon"
+  "heightMetres": 2.2098
+  "weightKilograms": 134.989089312
+  "flavourText": "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy."
+  "resistances": []
+  "abilities": []

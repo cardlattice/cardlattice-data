@@ -27,3 +27,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 1
+  "nationalDex":
+    - 53
+  "species": "Classy Cat Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 31.978262085
+  "flavourText": "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk."
+  "resistances": []
+  "abilities": []

@@ -29,3 +29,10 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 2
+  "nationalDex":
+    - 559
+  "species": "Shedding Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 11.79340162
+  "flavourText": "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick."
+  "abilities": []

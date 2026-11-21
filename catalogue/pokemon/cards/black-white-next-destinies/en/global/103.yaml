@@ -29,3 +29,11 @@
     - "type": "Psychic"
       "value": "-20"
   "retreatCost": 3
+  "nationalDex":
+    - 635
+  "species": "Brutal Pokémon"
+  "heightMetres": 1.8034
+  "weightKilograms": 159.982028899
+  "flavourText": "This extremely rare Pokémon is a different color than usual. It is very hard to find."
+"finishes":
+  - "holo"

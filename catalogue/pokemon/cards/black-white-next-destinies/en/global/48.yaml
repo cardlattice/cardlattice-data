@@ -29,3 +29,11 @@
     - "type": "Fighting"
       "value": "×2"
   "retreatCost": 0
+  "nationalDex":
+    - 523
+  "species": "Thunderbolt Pokémon"
+  "heightMetres": 1.6002
+  "weightKilograms": 79.514742461
+  "flavourText": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+  "resistances": []
+  "abilities": []
