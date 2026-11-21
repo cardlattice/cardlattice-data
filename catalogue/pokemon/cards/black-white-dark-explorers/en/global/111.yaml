@@ -8,5 +8,6 @@ pokemon:
     - Item
   rules:
     - Switch your opponent's Active Pokémon with 1 of his or her Benched Pokémon.
-    - You may play as many Item cards as you like during your turn (before your
-      attack).
+    - You may play as many Item cards as you like during your turn (before your attack).
+finishes:
+  - holo

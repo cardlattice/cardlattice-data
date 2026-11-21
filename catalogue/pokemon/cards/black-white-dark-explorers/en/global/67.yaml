@@ -15,3 +15,19 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 1
+  attacks:
+    - name: Rising Lunge
+      cost:
+        - Darkness
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  nationalDex:
+    - 559
+  species: Shedding Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 11.79340162
+  flavourText: Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.
+finishes:
+  - non-holo
+  - reverse-holo

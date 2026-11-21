@@ -13,3 +13,28 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Suction Heal
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    - name: Slurp Shakedown
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+        - Colorless
+      text: Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60 damage to the new Defending Pokémon.
+  nationalDex:
+    - 604
+  species: EleFish Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 80.512645675
+  flavourText: With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.
+  resistances: []
+finishes:
+  - holo
+  - reverse-holo

@@ -16,3 +16,25 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 3
+  attacks:
+    - name: Mud-Slap
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Corkscrew Punch
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "70"
+  nationalDex:
+    - 552
+  species: Desert Croc Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 33.384398432
+  flavourText: They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.
+finishes:
+  - non-holo
+  - reverse-holo

@@ -13,3 +13,24 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 3
+  abilities:
+    - name: Airhead
+      kind: Ability
+      text: If you have 2, 4, or 6 Prize cards left, this Pokémon can't attack.
+  attacks:
+    - name: Lazy Headbutt
+      cost:
+        - Water
+        - Colorless
+      damage: "80"
+      text: This Pokémon is now Asleep.
+  nationalDex:
+    - 80
+  species: Hermit Crab Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 78.516839247
+  flavourText: Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

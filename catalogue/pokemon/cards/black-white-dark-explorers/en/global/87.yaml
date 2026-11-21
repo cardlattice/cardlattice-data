@@ -13,3 +13,23 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Roar
+      cost:
+        - Colorless
+      text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    - name: Tackle
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  nationalDex:
+    - 507
+  species: Loyal Dog Pokémon
+  heightMetres: 0.889
+  weightKilograms: 14.696392788
+  flavourText: It has black, cape-like fur that is very hard and decreases the amount of damage it receives.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

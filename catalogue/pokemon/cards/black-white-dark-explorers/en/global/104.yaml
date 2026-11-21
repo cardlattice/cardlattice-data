@@ -14,3 +14,21 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 4
+  attacks:
+    - name: Smash Turn
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: You may switch this Pokémon with 1 of your Benched Pokémon.
+    - name: Dual Splash
+      cost:
+        - Water
+        - Water
+        - Colorless
+      text: This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  resistances: []
+finishes:
+  - holo

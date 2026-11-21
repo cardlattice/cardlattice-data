@@ -16,3 +16,23 @@ pokemon:
     - type: Lightning
       value: "-20"
   retreatCost: 3
+  attacks:
+    - name: Tunnel Strike
+      cost:
+        - Fighting
+      text: This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    - name: Dig Uppercut
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: Put a card from your discard pile into your hand.
+  nationalDex:
+    - 530
+  species: Subterrene Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 40.415080167
+  flavourText: More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.
+finishes:
+  - non-holo
+  - reverse-holo

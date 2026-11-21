@@ -12,3 +12,19 @@ pokemon:
     - type: Darkness
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Astonish
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, choose a card at random from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.
+  nationalDex:
+    - 562
+  species: Spirit Pokémon
+  heightMetres: 0.508
+  weightKilograms: 1.496854821
+  flavourText: Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

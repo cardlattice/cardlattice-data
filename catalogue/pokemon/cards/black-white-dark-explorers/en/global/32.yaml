@@ -13,3 +13,20 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Bubble Beam
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  nationalDex:
+    - 536
+  species: Vibration Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 17.009713875
+  flavourText: It lives in the water and on land. It uses its long, sticky tongue to capture prey.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

@@ -12,3 +12,20 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Body Slam
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  nationalDex:
+    - 616
+  species: Snail Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 7.71107029
+  flavourText: When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

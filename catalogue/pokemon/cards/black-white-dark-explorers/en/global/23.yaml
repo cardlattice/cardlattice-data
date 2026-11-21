@@ -12,3 +12,24 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Big Yawn
+      cost:
+        - Colorless
+      text: Both this Pokémon and the Defending Pokémon are now Asleep.
+    - name: Shot in the Dark
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+      text: Flip 2 coins. If either of them is tails, this attack does nothing.
+  nationalDex:
+    - 79
+  species: Dopey Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 36.015234178
+  flavourText: Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

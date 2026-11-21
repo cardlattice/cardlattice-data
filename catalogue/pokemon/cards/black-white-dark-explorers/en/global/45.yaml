@@ -12,3 +12,19 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Spark
+      cost:
+        - Lightning
+      damage: "10"
+      text: Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  nationalDex:
+    - 602
+  species: EleFish Pokémon
+  heightMetres: 0.2032
+  weightKilograms: 0.317514659
+  flavourText: These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

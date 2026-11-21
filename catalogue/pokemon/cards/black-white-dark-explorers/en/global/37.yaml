@@ -13,3 +13,41 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 0
+  attacks:
+    - name: Electrigun
+      cost:
+        - Colorless
+      damage: 20+
+      text: You may discard a {Lightning} Energy attached to this Pokémon. If you do, this attack does 40
+        more damage.
+    - name: Pin Missile
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: Flip 4 coins. This attack does 40 damage times the number of heads.
+  nationalDex:
+    - 135
+  species: Lightning Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 24.49398798
+  flavourText: If agitated, it uses electricity to straighten out its fur and launch it in small bunches.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  regional-championships:
+    finish: reverse-holo
+    stamps:
+      - regional-championships
+  regional-championships-staff:
+    finish: reverse-holo
+    stamps:
+      - regional-championships
+      - staff

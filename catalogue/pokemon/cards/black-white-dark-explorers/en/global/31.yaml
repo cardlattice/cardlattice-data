@@ -12,3 +12,20 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Spiral Drain
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+      text: Heal 20 damage from this Pokémon.
+  nationalDex:
+    - 535
+  species: Tadpole Pokémon
+  heightMetres: 0.508
+  weightKilograms: 4.490564463
+  flavourText: They warn others of danger by vibrating their cheeks to create a high-pitched sound.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

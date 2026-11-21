@@ -13,3 +13,25 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 3
+  abilities:
+    - name: Scorching Scales
+      kind: Ability
+      text: Put 4 damage counters instead of 2 on your opponent's Burned Pokémon between turns.
+  attacks:
+    - name: Burning Wind
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.
+  nationalDex:
+    - 637
+  species: Sun Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 45.994266318
+  flavourText: A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.
+  resistances: []
+finishes:
+  - holo
+  - reverse-holo

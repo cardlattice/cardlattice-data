@@ -12,3 +12,37 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Smash Kick
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Tail Whap
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 133
+  species: Evolution Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 6.486370891
+  flavourText: Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  city-championships:
+    finish: reverse-holo
+    stamps:
+      - city-championships
+  city-championships-staff:
+    finish: reverse-holo
+    stamps:
+      - city-championships
+      - staff

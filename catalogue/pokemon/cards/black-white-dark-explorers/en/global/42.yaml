@@ -12,3 +12,18 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Static Shock
+      cost:
+        - Lightning
+      damage: "20"
+  nationalDex:
+    - 595
+  species: Attaching Pokémon
+  heightMetres: 0.1016
+  weightKilograms: 0.589670081
+  flavourText: They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

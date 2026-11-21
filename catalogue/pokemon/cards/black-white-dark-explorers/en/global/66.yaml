@@ -16,3 +16,28 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 3
+  attacks:
+    - name: Dark Clamp
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+    - name: Bombast
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: Does 40 damage times the number of Prize cards you have taken.
+  nationalDex:
+    - 553
+  species: Intimidation Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 96.297660151
+  flavourText: They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.
+finishes:
+  - holo
+  - reverse-holo

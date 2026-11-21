@@ -6,3 +6,9 @@ pokemon:
   category: trainer
   subtypes:
     - Item
+  rules:
+    - Attach a basic {Darkness} Energy card from your discard pile to 1 of your Benched {Darkness} Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).
+finishes:
+  - non-holo
+  - reverse-holo

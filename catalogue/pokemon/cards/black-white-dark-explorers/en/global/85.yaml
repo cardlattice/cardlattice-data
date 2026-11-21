@@ -15,3 +15,23 @@ pokemon:
     - type: Fighting
       value: "-20"
   retreatCost: 1
+  attacks:
+    - name: Tone-Deaf
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Peck
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+  nationalDex:
+    - 441
+  species: Music Note Pokémon
+  heightMetres: 0.508
+  weightKilograms: 1.905087954
+  flavourText: Its tongue is just like a human's. As a result, it can cleverly mimic human speech.
+finishes:
+  - non-holo
+  - reverse-holo

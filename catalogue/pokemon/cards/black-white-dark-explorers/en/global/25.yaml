@@ -13,3 +13,50 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Muddy Water
+      cost:
+        - Colorless
+      damage: "20"
+      text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance
+        for Benched Pokémon.)
+    - name: Spiral Drain
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Heal 20 damage from this Pokémon.
+  nationalDex:
+    - 134
+  species: Bubble Jet Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 28.984552443
+  flavourText: Its cell composition is similar to water molecules. As a result, it can melt away into water.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  regional-championships:
+    finish: reverse-holo
+    stamps:
+      - regional-championships
+  regional-championships-staff:
+    finish: reverse-holo
+    stamps:
+      - regional-championships
+      - staff
+  state-province-territory-championships:
+    finish: reverse-holo
+    stamps:
+      - state-province-territory-championships
+  state-province-territory-championships-staff:
+    finish: reverse-holo
+    stamps:
+      - state-province-territory-championships
+      - staff

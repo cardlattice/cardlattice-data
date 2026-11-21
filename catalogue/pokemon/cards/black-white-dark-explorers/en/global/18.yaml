@@ -12,3 +12,25 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Flame Cloak
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, attach a {Fire} Energy card from your discard pile to this Pokémon.
+    - name: Heat Blast
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+  nationalDex:
+    - 324
+  species: Coal Pokémon
+  heightMetres: 0.508
+  weightKilograms: 80.376567964
+  flavourText: It burns coal inside its shell for energy. It blows out black soot if it is endangered.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

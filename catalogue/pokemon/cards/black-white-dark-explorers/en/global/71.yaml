@@ -16,3 +16,25 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  attacks:
+    - name: Brutal Bash
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Does 20 damage times the number of {Darkness} Pokémon you have in play.
+    - name: Dark Rush
+      cost:
+        - Darkness
+        - Darkness
+      damage: 20×
+      text: Does 20 damage times the number of damage counters on this Pokémon.
+  nationalDex:
+    - 571
+  species: Illusion Fox Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 81.102315756
+  flavourText: Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.
+finishes:
+  - non-holo
+  - reverse-holo

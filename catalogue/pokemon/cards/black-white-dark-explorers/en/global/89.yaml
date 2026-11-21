@@ -10,3 +10,29 @@ pokemon:
   stage: Stage 2
   evolvesFrom: Fraxure
   retreatCost: 3
+  attacks:
+    - name: Guillotine
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+    - name: Stunning Uppercut
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Flip 2 coins. If both of them are heads, the Defending Pokémon is now Paralyzed. If both of them are tails, this attack does nothing.
+  nationalDex:
+    - 612
+  species: Axe Jaw Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 105.505585262
+  flavourText: Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.
+  weaknesses: []
+  resistances: []
+finishes:
+  - holo
+  - reverse-holo

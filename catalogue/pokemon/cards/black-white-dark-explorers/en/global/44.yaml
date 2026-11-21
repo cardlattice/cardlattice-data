@@ -12,3 +12,19 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Charge Beam
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.
+  nationalDex:
+    - 602
+  species: EleFish Pokémon
+  heightMetres: 0.2032
+  weightKilograms: 0.317514659
+  flavourText: These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

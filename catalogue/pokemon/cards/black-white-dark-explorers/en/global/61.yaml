@@ -16,3 +16,25 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  attacks:
+    - name: Confuse Ray
+      cost:
+        - Colorless
+      damage: "20"
+      text: The Defending Pokémon is now Confused.
+    - name: Shadow Shutdown
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      text: Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.
+      damage: "60"
+  nationalDex:
+    - 197
+  species: Moonlight Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 26.988746015
+  flavourText: When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.
+finishes:
+  - non-holo
+  - reverse-holo

@@ -12,3 +12,24 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Low Kick
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Hammer In
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "30"
+  nationalDex:
+    - 532
+  species: Muscular Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 12.519149412
+  flavourText: These Pokémon appear at building sites and help out with construction. They always carry squared logs.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

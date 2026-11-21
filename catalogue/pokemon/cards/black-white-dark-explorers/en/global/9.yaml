@@ -12,3 +12,25 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Beat
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Reckless Charge
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: This Pokémon does 10 damage to itself.
+  nationalDex:
+    - 588
+  species: Clamping Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.89670081
+  flavourText: These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

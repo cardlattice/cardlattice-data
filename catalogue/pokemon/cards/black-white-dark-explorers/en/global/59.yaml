@@ -13,3 +13,25 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Low Kick
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Steel Swing
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 60×
+      text: Flip 2 coins. This attack does 60 damage times the number of heads.
+  nationalDex:
+    - 533
+  species: Muscular Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 40.006847034
+  flavourText: They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

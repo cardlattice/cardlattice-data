@@ -13,3 +13,25 @@ pokemon:
     - type: Metal
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Triple Spin
+      cost:
+        - Water
+      damage: 20×
+      text: Flip 3 coins. This attack does 20 damage times the number of heads.
+    - name: Frost Breath
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "50"
+  nationalDex:
+    - 583
+  species: Icy Snow Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 41.004750248
+  flavourText: Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

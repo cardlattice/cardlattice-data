@@ -12,3 +12,19 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Fury Attack
+      cost:
+        - Water
+      damage: 10×
+      text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  nationalDex:
+    - 393
+  species: Penguin Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.216312255
+  flavourText: A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

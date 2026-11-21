@@ -13,3 +13,26 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Psy Bolt
+      cost:
+        - Psychic
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Hand Press
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: If you have more cards in your hand than your opponent, this attack does 30 more damage.
+  nationalDex:
+    - 199
+  species: Royal Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 79.514742461
+  flavourText: Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

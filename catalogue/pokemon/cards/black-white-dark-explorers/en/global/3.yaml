@@ -16,3 +16,25 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 4
+  abilities:
+    - name: Floral Scent
+      kind: Ability
+      text: Once during your turn (before your attack), you may search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  attacks:
+    - name: Poison Powder
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: The Defending Pokémon is now Poisoned.
+  nationalDex:
+    - 3
+  species: Seed Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 100.017117585
+  flavourText: After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.
+finishes:
+  - holo
+  - reverse-holo

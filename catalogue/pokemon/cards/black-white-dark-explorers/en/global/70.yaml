@@ -15,3 +15,23 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 1
+  attacks:
+    - name: Paralyzing Gaze
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Shadow Bind
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+  nationalDex:
+    - 570
+  species: Tricky Fox Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 12.519149412
+  flavourText: To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.
+finishes:
+  - non-holo
+  - reverse-holo

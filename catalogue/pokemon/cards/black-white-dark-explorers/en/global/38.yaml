@@ -1,6 +1,6 @@
 name: Raikou-EX
 illustrators:
-  - shizurow
+  - Shizurow
 pokemon:
   category: pokemon
   hp: 170
@@ -13,3 +13,22 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Thunder Fang
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Volt Bolt
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      text: Discard all {Lightning} Energy attached to this Pokémon. This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  resistances: []
+rarity: ★ (silver)
+finishes:
+  - holo

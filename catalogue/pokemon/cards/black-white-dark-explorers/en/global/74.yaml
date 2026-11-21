@@ -16,3 +16,25 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 3
+  attacks:
+    - name: Joust
+      cost:
+        - Metal
+      damage: "30"
+      text: Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.
+    - name: Cavalry Lance
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "70"
+      text: During your opponent's next turn, this Pokémon has no Weakness.
+  nationalDex:
+    - 589
+  species: Cavalry Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 33.021524536
+  flavourText: They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.
+finishes:
+  - non-holo
+  - reverse-holo

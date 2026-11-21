@@ -6,3 +6,9 @@ pokemon:
   category: trainer
   subtypes:
     - Supporter
+  rules:
+    - Draw 3 cards.
+    - You may play only 1 Supporter card during your turn (before your attack).
+finishes:
+  - non-holo
+  - reverse-holo

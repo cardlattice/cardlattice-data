@@ -1,6 +1,6 @@
 name: Darkrai-EX
 illustrators:
-  - shizurow
+  - Shizurow
 pokemon:
   category: pokemon
   hp: 180
@@ -16,3 +16,20 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  abilities:
+    - name: Dark Cloak
+      kind: Ability
+      text: Each of your Pokémon that has any {Darkness} Energy attached to it has no Retreat Cost.
+  attacks:
+    - name: Night Spear
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "90"
+      text: Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+rarity: ★ (silver)
+finishes:
+  - holo

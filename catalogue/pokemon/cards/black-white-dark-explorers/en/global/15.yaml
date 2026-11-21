@@ -12,3 +12,23 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Peck
+      cost:
+        - Fire
+      damage: "10"
+    - name: Live Coal
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 255
+  species: Chick Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 2.494758035
+  flavourText: A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
