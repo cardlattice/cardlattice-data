@@ -34,3 +34,18 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  psychic-gym:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-psychic-gym-collector-pack-en
+  legendary-battle-deck:
+    finish: non-holo
+    products:
+      - pokemon-product-lugia-legendary-battle-deck-en

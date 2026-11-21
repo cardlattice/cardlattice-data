@@ -35,3 +35,12 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  legendary-treasures-blister:
+    finish: holo
+    products:
+      - pokemon-product-legendary-treasures-ampharos-checklane-blister-en

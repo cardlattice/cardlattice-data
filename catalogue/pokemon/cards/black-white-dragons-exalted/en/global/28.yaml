@@ -35,3 +35,18 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  dragonspeed:
+    finish: non-holo
+    products:
+      - pokemon-product-dragons-exalted-dragonspeed-en
+  water-gym:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-water-gym-collector-pack-en

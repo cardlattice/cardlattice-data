@@ -22,7 +22,7 @@ pokemon:
       value: ×2
   retreatCost: 1
   rules:
-    - When Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
   resistances: []
 illustrators:
   - 5ban Graphics

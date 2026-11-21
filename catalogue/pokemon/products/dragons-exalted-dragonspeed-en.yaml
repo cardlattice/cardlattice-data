@@ -1,0 +1,5 @@
+# Product packaging/distribution: https://www.pokebeach.com/2012/07/dragons-exalted-dragonspeed-dragonsnarl-theme-decks
+name: DragonSpeed Theme Deck
+language: en
+relatedSets:
+  - pokemon-black-white-dragons-exalted

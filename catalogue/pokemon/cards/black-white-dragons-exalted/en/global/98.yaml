@@ -39,3 +39,24 @@ illustrators:
 finishes:
   - non-holo
   - reverse-holo
+  - holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  dragonsnarl:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-dragons-exalted-dragonsnarl-en
+  xy-two-pack-blister:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-xy-dragon-trio-two-pack-blister-en
+  xy-knock-out-collection:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-xy-dragon-trio-knock-out-collection-en

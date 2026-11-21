@@ -38,3 +38,14 @@ illustrators:
 finishes:
   - non-holo
   - reverse-holo
+  - holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  xy-three-pack-blister:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-xy-gyarados-three-pack-blister-en

@@ -27,9 +27,16 @@ pokemon:
       value: "-20"
   retreatCost: 2
   rules:
-    - When Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
 illustrators:
   - Eske Yoshinob
 rarity: ★ (silver)
 finishes:
   - holo
+variants:
+  holo:
+    finish: holo
+  legendary-battle-deck:
+    finish: holo
+    products:
+      - pokemon-product-ho-oh-legendary-battle-deck-en
