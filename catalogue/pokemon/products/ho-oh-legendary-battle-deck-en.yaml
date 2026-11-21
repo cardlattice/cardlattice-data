@@ -1,5 +1,5 @@
-# Product packaging/distribution: https://www.pokemoncenter.com/en-ca/product/699-16803/pokemon-tcg-legendary-battle-deck-ho-oh
 name: Ho-Oh Legendary Battle Deck
 language: en
 relatedSets:
+  - pokemon-black-white-boundaries-crossed
   - pokemon-black-white-dragons-exalted
