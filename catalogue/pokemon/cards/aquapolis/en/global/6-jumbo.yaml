@@ -1,0 +1,38 @@
+name: Espeon
+finishes:
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Eevee
+  attacks:
+    - name: Damage Blast
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Flip a number of coins equal to the number of damage counters on the Defending Pokémon. This attack does 30 damage plus 10 more damage for each heads.
+  abilities:
+    - name: Energy Return
+      text: As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can’t be used if Espeon is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 0
+  species: Sun Pokémon
+  heightMetres: 0.889
+  weightKilograms: 26.30835746
+illustrators:
+  - Kyoko Umemoto
+printedDenominator: 12
+additionalNumbers:
+  printedId: C-70
+collectorNumber: "6"
+size: jumbo
+collections:
+  - pokemon-collection-aquapolis-box-toppers

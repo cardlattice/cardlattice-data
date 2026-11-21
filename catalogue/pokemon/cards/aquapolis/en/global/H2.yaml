@@ -31,3 +31,5 @@ pokemon:
 illustrators:
   - Kyoko Umemoto
 printedDenominator: H32
+additionalNumbers:
+  printedId: C-64

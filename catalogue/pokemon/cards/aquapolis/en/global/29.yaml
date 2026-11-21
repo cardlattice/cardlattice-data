@@ -19,6 +19,7 @@ pokemon:
       cost:
         - Fighting
         - Colorless
+        - Colorless
       damage: "40"
       text: Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.
   abilities: []
@@ -30,3 +31,6 @@ illustrators:
   - Tomokazu Komiya
 finishes:
   - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-43-a

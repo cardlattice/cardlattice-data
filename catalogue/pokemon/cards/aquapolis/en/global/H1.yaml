@@ -33,3 +33,5 @@ pokemon:
 illustrators:
   - Shin-ichi Yoshida
 printedDenominator: H32
+additionalNumbers:
+  printedId: D-66

@@ -25,6 +25,6 @@ illustrators:
   - Masako Yamashita
 finishes:
   - non-holo
-externalIds:
-  - namespace: e-reader
-    value: C-32-a
+  - reverse-holo
+additionalNumbers:
+  printedId: C-32-a

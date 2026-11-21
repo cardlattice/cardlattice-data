@@ -26,6 +26,6 @@ illustrators:
   - Yukiko Baba
 finishes:
   - non-holo
-externalIds:
-  - namespace: e-reader
-    value: C-22-a
+  - reverse-holo
+additionalNumbers:
+  printedId: C-22-a

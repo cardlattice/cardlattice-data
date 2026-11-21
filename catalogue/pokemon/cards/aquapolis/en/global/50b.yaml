@@ -30,6 +30,6 @@ illustrators:
   - Sumiyoshi Kizuki
 finishes:
   - non-holo
-externalIds:
-  - namespace: e-reader
-    value: C-12-b
+  - reverse-holo
+additionalNumbers:
+  printedId: C-12-b
