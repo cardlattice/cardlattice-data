@@ -503,6 +503,9 @@
         },
         "size": {
           "$ref": "pokemon-common.schema.json#/$defs/cardSize"
+        },
+        "printingErrors": {
+          "$ref": "pokemon-common.schema.json#/$defs/printing_printingErrors"
         }
       },
       "required": []
@@ -722,6 +725,12 @@
         },
         "foilPattern": {
           "$ref": "pokemon-common.schema.json#/$defs/foilPattern"
+        },
+        "flavourText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "pattern": "^\\S(?:[\\s\\S]*\\S)?$"
         }
       },
       "anyOf": [
@@ -765,6 +774,12 @@
           "required": ["foilPattern"],
           "properties": {
             "foilPattern": {}
+          }
+        },
+        {
+          "required": ["flavourText"],
+          "properties": {
+            "flavourText": {}
           }
         }
       ],
@@ -919,7 +934,18 @@
       "enum": ["standard", "jumbo"]
     },
     "foilPattern": {
-      "enum": ["cosmos", "cracked-ice", "crosshatch"]
+      "enum": ["cosmos", "cracked-ice", "crosshatch", "tinsel", "mirror", "energy-symbol", "sheen"]
+    },
+    "printingError": {
+      "enum": ["stage-2-evolution-frame"]
+    },
+    "printing_printingErrors": {
+      "type": "array",
+      "items": {
+        "$ref": "pokemon-common.schema.json#/$defs/printingError"
+      },
+      "maxItems": 10,
+      "uniqueItems": true
     }
   }
 }

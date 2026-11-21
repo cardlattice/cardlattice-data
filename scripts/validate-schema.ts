@@ -165,6 +165,7 @@ type Variant = {
   edition?: string;
   size?: string;
   foilPattern?: string;
+  flavourText?: string;
   stamps?: string[];
   products?: string[];
 };
@@ -191,6 +192,7 @@ function validateVariants(value: unknown, file: string): Problem[] {
       variant.edition,
       variant.size,
       variant.foilPattern,
+      variant.flavourText,
       variant.stamps?.toSorted(),
       variant.products?.toSorted(),
     ]);
