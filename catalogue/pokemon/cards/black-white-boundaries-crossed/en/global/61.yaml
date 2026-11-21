@@ -30,13 +30,3 @@ pokemon:
   heightMetres: 0.7874
   weightKilograms: 15.013907447
   flavourText: It loves the crying of children. It startles bad kids by passing through walls and making them cry.
-variants:
-  standard-non-holo:
-    finish: non-holo
-  parallel:
-    finish: reverse-holo
-  world-championships-2013-ian-whiton:
-    finish: non-holo
-    stamps:
-      - world-championships-2013
-      - ian-whiton-signature

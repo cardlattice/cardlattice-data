@@ -3,7 +3,6 @@ rarity: Rare
 finishes:
   - holo
   - reverse-holo
-  - non-holo
 illustrators:
   - kawayoo
 pokemon:
@@ -51,13 +50,3 @@ variants:
     products:
       - pokemon-product-furious-fists-two-pack-blister-electivire-dusknoir-scizor-en
       - pokemon-product-psychic-gym-collector-pack-en
-  world-championships-2013-ian-whiton:
-    finish: non-holo
-    stamps:
-      - world-championships-2013
-      - ian-whiton-signature
-  world-championships-2014-trent-orndorff:
-    finish: non-holo
-    stamps:
-      - world-championships-2014
-      - trent-orndorff-signature

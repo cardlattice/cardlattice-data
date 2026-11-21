@@ -2,7 +2,6 @@ name: Keldeo-EX
 rarity: ★ (silver)
 finishes:
   - holo
-  - non-holo
 illustrators:
   - Toyste Beach
 pokemon:
@@ -45,18 +44,3 @@ variants:
     finish: holo
     products:
       - pokemon-product-battle-arena-rayquaza-keldeo-en
-  world-championships-2013-clement-lamberton:
-    finish: non-holo
-    stamps:
-      - world-championships-2013
-      - clement-lamberton-signature
-  world-championships-2013-ian-whiton:
-    finish: non-holo
-    stamps:
-      - world-championships-2013
-      - ian-whiton-signature
-  world-championships-2015-jacob-van-wagner:
-    finish: non-holo
-    stamps:
-      - world-championships-2015
-      - jacob-van-wagner-signature

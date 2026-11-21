@@ -12,18 +12,3 @@ pokemon:
   rules:
     - Switch your Active Pokémon with 1 of your Benched Pokémon.
     - You may play as many Item cards as you like during your turn (before your attack).
-variants:
-  standard-non-holo:
-    finish: non-holo
-  parallel:
-    finish: reverse-holo
-  world-championships-2013-yugo-sato:
-    finish: non-holo
-    stamps:
-      - world-championships-2013
-      - yugo-sato-signature
-  world-championships-2014-haruto-kobayashi:
-    finish: non-holo
-    stamps:
-      - world-championships-2014
-      - haruto-kobayashi-signature
