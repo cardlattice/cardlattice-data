@@ -2,6 +2,7 @@ name: Computer Search
 rarity: ACE SPEC Rare
 finishes:
   - holo
+  - non-holo
 illustrators:
   - Ryo Ueda
 pokemon:
@@ -11,5 +12,39 @@ pokemon:
     - ACE SPEC
   rules:
     - You can’t have more than 1 ACE SPEC card in your deck.
-    - Discard 2 cards from your hand. (If you can’t discard 2 cards, you can’t play this card.) Search your deck for a card and put it into your hand. Shuffle your deck afterward.
+    - Discard 2 cards from your hand. (If you can’t discard 2 cards, you can’t play this card.) Search your deck for a
+      card and put it into your hand. Shuffle your deck afterward.
     - You may play as many Item cards as you like during your turn (before your attack).
+variants:
+  standard-holo:
+    finish: holo
+  world-championships-2013-ian-whiton:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - ian-whiton-signature
+  world-championships-2013-jason-klaczynski:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - jason-klaczynski-signature
+  world-championships-2013-yugo-sato:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - yugo-sato-signature
+  world-championships-2014-trent-orndorff:
+    finish: non-holo
+    stamps:
+      - world-championships-2014
+      - trent-orndorff-signature
+  world-championships-2015-alejandro-ng-guzman:
+    finish: non-holo
+    stamps:
+      - world-championships-2015
+      - alejandro-ng-guzman-signature
+  world-championships-2015-jacob-van-wagner:
+    finish: non-holo
+    stamps:
+      - world-championships-2015
+      - jacob-van-wagner-signature

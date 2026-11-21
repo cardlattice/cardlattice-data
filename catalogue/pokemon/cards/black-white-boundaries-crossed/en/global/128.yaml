@@ -12,3 +12,23 @@ pokemon:
   rules:
     - Search your deck for a basic Energy card, reveal it, and put it into your hand. Shuffle your deck afterward.
     - You may play as many Item cards as you like during your turn (before your attack).
+variants:
+  standard-non-holo:
+    finish: non-holo
+  parallel:
+    finish: reverse-holo
+  world-championships-2013-clement-lamberton:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - clement-lamberton-signature
+  world-championships-2013-jason-klaczynski:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - jason-klaczynski-signature
+  world-championships-2013-yugo-sato:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - yugo-sato-signature

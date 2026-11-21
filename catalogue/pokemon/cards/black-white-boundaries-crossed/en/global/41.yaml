@@ -3,6 +3,7 @@ rarity: Rare
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 illustrators:
   - match
 pokemon:
@@ -44,6 +45,7 @@ pokemon:
 variants:
   standard-holo:
     finish: holo
+    foilPattern: tinsel
   parallel:
     finish: reverse-holo
   cosmos-holo:
@@ -51,3 +53,7 @@ variants:
     foilPattern: cosmos
     products:
       - pokemon-product-furious-fists-two-pack-blister-serperior-emboar-samurott-en
+  cold-fire:
+    finish: non-holo
+    products:
+      - pokemon-product-boundaries-crossed-cold-fire-en

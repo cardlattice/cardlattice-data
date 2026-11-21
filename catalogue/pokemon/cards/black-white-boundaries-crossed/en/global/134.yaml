@@ -21,3 +21,29 @@ variants:
     finish: reverse-holo
     stamps:
       - pokemon-league
+    foilPattern: mirror
+  world-championships-2013-ian-whiton:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - ian-whiton-signature
+  world-championships-2013-yugo-sato:
+    finish: non-holo
+    stamps:
+      - world-championships-2013
+      - yugo-sato-signature
+  world-championships-2014-andrew-estrada:
+    finish: non-holo
+    stamps:
+      - world-championships-2014
+      - andrew-estrada-signature
+  world-championships-2014-haruto-kobayashi:
+    finish: non-holo
+    stamps:
+      - world-championships-2014
+      - haruto-kobayashi-signature
+  world-championships-2014-trent-orndorff:
+    finish: non-holo
+    stamps:
+      - world-championships-2014
+      - trent-orndorff-signature

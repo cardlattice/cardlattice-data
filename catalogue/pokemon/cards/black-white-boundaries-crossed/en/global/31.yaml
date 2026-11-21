@@ -49,3 +49,7 @@ variants:
     finish: non-holo
     products:
       - pokemon-product-boundaries-crossed-ice-shock-en
+  battle-arena:
+    finish: non-holo
+    products:
+      - pokemon-product-battle-arena-rayquaza-keldeo-en

@@ -2,6 +2,7 @@ name: Landorus-EX
 rarity: ★ (silver)
 finishes:
   - holo
+  - non-holo
 illustrators:
   - Eske Yoshinob
 pokemon:
@@ -35,3 +36,11 @@ pokemon:
     - EX
   rules:
     - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+variants:
+  standard-holo:
+    finish: holo
+  world-championships-2015-rowan-stavenow:
+    finish: non-holo
+    stamps:
+      - world-championships-2015
+      - rowan-stavenow-signature
