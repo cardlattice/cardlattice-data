@@ -1,0 +1,26 @@
+name: Hitmonchan
+illustrators:
+  - Ken Sugimori
+finishes:
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Jab
+      cost:
+        - Fighting
+      damage: "20"
+    - name: Special Punch
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
