@@ -5,6 +5,7 @@ illustrators:
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 pokemon:
   category: pokemon
   hp: 60
@@ -31,3 +32,17 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  noble-victories:
+    finish: holo
+    stamps:
+      - noble-victories
+  noble-victories-staff:
+    finish: holo
+    stamps:
+      - noble-victories
+      - staff

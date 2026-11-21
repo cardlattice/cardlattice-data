@@ -21,7 +21,7 @@ pokemon:
       cost:
         - Grass
         - Colorless
-      damage: 20+
+      damage: "20+"
       text: Flip a coin. If heads, this attack does 50 more damage.
     - name: Reckless Charge
       cost:

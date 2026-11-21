@@ -19,7 +19,7 @@ pokemon:
     - name: Electrichain
       cost:
         - Lightning
-      damage: 10+
+      damage: "10+"
       text: Does 20 more damage if you have any {Lightning} Pokémon on your Bench.
   nationalDex:
     - 587

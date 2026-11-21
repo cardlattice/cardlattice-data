@@ -5,6 +5,7 @@ illustrators:
 finishes:
   - non-holo
   - reverse-holo
+  - holo
 pokemon:
   category: pokemon
   hp: 90
@@ -31,7 +32,7 @@ pokemon:
         - Metal
         - Colorless
         - Colorless
-      damage: 70×
+      damage: "70×"
       text: Flip 2 coins. This attack does 70 damage times the number of heads.
   nationalDex:
     - 589
@@ -42,3 +43,22 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  championship-series:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - championship-series
+  championship-series-staff:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - championship-series
+      - staff
+  cracked-ice-holo:
+    finish: holo
+    foilPattern: cracked-ice

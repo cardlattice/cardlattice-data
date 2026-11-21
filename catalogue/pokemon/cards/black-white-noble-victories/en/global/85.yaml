@@ -20,7 +20,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      damage: 10×
+      damage: "10×"
       text: Does 10 damage times the number of your Benched Pokémon.
   nationalDex:
     - 531

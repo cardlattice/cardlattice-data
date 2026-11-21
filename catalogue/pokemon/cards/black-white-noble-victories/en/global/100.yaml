@@ -22,7 +22,7 @@ pokemon:
       cost:
         - Metal
         - Colorless
-      damage: 20+
+      damage: "20+"
       text: Does 20 more damage for each Energy attached to the Defending Pokémon.
     - name: Iron Breaker
       cost:

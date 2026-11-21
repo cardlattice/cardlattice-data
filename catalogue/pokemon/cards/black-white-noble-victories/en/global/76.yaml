@@ -23,7 +23,7 @@ pokemon:
     - name: Finishing Blow
       cost:
         - Darkness
-      damage: 20+
+      damage: "20+"
       text: If the Defending Pokémon already has any damage counters on it, this attack does 50 more damage.
     - name: Night Slash
       cost:

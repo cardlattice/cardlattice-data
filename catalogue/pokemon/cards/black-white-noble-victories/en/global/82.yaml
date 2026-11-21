@@ -30,7 +30,7 @@ pokemon:
         - Colorless
         - Colorless
         - Colorless
-      damage: 40+
+      damage: "40+"
       text: Does 20 more damage for each {Metal} Energy attached to this Pokémon.
   nationalDex:
     - 625

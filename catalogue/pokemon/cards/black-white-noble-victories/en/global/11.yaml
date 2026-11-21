@@ -34,3 +34,19 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  championship-series:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - championship-series
+  championship-series-staff:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - championship-series
+      - staff

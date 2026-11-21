@@ -5,6 +5,7 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 pokemon:
   category: pokemon
   hp: 130
@@ -26,7 +27,7 @@ pokemon:
         - Grass
         - Colorless
         - Colorless
-      damage: 40+
+      damage: "40+"
       text: Flip 2 coins. This attack does 20 more damage for each heads.
   nationalDex:
     - 542
@@ -37,3 +38,10 @@ pokemon:
   resistances: []
   rules: []
   subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo

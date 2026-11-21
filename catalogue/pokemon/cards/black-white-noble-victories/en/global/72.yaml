@@ -33,7 +33,7 @@ pokemon:
         - Fighting
         - Colorless
         - Colorless
-      damage: 50×
+      damage: "50×"
       text: Flip 4 coins. This attack does 50 damage times the number of heads.
   nationalDex:
     - 623

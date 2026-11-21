@@ -38,3 +38,11 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos

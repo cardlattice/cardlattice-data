@@ -19,7 +19,7 @@ pokemon:
     - name: Ambush
       cost:
         - Colorless
-      damage: 10+
+      damage: "10+"
       text: Flip a coin. If heads, this attack does 10 more damage.
   nationalDex:
     - 562

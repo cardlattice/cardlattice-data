@@ -5,6 +5,7 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 pokemon:
   category: pokemon
   hp: 70
@@ -32,3 +33,13 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo
+  jumbo-holo:
+    finish: holo
+    size: jumbo

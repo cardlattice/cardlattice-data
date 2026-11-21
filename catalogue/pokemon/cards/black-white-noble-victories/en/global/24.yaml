@@ -21,7 +21,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      damage: 30×
+      damage: "30×"
       text: Does 30 damage times the number of your Pokémon that have the Round attack.
     - name: Hyper Voice
       cost:

@@ -20,7 +20,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      damage: 20+
+      damage: "20+"
       text: Does 10 more damage for each damage counter on this Pokémon.
     - name: Glaciate
       cost:
@@ -38,3 +38,11 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos

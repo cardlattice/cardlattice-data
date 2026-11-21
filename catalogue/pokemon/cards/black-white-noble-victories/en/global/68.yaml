@@ -23,7 +23,7 @@ pokemon:
       cost:
         - Lightning
         - Colorless
-      damage: 30×
+      damage: "30×"
       text: Flip 2 coins. This attack does 30 damage times the number of heads.
     - name: Thundershock
       cost:

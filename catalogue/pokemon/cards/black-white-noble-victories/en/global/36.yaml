@@ -20,7 +20,7 @@ pokemon:
     - name: Quick Attack
       cost:
         - Colorless
-      damage: 10+
+      damage: "10+"
       text: Flip a coin. If heads, this attack does 20 more damage.
     - name: Shock Bolt
       cost:

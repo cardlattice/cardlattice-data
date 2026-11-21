@@ -22,7 +22,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      damage: 30×
+      damage: "30×"
       text: Flip 2 coins. This attack does 30 damage times the number of heads.
   nationalDex:
     - 611
@@ -35,3 +35,13 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  play-pokemon:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - play-pokemon

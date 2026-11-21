@@ -23,7 +23,7 @@ pokemon:
       cost:
         - Fighting
         - Colorless
-      damage: 20+
+      damage: "20+"
       text: Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.
   nationalDex:
     - 622

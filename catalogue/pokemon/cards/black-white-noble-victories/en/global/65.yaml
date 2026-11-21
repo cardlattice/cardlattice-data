@@ -27,7 +27,7 @@ pokemon:
         - Fighting
         - Fighting
         - Colorless
-      damage: 60+
+      damage: "60+"
       text: Flip 2 coins. This attack does 30 more damage for each heads.
   nationalDex:
     - 534

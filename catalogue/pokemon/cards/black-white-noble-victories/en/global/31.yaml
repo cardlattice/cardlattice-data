@@ -25,7 +25,7 @@ pokemon:
       cost:
         - Colorless
         - Colorless
-      damage: 10+
+      damage: "10+"
       text: Does 20 more damage for each {Water} Energy attached to this Pokémon.
   nationalDex:
     - 593

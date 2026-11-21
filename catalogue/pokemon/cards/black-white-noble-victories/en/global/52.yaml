@@ -24,7 +24,7 @@ pokemon:
     - name: Net Force
       cost:
         - Psychic
-      damage: 40×
+      damage: "40×"
       text: Does 40 damage times the number of Reuniclus you have in play.
   nationalDex:
     - 579

@@ -26,7 +26,7 @@ pokemon:
         - Colorless
         - Colorless
         - Colorless
-      damage: 20×
+      damage: "20×"
       text: Does 20 damage times the number of your Pokémon that have the Round attack.
   nationalDex:
     - 536

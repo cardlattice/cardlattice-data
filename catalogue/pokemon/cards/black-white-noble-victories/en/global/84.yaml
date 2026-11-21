@@ -5,6 +5,7 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
+  - non-holo
 pokemon:
   category: pokemon
   hp: 120
@@ -23,7 +24,7 @@ pokemon:
       cost:
         - Metal
         - Colorless
-      damage: 20+
+      damage: "20+"
       text: Does 20 more damage for each Energy attached to the Defending Pokémon.
     - name: Iron Breaker
       cost:
@@ -41,3 +42,13 @@ pokemon:
   abilities: []
   rules: []
   subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
