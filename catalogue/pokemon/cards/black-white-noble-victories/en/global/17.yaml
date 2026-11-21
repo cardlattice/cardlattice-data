@@ -16,3 +16,25 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Double Fire
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: 80×
+      text: Flip 2 coins. This attack does 80 damage times the number of heads.
+  nationalDex:
+    - 514
+  species: Ember Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 27.986649229
+  flavourText: A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

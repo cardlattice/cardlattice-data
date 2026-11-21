@@ -16,3 +16,27 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Gentle Wrap
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+    - name: Gunk Shot
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon is now Poisoned.
+  nationalDex:
+    - 569
+  species: Trash Heap Pokémon
+  heightMetres: 1.905
+  weightKilograms: 107.319954742
+  flavourText: They absorb garbage and make it part of their bodies. They shoot a poisonous liquid from their right-hand fingertips.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

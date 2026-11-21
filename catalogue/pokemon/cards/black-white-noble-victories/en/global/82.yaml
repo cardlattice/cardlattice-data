@@ -19,3 +19,25 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  attacks:
+    - name: Energy Stream
+      cost:
+        - Colorless
+      damage: "20"
+      text: Attach a {Metal} Energy card from your discard pile to this Pokémon.
+    - name: Metal Scissors
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Does 20 more damage for each {Metal} Energy attached to this Pokémon.
+  nationalDex:
+    - 625
+  species: Sword Blade Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 69.989302691
+  flavourText: It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.
+  abilities: []
+  rules: []
+  subtypes: []

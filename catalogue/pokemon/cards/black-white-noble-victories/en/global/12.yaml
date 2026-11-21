@@ -16,3 +16,24 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 0
+  attacks:
+    - name: Acid Spray
+      cost:
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    - name: Slashing Strike
+      cost:
+        - Grass
+      damage: "60"
+      text: This Pokémon can't use Slashing Strike during your next turn.
+  nationalDex:
+    - 617
+  species: Shell Out Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 25.310454246
+  flavourText: Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

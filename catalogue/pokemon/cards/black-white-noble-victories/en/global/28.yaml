@@ -16,3 +16,25 @@ pokemon:
     - type: Metal
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Ice Beam
+      cost:
+        - Water
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+      damage: "20"
+    - name: Frost Breath
+      cost:
+        - Water
+        - Water
+      damage: "40"
+  nationalDex:
+    - 583
+  species: Icy Snow Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 41.004750248
+  flavourText: It conceals itself from enemy eyes by creating many small ice particles and hiding among them.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

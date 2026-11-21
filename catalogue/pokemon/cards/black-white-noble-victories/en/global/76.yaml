@@ -19,3 +19,24 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 1
+  attacks:
+    - name: Finishing Blow
+      cost:
+        - Darkness
+      damage: 20+
+      text: If the Defending Pokémon already has any damage counters on it, this attack does 50 more damage.
+    - name: Night Slash
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+      text: Switch this Pokémon with 1 of your Benched Pokémon.
+  nationalDex:
+    - 625
+  species: Sword Blade Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 69.989302691
+  flavourText: Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.
+  abilities: []
+  rules: []
+  subtypes: []

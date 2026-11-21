@@ -18,3 +18,19 @@ pokemon:
     - type: Lightning
       value: "-20"
   retreatCost: 3
+  attacks:
+    - name: Dynamic Punch
+      cost:
+        - Fighting
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.
+  nationalDex:
+    - 622
+  species: Automaton Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 91.988532636
+  flavourText: These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.
+  abilities: []
+  rules: []
+  subtypes: []

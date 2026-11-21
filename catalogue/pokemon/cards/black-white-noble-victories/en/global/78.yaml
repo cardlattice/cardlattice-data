@@ -19,3 +19,24 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  attacks:
+    - name: Double Hit
+      cost:
+        - Colorless
+      damage: 20×
+      text: Flip 2 coins. This attack does 20 damage times the number of heads.
+    - name: Strength
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "50"
+  nationalDex:
+    - 634
+  species: Hostile Pokémon
+  heightMetres: 1.397
+  weightKilograms: 49.985879174
+  flavourText: Since their two heads do not get along and compete with each other for food, they always eat too much.
+  abilities: []
+  rules: []
+  subtypes: []

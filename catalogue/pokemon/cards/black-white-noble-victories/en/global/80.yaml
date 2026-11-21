@@ -19,3 +19,26 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 3
+  attacks:
+    - name: Guard Press
+      cost:
+        - Metal
+        - Colorless
+      damage: "40"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    - name: Twineedle
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: 70×
+      text: Flip 2 coins. This attack does 70 damage times the number of heads.
+  nationalDex:
+    - 589
+  species: Cavalry Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 33.021524536
+  flavourText: These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
+  abilities: []
+  rules: []
+  subtypes: []

@@ -15,3 +15,20 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Take Down
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: This Pokémon does 10 damage to itself.
+  nationalDex:
+    - 636
+  species: Torch Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 28.803115495
+  flavourText: The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

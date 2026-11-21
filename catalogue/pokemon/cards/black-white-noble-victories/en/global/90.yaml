@@ -9,3 +9,6 @@ pokemon:
   category: trainer
   subtypes:
     - Item
+  rules:
+    - Look at the bottom 7 cards of your deck. You may reveal a Tirtouga you find there and put it onto your Bench. Shuffle the other cards back into your deck.
+    - You may play as many Item cards as you like during your turn (before your attack).

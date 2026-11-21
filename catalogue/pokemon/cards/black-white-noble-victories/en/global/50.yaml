@@ -15,3 +15,18 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Rollout
+      cost:
+        - Colorless
+      damage: "10"
+  nationalDex:
+    - 577
+  species: Cell Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 0.997903214
+  flavourText: They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

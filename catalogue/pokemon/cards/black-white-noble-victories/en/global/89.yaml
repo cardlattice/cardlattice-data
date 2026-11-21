@@ -12,3 +12,25 @@ pokemon:
     - Colorless
   stage: Basic
   retreatCost: 2
+  abilities:
+    - name: Rough Skin
+      kind: Ability
+      text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+  attacks:
+    - name: Clutch
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+  nationalDex:
+    - 621
+  species: Cave Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 138.980702168
+  flavourText: It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.
+  weaknesses: []
+  resistances: []
+  rules: []
+  subtypes: []

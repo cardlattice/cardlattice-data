@@ -15,3 +15,23 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: First Contact
+      cost:
+        - Colorless
+      text: Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+    - name: Headbutt
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 605
+  species: Cerebral Pokémon
+  heightMetres: 0.508
+  weightKilograms: 8.981128926
+  flavourText: It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

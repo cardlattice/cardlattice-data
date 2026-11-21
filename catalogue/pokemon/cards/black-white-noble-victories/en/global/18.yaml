@@ -15,3 +15,24 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Singe
+      cost:
+        - Fire
+      text: The Defending Pokémon is now Burned.
+    - name: Incinerate
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.
+  nationalDex:
+    - 631
+  species: Anteater Pokémon
+  heightMetres: 1.397
+  weightKilograms: 58.014464123
+  flavourText: Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

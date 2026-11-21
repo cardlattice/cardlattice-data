@@ -15,3 +15,26 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Water Gun
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+    - name: Surf
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+  nationalDex:
+    - 564
+  species: Prototurtle Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 16.510762268
+  flavourText: Restored from a fossil, this Pokémon can dive to depths beyond half a mile.
+  rules:
+    - Put this card onto your Bench only with the effect of Cover Fossil
+  resistances: []
+  abilities: []
+  subtypes: []

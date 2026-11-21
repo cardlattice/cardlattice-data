@@ -16,3 +16,23 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 3
+  abilities:
+    - name: Cursed Body
+      kind: Ability
+      text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Confused.
+  attacks:
+    - name: Hydro Pump
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Does 20 more damage for each {Water} Energy attached to this Pokémon.
+  nationalDex:
+    - 593
+  species: Floating Pokémon
+  heightMetres: 2.2098
+  weightKilograms: 134.989089312
+  flavourText: "The fate of the ships and crew that wander into Jellicent's habitat: all sunken, all lost, all vanished."
+  resistances: []
+  rules: []
+  subtypes: []

@@ -16,3 +16,25 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 4
+  abilities:
+    - name: Craftsmanship
+      kind: Ability
+      text: This Pokémon gets +20 HP for each {Fighting} Energy attached to it.
+  attacks:
+    - name: Top Down
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+  nationalDex:
+    - 534
+  species: Muscular Pokémon
+  heightMetres: 1.397
+  weightKilograms: 86.999016566
+  flavourText: It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.
+  resistances: []
+  rules: []
+  subtypes: []

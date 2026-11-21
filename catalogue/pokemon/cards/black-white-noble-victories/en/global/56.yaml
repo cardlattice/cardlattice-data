@@ -16,3 +16,24 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Synchronoise
+      cost:
+        - Psychic
+      damage: "20"
+      text: Does 20 damage to each of your opponent's Benched Pokémon that shares a type with the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    - name: Psyshot
+      cost:
+        - Psychic
+        - Colorless
+      damage: "40"
+  nationalDex:
+    - 606
+  species: Cerebral Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 34.518379357
+  flavourText: It uses psychic power to control an opponent's brain and tamper with its memories.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

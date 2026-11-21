@@ -16,3 +16,24 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Feint
+      cost:
+        - Colorless
+      damage: "30"
+      text: This attack's damage isn't affected by Resistance.
+    - name: High Jump Kick
+      cost:
+        - Fighting
+        - Fighting
+      damage: "50"
+  nationalDex:
+    - 620
+  species: Martial Arts Pokémon
+  heightMetres: 1.397
+  weightKilograms: 35.516282571
+  flavourText: It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

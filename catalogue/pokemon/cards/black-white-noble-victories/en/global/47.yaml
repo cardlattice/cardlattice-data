@@ -16,3 +16,23 @@ pokemon:
     - type: Darkness
       value: ×2
   retreatCost: 2
+  abilities:
+    - name: Durable Body
+      kind: Ability
+      text: If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.
+  attacks:
+    - name: Ambush
+      cost:
+        - Psychic
+        - Colorless
+      damage: 40+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  nationalDex:
+    - 563
+  species: Coffin Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 76.521032819
+  flavourText: They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.
+  resistances: []
+  rules: []
+  subtypes: []

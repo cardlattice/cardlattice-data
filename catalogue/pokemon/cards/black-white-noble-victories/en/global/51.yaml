@@ -16,3 +16,18 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Rollout
+      cost:
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 578
+  species: Mitosis Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 7.983225712
+  flavourText: Since they have two divided brains, at times they suddenly try to take two different actions at once.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

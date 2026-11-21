@@ -15,3 +15,22 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Mysterious Evolution
+      cost:
+        - Colorless
+      text: If Karrablast is in play, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.
+    - name: Ram
+      cost:
+        - Grass
+      damage: "10"
+  nationalDex:
+    - 616
+  species: Snail Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 7.71107029
+  flavourText: It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

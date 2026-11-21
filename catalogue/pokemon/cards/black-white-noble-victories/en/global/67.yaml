@@ -16,3 +16,24 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 2
+  abilities:
+    - name: Ancient Power
+      kind: Ability
+      text: Each player can't play any Pokémon from his or her hand to evolve his or her Pokémon.
+  attacks:
+    - name: Rock Slide
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "60"
+      text: Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  nationalDex:
+    - 567
+  species: First Bird Pokémon
+  heightMetres: 1.397
+  weightKilograms: 31.978262085
+  flavourText: They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.
+  resistances: []
+  rules: []
+  subtypes: []

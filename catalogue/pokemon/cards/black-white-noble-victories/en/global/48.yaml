@@ -15,3 +15,23 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 1
+  attacks:
+    - name: Garbage Collection
+      cost:
+        - Colorless
+      text: Put a card from your discard pile on top of your deck.
+    - name: Sludge Bomb
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 568
+  species: Trash Bag Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 30.980358871
+  flavourText: The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

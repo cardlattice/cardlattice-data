@@ -16,3 +16,23 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 2
+  abilities:
+    - name: Dynamotor
+      kind: Ability
+      text: Once during your turn (before your attack), you may attach a {Lightning} Energy card from your discard pile to 1 of your Benched Pokémon.
+  attacks:
+    - name: Electric Ball
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "50"
+  nationalDex:
+    - 603
+  species: EleFish Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 21.999229945
+  flavourText: They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.
+  resistances: []
+  rules: []
+  subtypes: []

@@ -13,3 +13,28 @@ pokemon:
   stage: Stage 2
   evolvesFrom: Fraxure
   retreatCost: 2
+  attacks:
+    - name: Dual Chop
+      cost:
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: Flip 2 coins. This attack does 50 damage times the number of heads.
+    - name: Giga Impact
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: This Pokémon can't attack during your next turn.
+  nationalDex:
+    - 612
+  species: Axe Jaw Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 105.505585262
+  flavourText: They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.
+  weaknesses: []
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

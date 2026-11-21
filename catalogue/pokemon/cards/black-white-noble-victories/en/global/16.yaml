@@ -15,3 +15,25 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Beat
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Lunge
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Flip a coin. If tails, this attack does nothing.
+  nationalDex:
+    - 513
+  species: High Temp Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 11.022294591
+  flavourText: This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600° F.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

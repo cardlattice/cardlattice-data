@@ -15,3 +15,18 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 0
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+  nationalDex:
+    - 602
+  species: EleFish Pokémon
+  heightMetres: 0.2032
+  weightKilograms: 0.317514659
+  flavourText: While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

@@ -12,3 +12,20 @@ pokemon:
     - Colorless
   stage: Basic
   retreatCost: 1
+  attacks:
+    - name: Dual Chop
+      cost:
+        - Colorless
+      damage: 10×
+      text: Flip 2 coins. This attack does 10 damage times the number of heads.
+  nationalDex:
+    - 610
+  species: Tusk Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 18.007617089
+  flavourText: They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.
+  weaknesses: []
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

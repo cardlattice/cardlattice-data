@@ -16,3 +16,26 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Chip Away
+      cost:
+        - Fighting
+      damage: "40"
+      text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+    - name: Swing Around
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: 60+
+      text: Flip 2 coins. This attack does 30 more damage for each heads.
+  nationalDex:
+    - 534
+  species: Muscular Pokémon
+  heightMetres: 1.397
+  weightKilograms: 86.999016566
+  flavourText: They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

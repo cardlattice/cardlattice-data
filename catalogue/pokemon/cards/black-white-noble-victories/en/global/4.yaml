@@ -18,3 +18,23 @@ pokemon:
     - type: Water
       value: "-20"
   retreatCost: 1
+  attacks:
+    - name: Ram
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Absorb
+      cost:
+        - Grass
+        - Colorless
+      damage: "10"
+      text: Heal 10 damage from this Pokémon.
+  nationalDex:
+    - 548
+  species: Bulb Pokémon
+  heightMetres: 0.508
+  weightKilograms: 6.622448602
+  flavourText: Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.
+  abilities: []
+  rules: []
+  subtypes: []

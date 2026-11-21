@@ -15,3 +15,19 @@ pokemon:
     - type: Lightning
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Rain Splash
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 592
+  species: Floating Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 33.021524536
+  flavourText: With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

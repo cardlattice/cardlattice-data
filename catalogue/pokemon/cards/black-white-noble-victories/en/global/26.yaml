@@ -16,3 +16,25 @@ pokemon:
     - type: Grass
       value: ×2
   retreatCost: 4
+  abilities:
+    - name: Solid Rock
+      kind: Ability
+      text: If any damage is done to this Pokémon by attacks, flip a coin. If heads, reduce that damage by 50 (after applying Weakness and Resistance).
+  attacks:
+    - name: Crunch
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Discard an Energy attached to the Defending Pokémon.
+  nationalDex:
+    - 565
+  species: Prototurtle Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 81.011597282
+  flavourText: They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.
+  resistances: []
+  rules: []
+  subtypes: []

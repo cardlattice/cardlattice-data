@@ -16,3 +16,27 @@ pokemon:
     - type: Fighting
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Acid
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+    - name: Wild Charge
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "90"
+      text: This Pokémon does 10 damage to itself.
+  nationalDex:
+    - 604
+  species: EleFish Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 80.512645675
+  flavourText: They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

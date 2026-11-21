@@ -18,3 +18,22 @@ pokemon:
     - type: Psychic
       value: "-20"
   retreatCost: 2
+  attacks:
+    - name: Headbutt
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Bite
+      cost:
+        - Darkness
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 633
+  species: Irate Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 17.281869297
+  flavourText: They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.
+  abilities: []
+  rules: []
+  subtypes: []

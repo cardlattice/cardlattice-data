@@ -16,3 +16,26 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Dizzy Punch
+      cost:
+        - Psychic
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    - name: Mind Bend
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon is now Confused.
+  nationalDex:
+    - 579
+  species: Multiplying Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 20.094141991
+  flavourText: These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

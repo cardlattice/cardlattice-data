@@ -16,3 +16,24 @@ pokemon:
     - type: Fire
       value: ×2
   retreatCost: 2
+  abilities:
+    - name: Leaf Tailor
+      kind: Ability
+      text: Each of your Pokémon that has any Energy attached to it has no Weakness.
+  attacks:
+    - name: Cutting Arm
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Flip 2 coins. This attack does 20 more damage for each heads.
+  nationalDex:
+    - 542
+  species: Nurturing Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 20.502375124
+  flavourText: Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.
+  resistances: []
+  rules: []
+  subtypes: []

@@ -15,3 +15,19 @@ pokemon:
     - type: Water
       value: ×2
   retreatCost: 2
+  attacks:
+    - name: Ember
+      cost:
+        - Fire
+      damage: "20"
+      text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+  nationalDex:
+    - 636
+  species: Torch Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 28.803115495
+  flavourText: This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

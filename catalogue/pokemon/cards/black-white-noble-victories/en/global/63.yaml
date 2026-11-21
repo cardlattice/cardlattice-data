@@ -16,3 +16,26 @@ pokemon:
     - type: Psychic
       value: ×2
   retreatCost: 3
+  attacks:
+    - name: Strength
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+    - name: Pummel
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  nationalDex:
+    - 533
+  species: Muscular Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 40.006847034
+  flavourText: This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
