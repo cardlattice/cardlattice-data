@@ -1,9 +1,43 @@
-name: "Ninetales"
+name: Ninetales
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 80
-  types: [Fire]
+  types:
+    - Fire
   stage: Stage 1
-  evolvesFrom: "Vulpix"
+  evolvesFrom: Vulpix
+  species: Fox Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 19.95806428
+  level: 32
+  nationalDex:
+    - 38
+  flavourText: Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Lure
+      cost:
+        - Colorless
+        - Colorless
+      text: If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.
+    - name: Fire Blast
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "80"
+      text: Discard 1 Fire Energy card attached to Ninetales in order to use this attack.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

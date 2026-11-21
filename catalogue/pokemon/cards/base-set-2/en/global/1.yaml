@@ -1,9 +1,40 @@
-name: "Alakazam"
+name: Alakazam
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 80
-  types: [Psychic]
+  types:
+    - Psychic
   stage: Stage 2
-  evolvesFrom: "Kadabra"
+  evolvesFrom: Kadabra
+  species: Psi Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 48.08079122
+  level: 42
+  nationalDex:
+    - 65
+  flavourText: Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Confuse Ray
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  abilities:
+    - name: Damage Swap
+      kind: Pokémon Power
+      text: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another as long as you don't Knock Out that Pokémon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed.
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

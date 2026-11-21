@@ -1,5 +1,14 @@
-name: "Bill"
+name: Bill
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: trainer
+  rules:
+    - Draw 2 cards.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

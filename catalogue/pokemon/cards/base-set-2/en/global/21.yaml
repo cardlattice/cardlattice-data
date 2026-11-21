@@ -1,9 +1,46 @@
-name: "Beedrill"
+name: Beedrill
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 80
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 2
-  evolvesFrom: "Kakuna"
+  evolvesFrom: Kakuna
+  species: Poison Bee Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 29.48350405
+  level: 32
+  nationalDex:
+    - 15
+  flavourText: Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Twineedle
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    - name: Poison Sting
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "40"
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

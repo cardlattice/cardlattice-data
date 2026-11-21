@@ -1,8 +1,34 @@
-name: "Dratini"
+name: Dratini
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 40
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Dragon Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 3.17514659
+  level: 10
+  nationalDex:
+    - 147
+  flavourText: Long considered a mythical Pokémon until recently, when a small colony was found living underwater.
+  weaknesses: []
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Pound
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

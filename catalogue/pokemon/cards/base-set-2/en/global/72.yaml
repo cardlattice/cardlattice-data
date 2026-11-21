@@ -1,8 +1,36 @@
-name: "Doduo"
+name: Doduo
 rarity: Common
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 50
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Twin Bird Pokémon
+  heightMetres: 1.397
+  weightKilograms: 39.00894382
+  level: 10
+  nationalDex:
+    - 84
+  flavourText: A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Fury Attack
+      cost:
+        - Colorless
+      damage: 10×
+      text: Flip 2 coins. This attack does 10 damage times the number of heads.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

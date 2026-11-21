@@ -1,8 +1,42 @@
-name: "Pinsir"
+name: Pinsir
 rarity: Rare
-illustrators: [Kagemaru Himeno]
+illustrators:
+  - Kagemaru Himeno
 pokemon:
   category: pokemon
   hp: 60
-  types: [Grass]
+  types:
+    - Grass
   stage: Basic
+  species: Stagbeetle Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 54.88467677
+  level: 24
+  nationalDex:
+    - 127
+  flavourText: If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Irongrip
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Guillotine
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

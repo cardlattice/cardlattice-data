@@ -1,8 +1,43 @@
-name: "Kangaskhan"
+name: Kangaskhan
 rarity: Rare
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 90
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Parent Pokémon
+  heightMetres: 2.2098
+  weightKilograms: 79.83225712
+  level: 40
+  nationalDex:
+    - 115
+  flavourText: The infant rarely ventures out of its mother's protective pouch until it is three years old.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Fetch
+      cost:
+        - Colorless
+      text: Draw a card.
+    - name: Comet Punch
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Flip 4 coins. This attack does 20 damage times the number of heads.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

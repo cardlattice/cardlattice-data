@@ -1,9 +1,42 @@
-name: "Poliwhirl"
+name: Poliwhirl
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Water]
+  types:
+    - Water
   stage: Stage 1
-  evolvesFrom: "Poliwag"
+  evolvesFrom: Poliwag
+  species: Tadpole Pokémon
+  heightMetres: 1.016
+  weightKilograms: 19.95806428
+  level: 28
+  nationalDex:
+    - 61
+  flavourText: Capable of living in or out of water. When out of water, it sweats to keep its body slimy.
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Amnesia
+      cost:
+        - Water
+        - Water
+      text: Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.
+    - name: Doubleslap
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

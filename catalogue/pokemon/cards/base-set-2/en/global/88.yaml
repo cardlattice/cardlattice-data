@@ -1,8 +1,34 @@
-name: "Poliwag"
+name: Poliwag
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 40
-  types: [Water]
+  types:
+    - Water
   stage: Basic
+  species: Tadpole Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 12.24699399
+  level: 13
+  nationalDex:
+    - 60
+  flavourText: Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Water Gun
+      cost:
+        - Water
+      damage: 10+
+      text: Does 10 damage plus 10 more damage for each Water Energy attached to Poliwag but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

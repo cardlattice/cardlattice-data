@@ -1,9 +1,44 @@
-name: "Nidoking"
+name: Nidoking
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 90
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 2
-  evolvesFrom: "Nidorino"
+  evolvesFrom: Nidorino
+  species: Drill Pokémon
+  heightMetres: 1.397
+  weightKilograms: 62.14215469
+  level: 48
+  nationalDex:
+    - 34
+  flavourText: Uses its powerful tail in battle to smash, constrict, then break its prey's bones.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Thrash
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.
+    - name: Toxic
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "20"
+      text: The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

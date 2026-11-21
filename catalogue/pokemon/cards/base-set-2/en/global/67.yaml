@@ -1,8 +1,35 @@
-name: "Bulbasaur"
+name: Bulbasaur
 rarity: Common
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 40
-  types: [Grass]
+  types:
+    - Grass
   stage: Basic
+  species: Seed Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 6.80388555
+  level: 13
+  nationalDex:
+    - 1
+  flavourText: A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Leech Seed
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

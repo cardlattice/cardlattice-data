@@ -1,9 +1,39 @@
-name: "Exeggutor"
+name: Exeggutor
 rarity: Uncommon
-illustrators: [Kagemaru Himeno]
+illustrators:
+  - Kagemaru Himeno
 pokemon:
   category: pokemon
   hp: 80
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 1
-  evolvesFrom: "Exeggcute"
+  evolvesFrom: Exeggcute
+  species: Coconut Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 120.20197805
+  level: 35
+  nationalDex:
+    - 103
+  flavourText: Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Teleport
+      cost:
+        - Psychic
+      text: Switch Exeggutor with 1 of your Benched Pokémon.
+    - name: Big Eggsplosion
+      cost:
+        - Colorless
+      damage: 20×
+      text: Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

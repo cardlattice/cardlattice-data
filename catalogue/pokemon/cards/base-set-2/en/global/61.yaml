@@ -1,8 +1,33 @@
-name: "Seel"
+name: Seel
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Water]
+  types:
+    - Water
   stage: Basic
+  species: Sea Lion Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 89.81128926
+  level: 12
+  nationalDex:
+    - 86
+  flavourText: The protruding horn on its head is very hard. This horn is used for bashing through thick ice.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Headbutt
+      cost:
+        - Water
+      damage: "10"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

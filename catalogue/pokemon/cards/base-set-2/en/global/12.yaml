@@ -1,9 +1,43 @@
-name: "Nidoqueen"
+name: Nidoqueen
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 90
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 2
-  evolvesFrom: "Nidorina"
+  evolvesFrom: Nidorina
+  species: Drill Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 59.87419284
+  level: 43
+  nationalDex:
+    - 31
+  flavourText: Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Boyfriends
+      cost:
+        - Grass
+        - Colorless
+      damage: 20+
+      text: Does 20 damage plus 20 more damage for each Nidoking you have in play.
+    - name: Mega Punch
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

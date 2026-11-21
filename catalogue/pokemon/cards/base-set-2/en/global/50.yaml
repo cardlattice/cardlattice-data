@@ -1,8 +1,38 @@
-name: "Magikarp"
+name: Magikarp
 rarity: Uncommon
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 30
-  types: [Water]
+  types:
+    - Water
   stage: Basic
+  species: Fish Pokémon
+  heightMetres: 0.889
+  weightKilograms: 9.97903214
+  level: 8
+  nationalDex:
+    - 129
+  flavourText: In the distant past, it was stronger than its horribly weak descendants that exist today.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Flail
+      cost:
+        - Water
+      damage: 10×
+      text: Does 10 damage times the number of damage counters on Magikarp.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

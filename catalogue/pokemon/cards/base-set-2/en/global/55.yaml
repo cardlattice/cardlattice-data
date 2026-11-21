@@ -1,9 +1,41 @@
-name: "Parasect"
+name: Parasect
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 1
-  evolvesFrom: "Paras"
+  evolvesFrom: Paras
+  species: Mushroom Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 29.48350405
+  level: 28
+  nationalDex:
+    - 47
+  flavourText: A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Spore
+      cost:
+        - Grass
+        - Grass
+      text: The Defending Pokémon is now Asleep.
+    - name: Slash
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

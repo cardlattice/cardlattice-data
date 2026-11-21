@@ -1,9 +1,43 @@
-name: "Wigglytuff"
+name: Wigglytuff
 rarity: Rare
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 80
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Stage 1
-  evolvesFrom: "Jigglypuff"
+  evolvesFrom: Jigglypuff
+  species: Balloon Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 11.79340162
+  level: 36
+  nationalDex:
+    - 40
+  flavourText: The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 2
+  attacks:
+    - name: Lullaby
+      cost:
+        - Colorless
+      text: The Defending Pokémon is now Asleep.
+    - name: Do the Wave
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Does 10 damage plus 10 more damage for each of your Benched Pokémon.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

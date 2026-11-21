@@ -1,8 +1,46 @@
-name: "Zapdos"
+name: Zapdos
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 90
-  types: [Lightning]
+  types:
+    - Lightning
   stage: Basic
+  species: Electric Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 52.61671492
+  level: 64
+  nationalDex:
+    - 145
+  flavourText: A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.
+  weaknesses: []
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Thunder
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "60"
+      text: Flip a coin. If tails, Zapdos does 30 damage to itself.
+    - name: Thunderbolt
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "100"
+      text: Discard all Energy cards attached to Zapdos in order to use this attack.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

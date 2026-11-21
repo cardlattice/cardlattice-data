@@ -1,5 +1,14 @@
-name: "Poké Ball"
+name: Poké Ball
 rarity: Common
-illustrators: [Keiji Kinebuchi]
+illustrators:
+  - Keiji Kinebuchi
 pokemon:
   category: trainer
+  rules:
+    - Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

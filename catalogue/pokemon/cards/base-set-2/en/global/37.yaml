@@ -1,9 +1,42 @@
-name: "Dodrio"
+name: Dodrio
 rarity: Uncommon
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 70
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Stage 1
-  evolvesFrom: "Doduo"
+  evolvesFrom: Doduo
+  species: Triplebird Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 85.27536556
+  level: 28
+  nationalDex:
+    - 85
+  flavourText: Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Rage
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Does 10 damage plus 10 more damage for each damage counter on Dodrio.
+  abilities:
+    - name: Retreat Aid
+      kind: Pokémon Power
+      text: As long as Dodrio is Benched, pay Colorless less to retreat your Active Pokémon.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

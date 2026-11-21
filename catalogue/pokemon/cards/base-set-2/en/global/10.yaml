@@ -1,8 +1,40 @@
-name: "Mewtwo"
+name: Mewtwo
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Psychic]
+  types:
+    - Psychic
   stage: Basic
+  species: Genetic Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 122.01634753
+  level: 53
+  nationalDex:
+    - 150
+  flavourText: A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Psychic
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+    - name: Barrier
+      cost:
+        - Psychic
+        - Psychic
+      text: Discard 1 Psychic Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

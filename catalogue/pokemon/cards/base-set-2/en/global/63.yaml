@@ -1,9 +1,46 @@
-name: "Wartortle"
+name: Wartortle
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 70
-  types: [Water]
+  types:
+    - Water
   stage: Stage 1
-  evolvesFrom: "Squirtle"
+  evolvesFrom: Squirtle
+  species: Turtle Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 22.6796185
+  level: 22
+  nationalDex:
+    - 8
+  flavourText: Often hides in water to stalk unwary prey. When swimming quickly, it moves its ears to maintain balance.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Withdraw
+      cost:
+        - Water
+        - Colorless
+      text: Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)
+    - name: Bite
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo
+  wizards-w-stamp:
+    edition: unlimited
+    finish: non-holo
+    stamps:
+      - wizards-w

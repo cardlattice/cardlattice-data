@@ -1,8 +1,42 @@
-name: "Snorlax"
+name: Snorlax
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 90
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Sleeping Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 459.94266318
+  level: 20
+  nationalDex:
+    - 143
+  flavourText: Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 4
+  attacks:
+    - name: Body Slam
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities:
+    - name: Thick Skinned
+      kind: Pokémon Power
+      text: Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power stops working while Snorlax is already Asleep, Confused, or Paralyzed.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

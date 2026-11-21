@@ -1,8 +1,42 @@
-name: "Farfetch'd"
+name: Farfetch'd
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 50
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Wild Duck Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 14.96854821
+  level: 20
+  nationalDex:
+    - 83
+  flavourText: The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Leek Slap
+      cost:
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again).
+    - name: Pot Smash
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

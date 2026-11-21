@@ -1,8 +1,37 @@
-name: "Meowth"
+name: Meowth
 rarity: Common
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 50
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Scratch Cat Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.08233133
+  level: 15
+  nationalDex:
+    - 52
+  flavourText: Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Pay Day
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, draw a card.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

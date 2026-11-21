@@ -1,5 +1,17 @@
-name: "Double Colorless Energy"
+name: Double Colorless Energy
 rarity: Uncommon
-illustrators: [Keiji Kinebuchi]
+illustrators:
+  - Keiji Kinebuchi
 pokemon:
   category: energy
+  rules:
+    - Provides {Colorless}{Colorless} energy.
+    - Doesn't count as a basic Energy card.
+  types:
+    - Colorless
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

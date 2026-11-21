@@ -1,4 +1,14 @@
-name: "Fire Energy"
-illustrators: [Keiji Kinebuchi]
+name: Fire Energy
+illustrators:
+  - Keiji Kinebuchi
 pokemon:
   category: energy
+  rules: []
+  types:
+    - Fire
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

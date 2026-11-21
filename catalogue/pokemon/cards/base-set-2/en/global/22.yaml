@@ -1,9 +1,46 @@
-name: "Dragonair"
+name: Dragonair
 rarity: Rare
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 80
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Stage 1
-  evolvesFrom: "Dratini"
+  evolvesFrom: Dratini
+  species: Dragon Pokémon
+  heightMetres: 3.9878
+  weightKilograms: 16.32932532
+  level: 33
+  nationalDex:
+    - 148
+  flavourText: A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.
+  weaknesses: []
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 2
+  attacks:
+    - name: Slam
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    - name: Hyper Beam
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

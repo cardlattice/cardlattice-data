@@ -1,9 +1,41 @@
-name: "Metapod"
+name: Metapod
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 70
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 1
-  evolvesFrom: "Caterpie"
+  evolvesFrom: Caterpie
+  species: Cocoon Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 9.97903214
+  level: 21
+  nationalDex:
+    - 11
+  flavourText: It is vulnerable to attack because its shell is soft, exposing its weak and tender body.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Stiffen
+      cost:
+        - Colorless
+        - Colorless
+      text: Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)
+    - name: Stun Spore
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

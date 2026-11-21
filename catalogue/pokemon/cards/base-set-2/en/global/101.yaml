@@ -1,5 +1,14 @@
-name: "Computer Search"
+name: Computer Search
 rarity: Rare
-illustrators: [Keiji Kinebuchi]
+illustrators:
+  - Keiji Kinebuchi
 pokemon:
   category: trainer
+  rules:
+    - Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

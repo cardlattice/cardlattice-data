@@ -1,9 +1,43 @@
-name: "Charmeleon"
+name: Charmeleon
 rarity: Uncommon
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 80
-  types: [Fire]
+  types:
+    - Fire
   stage: Stage 1
-  evolvesFrom: "Charmander"
+  evolvesFrom: Charmander
+  species: Flame Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 19.05087954
+  level: 32
+  nationalDex:
+    - 5
+  flavourText: When it swings its burning tail, it raises the temperature to unbearably high levels.
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Slash
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Flamethrower
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+      text: Discard 1 Fire Energy card attached to Charmeleon in order to use this attack.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

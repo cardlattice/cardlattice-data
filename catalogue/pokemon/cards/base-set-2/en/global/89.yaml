@@ -1,8 +1,35 @@
-name: "Rattata"
+name: Rattata
 rarity: Common
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 30
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Rat Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 3.62873896
+  level: 9
+  nationalDex:
+    - 19
+  flavourText: Bites anything when it attacks. Small and very quick, it is a common sight in many places.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Bite
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,8 +1,33 @@
-name: "Voltorb"
+name: Voltorb
 rarity: Common
-illustrators: [Keiji Kinebuchi]
+illustrators:
+  - Keiji Kinebuchi
 pokemon:
   category: pokemon
   hp: 40
-  types: [Lightning]
+  types:
+    - Lightning
   stage: Basic
+  species: Ball Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.43262451
+  level: 10
+  nationalDex:
+    - 100
+  flavourText: Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

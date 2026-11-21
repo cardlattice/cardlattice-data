@@ -1,9 +1,44 @@
-name: "Pidgeotto"
+name: Pidgeotto
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Stage 1
-  evolvesFrom: "Pidgey"
+  evolvesFrom: Pidgey
+  species: Bird Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 29.93709642
+  level: 36
+  nationalDex:
+    - 17
+  flavourText: Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Whirlwind
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)
+    - name: Mirror Move
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

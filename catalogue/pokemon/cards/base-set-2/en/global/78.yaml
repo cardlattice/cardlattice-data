@@ -1,8 +1,33 @@
-name: "Machop"
+name: Machop
 rarity: Common
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 50
-  types: [Fighting]
+  types:
+    - Fighting
   stage: Basic
+  species: Superpower Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 19.50447191
+  level: 20
+  nationalDex:
+    - 66
+  flavourText: Loves to build its muscles. It trains in all styles of martial arts to become even stronger.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Low Kick
+      cost:
+        - Fighting
+      damage: "20"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

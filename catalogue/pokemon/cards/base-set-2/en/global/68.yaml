@@ -1,8 +1,34 @@
-name: "Caterpie"
+name: Caterpie
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 40
-  types: [Grass]
+  types:
+    - Grass
   stage: Basic
+  species: Worm Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 2.72155422
+  level: 13
+  nationalDex:
+    - 10
+  flavourText: Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: String Shot
+      cost:
+        - Grass
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

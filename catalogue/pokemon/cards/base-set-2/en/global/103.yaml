@@ -1,5 +1,14 @@
-name: "Item Finder"
+name: Item Finder
 rarity: Rare
-illustrators: [Keiji Kinebuchi]
+illustrators:
+  - Keiji Kinebuchi
 pokemon:
   category: trainer
+  rules:
+    - Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

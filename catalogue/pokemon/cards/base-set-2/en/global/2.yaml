@@ -1,9 +1,40 @@
-name: "Blastoise"
+name: Blastoise
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 100
-  types: [Water]
+  types:
+    - Water
   stage: Stage 2
-  evolvesFrom: "Wartortle"
+  evolvesFrom: Wartortle
+  species: Shellfish Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 85.72895793
+  level: 52
+  nationalDex:
+    - 9
+  flavourText: A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Hydro Pump
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: 40+
+      text: Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+  abilities:
+    - name: Rain Dance
+      kind: Pokémon Power
+      text: As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed.
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

@@ -1,8 +1,40 @@
-name: "Jigglypuff"
+name: Jigglypuff
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Balloon Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.44310844
+  level: 14
+  nationalDex:
+    - 39
+  flavourText: When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Lullaby
+      cost:
+        - Colorless
+      text: The Defending Pokémon is now Asleep.
+    - name: Pound
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

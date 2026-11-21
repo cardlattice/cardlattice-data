@@ -1,5 +1,14 @@
-name: "Lass"
+name: Lass
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: trainer
+  rules:
+    - You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

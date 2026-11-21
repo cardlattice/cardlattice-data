@@ -1,8 +1,39 @@
-name: "Drowzee"
+name: Drowzee
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 50
-  types: [Psychic]
+  types:
+    - Psychic
   stage: Basic
+  species: Hypnosis Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 32.20505827
+  level: 12
+  nationalDex:
+    - 96
+  flavourText: Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Pound
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Confuse Ray
+      cost:
+        - Psychic
+        - Psychic
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

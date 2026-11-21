@@ -1,8 +1,38 @@
-name: "Onix"
+name: Onix
 rarity: Common
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 90
-  types: [Fighting]
+  types:
+    - Fighting
   stage: Basic
+  species: Rock Snake Pokémon
+  heightMetres: 8.7884
+  weightKilograms: 210.01326731
+  level: 12
+  nationalDex:
+    - 95
+  flavourText: As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Rock Throw
+      cost:
+        - Fighting
+      damage: "10"
+    - name: Harden
+      cost:
+        - Fighting
+        - Fighting
+      text: During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

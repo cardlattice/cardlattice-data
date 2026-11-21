@@ -1,9 +1,40 @@
-name: "Venusaur"
+name: Venusaur
 rarity: Rare
-illustrators: [Mitsuhiro Arita]
+illustrators:
+  - Mitsuhiro Arita
 pokemon:
   category: pokemon
   hp: 100
-  types: [Grass]
+  types:
+    - Grass
   stage: Stage 2
-  evolvesFrom: "Ivysaur"
+  evolvesFrom: Ivysaur
+  species: Seed Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 100.24391377
+  level: 67
+  nationalDex:
+    - 3
+  flavourText: This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Solarbeam
+      cost:
+        - Grass
+        - Grass
+        - Grass
+        - Grass
+      damage: "60"
+  abilities:
+    - name: Energy Trans
+      kind: Pokémon Power
+      text: As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed.
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo

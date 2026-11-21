@@ -1,9 +1,43 @@
-name: "Raticate"
+name: Raticate
 rarity: Uncommon
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 60
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Stage 1
-  evolvesFrom: "Rattata"
+  evolvesFrom: Rattata
+  species: Rat Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 18.59728717
+  level: 41
+  nationalDex:
+    - 20
+  flavourText: It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Bite
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Super Fang
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "?"
+      text: Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

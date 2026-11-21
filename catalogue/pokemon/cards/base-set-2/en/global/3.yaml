@@ -1,8 +1,44 @@
-name: "Chansey"
+name: Chansey
 rarity: Rare
-illustrators: [Ken Sugimori]
+illustrators:
+  - Ken Sugimori
 pokemon:
   category: pokemon
   hp: 120
-  types: [Colorless]
+  types:
+    - Colorless
   stage: Basic
+  species: Egg Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 34.47302012
+  level: 55
+  nationalDex:
+    - 113
+  flavourText: A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Scrunch
+      cost:
+        - Colorless
+        - Colorless
+      text: Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)
+    - name: Double-edge
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Chansey does 80 damage to itself.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
