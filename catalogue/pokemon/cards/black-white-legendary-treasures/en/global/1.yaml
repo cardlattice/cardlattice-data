@@ -1,0 +1,25 @@
+name: "Tangela"
+rarity: "Common"
+printedDenominator: 113
+finishes: [non-holo, reverse-holo]
+illustrators: [kirisAki]
+pokemon:
+  category: pokemon
+  hp: 70
+  types: [Grass]
+  stage: Basic
+  attacks:
+    - name: Beat
+      cost: [Grass]
+      damage: "10"
+    - name: Flog
+      cost: [Grass, Colorless, Colorless]
+      damage: "20+"
+      text: "Flip a coin. If heads, this attack does 20 more damage."
+  weaknesses:
+    - type: Fire
+      value: "×2"
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 2

@@ -1,0 +1,19 @@
+name: "Snivy"
+rarity: "Common"
+illustrators: [Atsuko Nishida]
+pokemon:
+  category: pokemon
+  hp: 50
+  types: [Grass]
+  stage: Basic
+  attacks:
+    - name: Growth
+      cost: [Colorless]
+      text: "Attach a Grass Energy card from your hand to this Pokémon."
+    - name: Razor Leaf
+      cost: [Grass, Colorless, Colorless]
+      damage: "30"
+  weaknesses:
+    - type: Fire
+      value: "×2"
+  retreatCost: 1
