@@ -160,20 +160,37 @@ export function validateSet(text: string, file: string): Problem[] {
   }
   return problems;
 }
-type Variant = { finish?: string; edition?: string; stamps?: string[]; products?: string[] };
+type Variant = {
+  finish?: string;
+  edition?: string;
+  size?: string;
+  foilPattern?: string;
+  stamps?: string[];
+  products?: string[];
+};
 function validateVariants(value: unknown, file: string): Problem[] {
-  const { variants, finishes } = value as {
+  const { variants, finishes, size } = value as {
     variants?: Record<string, Variant> | null;
     finishes?: string[];
+    size?: string;
   };
   if (!variants) return [];
   const problems: Problem[] = [];
   const combinations = new Set<string>();
   const actualFinishes = new Set<string>();
   for (const [key, variant] of Object.entries(variants)) {
+    if (size && variant.size && variant.size !== size)
+      problems.push({
+        file,
+        line: 1,
+        column: 1,
+        message: `Variant size must match its distinct printing at variants/${key}`,
+      });
     const signature = JSON.stringify([
       variant.finish,
       variant.edition,
+      variant.size,
+      variant.foilPattern,
       variant.stamps?.toSorted(),
       variant.products?.toSorted(),
     ]);
