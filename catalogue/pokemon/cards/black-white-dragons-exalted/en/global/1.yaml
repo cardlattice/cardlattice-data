@@ -30,3 +30,18 @@ pokemon:
 finishes:
   - non-holo
   - reverse-holo
+variants:
+  non-holo-corrected:
+    finish: non-holo
+    flavourText: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+  reverse-holo-corrected:
+    finish: reverse-holo
+    foilPattern: energy-symbol
+    flavourText: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+  non-holo-error:
+    finish: non-holo
+    flavourText: It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.
+  reverse-holo-error:
+    finish: reverse-holo
+    foilPattern: energy-symbol
+    flavourText: It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.

@@ -28,11 +28,3 @@ illustrators:
 finishes:
   - non-holo
   - reverse-holo
-variants:
-  non-holo:
-    finish: non-holo
-  reverse-holo:
-    finish: reverse-holo
-  pokemon-league:
-    stamps:
-      - pokemon-league

@@ -37,11 +37,3 @@ illustrators:
 finishes:
   - holo
   - reverse-holo
-variants:
-  holo:
-    finish: holo
-  reverse-holo:
-    finish: reverse-holo
-  pokemon-league:
-    stamps:
-      - pokemon-league
