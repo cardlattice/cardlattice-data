@@ -1,0 +1,37 @@
+name: Lillipup
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Roar
+      cost:
+        - Colorless
+      text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    - name: Bite
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 506
+  species: Puppy Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.08233133
+  flavourText: Though it is a very brave Pokémon, it’s also smart enough to check its foe’s strength and avoid battle.

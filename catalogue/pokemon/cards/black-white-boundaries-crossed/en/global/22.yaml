@@ -1,0 +1,44 @@
+name: Camerupt
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Numel
+  attacks:
+    - name: Fire Shard
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.
+    - name: Flamethrower
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Discard an Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 4
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 323
+  species: Eruption Pokémon
+  heightMetres: 1.905
+  weightKilograms: 219.99229945
+  flavourText: The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.

@@ -1,0 +1,59 @@
+name: Samurott
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+  - non-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Dewott
+  attacks:
+    - name: Waterfall
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+    - name: Destructive Whirlpool
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Discard an Energy attached to the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 503
+  species: Formidable Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 94.619368382
+  flavourText: One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them
+    quiets everybody.
+variants:
+  standard-holo:
+    finish: holo
+    foilPattern: tinsel
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-serperior-emboar-samurott-en
+  cold-fire:
+    finish: non-holo
+    products:
+      - pokemon-product-boundaries-crossed-cold-fire-en

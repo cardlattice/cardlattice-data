@@ -1,0 +1,38 @@
+name: Shaymin
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Call for Family
+      cost:
+        - Colorless
+      text: Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.
+    - name: Leaf Drain
+      cost:
+        - Grass
+        - Grass
+      damage: "30"
+      text: Flip a coin. If heads, heal 30 damage from this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 492
+  species: Gratitude Pokémon
+  heightMetres: 0.2032
+  weightKilograms: 2.086524902
+  flavourText: The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude.

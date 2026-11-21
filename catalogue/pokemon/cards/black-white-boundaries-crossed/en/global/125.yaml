@@ -1,0 +1,44 @@
+name: Unfezant
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Hajime Kusajima
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Tranquill
+  attacks:
+    - name: Wing Flick
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+    - name: Air Slash
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 521
+  species: Proud Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 28.984552443
+  flavourText: Males swing the plumage on their heads to threaten others, but females are better at flying.

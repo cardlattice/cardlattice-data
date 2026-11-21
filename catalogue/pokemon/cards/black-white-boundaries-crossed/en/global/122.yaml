@@ -1,0 +1,39 @@
+name: Stoutland
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Herdier
+  attacks:
+    - name: Wild Tackle
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: Flip a coin. If tails, this Pokémon does 20 damage to itself.
+  abilities:
+    - name: Sentinel
+      text: As long as this Pokémon is your Active Pokémon, your opponent can’t play any Supporter cards from his or her hand.
+      kind: Ability
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 508
+  species: Big-Hearted Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 61.008173765
+  flavourText: Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.

@@ -1,0 +1,54 @@
+name: Scizor
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Hiroaki Asanuma
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Scyther
+  attacks:
+    - name: Steel Slash
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Pokémon-EX.
+    - name: Slashing Strike
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: This Pokémon can’t use Slashing Strike during your next turn.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 212
+  species: Pincer Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 117.979375437
+  flavourText: It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-furious-fists-two-pack-blister-electivire-dusknoir-scizor-en

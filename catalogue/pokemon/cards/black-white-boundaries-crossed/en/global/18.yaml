@@ -1,0 +1,37 @@
+name: Charmander
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Draw In
+      cost:
+        - Fire
+      text: Attach 2 Fire Energy cards from your discard pile to this Pokémon.
+    - name: Flare
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 4
+  species: Lizard Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 8.482177319
+  flavourText: The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.

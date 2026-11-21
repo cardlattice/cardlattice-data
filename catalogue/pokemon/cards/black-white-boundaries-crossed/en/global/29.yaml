@@ -1,0 +1,37 @@
+name: Squirtle
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Water Splash
+      cost:
+        - Water
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  abilities:
+    - name: Shell Shield
+      text: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).
+      kind: Ability
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 7
+  species: Tiny Turtle Pokémon
+  heightMetres: 0.508
+  weightKilograms: 8.981128926
+  flavourText: It shelters itself in its shell then strikes back with spouts of water at every opportunity.

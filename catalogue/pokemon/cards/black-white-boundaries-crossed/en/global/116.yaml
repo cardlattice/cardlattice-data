@@ -1,0 +1,37 @@
+name: Buneary
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Pound
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Smash Kick
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 427
+  species: Rabbit Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.488467677
+  flavourText: By extending its rolled-up ears and striking the ground, it can bound so high it surprises itself.

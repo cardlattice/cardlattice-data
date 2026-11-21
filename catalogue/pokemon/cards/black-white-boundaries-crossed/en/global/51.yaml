@@ -1,0 +1,32 @@
+name: Voltorb
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Static Shock
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 100
+  species: Ball Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.387265273
+  flavourText: It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.

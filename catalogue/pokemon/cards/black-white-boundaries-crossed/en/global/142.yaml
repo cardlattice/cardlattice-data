@@ -1,0 +1,33 @@
+name: Keldeo-EX
+rarity: Ultra Rare
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Secret Sword
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Does 20 more damage for each Water Energy attached to this Pokémon.
+  abilities:
+    - name: Rush In
+      text: Once during your turn (before your attack), if this Pokémon is on your Bench, you may switch this Pokémon with your Active Pokémon.
+      kind: Ability
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

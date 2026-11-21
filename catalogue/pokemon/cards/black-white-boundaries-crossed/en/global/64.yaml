@@ -1,0 +1,34 @@
+name: Croagunk
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Paralyzing Jab
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 453
+  species: Toxic Mouth Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 22.997133159
+  flavourText: It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.
