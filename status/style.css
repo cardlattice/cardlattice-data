@@ -510,6 +510,8 @@ button:disabled {
   color: var(--status-text);
   font-size: 12px;
   line-height: 18px;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .badge::before {
