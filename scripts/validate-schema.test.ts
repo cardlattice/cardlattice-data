@@ -1,6 +1,6 @@
 import { mkdtemp, mkdir, rm, symlink, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
 import { validateCard, validateCatalogue, validateSet, validateSets } from "./validate-schema.ts";
 
@@ -173,7 +173,7 @@ describe("Pokémon card schema", () => {
   it("rejects empty catalogues and symlinks", async () => {
     const directory = await temporary();
     expect((await validateCatalogue(directory)).problems[0].message).toContain("No card YAML");
-    await symlink(directory, join(directory, "loop"));
+    await symlink(directory, join(directory, "loop"), "junction");
     expect(
       (await validateCatalogue(directory)).problems.some((error) =>
         error.message.includes("Symlinks"),
@@ -243,11 +243,17 @@ describe("set schema", () => {
   });
   it("rejects symlinked and oversized set files", async () => {
     const directory = await temporary();
-    await writeFile(join(directory, "example.yaml"), "name: Example\n");
+    const example = join(directory, "example.yaml");
+    await writeFile(example, "name: Example\n");
     expect(await validateSets(directory)).toEqual({ checked: 1, problems: [] });
-    await symlink(join(directory, "example.yaml"), join(directory, "linked.yaml"));
+    const link = join(directory, "linked.yaml");
+    // Windows junctions exercise link rejection without symlink privileges.
+    if (process.platform === "win32") await symlink(await temporary(), link, "junction");
+    else await symlink(example, link, "file");
     await writeFile(join(directory, "huge.yaml"), "x".repeat(1024 * 1024 + 1));
-    expect((await validateSets(directory)).problems).toHaveLength(2);
+    const { checked, problems } = await validateSets(directory);
+    expect(checked).toBe(1);
+    expect(problems.map(({ file }) => basename(file))).toEqual(["huge.yaml", "linked.yaml"]);
   });
 });
 

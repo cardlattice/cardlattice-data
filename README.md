@@ -99,14 +99,23 @@ These licences do not cover publisher artwork or trademarks.
 ## Build and publish the dashboard
 
 The status dashboard is generated from the same validated, compiled snapshot as
-bulk downloads. It makes no requests to the API or third-party catalogues.
+bulk downloads.
+
+Run `pnpm dev` to serve the dashboard at [http://localhost:8788](http://localhost:8788).
+It rebuilds and reloads the page when you edit the generator, status model, or
+files in `status/`. It uses the compiled snapshot in `dist/` when available. On
+a fresh checkout it downloads the published snapshot once and caches it in
+`site/data/`. Rebuild the snapshot with `scripts/build.sh` to preview local
+catalogue edits. Press Ctrl+C to stop the server.
+
+Build the deployable static site with these commands.
 
 ```sh
 CARDLATTICE_BUILDER=/path/to/cardlattice ./scripts/build.sh
 pnpm build:status
 ```
 
-Open `site/index.html` to preview it locally. `site/coverage.json` contains the
+Open `site/index.html` to preview the static build. `site/coverage.json` contains the
 aggregated measurements and source revision. HTML is pre-rendered; filtering,
 pagination and theme selection are progressive enhancements. No artwork is
 published by this dashboard.
