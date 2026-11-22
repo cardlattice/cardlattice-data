@@ -3,7 +3,7 @@
   src: url("./assets/InterVariable.woff2") format("woff2");
   font-style: normal;
   font-weight: 100 900;
-  font-display: swap;
+  font-display: optional;
 }
 
 :root {
@@ -96,6 +96,15 @@ button:disabled {
 
 [hidden] {
   display: none !important;
+}
+
+:root[data-initializing-dashboard] [data-enhanced-control][hidden] {
+  display: flex !important;
+  visibility: hidden;
+}
+
+:root[data-initializing-dashboard] .set-card[data-later-page] {
+  display: none;
 }
 
 .skip,
@@ -378,6 +387,10 @@ button:disabled {
   margin-bottom: 16px;
   color: var(--secondary);
   font-size: 13px;
+}
+
+:root:not([data-initializing-dashboard]) .filters[inert] {
+  display: none;
 }
 
 .filters input {

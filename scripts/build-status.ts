@@ -85,6 +85,9 @@ const groups = [...sets.values()].map((releases) => {
       : "partial";
   return { releases, status };
 });
+const pageSizes = [25, 50, 100];
+const [initialPageSize] = pageSizes;
+const hasMorePages = groups.length > initialPageSize;
 
 const iconPaths = {
   globe:
@@ -126,7 +129,7 @@ function recorded(value: number, cards: number, withRing = true) {
   return `<span class="recorded">${ring}<span>${n(value)}<span class="secondary">/${n(cards)}</span></span></span>`;
 }
 
-function renderSet({ releases, status }: (typeof groups)[number]) {
+function renderSet({ releases, status }: (typeof groups)[number], index: number) {
   const [set] = releases;
   const languageCount = releaseLanguages(releases).size;
   const searchText = [set.name, set.setId, set.series, set.game]
@@ -135,7 +138,7 @@ function renderSet({ releases, status }: (typeof groups)[number]) {
     .toLowerCase();
   const folder = `catalogue/${encodeURIComponent(set.gameId)}`;
   const slug = encodeURIComponent(set.setId.slice(set.gameId.length + 1));
-  return `<details class="set-card" data-name="${h(set.name)}" data-search="${h(searchText)}" data-status="${status}">
+  return `<details class="set-card"${index >= initialPageSize ? " data-later-page" : ""} data-name="${h(set.name)}" data-search="${h(searchText)}" data-status="${status}">
     <summary>
       <span class="set-title">
         <span class="set-name">${h(set.name)}</span>
@@ -173,6 +176,12 @@ const progress = (["empty", "partial", "done"] as const).map((status) => ({
   count: groups.filter((group) => group.status === status).length,
 }));
 
+// Start reserving space before the body can paint, without waiting for a script request.
+const client = (await readFile(new URL("status/client.js", root), "utf8")).replaceAll(
+  /<\/script/gi,
+  (tag) => tag.replace("/", "\\/"),
+);
+
 const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -180,13 +189,23 @@ const html = `<!doctype html>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Measured coverage of Cardlattice’s independently curated trading card catalogue, by language and set.">
   <title>Catalogue Progress · Cardlattice</title>
+  <link rel="preload" href="./assets/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./style.css">
-  <script src="./client.js" defer></script>
+  <script>
+    document.documentElement.dataset.initializingDashboard = "";
+    document.addEventListener("DOMContentLoaded", () => {
+      try {
+${client}
+      } finally {
+        delete document.documentElement.dataset.initializingDashboard;
+      }
+    }, { once: true });
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="container page-header">
-    <a class="wordmark" href="./" target="_blank" rel="noopener" aria-label="Cardlattice catalogue progress">${wordmark}</a>
+    <a class="wordmark" href="https://cardlattice.com" target="_blank" rel="noopener" aria-label="Cardlattice home">${wordmark}</a>
     <nav class="header-actions" aria-label="Project">
       <div class="header-buttons">
         <a class="header-button commit-button" href="${repo}/commit/${revision}" target="_blank" rel="noopener"><span class="commit-dot" aria-hidden="true"></span>Last commit: ${revision.slice(0, 7)}</a>
@@ -223,7 +242,7 @@ const html = `<!doctype html>
     </section>
     <section class="sets" aria-labelledby="sets-title">
       <h2 id="sets-title" class="sr-only">Set coverage</h2>
-      <form id="filters" class="filters" role="search" hidden>
+      <form id="filters" class="filters" role="search" inert>
         <input id="query" type="search" aria-label="Find a set, game, series or ID" placeholder="Find a set, game, series or ID">
         <label class="filter">${icon("globe")}<span class="sr-only">Language</span><select id="language"><option value="">Language</option>${languages.map((language) => `<option value="${h(language)}">${h(languageName(language))}</option>`).join("")}</select>${icon("chevron")}</label>
         <label class="filter">${icon("check")}<span class="sr-only">Status</span><select id="status"><option value="">Status</option>${Object.entries(
@@ -239,10 +258,10 @@ const html = `<!doctype html>
       <p id="results" class="sr-only" role="status"></p>
       <div id="set-list">${groups.map(renderSet).join("")}</div>
       <p id="empty"${groups.length ? " hidden" : ""}>${groups.length ? "No sets match these filters." : "No sets are recorded yet."}</p>
-      <div class="pagination" id="pagination" hidden>
-        <label>Sets per page <select id="size"><option>25</option><option>50</option><option>100</option></select></label>
-        <span id="page-status"></span>
-        <div><button type="button" id="previous">Previous</button> <button type="button" id="next">Next</button></div>
+      <div class="pagination" id="pagination"${hasMorePages ? " data-enhanced-control" : ""} hidden>
+        <label>Sets per page <select id="size">${pageSizes.map((size) => `<option>${size}</option>`).join("")}</select></label>
+        <span id="page-status">${hasMorePages ? `1–${initialPageSize} of ${groups.length}` : ""}</span>
+        <div><button type="button" id="previous" disabled>Previous</button> <button type="button" id="next">Next</button></div>
       </div>
     </section>
   </main>
@@ -255,7 +274,7 @@ const html = `<!doctype html>
     <div class="footer-links">
       <a href="https://cardlattice.com">Browse catalogue</a>
       <a href="./coverage.json">Coverage JSON</a>
-      <label class="theme-label" hidden>Theme <select id="theme"><option value="auto">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+      <label class="theme-label" data-enhanced-control hidden>Theme <select id="theme"><option value="auto">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
     </div>
   </footer>
 </body>
@@ -267,7 +286,7 @@ await writeFile(
   new URL("coverage.json", out),
   JSON.stringify({ sourceCommit: revision, snapshotSha256: manifest.sha256, rows }, null, 2) + "\n",
 );
-for (const file of ["style.css", "client.js", "_headers"])
+for (const file of ["style.css", "_headers"])
   await copyFile(new URL(`status/${file}`, root), new URL(file, out));
 await cp(new URL("status/assets/", root), new URL("assets/", out), { recursive: true });
 // Publish the exact verified snapshot for browser-only catalogue clients.

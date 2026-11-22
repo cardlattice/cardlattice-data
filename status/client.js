@@ -117,5 +117,5 @@ form.addEventListener("reset", () => {
 size.addEventListener("change", resetPage);
 previous.addEventListener("click", () => changePage(-1));
 next.addEventListener("click", () => changePage(1));
-form.hidden = false;
 render();
+form.removeAttribute("inert");
