@@ -91,11 +91,11 @@ jobs:
           ./scripts/build.sh
           cmp dist/manifest.json /tmp/manifest-first.json
           sha256sum dist/catalogue-*.json
-      - name: Build catalogue status page
-        run: node scripts/build-status.ts
+      - name: Prepare public catalogue snapshot
+        run: node scripts/prepare-publish.ts
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: status-site
+          name: catalogue-publication
           path: site/
           if-no-files-found: error
           retention-days: 7
@@ -106,7 +106,7 @@ jobs:
           if-no-files-found: error
           retention-days: 30
   pages:
-    name: Deploy Cloudflare Pages status
+    name: Publish catalogue data to Cloudflare Pages
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-24.04
@@ -115,7 +115,7 @@ jobs:
       cancel-in-progress: false
     environment:
       name: production
-      url: https://status.cardlattice.com
+      url: https://cardlattice-status.pages.dev/data/manifest.json
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -127,9 +127,9 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
-          name: status-site
+          name: catalogue-publication
           path: site/
-      - name: Publish status and catalogue snapshot
+      - name: Publish catalogue snapshot
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

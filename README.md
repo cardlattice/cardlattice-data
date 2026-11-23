@@ -96,35 +96,29 @@ Original factual metadata: [CC0-1.0](LICENSE-DATA).
 Build scripts and configuration: [MIT](LICENSE).
 These licences do not cover publisher artwork or trademarks.
 
-## Build and publish the dashboard
+## Publish catalogue snapshots
 
-The status dashboard is generated from the same validated, compiled snapshot as
-bulk downloads. It makes no requests to the API or third-party catalogues.
+The dashboard lives in [`cardlattice/cardlattice/apps/status`](https://github.com/cardlattice/cardlattice/tree/main/apps/status).
+This repository owns YAML validation, compilation and publishing of catalogue data.
+It no longer builds dashboard HTML, styles, client JavaScript or coverage summaries.
 
 ```sh
 CARDLATTICE_BUILDER=/path/to/cardlattice ./scripts/build.sh
-pnpm build:status
+pnpm prepare:publish
 ```
 
-Open `site/index.html` to preview it locally. `site/coverage.json` contains the
-aggregated measurements and source revision. HTML is pre-rendered; filtering,
-pagination and theme selection are progressive enhancements. No artwork is
-published by this dashboard.
+`prepare:publish` verifies the snapshot filename, checksum, byte size, source revision
+and printing count, then writes the unchanged manifest and snapshot to `site/data/`.
+It recreates `site/` so old dashboard files cannot leak into a publication. `_headers`
+preserves public CORS, manifest revalidation and immutable snapshot caching.
 
-CI builds the dashboard for every data PR. Successful main builds deploy to
-Cloudflare Pages using the `cardlattice-status` project. PRs cannot deploy.
-Configure the repository variable `CLOUDFLARE_ACCOUNT_ID` and secret
-`CLOUDFLARE_API_TOKEN` (Cloudflare Pages Edit), and attach
-`status.cardlattice.com` to that project. GitHub Pages is no longer deployed.
+CI uploads the data publication for every catalogue build. Successful main builds
+publish it to the existing `cardlattice-status` Cloudflare Pages project using
+`CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`. PRs cannot deploy. The project
+name stays unchanged because both applications consume
+`https://cardlattice-status.pages.dev/data/`. Daily immutable GitHub releases continue.
 
-The same deployment serves the verified manifest and immutable snapshot under
-`/data/`, with public CORS headers for the browser app at `cardlattice.com`.
-The manifest revalidates; checksum-named JSON may be cached indefinitely. The
-Rust API at `api.cardlattice.com` is coming soon. The snapshot contains no artwork.
-
-Counts are printing records grouped by set, language and region, after compiler
-inheritance. Finish coverage includes a nonempty `finishes` array or a named
-variant with a recorded finish. Illustrator and rarity coverage measure nonempty
-fields. These indicators do not establish exhaustive variants, image rights,
-editorial review, uptime, or worldwide catalogue completeness. Printed
-collector-number denominators are deliberately not treated as complete targets.
+Deploy and verify the app repository's status dashboard, then move the
+`status.cardlattice.com` custom domain to its separate Pages project **before merging
+this cleanup**. This data project will no longer serve a dashboard at `/`.
+No Cloudflare project or custom domain is changed by the cleanup PR itself.
