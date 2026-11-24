@@ -1,0 +1,40 @@
+name: Landorus
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Abundant Harvest
+      cost:
+        - Fighting
+      text: Attach a basic Energy card from your discard pile to this Pokémon.
+    - name: Gaia Hammer
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "80"
+      text: Does 10 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 645
+  species: Abundance Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 67.993496263
+  flavourText: Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”

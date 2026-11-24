@@ -1,0 +1,40 @@
+name: Growlithe
+rarity: Uncommon
+illustrators:
+  - Sanosuke Sakuma
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Rest
+      cost:
+        - Colorless
+        - Colorless
+      text: Heal all damage from this Pokémon. This Pokémon is now Asleep.
+    - name: Lunge
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 58
+  species: Puppy Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 19.005520303
+  flavourText: Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

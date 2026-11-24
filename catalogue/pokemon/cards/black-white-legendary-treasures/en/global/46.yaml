@@ -1,0 +1,44 @@
+name: Zapdos
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+  - non-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Random Spark
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      text: This attack does 50 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    - name: Thundering Hurricane
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: Flip 4 coins. This attack does 50 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 145
+  species: Electric Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 52.61671492
+  flavourText: A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.

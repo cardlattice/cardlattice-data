@@ -1,0 +1,40 @@
+name: Kirlia
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Yukiko Baba
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Ralts
+  attacks:
+    - name: Mind Bend
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Spinning Attack
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 281
+  species: Emotion Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 20.184860465
+  flavourText: If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.

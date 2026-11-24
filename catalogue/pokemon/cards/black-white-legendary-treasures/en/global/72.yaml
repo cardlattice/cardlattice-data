@@ -1,0 +1,38 @@
+name: Gothitelle
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Gothorita
+  attacks:
+    - name: Madkinesis
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Does 20 more damage for each Psychic Energy attached to this Pokémon.
+  abilities:
+    - name: Magic Room
+      kind: Ability
+      text: As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 576
+  species: Astral Body Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 43.99845989
+  flavourText: Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.

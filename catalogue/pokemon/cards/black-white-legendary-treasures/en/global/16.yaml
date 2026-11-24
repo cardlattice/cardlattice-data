@@ -1,0 +1,39 @@
+name: Genesect
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Ayaka Yoshida
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Slash
+      cost:
+        - Grass
+      damage: "20"
+    - name: Gaia Blaster
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Does 20 more damage for each Grass Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 649
+  species: Paleozoic Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 82.508452103
+  flavourText: This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.

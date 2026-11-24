@@ -1,0 +1,33 @@
+name: Eevee
+rarity: Uncommon
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Surprise Attack
+      cost:
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 133
+  species: Evolution Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 6.486370891
+  flavourText: Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

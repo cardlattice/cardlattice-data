@@ -1,0 +1,39 @@
+name: Zekrom-EX
+printedDenominator: 113
+finishes:
+  - holo
+illustrators:
+  - Shizurow
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Glinting Claw
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+    - name: Strong Volt
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "150"
+      text: Discard 2 Energy attached to this Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+rarity: ★ (silver)

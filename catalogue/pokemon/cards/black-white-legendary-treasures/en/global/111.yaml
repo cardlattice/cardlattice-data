@@ -1,0 +1,15 @@
+name: Crushing Hammer
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Flip a coin. If heads, discard an Energy attached to 1 of your opponent’s Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).

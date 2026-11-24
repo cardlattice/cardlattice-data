@@ -1,0 +1,40 @@
+name: Seismitoad
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Hajime Kusajima
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Palpitoad
+  attacks:
+    - name: Round
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Does 30 damage times the number of your Pokémon that have the Round attack.
+    - name: Hyper Voice
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "70"
+  abilities: []
+  weaknesses:
+    - type: Grass
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 537
+  species: Vibration Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 62.006076979
+  flavourText: It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.

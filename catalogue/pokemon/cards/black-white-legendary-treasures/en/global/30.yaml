@@ -1,0 +1,32 @@
+name: Magikarp
+rarity: Common
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Flailing Flop
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If tails, this Pokémon does 10 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 129
+  species: Fish Pokémon
+  heightMetres: 0.889
+  weightKilograms: 9.97903214
+  flavourText: A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.

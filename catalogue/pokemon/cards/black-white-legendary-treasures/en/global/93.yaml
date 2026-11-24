@@ -1,0 +1,39 @@
+name: Rayquaza
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Dragon Pulse
+      cost:
+        - Lightning
+      damage: "40"
+      text: Discard the top 2 cards of your deck.
+    - name: Shred
+      cost:
+        - Fire
+        - Lightning
+        - Colorless
+      damage: "90"
+      text: This attack’s damage isn’t affected by any effects on the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  nationalDex:
+    - 384
+  species: Sky High Pokémon
+  heightMetres: 7.0104
+  weightKilograms: 206.475246824
+  flavourText: It lives in the ozone layer far above the clouds and cannot be seen from the ground.

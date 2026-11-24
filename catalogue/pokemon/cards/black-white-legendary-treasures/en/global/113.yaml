@@ -1,0 +1,14 @@
+name: Double Colorless Energy
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: energy
+  subtypes:
+    - Special Energy
+  rules:
+    - Double Colorless Energy provides {Colorless}{Colorless} Energy.

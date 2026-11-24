@@ -1,0 +1,39 @@
+name: Lugia-EX
+printedDenominator: 113
+finishes:
+  - holo
+illustrators:
+  - Toyste Beach
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Plasma Gale
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: Discard a Plasma Energy attached to this Pokémon. If you can’t discard a Plasma Energy, this attack does nothing.
+  abilities:
+    - name: Overflow
+      kind: Ability
+      text: If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  subtypes:
+    - EX
+  trainers:
+    - Team Plasma
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+rarity: ★ (silver)

@@ -1,0 +1,38 @@
+name: Shuckle
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Share
+      cost:
+        - Grass
+      text: Heal 40 damage from 1 of your Benched Pokémon.
+    - name: Double Stab
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: 40×
+      text: Flip 2 coins. This attack does 40 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 213
+  species: Mold Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 20.502375124
+  flavourText: The berries stored in its vaselike shell eventually become a thick, pulpy juice.

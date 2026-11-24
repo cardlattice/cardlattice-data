@@ -1,0 +1,40 @@
+name: Empoleon
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Prinplup
+  attacks:
+    - name: Surf
+      cost:
+        - Water
+        - Colorless
+      damage: "50"
+    - name: Emperor’s Strike
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 70+
+      text: If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 60 more damage.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 395
+  species: Emperor Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 84.504258531
+  flavourText: If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.

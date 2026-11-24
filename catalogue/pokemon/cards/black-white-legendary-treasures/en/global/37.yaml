@@ -1,0 +1,33 @@
+name: Oshawott
+rarity: Common
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Razor Shell
+      cost:
+        - Water
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 501
+  species: Sea Otter Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.89670081
+  flavourText: The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.

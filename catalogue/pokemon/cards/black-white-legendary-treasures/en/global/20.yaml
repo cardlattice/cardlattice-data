@@ -1,0 +1,33 @@
+name: Vulpix
+rarity: Common
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Firebreathing
+      cost:
+        - Fire
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 10 more damage.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 37
+  species: Fox Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 9.888313666
+  flavourText: As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.

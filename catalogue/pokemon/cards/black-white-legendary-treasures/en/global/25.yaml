@@ -1,0 +1,33 @@
+name: Tepig
+rarity: Common
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Take Down
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: This Pokémon does 10 damage to itself.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 498
+  species: Fire Pig Pokémon
+  heightMetres: 0.508
+  weightKilograms: 9.888313666
+  flavourText: It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.

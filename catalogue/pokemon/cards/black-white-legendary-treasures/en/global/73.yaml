@@ -1,0 +1,31 @@
+name: Solosis
+rarity: Common
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - HIRON
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Rollout
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 577
+  species: Cell Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 0.997903214
+  flavourText: They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.

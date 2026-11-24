@@ -1,0 +1,33 @@
+name: Gothita
+rarity: Common
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Trip Over
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 574
+  species: Fixation Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.805982336
+  flavourText: It stares intently at everything. It can become so obsessed with watching that it doesn’t notice attacks.

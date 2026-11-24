@@ -1,0 +1,40 @@
+name: Altaria
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Swablu
+  attacks:
+    - name: Speed Dive
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Cleave
+      cost:
+        - Water
+        - Metal
+        - Colorless
+      damage: "40"
+      text: Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 334
+  species: Humming Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 20.593093598
+  flavourText: On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.

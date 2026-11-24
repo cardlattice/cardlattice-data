@@ -1,0 +1,37 @@
+name: Piplup
+rarity: Uncommon
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Charm
+      cost:
+        - Colorless
+      text: During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).
+    - name: Peck
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 393
+  species: Penguin Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.216312255
+  flavourText: A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

@@ -1,0 +1,38 @@
+name: Samurott
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Dewott
+  attacks:
+    - name: Hydro Pump
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 70+
+      text: Does 10 more damage for each Water Energy attached to this Pokémon.
+  abilities:
+    - name: Shell Armor
+      kind: Ability
+      text: Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 503
+  species: Formidable Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 94.619368382
+  flavourText: Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.

@@ -1,0 +1,37 @@
+name: Torchic
+rarity: Common
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Peck
+      cost:
+        - Fire
+      damage: "10"
+    - name: Live Coal
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 255
+  species: Chick Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 2.494758035
+  flavourText: A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

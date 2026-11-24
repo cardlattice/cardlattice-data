@@ -1,0 +1,38 @@
+name: Gabite
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shigenori Negishi
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Gible
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Shred
+      cost:
+        - Water
+        - Fighting
+      damage: "40"
+      text: This attack’s damage isn’t affected by any effects on the Defending Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 444
+  species: Cave Pokémon
+  heightMetres: 1.397
+  weightKilograms: 56.018657695
+  flavourText: It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.

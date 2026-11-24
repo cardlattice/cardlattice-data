@@ -1,0 +1,32 @@
+name: Duosion
+rarity: Uncommon
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Suwama Chiaki
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Solosis
+  attacks:
+    - name: Rollout
+      cost:
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 578
+  species: Mitosis Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 7.983225712
+  flavourText: Since they have two divided brains, at times they suddenly try to take two different actions at once.

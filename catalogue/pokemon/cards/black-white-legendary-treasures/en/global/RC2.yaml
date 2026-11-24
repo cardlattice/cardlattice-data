@@ -1,0 +1,40 @@
+name: Servine
+rarity: Common
+illustrators:
+  - kirisAki
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Snivy
+  attacks:
+    - name: Leaf Blade
+      cost:
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+    - name: Vine Whip
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 496
+  species: Grass Snake Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 16.011810661
+  flavourText: When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

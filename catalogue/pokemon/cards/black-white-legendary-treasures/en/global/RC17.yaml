@@ -1,0 +1,35 @@
+name: Audino
+rarity: Common
+illustrators:
+  - MAHOU
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Relaxed Roll
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  nationalDex:
+    - 531
+  species: Hearing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 30.980358871
+  flavourText: Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.
+printedDenominator: RC25
+finishes:
+  - holo
+collections:
+  - pokemon-collection-legendary-treasures-radiant-collection

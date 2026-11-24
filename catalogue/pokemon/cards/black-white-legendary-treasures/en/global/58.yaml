@@ -1,0 +1,40 @@
+name: Mismagius
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Sumiyoshi Kizuki
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Misdreavus
+  attacks:
+    - name: Absorb Life
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: Heal 10 damage from this Pokémon.
+    - name: Spooky Shot
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "70"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  nationalDex:
+    - 429
+  species: Magical Pokémon
+  heightMetres: 0.889
+  weightKilograms: 4.399845989
+  flavourText: Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.

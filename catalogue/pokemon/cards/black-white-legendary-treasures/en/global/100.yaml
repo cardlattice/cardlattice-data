@@ -1,0 +1,39 @@
+name: Black Kyurem-EX
+printedDenominator: 113
+finishes:
+  - holo
+illustrators:
+  - Eske Yoshinob
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Dragon Fang
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Freeze Shock
+      cost:
+        - Water
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "150"
+      text: This Pokémon can’t attack during your next turn.
+  abilities: []
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 3
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+rarity: ★ (silver)

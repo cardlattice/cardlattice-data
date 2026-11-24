@@ -1,0 +1,42 @@
+name: Cobalion
+rarity: Rare
+printedDenominator: 113
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Sumiyoshi Kizuki
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Energy Press
+      cost:
+        - Metal
+        - Colorless
+      damage: 20+
+      text: Does 20 more damage for each Energy attached to the Defending Pokémon.
+    - name: Iron Breaker
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "80"
+      text: The Defending Pokémon can’t attack during your opponent’s next turn.
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 638
+  species: Iron Will Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 250.020114344
+  flavourText: It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.
