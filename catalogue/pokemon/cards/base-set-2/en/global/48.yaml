@@ -1,0 +1,41 @@
+name: Lickitung
+rarity: Uncommon
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  species: Licking Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 65.31730128
+  level: 26
+  nationalDex:
+    - 108
+  flavourText: Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Tongue Wrap
+      cost:
+        - Colorless
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Supersonic
+      cost:
+        - Colorless
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

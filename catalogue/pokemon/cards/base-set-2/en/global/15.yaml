@@ -1,0 +1,46 @@
+name: Poliwrath
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Poliwhirl
+  species: Tadpole Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 53.97749203
+  level: 48
+  nationalDex:
+    - 62
+  flavourText: An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Water Gun
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 30+
+      text: Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+    - name: Whirlpool
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos

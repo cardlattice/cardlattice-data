@@ -1,0 +1,39 @@
+name: Charmander
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  species: Lizard Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 8.61825503
+  level: 10
+  nationalDex:
+    - 4
+  flavourText: Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Ember
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Discard 1 Fire Energy card attached to Charmander in order to use this attack.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

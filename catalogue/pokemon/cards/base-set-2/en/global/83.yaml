@@ -1,0 +1,34 @@
+name: Nidoran♂
+rarity: Common
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  species: Poison Pin Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 6.80388555
+  level: 20
+  nationalDex:
+    - 32
+  flavourText: Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Horn Hazard
+      cost:
+        - Grass
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

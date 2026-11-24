@@ -1,0 +1,41 @@
+name: Cubone
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Fighting
+  stage: Basic
+  species: Lonely Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 6.35029318
+  level: 13
+  nationalDex:
+    - 104
+  flavourText: Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Lightning
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Snivel
+      cost:
+        - Colorless
+      text: If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)
+    - name: Rage
+      cost:
+        - Fighting
+        - Fighting
+      damage: 10+
+      text: Does 10 damage plus 10 more damage for each damage counter on Cubone.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

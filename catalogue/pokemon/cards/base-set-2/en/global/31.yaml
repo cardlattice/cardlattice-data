@@ -1,0 +1,41 @@
+name: Venomoth
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Venonat
+  species: Poisonmoth Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 12.70058636
+  level: 28
+  nationalDex:
+    - 49
+  flavourText: The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.
+  weaknesses:
+    - type: Fire
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Venom Powder
+      cost:
+        - Grass
+        - Grass
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+  abilities:
+    - name: Shift
+      kind: Pokémon Power
+      text: Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,0 +1,40 @@
+name: Electrode
+rarity: Rare
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Voltorb
+  species: Ball Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 66.67807839
+  level: 40
+  nationalDex:
+    - 101
+  flavourText: It stores electrical energy under very high pressure. It often explodes with little or no provocation.
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Electric Shock
+      cost:
+        - Lightning
+        - Lightning
+        - Lightning
+      damage: "50"
+      text: Flip a coin. If tails, Electrode does 10 damage to itself.
+  abilities:
+    - name: Buzzap
+      kind: Pokémon Power
+      text: At any time during your turn (before your attack), you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card of that type (instead of a Pokémon) that provides 2 energy. This power can't be used if Electrode is Asleep, Confused, or Paralyzed.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

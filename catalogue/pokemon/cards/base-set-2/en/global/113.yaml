@@ -1,0 +1,14 @@
+name: PlusPower
+rarity: Uncommon
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: trainer
+  rules:
+    - Attach PlusPower to your Active Pokémon. At the end of your turn, discard PlusPower. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

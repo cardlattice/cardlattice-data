@@ -1,0 +1,14 @@
+name: Maintenance
+rarity: Uncommon
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: trainer
+  rules:
+    - Shuffle 2 of the other cards from your hand into your deck in order to draw a card.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

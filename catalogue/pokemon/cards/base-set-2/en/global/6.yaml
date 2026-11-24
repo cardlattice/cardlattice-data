@@ -1,0 +1,42 @@
+name: Clefairy
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  species: Fairy Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 7.71107029
+  level: 14
+  nationalDex:
+    - 35
+  flavourText: Its magical and cute appeal has many admirers. It is rare and found only in certain areas.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Sing
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    - name: Metronome
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefairy's type is still Colorless.)
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos

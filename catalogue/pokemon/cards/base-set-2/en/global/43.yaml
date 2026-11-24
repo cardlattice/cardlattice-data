@@ -1,0 +1,41 @@
+name: Haunter
+rarity: Uncommon
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Gastly
+  species: Gas Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 0.09071847
+  level: 22
+  nationalDex:
+    - 93
+  flavourText: Because of its ability to slip through block walls, it is said to be from another dimension.
+  weaknesses: []
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+  attacks:
+    - name: Hypnosis
+      cost:
+        - Psychic
+      text: The Defending Pokémon is now Asleep.
+    - name: Dream Eater
+      cost:
+        - Psychic
+        - Psychic
+      damage: "50"
+      text: You can't use this attack unless the Defending Pokémon is Asleep.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,0 +1,41 @@
+name: Magmar
+rarity: Uncommon
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fire
+  stage: Basic
+  species: Spitfire Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 44.45205226
+  level: 24
+  nationalDex:
+    - 126
+  flavourText: Its body always burns with an orange glow that enables it to hide perfectly among flames.
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Fire Punch
+      cost:
+        - Fire
+        - Fire
+      damage: "30"
+    - name: Flamethrower
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+      text: Discard 1 Fire Energy card attached to Magmar in order to use this attack.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

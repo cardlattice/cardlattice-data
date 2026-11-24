@@ -1,0 +1,14 @@
+name: Imposter Professor Oak
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  rules:
+    - Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

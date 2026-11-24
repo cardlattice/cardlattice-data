@@ -1,0 +1,34 @@
+name: Abra
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  species: Psi Pokémon
+  heightMetres: 0.889
+  weightKilograms: 19.50447191
+  level: 10
+  nationalDex:
+    - 63
+  flavourText: Using its ability to read minds, it will identify impending danger and teleport to safety.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 0
+  attacks:
+    - name: Psyshock
+      cost:
+        - Psychic
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

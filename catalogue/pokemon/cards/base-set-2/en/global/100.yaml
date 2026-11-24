@@ -1,0 +1,34 @@
+name: Weedle
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  species: Hairy Bug Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 3.17514659
+  level: 12
+  nationalDex:
+    - 13
+  flavourText: Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Poison Sting
+      cost:
+        - Grass
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

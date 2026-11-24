@@ -1,0 +1,46 @@
+name: Magneton
+rarity: Rare
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Magnemite
+  species: Magnet Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 59.87419284
+  level: 28
+  nationalDex:
+    - 82
+  flavourText: Formed by several Magnemites linked together. It frequently appears when sunspots flare up.
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Thunder Wave
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Selfdestruct
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos

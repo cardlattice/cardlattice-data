@@ -1,0 +1,46 @@
+name: Fearow
+rarity: Uncommon
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Spearow
+  species: Beak Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 38.10175908
+  level: 27
+  nationalDex:
+    - 22
+  flavourText: With its huge and magnificent wings, it can keep aloft without ever having to land for rest.
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Agility
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.
+    - name: Drill Peck
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

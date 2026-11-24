@@ -1,3 +1,6 @@
 name: "Base Set 2"
 language: en
 series: pokemon-series-original
+printedIdentifiers:
+  - language: en
+    symbol: Poké Ball with the numeral 2

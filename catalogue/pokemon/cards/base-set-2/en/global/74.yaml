@@ -1,0 +1,39 @@
+name: Exeggcute
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  species: Egg Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 2.72155422
+  level: 14
+  nationalDex:
+    - 102
+  flavourText: Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Hypnosis
+      cost:
+        - Psychic
+      text: The Defending Pokémon is now Asleep.
+    - name: Leech Seed
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

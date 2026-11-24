@@ -1,0 +1,45 @@
+name: Pidgeot
+rarity: Rare
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Pidgeotto
+  species: Bird Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 39.46253619
+  level: 40
+  nationalDex:
+    - 18
+  flavourText: When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Wing Attack
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Hurricane
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos

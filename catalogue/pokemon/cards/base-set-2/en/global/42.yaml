@@ -1,0 +1,34 @@
+name: Growlithe
+rarity: Uncommon
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  species: Puppy Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 19.05087954
+  level: 18
+  nationalDex:
+    - 58
+  flavourText: Very protective of its territory. It will bark and bite to repel intruders from its space.
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Flare
+      cost:
+        - Fire
+        - Colorless
+      damage: "20"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

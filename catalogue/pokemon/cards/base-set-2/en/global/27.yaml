@@ -1,0 +1,38 @@
+name: Mr. Mime
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Psychic
+  stage: Basic
+  species: Barrier Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 54.4310844
+  level: 28
+  nationalDex:
+    - 122
+  flavourText: If interrupted while miming, it will slap around the enemy with its broad hands.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Meditate
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+  abilities:
+    - name: Invisible Wall
+      kind: Pokémon Power
+      text: Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power stops working while Mr. Mime is Asleep, Confused, or Paralyzed.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

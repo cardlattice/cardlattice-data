@@ -1,0 +1,44 @@
+name: Tauros
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  species: Wild Bull Pokémon
+  heightMetres: 1.397
+  weightKilograms: 88.45051215
+  level: 32
+  nationalDex:
+    - 128
+  flavourText: When it targets an enemy, it charges furiously while whipping its body with its long tails.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 2
+  attacks:
+    - name: Stomp
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.
+    - name: Rampage
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage).
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,0 +1,39 @@
+name: Paras
+rarity: Common
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  species: Mushroom Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 5.44310844
+  level: 8
+  nationalDex:
+    - 46
+  flavourText: Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Spore
+      cost:
+        - Grass
+        - Grass
+      text: The Defending Pokémon is now Asleep.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

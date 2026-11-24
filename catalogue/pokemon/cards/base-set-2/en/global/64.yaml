@@ -1,0 +1,40 @@
+name: Weepinbell
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Bellsprout
+  species: Flycatcher Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 6.35029318
+  level: 28
+  nationalDex:
+    - 70
+  flavourText: It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Poisonpowder
+      cost:
+        - Grass
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Razor Leaf
+      cost:
+        - Grass
+        - Grass
+      damage: "30"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

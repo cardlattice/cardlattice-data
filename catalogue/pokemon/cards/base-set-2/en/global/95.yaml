@@ -1,0 +1,33 @@
+name: Staryu
+rarity: Common
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Water
+  stage: Basic
+  species: Starshape Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 34.47302012
+  level: 15
+  nationalDex:
+    - 120
+  flavourText: An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Slap
+      cost:
+        - Water
+      damage: "20"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

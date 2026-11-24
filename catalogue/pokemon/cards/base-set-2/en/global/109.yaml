@@ -1,0 +1,14 @@
+name: Defender
+rarity: Uncommon
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: trainer
+  rules:
+    - Attach Defender to 1 of your Pokémon. At the end of your opponent's next turn, discard Defender. Damage done to that Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

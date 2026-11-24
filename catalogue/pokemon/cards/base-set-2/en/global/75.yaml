@@ -1,0 +1,39 @@
+name: Gastly
+rarity: Common
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  species: Gas Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 0.09071847
+  level: 8
+  nationalDex:
+    - 92
+  flavourText: Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.
+  weaknesses: []
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Sleeping Gas
+      cost:
+        - Psychic
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    - name: Destiny Bond
+      cost:
+        - Psychic
+        - Colorless
+      text: Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

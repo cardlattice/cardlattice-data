@@ -1,0 +1,39 @@
+name: Squirtle
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Water
+  stage: Basic
+  species: Tiny Turtle Pokémon
+  heightMetres: 0.508
+  weightKilograms: 9.0718474
+  level: 8
+  nationalDex:
+    - 7
+  flavourText: After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Bubble
+      cost:
+        - Water
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Withdraw
+      cost:
+        - Water
+        - Colorless
+      text: Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

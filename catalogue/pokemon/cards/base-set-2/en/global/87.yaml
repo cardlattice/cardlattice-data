@@ -1,0 +1,39 @@
+name: Pikachu
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Lightning
+  stage: Basic
+  species: Mouse Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.89670081
+  level: 12
+  nationalDex:
+    - 25
+  flavourText: When several of these Pokémon gather, their electricity can cause lightning storms.
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Gnaw
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Thunder Jolt
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, Pikachu does 10 damage to itself.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

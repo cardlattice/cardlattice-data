@@ -1,0 +1,42 @@
+name: Tangela
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  species: Vine Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 34.92661249
+  level: 8
+  nationalDex:
+    - 114
+  flavourText: Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Bind
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Poisonpowder
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "20"
+      text: The Defending Pokémon is now Poisoned.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

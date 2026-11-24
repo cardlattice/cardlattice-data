@@ -1,0 +1,37 @@
+name: Bellsprout
+rarity: Common
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  species: Flower Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 4.08233133
+  level: 11
+  nationalDex:
+    - 69
+  flavourText: A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Vine Whip
+      cost:
+        - Grass
+      damage: "10"
+    - name: Call for Family
+      cost:
+        - Grass
+      text: Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

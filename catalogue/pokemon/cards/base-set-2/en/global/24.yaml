@@ -1,0 +1,40 @@
+name: Electabuzz
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  species: Electric Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 29.93709642
+  level: 35
+  nationalDex:
+    - 125
+  flavourText: Normally found near power plants, it can wander away and cause major blackouts in cities.
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Thundershock
+      cost:
+        - Lightning
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Thunderpunch
+      cost:
+        - Lightning
+        - Colorless
+      damage: 30+
+      text: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

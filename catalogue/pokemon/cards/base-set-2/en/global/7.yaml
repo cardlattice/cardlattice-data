@@ -1,0 +1,47 @@
+name: Gyarados
+rarity: Rare
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Magikarp
+  species: Atrocious Pokémon
+  heightMetres: 6.5024
+  weightKilograms: 234.96084766
+  level: 41
+  nationalDex:
+    - 130
+  flavourText: Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Dragon Rage
+      cost:
+        - Water
+        - Water
+        - Water
+      damage: "50"
+    - name: Bubblebeam
+      cost:
+        - Water
+        - Water
+        - Water
+        - Water
+      damage: "40"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos

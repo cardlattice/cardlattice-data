@@ -1,0 +1,41 @@
+name: Rhyhorn
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  species: Spikes Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 115.21246198
+  level: 18
+  nationalDex:
+    - 111
+  flavourText: Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Lightning
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Leer
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)
+    - name: Horn Attack
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "30"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,0 +1,44 @@
+name: Persian
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Meowth
+  species: Classy Cat Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 32.20505827
+  level: 25
+  nationalDex:
+    - 53
+  flavourText: Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Pounce
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: If the Defending Pokémon attacks Persian during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,0 +1,44 @@
+name: Charizard
+rarity: Rare
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: Charmeleon
+  species: Flame Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 90.718474
+  level: 76
+  nationalDex:
+    - 6
+  flavourText: Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.
+  weaknesses:
+    - type: Water
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Fire Spin
+      cost:
+        - Fire
+        - Fire
+        - Fire
+        - Fire
+      damage: "100"
+      text: Discard 2 Energy cards attached to Charizard in order to use this attack.
+  abilities:
+    - name: Energy Burn
+      kind: Pokémon Power
+      text: As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos

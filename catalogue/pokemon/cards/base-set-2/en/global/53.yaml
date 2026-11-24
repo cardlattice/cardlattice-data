@@ -1,0 +1,41 @@
+name: Nidorina
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Nidoran♀
+  species: Poison Pin Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 19.95806428
+  level: 24
+  nationalDex:
+    - 30
+  flavourText: The female's horn develops slowly. Prefers physical attacks such as clawing and biting.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Supersonic
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Double Kick
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

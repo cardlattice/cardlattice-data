@@ -1,0 +1,40 @@
+name: Victreebel
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Weepinbell
+  species: Flycatcher Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 15.42214058
+  level: 42
+  nationalDex:
+    - 71
+  flavourText: Said to live in huge colonies deep in jungles, although no one has ever returned from there.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Lure
+      cost:
+        - Grass
+      text: If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.
+    - name: Acid
+      cost:
+        - Grass
+        - Grass
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

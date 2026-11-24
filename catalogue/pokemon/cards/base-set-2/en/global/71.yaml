@@ -1,0 +1,40 @@
+name: Diglett
+rarity: Common
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Fighting
+  stage: Basic
+  species: Mole Pokémon
+  heightMetres: 0.2032
+  weightKilograms: 0.90718474
+  level: 8
+  nationalDex:
+    - 50
+  flavourText: Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Lightning
+      value: "-30"
+  retreatCost: 0
+  attacks:
+    - name: Dig
+      cost:
+        - Fighting
+      damage: "10"
+    - name: Mud Slap
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

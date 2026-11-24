@@ -1,0 +1,14 @@
+name: Potion
+rarity: Common
+illustrators:
+  - Keiji Kinebuchi
+pokemon:
+  category: trainer
+  rules:
+    - Remove up to 2 damage counters from 1 of your Pokémon.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

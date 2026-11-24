@@ -1,0 +1,46 @@
+name: Rhydon
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Rhyhorn
+  species: Drill Pokémon
+  heightMetres: 1.905
+  weightKilograms: 120.20197805
+  level: 48
+  nationalDex:
+    - 112
+  flavourText: Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.
+  weaknesses:
+    - type: Grass
+  resistances:
+    - type: Lightning
+      value: "-30"
+  retreatCost: 3
+  attacks:
+    - name: Horn Attack
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Ram
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "50"
+      text: Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

@@ -1,0 +1,14 @@
+name: Professor Oak
+rarity: Uncommon
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: trainer
+  rules:
+    - Discard your hand, then draw 7 cards.
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

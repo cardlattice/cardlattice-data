@@ -1,0 +1,40 @@
+name: Venonat
+rarity: Common
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  species: Insect Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 29.93709642
+  level: 12
+  nationalDex:
+    - 48
+  flavourText: Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+  attacks:
+    - name: Stun Spore
+      cost:
+        - Grass
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Leech Life
+      cost:
+        - Grass
+        - Colorless
+      damage: "10"
+      text: Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Venonat has fewer damage counters than that, remove all of them.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

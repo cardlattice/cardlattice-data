@@ -1,0 +1,44 @@
+name: Dewgong
+rarity: Uncommon
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Seel
+  species: Sea Lion Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 120.20197805
+  level: 42
+  nationalDex:
+    - 87
+  flavourText: Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 3
+  attacks:
+    - name: Aurora Beam
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: "50"
+    - name: Ice Beam
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  abilities: []
+finishes:
+  - non-holo
+variants:
+  unlimited-non-holo:
+    edition: unlimited
+    finish: non-holo

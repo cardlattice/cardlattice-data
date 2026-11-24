@@ -1,0 +1,40 @@
+name: Hitmonchan
+rarity: Rare
+illustrators:
+  - Ken Sugimori
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  species: Punching Pokémon
+  heightMetres: 1.397
+  weightKilograms: 50.34875307
+  level: 33
+  nationalDex:
+    - 107
+  flavourText: While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+  attacks:
+    - name: Jab
+      cost:
+        - Fighting
+      damage: "20"
+    - name: Special Punch
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "40"
+  abilities: []
+finishes:
+  - holo
+variants:
+  unlimited-holo:
+    edition: unlimited
+    finish: holo
+    foilPattern: cosmos
