@@ -1,0 +1,56 @@
+name: Rocket's Mewtwo
+illustrators:
+  - Shin-ichi Yoshida
+finishes:
+  - reverse-holo
+  - non-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Juxtapose
+      cost:
+        - Psychic
+      text: Flip a coin. If heads, switch the number of damage counters on Rocket's Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It's okay if 1 of the Pokémon has no damage counters on it.)
+    - name: Hypnoblast
+      cost:
+        - Psychic
+        - Psychic
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    - name: Psyburn
+      cost:
+        - Psychic
+        - Psychic
+        - Psychic
+        - Colorless
+      damage: "60"
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+  species: Genetic Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 122.01634753
+  nationalDex:
+    - 150
+  level: 35
+variants:
+  winner:
+    finish: reverse-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+    foilPattern: cosmos
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: jumbo

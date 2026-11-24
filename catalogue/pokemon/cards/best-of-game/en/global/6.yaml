@@ -1,0 +1,52 @@
+name: Dark Ivysaur
+illustrators:
+  - Shin-ichi Yoshida
+finishes:
+  - non-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Stage 1
+  attacks:
+    - name: Fury Strikes
+      cost:
+        - Grass
+        - Grass
+      text: Your opponent puts 3 markers onto his or her Pokémon (divided as he or she chooses). (More than 1 marker can be put on the same Pokémon.) Then, this attack does 10 damage to each Pokémon for each marker on it. Don't apply Weakness and Resistance. Remove the markers at the end of the turn.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: Bulbasaur
+  abilities:
+    - name: Vine Pull
+      kind: Poké-Body
+      text: Once during your turn when Dark Ivysaur retreats, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.
+  species: Seed Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 13.15417873
+  rules:
+    - Put Dark Ivysaur on the Basic Pokémon
+variants:
+  non-winner:
+    finish: non-holo
+    stamps: []
+    size: standard
+  winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: jumbo
+additionalNumbers:
+  printedId: Y-02

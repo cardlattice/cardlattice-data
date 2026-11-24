@@ -1,0 +1,50 @@
+name: Dark Venusaur
+illustrators:
+  - Shin-ichi Yoshida
+finishes:
+  - non-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 2
+  attacks:
+    - name: Horrid Pollen
+      cost:
+        - Grass
+        - Grass
+        - Grass
+      damage: "30"
+      text: Flip 2 coins. If 1 is heads, the Defending Pokémon is now Asleep and Poisoned. If both are heads, the Defending Pokémon is now Confused and Poisoned. If both are tails, the Defending Pokémon is now Paralyzed and Poisoned.
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  evolvesFrom: Dark Ivysaur
+  species: Seed Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 100.24391377
+  rules:
+    - Put Dark Venusaur on the Stage 1 card
+variants:
+  non-winner:
+    finish: non-holo
+    stamps: []
+    size: standard
+  winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: jumbo
+additionalNumbers:
+  printedId: Y-03

@@ -1,0 +1,47 @@
+name: Hitmonchan
+illustrators:
+  - Ken Sugimori
+finishes:
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Jab
+      cost:
+        - Fighting
+      damage: "20"
+    - name: Special Punch
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+  species: Punching Pokémon
+  heightMetres: 1.397
+  weightKilograms: 50.34875307
+  nationalDex:
+    - 107
+  level: 33
+  flavourText: While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.
+variants:
+  non-winner:
+    finish: reverse-holo
+    stamps: []
+    size: standard
+    foilPattern: cosmos
+  winner:
+    finish: reverse-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+    foilPattern: cosmos

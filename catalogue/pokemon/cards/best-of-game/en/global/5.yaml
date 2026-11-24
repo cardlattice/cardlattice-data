@@ -1,0 +1,50 @@
+name: Rocket's Sneasel
+illustrators:
+  - Katsura Tabata
+finishes:
+  - non-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Entrap
+      cost:
+        - Darkness
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+    - name: Continuous Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10×"
+      text: Flip 4 coins. This attack does 10 damage times the number of heads.
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+  species: Sharp Claw Pokémon
+  heightMetres: 0.889
+  weightKilograms: 28.12272694
+variants:
+  non-winner:
+    finish: non-holo
+    stamps: []
+    size: standard
+  winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: standard
+  jumbo-winner:
+    finish: non-holo
+    stamps:
+      - winner
+    products:
+      - pokemon-product-best-of-game-battlezone-prize-kit
+    size: jumbo
