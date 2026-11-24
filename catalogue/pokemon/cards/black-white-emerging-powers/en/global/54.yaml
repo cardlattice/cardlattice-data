@@ -1,0 +1,35 @@
+name: Drilbur
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Hone Claws
+      cost:
+        - Colorless
+      text: During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).
+    - name: Scratch
+      cost:
+        - Fighting
+      damage: "10"
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 529
+  species: Mole Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 8.48217732
+  flavourText: It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.

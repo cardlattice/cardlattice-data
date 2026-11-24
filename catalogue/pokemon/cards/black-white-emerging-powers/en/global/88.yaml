@@ -1,0 +1,40 @@
+name: Braviary
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Rufflet
+  attacks:
+    - name: Wing Attack
+      cost:
+        - Colorless
+        - Colorless
+      damage: "40"
+    - name: Brave Bird
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: This Pokémon does 30 damage to itself.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 628
+  species: Valiant Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 41.00475025
+  flavourText: The more scars they have, the more respect these brave soldiers of the sky get from their peers.

@@ -1,0 +1,37 @@
+name: Swadloon
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Sewaddle
+  attacks:
+    - name: Gnaw
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Double Razor Leaf
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "50×"
+      text: Flip 2 coins. This attack does 50 damage times the number of heads.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 541
+  species: Leaf-Wrapped Pokémon
+  heightMetres: 0.508
+  weightKilograms: 7.30283716
+  flavourText: It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.
+  resistances: []

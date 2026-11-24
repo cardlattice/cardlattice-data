@@ -1,0 +1,32 @@
+name: Cottonee
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Cotton Guard
+      cost:
+        - Grass
+      damage: "10"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 546
+  species: Cotton Puff Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 0.58967008
+  flavourText: When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.

@@ -1,0 +1,36 @@
+name: Rufflet
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Peck
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Slash
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 627
+  species: Eaglet Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.47798375
+  flavourText: They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.

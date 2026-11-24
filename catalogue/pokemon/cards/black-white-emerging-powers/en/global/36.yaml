@@ -1,0 +1,31 @@
+name: Woobat
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Psy Bolt
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 527
+  species: Bat Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 2.0865249
+  flavourText: Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.
+  resistances: []

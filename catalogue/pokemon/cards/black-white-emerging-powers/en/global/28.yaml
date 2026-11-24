@@ -1,0 +1,35 @@
+name: Cubchoo
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Powder Snow
+      cost:
+        - Water
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    - name: Rest
+      cost:
+        - Colorless
+        - Colorless
+      text: Heal 60 damage from this Pokémon. This Pokémon is now Asleep.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 613
+  species: Chill Pokémon
+  heightMetres: 0.508
+  weightKilograms: 8.48217732
+  flavourText: When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.
+  resistances: []

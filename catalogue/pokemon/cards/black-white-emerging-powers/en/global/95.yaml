@@ -1,0 +1,24 @@
+name: Pokémon Catcher
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Switch your opponent's Active Pokémon with 1 of his or her Benched Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  player-rewards:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - pokemon-league

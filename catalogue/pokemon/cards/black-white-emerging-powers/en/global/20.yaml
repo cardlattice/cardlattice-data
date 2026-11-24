@@ -1,0 +1,35 @@
+name: Darumaka
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Combustion
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 554
+  species: Zen Charm Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 37.512089
+  flavourText: When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.
+  resistances: []

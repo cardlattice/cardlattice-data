@@ -1,0 +1,37 @@
+name: Gothitelle
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Gothorita
+  attacks:
+    - name: Smack
+      cost:
+        - Psychic
+      damage: "30"
+    - name: Mental Shock
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 576
+  species: Astral Body Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 43.99845989
+  flavourText: They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.
+  resistances: []

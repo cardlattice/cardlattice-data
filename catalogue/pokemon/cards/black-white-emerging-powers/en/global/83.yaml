@@ -1,0 +1,36 @@
+name: Audino
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Powerful Slap
+      cost:
+        - Colorless
+      damage: "40×"
+      text: Flip a coin for each Energy attached to this Pokémon. This attack does 40 damage times the number of heads.
+    - name: Heal Pulse
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: Heal 50 damage from 1 of your Pokémon.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 531
+  species: Hearing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 30.98035887
+  flavourText: Its auditory sense is astounding. It has a radarlike ability to understand its surroundings through slight sounds.
+  resistances: []

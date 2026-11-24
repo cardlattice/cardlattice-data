@@ -1,0 +1,46 @@
+name: Roggenrola
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+  - holo
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Harden
+      cost:
+        - Colorless
+      text: During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 40 or less.
+    - name: Headbutt
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 524
+  species: Mantle Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 18.00761709
+  flavourText: Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-next-destinies-gigalith-blister

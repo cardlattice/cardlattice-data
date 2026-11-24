@@ -1,0 +1,30 @@
+name: Gothita
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Smack
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 574
+  species: Fixation Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 5.80598234
+  flavourText: They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.
+  resistances: []

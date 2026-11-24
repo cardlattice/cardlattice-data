@@ -1,0 +1,49 @@
+name: Excadrill
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Drilbur
+  attacks:
+    - name: Metal Claw
+      cost:
+        - Colorless
+      damage: "30"
+    - name: Drill Run
+      cost:
+        - Fighting
+        - Fighting
+        - Fighting
+      damage: "80"
+      text: Discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 2
+  nationalDex:
+    - 530
+  species: Subterrene Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 40.41508017
+  flavourText: It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  dragons-exalted-blister:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-dragons-exalted-excadrill-blister

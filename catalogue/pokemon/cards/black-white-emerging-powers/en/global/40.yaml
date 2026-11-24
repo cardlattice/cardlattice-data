@@ -1,0 +1,50 @@
+name: Scolipede
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+  - holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Whirlipede
+  attacks:
+    - name: Toxic Claws
+      cost:
+        - Psychic
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.
+    - name: Wild Horn
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50+"
+      text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 545
+  species: Megapede Pokémon
+  heightMetres: 2.4892
+  weightKilograms: 200.48782754
+  flavourText: With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  toxic-tricks:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-emerging-powers-toxic-tricks

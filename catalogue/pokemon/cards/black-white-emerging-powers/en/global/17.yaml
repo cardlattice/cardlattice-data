@@ -1,0 +1,40 @@
+name: Virizion
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Giga Drain
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+      text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    - name: Sacred Sword
+      cost:
+        - Grass
+        - Grass
+        - Colorless
+      damage: "100"
+      text: This Pokémon can't use Sacred Sword during your next turn.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 640
+  species: Grassland Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 199.98887593
+  flavourText: This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.

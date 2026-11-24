@@ -1,0 +1,36 @@
+name: Pansage
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Collect
+      cost:
+        - Colorless
+      text: Draw a card.
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 511
+  species: Grass Monkey Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 10.47798375
+  flavourText: This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.

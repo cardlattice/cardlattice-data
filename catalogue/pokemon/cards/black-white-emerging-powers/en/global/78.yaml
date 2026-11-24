@@ -1,0 +1,30 @@
+name: Patrat
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Hyper Fang
+      cost:
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 504
+  species: Scout Pokémon
+  heightMetres: 0.508
+  weightKilograms: 11.61196467
+  flavourText: Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.
+  resistances: []

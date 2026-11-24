@@ -1,0 +1,37 @@
+name: Sigilyph
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Reflect
+      cost:
+        - Psychic
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).
+    - name: Telekinesis
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      text: Does 50 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 561
+  species: Avianoid Pokémon
+  heightMetres: 1.397
+  weightKilograms: 14.01600423
+  flavourText: The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.

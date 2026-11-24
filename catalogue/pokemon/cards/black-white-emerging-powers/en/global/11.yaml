@@ -1,0 +1,37 @@
+name: Whimsicott
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Cottonee
+  attacks:
+    - name: Helping Hand
+      cost:
+        - Colorless
+      text: Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.
+    - name: Cotton Guard
+      cost:
+        - Grass
+      damage: "30"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 547
+  species: Windveiled Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 6.6224486
+  flavourText: Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.

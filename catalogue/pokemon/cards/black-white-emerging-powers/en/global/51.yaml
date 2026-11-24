@@ -1,0 +1,50 @@
+name: Boldore
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+  - holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Roggenrola
+  attacks:
+    - name: Smack Down
+      cost:
+        - Fighting
+        - Colorless
+      damage: "20+"
+      text: If the Defending Pokémon has {Fighting} Resistance, this attack does 60 more damage.
+    - name: Power Gem
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "80"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 525
+  species: Ore Pokémon
+  heightMetres: 0.889
+  weightKilograms: 102.01292401
+  flavourText: When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-next-destinies-gigalith-blister

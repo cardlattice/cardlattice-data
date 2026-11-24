@@ -1,0 +1,31 @@
+name: Throh
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Scarf Hold
+      cost:
+        - Fighting
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 538
+  species: Judo Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 55.51970609
+  flavourText: When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.
+  resistances: []

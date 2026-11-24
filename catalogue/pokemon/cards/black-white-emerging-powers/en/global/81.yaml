@@ -1,0 +1,39 @@
+name: Tranquill
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Pidove
+  attacks:
+    - name: Claw
+      cost:
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, this attack does nothing.
+    - name: Wing Attack
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 520
+  species: Wild Pigeon Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 15.01390745
+  flavourText: Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.

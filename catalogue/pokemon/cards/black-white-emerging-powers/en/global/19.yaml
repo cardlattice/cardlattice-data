@@ -1,0 +1,39 @@
+name: Simisear
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Pansear
+  attacks:
+    - name: Water's Power
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: If this Pokémon has any {Water} Energy attached to it, the Defending Pokémon is now Asleep.
+    - name: Flamethrower
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 514
+  species: Ember Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 27.98664923
+  flavourText: A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.
+  resistances: []

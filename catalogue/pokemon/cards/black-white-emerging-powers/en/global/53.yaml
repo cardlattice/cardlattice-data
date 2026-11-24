@@ -1,0 +1,58 @@
+name: Gigalith
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+  - holo
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Boldore
+  attacks:
+    - name: Shear
+      cost:
+        - Fighting
+      text: Discard the top 5 cards of your deck. If any of those cards are {Fighting} Energy cards, attach them to this Pokémon.
+    - name: Rock Bullet
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40+"
+      text: Does 20 more damage for each {Fighting} Energy attached to this Pokémon.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  nationalDex:
+    - 526
+  species: Compressed Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 259.99914648
+  flavourText: The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.
+  resistances: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  next-destinies-blister:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-next-destinies-gigalith-blister
+  prerelease:
+    finish: holo
+    stamps:
+      - black-white-emerging-powers
+  prerelease-staff:
+    finish: holo
+    stamps:
+      - black-white-emerging-powers
+      - staff

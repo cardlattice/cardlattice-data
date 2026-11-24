@@ -1,0 +1,36 @@
+name: Emolga
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Thundershock
+      cost:
+        - Lightning
+      damage: "10"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Acrobatics
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10+"
+      text: Flip 2 coins. This attack does 20 more damage for each heads.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 0
+  nationalDex:
+    - 587
+  species: Sky Squirrel Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.98951607
+  flavourText: The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.
+  resistances: []

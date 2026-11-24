@@ -1,0 +1,39 @@
+name: Lilligant
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Petilil
+  attacks:
+    - name: Bemusing Aroma
+      cost:
+        - Grass
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned. If tails, the Defending Pokémon is now Confused.
+    - name: Cut
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "60"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 549
+  species: Flowering Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 16.28396608
+  flavourText: Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.
