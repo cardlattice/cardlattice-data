@@ -1,0 +1,40 @@
+"name": "Beartic"
+"rarity": "Rare"
+"illustrators":
+  - "kawayoo"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Water"
+  "stage": "Stage 1"
+  "evolvesFrom": "Cubchoo"
+  "attacks":
+    - "name": "Daunt"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "40"
+      "text": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+    - "name": "Ambush"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60+"
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 3
+  "nationalDex":
+    - 614
+  "species": "Freezing Pokémon"
+  "heightMetres": 2.5908
+  "weightKilograms": 259.999146484
+  "flavourText": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey."
+  "resistances": []
+  "abilities": []

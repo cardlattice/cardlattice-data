@@ -1,0 +1,31 @@
+"name": "Darumaka"
+"rarity": "Common"
+"illustrators":
+  - "Atsuko Nishida"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Hammer In"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 3
+  "nationalDex":
+    - 554
+  "species": "Zen Charm Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 37.512088999
+  "flavourText": "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm."
+  "resistances": []
+  "abilities": []

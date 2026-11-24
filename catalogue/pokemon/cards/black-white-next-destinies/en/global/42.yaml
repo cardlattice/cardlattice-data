@@ -1,0 +1,36 @@
+"name": "Shinx"
+"rarity": "Common"
+"illustrators":
+  - "Atsuko Nishida"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Jump On"
+      "cost":
+        - "Lightning"
+      "damage": "10+"
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+    - "name": "Static Shock"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 403
+  "species": "Flash Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 9.480080533
+  "flavourText": "The extension and contraction of its muscles generates electricity. It glows when in trouble."
+  "resistances": []
+  "abilities": []

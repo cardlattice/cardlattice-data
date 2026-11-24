@@ -1,0 +1,64 @@
+"name": "Luxray"
+"rarity": "Rare"
+"illustrators":
+  - "Shin Nagasawa"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+  - "non-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 140
+  "types":
+    - "Lightning"
+  "stage": "Stage 2"
+  "evolvesFrom": "Luxio"
+  "attacks":
+    - "name": "Flash Impact"
+      "cost":
+        - "Lightning"
+      "damage": "60"
+      "text": "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    - "name": "Crunch"
+      "cost":
+        - "Lightning"
+        - "Lightning"
+        - "Colorless"
+      "damage": "80"
+      "text": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 405
+  "species": "Gleam Eyes Pokémon"
+  "heightMetres": 1.397
+  "weightKilograms": 42.002653462
+  "flavourText": "It can see clearly through walls to track down its prey and seek its lost young."
+  "resistances": []
+  "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-voltage-vortex-en":
+    "finish": "non-holo"
+    "products":
+      - "pokemon-product-next-destinies-voltage-vortex-en"
+  "dark-explorers-luxray-stage-2-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-luxray-stage-2-blister-en"
+    "foilPattern": "cracked-ice"
+  "dark-explorers-luxray-three-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-luxray-three-pack-blister-en"
+    "foilPattern": "cracked-ice"
+  "lightning-gym-collector-pack-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-lightning-gym-collector-pack-en"
+    "foilPattern": "cosmos"

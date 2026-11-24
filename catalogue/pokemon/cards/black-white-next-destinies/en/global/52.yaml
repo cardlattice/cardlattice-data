@@ -1,0 +1,32 @@
+"name": "Grimer"
+"rarity": "Common"
+"illustrators":
+  - "Kagemaru Himeno"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Psychic"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Nasty Goo"
+      "cost":
+        - "Psychic"
+        - "Colorless"
+      "damage": "20"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 88
+  "species": "Sludge Pokémon"
+  "heightMetres": 0.889
+  "weightKilograms": 29.982455657
+  "flavourText": "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth."
+  "resistances": []
+  "abilities": []

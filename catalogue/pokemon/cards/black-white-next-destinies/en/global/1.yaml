@@ -1,0 +1,38 @@
+"name": "Pinsir"
+"rarity": "Rare"
+"illustrators":
+  - "Masakazu Fukuda"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Grass"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Power Pinch"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "text": "Flip 2 coins. For each heads, discard an Energy attached to the Defending Pokémon."
+    - "name": "Grip and Squeeze"
+      "cost":
+        - "Grass"
+        - "Grass"
+        - "Colorless"
+      "damage": "70"
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 127
+  "species": "Stag Beetle Pokémon"
+  "heightMetres": 1.4986
+  "weightKilograms": 55.020754481
+  "flavourText": "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far."
+  "resistances": []
+  "abilities": []

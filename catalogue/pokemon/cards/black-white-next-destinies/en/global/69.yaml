@@ -1,0 +1,38 @@
+"name": "Sneasel"
+"rarity": "Common"
+"illustrators":
+  - "Masakazu Fukuda"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Darkness"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Corner"
+      "cost":
+        - "Darkness"
+      "damage": "10"
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    - "name": "Scratch"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 1
+  "nationalDex":
+    - 215
+  "species": "Sharp Claw Pokémon"
+  "heightMetres": 0.889
+  "weightKilograms": 27.986649229
+  "flavourText": "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away."
+  "abilities": []

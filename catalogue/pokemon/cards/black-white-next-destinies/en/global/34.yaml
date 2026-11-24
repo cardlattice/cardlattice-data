@@ -1,0 +1,35 @@
+"name": "Frillish"
+"rarity": "Uncommon"
+"illustrators":
+  - "Suwama Chiaki"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Bubble"
+      "cost":
+        - "Colorless"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    - "name": "Spit Poison"
+      "cost":
+        - "Water"
+        - "Colorless"
+      "text": "The Defending Pokémon is now Poisoned."
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 592
+  "species": "Floating Pokémon"
+  "heightMetres": 1.1938
+  "weightKilograms": 33.021524536
+  "flavourText": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface."
+  "resistances": []
+  "abilities": []

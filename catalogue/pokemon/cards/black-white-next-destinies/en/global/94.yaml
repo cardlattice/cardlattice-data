@@ -1,0 +1,35 @@
+"name": "Shaymin-EX"
+"rarity": "Ultra Rare"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 110
+  "types":
+    - "Grass"
+  "stage": "Basic"
+  "subtypes":
+    - "EX"
+  "attacks":
+    - "name": "Synthesis"
+      "cost":
+        - "Grass"
+      "text": "Search your deck for a {Grass} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
+    - "name": "Revenge Blast"
+      "cost":
+        - "Grass"
+        - "Colorless"
+      "damage": "30+"
+      "text": "Does 30 more damage for each Prize card your opponent has taken."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Fighting"
+      "value": "-20"
+  "retreatCost": 1
+  "rules":
+    - "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  "abilities": []

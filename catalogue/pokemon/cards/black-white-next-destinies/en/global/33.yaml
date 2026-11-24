@@ -1,0 +1,37 @@
+"name": "Vanilluxe"
+"rarity": "Rare"
+"illustrators":
+  - "Akira Komayama"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 130
+  "types":
+    - "Water"
+  "stage": "Stage 2"
+  "evolvesFrom": "Vanillish"
+  "abilities":
+    - "name": "Slippery Soles"
+      "kind": "Ability"
+      "text": "Once during your turn (before your attack), you may switch your Active Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon."
+  "attacks":
+    - "name": "Crushing Ice"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60+"
+      "text": "Does 10 more damage for each {Colorless} in the Defending Pokémon's Retreat Cost."
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 584
+  "species": "Snowstorm Pokémon"
+  "heightMetres": 1.2954
+  "weightKilograms": 57.515512516
+  "flavourText": "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards."
+  "resistances": []

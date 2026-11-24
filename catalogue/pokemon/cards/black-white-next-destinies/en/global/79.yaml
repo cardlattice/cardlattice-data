@@ -1,0 +1,56 @@
+"name": "Wigglytuff"
+"rarity": "Rare"
+"illustrators":
+  - "Shin Nagasawa"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Colorless"
+  "stage": "Stage 1"
+  "evolvesFrom": "Jigglypuff"
+  "attacks":
+    - "name": "Round"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20×"
+      "text": "Does 20 damage times the number of your Pokémon that have the Round attack."
+    - "name": "Hypnoblast"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "60"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 40
+  "species": "Balloon Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 12.020197805
+  "flavourText": "Its fine fur feels sublime to the touch. It can expand its body by inhaling air."
+  "resistances": []
+  "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "plasma-storm-wigglytuff-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-plasma-storm-wigglytuff-stage-1-blister-en"
+    "foilPattern": "cosmos"
+  "plasma-storm-wigglytuff-rerelease-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-plasma-storm-wigglytuff-rerelease-blister-en"
+    "foilPattern": "cosmos"

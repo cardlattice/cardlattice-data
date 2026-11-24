@@ -1,0 +1,35 @@
+"name": "Ralts"
+"rarity": "Common"
+"illustrators":
+  - "Mitsuhiro Arita"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 60
+  "types":
+    - "Psychic"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Psyshot"
+      "cost":
+        - "Psychic"
+      "damage": "10"
+    - "name": "Smack"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 280
+  "species": "Feeling Pokémon"
+  "heightMetres": 0.4064
+  "weightKilograms": 6.622448602
+  "flavourText": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+  "resistances": []
+  "abilities": []

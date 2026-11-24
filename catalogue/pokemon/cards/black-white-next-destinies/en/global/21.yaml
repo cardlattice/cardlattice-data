@@ -1,0 +1,50 @@
+"name": "Reshiram"
+"rarity": "Rare"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 130
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Outrage"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20+"
+      "text": "Does 10 more damage for each damage counter on this Pokémon."
+    - "name": "Blue Flare"
+      "cost":
+        - "Fire"
+        - "Fire"
+        - "Colorless"
+      "damage": "120"
+      "text": "Discard 2 {Fire} Energy attached to this Pokémon."
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 643
+  "species": "Vast White Pokémon"
+  "heightMetres": 3.2004
+  "weightKilograms": 329.988449175
+  "flavourText": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+  "resistances": []
+  "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-explosive-edge-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-next-destinies-explosive-edge-en"
+    "foilPattern": "tinsel"

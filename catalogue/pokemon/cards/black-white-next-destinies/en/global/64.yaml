@@ -1,0 +1,46 @@
+"name": "Lucario"
+"rarity": "Rare"
+"illustrators":
+  - "Naoki Saito"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 100
+  "types":
+    - "Fighting"
+  "stage": "Stage 1"
+  "evolvesFrom": "Riolu"
+  "abilities":
+    - "name": "Reflexive Retaliation"
+      "kind": "Ability"
+      "text": "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon."
+  "attacks":
+    - "name": "Aura Sphere"
+      "cost":
+        - "Fighting"
+        - "Fighting"
+      "damage": "50"
+      "text": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 448
+  "species": "Aura Pokémon"
+  "heightMetres": 1.1938
+  "weightKilograms": 53.97749203
+  "flavourText": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away."
+  "resistances": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "dark-explorers-lucario-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dark-explorers-lucario-stage-1-blister-en"
+    "foilPattern": "cosmos"

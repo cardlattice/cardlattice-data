@@ -1,0 +1,33 @@
+"name": "Pansage"
+"rarity": "Common"
+"illustrators":
+  - "Megumi Mizutani"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Grass"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Seed Bomb"
+      "cost":
+        - "Grass"
+        - "Colorless"
+      "damage": "30"
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Water"
+      "value": "-20"
+  "retreatCost": 1
+  "nationalDex":
+    - 511
+  "species": "Grass Monkey Pokémon"
+  "heightMetres": 0.6096
+  "weightKilograms": 10.477983747
+  "flavourText": "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic."
+  "abilities": []

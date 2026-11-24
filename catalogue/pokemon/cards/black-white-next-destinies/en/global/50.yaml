@@ -1,0 +1,50 @@
+"name": "Zekrom"
+"rarity": "Rare"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 130
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Outrage"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+      "damage": "20+"
+      "text": "Does 10 more damage for each damage counter on this Pokémon."
+    - "name": "Bolt Strike"
+      "cost":
+        - "Lightning"
+        - "Lightning"
+        - "Colorless"
+      "damage": "120"
+      "text": "This Pokémon does 40 damage to itself."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 644
+  "species": "Deep Black Pokémon"
+  "heightMetres": 2.8956
+  "weightKilograms": 345.002356622
+  "flavourText": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
+  "resistances": []
+  "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-voltage-vortex-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-next-destinies-voltage-vortex-en"
+    "foilPattern": "tinsel"

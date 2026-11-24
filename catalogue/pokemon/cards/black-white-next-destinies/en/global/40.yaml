@@ -1,0 +1,50 @@
+"name": "Raichu"
+"rarity": "Uncommon"
+"illustrators":
+  - "Naoki Saito"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Lightning"
+  "stage": "Stage 1"
+  "evolvesFrom": "Pikachu"
+  "attacks":
+    - "name": "Thundershock"
+      "cost":
+        - "Lightning"
+      "damage": "20"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    - "name": "Slam"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+        - "Colorless"
+      "damage": "80×"
+      "text": "Flip 2 coins. This attack does 80 damage times the number of heads."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 26
+  "species": "Mouse Pokémon"
+  "heightMetres": 0.7874
+  "weightKilograms": 29.982455657
+  "flavourText": "Its tail discharges electricity into the ground, protecting it from getting shocked."
+  "resistances": []
+  "abilities": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "boundaries-crossed-raichu-stage-1-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-boundaries-crossed-raichu-stage-1-blister-en"
+    "foilPattern": "cosmos"

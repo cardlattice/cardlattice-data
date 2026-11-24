@@ -1,0 +1,14 @@
+"name": "Pokémon Center"
+"rarity": "Uncommon"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "trainer"
+  "subtypes":
+    - "Stadium"
+  "rules":
+    - "Once during each player's turn, that player may heal 20 damage from 1 of his or her Benched Pokémon."
+    - "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."

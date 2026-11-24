@@ -1,0 +1,37 @@
+"name": "Cinccino"
+"rarity": "Rare"
+"illustrators":
+  - "Kanako Eo"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Colorless"
+  "stage": "Stage 1"
+  "evolvesFrom": "Minccino"
+  "abilities":
+    - "name": "Smooth Coat"
+      "kind": "Ability"
+      "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage."
+  "attacks":
+    - "name": "Echoed Voice"
+      "cost":
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50"
+      "text": "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance)."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 573
+  "species": "Scarf Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 7.484274105
+  "flavourText": "Their white fur is coated in a special oil that makes it easy for them to deflect attacks."
+  "resistances": []

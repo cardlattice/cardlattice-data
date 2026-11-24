@@ -1,0 +1,39 @@
+"name": "Hydreigon"
+"rarity": "Shiny Rare"
+"illustrators":
+  - "5ban Graphics"
+"pokemon":
+  "category": "pokemon"
+  "hp": 150
+  "types":
+    - "Darkness"
+  "stage": "Stage 2"
+  "evolvesFrom": "Zweilous"
+  "abilities":
+    - "name": "Dark Aura"
+      "kind": "Ability"
+      "text": "All Energy attached to this Pokémon are {Darkness} Energy instead of their usual type."
+  "attacks":
+    - "name": "Berserker Blade"
+      "cost":
+        - "Darkness"
+        - "Darkness"
+        - "Darkness"
+        - "Darkness"
+      "damage": "60"
+      "text": "Does 40 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 3
+  "nationalDex":
+    - 635
+  "species": "Brutal Pokémon"
+  "heightMetres": 1.8034
+  "weightKilograms": 159.982028899
+  "flavourText": "This extremely rare Pokémon is a different color than usual. It is very hard to find."
+"finishes":
+  - "holo"

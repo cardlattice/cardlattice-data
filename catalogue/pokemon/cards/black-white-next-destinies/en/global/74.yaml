@@ -1,0 +1,51 @@
+"name": "Scrafty"
+"rarity": "Rare"
+"illustrators":
+  - "Naoki Saito"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+  - "non-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Darkness"
+  "stage": "Stage 1"
+  "evolvesFrom": "Scraggy"
+  "attacks":
+    - "name": "Rock Head"
+      "cost":
+        - "Darkness"
+      "damage": "20"
+      "text": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+    - "name": "Hammer Kick"
+      "cost":
+        - "Darkness"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50+"
+      "text": "If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 30 more damage."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 2
+  "nationalDex":
+    - 560
+  "species": "Hoodlum Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 29.982455657
+  "flavourText": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader."
+  "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-voltage-vortex-en":
+    "finish": "non-holo"
+    "products":
+      - "pokemon-product-next-destinies-voltage-vortex-en"

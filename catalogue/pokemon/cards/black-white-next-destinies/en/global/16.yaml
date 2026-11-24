@@ -1,0 +1,37 @@
+"name": "Simisear"
+"rarity": "Rare"
+"illustrators":
+  - "Kouki Saitou"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 90
+  "types":
+    - "Fire"
+  "stage": "Stage 1"
+  "evolvesFrom": "Pansear"
+  "attacks":
+    - "name": "Collect"
+      "cost":
+        - "Fire"
+      "text": "Draw 3 cards."
+    - "name": "Stadium Burn"
+      "cost":
+        - "Fire"
+        - "Colorless"
+      "damage": "30+"
+      "text": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Burned."
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 1
+  "nationalDex":
+    - 514
+  "species": "Ember Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 27.986649229
+  "flavourText": "It loves sweets because they become energy for the fire burning inside its body."
+  "resistances": []
+  "abilities": []

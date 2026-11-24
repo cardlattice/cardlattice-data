@@ -1,0 +1,53 @@
+"name": "Chandelure"
+"rarity": "Rare"
+"illustrators":
+  - "5ban Graphics"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+  - "non-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Fire"
+  "stage": "Stage 2"
+  "evolvesFrom": "Lampent"
+  "attacks":
+    - "name": "Flame Burst"
+      "cost":
+        - "Fire"
+      "damage": "30"
+      "text": "Does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    - "name": "Inferno"
+      "cost":
+        - "Fire"
+        - "Colorless"
+      "damage": "80"
+      "text": "Discard all Energy attached to this Pokémon. The Defending Pokémon is now Burned."
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 609
+  "species": "Luring Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 34.291583172
+  "flavourText": "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind."
+  "resistances": []
+  "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "next-destinies-explosive-edge-en":
+    "finish": "non-holo"
+    "products":
+      - "pokemon-product-next-destinies-explosive-edge-en"
+  "dragons-exalted-chandelure-three-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-dragons-exalted-chandelure-three-pack-blister-en"
+    "foilPattern": "cracked-ice"

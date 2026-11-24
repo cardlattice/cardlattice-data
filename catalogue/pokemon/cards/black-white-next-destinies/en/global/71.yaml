@@ -1,0 +1,35 @@
+"name": "Nuzleaf"
+"rarity": "Uncommon"
+"illustrators":
+  - "Naoyo Kimura"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Darkness"
+  "stage": "Stage 1"
+  "evolvesFrom": "Seedot"
+  "attacks":
+    - "name": "Surprise Punch"
+      "cost":
+        - "Darkness"
+        - "Colorless"
+      "damage": "20"
+      "text": "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 1
+  "nationalDex":
+    - 274
+  "species": "Wily Pokémon"
+  "heightMetres": 0.9906
+  "weightKilograms": 27.986649229
+  "flavourText": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests."
+  "abilities": []

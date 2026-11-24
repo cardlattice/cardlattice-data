@@ -1,0 +1,38 @@
+"name": "Foongus"
+"rarity": "Common"
+"illustrators":
+  - "Masakazu Fukuda"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 40
+  "types":
+    - "Grass"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Find a Friend"
+      "cost":
+        - "Colorless"
+      "text": "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+    - "name": "Rising Lunge"
+      "cost":
+        - "Grass"
+        - "Colorless"
+      "damage": "10+"
+      "text": "Flip a coin. If heads, this attack does 20 more damage."
+  "weaknesses":
+    - "type": "Fire"
+      "value": "×2"
+  "resistances":
+    - "type": "Water"
+      "value": "-20"
+  "retreatCost": 1
+  "nationalDex":
+    - 590
+  "species": "Mushroom Pokémon"
+  "heightMetres": 0.2032
+  "weightKilograms": 0.997903214
+  "flavourText": "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown."
+  "abilities": []

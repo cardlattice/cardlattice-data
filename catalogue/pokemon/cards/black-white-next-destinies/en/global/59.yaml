@@ -1,0 +1,36 @@
+"name": "Musharna"
+"rarity": "Rare"
+"illustrators":
+  - "Maiko Fujiwara"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 100
+  "types":
+    - "Psychic"
+  "stage": "Stage 1"
+  "evolvesFrom": "Munna"
+  "abilities":
+    - "name": "Forewarn"
+      "kind": "Ability"
+      "text": "Once during your turn (before your attack), you may look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card back on top of your deck."
+  "attacks":
+    - "name": "Fluffy Dream"
+      "cost":
+        - "Psychic"
+        - "Psychic"
+      "damage": "40"
+      "text": "This Pokémon is now Asleep."
+  "weaknesses":
+    - "type": "Psychic"
+      "value": "×2"
+  "retreatCost": 3
+  "nationalDex":
+    - 518
+  "species": "Drowsing Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 60.509222158
+  "flavourText": "With the mist from its forehead, it can create shapes of things from dreams it has eaten."
+  "resistances": []

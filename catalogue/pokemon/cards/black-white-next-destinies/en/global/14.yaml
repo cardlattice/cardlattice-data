@@ -1,0 +1,63 @@
+"name": "Moltres"
+"rarity": "Rare"
+"illustrators":
+  - "Ryo Ueda"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Fire"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Searing Flame"
+      "cost":
+        - "Fire"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50"
+      "text": "The Defending Pokémon is now Burned."
+    - "name": "Fire Blast"
+      "cost":
+        - "Fire"
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "90"
+      "text": "Discard a {Fire} Energy attached to this Pokémon."
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "resistances":
+    - "type": "Fighting"
+      "value": "-20"
+  "retreatCost": 2
+  "nationalDex":
+    - 146
+  "species": "Flame Pokémon"
+  "heightMetres": 2.0066
+  "weightKilograms": 60.010270551
+  "flavourText": "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring."
+  "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "black-white-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-black-white-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "xy-kanto-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-xy-kanto-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "plasma-freeze-moltres-single-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-plasma-freeze-moltres-single-pack-blister-en"
+    "foilPattern": "cosmos"

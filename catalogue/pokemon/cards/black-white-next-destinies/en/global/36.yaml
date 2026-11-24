@@ -1,0 +1,35 @@
+"name": "Cubchoo"
+"rarity": "Common"
+"illustrators":
+  - "Atsuko Nishida"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 70
+  "types":
+    - "Water"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Sniffle"
+      "cost":
+        - "Water"
+      "text": "During your next turn, this Pokémon's Belt attack's base damage is 40."
+    - "name": "Belt"
+      "cost":
+        - "Water"
+        - "Colorless"
+      "damage": "20"
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 3
+  "nationalDex":
+    - 613
+  "species": "Chill Pokémon"
+  "heightMetres": 0.508
+  "weightKilograms": 8.482177319
+  "flavourText": "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves."
+  "resistances": []
+  "abilities": []

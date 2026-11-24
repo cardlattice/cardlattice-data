@@ -1,0 +1,38 @@
+"name": "Vanillish"
+"rarity": "Uncommon"
+"illustrators":
+  - "Mizue"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 80
+  "types":
+    - "Water"
+  "stage": "Stage 1"
+  "evolvesFrom": "Vanillite"
+  "attacks":
+    - "name": "Icy Snow"
+      "cost":
+        - "Water"
+      "damage": "20"
+    - "name": "Icy Wind"
+      "cost":
+        - "Water"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50"
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+  "weaknesses":
+    - "type": "Metal"
+      "value": "×2"
+  "retreatCost": 2
+  "nationalDex":
+    - 583
+  "species": "Icy Snow Pokémon"
+  "heightMetres": 1.0922
+  "weightKilograms": 41.004750248
+  "flavourText": "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas."
+  "resistances": []
+  "abilities": []

@@ -1,0 +1,14 @@
+"name": "Heavy Ball"
+"rarity": "Uncommon"
+"illustrators":
+  - "Ryo Ueda"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "trainer"
+  "subtypes":
+    - "Item"
+  "rules":
+    - "Search your deck for a Pokémon with a Retreat Cost of 3 or more, reveal it, and put it into your hand. Shuffle your deck afterward."
+    - "You may play as many Item cards as you like during your turn (before your attack)."

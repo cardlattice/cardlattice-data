@@ -1,0 +1,39 @@
+"name": "Shiftry"
+"rarity": "Rare"
+"illustrators":
+  - "match"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 130
+  "types":
+    - "Darkness"
+  "stage": "Stage 2"
+  "evolvesFrom": "Nuzleaf"
+  "abilities":
+    - "name": "Giant Fan"
+      "kind": "Ability"
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may flip a coin. If heads, choose 1 of your opponent's Pokémon. Your opponent shuffles that Pokémon and all cards attached to it into his or her deck."
+  "attacks":
+    - "name": "Whirlwind"
+      "cost":
+        - "Darkness"
+        - "Darkness"
+        - "Colorless"
+      "damage": "60"
+      "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+  "weaknesses":
+    - "type": "Fighting"
+      "value": "×2"
+  "resistances":
+    - "type": "Psychic"
+      "value": "-20"
+  "retreatCost": 1
+  "nationalDex":
+    - 275
+  "species": "Wicked Pokémon"
+  "heightMetres": 1.2954
+  "weightKilograms": 59.602037418
+  "flavourText": "By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses."

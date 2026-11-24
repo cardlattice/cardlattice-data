@@ -1,0 +1,52 @@
+"name": "Arcanine"
+"rarity": "Rare"
+"illustrators":
+  - "Mitsuhiro Arita"
+"finishes":
+  - "non-holo"
+  - "reverse-holo"
+  - "holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 130
+  "types":
+    - "Fire"
+  "stage": "Stage 1"
+  "evolvesFrom": "Growlithe"
+  "abilities":
+    - "name": "Blazing Mane"
+      "kind": "Ability"
+      "text": "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned."
+  "attacks":
+    - "name": "Fire Spin"
+      "cost":
+        - "Fire"
+        - "Fire"
+        - "Colorless"
+      "damage": "100"
+      "text": "Flip a coin. If tails, discard 2 Energy attached to this Pokémon."
+  "weaknesses":
+    - "type": "Water"
+      "value": "×2"
+  "retreatCost": 3
+  "nationalDex":
+    - 59
+  "species": "Legendary Pokémon"
+  "heightMetres": 1.905
+  "weightKilograms": 154.992512829
+  "flavourText": "Its proud and regal appearance has captured the hearts of people since long ago."
+  "resistances": []
+"variants":
+  "standard-non-holo":
+    "finish": "non-holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "prerelease":
+    "finish": "holo"
+    "stamps":
+      - "next-destinies"
+  "prerelease-staff":
+    "finish": "holo"
+    "stamps":
+      - "next-destinies"
+      - "staff"

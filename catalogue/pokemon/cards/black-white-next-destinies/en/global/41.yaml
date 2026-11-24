@@ -1,0 +1,57 @@
+"name": "Zapdos"
+"rarity": "Rare"
+"illustrators":
+  - "Ryo Ueda"
+"finishes":
+  - "holo"
+  - "reverse-holo"
+"pokemon":
+  "category": "pokemon"
+  "hp": 120
+  "types":
+    - "Lightning"
+  "stage": "Basic"
+  "attacks":
+    - "name": "Random Spark"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+        - "Colorless"
+      "text": "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    - "name": "Thundering Hurricane"
+      "cost":
+        - "Lightning"
+        - "Colorless"
+        - "Colorless"
+        - "Colorless"
+      "damage": "50×"
+      "text": "Flip 4 coins. This attack does 50 damage times the number of heads."
+  "weaknesses":
+    - "type": "Lightning"
+      "value": "×2"
+  "resistances":
+    - "type": "Fighting"
+      "value": "-20"
+  "retreatCost": 2
+  "nationalDex":
+    - 145
+  "species": "Electric Pokémon"
+  "heightMetres": 1.6002
+  "weightKilograms": 52.61671492
+  "flavourText": "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
+  "abilities": []
+"variants":
+  "standard-holo":
+    "finish": "holo"
+  "standard-reverse-holo":
+    "finish": "reverse-holo"
+  "black-white-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-black-white-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
+  "xy-kanto-legendary-birds-two-pack-blister-en":
+    "finish": "holo"
+    "products":
+      - "pokemon-product-xy-kanto-legendary-birds-two-pack-blister-en"
+    "foilPattern": "cosmos"
