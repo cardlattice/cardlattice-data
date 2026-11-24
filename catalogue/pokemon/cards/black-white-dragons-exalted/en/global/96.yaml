@@ -1,0 +1,36 @@
+name: Zweilous
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Deino
+  attacks:
+    - name: Draw In
+      cost:
+        - Colorless
+      text: Attach 2 {Darkness} Energy cards from your discard pile to this Pokémon.
+    - name: Dragon Headbutt
+      cost:
+        - Psychic
+        - Darkness
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 634
+  species: Hostile Pokémon
+  heightMetres: 1.397
+  weightKilograms: 49.985879174
+  resistances: []
+  flavourText: Since their two heads do not get along and compete with each other for food, they always eat too much.
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo

@@ -1,0 +1,37 @@
+name: Dustox
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Cascoon
+  attacks:
+    - name: Hazardous Scales
+      cost:
+        - Psychic
+      text: The Defending Pokémon is now Asleep, Burned, and Poisoned.
+    - name: Aerial Ace
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 269
+  species: Poison Moth Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 31.615388189
+  resistances: []
+  flavourText: Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

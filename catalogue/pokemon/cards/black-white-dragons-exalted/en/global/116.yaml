@@ -1,0 +1,14 @@
+name: Tool Scrapper
+rarity: Uncommon
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Choose up to 2 Pokémon Tool cards attached to Pokémon in play (yours or your opponent's) and discard them.
+    - You may play as many Item cards as you like during your turn (before your attack).
+illustrators:
+  - Ryo Ueda
+finishes:
+  - non-holo
+  - reverse-holo

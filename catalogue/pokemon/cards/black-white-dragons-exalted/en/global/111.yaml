@@ -1,0 +1,37 @@
+name: Rufflet
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Chirp
+      cost:
+        - Colorless
+      text: Search your deck for 2 Pokémon with {Fighting} Resistance, reveal them, and put them into your hand. Shuffle your deck afterward.
+    - name: Sharp Beak
+      cost:
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 627
+  species: Eaglet Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.477983747
+  flavourText: They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.
+illustrators:
+  - Suwama Chiaki
+finishes:
+  - non-holo
+  - reverse-holo

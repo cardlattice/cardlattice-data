@@ -1,0 +1,33 @@
+name: Roselia
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Needling Sting
+      cost:
+        - Grass
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 315
+  species: Thorn Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 1.995806428
+  flavourText: The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo

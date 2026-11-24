@@ -1,0 +1,36 @@
+name: Deino
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Guard Press
+      cost:
+        - Darkness
+      damage: "10"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).
+    - name: Headbutt
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 633
+  species: Irate Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 17.281869297
+  resistances: []
+  flavourText: They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo

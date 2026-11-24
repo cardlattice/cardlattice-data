@@ -1,0 +1,51 @@
+name: Golurk
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Golett
+  attacks:
+    - name: Devolution Punch
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Devolve the Defending Pokémon and put the highest Stage Evolution card on it into your opponent's hand.
+    - name: Ghost Hammer
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: During your opponent's next turn, this Pokémon has no Weakness.
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 4
+  nationalDex:
+    - 623
+  species: Automaton Pokémon
+  heightMetres: 2.794
+  weightKilograms: 329.988449175
+  resistances: []
+  flavourText: It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.
+illustrators:
+  - Ryo Ueda
+finishes:
+  - holo
+  - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  dragonsnarl:
+    finish: non-holo
+    products:
+      - pokemon-product-dragons-exalted-dragonsnarl-en

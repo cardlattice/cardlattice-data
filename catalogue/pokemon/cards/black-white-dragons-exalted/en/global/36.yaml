@@ -1,0 +1,41 @@
+name: Seismitoad
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Palpitoad
+  attacks:
+    - name: Echoed Voice
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).
+    - name: Drain Punch
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: Heal 20 damage from this Pokémon.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 537
+  species: Vibration Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 62.006076979
+  resistances: []
+  flavourText: They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.
+illustrators:
+  - kawayoo
+finishes:
+  - non-holo
+  - reverse-holo

@@ -1,0 +1,32 @@
+name: Stunky
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Acid Spray
+      cost:
+        - Darkness
+      damage: "10"
+      text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 434
+  species: Skunk Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 19.186957251
+  flavourText: It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

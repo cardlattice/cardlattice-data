@@ -1,0 +1,47 @@
+name: Hoppip
+rarity: Common
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  resistances:
+    - type: Water
+      value: "-20"
+  attacks:
+    - name: Flail Around
+      cost:
+        - Grass
+      damage: 10×
+      text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  nationalDex:
+    - 187
+  species: Cottonweed Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 0.498951607
+  flavourText: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo-corrected:
+    finish: non-holo
+    flavourText: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+  reverse-holo-corrected:
+    finish: reverse-holo
+    foilPattern: energy-symbol
+    flavourText: It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+  non-holo-error:
+    finish: non-holo
+    flavourText: It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.
+  reverse-holo-error:
+    finish: reverse-holo
+    foilPattern: energy-symbol
+    flavourText: It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.

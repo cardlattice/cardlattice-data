@@ -1,0 +1,33 @@
+name: Yanma
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Whirlwind
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 193
+  species: Clear Wing Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 38.011040606
+  flavourText: It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo
+  - reverse-holo

@@ -1,0 +1,37 @@
+name: Durant
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Pull Out
+      cost:
+        - Colorless
+      text: Put a card from your discard pile on top of your deck.
+    - name: Iron Head
+      cost:
+        - Metal
+        - Colorless
+      damage: 30×
+      text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 632
+  species: Iron Ant Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 33.021524536
+  flavourText: Durant dig nests in mountains. They build their complicated, interconnected tunnels into mazes.
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo
+  - reverse-holo

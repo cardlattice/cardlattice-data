@@ -1,0 +1,37 @@
+name: Jumpluff
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Skiploom
+  abilities:
+    - name: Leave It to the Wind
+      kind: Ability
+      text: Once during your turn (before your attack), you may return this Pokémon and all cards attached to it to your hand.
+  attacks:
+    - name: Acrobatics
+      cost:
+        - Grass
+      damage: 20+
+      text: Flip 2 coins. This attack does 30 more damage for each heads.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 0
+  nationalDex:
+    - 189
+  species: Cottonweed Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 2.993709642
+  flavourText: Blown by seasonal winds, it circles the globe, scattering cotton spores as it goes.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

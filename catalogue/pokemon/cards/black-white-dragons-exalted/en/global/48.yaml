@@ -1,0 +1,32 @@
+name: Shedinja
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Nincada
+  abilities:
+    - name: Empty Shell
+      kind: Ability
+      text: If this Pokémon is Knocked Out, your opponent can't take any Prize cards for it.
+  attacks:
+    - name: Cursed Drop
+      cost:
+        - Psychic
+      text: Put 3 damage counters on your opponent's Pokémon in any way you like.
+  retreatCost: 0
+  nationalDex:
+    - 292
+  species: Shed Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 1.179340162
+  weaknesses: []
+  resistances: []
+  flavourText: A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit.
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - non-holo
+  - reverse-holo

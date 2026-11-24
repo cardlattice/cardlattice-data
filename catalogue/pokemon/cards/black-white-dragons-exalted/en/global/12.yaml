@@ -1,0 +1,36 @@
+name: Roselia
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Double Whip
+      cost:
+        - Colorless
+      damage: 10×
+      text: Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Relaxing Fragrance
+      cost:
+        - Grass
+      text: Heal 30 damage and remove all Special Conditions from this Pokémon.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 315
+  species: Thorn Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 1.995806428
+  flavourText: The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.
+illustrators:
+  - Suwama Chiaki
+finishes:
+  - non-holo
+  - reverse-holo

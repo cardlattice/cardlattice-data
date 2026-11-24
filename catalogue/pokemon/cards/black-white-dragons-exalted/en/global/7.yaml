@@ -1,0 +1,36 @@
+name: Silcoon
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Wurmple
+  attacks:
+    - name: Harden
+      cost:
+        - Colorless
+      text: During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.
+    - name: Bug Bite
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 266
+  species: Cocoon Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 9.97903214
+  resistances: []
+  flavourText: It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo

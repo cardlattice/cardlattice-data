@@ -1,0 +1,34 @@
+name: Baltoy
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Spinning Attack
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Reverse Spin
+      cost:
+        - Colorless
+        - Colorless
+      text: Your opponent shuffles his or her hand into his or her deck and draws 4 cards.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 343
+  species: Clay Doll Pokémon
+  heightMetres: 0.508
+  weightKilograms: 21.500278338
+  resistances: []
+  flavourText: It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.
+illustrators:
+  - Shigenori Negishi
+finishes:
+  - non-holo
+  - reverse-holo

@@ -1,0 +1,36 @@
+name: Cubone
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Headbutt
+      cost:
+        - Fighting
+      damage: "10"
+    - name: Beat
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 104
+  species: Lonely Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 6.486370891
+  flavourText: When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo

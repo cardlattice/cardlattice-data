@@ -1,0 +1,42 @@
+name: Ho-Oh-EX
+pokemon:
+  category: pokemon
+  hp: 160
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - EX
+  abilities:
+    - name: Rebirth
+      kind: Ability
+      text: Once during your turn (before your attack), if this Pokémon is in your discard pile, you may flip a coin. If heads, put this Pokémon onto your Bench and attach 3 different types of basic Energy cards from your discard pile to this Pokémon.
+  attacks:
+    - name: Rainbow Burn
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Does 20 more damage for each different type of basic Energy attached to this Pokémon.
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 2
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+illustrators:
+  - Eske Yoshinob
+rarity: ★ (silver)
+finishes:
+  - holo
+variants:
+  holo:
+    finish: holo
+  legendary-battle-deck:
+    finish: holo
+    products:
+      - pokemon-product-ho-oh-legendary-battle-deck-en

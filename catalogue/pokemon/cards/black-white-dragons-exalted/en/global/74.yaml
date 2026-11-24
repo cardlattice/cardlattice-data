@@ -1,0 +1,37 @@
+name: Houndour
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Bite
+      cost:
+        - Darkness
+      damage: "10"
+    - name: Darkness Fang
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "30"
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  nationalDex:
+    - 228
+  species: Dark Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 10.795498406
+  flavourText: It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.
+illustrators:
+  - Akira Komayama
+finishes:
+  - non-holo
+  - reverse-holo

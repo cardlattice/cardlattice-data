@@ -1,0 +1,38 @@
+name: Registeel-EX
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Metal
+  stage: Basic
+  subtypes:
+    - EX
+  attacks:
+    - name: Triple Laser
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      text: This attack does 30 damage to 3 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    - name: Protect Charge
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+illustrators:
+  - Eske Yoshinob
+rarity: ★ (silver)
+finishes:
+  - holo

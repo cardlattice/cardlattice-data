@@ -1,0 +1,47 @@
+name: Ampharos
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Lightning
+  stage: Stage 2
+  evolvesFrom: Flaaffy
+  abilities:
+    - name: Electromagnetic Wall
+      kind: Ability
+      text: As long as this Pokémon is your Active Pokémon, whenever your opponent attaches an Energy from his or her hand to 1 of his or her Pokémon, put 3 damage counters on that Pokémon.
+  attacks:
+    - name: Electrobullet
+      cost:
+        - Lightning
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 181
+  species: Light Pokémon
+  heightMetres: 1.397
+  weightKilograms: 61.507125372
+  resistances: []
+  flavourText: The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.
+illustrators:
+  - Hajime Kusajima
+finishes:
+  - holo
+  - reverse-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  legendary-treasures-blister:
+    finish: holo
+    products:
+      - pokemon-product-legendary-treasures-ampharos-checklane-blister-en
+    foilPattern: cosmos

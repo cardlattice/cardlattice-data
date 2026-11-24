@@ -1,0 +1,30 @@
+name: Nosepass
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Rock Throw
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 299
+  species: Compass Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 96.978048706
+  resistances: []
+  flavourText: When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo

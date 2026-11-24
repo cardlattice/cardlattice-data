@@ -1,0 +1,36 @@
+name: Sawk
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Defensive Stance
+      cost:
+        - Colorless
+      text: Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+    - name: Karate Chop
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 70-
+      text: Does 70 damage minus 10 damage for each damage counter on this Pokémon.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 539
+  species: Karate Pokémon
+  heightMetres: 1.397
+  weightKilograms: 50.983782388
+  resistances: []
+  flavourText: Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - non-holo
+  - reverse-holo

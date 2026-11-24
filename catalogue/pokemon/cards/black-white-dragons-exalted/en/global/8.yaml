@@ -1,0 +1,37 @@
+name: Beautifly
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Grass
+  stage: Stage 2
+  evolvesFrom: Silcoon
+  attacks:
+    - name: Triple Energy
+      cost:
+        - Grass
+      text: Search your deck for 3 different types of basic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.
+    - name: Drainpour
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Heal 40 damage from each of your Benched Pokémon.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 267
+  species: Butterfly Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 28.394882362
+  resistances: []
+  flavourText: Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.
+illustrators:
+  - Akira Komayama
+finishes:
+  - non-holo
+  - reverse-holo

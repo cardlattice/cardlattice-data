@@ -1,0 +1,39 @@
+name: Rayquaza-EX
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Dragon
+  stage: Basic
+  subtypes:
+    - EX
+  attacks:
+    - name: Celestial Roar
+      cost:
+        - Colorless
+      text: Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon.
+    - name: Dragon Burst
+      cost:
+        - Fire
+        - Lightning
+      damage: 60×
+      text: Discard all basic {Fire} Energy or all basic {Lightning} Energy attached to this Pokémon. This attack does 60 damage times the number of Energy cards you discarded.
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 1
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  resistances: []
+illustrators:
+  - Eske Yoshinob
+rarity: ★ (silver)
+finishes:
+  - holo
+variants:
+  holo:
+    finish: holo
+  battle-arena:
+    finish: holo
+    products:
+      - pokemon-product-battle-arena-rayquaza-keldeo-en

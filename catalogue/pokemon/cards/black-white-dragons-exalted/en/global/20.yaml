@@ -1,0 +1,35 @@
+name: Magmar
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Beat
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Magma Punch
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "50"
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 126
+  species: Spitfire Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 44.497411497
+  resistances: []
+  flavourText: When it breathes deeply, heat waves form around its body, making it hard to see clearly.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

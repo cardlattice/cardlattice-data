@@ -1,0 +1,35 @@
+name: Electrike
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Tackle
+      cost:
+        - Lightning
+      damage: "10"
+    - name: Quick Attack
+      cost:
+        - Lightning
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 309
+  species: Lightning Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 15.195344395
+  resistances: []
+  flavourText: Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.
+illustrators:
+  - kawayoo
+finishes:
+  - non-holo
+  - reverse-holo

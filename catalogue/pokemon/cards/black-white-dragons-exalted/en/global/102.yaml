@@ -1,0 +1,32 @@
+name: Vigoroth
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Slakoth
+  attacks:
+    - name: Ambush
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 40 more damage.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 288
+  species: Wild Monkey Pokémon
+  heightMetres: 1.397
+  weightKilograms: 46.493217925
+  resistances: []
+  flavourText: Its heart beats at a tenfold tempo, so it cannot sit still for even a moment.
+illustrators:
+  - match
+finishes:
+  - non-holo
+  - reverse-holo

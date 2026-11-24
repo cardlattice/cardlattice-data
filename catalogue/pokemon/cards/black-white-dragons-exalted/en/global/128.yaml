@@ -1,0 +1,36 @@
+name: Rayquaza
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Dragon
+  stage: Basic
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 3
+  attacks:
+    - name: Dragon Pulse
+      cost:
+        - Lightning
+      damage: "40"
+      text: Discard the top 2 cards of your deck.
+    - name: Shred
+      cost:
+        - Fire
+        - Lightning
+        - Colorless
+      damage: "90"
+      text: This attack's damage isn't affected by any effects on the Defending Pokémon.
+  nationalDex:
+    - 384
+  species: Sky High Pokémon
+  heightMetres: 7.0104
+  weightKilograms: 206.475246824
+  resistances: []
+  flavourText: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+rarity: Shiny Rare
+finishes:
+  - holo

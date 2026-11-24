@@ -1,0 +1,35 @@
+name: Gible
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Dragon
+  stage: Basic
+  attacks:
+    - name: Sand-Attack
+      cost:
+        - Fighting
+      text: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+    - name: Knock Away
+      cost:
+        - Water
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 443
+  species: Land Shark Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 20.502375124
+  resistances: []
+  flavourText: It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

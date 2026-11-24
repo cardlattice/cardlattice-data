@@ -1,0 +1,38 @@
+name: Alomomola
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Mysterious Beam
+      cost:
+        - Water
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+    - name: Double Slap
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 50×
+      text: Flip 2 coins. This attack does 50 damage times the number of heads.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 594
+  species: Caring Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 31.615388189
+  resistances: []
+  flavourText: The special membrane enveloping Alomomola has the ability to heal wounds.
+illustrators:
+  - Miki Tanaka
+finishes:
+  - non-holo
+  - reverse-holo

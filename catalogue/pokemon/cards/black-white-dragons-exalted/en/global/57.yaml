@@ -1,0 +1,38 @@
+name: Gothitelle
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Gothorita
+  attacks:
+    - name: Doom Decree
+      cost:
+        - Psychic
+        - Colorless
+      text: Flip 2 coins. If both of them are heads, the Defending Pokémon is Knocked Out.
+    - name: Black Magic
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: Does 20 more damage for each of your opponent's Benched Pokémon.
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  nationalDex:
+    - 576
+  species: Astral Body Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 43.99845989
+  resistances: []
+  flavourText: Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.
+illustrators:
+  - Akira Komayama
+finishes:
+  - non-holo
+  - reverse-holo

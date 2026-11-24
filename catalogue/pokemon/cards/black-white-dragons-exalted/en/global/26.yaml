@@ -1,0 +1,39 @@
+name: Wailord
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 200
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Wailmer
+  attacks:
+    - name: Water Cannon
+      cost:
+        - Water
+      damage: 30×
+      text: Flip a coin. If heads, this attack does 30 damage times the amount of {Water} Energy attached to this Pokémon.
+    - name: Giant Wave
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: This Pokémon can't use Giant Wave during your next turn.
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 4
+  nationalDex:
+    - 321
+  species: Float Whale Pokémon
+  heightMetres: 14.5034
+  weightKilograms: 397.981945438
+  resistances: []
+  flavourText: The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.
+illustrators:
+  - match
+finishes:
+  - holo
+  - reverse-holo

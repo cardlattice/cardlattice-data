@@ -1,0 +1,40 @@
+name: Walrein
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Sealeo
+  attacks:
+    - name: Aurora Beam
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "80"
+    - name: Ice Entomb
+      cost:
+        - Water
+        - Water
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: The Defending Pokémon is now Paralyzed. This Pokémon can't use Ice Entomb during your next turn.
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 4
+  nationalDex:
+    - 365
+  species: Ice Break Pokémon
+  heightMetres: 1.397
+  weightKilograms: 150.59266684
+  resistances: []
+  flavourText: It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo

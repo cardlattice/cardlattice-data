@@ -1,0 +1,35 @@
+name: Gabite
+rarity: Uncommon
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Gible
+  abilities:
+    - name: Dragon Call
+      kind: Ability
+      text: Once during your turn (before your attack), you may search your deck for a {Dragon} Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.
+  attacks:
+    - name: Dragonslice
+      cost:
+        - Water
+        - Fighting
+      damage: "20"
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 444
+  species: Cave Pokémon
+  heightMetres: 1.397
+  weightKilograms: 56.018657695
+  resistances: []
+  flavourText: It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo

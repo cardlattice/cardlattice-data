@@ -1,0 +1,38 @@
+name: Slaking
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 150
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Vigoroth
+  abilities:
+    - name: Unobservant
+      kind: Ability
+      text: If your opponent's Active Pokémon is a Basic Pokémon, this Pokémon can't attack.
+  attacks:
+    - name: Crushing Blow
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: Discard an Energy attached to the Defending Pokémon.
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 4
+  nationalDex:
+    - 289
+  species: Lazy Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 130.498524849
+  resistances: []
+  flavourText: The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.
+illustrators:
+  - Naoki Saito
+finishes:
+  - holo
+  - reverse-holo

@@ -1,0 +1,38 @@
+name: Magmortar
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 120
+  types:
+    - Fire
+  stage: Stage 1
+  evolvesFrom: Magmar
+  attacks:
+    - name: Flame Screen
+      cost:
+        - Fire
+      damage: "40"
+      text: During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).
+    - name: Flamethrower
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: Discard an Energy attached to this Pokémon.
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  nationalDex:
+    - 467
+  species: Blast Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 67.993496263
+  resistances: []
+  flavourText: When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.
+illustrators:
+  - Akira Komayama
+finishes:
+  - non-holo
+  - reverse-holo

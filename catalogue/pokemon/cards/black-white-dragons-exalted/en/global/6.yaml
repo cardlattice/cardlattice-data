@@ -1,0 +1,29 @@
+name: Wurmple
+rarity: Common
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Sleep Poison
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  nationalDex:
+    - 265
+  species: Worm Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 3.583379723
+  resistances: []
+  flavourText: Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.
+illustrators:
+  - Kouki Saitou
+finishes:
+  - non-holo
+  - reverse-holo

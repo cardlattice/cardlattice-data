@@ -1,0 +1,41 @@
+name: Gigalith
+rarity: Rare
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fighting
+  stage: Stage 2
+  evolvesFrom: Boldore
+  attacks:
+    - name: Revenge Cannon
+      cost:
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: 10+
+      text: Does 10 more damage for each damage counter on each of your Benched Pokémon.
+    - name: Reckless Charge
+      cost:
+        - Fighting
+        - Fighting
+        - Colorless
+        - Colorless
+      damage: "120"
+      text: This Pokémon does 40 damage to itself.
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 4
+  nationalDex:
+    - 526
+  species: Compressed Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 259.999146484
+  resistances: []
+  flavourText: The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.
+illustrators:
+  - Ryo Ueda
+finishes:
+  - holo
+  - reverse-holo
