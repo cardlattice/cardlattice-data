@@ -1,0 +1,39 @@
+name: Swanna
+rarity: Rare
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Ducklett
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Healing Pirouette
+      cost:
+        - Water
+      text: Heal 30 damage from each of your Pokémon.
+    - name: Incessant Peck
+      cost:
+        - Water
+        - Water
+        - Colorless
+      damage: 60+
+      text: Flip a coin until you get tails. This attack does 20 more damage for each heads.
+  nationalDex:
+    - 581
+  species: White Bird Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 24.221832558
+  flavourText: Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.
+finishes:
+  - non-holo
+  - reverse-holo

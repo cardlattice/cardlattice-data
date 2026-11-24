@@ -1,0 +1,39 @@
+name: Pawniard
+rarity: Common
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Metal Claw
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+      damage: "40"
+  nationalDex:
+    - 624
+  species: Sharp Blade Pokémon
+  heightMetres: 0.508
+  weightKilograms: 10.205828325
+  flavourText: They fight at Bisharp's command. They cling to their prey and inflict damage by sinking
+    their blades into it.
+finishes:
+  - non-holo
+  - reverse-holo

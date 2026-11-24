@@ -1,0 +1,46 @@
+name: Blissey
+rarity: Rare
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Chansey
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  abilities:
+    - name: Softboiled
+      kind: Ability
+      text: Once during your turn (before your attack), you may flip a coin. If heads, heal 30 damage from
+        your Active Pokémon.
+  attacks:
+    - name: Double-Edge
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "90"
+      text: This Pokémon does 60 damage to itself.
+  nationalDex:
+    - 242
+  species: Happiness Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 46.810732584
+  flavourText: The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.
+  resistances: []
+finishes:
+  - holo
+  - reverse-holo
+  - non-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo

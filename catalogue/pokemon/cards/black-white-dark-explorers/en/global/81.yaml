@@ -1,0 +1,31 @@
+name: Chansey
+rarity: Common
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Continuous Tumble
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+  nationalDex:
+    - 113
+  species: Egg Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 34.609097831
+  flavourText: A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

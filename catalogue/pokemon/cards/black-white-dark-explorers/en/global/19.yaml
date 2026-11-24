@@ -1,0 +1,38 @@
+name: Heatmor
+rarity: Rare
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Hot Lick
+      cost:
+        - Colorless
+      damage: 10+
+      text: If the Defending Pokémon is Durant, this attack does 50 more damage.
+    - name: Firebreathing
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: 50+
+      text: Flip a coin. If heads, this attack does 20 more damage.
+  nationalDex:
+    - 631
+  species: Anteater Pokémon
+  heightMetres: 1.397
+  weightKilograms: 58.014464123
+  flavourText: Using their very hot, flame-covered tongues, they burn through Durant's steel bodies
+    and consume their insides.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

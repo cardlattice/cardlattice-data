@@ -1,0 +1,16 @@
+name: Ultra Ball
+rarity: Uncommon
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Discard 2 cards from your hand. (If you can't discard 2 cards, you can't play this card.)
+      Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck
+      afterward.
+    - You may play as many Item cards as you like during your turn (before your attack).
+finishes:
+  - non-holo
+  - reverse-holo

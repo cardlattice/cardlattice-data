@@ -1,0 +1,41 @@
+name: Scrafty
+rarity: Rare
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Scraggy
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  attacks:
+    - name: Headbutt
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+    - name: Crushing Blow
+      cost:
+        - Darkness
+        - Darkness
+        - Colorless
+      damage: "70"
+      text: Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.
+  nationalDex:
+    - 560
+  species: Hoodlum Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 29.982455657
+  flavourText: Groups of them beat up anything that enters their territory. Each can spit acidic
+    liquid from its mouth.
+finishes:
+  - non-holo
+  - reverse-holo

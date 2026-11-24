@@ -1,0 +1,54 @@
+name: Espeon
+rarity: Rare
+illustrators:
+  - Mizue
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  abilities:
+    - name: Solar Revelation
+      kind: Ability
+      text: Prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon
+        that has any Energy attached to it.
+  attacks:
+    - name: Psy Report
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Your opponent reveals his or her hand.
+  nationalDex:
+    - 196
+  species: Sun Pokémon
+  heightMetres: 0.889
+  weightKilograms: 26.489794408
+  flavourText: Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  national-championships:
+    finish: reverse-holo
+    stamps:
+      - national-championships
+    foilPattern: crosshatch
+  national-championships-staff:
+    finish: reverse-holo
+    stamps:
+      - national-championships
+      - staff
+    foilPattern: crosshatch

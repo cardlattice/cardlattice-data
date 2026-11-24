@@ -1,0 +1,38 @@
+name: Glaceon
+rarity: Rare
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Quick Attack
+      cost:
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+    - name: Reflect Energy
+      cost:
+        - Water
+        - Colorless
+      damage: "40"
+      text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+  nationalDex:
+    - 471
+  species: Fresh Snow Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 25.900124327
+  flavourText: By controlling its body heat, it can freeze the atmosphere around it to make a
+    diamond-dust flurry.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

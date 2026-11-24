@@ -1,0 +1,50 @@
+name: Blaziken
+rarity: Rare
+illustrators:
+  - TOKIYA
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Fire
+  stage: Stage 2
+  evolvesFrom: Combusken
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Blaze Kick
+      cost:
+        - Fire
+        - Colorless
+      damage: 40+
+      text: Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now
+        Burned.
+    - name: Flamethrower
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "130"
+      text: Discard an Energy attached to this Pokémon.
+  nationalDex:
+    - 257
+  species: Blaze Pokémon
+  heightMetres: 1.905
+  weightKilograms: 51.981685602
+  flavourText: Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.
+  resistances: []
+finishes:
+  - holo
+  - reverse-holo
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos
+    products:
+      - pokemon-product-plasma-blast-blaziken-blister

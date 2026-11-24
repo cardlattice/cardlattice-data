@@ -1,0 +1,38 @@
+name: Zorua
+rarity: Common
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Ascension
+      cost:
+        - Darkness
+      text: Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This
+        counts as evolving this Pokémon.) Shuffle your deck afterward.
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 570
+  species: Tricky Fox Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 12.519149412
+  flavourText: It changes into the forms of others to surprise them. Apparently, it often transforms
+    into a silent child.
+finishes:
+  - non-holo
+  - reverse-holo

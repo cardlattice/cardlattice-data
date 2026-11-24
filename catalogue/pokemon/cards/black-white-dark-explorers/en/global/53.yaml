@@ -1,0 +1,38 @@
+name: Aerodactyl
+rarity: Rare
+illustrators:
+  - Naoyo Kimura
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Restored
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  abilities:
+    - name: Ancient Scream
+      kind: Ability
+      text: Your Pokémon's attacks do 10 more damage to the Active Pokémon (before applying Weakness and
+        Resistance).
+  attacks:
+    - name: Wing Attack
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "40"
+  nationalDex:
+    - 142
+  species: Fossil Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 59.012367337
+  flavourText: A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.
+  resistances: []
+  rules:
+    - Put this card onto your Bench only with the effect of Old Amber Aerodactyl
+finishes:
+  - non-holo
+  - reverse-holo

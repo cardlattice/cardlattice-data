@@ -1,0 +1,35 @@
+name: Entei-EX
+illustrators:
+  - Shizurow
+pokemon:
+  category: pokemon
+  hp: 180
+  types:
+    - Fire
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  attacks:
+    - name: Fire Fang
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: The Defending Pokémon is now Burned.
+    - name: Grand Flame
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "90"
+      text: Attach a {Fire} Energy card from your discard pile to 1 of your Benched Pokémon.
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+  resistances: []
+rarity: ★ (silver)
+finishes:
+  - holo

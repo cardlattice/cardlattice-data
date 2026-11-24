@@ -1,0 +1,38 @@
+name: Eelektrik
+rarity: Uncommon
+illustrators:
+  - Kagemaru Himeno
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Lightning
+  stage: Stage 1
+  evolvesFrom: Tynamo
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Headbutt
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Shock Bolt
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "80"
+      text: Discard all {Lightning} Energy attached to this Pokémon.
+  nationalDex:
+    - 603
+  species: EleFish Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 21.999229945
+  flavourText: These Pokémon have a big appetite. When they spot their prey, they attack it and
+    paralyze it with electricity.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

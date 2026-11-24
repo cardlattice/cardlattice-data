@@ -1,0 +1,37 @@
+name: Prinplup
+rarity: Uncommon
+illustrators:
+  - Suwama Chiaki
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Piplup
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Razor Wing
+      cost:
+        - Colorless
+      damage: "20"
+    - name: Fury Attack
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip 3 coins. This attack does 30 damage times the number of heads.
+  nationalDex:
+    - 394
+  species: Penguin Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 22.997133159
+  flavourText: Because every Prinplup considers itself to be the most important, they can never form a group.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

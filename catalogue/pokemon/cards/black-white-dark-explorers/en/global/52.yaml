@@ -1,0 +1,51 @@
+name: Cofagrigus
+rarity: Rare
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Yamask
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Chuck
+      cost:
+        - Colorless
+        - Colorless
+      damage: 40×
+      text: Discard as many Pokémon Tool cards as you like from your hand. This attack does 40 damage
+        times the number of cards you discarded.
+    - name: Lock Up
+      cost:
+        - Psychic
+        - Psychic
+      damage: "40"
+      text: The Defending Pokémon can't retreat during your opponent's next turn.
+  nationalDex:
+    - 563
+  species: Coffin Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 76.521032819
+  flavourText: It has been said that they swallow those who get too close and turn them into mummies.
+    They like to eat gold nuggets.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
+  - holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  cracked-ice-holo:
+    finish: holo
+    foilPattern: cracked-ice
+    products:
+      - pokemon-product-dark-explorers-raiders-theme-deck

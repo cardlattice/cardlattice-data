@@ -1,0 +1,15 @@
+name: Hooligans Jim & Cas
+rarity: Uncommon
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - Flip a coin. If heads, choose 3 random cards from your opponent's hand. Your opponent reveals
+      those cards and shuffles them into his or her deck.
+    - You may play only 1 Supporter card during your turn (before your attack).
+finishes:
+  - non-holo
+  - reverse-holo

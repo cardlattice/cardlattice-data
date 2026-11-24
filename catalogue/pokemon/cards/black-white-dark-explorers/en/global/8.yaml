@@ -1,0 +1,40 @@
+name: Crustle
+rarity: Uncommon
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Dwebble
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  attacks:
+    - name: Cut
+      cost:
+        - Grass
+        - Colorless
+      damage: "30"
+    - name: Heavy Bullet
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "70"
+      text: Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon.
+        (Don't apply Weakness and Resistance for Benched Pokémon.)
+  nationalDex:
+    - 558
+  species: Stone Home Pokémon
+  heightMetres: 1.397
+  weightKilograms: 199.988875933
+  flavourText: It possesses legs of enormous strength, enabling it to carry heavy slabs for many days,
+    even when crossing arid land.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

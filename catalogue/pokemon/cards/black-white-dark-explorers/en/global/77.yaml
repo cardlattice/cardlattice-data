@@ -1,0 +1,41 @@
+name: Klinklang
+rarity: Rare
+illustrators:
+  - Hajime Kusajima
+pokemon:
+  category: pokemon
+  hp: 140
+  types:
+    - Metal
+  stage: Stage 2
+  evolvesFrom: Klang
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 4
+  attacks:
+    - name: Metal Blast
+      cost:
+        - Colorless
+      damage: 20+
+      text: Does 20 more damage for each {Metal} Energy attached to this Pokémon.
+    - name: Lock Gear
+      cost:
+        - Metal
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Draw cards until you have 6 cards in your hand.
+  nationalDex:
+    - 601
+  species: Gear Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 81.011597282
+  flavourText: The gear with the red core is rotated at high speed for a rapid energy charge.
+finishes:
+  - holo
+  - reverse-holo

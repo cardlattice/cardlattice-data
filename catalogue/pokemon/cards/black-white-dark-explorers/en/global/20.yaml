@@ -1,0 +1,37 @@
+name: Larvesta
+rarity: Common
+illustrators:
+  - match
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 3
+  attacks:
+    - name: Ram
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+    - name: Flare
+      cost:
+        - Fire
+        - Fire
+        - Colorless
+      damage: "40"
+  nationalDex:
+    - 636
+  species: Torch Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 28.803115495
+  flavourText: This Pokémon was believed to have been born from the sun. When it evolves, its entire
+    body is engulfed in flames.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

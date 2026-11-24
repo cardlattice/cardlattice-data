@@ -1,0 +1,38 @@
+name: Gardevoir
+rarity: ★ (silver)
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Kirlia
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  abilities:
+    - name: Psychic Mirage
+      kind: Ability
+      text: Each basic Psychic Energy attached to your Psychic Pokémon provides {Psychic}{Psychic} Energy.
+        You can't apply more than 1 Psychic Mirage Ability at a time.
+  attacks:
+    - name: Mind Shock
+      cost:
+        - Psychic
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: This attack's damage isn't affected by Weakness or Resistance.
+  nationalDex:
+    - 282
+  species: Embrace Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 48.398305879
+  flavourText: This extremely rare Pokémon is a different color than usual. It is very hard to find.
+  resistances: []
+finishes:
+  - holo

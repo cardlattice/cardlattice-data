@@ -1,0 +1,36 @@
+name: Dwebble
+rarity: Common
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Beat
+      cost:
+        - Grass
+      damage: "10"
+    - name: Cut
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "30"
+  nationalDex:
+    - 557
+  species: Rock Inn Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 14.51495584
+  flavourText: It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated
+    until it locates a replacement.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

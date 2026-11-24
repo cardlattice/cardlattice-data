@@ -1,0 +1,58 @@
+name: Umbreon
+rarity: Uncommon
+illustrators:
+  - TOKIYA
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  attacks:
+    - name: Shadow Drain
+      cost:
+        - Colorless
+        - Colorless
+      damage: "30"
+      text: Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.
+    - name: Slashing Strike
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: This Pokémon can't use Slashing Strike during your next turn.
+  nationalDex:
+    - 197
+  species: Moonlight Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 26.988746015
+  flavourText: When exposed to the moon's aura, the rings on its body glow faintly and it gains a
+    mysterious power.
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  regional-championships:
+    finish: reverse-holo
+    stamps:
+      - regional-championships
+    foilPattern: crosshatch
+  regional-championships-staff:
+    finish: reverse-holo
+    stamps:
+      - regional-championships
+      - staff
+    foilPattern: crosshatch

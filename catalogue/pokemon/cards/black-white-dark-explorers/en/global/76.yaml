@@ -1,0 +1,41 @@
+name: Klang
+rarity: Uncommon
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Klink
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  attacks:
+    - name: Charge Beam
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.
+    - name: Vice Grip
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "50"
+  nationalDex:
+    - 600
+  species: Gear Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 50.983782388
+  flavourText: Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous
+    if the gears don't return.
+finishes:
+  - non-holo
+  - reverse-holo

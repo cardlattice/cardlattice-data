@@ -1,0 +1,43 @@
+name: Stoutland
+rarity: Rare
+illustrators:
+  - Atsuko Nishida
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Colorless
+  stage: Stage 2
+  evolvesFrom: Herdier
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 3
+  attacks:
+    - name: Special Fang
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 40+
+      text: If this Pokémon has any Special Energy attached to it, this attack does 40 more damage.
+    - name: Ferocious Bellow
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: During your opponent's next turn, any damage done by attacks from the Defending Pokémon is
+        reduced by 30 (before applying Weakness and Resistance).
+  nationalDex:
+    - 508
+  species: Big-Hearted Pokémon
+  heightMetres: 1.1938
+  weightKilograms: 61.008173765
+  flavourText: It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it
+    from the cold.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

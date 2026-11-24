@@ -1,0 +1,42 @@
+name: Bisharp
+rarity: Rare
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Pawniard
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Slash
+      cost:
+        - Darkness
+        - Colorless
+      damage: "30"
+    - name: Fury Cutter
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Flip 3 coins. If 1 of them is heads, this attack does 10 more damage. If 2 of them are heads,
+        this attack does 30 more damage. If all of them are heads, this attack does 60 more damage.
+  nationalDex:
+    - 625
+  species: Sword Blade Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 69.989302691
+  flavourText: Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes
+    off the prey.
+finishes:
+  - non-holo
+  - reverse-holo

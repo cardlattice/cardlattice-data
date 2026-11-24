@@ -1,0 +1,46 @@
+name: Bulbasaur
+rarity: Common
+illustrators:
+  - Mitsuhiro Arita
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 2
+  attacks:
+    - name: Tackle
+      cost:
+        - Grass
+      damage: "10"
+    - name: Razor Leaf
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "30"
+  nationalDex:
+    - 1
+  species: Seed Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 6.894604024
+  flavourText: For some time after its birth, it grows by gaining nourishment from the seed on its back.
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  build-a-bear-workshop:
+    stamps:
+      - build-a-bear-workshop
+    finish: non-holo

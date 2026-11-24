@@ -1,0 +1,24 @@
+name: Professor Juniper
+rarity: Uncommon
+illustrators:
+  - Kanako Eo
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - Discard your hand and draw 7 cards.
+    - You may play only 1 Supporter card during your turn (before your attack).
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  professor-program:
+    finish: reverse-holo
+    stamps:
+      - professor-program
+    foilPattern: crosshatch

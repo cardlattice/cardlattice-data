@@ -1,0 +1,33 @@
+name: Klink
+rarity: Common
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Metal
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 3
+  attacks:
+    - name: Smash Turn
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Switch this Pokémon with 1 of your Benched Pokémon.
+  nationalDex:
+    - 599
+  species: Gear Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 21.001326731
+  flavourText: Interlocking two bodies and spinning around generates the energy they need to live.
+finishes:
+  - non-holo
+  - reverse-holo

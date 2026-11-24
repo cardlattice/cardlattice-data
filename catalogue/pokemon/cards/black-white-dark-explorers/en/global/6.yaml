@@ -1,0 +1,40 @@
+name: Leafeon
+rarity: Rare
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Eevee
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Quick Attack
+      cost:
+        - Colorless
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 30 more damage.
+    - name: Energy Assist
+      cost:
+        - Grass
+        - Colorless
+      damage: "40"
+      text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.
+  nationalDex:
+    - 470
+  species: Verdant Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 25.491891194
+  flavourText: It basically does not fight. With cells similar to those of plants, it can perform
+    photosynthesis.
+finishes:
+  - non-holo
+  - reverse-holo

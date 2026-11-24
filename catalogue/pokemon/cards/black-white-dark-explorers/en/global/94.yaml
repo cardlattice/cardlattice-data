@@ -1,0 +1,24 @@
+name: Enhanced Hammer
+rarity: Uncommon
+illustrators:
+  - Ryo Ueda
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Discard a Special Energy attached to 1 of your opponent's Pokémon.
+    - You may play as many Item cards as you like during your turn (before your attack).
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  pokemon-league:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league
+    foilPattern: mirror

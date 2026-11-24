@@ -1,0 +1,32 @@
+name: Larvesta
+rarity: Common
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Super Singe
+      cost:
+        - Fire
+        - Colorless
+      damage: "10"
+      text: The Defending Pokémon is now Burned.
+  nationalDex:
+    - 636
+  species: Torch Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 28.803115495
+  flavourText: The base of volcanoes is where they make their homes. They shoot fire from their five
+    horns to repel attacking enemies.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo

@@ -1,0 +1,37 @@
+name: Tornadus-EX
+rarity: ★ (silver)
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 170
+  types:
+    - Colorless
+  stage: Basic
+  subtypes:
+    - EX
+  weaknesses:
+    - type: Lightning
+      value: ×2
+  resistances:
+    - type: Fighting
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Blow Through
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: If there is any Stadium card in play, this attack does 30 more damage.
+    - name: Power Blast
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "100"
+      text: Flip a coin. If tails, discard an Energy attached to this Pokémon.
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.
+finishes:
+  - holo

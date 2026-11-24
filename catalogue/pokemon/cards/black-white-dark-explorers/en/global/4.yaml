@@ -1,0 +1,61 @@
+name: Scyther
+rarity: Uncommon
+illustrators:
+  - Naoki Saito
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Air Slash
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Discard an Energy attached to this Pokémon.
+  nationalDex:
+    - 123
+  species: Mantis Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 56.018657695
+  flavourText: The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.
+  resistances: []
+finishes:
+  - non-holo
+  - reverse-holo
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  pokemon-league-1st-place:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league
+      - 1st-place
+    foilPattern: crosshatch
+  pokemon-league-2nd-place:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league
+      - 2nd-place
+    foilPattern: crosshatch
+  pokemon-league-3rd-place:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league
+      - 3rd-place
+    foilPattern: crosshatch
+  pokemon-league-4th-place:
+    finish: reverse-holo
+    stamps:
+      - pokemon-league
+      - 4th-place
+    foilPattern: crosshatch
