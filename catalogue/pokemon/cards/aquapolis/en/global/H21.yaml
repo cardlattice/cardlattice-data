@@ -1,0 +1,41 @@
+name: Scizor
+rarity: Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Metal
+  stage: Stage 1
+  evolvesFrom: Scyther
+  attacks:
+    - name: Snatch
+      cost:
+        - Metal
+        - Colorless
+      damage: "20"
+      text: Before doing damage, you may choose 1 of your opponent’s Benched Pokémon with no damage counters on it and switch the Defending Pokémon with it.
+    - name: Heavy Metal
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Flip a number of coins equal to the amount of Metal Energy attached to Scizor. This attack does 30 damage plus 20 more damage for each heads.
+  abilities:
+    - name: Poison Resistance
+      text: Scizor can’t be Poisoned.
+      kind: Poké-Body
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+  species: Scissors Pokémon
+  heightMetres: 1.8034
+  weightKilograms: 117.9340162
+illustrators:
+  - Hisao Nakamura
+printedDenominator: H32
+additionalNumbers:
+  printedId: D-71

@@ -1,0 +1,32 @@
+name: Gloom
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Oddish
+  attacks:
+    - name: Sleep Sap
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Both the Defending Pokémon and Gloom are now Asleep (after doing damage).
+  abilities:
+    - name: Enervating Pollen
+      text: As long as Gloom is in play, Resistance on each player’s Active Pokémon only reduces damage by 10.
+      kind: Poké-Body
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Kyoko Umemoto
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-02-a

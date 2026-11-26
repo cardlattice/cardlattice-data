@@ -1,0 +1,28 @@
+name: Growlithe
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Ember
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Discard a Fire Energy card attached to Growlithe.
+  abilities: []
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Kyoko Umemoto
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-09-a

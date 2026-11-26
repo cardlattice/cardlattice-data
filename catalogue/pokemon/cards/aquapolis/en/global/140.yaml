@@ -1,0 +1,21 @@
+name: Water Cube 01
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Technical Machine
+  rules:
+    - Attach this card to 1 of your Water Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Water Cube 01.
+  attacks:
+    - name: Splatter
+      cost:
+        - Water
+      text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. Don’t apply Weakness or Resistance.
+illustrators:
+  - '"Big Mama" Tagawa'
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-50-a

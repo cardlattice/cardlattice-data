@@ -1,0 +1,31 @@
+name: Nidoran♂
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Poison Horn
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Scratch
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Keiko Fukuyama
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-01-a

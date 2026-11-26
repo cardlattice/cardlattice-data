@@ -1,0 +1,31 @@
+name: Paras
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Spore
+      cost:
+        - Colorless
+      text: The Defending Pokémon is now Asleep.
+    - name: Spore Evolution
+      cost:
+        - Grass
+        - Colorless
+      text: Search your deck for a card that evolves from Paras. Attach it to Paras. This counts as evolving Paras. Shuffle your deck afterward.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Miki Tanaka
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-03-a

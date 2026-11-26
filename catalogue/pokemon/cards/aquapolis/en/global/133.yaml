@@ -1,0 +1,17 @@
+name: Seer
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    - Look at the top 6 cards of your deck. Take all basic Energy cards you find there, show them to your opponent, and then put them into your hand. Shuffle your deck afterward.
+illustrators:
+  - Ken Sugimori
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-45-a

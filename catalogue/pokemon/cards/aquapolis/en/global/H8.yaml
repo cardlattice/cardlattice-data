@@ -1,0 +1,34 @@
+name: Entei
+rarity: Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Burning Fang
+      cost:
+        - Fire
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: You may flip a coin. If heads, discard a Fire Energy card attached to Entei and the Defending Pokémon is now Burned.
+  abilities:
+    - name: Pure Body
+      text: To attach a Fire Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the Fire Energy, and then discard an Energy from Entei.)
+      kind: Poké-Body
+  weaknesses:
+    - type: Water
+  resistances: []
+  retreatCost: 1
+  species: Volcano Pokémon
+  heightMetres: 2.1082
+  weightKilograms: 198.21986569
+illustrators:
+  - Atsuko Nishida
+printedDenominator: H32
+additionalNumbers:
+  printedId: D-61

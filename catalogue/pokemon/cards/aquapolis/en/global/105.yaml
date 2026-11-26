@@ -1,0 +1,26 @@
+name: Remoraid
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Splatter
+      cost:
+        - Water
+      text: Choose 1 of your opponent’s Pokémon in play. This attack does 10 damage to that Pokémon. Don’t apply Weakness or Resistance for this attack.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-20-a

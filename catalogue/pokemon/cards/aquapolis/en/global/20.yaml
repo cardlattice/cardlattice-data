@@ -1,0 +1,34 @@
+name: Lanturn
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Chinchou
+  attacks:
+    - name: Lightning Ball
+      cost:
+        - Lightning
+      damage: "20"
+    - name: Conduction
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: 30+
+      text: Discard all Lightning Energy cards attached to Lanturn. Flip a number of coins equal to the number of Lightning Energy cards you discarded. This attack does 30 damage plus 40 more damage for each heads.
+  abilities: []
+  weaknesses:
+    - type: Grass
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Mitsuhiro Arita
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-41-a

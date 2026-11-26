@@ -1,0 +1,37 @@
+name: Ampharos
+rarity: Rare
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Lightning
+  stage: Stage 2
+  evolvesFrom: Flaaffy
+  attacks:
+    - name: Thundershock
+      cost:
+        - Lightning
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Reflect Energy
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: If you have any Benched Pokémon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 2
+  species: Light Pokémon
+  heightMetres: 1.397
+  weightKilograms: 61.68856232
+illustrators:
+  - Shin-ichi Yoshida
+printedDenominator: H32
+additionalNumbers:
+  printedId: D-66

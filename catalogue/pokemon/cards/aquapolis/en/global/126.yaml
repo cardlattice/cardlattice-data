@@ -1,0 +1,17 @@
+name: Juggler
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    - Discard up to 2 basic Energy cards from your hand. If you discarded 1 basic Energy card, draw 3 cards. If you discarded 2 basic Energy cards, draw 5 cards.
+illustrators:
+  - Ken Sugimori
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-46-a

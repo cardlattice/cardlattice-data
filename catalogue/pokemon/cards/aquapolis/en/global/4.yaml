@@ -1,0 +1,33 @@
+name: Azumarill
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Marill
+  attacks:
+    - name: Aqua Sonic
+      cost:
+        - Water
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: Don’t apply Resistance.
+  abilities:
+    - name: Bubble Turn
+      text: Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand.
+      kind: Poké-Power
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-65-a

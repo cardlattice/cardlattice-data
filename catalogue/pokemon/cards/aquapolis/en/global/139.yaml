@@ -1,0 +1,17 @@
+name: Power Plant
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Stadium
+  rules:
+    - This card stays in play when you play it. Discard this card if another Stadium card comes into play.
+    - Once during each of his or her turns, a player may discard a basic Energy card from his or her hand. If that player does, he or she chooses a basic Energy card from his or her discard pile, shows it to his or her opponent, and then puts it into his or her hand.
+illustrators:
+  - Kai Ishikawa
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-57-a

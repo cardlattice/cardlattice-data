@@ -1,0 +1,31 @@
+name: Bellsprout
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Poison Vine
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Sharp Leaf
+      cost:
+        - Grass
+      damage: 10+
+      text: Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Keiko Fukuyama
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-04-a

@@ -1,0 +1,32 @@
+name: Slowbro
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Stage 1
+  evolvesFrom: Slowpoke
+  attacks:
+    - name: Energy Cannon
+      cost:
+        - Water
+        - Colorless
+      damage: 30+
+      text: This attack does 30 damage plus 10 more damage for each Energy attached to Slowbro but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way.
+  abilities:
+    - name: Dense Body
+      text: Any damage done to Slowbro by attacks from Basic Pokémon (excluding Baby Pokémon) is reduced by 20.
+      kind: Poké-Body
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Aya Kusube
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-40-a

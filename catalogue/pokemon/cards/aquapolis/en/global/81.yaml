@@ -1,0 +1,35 @@
+name: Hitmonchan
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Rush
+      cost:
+        - Fighting
+        - Colorless
+      damage: 10×
+      text: Flip 5 coins. This attack does 10 damage times the number of heads. Hitmonchan can’t attack during your next turn.
+    - name: Smash Punch
+      cost:
+        - Colorless
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: Flip a coin. If tails, this attack does nothing.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Tomokazu Komiya
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-26-a

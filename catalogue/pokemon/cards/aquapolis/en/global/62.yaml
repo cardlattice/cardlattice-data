@@ -1,0 +1,32 @@
+name: Spinarak
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Gnaw
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Gooey Thread
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: The Defending Pokémon can’t retreat during your opponent’s next turn.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Masako Yamashita
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-05-a

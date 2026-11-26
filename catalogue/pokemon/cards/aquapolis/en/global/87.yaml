@@ -1,0 +1,29 @@
+name: Houndour
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Darkness
+  stage: Basic
+  attacks:
+    - name: Feint Attack
+      cost:
+        - Darkness
+        - Colorless
+      text: Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-35-a

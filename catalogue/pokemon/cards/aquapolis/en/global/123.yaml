@@ -1,0 +1,17 @@
+name: Forest Guardian
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    - Shuffle your deck. Then, look at the top 7 cards of your deck. Choose 1 of those cards and put it into your hand. Shuffle the rest into your deck afterward.
+illustrators:
+  - Ken Sugimori
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-47-a

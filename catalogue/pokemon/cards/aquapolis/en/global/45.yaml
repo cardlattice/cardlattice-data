@@ -1,0 +1,28 @@
+name: Bellsprout
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Blot
+      cost:
+        - Grass
+        - Colorless
+      damage: "20"
+      text: Remove 1 damage counter from Bellsprout.
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Masako Yamashita
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-05-a

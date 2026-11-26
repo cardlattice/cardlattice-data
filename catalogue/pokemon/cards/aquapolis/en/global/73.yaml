@@ -1,0 +1,33 @@
+name: Doduo
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 40
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Super Speed
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Doduo.
+    - name: Rear Kick
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-29-a

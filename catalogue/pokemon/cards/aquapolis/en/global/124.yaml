@@ -1,0 +1,21 @@
+name: Grass Cube 01
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Technical Machine
+  rules:
+    - Attach this card to 1 of your Grass Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Grass Cube 01.
+  attacks:
+    - name: Sleep Poison
+      cost:
+        - Grass
+      text: The Defending Pokémon is now Asleep and Poisoned.
+illustrators:
+  - '"Big Mama" Tagawa'
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-48-a

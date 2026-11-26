@@ -1,0 +1,32 @@
+name: Togetic
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Togepi
+  attacks:
+    - name: Mini-Metronome
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, choose 1 of the Defending Pokémon’s attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack.) (No matter what type the Defending Pokémon is, Togetic is still Colorless.) Togetic performs that attack.
+  abilities:
+    - name: Miracle Shift
+      text: Once during your turn (before your attack), discard a basic Energy card attached to 1 of your Pokémon. Then, choose a basic Energy card from your discard pile and attach it to that Pokémon. This power can’t be used if Togetic is affected by a Special Condition.
+      kind: Poké-Power
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-72-a

@@ -1,0 +1,17 @@
+name: Pokémon Fan Club
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+    - Search your deck for up to 2 Baby Pokémon and/or Basic Pokémon cards and put them onto your Bench. Shuffle your deck afterward.
+illustrators:
+  - Ken Sugimori
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-46-a

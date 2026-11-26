@@ -1,0 +1,31 @@
+name: Mr. Mime
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Mind Shock
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+      text: Don’t apply Weakness and Resistance.
+  abilities:
+    - name: Energy Barrier
+      text: If Mr. Mime would be damaged by an attack, reduce that damage by 10 for each basic Energy card attached to Mr. Mime. The maximum amount of damage that can be reduced by Energy Barrier is 20.
+      kind: Poké-Body
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-22-a

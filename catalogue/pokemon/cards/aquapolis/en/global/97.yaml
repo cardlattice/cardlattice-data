@@ -1,0 +1,31 @@
+name: Oddish
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Stun Spore
+      cost:
+        - Grass
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Ram
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Kyoko Umemoto
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-01-a

@@ -1,0 +1,35 @@
+name: Jynx
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Meditate
+      cost:
+        - Psychic
+        - Colorless
+      damage: 10+
+      text: This attack does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+    - name: Confuse Ray
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "20"
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Psychic
+  resistances: []
+  retreatCost: 2
+illustrators:
+  - Hisao Nakamura
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-40-a

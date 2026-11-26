@@ -1,0 +1,30 @@
+name: Tentacool
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Water
+  stage: Basic
+  attacks:
+    - name: Poison Sting
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Recover
+      cost:
+        - Water
+      text: Discard 1 Water Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Hajime Kusajima
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-14-a

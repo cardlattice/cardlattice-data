@@ -1,0 +1,32 @@
+name: Smeargle
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Colorless
+  stage: Basic
+  attacks:
+    - name: Paint Trick
+      cost:
+        - Colorless
+      text: Flip a coin. If heads, the Defending Pokémon is now Confused. Then, choose 1 of your Benched Pokémon and switch Smeargle with it.
+    - name: Doubleslap
+      cost:
+        - Colorless
+        - Colorless
+      damage: 20×
+      text: Flip 2 coins. This attack does 20 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Miki Tanaka
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-34-a

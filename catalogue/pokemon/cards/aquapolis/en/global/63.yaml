@@ -1,0 +1,30 @@
+name: Tyrogue
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Fighting
+  stage: Baby
+  attacks:
+    - name: Energy Punch
+      cost:
+        - Fighting
+      damage: "10"
+      text: Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  rules:
+    - Baby Pokémon counts as a Basic Pokémon
+    - Evolves into Hitmonchan, Hitmonlee, or Hitmontop. Put Hitmonchan, Hitmonlee, or Hitmontop on the Baby Pokémon.
+    - If your Active Pokémon is a Baby Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent’s turn ends.
+illustrators:
+  - Tomokazu Komiya
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-27-a

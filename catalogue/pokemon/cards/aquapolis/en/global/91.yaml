@@ -1,0 +1,31 @@
+name: Magnemite
+rarity: Common
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Magnetic Bomb
+      cost:
+        - Lightning
+        - Colorless
+      damage: 20+
+      text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself.
+  abilities:
+    - name: Conductive Body
+      text: You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.
+      kind: Poké-Body
+  weaknesses:
+    - type: Fighting
+  resistances: []
+  retreatCost: 1
+illustrators:
+  - Hajime Kusajima
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-18-a

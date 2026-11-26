@@ -1,0 +1,38 @@
+name: Houndoom
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Darkness
+  stage: Stage 1
+  evolvesFrom: Houndour
+  attacks:
+    - name: Fireworks
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Flip a coin. If tails, discard a Fire Energy card attached to Houndoom.
+    - name: Dark Impact
+      cost:
+        - Darkness
+        - Colorless
+        - Colorless
+      damage: "40"
+      text: The Defending Pokémon can’t use any Poké-Powers until the end of your opponent’s next turn.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+  resistances:
+    - type: Psychic
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Hajime Kusajima
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-75-a

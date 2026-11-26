@@ -1,0 +1,29 @@
+name: Elekid
+rarity: Rare
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Lightning
+  stage: Baby
+  attacks:
+    - name: Energy Kick
+      cost:
+        - Lightning
+      text: Flip a coin. If heads, choose an Energy card attached to the Defending Pokémon. Your opponent moves that card to 1 of his or her other Pokémon. (If your opponent has no Benched Pokémon, this attack does nothing.)
+  abilities: []
+  weaknesses: []
+  resistances: []
+  retreatCost: 1
+  rules:
+    - Baby Pokémon counts as a Basic Pokémon
+    - Evolves into Electabuzz. Put Electabuzz on the Baby Pokémon.
+    - If your Active Pokémon is a Baby Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent’s turn ends.
+illustrators:
+  - Hikaru Koike
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-39-a

@@ -1,0 +1,22 @@
+name: Darkness Cube 01
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: trainer
+  subtypes:
+    - Technical Machine
+  rules:
+    - Attach this card to 1 of your Darkness Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Darkness Cube 01.
+  attacks:
+    - name: Plunder
+      cost:
+        - Darkness
+      damage: "10"
+      text: Before doing damage, discard any Trainer cards attached to the Defending Pokémon.
+illustrators:
+  - '"Big Mama" Tagawa'
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: C-54-a

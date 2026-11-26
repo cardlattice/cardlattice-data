@@ -1,0 +1,35 @@
+name: Dodrio
+rarity: Uncommon
+printedDenominator: 147
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Doduo
+  attacks:
+    - name: Tri Attack
+      cost:
+        - Colorless
+      damage: 10×
+      text: Flip 3 coins. This attack does 10 damage times the number of heads.
+    - name: Peck Attack
+      cost:
+        - Colorless
+        - Colorless
+      text: Flip 2 coins. If 1 of them is heads, this attack does 20 damage. If both are heads, this attack does 50 damage. If both are tails, the Defending Pokémon is now Confused.
+  abilities: []
+  weaknesses:
+    - type: Lightning
+  resistances:
+    - type: Fighting
+      value: "-30"
+  retreatCost: 1
+illustrators:
+  - Yukiko Baba
+finishes:
+  - non-holo
+  - reverse-holo
+additionalNumbers:
+  printedId: D-30-a
