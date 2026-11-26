@@ -1,0 +1,45 @@
+name: Victini
+rarity: Rare
+illustrators:
+  - Naoki Saito
+finishes:
+  - holo
+  - reverse-holo
+  - non-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: V-create
+      cost:
+        - Fire
+        - Colorless
+      damage: "100"
+      text: If you have 4 or fewer Benched Pokémon, this attack does nothing.
+  nationalDex:
+    - 494
+  species: Victory Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 3.991612856
+  flavourText: This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  non-holo:
+    finish: non-holo
+  jumbo-holo:
+    finish: holo
+    size: jumbo

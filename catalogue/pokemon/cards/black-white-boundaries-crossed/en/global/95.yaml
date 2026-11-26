@@ -1,0 +1,41 @@
+name: Skarmory
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Metal
+  stage: Basic
+  attacks:
+    - name: Claw
+      cost:
+        - Metal
+      damage: "20"
+      text: Flip a coin. If tails, this attack does nothing.
+    - name: Drill Peck
+      cost:
+        - Metal
+        - Colorless
+        - Colorless
+      damage: "50"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Psychic
+      value: "-20"
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 227
+  species: Armor Bird Pokémon
+  heightMetres: 1.7018
+  weightKilograms: 50.484830781
+  flavourText: Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.

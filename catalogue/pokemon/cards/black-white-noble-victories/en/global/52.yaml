@@ -1,0 +1,38 @@
+name: Reuniclus
+rarity: Rare
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Psychic
+  stage: Stage 2
+  evolvesFrom: Duosion
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Future Sight
+      cost:
+        - Colorless
+      text: Look at the top 5 cards of your deck and put them back on top of your deck in any order.
+    - name: Net Force
+      cost:
+        - Psychic
+      damage: "40×"
+      text: Does 40 damage times the number of Reuniclus you have in play.
+  nationalDex:
+    - 579
+  species: Multiplying Pokémon
+  heightMetres: 0.9906
+  weightKilograms: 20.094141991
+  flavourText: When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

@@ -1,0 +1,42 @@
+name: Crustle
+rarity: Uncommon
+illustrators:
+  - Naoyo Kimura
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Grass
+  stage: Stage 1
+  evolvesFrom: Dwebble
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 3
+  attacks:
+    - name: X-Scissor
+      cost:
+        - Grass
+        - Colorless
+      damage: "20+"
+      text: Flip a coin. If heads, this attack does 50 more damage.
+    - name: Reckless Charge
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "80"
+      text: This Pokémon does 10 damage to itself.
+  nationalDex:
+    - 558
+  species: Stone Home Pokémon
+  heightMetres: 1.397
+  weightKilograms: 199.988875933
+  flavourText: Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

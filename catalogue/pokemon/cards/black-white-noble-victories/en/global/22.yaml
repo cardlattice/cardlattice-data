@@ -1,0 +1,37 @@
+name: Tympole
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Grass
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Vibration
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Mud Shot
+      cost:
+        - Water
+        - Colorless
+      damage: "20"
+  nationalDex:
+    - 535
+  species: Tadpole Pokémon
+  heightMetres: 0.508
+  weightKilograms: 4.490564463
+  flavourText: By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

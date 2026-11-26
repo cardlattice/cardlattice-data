@@ -1,0 +1,33 @@
+name: Litwick
+rarity: Common
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Teleportation Burst
+      cost:
+        - Psychic
+      damage: "10"
+      text: Switch this Pokémon with 1 of your Benched Pokémon.
+  nationalDex:
+    - 607
+  species: Candle Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 3.084428116
+  flavourText: While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

@@ -1,0 +1,32 @@
+name: Mienfoo
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  attacks:
+    - name: Pound
+      cost:
+        - Fighting
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 619
+  species: Martial Arts Pokémon
+  heightMetres: 0.889
+  weightKilograms: 20.003423517
+  flavourText: It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.

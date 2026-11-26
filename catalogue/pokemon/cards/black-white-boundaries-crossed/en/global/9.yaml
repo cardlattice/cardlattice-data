@@ -1,0 +1,35 @@
+name: Celebi-EX
+rarity: ★ (silver)
+finishes:
+  - holo
+illustrators:
+  - Toyste Beach
+pokemon:
+  category: pokemon
+  hp: 110
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Wind Whisk
+      cost:
+        - Grass
+        - Colorless
+        - Colorless
+      damage: "60"
+      text: Switch this Pokémon with 1 of your Benched Pokémon.
+  abilities:
+    - name: Time Recall
+      text: Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)
+      kind: Ability
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances:
+    - type: Water
+      value: "-20"
+  retreatCost: 1
+  subtypes:
+    - EX
+  rules:
+    - When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.

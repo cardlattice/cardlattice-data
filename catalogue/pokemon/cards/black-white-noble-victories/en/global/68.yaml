@@ -1,0 +1,43 @@
+name: Stunfisk
+rarity: Uncommon
+illustrators:
+  - Midori Harada
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Fighting
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1
+  attacks:
+    - name: Trickle
+      cost:
+        - Lightning
+        - Colorless
+      damage: "30×"
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+    - name: Thundershock
+      cost:
+        - Lightning
+        - Lightning
+        - Colorless
+      damage: "50"
+      text: Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+  nationalDex:
+    - 618
+  species: Trap Pokémon
+  heightMetres: 0.7112
+  weightKilograms: 11.022294591
+  flavourText: It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.
+  abilities: []
+  rules: []
+  subtypes: []

@@ -1,0 +1,31 @@
+name: Victini
+rarity: Ultra Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Fire
+  stage: Basic
+  weaknesses:
+    - type: Water
+      value: ×2
+  retreatCost: 1
+  abilities:
+    - name: Victory Star
+      kind: Ability
+      text: Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can't use more than 1 Victory Star Ability each turn.
+  attacks:
+    - name: Stored Power
+      cost:
+        - Fire
+        - Colorless
+      damage: "30"
+      text: Move all Energy attached to this Pokémon to 1 of your Benched Pokémon.
+  flavourText: This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.
+  resistances: []
+  rules: []
+  subtypes: []

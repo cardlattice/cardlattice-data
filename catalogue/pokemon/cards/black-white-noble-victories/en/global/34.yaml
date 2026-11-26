@@ -1,0 +1,48 @@
+name: Kyurem
+rarity: Rare
+illustrators:
+  - 5ban Graphics
+finishes:
+  - holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Outrage
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20+"
+      text: Does 10 more damage for each damage counter on this Pokémon.
+    - name: Glaciate
+      cost:
+        - Water
+        - Water
+        - Colorless
+      text: This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+  nationalDex:
+    - 646
+  species: Boundary Pokémon
+  heightMetres: 2.9972
+  weightKilograms: 324.998933105
+  flavourText: It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
+variants:
+  holo:
+    finish: holo
+  reverse-holo:
+    finish: reverse-holo
+  cosmos-holo:
+    finish: holo
+    foilPattern: cosmos

@@ -1,0 +1,38 @@
+name: Victini
+rarity: Rare
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Masakazu Fukuda
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Fire
+  stage: Basic
+  attacks:
+    - name: Collect
+      cost:
+        - Colorless
+      text: Draw a card.
+    - name: Relentless Flames
+      cost:
+        - Fire
+        - Colorless
+      damage: 30×
+      text: Flip a coin until you get tails. This attack does 30 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 494
+  species: Victory Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 3.991612856
+  flavourText: It creates an unlimited supply of energy inside its body, which it shares with those who touch it.

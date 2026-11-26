@@ -1,0 +1,39 @@
+name: Dusclops
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Akira Komayama
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Stage 1
+  evolvesFrom: Duskull
+  attacks:
+    - name: Astonish
+      cost:
+        - Psychic
+      text: Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck.
+    - name: Psyshot
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "40"
+  abilities: []
+  weaknesses:
+    - type: Darkness
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 356
+  species: Beckon Pokémon
+  heightMetres: 1.6002
+  weightKilograms: 30.617484975
+  flavourText: It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.

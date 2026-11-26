@@ -151,7 +151,7 @@ it.each([
   "scripts/build.sh",
   ".github/workflows/catalogue.yml",
   "pnpm-lock.yaml",
-  "status/client.js",
+  "_headers",
   "unknown-input",
   "catalogue/README.md",
 ])("requires a build when %s changes alongside documentation", async (path) => {

@@ -1,0 +1,34 @@
+name: Audino
+rarity: Uncommon
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Do the Wave
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10×"
+      text: Does 10 damage times the number of your Benched Pokémon.
+  nationalDex:
+    - 531
+  species: Hearing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 30.980358871
+  flavourText: It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

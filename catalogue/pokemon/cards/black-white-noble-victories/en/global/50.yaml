@@ -1,0 +1,32 @@
+name: Solosis
+rarity: Common
+illustrators:
+  - Atsuko Nishida
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 30
+  types:
+    - Psychic
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Rollout
+      cost:
+        - Colorless
+      damage: "10"
+  nationalDex:
+    - 577
+  species: Cell Pokémon
+  heightMetres: 0.3048
+  weightKilograms: 0.997903214
+  flavourText: They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

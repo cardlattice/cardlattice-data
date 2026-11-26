@@ -1,0 +1,33 @@
+name: Emolga
+rarity: Uncommon
+illustrators:
+  - Naoki Saito
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Electrichain
+      cost:
+        - Lightning
+      damage: "10+"
+      text: Does 20 more damage if you have any {Lightning} Pokémon on your Bench.
+  nationalDex:
+    - 587
+  species: Sky Squirrel Pokémon
+  heightMetres: 0.4064
+  weightKilograms: 4.98951607
+  flavourText: They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

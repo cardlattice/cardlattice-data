@@ -1,0 +1,40 @@
+name: Delcatty
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Shin Nagasawa
+pokemon:
+  category: pokemon
+  hp: 90
+  types:
+    - Colorless
+  stage: Stage 1
+  evolvesFrom: Skitty
+  attacks:
+    - name: Gather Energy
+      cost:
+        - Colorless
+      damage: "30"
+      text: Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+    - name: Double Slap
+      cost:
+        - Colorless
+        - Colorless
+      damage: 30×
+      text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 301
+  species: Prim Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 32.613291403
+  flavourText: The reason it does not have a nest is that it simply searches for a clean, comfortable place then sleeps there.

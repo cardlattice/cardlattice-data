@@ -1,0 +1,48 @@
+name: Cryogonal
+rarity: Uncommon
+illustrators:
+  - Masakazu Fukuda
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Water
+  stage: Basic
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Icy Wind
+      cost:
+        - Water
+      text: The Defending Pokémon is now Asleep.
+    - name: Ice Shard
+      cost:
+        - Water
+        - Colorless
+      damage: "30+"
+      text: If the Defending Pokémon is a {Fighting} Pokémon, this attack does 40 more damage.
+  nationalDex:
+    - 615
+  species: Crystallizing Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 148.007190331
+  flavourText: They are born in snow clouds. They use chains made of ice crystals to capture prey.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  play-pokemon:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - play-pokemon

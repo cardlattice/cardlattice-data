@@ -1,0 +1,42 @@
+name: Gliscor
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+illustrators:
+  - Kouki Saitou
+pokemon:
+  category: pokemon
+  hp: 100
+  types:
+    - Fighting
+  stage: Stage 1
+  evolvesFrom: Gligar
+  attacks:
+    - name: Poison Ring
+      cost:
+        - Fighting
+      damage: "20"
+      text: The Defending Pokémon is now Poisoned. The Defending Pokémon can’t retreat during your opponent’s next turn.
+    - name: Night Slash
+      cost:
+        - Fighting
+        - Colorless
+      damage: "40"
+      text: Switch this Pokémon with 1 of your Benched Pokémon.
+  abilities: []
+  weaknesses:
+    - type: Water
+      value: ×2
+  resistances:
+    - type: Lightning
+      value: "-20"
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 472
+  species: Fang Scorp Pokémon
+  heightMetres: 2.0066
+  weightKilograms: 42.501605069
+  flavourText: It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.

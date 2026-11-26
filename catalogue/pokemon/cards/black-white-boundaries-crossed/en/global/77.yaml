@@ -1,0 +1,51 @@
+name: Meloetta
+rarity: Rare
+finishes:
+  - holo
+  - reverse-holo
+  - non-holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 80
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Psychic
+      cost:
+        - Psychic
+      damage: 10+
+      text: Does 20 more damage for each Energy attached to the Defending Pokémon.
+    - name: Echoed Voice
+      cost:
+        - Psychic
+        - Colorless
+        - Colorless
+      damage: "50"
+      text: During your next turn, this Pokémon’s Echoed Voice attack does 50 more damage (before applying Weakness and
+        Resistance).
+  abilities: []
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 648
+  species: Melody Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 6.486370891
+  flavourText: The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.
+variants:
+  standard-holo:
+    finish: holo
+  parallel:
+    finish: reverse-holo
+  ho-oh-legendary-battle-deck:
+    finish: non-holo
+    products:
+      - pokemon-product-ho-oh-legendary-battle-deck-en

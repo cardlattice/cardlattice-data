@@ -1,0 +1,36 @@
+name: Munna
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - sui
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Psychic
+  stage: Basic
+  attacks:
+    - name: Psyshot
+      cost:
+        - Psychic
+        - Colorless
+      damage: "20"
+  abilities:
+    - name: Long-Distance Hypnosis
+      text: Once during your turn (before your attack), you may flip a coin. If heads, your opponent’s Active Pokémon is now Asleep. If tails, your Active Pokémon is now Asleep.
+      kind: Ability
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  resistances: []
+  retreatCost: 2
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 517
+  species: Dream Eater Pokémon
+  heightMetres: 0.6096
+  weightKilograms: 23.314647818
+  flavourText: This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.

@@ -1,0 +1,14 @@
+name: Hugh
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Yusuke Ohmura
+pokemon:
+  category: trainer
+  subtypes:
+    - Supporter
+  rules:
+    - Each player either draws or discards cards until he or she has 5 cards in his or her hand. (Your opponent does this first.)
+    - You may play only 1 Supporter card during your turn (before your attack).

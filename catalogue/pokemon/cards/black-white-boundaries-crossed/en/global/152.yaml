@@ -1,0 +1,37 @@
+name: Altaria
+rarity: ★ (silver)
+finishes:
+  - holo
+illustrators:
+  - 5ban Graphics
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Dragon
+  stage: Stage 1
+  evolvesFrom: Swablu
+  attacks:
+    - name: Glide
+      cost:
+        - Water
+        - Metal
+        - Colorless
+      damage: "40"
+  abilities:
+    - name: Fight Song
+      text: Your Dragon Pokémon’s attacks do 20 more damage to the Active Pokémon (before applying Weakness and Resistance).
+      kind: Ability
+  weaknesses:
+    - type: Dragon
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 334
+  species: Humming Pokémon
+  heightMetres: 1.0922
+  weightKilograms: 20.593093598
+  flavourText: This extremely rare Pokémon is a different color than usual. It is very hard to find.

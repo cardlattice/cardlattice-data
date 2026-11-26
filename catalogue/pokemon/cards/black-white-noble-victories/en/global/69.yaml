@@ -1,0 +1,37 @@
+name: Mienfoo
+rarity: Common
+illustrators:
+  - match
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 50
+  types:
+    - Fighting
+  stage: Basic
+  weaknesses:
+    - type: Psychic
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Pound
+      cost:
+        - Colorless
+      damage: "10"
+    - name: High Jump Kick
+      cost:
+        - Fighting
+        - Fighting
+      damage: "30"
+  nationalDex:
+    - 619
+  species: Martial Arts Pokémon
+  heightMetres: 0.889
+  weightKilograms: 20.003423517
+  flavourText: In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

@@ -1,0 +1,33 @@
+name: Blitzle
+rarity: Common
+illustrators:
+  - Shin Nagasawa
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Lightning
+  stage: Basic
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Agility
+      cost:
+        - Lightning
+      damage: "10"
+      text: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.
+  nationalDex:
+    - 522
+  species: Electrified Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 29.801018709
+  flavourText: When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

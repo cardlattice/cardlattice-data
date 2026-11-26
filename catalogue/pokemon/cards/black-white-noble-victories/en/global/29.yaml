@@ -1,0 +1,40 @@
+name: Vanilluxe
+rarity: Rare
+illustrators:
+  - Kagemaru Himeno
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 130
+  types:
+    - Water
+  stage: Stage 2
+  evolvesFrom: Vanillish
+  weaknesses:
+    - type: Metal
+      value: ×2
+  retreatCost: 2
+  attacks:
+    - name: Double Freeze
+      cost:
+        - Water
+        - Colorless
+      damage: "40×"
+      text: Flip 2 coins. This attack does 40 damage times the number of heads. If either of them is heads, the Defending Pokémon is now Paralyzed.
+    - name: Frost Breath
+      cost:
+        - Water
+        - Water
+      damage: "60"
+  nationalDex:
+    - 584
+  species: Snowstorm Pokémon
+  heightMetres: 1.2954
+  weightKilograms: 57.515512516
+  flavourText: If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []

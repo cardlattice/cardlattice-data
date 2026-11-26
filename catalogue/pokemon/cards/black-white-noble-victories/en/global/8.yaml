@@ -1,0 +1,54 @@
+name: Karrablast
+rarity: Common
+illustrators:
+  - sui
+finishes:
+  - non-holo
+  - reverse-holo
+pokemon:
+  category: pokemon
+  hp: 60
+  types:
+    - Grass
+  stage: Basic
+  weaknesses:
+    - type: Fire
+      value: ×2
+  retreatCost: 1
+  attacks:
+    - name: Mysterious Evolution
+      cost:
+        - Colorless
+      text: If Shelmet is in play, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.
+    - name: Fury Attack
+      cost:
+        - Colorless
+        - Colorless
+      damage: "10×"
+      text: Flip 3 coins. This attack does 10 damage times the number of heads.
+  nationalDex:
+    - 588
+  species: Clamping Pokémon
+  heightMetres: 0.508
+  weightKilograms: 5.89670081
+  flavourText: When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokémon targets Shelmet.
+  resistances: []
+  abilities: []
+  rules: []
+  subtypes: []
+variants:
+  non-holo:
+    finish: non-holo
+  reverse-holo:
+    finish: reverse-holo
+  championship-series:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - championship-series
+  championship-series-staff:
+    finish: reverse-holo
+    foilPattern: crosshatch
+    stamps:
+      - championship-series
+      - staff

@@ -1,0 +1,32 @@
+name: Blitzle
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Midori Harada
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Lightning
+  stage: Basic
+  attacks:
+    - name: Smash Kick
+      cost:
+        - Colorless
+      damage: "10"
+  abilities: []
+  weaknesses:
+    - type: Fighting
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 522
+  species: Electrified Pokémon
+  heightMetres: 0.7874
+  weightKilograms: 29.801018709
+  flavourText: Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.

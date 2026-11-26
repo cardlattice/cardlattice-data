@@ -1,0 +1,37 @@
+name: Scyther
+rarity: Common
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - kawayoo
+pokemon:
+  category: pokemon
+  hp: 70
+  types:
+    - Grass
+  stage: Basic
+  attacks:
+    - name: Slash
+      cost:
+        - Colorless
+      damage: "10"
+    - name: Sharp Scythe
+      cost:
+        - Colorless
+        - Colorless
+      damage: "20"
+  abilities: []
+  weaknesses:
+    - type: Fire
+      value: ×2
+  resistances: []
+  retreatCost: 1
+  subtypes: []
+  rules: []
+  nationalDex:
+    - 123
+  species: Mantis Pokémon
+  heightMetres: 1.4986
+  weightKilograms: 56.018657695
+  flavourText: The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.

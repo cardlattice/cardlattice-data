@@ -1,0 +1,14 @@
+name: Town Map
+rarity: Uncommon
+finishes:
+  - non-holo
+  - reverse-holo
+illustrators:
+  - Toyste Beach
+pokemon:
+  category: trainer
+  subtypes:
+    - Item
+  rules:
+    - Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.)
+    - You may play as many Item cards as you like during your turn (before your attack).
